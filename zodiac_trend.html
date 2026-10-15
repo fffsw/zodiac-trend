@@ -154,12 +154,12 @@ footer{color:#8a92a6;font-size:11px;margin-top:12px;border-top:1px solid #dde1ea
   <div class="drawnote">开奖后录入:6平码+1特码(1–49互不相同)→ 追加为新一期,走势/遗漏/指标/绿柱/倒计时/娱乐预测全部按新数据重算 · 追加仅存本机浏览器(刷新不丢;换设备/浏览器不共享,清除浏览器数据即消失)。</div>
 </div>
 <div class="ent" id="entBox">
-  <b>娱乐预测 · 号码池两池(v2.5)</b>
+  <b>娱乐预测 · 号码池两池(v2.2)</b>
   <button id="btnMaxZod" class="blue">最大可能肖</button>
   <button id="btnT33">娱乐三中三</button>
   <button id="btnE22">娱乐二中二</button>
   <span id="entOut"></span>
-<div class="entnote">纯娱乐:频率≠下期概率(上期号下期仍41.75%, 无惩罚无加成) · 三中三@80×长期约&minus;91%, 二中二生肖≥5.3×才抵庄家抽水 · 随机开奖无记忆, 未成年人禁购, 理性投注。</div>
+<div class="entnote">规则=号码池两池(v2.2):<b>池1「最大可能出现的」</b>=两套方案冠军(62号码层O/E第1+61肖层出现期数第1; 任务67对战139期平局→两票等权), <b>池2「可能较大的」</b>=两票名次和前6(冠军强制在池) → <b>最大可能=池1内随机抽1</b>, R1/R2=池2扣席连抽 → 二中二=[最大可能,R1], 三中三=嵌套+R2(seed=下期期号, 逐期必变) · 两池池本体均不展示 · 纯娱乐:频率≠下期概率,三中三@80×长期约&minus;91%,二中二生肖≥5.3×才抵庄家抽水 · 随机开奖无记忆,未成年人禁购,理性投注。</div>
 </div>
 <footer id="footSrc">数据源:新澳门六合彩 2026038–2026287 · 随机开奖无记忆,走势图不产生预测力,频率≠下期概率 · 仅供数据观察 · 未满18周岁禁止购彩,设定止损,理性投注。</footer>
 
@@ -334,18 +334,17 @@ function parseNums(str){
   });
   return res;
 }
-// 娱乐预测 §1附v2.5: 最大可能=池1随机1(独占); 池2无放回4抽 → 二中二=[A,B], 三中三=[A,C,D](共享恰1), 5步LCG
+// 娱乐预测 §1附v2.2 两池版: 最大可能=池1[A/B冠军]内LCG随机抽1 → 池2扣席抽R1(二中二)
+// → 再抽R2(三中三, 嵌套 t2⊂t3, 共3抽, 双端同式)
 function entPicks(){
   const {pool, cands}=poolTop6();
   let x=(ALL[ALL.length-1][0]+1)>>>0;
   const step=()=>{ x=(Math.imul(1664525,x)+1013904223)>>>0; return x; };
   step(); const top=cands[(x>>>16)%cands.length];
-  const rest=pool.slice();
-  step(); const a=rest.splice((x>>>16)%rest.length,1)[0];
-  step(); const b=rest.splice((x>>>16)%rest.length,1)[0];
-  step(); const c=rest.splice((x>>>16)%rest.length,1)[0];
-  step(); const d=rest.splice((x>>>16)%rest.length,1)[0];
-  return {top, t2:[a,b], t3:[a,c,d], pool, cands};
+  const rest=pool.filter(z=>z!==top);
+  step(); const r1=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const r2=rest.splice((x>>>16)%rest.length,1)[0];
+  return {top, t3:[top,r1,r2], t2:[top,r1], pool, cands};
 }
 let ENTMODE='all';
 function entHTML(){
@@ -359,8 +358,8 @@ function entHTML(){
   return s;
 }
 function renderEnt(){ document.getElementById('entOut').innerHTML=entHTML(); }
-// 号码池两池 (§1附v2.5): 排除集=末期开出肖; 池1=[两冠+温4]剔上期零容忍(不回填);
-// 池2=名次和zone新鲜优先+≤1上期补位(不足4顺延, 截5); 票A=62 O/E, 票B=61出现期数
+// 号码池两池 (§1附v2.2): 池1=[A冠,B冠](同肖并1员), 池2=名次和前6+冠军强制在池;
+// 票A=62号码层O/E, 票B=61肖层出现期数; 仅作entPicks底层, 两池本体不展示
 function poolTop6(){
   const W=ALL.slice(-100), cnt=new Array(50).fill(0);
   for(const r of W){ for(const n of r[2]) cnt[n]++; }
@@ -374,18 +373,12 @@ function poolTop6(){
   const oB=[...Array(12).keys()].sort((a,b)=>zb[b]-zb[a]||a-b);
   const rB=new Array(12); oB.forEach((z,i)=>rB[z]=i+1);
   const merged=[...Array(12).keys()]
-    .sort((a,b)=>(rA[a]+rB[a])-(rA[b]+rB[b])||a-b);
-  const last=ALL[ALL.length-1];
-  const excl=new Set([...last[3], last[5]]);
-  const champs=[rec[0][0], oB[0]];
-  if(champs[1]===champs[0]) champs.pop();
-  const warm=oB.slice(4,8).filter(z=>!champs.includes(z));
-  const cands=[...champs, ...warm].filter((z,i,a)=>a.indexOf(z)===i && !excl.has(z));
-  const zone=merged.filter(z=>!cands.includes(z));
-  const fresh=zone.filter(z=>!excl.has(z));
-  const stale=zone.filter(z=>excl.has(z));
-  const allowed=fresh.length>=3?1:Math.max(1, 4-fresh.length);
-  const pool=[...fresh, ...stale.slice(0,allowed)].slice(0,5);
+    .sort((a,b)=>(rA[a]+rB[a])-(rA[b]+rB[b])||a-b)
+    .slice(0,6);
+  const cands=[rec[0][0], oB[0]];
+  if(cands[1]===cands[0]) cands.pop();
+  const pool=merged.slice();
+  for(const z of cands) if(!pool.includes(z)) pool.push(z);
   return {pool, cands};
 }
 function bindEnt(){
