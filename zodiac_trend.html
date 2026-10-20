@@ -154,7 +154,7 @@ footer{color:#8a92a6;font-size:11px;margin-top:12px;border-top:1px solid #dde1ea
   <div class="drawnote">开奖后录入:6平码+1特码(1–49互不相同)→ 追加为新一期,走势/遗漏/指标/绿柱/倒计时/娱乐预测全部按新数据重算 · 追加仅存本机浏览器(刷新不丢;换设备/浏览器不共享,清除浏览器数据即消失)。</div>
 </div>
 <div class="ent" id="entBox">
-  <b>娱乐预测 · 号码池两池(v3.0 · 短期30/中期60)</b>
+  <b>娱乐预测 · 号码池两池(v2.5 · 100期窗)</b>
   <button id="btnMaxZod" class="blue">最大可能肖</button>
   <button id="btnT33">娱乐三中三</button>
   <button id="btnE22">娱乐二中二</button>
@@ -338,7 +338,7 @@ function parseNums(str){
 }
 // 娱乐预测 §1附v2.9: 池1摇1000次、池2摇3000次, 取出现最多 — 池1最多者=最大可能(独占);
 // 池2按出现次数降序前4名: A=第1名,B=第2名,C=第3名,D=第4名; 二中二=[A,B], 三中三=[A,C,D](共享恰1); 并列取肖序; 连续LCG流共4000步(池1×1000+池2×3000)
-function entPicks(){
+function entPicks_v30(){
   const {pool, cands}=poolTop6();
   let x=(ALL[ALL.length-1][0]+1)>>>0;
   const step=()=>{ x=(Math.imul(1664525,x)+1013904223)>>>0; return x; };
@@ -396,7 +396,54 @@ function _avail(){
   const excl=new Set([...last[3], last[5]]);
   return {excl, BAN, TARGET};
 }
-function poolTop6(){
+// ============================ v2.5 口径 (100期窗/摇1次/池2截5) ============================
+// 池1=[两冠(A榜冠军+B榜冠军)+温号(oB第5–8名)] 去重 → 剔上期开出肖 → 不回填
+// 池2=名次和zone(排除池1) → 新鲜优先 + ≤1上期补位(不足4顺延) → 截5
+// 摇号: 单一LCG, step()1次取池1最大可能; 再 splice 4 次取 a,b,c,d; 二中二=[a,b], 三中三=[a,c,d]
+function poolTop6_v25(){
+  const W=ALL.slice(-100), cnt=new Array(50).fill(0);
+  for(const r of W){ for(const n of r[2]) cnt[n]++; }
+  const E=6*W.length/49, zs=new Array(12).fill(0), ks=new Array(12).fill(0);
+  for(let n=1;n<=49;n++){ const z=N2Z[n]; zs[z]+=cnt[n]; ks[z]++; }
+  const rec=[]; for(let z=0;z<12;z++) rec.push([z, zs[z]/(ks[z]*E)]);
+  rec.sort((a,b)=>b[1]-a[1]||a[0]-b[0]);
+  const rA=new Array(12); rec.forEach((r,i)=>rA[r[0]]=i+1);
+  const zb=new Array(12).fill(0);
+  for(const r of W){ for(const z of new Set(r[3])) zb[z]++; }
+  const oB=[...Array(12).keys()].sort((a,b)=>zb[b]-zb[a]||a-b);
+  const rB=new Array(12); oB.forEach((z,i)=>rB[z]=i+1);
+  const merged=[...Array(12).keys()].sort((a,b)=>(rA[a]+rB[a])-(rA[b]+rB[b])||a-b);
+  const last=ALL[ALL.length-1];
+  const excl=new Set([...last[3], last[5]]);
+  const champs=[rec[0][0], oB[0]];
+  if(champs[1]===champs[0]) champs.pop();
+  const warm=oB.slice(4,8).filter(z=>!champs.includes(z));
+  const cands=[...champs, ...warm].filter((z,i,a)=>a.indexOf(z)===i && !excl.has(z));
+  const zone=merged.filter(z=>!cands.includes(z));
+  const fresh=zone.filter(z=>!excl.has(z));
+  const stale=zone.filter(z=>excl.has(z));
+  const allowed=fresh.length>=3?1:Math.max(1, 4-fresh.length);
+  const pool=[...fresh, ...stale.slice(0,allowed)].slice(0,5);
+  return {pool, cands};
+}
+function entPicks_v25(){
+  const {pool, cands}=poolTop6_v25();
+  let x=(ALL[ALL.length-1][0]+1)>>>0;
+  const step=()=>{ x=(Math.imul(1664525,x)+1013904223)>>>0; return x; };
+  step(); const top=cands[(x>>>16)%cands.length];
+  const rest=pool.slice();
+  step(); const a=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const b=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const c=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const d=rest.splice((x>>>16)%rest.length,1)[0];
+  return {top, t2:[a,b], t3:[a,c,d], pool, cands};
+}
+// ============================ 版本分派 (v2.5 由 Python 端注入) ============================
+const POOL_VERSION='v2.5';
+function poolTop6(){ return POOL_VERSION==='v2.5' ? poolTop6_v25() : poolTop6_v30(); }
+function entPicks(){ return POOL_VERSION==='v2.5' ? entPicks_v25() : entPicks_v30(); }
+
+function poolTop6_v30(){
   const {excl, BAN}=_avail();
   const ok = z => !excl.has(z) && !BAN.has(z);
   // 池1: 短期 30 期
