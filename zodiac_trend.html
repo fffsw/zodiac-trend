@@ -154,7 +154,7 @@ footer{color:#8a92a6;font-size:11px;margin-top:12px;border-top:1px solid #dde1ea
   <div class="drawnote">开奖后录入:6平码+1特码(1–49互不相同)→ 追加为新一期,走势/遗漏/指标/绿柱/倒计时/娱乐预测全部按新数据重算 · 追加仅存本机浏览器(刷新不丢;换设备/浏览器不共享,清除浏览器数据即消失)。</div>
 </div>
 <div class="ent" id="entBox">
-  <b>娱乐预测 · 号码池两池(v2.5 · 100期窗)</b>
+  <b>娱乐预测 · 号码池两池(v4.1 · 六肖2重4新·双池可重·短期30/中期60)</b>
   <button id="btnMaxZod" class="blue">最大可能肖</button>
   <button id="btnT33">娱乐三中三</button>
   <button id="btnE22">娱乐二中二</button>
@@ -438,10 +438,22 @@ function entPicks_v25(){
   step(); const d=rest.splice((x>>>16)%rest.length,1)[0];
   return {top, t2:[a,b], t3:[a,c,d], pool, cands};
 }
-// ============================ 版本分派 (v2.5 由 Python 端注入) ============================
-const POOL_VERSION='v2.5';
-function poolTop6(){ return POOL_VERSION==='v2.5' ? poolTop6_v25() : poolTop6_v30(); }
-function entPicks(){ return POOL_VERSION==='v2.5' ? entPicks_v25() : entPicks_v30(); }
+// ============================ 版本分派 (v4.1 由 Python 端注入) ============================
+const POOL_VERSION='v4.1';
+function poolTop6(){
+  if(POOL_VERSION==='v2.5') return poolTop6_v25();
+  if(POOL_VERSION==='v3.0') return poolTop6_v30();
+  if(POOL_VERSION==='v4.0') return poolTop6_v40();
+  if(POOL_VERSION==='v4.1') return poolTop6_v41();
+  throw new Error('unknown POOL_VERSION '+POOL_VERSION);
+}
+function entPicks(){
+  if(POOL_VERSION==='v2.5') return entPicks_v25();
+  if(POOL_VERSION==='v3.0') return entPicks_v30();
+  if(POOL_VERSION==='v4.0') return entPicks_v40();
+  if(POOL_VERSION==='v4.1') return entPicks_v41();
+  throw new Error('unknown POOL_VERSION '+POOL_VERSION);
+}
 
 function poolTop6_v30(){
   const {excl, BAN}=_avail();
@@ -453,6 +465,115 @@ function poolTop6_v30(){
   const r2=_ranks(ALL.slice(-60));
   const pool=r2.order.filter(ok).slice(0,4);
   return {pool, cands};
+}
+// ============================ 六肖双池 v4.0 / v4.1 (task200, 2026-10-23) ============================
+// 共用骨架(最终定版): 先定 Universe U=6个不同生肖(2重+4新), 再分进双池; 同一生肖可同时进两池(重复肖),
+// 两池并集恒=U. 重肖: 肖 in PREV (上期7球 distinct); 重复肖: 同肖同时在两池. _alloc6: 池1取U在本池序前4、
+// 池2取U在本池序前6 → 最小池长2/4 → 未覆盖者入排名较前一池(同位池2) → 每池至少1重肖. 池长/重叠随数据变化.
+// _pickStrat 优先级: 固定池长/池内不重复 > exclSet互斥 > BAN > 重肖配额 > 原序.
+//   某层不足→另一层按原序顺延; 再不足→放行BAN(仍避exclSet); 再不足→放行exclSet(仅全定义兜底).
+// v4.0(承v2.5): 100期窗, U按merged分层, 池1序P=[两冠+温号C, merged其余], 池2序=merged, 不读BAN, 摇号1+4步.
+// v4.1(承v3.0): U按组合序(30位+60位)分层, 池1序=30期名次和, 池2序=60期名次和, 读BAN, 摇号4000步.
+// 展示不变: 最大可能自池1; 池2取四员A/B/C/D → 二中二=[A,B], 三中三=[A,C,D] (最大可能可与池2同肖, 展示去重4-5肖).
+function _pickStrat(order, PREV, BAN, exclSet, nRep, nFresh){
+  const size=nRep+nFresh;
+  const elig=order.filter(z=>!BAN.has(z)&&!exclSet.has(z));
+  const picks=[];
+  const add=z=>{ if(!picks.includes(z)) picks.push(z); };
+  elig.filter(z=>PREV.has(z)).slice(0,nRep).forEach(add);
+  elig.filter(z=>!PREV.has(z)).slice(0,nFresh).forEach(add);
+  for(const z of elig){ if(picks.length>=size) break; add(z); }
+  for(const z of order){ if(picks.length>=size) break; if(!exclSet.has(z)) add(z); }
+  for(const z of order){ if(picks.length>=size) break; add(z); }
+  const pos=new Map(order.map((z,i)=>[z,i]));
+  return picks.slice(0,size).sort((a,b)=>pos.get(a)-pos.get(b));
+}
+function _alloc6(U, PREV, o1, o2){
+  const Uset=new Set(U);
+  const pos1=new Map(o1.map((z,i)=>[z,i])), pos2=new Map(o2.map((z,i)=>[z,i]));
+  let cands=o1.filter(z=>Uset.has(z)&&pos1.get(z)<4);
+  let pool=o2.filter(z=>Uset.has(z)&&pos2.get(z)<6);
+  const extend=(p,order,pos,minimum)=>{
+    for(const z of order){ if(p.length>=minimum) break; if(Uset.has(z)&&!p.includes(z)) p.push(z); }
+    return p.slice().sort((a,b)=>pos.get(a)-pos.get(b));
+  };
+  cands=extend(cands,o1,pos1,2);
+  pool=extend(pool,o2,pos2,4);
+  for(const z of U){
+    if(!cands.includes(z)&&!pool.includes(z)){
+      if(pos1.get(z)<pos2.get(z)) cands.push(z); else pool.push(z);
+    }
+  }
+  cands.sort((a,b)=>pos1.get(a)-pos1.get(b));
+  pool.sort((a,b)=>pos2.get(a)-pos2.get(b));
+  const reps=U.filter(z=>PREV.has(z));
+  if(reps.length&&!cands.some(z=>PREV.has(z))){
+    cands.push(reps.slice().sort((a,b)=>pos1.get(a)-pos1.get(b))[0]);
+    cands.sort((a,b)=>pos1.get(a)-pos1.get(b));
+  }
+  if(reps.length&&!pool.some(z=>PREV.has(z))){
+    pool.push(reps.slice().sort((a,b)=>pos2.get(a)-pos2.get(b))[0]);
+    pool.sort((a,b)=>pos2.get(a)-pos2.get(b));
+  }
+  return {pool, cands};
+}
+function poolTop6_v40(){
+  const W=ALL.slice(-100), cnt=new Array(50).fill(0);
+  for(const r of W){ for(const n of r[2]) cnt[n]++; }
+  const E=6*W.length/49, zs=new Array(12).fill(0), ks=new Array(12).fill(0);
+  for(let n=1;n<=49;n++){ const z=N2Z[n]; zs[z]+=cnt[n]; ks[z]++; }
+  const rec=[]; for(let z=0;z<12;z++) rec.push([z, zs[z]/(ks[z]*E)]);
+  rec.sort((a,b)=>b[1]-a[1]||a[0]-b[0]);
+  const rA=new Array(12); rec.forEach((r,i)=>rA[r[0]]=i+1);
+  const zb=new Array(12).fill(0);
+  for(const r of W){ for(const z of new Set(r[3])) zb[z]++; }
+  const oB=[...Array(12).keys()].sort((a,b)=>zb[b]-zb[a]||a-b);
+  const rB=new Array(12); oB.forEach((z,i)=>rB[z]=i+1);
+  const merged=[...Array(12).keys()].sort((a,b)=>(rA[a]+rB[a])-(rA[b]+rB[b])||a-b);
+  const last=ALL[ALL.length-1];
+  const PREV=new Set([...last[3], last[5]]);
+  const champs=[rec[0][0], oB[0]];
+  if(champs[1]===champs[0]) champs.pop();
+  const warm=oB.slice(4,8).filter(z=>!champs.includes(z));
+  const C=[...champs, ...warm].filter((z,i,a)=>a.indexOf(z)===i);
+  const P=[...C, ...merged.filter(z=>!C.includes(z))];
+  const EMPTY=new Set();
+  const U=_pickStrat(merged, PREV, EMPTY, EMPTY, 2, 4);
+  return _alloc6(U, PREV, P, merged);
+}
+function entPicks_v40(){
+  const {pool, cands}=poolTop6_v40();
+  let x=(ALL[ALL.length-1][0]+1)>>>0;
+  const step=()=>{ x=(Math.imul(1664525,x)+1013904223)>>>0; return x; };
+  step(); const top=cands[(x>>>16)%cands.length];
+  const rest=pool.slice();
+  step(); const a=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const b=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const c=rest.splice((x>>>16)%rest.length,1)[0];
+  step(); const d=rest.splice((x>>>16)%rest.length,1)[0];
+  return {top, t2:[a,b], t3:[a,c,d], pool, cands};
+}
+function poolTop6_v41(){
+  const {excl:PREV, BAN}=_avail();
+  const EMPTY=new Set();
+  const r1=_ranks(ALL.slice(-30));
+  const r2=_ranks(ALL.slice(-60));
+  const pos30=new Map(r1.order.map((z,i)=>[z,i])), pos60=new Map(r2.order.map((z,i)=>[z,i]));
+  const comb=[...Array(12).keys()].sort((a,b)=>(pos30.get(a)+pos60.get(a))-(pos30.get(b)+pos60.get(b))||a-b);
+  const U=_pickStrat(comb, PREV, BAN, EMPTY, 2, 4);
+  return _alloc6(U, PREV, r1.order, r2.order);
+}
+function entPicks_v41(){
+  const {pool, cands}=poolTop6_v41();
+  let x=(ALL[ALL.length-1][0]+1)>>>0;
+  const step=()=>{ x=(Math.imul(1664525,x)+1013904223)>>>0; return x; };
+  const c1=new Array(12).fill(0), c2=new Array(12).fill(0);
+  for(let i=0;i<1000;i++){ step(); c1[cands[(x>>>16)%cands.length]]++; }
+  for(let i=0;i<3000;i++){ step(); c2[pool[(x>>>16)%pool.length]]++; }
+  const byCnt=(arr,cnt)=>arr.slice().sort((a,b)=>(cnt[b]-cnt[a])||(a-b));
+  const top=byCnt(cands,c1)[0];
+  const r=byCnt(pool,c2);
+  return {top, t2:[r[0],r[1]], t3:[r[0],r[2],r[3]], pool, cands};
 }
 function bindEnt(){
   document.getElementById('btnMaxZod').onclick=()=>{ENTMODE='max';renderEnt();};
