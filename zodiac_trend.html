@@ -170,7 +170,7 @@ const era=p=>p<=2024040?3:p<=2025028?4:p<=2026047?5:6;
 // 单期剔除表(用户2026-10-15): 仅对指定目标期生效, 过后自动失效。2026289期剔除豬(短期过热, 一次性)。
 const PERIOD_BAN={2026289:[11]};
 // v5.0人工定案(按数据尾期号键入; 只含六肖/槽位结构, 不含报告文本)。
-const MANUAL_SITE_DECISIONS_V50={"2026308":{"U":[5,6,2,3,11,4],"top":6,"A":5,"B":3,"C":2,"D":11,"top_overlap_mode":"coverage"}};
+const MANUAL_SITE_DECISIONS_V50={"2026308":{"U":[5,6,2,3,4,7],"top":6,"A":5,"B":3,"C":2,"D":7,"top_overlap_mode":"coverage"}};
 let COLS=100, SHOW_OM=true, VIEW='num';
 function commOne(r){const n=r[2];
   const odd=n.filter(x=>x%2).length, c0=n.filter(x=>x%3===0).length, c1=n.filter(x=>x%3===1).length;
