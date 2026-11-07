@@ -1,0 +1,8 @@
+TASK241 312 INDEPENDENT CANDIDATE VERIFICATION
+51 named candidates: six identities, legal A-D/top/reserve, normal only PASS
+Independent inclusion-exclusion: all marginal, 0/1/2/3 completed, reserve/no-column integer counts PASS
+Independent 462 category compositions: necessary-class conditions and three absent/present-risk branches PASS
+CSV 1042 rows, target311 six normal/special isolation, 5 historical route/parity tables PASS
+No 312 decision or prereg existed when candidate comparison was audited PASS
+CANDIDATE_JSON_SHA256 3cd837ebe399e99aad9980c2cdc37006fbd39b2f2adf36025f98994ae63095eb
+TASK241_CANDIDATE_INDEPENDENT PASS

@@ -1,0 +1,156 @@
+{
+  "schema_version": 3,
+  "created": "2026-11-05T22:51:39+08:00",
+  "purpose": "把历次复盘的口头教训变成下一期开奖前必须触发的检查项；赛后复盘先判流程，再看结果。",
+  "lessons": [
+    {
+      "id": "D1",
+      "pattern": "后见之明与一期过拟合",
+      "trigger": "想因上一期开奖结果新增规则、追刚开的肖或惩罚刚落空的肖",
+      "required_gate": "回读赛前报告；只判赛前是否可见、是否已处理；单期结果不得直接升级为规律",
+      "artifact": "Decision Record中的known_then与premortem_score"
+    },
+    {
+      "id": "D2",
+      "pattern": "同批球重复计权",
+      "trigger": "同一批近端球同时被写成窗口、路线、尾数、波色的多份支持",
+      "required_gate": "主证据只用不重叠年龄块；累计窗标为背景；每项支持标注来源期",
+      "artifact": "不重叠块表"
+    },
+    {
+      "id": "D3",
+      "pattern": "多重比较挑最醒目项",
+      "trigger": "从12肖、多窗、多形态中只摘录最极端差异",
+      "required_gate": "同时报原始p、FDR、Bonferroni或全局最大统计量；未过校正只能称描述差异",
+      "artifact": "多重检验表"
+    },
+    {
+      "id": "D4",
+      "pattern": "不确定性缺失",
+      "trigger": "1至2期或数球之差被写成强延续、强加速、确定恢复",
+      "required_gate": "同时列基线期望、标准差、出现差和z；语言强度不得超过数值尺度",
+      "artifact": "零模型表"
+    },
+    {
+      "id": "D5",
+      "pattern": "间隔和新鲜度双标",
+      "trigger": "用刚开、陈旧、久未开给争议席定方向",
+      "required_gate": "间隔只作状态或残余风险；删除该理由后结论必须仍能说明",
+      "artifact": "原报告语言lint清单"
+    },
+    {
+      "id": "D6",
+      "pattern": "边际均衡冒充身份组合稳健",
+      "trigger": "用头尾、波色、012路分布证明六肖更稳",
+      "required_gate": "结构只披露覆盖与机会成本；完整栏只按身份集合和精确组合概率审",
+      "artifact": "架构机会成本表"
+    },
+    {
+      "id": "D7",
+      "pattern": "风险只披露不处理",
+      "trigger": "报告写出高机会成本或单点失败，但仍直接锁定",
+      "required_gate": "每项高风险必须有最便宜否证测试、处理动作、接受理由和赛后责任口径",
+      "artifact": "Premortem风险表"
+    },
+    {
+      "id": "D8",
+      "pattern": "Universe顺序与展示槽位脱节",
+      "trigger": "争议席承担共同A/B位或较强席无理由成为替补",
+      "required_gate": "逐槽写最强替代与偏离理由；检查A单点、替补命中且0栏等精确机会成本",
+      "artifact": "逐槽对抗表"
+    },
+    {
+      "id": "D9",
+      "pattern": "身份惯性",
+      "trigger": "某肖因多期入选而被默认保留，或因上一期槽位失败被默认惩罚",
+      "required_gate": "用准盲化证据卡重排近局；逐席与最强替代逐块比较",
+      "artifact": "准盲化证据卡与揭盲对照"
+    },
+    {
+      "id": "D10",
+      "pattern": "教训停在长文里",
+      "trigger": "新禁令只写进复盘，没有可执行检查",
+      "required_gate": "禁令必须落到数据契约、性质测试、截断测试或报告字段完整性检查中的至少一项",
+      "artifact": "PASS/FAIL脚本与输出哈希"
+    },
+    {
+      "id": "D11",
+      "pattern": "用回放命中给方法排名",
+      "trigger": "想用历史命中率宣布某模型或人工规则更优",
+      "required_gate": "walk-forward只做信号真伪门：Brier对等概率、多重校正、时间块稳定性；不过门不得称预测信号",
+      "artifact": "信号门报告"
+    },
+    {
+      "id": "D12",
+      "pattern": "目标函数赛后漂移",
+      "trigger": "赛后在完整栏、展示球数、Universe球数之间挑最好看的口径",
+      "required_gate": "赛前固定主结算为完整栏分布，Universe与展示只作分层诊断；不得赛后换主口径",
+      "artifact": "预注册结算契约"
+    },
+    {
+      "id": "D13",
+      "pattern": "只审六肖全集而漏审实际展示的开奖结构",
+      "trigger": "人工组六肖或设置top/A/B/C/D，尤其当替补含某类号码而展示不含该类号码时",
+      "required_gate": "分别产出实际六码、六肖全集和实际展示的结构分布；列W35/40/45与不重叠块、随机基线、覆盖及被换掉号码的代价；零模型完整栏概率独立复算，不把分类覆盖说成预测优势",
+      "artifact": "data/structure_audit_<target>.json、开奖结构账本、逐席Decision Record与structure_audit_gate PASS"
+    },
+    {
+      "id": "D14",
+      "pattern": "大小边界及生肖映射口径漂移",
+      "trigger": "使用大小或跨生肖年号码映射",
+      "required_gate": "写明25归属并双口径对照；从最新有效样本核对生肖映射，不一致fail-closed；不得混用特码频率",
+      "artifact": "structure_audit_<target>.json中的大小双口径、映射及数据哈希"
+    },
+    {
+      "id": "D15",
+      "pattern": "特码与网站平码串线，特别是摘要误报顶栏",
+      "trigger": "网站三栏结算、摘要或历史复核",
+      "required_gate": "网站计算函数只接受六个平码生肖，重复生肖只计一次；六码外或七肖输入拒绝；顶栏和组合栏摘要共用仅平码判定；特殊线仅按明确要求单独输出。",
+      "artifact": "scripts/settle_generic.py --selftest；data/task236_settlement_regression.txt；data/task236_history_296_308_summary_audit.txt；--site-only 正式结算",
+      "status": "301/303复盘曾报告同类摘要错误，但未及时工程修复；本期已实现结算代码和自检，历史文件不改写、另列更正"
+    },
+    {
+      "id": "D16",
+      "pattern": "开奖后用当前CSV误验选前预注册数据，或未检查覆盖字段",
+      "trigger": "入库后以预注册正式结算，特别是有override的v5.0修订",
+      "required_gate": "核对当期入库前备份md5与预注册data_md5；校验self_md5与修订链全文件SHA-256封存；迟于保守时间截点拒绝正式结算。哈希不是独立时间证明。",
+      "artifact": "data/task236_309_pre_intake_freeze_audit.txt；data/task236_settlement_regression.txt",
+      "status": "本期--site-only及修订链检查已实现；其他独立流程不宣称已覆盖"
+    },
+    {
+      "id": "D17",
+      "pattern": "事后同时换全集和槽位，误认某一个变化导致栏数变化",
+      "trigger": "展示替补或外部生肖的开奖后反事实",
+      "required_gate": "先逐项标注是否改全集、top或A-D；逐案分列全集球数、展示球数、每栏和完整栏；同全集与跨全集例子分开；不得把后知方案当规则优劣证据。",
+      "artifact": "data/task236_309_review_metrics.json counterfactuals；309复盘报告",
+      "status": "本期已执行；作为后续人工检查建议，尚未加入正式生产门禁"
+    },
+    {
+      "id": "D18",
+      "pattern": "落选肖的整组风险被单个最热号码代替",
+      "trigger": "以单个号码路线解释拒绝某个肖，或以短窗口收缩压过已存在的反方数据",
+      "required_gate": "对临界落选肖列全部号码的主窗计数/间隔，并列最近块与W35/W40/W45及中长期反证；记为残余风险而非必中、回补或固定入选。",
+      "artifact": "data/task236_309_review_ledger.txt 十二肖与路线账本",
+      "status": "本期已执行；作为后续人工检查建议，尚未加入正式生产门禁"
+    },
+    {
+      "id": "D19",
+      "pattern": "已知缺陷只在复盘文字中提醒，却没有修补程序与回归测试",
+      "trigger": "旧报告或用户指出能复现的结算/上线错误",
+      "required_gate": "明确受影响范围，保留原始证据，安全修复程序并增加正反例和负测；问题、已修范围、未覆盖范围和历史更正均写入交付。不得把口头告知充当已解决。",
+      "artifact": "301/303深度复盘；data/task236_history_296_308_summary_audit.txt；data/task236_settlement_regression.txt",
+      "status": "309结算器问题已按此办理；作为后续通用工程检查建议，尚未加入正式生产门禁"
+    }
+  ],
+  "supersedes_for_future_checks": {
+    "path": "data/decision_lessons_ledger.json",
+    "file_md5": "f18e43d0f7f706cccaff8688ff05238d",
+    "note": "原文件只读保留；旧报告内哈希不回写"
+  },
+  "status": "309复盘台账：记录已完成的结算器修复及待后续人工审议的检查建议；不自动变更v5.0、S1、选号、槽位或正式门禁。",
+  "based_on": {
+    "path": "data/decision_lessons_ledger_v2_20261105.json",
+    "file_md5": "5fc47172b7b08c51b8738ecf70fba579",
+    "note": "旧版只读保留；D1-D14原文不变"
+  }
+}

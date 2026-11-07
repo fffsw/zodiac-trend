@@ -1,0 +1,8 @@
+TASK241 312 PREDRAW REPORT QA
+12 zodiac x 8 windows, x 5 disjoint blocks, all 49 routes x 5 windows and normal-ball ages PASS
+5 historical structure rows, universe/display structures including heads/tails/color and both size conventions PASS
+51 explicit candidates, 12 concrete report alternatives, outside 0-road alternatives, exact integer probabilities PASS
+311 review and 312 independent tests, source raw hashes, limitations, draft-only lessons, no 312 official decision/prereg PASS
+REPORT_MD5=060a632dc301ec4caf7e7b5ec1d3b19d
+REPORT_SHA256=b05b97be40c9d8881ae30e30f971635f43a257da10025a797f9c62e764558c78
+TASK241_PREDRAW_REPORT_QC PASS

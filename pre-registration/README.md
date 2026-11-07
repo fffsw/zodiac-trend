@@ -15,3 +15,15 @@
 这些是人工展示取舍，不代表预测优势、收益或最高置信；开奖记录、哈希、Git提交与在线下载均不是签名或独立可信时间戳。
 
 - [311生产与仅平码预注册补充规格](2026311-production-spec.md)：明确数据边界、角色、冻结和上线验收。
+
+
+2026312（历史截止2026311；网站只按前六个平码，311特码只作上期七号生肖身份标签）：
+
+- [仅平码预注册](2026312.json) · [开奖结构审计](2026312-structure.json) · [人工分析及51个候选](2026312-analysis.md) · [生产规格](2026312-production-spec.md) · [本期冻结页面](2026312-page.html) · [SHA-256清单](2026312.sha256)。
+- [十二肖与49条号码路线](2026312-ledgers.txt) · [开奖结构账本](2026312-draw-structure.txt) · [结构指标](2026312-draw-structure-metrics.json) · [51个完整候选](2026312-candidates.json) · [首轮26案](2026312-candidates-round1.json) · [截止311原始CSV](2026312-source-data.csv)。原始CSV保留历史特码以完整记录开奖，但选号分析及网站结算只使用前六球。
+- [311深度复盘](2026312-prior-311-review.md) · [正式v3教训](2026312-lessons-v3.json) · [310复盘草案D20—D23](2026312-lessons-v4-draft.json) · [311复盘草案D24—D28](2026312-lessons-311-draft.json)。两组草案均未自动启用。
+- [编码证据卡](2026312-evidence-cards.json) · [标签映射](2026312-evidence-key.json) · [初拟](2026312-preliminary.json) · [人工决定收据](2026312-decision-receipt.json)。证据卡不是严格盲评，标签不决定选肖。
+- [账本独立核验](2026312-ledger-independent-test.txt) · [候选独立核验](2026312-candidate-independent-test.txt) · [报告QA](2026312-report-qc.txt) · [冻结前负测](2026312-prefreeze-negatives.txt) · [冻结后负测](2026312-prereg-negatives.txt) · [仅平码范围测试](2026312-site-scope-test.txt) · [按钮最小DOM测试](2026312-button-test.txt)。
+- [冻结前来源状态](2026312-source-check.json) · [最新期API原文](2026312-source-latest.json) · [312按期API原文](2026312-source-target.json)。已作请求新鲜度检查，但来源可能共上游，服务器时间与空值不构成权威开奖时间证明。第二展示源的完整原文保存在本地证据归档。
+
+这些是人工展示取舍，不代表预测优势、收益或最高置信；开奖结果有随机性，赔率低于公允回报时投注为负期望。开奖记录、哈希、Git提交与在线下载均不是签名或独立可信时间戳。

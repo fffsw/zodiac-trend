@@ -1,0 +1,8 @@
+NEGATIVE wrong target on 312-specific freezer: REJECTED
+NEGATIVE missing manual decision: REJECTED; no prereg file
+NEGATIVE stale predraw observation: REJECTED; no prereg file
+NEGATIVE source reports target result: REJECTED; no prereg file
+NEGATIVE altered source raw hash: REJECTED; no prereg file
+NEGATIVE after internal stop: REJECTED; no prereg file
+Protected 311 files, 312 manual, audit and report unchanged: PASS
+TASK241_PREFREEZE_NEGATIVES PASS

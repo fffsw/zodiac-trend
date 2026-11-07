@@ -1,0 +1,145 @@
+{
+  "period": 2026312,
+  "created": "2026-11-08T04:28:12+08:00",
+  "data_md5": "088592290c52e7079c1ec07d43474204",
+  "data_last_period": 2026311,
+  "scope": "site_regular_only",
+  "normal_balls_per_draw": 6,
+  "special_lines": "not_generated",
+  "previous_special_zodiac_used_only_as_identity_label": true,
+  "previous_seven_identity_zodiacs": [
+    "鼠",
+    "兔",
+    "蛇",
+    "馬",
+    "鷄",
+    "豬"
+  ],
+  "analysis_primary_windows": [
+    35,
+    40,
+    45
+  ],
+  "structure_audit_self_sha256": "79615a5b41eaaf9dda8e45c03649e18adf079f7495e9450d4f9f5cb68898f5da",
+  "predraw_observed_at_cst": "2026-11-08T04:28:11+08:00",
+  "lines": {},
+  "site_display": {
+    "top": 5,
+    "t2": [
+      3,
+      4
+    ],
+    "t3": [
+      3,
+      2,
+      6
+    ],
+    "cands": [
+      5,
+      3,
+      4,
+      2,
+      6
+    ],
+    "pool": [
+      3,
+      4,
+      2,
+      6,
+      11
+    ],
+    "version": "v5.0",
+    "universe": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      11
+    ],
+    "universe_zodiac": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "豬"
+    ],
+    "selection_mode": "manual_universe_and_slots_no_shake",
+    "selection_zodiac": [
+      "蛇",
+      "兔",
+      "虎",
+      "龍",
+      "馬",
+      "豬"
+    ],
+    "selection_source": "312期网站人工选肖与开奖结构审查_20261108.md",
+    "allocation_shake": "none (manual roles; cands/pool are derived display groupings only)",
+    "manual_decision": {
+      "universe": [
+        5,
+        3,
+        2,
+        4,
+        6,
+        11
+      ],
+      "universe_zodiac_report_order": [
+        "蛇",
+        "兔",
+        "虎",
+        "龍",
+        "馬",
+        "豬"
+      ],
+      "roles": {
+        "top": 5,
+        "A": 3,
+        "B": 4,
+        "C": 2,
+        "D": 6
+      },
+      "roles_zodiac": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "馬"
+      },
+      "display": [
+        5,
+        3,
+        4,
+        2,
+        6
+      ],
+      "display_zodiac": [
+        "蛇",
+        "兔",
+        "龍",
+        "虎",
+        "馬"
+      ],
+      "reserves": [
+        11
+      ],
+      "reserve_zodiac": [
+        "豬"
+      ],
+      "repeat_count": 4,
+      "top_overlap_mode": "coverage",
+      "pool_semantics": "cands=display group; pool=A/B/C/D plus nondisplay reserves",
+      "universe_rationale": "人工逐肖审W35/40/45并列、近10/20、不重叠年龄块和49号路线；展示蛇兔龍虎馬、豬替补。展示012为4/9/8，2路奇偶4/4，0路只含龍四码。上期七号身份重合4肖是本期结果而非配额；偶然结构均衡不证明预测能力。",
+      "slot_rationale": {
+        "top": "蛇W10 8/7、W20 14/12、主窗24/20、25/21、27/23；馬近10 10/9且五码为明确反方。309—311馬连续单肖，本期手工比较后选蛇，不称最高置信，不固定以后选择。",
+        "A": "兔W10 11球7期、W20 17/12、主窗23/18、28/23、31/25；28和40近10合8/11球，多球重复不能当多期。兔空时两组合同时失败；亦比较蛇作A及top重合。",
+        "B": "龍W10 4/4、W20 9/9、主窗15/15、18/18、19/19；唯一展示0路。B龍与D馬可合法互换；本期选择使三中三不必有0路，代价是无0路及有0路但非龍时二中二断。风险移位不是消除；赔率未知。",
+        "C": "虎W10 1/1、W20 7/6，主窗20/17、24/20、28/24；豬近10 6/6更强、猴近10/20更强。虎与蛇分别展示奇/偶2路，类别结构不改变概率。",
+        "D": "馬W10 10/9、W20 16/14、主窗24/20、26/22、28/24；是五码组，但不以大小设固定单肖。D馬与B龍互换后类别风险转至三中三，双案及基线均已披露。"
+      },
+      "reserve_rationale": "豬W10 6/6、W20 7/7、主窗18/17、20/19、23/22；展示选择虎，豬入全集但不在任一栏目。鼠W20 10/8及鷄W20 11/9是保留鼠鷄的反证；两者分别替豬作替补均不改变栏目，均已显式比较，不能因上期漏鼠19或特码鷄34自动追入。"
+    }
+  },
+  "self_md5": "389d672404eb839eb7a4e4f1b62c3bc9"
+}

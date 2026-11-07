@@ -1,0 +1,7 @@
+TASK241 INDEPENDENT LEDGER CHECK
+12 zodiac x 8 windows ball/occurrence PASS
+12 zodiac x 6 age blocks PASS
+49 numbers x 8 windows and normal-ball gap PASS
+8 windows and 7 age blocks structure, double-size conventions PASS
+CSV target, identity, seven-versus-six separation PASS
+TASK241_LEDGER_INDEPENDENT PASS

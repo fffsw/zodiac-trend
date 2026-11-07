@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "reviewed_period": 2026311,
+  "review_date_cst": "2026-11-08",
+  "status": "复盘建议草案；D24—D28未启用，不改变选号或生产门禁。v3仍为正式教训；310复盘的v4 D20—D23仍只是草案。",
+  "scope": "网站前六个平码；不选择或预注册312期。",
+  "based_on": {
+    "official_v3": "data/decision_lessons_ledger_v3_309review_20261105.json",
+    "official_v3_md5": "674b25de73389850e1a247a1764cd80d",
+    "unactivated_prior_draft": "data/decision_lessons_ledger_v4_310review_20261106_DRAFT.json",
+    "311_review_metrics": "data/task240_311_review_metrics.json",
+    "311_review_independent_test": "data/task240_311_review_independent_test.txt"
+  },
+  "prior_lesson_execution_review": [
+    {
+      "id": "D20 草案",
+      "result": "已在311赛前将无0路和有0路但没接中龍列为互斥分支；实际发生前者。龍从二中二移到三中三，故无0路时必断的栏目发生转移。",
+      "caveat": "这是风险披露与位置分配，不是预测无0路或消除风险。"
+    },
+    {
+      "id": "D21 草案",
+      "result": "311赛前明确列出B蛇↔D龍完整合法互换；同全集同展示。本期原案二中二完整、三中三不完整；互换案反之，完整栏数同为2。",
+      "caveat": "栏目赔率未知，不能只按栏数宣称两案盈亏相同，也不能用此期回放裁定优劣。"
+    },
+    {
+      "id": "D22 草案",
+      "result": "311赛前比较鸡替A、B和C等具体情景；鸡34本期是特码而非平码，不能算替补或栏目命中。",
+      "caveat": "鸡未出平码不是永远让鸡替补的证据。"
+    },
+    {
+      "id": "D23 草案及D9正式教训",
+      "result": "311制作了证据卡、初拟、揭码与逐案对照；但审核者事前已见实名账本，五码组可辨识，不能称独立盲选。赛前列出310原盘参照，也保留决策变更。",
+      "caveat": "不能把标签或仅后验的材料伪称严格盲评、独立实验或预测信号。"
+    },
+    {
+      "id": "D18 正式教训",
+      "result": "311选前原始账本保留鼠四个号码的W35/40/45和间隔，报告也有鼠的正反意见；但已归档21条候选记录没有任何以鼠进入全集的完整合法替代。",
+      "caveat": "不能因此说完全没分析鼠，也不能因19开出就认定鼠当时应选。"
+    }
+  ],
+  "proposals_not_active": [
+    {
+      "id": "D24",
+      "name": "落选肖的合法入选路径和类别代价",
+      "observed_issue": "311鼠19在全集外，赛前虽有完整鼠路线账本和逐肖文字，但没有鼠入全集的具体候选；赛后D龍→鼠可补三中三，同时展示0路从4变0。",
+      "proposed_check": "若未来继续人工候选，分别给每个全集外肖至少一个明确的合法入全集方式，并在重要边界案中说明可替哪个角色、全集/展示变化和被舍弃类别；标记赛前与赛后记录。不得按结果挑替换位置。",
+      "reproducible_evidence": "data/task239_311_candidate_audit_v3.json；data/task240_311_review_metrics.json counterfactuals",
+      "caveat": "这是覆盖替代方案的审计建议，不是让所有落选肖自动入选，也不能据一期确定哪肖更可能。"
+    },
+    {
+      "id": "D25",
+      "name": "已知类别风险是转移还是降低",
+      "observed_issue": "310龙放B、311龙放D；无0路会使前者二中二必断、后者三中三必断。对311选择而言风险位置改变，不代表随机过程被改善。",
+      "proposed_check": "对每个关键类别缺失事件，列出哪些完整栏被必然切断、哪些不因此必然切断，并对完整合法互换注明另一栏代价。",
+      "reproducible_evidence": "311期网站人工选肖与开奖结构审查_20261107.md；data/task240_311_review_metrics.json",
+      "caveat": "条件性必然关系不是无0路的预测，更不能据连续两期无0路推断下期有或无0路。"
+    },
+    {
+      "id": "D26",
+      "name": "同肖多球与特码同号的分层回归",
+      "observed_issue": "311兔40和16是两球但一个生肖；鸡34为特码，虽与310平码34同号，也不是311平码命中或两期平码重复。",
+      "proposed_check": "持续运行六球限制、重复肖去重、特码单独记录及常→常/常→特分层回归；摘要与栏位共用六球结果。",
+      "reproducible_evidence": "scripts/task240_311_settlement_regression.py；data/task240_311_settlement_regression.txt",
+      "caveat": "这是执行核验，不推断平码转特码或重复号码规律。"
+    },
+    {
+      "id": "D27",
+      "name": "同全集槽位极限、重合与集中风险分开说明",
+      "observed_issue": "311固定U仅4个实际中奖生肖，top与A-D错开时三栏不可能全中；赛后top重叠可构造3栏，但改变展示结构及零栏概率。",
+      "proposed_check": "必要时用合法有序槽位枚举和精确无放回基线，分开报告重叠/错开的已知机会成本；始终将此类枚举标为赛后可行性而非事前可知。",
+      "reproducible_evidence": "data/task240_311_review_metrics.json posthoc_legal_roles_fixed_universe；独立容斥测试",
+      "caveat": "不据事后完美案固定重叠、不以完整栏次数或回放胜率排名方法；真实赔率未知。"
+    },
+    {
+      "id": "D28",
+      "name": "准盲化执行证据与泄露限制",
+      "observed_issue": "311虽先有编码卡及初拟，审核者先前已看到实名数据且五码身份可识别，不能声称独立盲评。",
+      "proposed_check": "若未来实际具备独立审核者，再在接触实名及可识别信息前记录、比较；否则明确标为去标签辅助而非独立盲评，不补造赛前记录。",
+      "reproducible_evidence": "data/task239_311_evidence_card_preliminary.json；311选前报告",
+      "caveat": "是否准盲只影响偏差控制的证据，不改变开奖概率。"
+    }
+  ],
+  "activation_policy": "需要另行明确制度和版本、可复算测试及上线授权；不得因本次复盘自动启用或改写v3、v4及旧预注册。"
+}

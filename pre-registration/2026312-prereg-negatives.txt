@@ -1,0 +1,7 @@
+NEGATIVE freeze target again: rejected without overwrite: PASS
+POSITIVE isolated actual target prereg: gate PASS
+NEGATIVE tampered prereg without updated checksum: REJECTED
+NEGATIVE tampered role with recomputed checksum: REJECTED against manual decision
+NEGATIVE manual universe mismatch against prereg: REJECTED
+Historical prereg, current prereg and manual production hashes unchanged: PASS
+TASK241_PREREG_NEGATIVES PASS

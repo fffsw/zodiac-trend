@@ -1,0 +1,1178 @@
+{
+  "schema_version": 1,
+  "analysis_extension": "v5.0-S1",
+  "target": 2026312,
+  "data": {
+    "last_period": 2026311,
+    "row_count": 1042,
+    "csv_md5": "088592290c52e7079c1ec07d43474204",
+    "normal_balls_only": true,
+    "previous_special_used_only_for_identity_label": true
+  },
+  "decision": {
+    "manual_file_md5": "6e7346cadf86005e30575f0243ae8f66",
+    "source_report": "312期网站人工选肖与开奖结构审查_20261108.md",
+    "source_report_md5": "060a632dc301ec4caf7e7b5ec1d3b19d",
+    "roles": {
+      "top_zodiac": "蛇",
+      "a_zodiac": "兔",
+      "b_zodiac": "龍",
+      "c_zodiac": "虎",
+      "d_zodiac": "馬"
+    },
+    "top_overlap_mode": "coverage",
+    "reserves": [
+      "豬"
+    ],
+    "previous_identity_zodiacs": [
+      "鼠",
+      "兔",
+      "蛇",
+      "馬",
+      "鷄",
+      "豬"
+    ],
+    "selected_previous_identity_zodiacs": [
+      "蛇",
+      "兔",
+      "馬",
+      "豬"
+    ]
+  },
+  "zodiac_mapping": {
+    "offset": 7,
+    "zodiac_to_numbers": {
+      "鼠": [
+        7,
+        19,
+        31,
+        43
+      ],
+      "牛": [
+        6,
+        18,
+        30,
+        42
+      ],
+      "虎": [
+        5,
+        17,
+        29,
+        41
+      ],
+      "兔": [
+        4,
+        16,
+        28,
+        40
+      ],
+      "龍": [
+        3,
+        15,
+        27,
+        39
+      ],
+      "蛇": [
+        2,
+        14,
+        26,
+        38
+      ],
+      "馬": [
+        1,
+        13,
+        25,
+        37,
+        49
+      ],
+      "羊": [
+        12,
+        24,
+        36,
+        48
+      ],
+      "猴": [
+        11,
+        23,
+        35,
+        47
+      ],
+      "鷄": [
+        10,
+        22,
+        34,
+        46
+      ],
+      "狗": [
+        9,
+        21,
+        33,
+        45
+      ],
+      "豬": [
+        8,
+        20,
+        32,
+        44
+      ]
+    },
+    "recent_45_consistent": true,
+    "target_boundary_requires_independent_human_check": true
+  },
+  "size_conventions": {
+    "primary_small": "01-24",
+    "primary_big": "25-49",
+    "alternative_small": "01-25",
+    "alternative_big": "26-49"
+  },
+  "null_model": {
+    "draw_from_49": 6,
+    "single_position_fixed_number": 0.02040816326530612,
+    "fixed_number_in_any_of_six": 0.12244897959183673,
+    "at_least_one_road0": 0.9207964406854323,
+    "all_three_roads": 0.7788203162856262
+  },
+  "disjoint_age_blocks": {
+    "0-9": {
+      "period_start": 2026302,
+      "period_end": 2026311,
+      "n": 10,
+      "road_0_1_2_balls": [
+        13,
+        29,
+        18
+      ],
+      "road_all3_draws": 8,
+      "at_least_one_road0_draws": 8,
+      "odd_even_balls": [
+        23,
+        37
+      ],
+      "small_1_24_big_25_49": [
+        29,
+        31
+      ],
+      "small_1_25_big_26_49": [
+        30,
+        30
+      ],
+      "red_blue_green_balls": [
+        23,
+        15,
+        22
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 6,
+        "6": 3
+      },
+      "head_0_to_4_ball_counts": [
+        10,
+        17,
+        7,
+        12,
+        14
+      ],
+      "tail_0_to_9_ball_counts": [
+        7,
+        3,
+        5,
+        8,
+        9,
+        1,
+        5,
+        1,
+        11,
+        10
+      ],
+      "sum_total": 1523,
+      "span_total": 351
+    },
+    "10-19": {
+      "period_start": 2026292,
+      "period_end": 2026301,
+      "n": 10,
+      "road_0_1_2_balls": [
+        17,
+        25,
+        18
+      ],
+      "road_all3_draws": 9,
+      "at_least_one_road0_draws": 10,
+      "odd_even_balls": [
+        34,
+        26
+      ],
+      "small_1_24_big_25_49": [
+        26,
+        34
+      ],
+      "small_1_25_big_26_49": [
+        27,
+        33
+      ],
+      "red_blue_green_balls": [
+        19,
+        20,
+        21
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 6,
+        "6": 2
+      },
+      "head_0_to_4_ball_counts": [
+        8,
+        14,
+        14,
+        11,
+        13
+      ],
+      "tail_0_to_9_ball_counts": [
+        5,
+        5,
+        7,
+        12,
+        4,
+        3,
+        4,
+        7,
+        6,
+        7
+      ],
+      "sum_total": 1540,
+      "span_total": 354
+    },
+    "20-34": {
+      "period_start": 2026277,
+      "period_end": 2026291,
+      "n": 15,
+      "road_0_1_2_balls": [
+        21,
+        28,
+        41
+      ],
+      "road_all3_draws": 11,
+      "at_least_one_road0_draws": 12,
+      "odd_even_balls": [
+        45,
+        45
+      ],
+      "small_1_24_big_25_49": [
+        45,
+        45
+      ],
+      "small_1_25_big_26_49": [
+        45,
+        45
+      ],
+      "red_blue_green_balls": [
+        34,
+        25,
+        31
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 5,
+        "6": 8
+      },
+      "head_0_to_4_ball_counts": [
+        21,
+        14,
+        21,
+        16,
+        18
+      ],
+      "tail_0_to_9_ball_counts": [
+        5,
+        10,
+        10,
+        6,
+        7,
+        8,
+        9,
+        9,
+        14,
+        12
+      ],
+      "sum_total": 2213,
+      "span_total": 538
+    },
+    "35-44": {
+      "period_start": 2026267,
+      "period_end": 2026276,
+      "n": 10,
+      "road_0_1_2_balls": [
+        20,
+        21,
+        19
+      ],
+      "road_all3_draws": 9,
+      "at_least_one_road0_draws": 9,
+      "odd_even_balls": [
+        27,
+        33
+      ],
+      "small_1_24_big_25_49": [
+        33,
+        27
+      ],
+      "small_1_25_big_26_49": [
+        36,
+        24
+      ],
+      "red_blue_green_balls": [
+        11,
+        22,
+        27
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 5,
+        "6": 5
+      },
+      "head_0_to_4_ball_counts": [
+        11,
+        13,
+        13,
+        13,
+        10
+      ],
+      "tail_0_to_9_ball_counts": [
+        6,
+        7,
+        7,
+        3,
+        7,
+        7,
+        10,
+        4,
+        3,
+        6
+      ],
+      "sum_total": 1439,
+      "span_total": 341
+    },
+    "45-59": {
+      "period_start": 2026252,
+      "period_end": 2026266,
+      "n": 15,
+      "road_0_1_2_balls": [
+        31,
+        30,
+        29
+      ],
+      "road_all3_draws": 12,
+      "at_least_one_road0_draws": 14,
+      "odd_even_balls": [
+        48,
+        42
+      ],
+      "small_1_24_big_25_49": [
+        38,
+        52
+      ],
+      "small_1_25_big_26_49": [
+        40,
+        50
+      ],
+      "red_blue_green_balls": [
+        28,
+        27,
+        35
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 9,
+        "6": 6
+      },
+      "head_0_to_4_ball_counts": [
+        18,
+        12,
+        18,
+        18,
+        24
+      ],
+      "tail_0_to_9_ball_counts": [
+        5,
+        4,
+        6,
+        14,
+        6,
+        12,
+        16,
+        9,
+        9,
+        9
+      ],
+      "sum_total": 2434,
+      "span_total": 561
+    },
+    "60-99": {
+      "period_start": 2026212,
+      "period_end": 2026251,
+      "n": 40,
+      "road_0_1_2_balls": [
+        64,
+        86,
+        90
+      ],
+      "road_all3_draws": 27,
+      "at_least_one_road0_draws": 32,
+      "odd_even_balls": [
+        131,
+        109
+      ],
+      "small_1_24_big_25_49": [
+        118,
+        122
+      ],
+      "small_1_25_big_26_49": [
+        123,
+        117
+      ],
+      "red_blue_green_balls": [
+        89,
+        71,
+        80
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 12,
+        "5": 19,
+        "6": 9
+      },
+      "head_0_to_4_ball_counts": [
+        41,
+        55,
+        56,
+        45,
+        43
+      ],
+      "tail_0_to_9_ball_counts": [
+        12,
+        25,
+        21,
+        24,
+        27,
+        16,
+        24,
+        33,
+        25,
+        33
+      ],
+      "sum_total": 5939,
+      "span_total": 1366
+    },
+    "100-249": {
+      "period_start": 2026062,
+      "period_end": 2026211,
+      "n": 150,
+      "road_0_1_2_balls": [
+        282,
+        319,
+        299
+      ],
+      "road_all3_draws": 117,
+      "at_least_one_road0_draws": 136,
+      "odd_even_balls": [
+        435,
+        465
+      ],
+      "small_1_24_big_25_49": [
+        443,
+        457
+      ],
+      "small_1_25_big_26_49": [
+        467,
+        433
+      ],
+      "red_blue_green_balls": [
+        340,
+        286,
+        274
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 31,
+        "5": 74,
+        "6": 42
+      },
+      "head_0_to_4_ball_counts": [
+        161,
+        173,
+        200,
+        178,
+        188
+      ],
+      "tail_0_to_9_ball_counts": [
+        85,
+        93,
+        93,
+        75,
+        95,
+        97,
+        94,
+        85,
+        98,
+        85
+      ],
+      "sum_total": 22667,
+      "span_total": 5306
+    }
+  },
+  "windows": {
+    "10": {
+      "period_start": 2026302,
+      "period_end": 2026311,
+      "n": 10,
+      "road_0_1_2_balls": [
+        13,
+        29,
+        18
+      ],
+      "road_all3_draws": 8,
+      "at_least_one_road0_draws": 8,
+      "odd_even_balls": [
+        23,
+        37
+      ],
+      "small_1_24_big_25_49": [
+        29,
+        31
+      ],
+      "small_1_25_big_26_49": [
+        30,
+        30
+      ],
+      "red_blue_green_balls": [
+        23,
+        15,
+        22
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 6,
+        "6": 3
+      },
+      "head_0_to_4_ball_counts": [
+        10,
+        17,
+        7,
+        12,
+        14
+      ],
+      "tail_0_to_9_ball_counts": [
+        7,
+        3,
+        5,
+        8,
+        9,
+        1,
+        5,
+        1,
+        11,
+        10
+      ],
+      "sum_total": 1523,
+      "span_total": 351
+    },
+    "20": {
+      "period_start": 2026292,
+      "period_end": 2026311,
+      "n": 20,
+      "road_0_1_2_balls": [
+        30,
+        54,
+        36
+      ],
+      "road_all3_draws": 17,
+      "at_least_one_road0_draws": 18,
+      "odd_even_balls": [
+        57,
+        63
+      ],
+      "small_1_24_big_25_49": [
+        55,
+        65
+      ],
+      "small_1_25_big_26_49": [
+        57,
+        63
+      ],
+      "red_blue_green_balls": [
+        42,
+        35,
+        43
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 12,
+        "6": 5
+      },
+      "head_0_to_4_ball_counts": [
+        18,
+        31,
+        21,
+        23,
+        27
+      ],
+      "tail_0_to_9_ball_counts": [
+        12,
+        8,
+        12,
+        20,
+        13,
+        4,
+        9,
+        8,
+        17,
+        17
+      ],
+      "sum_total": 3063,
+      "span_total": 705
+    },
+    "35": {
+      "period_start": 2026277,
+      "period_end": 2026311,
+      "n": 35,
+      "road_0_1_2_balls": [
+        51,
+        82,
+        77
+      ],
+      "road_all3_draws": 28,
+      "at_least_one_road0_draws": 30,
+      "odd_even_balls": [
+        102,
+        108
+      ],
+      "small_1_24_big_25_49": [
+        100,
+        110
+      ],
+      "small_1_25_big_26_49": [
+        102,
+        108
+      ],
+      "red_blue_green_balls": [
+        76,
+        60,
+        74
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 5,
+        "5": 17,
+        "6": 13
+      },
+      "head_0_to_4_ball_counts": [
+        39,
+        45,
+        42,
+        39,
+        45
+      ],
+      "tail_0_to_9_ball_counts": [
+        17,
+        18,
+        22,
+        26,
+        20,
+        12,
+        18,
+        17,
+        31,
+        29
+      ],
+      "sum_total": 5276,
+      "span_total": 1243
+    },
+    "40": {
+      "period_start": 2026272,
+      "period_end": 2026311,
+      "n": 40,
+      "road_0_1_2_balls": [
+        63,
+        91,
+        86
+      ],
+      "road_all3_draws": 33,
+      "at_least_one_road0_draws": 35,
+      "odd_even_balls": [
+        116,
+        124
+      ],
+      "small_1_24_big_25_49": [
+        115,
+        125
+      ],
+      "small_1_25_big_26_49": [
+        118,
+        122
+      ],
+      "red_blue_green_balls": [
+        80,
+        71,
+        89
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 5,
+        "5": 20,
+        "6": 15
+      },
+      "head_0_to_4_ball_counts": [
+        45,
+        52,
+        46,
+        45,
+        52
+      ],
+      "tail_0_to_9_ball_counts": [
+        19,
+        21,
+        26,
+        29,
+        24,
+        15,
+        23,
+        20,
+        32,
+        31
+      ],
+      "sum_total": 6014,
+      "span_total": 1418
+    },
+    "45": {
+      "period_start": 2026267,
+      "period_end": 2026311,
+      "n": 45,
+      "road_0_1_2_balls": [
+        71,
+        103,
+        96
+      ],
+      "road_all3_draws": 37,
+      "at_least_one_road0_draws": 39,
+      "odd_even_balls": [
+        129,
+        141
+      ],
+      "small_1_24_big_25_49": [
+        133,
+        137
+      ],
+      "small_1_25_big_26_49": [
+        138,
+        132
+      ],
+      "red_blue_green_balls": [
+        87,
+        82,
+        101
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 5,
+        "5": 22,
+        "6": 18
+      },
+      "head_0_to_4_ball_counts": [
+        50,
+        58,
+        55,
+        52,
+        55
+      ],
+      "tail_0_to_9_ball_counts": [
+        23,
+        25,
+        29,
+        29,
+        27,
+        19,
+        28,
+        21,
+        34,
+        35
+      ],
+      "sum_total": 6715,
+      "span_total": 1584
+    },
+    "60": {
+      "period_start": 2026252,
+      "period_end": 2026311,
+      "n": 60,
+      "road_0_1_2_balls": [
+        102,
+        133,
+        125
+      ],
+      "road_all3_draws": 49,
+      "at_least_one_road0_draws": 53,
+      "odd_even_balls": [
+        177,
+        183
+      ],
+      "small_1_24_big_25_49": [
+        171,
+        189
+      ],
+      "small_1_25_big_26_49": [
+        178,
+        182
+      ],
+      "red_blue_green_balls": [
+        115,
+        109,
+        136
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 5,
+        "5": 31,
+        "6": 24
+      },
+      "head_0_to_4_ball_counts": [
+        68,
+        70,
+        73,
+        70,
+        79
+      ],
+      "tail_0_to_9_ball_counts": [
+        28,
+        29,
+        35,
+        43,
+        33,
+        31,
+        44,
+        30,
+        43,
+        44
+      ],
+      "sum_total": 9149,
+      "span_total": 2145
+    },
+    "100": {
+      "period_start": 2026212,
+      "period_end": 2026311,
+      "n": 100,
+      "road_0_1_2_balls": [
+        166,
+        219,
+        215
+      ],
+      "road_all3_draws": 76,
+      "at_least_one_road0_draws": 85,
+      "odd_even_balls": [
+        308,
+        292
+      ],
+      "small_1_24_big_25_49": [
+        289,
+        311
+      ],
+      "small_1_25_big_26_49": [
+        301,
+        299
+      ],
+      "red_blue_green_balls": [
+        204,
+        180,
+        216
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 17,
+        "5": 50,
+        "6": 33
+      },
+      "head_0_to_4_ball_counts": [
+        109,
+        125,
+        129,
+        115,
+        122
+      ],
+      "tail_0_to_9_ball_counts": [
+        40,
+        54,
+        56,
+        67,
+        60,
+        47,
+        68,
+        63,
+        68,
+        77
+      ],
+      "sum_total": 15088,
+      "span_total": 3511
+    },
+    "250": {
+      "period_start": 2026062,
+      "period_end": 2026311,
+      "n": 250,
+      "road_0_1_2_balls": [
+        448,
+        538,
+        514
+      ],
+      "road_all3_draws": 193,
+      "at_least_one_road0_draws": 221,
+      "odd_even_balls": [
+        743,
+        757
+      ],
+      "small_1_24_big_25_49": [
+        732,
+        768
+      ],
+      "small_1_25_big_26_49": [
+        768,
+        732
+      ],
+      "red_blue_green_balls": [
+        544,
+        466,
+        490
+      ],
+      "distinct_zodiac_draws": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 48,
+        "5": 124,
+        "6": 75
+      },
+      "head_0_to_4_ball_counts": [
+        270,
+        298,
+        329,
+        293,
+        310
+      ],
+      "tail_0_to_9_ball_counts": [
+        125,
+        147,
+        149,
+        142,
+        155,
+        144,
+        162,
+        148,
+        166,
+        162
+      ],
+      "sum_total": 37755,
+      "span_total": 8817
+    }
+  },
+  "universe": {
+    "zodiacs": [
+      "蛇",
+      "兔",
+      "虎",
+      "龍",
+      "馬",
+      "豬"
+    ],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      25,
+      26,
+      27,
+      28,
+      29,
+      32,
+      37,
+      38,
+      39,
+      40,
+      41,
+      44,
+      49
+    ],
+    "number_count": 25,
+    "category_counts": {
+      "road0": 4,
+      "road1": 9,
+      "road2": 12,
+      "odd": 13,
+      "even": 12,
+      "small_1_24": 12,
+      "big_25_49": 13,
+      "small_1_25": 13,
+      "big_26_49": 12,
+      "red": 6,
+      "blue": 9,
+      "green": 10
+    },
+    "road_category_sizes": [
+      16,
+      17,
+      16
+    ],
+    "selected_numbers_as_fraction_of_each_road": [
+      0.25,
+      0.5294117647058824,
+      0.75
+    ],
+    "null_expected_selected_numbers_in_six": 3.061224489795918,
+    "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2126097769020988,
+    "head_counts": [
+      6,
+      5,
+      6,
+      4,
+      4
+    ],
+    "tail_counts": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  "display": {
+    "zodiacs": [
+      "蛇",
+      "兔",
+      "龍",
+      "虎",
+      "馬"
+    ],
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      13,
+      14,
+      15,
+      16,
+      17,
+      25,
+      26,
+      27,
+      28,
+      29,
+      37,
+      38,
+      39,
+      40,
+      41,
+      49
+    ],
+    "number_count": 21,
+    "category_counts": {
+      "road0": 4,
+      "road1": 9,
+      "road2": 8,
+      "odd": 13,
+      "even": 8,
+      "small_1_24": 10,
+      "big_25_49": 11,
+      "small_1_25": 11,
+      "big_26_49": 10,
+      "red": 5,
+      "blue": 8,
+      "green": 8
+    },
+    "road_category_sizes": [
+      16,
+      17,
+      16
+    ],
+    "selected_numbers_as_fraction_of_each_road": [
+      0.25,
+      0.5294117647058824,
+      0.5
+    ],
+    "null_expected_selected_numbers_in_six": 2.5714285714285716,
+    "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+    "head_counts": [
+      5,
+      5,
+      5,
+      3,
+      3
+    ],
+    "tail_counts": [
+      1,
+      2,
+      1,
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3
+    ]
+  },
+  "limitations": [
+    "same draws recur in overlapping windows",
+    "structure descriptors are dependent",
+    "category coverage is not a completed-column probability or evidence of predictability",
+    "no LCG or automatic selection",
+    "verify target zodiac-year mapping independently"
+  ],
+  "self_sha256": "79615a5b41eaaf9dda8e45c03649e18adf079f7495e9450d4f9f5cb68898f5da"
+}

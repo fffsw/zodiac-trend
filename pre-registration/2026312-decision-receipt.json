@@ -1,0 +1,26 @@
+{
+  "target": 2026312,
+  "decided_at": "2026-11-08T04:26:08+08:00",
+  "manual_sha256": "babcbe1bcd5313f46834fa31090c52e1085887e076b3d8fb2aa88d949f0c00d6",
+  "source_report_sha256": "b05b97be40c9d8881ae30e30f971635f43a257da10025a797f9c62e764558c78",
+  "candidate_audit_sha256": "3cd837ebe399e99aad9980c2cdc37006fbd39b2f2adf36025f98994ae63095eb",
+  "enhanced_predraw_stage": "fresh_before_decision",
+  "enhanced_predraw_observed_at_cst": "2026-11-08T04:22:45+08:00",
+  "old_decisions_unchanged": true,
+  "role_zodiacs": {
+    "top": "蛇",
+    "a": "兔",
+    "b": "龍",
+    "c": "虎",
+    "d": "馬"
+  },
+  "universe": [
+    "蛇",
+    "兔",
+    "虎",
+    "龍",
+    "馬",
+    "豬"
+  ],
+  "note": "Manual decision and source checksums are not independent timestamps or signatures."
+}

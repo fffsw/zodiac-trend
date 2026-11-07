@@ -1,0 +1,5 @@
+BUTTON btnMaxZod 单肖展示/蛇 PASS
+BUTTON btnT33 三中三/兔/虎/馬 PASS
+BUTTON btnE22 二中二/兔/龍 PASS
+Disclaimer and visible button render PASS (minimal DOM, not a real browser)
+TASK241_RENDER_BUTTONS PASS
