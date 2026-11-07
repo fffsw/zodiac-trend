@@ -1,0 +1,32 @@
+{
+  "target": 2026312,
+  "revision": "rev1",
+  "decided_at_cst": "2026-11-08T05:51:08+08:00",
+  "source_stage": "data/task242_312_revision_predraw_before_decision.json",
+  "candidate_id": "chicken_reserve_horse_B_dragon_D",
+  "report_sha256": "5e2461263bfa4c2de0c05e9a1e99dfd11a23d06a67064d8ad914d4226acb8f3e",
+  "candidate_audit_sha256": "a7fdec1a14a97c82a68cec3b9e133a1986031945d3e87669ce5d787b9780b9f2",
+  "old_manual_sha256": "babcbe1bcd5313f46834fa31090c52e1085887e076b3d8fb2aa88d949f0c00d6",
+  "new_manual_sha256": "fa550f76a3b2ca6e983e29cce48fa4d536c7c4f2e6eea45e5716631797393372",
+  "data_md5": "f91c57bb50f3c4c36965274eb5f66b11",
+  "original_prereg_self_md5": "389d672404eb839eb7a4e4f1b62c3bc9",
+  "roles": {
+    "top": "蛇",
+    "A": "兔",
+    "B": "馬",
+    "C": "虎",
+    "D": "龍"
+  },
+  "universe": [
+    "蛇",
+    "兔",
+    "虎",
+    "龍",
+    "馬",
+    "鷄"
+  ],
+  "reserve": [
+    "鷄"
+  ],
+  "notes": "Human choice, not a backtest or lottery; local clocks and source checks are not independently trusted timestamps."
+}

@@ -1,0 +1,5 @@
+NEGATIVE missing 312 manual decision: prereg rejected, no file created: PASS
+NEGATIVE site-only prereg with default mixed-mode settlement: rejected without special output: PASS
+POSITIVE site-only settlement: correct 311 normal-six result; no special lines: PASS
+Protected prereg309/311, official settlement, manual decisions unchanged: PASS
+TASK242_REV1_SITE_ONLY_SCOPE_TEST PASS

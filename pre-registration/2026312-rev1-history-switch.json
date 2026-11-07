@@ -1,0 +1,28 @@
+{
+  "target": 2026312,
+  "revision": "rev1",
+  "action": "explicit_rolling_history_reconciliation_not_original_freeze_mutation",
+  "changed_at_cst": "2026-11-08T05:51:08+08:00",
+  "source_check": "data/task242_312_revision_predraw_before_decision.json",
+  "old": {
+    "md5": "088592290c52e7079c1ec07d43474204",
+    "sha256": "a3d2189924987b2f7c1492ec83c003dece5f82f3eb0aec128998b9472db10c24"
+  },
+  "new": {
+    "md5": "f91c57bb50f3c4c36965274eb5f66b11",
+    "sha256": "cb2170f99d4ce5b3b5378641e6725c891834ff92086385084e8471e1723d96d0"
+  },
+  "changed_periods": [
+    2024294,
+    2025029,
+    2025030,
+    2025031,
+    2025115,
+    2026112,
+    2026276
+  ],
+  "old_snapshot": "archive/target312_preparation_20261108/before_312_snapshot/current/data/macau_mark_six_full.csv",
+  "old_public_source": "deploy/pre-registration/2026312-source-data.csv",
+  "new_rolling_revision_input": "data/task242_1042_reconciled_history.csv",
+  "limits": "Reconciled public displays may share upstream, not official independent certification; hashes are not trusted timestamps."
+}

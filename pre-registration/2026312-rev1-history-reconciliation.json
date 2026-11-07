@@ -1,0 +1,1052 @@
+{
+  "created_cst": "2026-11-08T05:42:49+08:00",
+  "source_csv": "data/macau_mark_six_full.csv",
+  "source_csv_md5": "088592290c52e7079c1ec07d43474204",
+  "corrected_csv": "data/task242_1042_reconciled_history.csv",
+  "corrected_csv_md5": "f91c57bb50f3c4c36965274eb5f66b11",
+  "corrected_csv_sha256": "cb2170f99d4ce5b3b5378641e6725c891834ff92086385084e8471e1723d96d0",
+  "difference_csv": "data/task242_historical_row_diffs.csv",
+  "difference_csv_sha256": "346db6fedf7846111ec2d9a972bff79902ad433aaa3c8c37eed36925f5a8acf4",
+  "rows": 1042,
+  "all_rows_primary_vs_second_number_date_zodiac_match": true,
+  "third_year_index_numbers_verified": {
+    "2025": 365,
+    "2026": 311
+  },
+  "api_year_extra_records_removed_after_year_filter": {
+    "2024": {
+      "matching_year_rows": 366,
+      "excluded_other_year_count": 1,
+      "excluded_other_year_periods": [
+        "2023004"
+      ]
+    },
+    "2025": {
+      "matching_year_rows": 365,
+      "excluded_other_year_count": 0,
+      "excluded_other_year_periods": []
+    },
+    "2026": {
+      "matching_year_rows": 311,
+      "excluded_other_year_count": 55,
+      "excluded_other_year_periods": [
+        "2025365",
+        "2025364",
+        "2025363",
+        "2025362",
+        "2025361",
+        "2025360",
+        "2025359",
+        "2025358",
+        "2025357",
+        "2025356",
+        "2025355",
+        "2025354",
+        "2025353",
+        "2025352",
+        "2025351",
+        "2025350",
+        "2025349",
+        "2025348",
+        "2025347",
+        "2025346",
+        "2025345",
+        "2025344",
+        "2025343",
+        "2025342",
+        "2025341",
+        "2025340",
+        "2025339",
+        "2025338",
+        "2025337",
+        "2025336",
+        "2025335",
+        "2025334",
+        "2025333",
+        "2025332",
+        "2025331",
+        "2025330",
+        "2025329",
+        "2025328",
+        "2025327",
+        "2025326",
+        "2025325",
+        "2025324",
+        "2025323",
+        "2025322",
+        "2025321",
+        "2025320",
+        "2025319",
+        "2025318",
+        "2025317",
+        "2025316",
+        "2025315",
+        "2025314",
+        "2025313",
+        "2025312",
+        "2025311"
+      ]
+    }
+  },
+  "kj_alias_records": [
+    {
+      "period": "2026216",
+      "title": "新澳门六合彩 2026年08月04日 第 216 期"
+    }
+  ],
+  "kj_disagreements": {
+    "2024294": {
+      "display": {
+        "date": "2024-10-21",
+        "numbers": [
+          36,
+          13,
+          11,
+          15,
+          26,
+          27,
+          48
+        ],
+        "zodiacs": [
+          "蛇",
+          "龍",
+          "馬",
+          "虎",
+          "兔",
+          "虎",
+          "蛇"
+        ]
+      },
+      "api": {
+        "date": "2024-10-20",
+        "numbers": [
+          36,
+          13,
+          11,
+          15,
+          26,
+          27,
+          48
+        ],
+        "zodiacs": [
+          "蛇",
+          "龍",
+          "馬",
+          "虎",
+          "兔",
+          "虎",
+          "蛇"
+        ]
+      }
+    },
+    "2025115": {
+      "display": {
+        "date": "2025-04-25",
+        "numbers": [
+          21,
+          16,
+          25,
+          29,
+          8,
+          7,
+          4
+        ],
+        "zodiacs": [
+          "鷄",
+          "虎",
+          "蛇",
+          "牛",
+          "狗",
+          "豬",
+          "虎"
+        ]
+      },
+      "api": {
+        "date": "2025-04-25",
+        "numbers": [
+          14,
+          7,
+          9,
+          22,
+          10,
+          4,
+          3
+        ],
+        "zodiacs": [
+          "龍",
+          "豬",
+          "鷄",
+          "猴",
+          "猴",
+          "虎",
+          "兔"
+        ]
+      }
+    },
+    "2025031": {
+      "display": {
+        "date": "2025-01-31",
+        "numbers": [
+          24,
+          23,
+          8,
+          24,
+          33,
+          25,
+          22
+        ],
+        "zodiacs": [
+          "馬",
+          "羊",
+          "狗",
+          "馬",
+          "鷄",
+          "蛇",
+          "猴"
+        ]
+      },
+      "api": {
+        "date": "2025-01-31",
+        "numbers": [
+          30,
+          23,
+          8,
+          24,
+          33,
+          25,
+          22
+        ],
+        "zodiacs": [
+          "鼠",
+          "羊",
+          "狗",
+          "馬",
+          "鷄",
+          "蛇",
+          "猴"
+        ]
+      }
+    },
+    "2025030": {
+      "display": {
+        "date": "2025-01-30",
+        "numbers": [
+          8,
+          29,
+          23,
+          45,
+          44,
+          46,
+          25
+        ],
+        "zodiacs": [
+          "狗",
+          "牛",
+          "羊",
+          "鷄",
+          "狗",
+          "猴",
+          "蛇"
+        ]
+      },
+      "api": {
+        "date": "2025-01-30",
+        "numbers": [
+          27,
+          39,
+          23,
+          45,
+          44,
+          46,
+          25
+        ],
+        "zodiacs": [
+          "兔",
+          "兔",
+          "羊",
+          "鷄",
+          "狗",
+          "猴",
+          "蛇"
+        ]
+      }
+    },
+    "2025029": {
+      "display": {
+        "date": "2025-01-29",
+        "numbers": [
+          29,
+          49,
+          3,
+          35,
+          43,
+          10,
+          13
+        ],
+        "zodiacs": [
+          "牛",
+          "蛇",
+          "兔",
+          "羊",
+          "豬",
+          "猴",
+          "蛇"
+        ]
+      },
+      "api": {
+        "date": "2025-01-29",
+        "numbers": [
+          14,
+          46,
+          3,
+          35,
+          43,
+          10,
+          13
+        ],
+        "zodiacs": [
+          "龍",
+          "猴",
+          "兔",
+          "羊",
+          "豬",
+          "猴",
+          "蛇"
+        ]
+      }
+    },
+    "2026276": {
+      "display": {
+        "date": "2026-10-03",
+        "numbers": [
+          41,
+          21,
+          17,
+          40,
+          11,
+          24,
+          14
+        ],
+        "zodiacs": [
+          "虎",
+          "狗",
+          "虎",
+          "兔",
+          "猴",
+          "羊",
+          "蛇"
+        ]
+      },
+      "api": {
+        "date": "2026-10-03",
+        "numbers": [
+          2,
+          21,
+          17,
+          40,
+          11,
+          24,
+          14
+        ],
+        "zodiacs": [
+          "蛇",
+          "狗",
+          "虎",
+          "兔",
+          "猴",
+          "羊",
+          "蛇"
+        ]
+      }
+    },
+    "2026112": {
+      "display": {
+        "date": "2026-04-22",
+        "numbers": [
+          18,
+          23,
+          15,
+          22,
+          25,
+          45,
+          1
+        ],
+        "zodiacs": [
+          "牛",
+          "猴",
+          "龍",
+          "鷄",
+          "馬",
+          "狗",
+          "馬"
+        ]
+      },
+      "api": {
+        "date": "2026-04-22",
+        "numbers": [
+          15,
+          19,
+          30,
+          7,
+          44,
+          10,
+          9
+        ],
+        "zodiacs": [
+          "龍",
+          "鼠",
+          "牛",
+          "鼠",
+          "豬",
+          "鷄",
+          "狗"
+        ]
+      }
+    }
+  },
+  "modified_periods": [
+    "2024294",
+    "2025029",
+    "2025030",
+    "2025031",
+    "2025115",
+    "2026112",
+    "2026276"
+  ],
+  "diffs": [
+    {
+      "period": "2024294",
+      "changes": {
+        "date": {
+          "old": "2024-10-21",
+          "reconciled": "2024-10-20"
+        }
+      },
+      "old_normal": [
+        36,
+        13,
+        11,
+        15,
+        26,
+        27
+      ],
+      "new_normal": [
+        36,
+        13,
+        11,
+        15,
+        26,
+        27
+      ],
+      "old_normal_zodiac": [
+        "蛇",
+        "龍",
+        "馬",
+        "虎",
+        "兔",
+        "虎"
+      ],
+      "new_normal_zodiac": [
+        "蛇",
+        "龍",
+        "馬",
+        "虎",
+        "兔",
+        "虎"
+      ],
+      "old_special": 48,
+      "new_special": 48
+    },
+    {
+      "period": "2025029",
+      "changes": {
+        "n1": {
+          "old": "29",
+          "reconciled": "14"
+        },
+        "n2": {
+          "old": "49",
+          "reconciled": "46"
+        },
+        "w1": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "w2": {
+          "old": "绿",
+          "reconciled": "红"
+        },
+        "z1": {
+          "old": "牛",
+          "reconciled": "龍"
+        },
+        "z2": {
+          "old": "蛇",
+          "reconciled": "猴"
+        }
+      },
+      "old_normal": [
+        29,
+        49,
+        3,
+        35,
+        43,
+        10
+      ],
+      "new_normal": [
+        14,
+        46,
+        3,
+        35,
+        43,
+        10
+      ],
+      "old_normal_zodiac": [
+        "牛",
+        "蛇",
+        "兔",
+        "羊",
+        "豬",
+        "猴"
+      ],
+      "new_normal_zodiac": [
+        "龍",
+        "猴",
+        "兔",
+        "羊",
+        "豬",
+        "猴"
+      ],
+      "old_special": 13,
+      "new_special": 13
+    },
+    {
+      "period": "2025030",
+      "changes": {
+        "n1": {
+          "old": "8",
+          "reconciled": "27"
+        },
+        "n2": {
+          "old": "29",
+          "reconciled": "39"
+        },
+        "w1": {
+          "old": "红",
+          "reconciled": "绿"
+        },
+        "w2": {
+          "old": "红",
+          "reconciled": "绿"
+        },
+        "z1": {
+          "old": "狗",
+          "reconciled": "兔"
+        },
+        "z2": {
+          "old": "牛",
+          "reconciled": "兔"
+        }
+      },
+      "old_normal": [
+        8,
+        29,
+        23,
+        45,
+        44,
+        46
+      ],
+      "new_normal": [
+        27,
+        39,
+        23,
+        45,
+        44,
+        46
+      ],
+      "old_normal_zodiac": [
+        "狗",
+        "牛",
+        "羊",
+        "鷄",
+        "狗",
+        "猴"
+      ],
+      "new_normal_zodiac": [
+        "兔",
+        "兔",
+        "羊",
+        "鷄",
+        "狗",
+        "猴"
+      ],
+      "old_special": 25,
+      "new_special": 25
+    },
+    {
+      "period": "2025031",
+      "changes": {
+        "n1": {
+          "old": "24",
+          "reconciled": "30"
+        },
+        "n4": {
+          "old": "12",
+          "reconciled": "24"
+        },
+        "z1": {
+          "old": "馬",
+          "reconciled": "鼠"
+        }
+      },
+      "old_normal": [
+        24,
+        23,
+        8,
+        12,
+        33,
+        25
+      ],
+      "new_normal": [
+        30,
+        23,
+        8,
+        24,
+        33,
+        25
+      ],
+      "old_normal_zodiac": [
+        "馬",
+        "羊",
+        "狗",
+        "馬",
+        "鷄",
+        "蛇"
+      ],
+      "new_normal_zodiac": [
+        "鼠",
+        "羊",
+        "狗",
+        "馬",
+        "鷄",
+        "蛇"
+      ],
+      "old_special": 22,
+      "new_special": 22
+    },
+    {
+      "period": "2025115",
+      "changes": {
+        "n1": {
+          "old": "21",
+          "reconciled": "14"
+        },
+        "n2": {
+          "old": "16",
+          "reconciled": "07"
+        },
+        "n3": {
+          "old": "25",
+          "reconciled": "09"
+        },
+        "n4": {
+          "old": "29",
+          "reconciled": "22"
+        },
+        "n5": {
+          "old": "8",
+          "reconciled": "10"
+        },
+        "n6": {
+          "old": "7",
+          "reconciled": "4"
+        },
+        "w1": {
+          "old": "绿",
+          "reconciled": "蓝"
+        },
+        "w2": {
+          "old": "绿",
+          "reconciled": "红"
+        },
+        "w4": {
+          "old": "红",
+          "reconciled": "绿"
+        },
+        "w5": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "w6": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "z1": {
+          "old": "鷄",
+          "reconciled": "龍"
+        },
+        "z2": {
+          "old": "虎",
+          "reconciled": "豬"
+        },
+        "z3": {
+          "old": "蛇",
+          "reconciled": "鷄"
+        },
+        "z4": {
+          "old": "牛",
+          "reconciled": "猴"
+        },
+        "z5": {
+          "old": "狗",
+          "reconciled": "猴"
+        },
+        "z6": {
+          "old": "豬",
+          "reconciled": "虎"
+        },
+        "special": {
+          "old": "4",
+          "reconciled": "3"
+        },
+        "special_zodiac": {
+          "old": "虎",
+          "reconciled": "兔"
+        }
+      },
+      "old_normal": [
+        21,
+        16,
+        25,
+        29,
+        8,
+        7
+      ],
+      "new_normal": [
+        14,
+        7,
+        9,
+        22,
+        10,
+        4
+      ],
+      "old_normal_zodiac": [
+        "鷄",
+        "虎",
+        "蛇",
+        "牛",
+        "狗",
+        "豬"
+      ],
+      "new_normal_zodiac": [
+        "龍",
+        "豬",
+        "鷄",
+        "猴",
+        "猴",
+        "虎"
+      ],
+      "old_special": 4,
+      "new_special": 3
+    },
+    {
+      "period": "2026112",
+      "changes": {
+        "n1": {
+          "old": "18",
+          "reconciled": "15"
+        },
+        "n2": {
+          "old": "23",
+          "reconciled": "19"
+        },
+        "n3": {
+          "old": "15",
+          "reconciled": "30"
+        },
+        "n4": {
+          "old": "22",
+          "reconciled": "07"
+        },
+        "n5": {
+          "old": "25",
+          "reconciled": "44"
+        },
+        "n6": {
+          "old": "45",
+          "reconciled": "10"
+        },
+        "w1": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "w3": {
+          "old": "蓝",
+          "reconciled": "红"
+        },
+        "w4": {
+          "old": "绿",
+          "reconciled": "红"
+        },
+        "w5": {
+          "old": "蓝",
+          "reconciled": "绿"
+        },
+        "w6": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "z1": {
+          "old": "牛",
+          "reconciled": "龍"
+        },
+        "z2": {
+          "old": "猴",
+          "reconciled": "鼠"
+        },
+        "z3": {
+          "old": "龍",
+          "reconciled": "牛"
+        },
+        "z4": {
+          "old": "鷄",
+          "reconciled": "鼠"
+        },
+        "z5": {
+          "old": "馬",
+          "reconciled": "豬"
+        },
+        "z6": {
+          "old": "狗",
+          "reconciled": "鷄"
+        },
+        "special": {
+          "old": "1",
+          "reconciled": "9"
+        },
+        "special_wave": {
+          "old": "红",
+          "reconciled": "蓝"
+        },
+        "special_zodiac": {
+          "old": "馬",
+          "reconciled": "狗"
+        }
+      },
+      "old_normal": [
+        18,
+        23,
+        15,
+        22,
+        25,
+        45
+      ],
+      "new_normal": [
+        15,
+        19,
+        30,
+        7,
+        44,
+        10
+      ],
+      "old_normal_zodiac": [
+        "牛",
+        "猴",
+        "龍",
+        "鷄",
+        "馬",
+        "狗"
+      ],
+      "new_normal_zodiac": [
+        "龍",
+        "鼠",
+        "牛",
+        "鼠",
+        "豬",
+        "鷄"
+      ],
+      "old_special": 1,
+      "new_special": 9
+    },
+    {
+      "period": "2026276",
+      "changes": {
+        "n1": {
+          "old": "41",
+          "reconciled": "02"
+        },
+        "w1": {
+          "old": "蓝",
+          "reconciled": "红"
+        },
+        "z1": {
+          "old": "虎",
+          "reconciled": "蛇"
+        }
+      },
+      "old_normal": [
+        41,
+        21,
+        17,
+        40,
+        11,
+        24
+      ],
+      "new_normal": [
+        2,
+        21,
+        17,
+        40,
+        11,
+        24
+      ],
+      "old_normal_zodiac": [
+        "虎",
+        "狗",
+        "虎",
+        "兔",
+        "猴",
+        "羊"
+      ],
+      "new_normal_zodiac": [
+        "蛇",
+        "狗",
+        "虎",
+        "兔",
+        "猴",
+        "羊"
+      ],
+      "old_special": 14,
+      "new_special": 14
+    }
+  ],
+  "primary_verify_field_counts": {
+    "False": 1042
+  },
+  "internal_integrity": "1042 unique sequential issue numbers, dates after documented reconciliation, all 7 values unique, 4 year-mapping transitions, 49-number colors verified",
+  "sources": {
+    "api_2024": {
+      "requested_url": "https://history.macaumarksix.com/history/macaujc2/y/2024?_audit=487eae5cfaa04132b39acb8f0f522073",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2024",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:38 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/api_2024.json.gz",
+      "raw_sha256": "bee02041b0627c108168c426e0748bf853fa849c509a4232cb50a768c84cc53d",
+      "gzip_sha256": "500444a051d4204b876f414610d33b5fd67c340a4bf8c335613f4adcedeb23a5",
+      "raw_bytes": 163753
+    },
+    "api_2025": {
+      "requested_url": "https://history.macaumarksix.com/history/macaujc2/y/2025?_audit=bb915e17871f40de94a5baef1b8b8f3a",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2025",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:38 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/api_2025.json.gz",
+      "raw_sha256": "6960443d4f47f6bb0e8ae94eeb9522ccde4021c828dc7ca1e8c2f34252a832bc",
+      "gzip_sha256": "7133efe64cceeace0301aa447e936410995578275b967192b11ed6ac9e2a7b17",
+      "raw_bytes": 162786
+    },
+    "api_2026": {
+      "requested_url": "https://history.macaumarksix.com/history/macaujc2/y/2026?_audit=e4e208c2773f495d8f933dd567563e19",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:38 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/api_2026.json.gz",
+      "raw_sha256": "fcbc2c7122327eac14a0d86286c1e9609ea2eff7417db3a86c2feb529f55b7e8",
+      "gzip_sha256": "3306b3378e7684718c208e1048008b8486f15acc7bbfb5e4fd5213ca9d19a762",
+      "raw_bytes": 163251
+    },
+    "newmc_2024": {
+      "requested_url": "https://new.mc49.xyz/macao-index-1.html?year=2024&_audit=09ec9c439a9145b9b45de312cb54d5c4",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:38 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2024.html.gz",
+      "raw_sha256": "b327ddb8d0eef2e1e80224ba3f2a6d3f42285609710ac4d71839dc97cb190275",
+      "gzip_sha256": "442fcfdf1782334b0209f1d011afb676c527e76e05d6935f120fdfd5f583979b",
+      "raw_bytes": 269194
+    },
+    "newmc_2025": {
+      "requested_url": "https://new.mc49.xyz/macao-index-1.html?year=2025&_audit=0e035b90795b4cc7a12c24463fd2a755",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:39+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:39 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2025.html.gz",
+      "raw_sha256": "5bdbfaee87c052e4935b201df7d36c8316e2187d75bd4bc0d214e0205109f6ef",
+      "gzip_sha256": "7afd3546037fdb1f88520aa7ff42811c0a3ee5e7386788ba8b2ea359237d7c91",
+      "raw_bytes": 268483
+    },
+    "newmc_2026": {
+      "requested_url": "https://new.mc49.xyz/macao-index-1.html?year=2026&_audit=a73da7f0547e46b4b6c13110e6624805",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:39+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:39 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2026.html.gz",
+      "raw_sha256": "fe247a8c04c4fc4b23a2cf14e6e8accde66dc459013b485d6699d459154befbb",
+      "gzip_sha256": "768d8c6afde2decb4a5c8d3fb6921933ca4460a723630dcc1139f5ce16373a4d",
+      "raw_bytes": 229888
+    },
+    "181649_2025": {
+      "requested_url": "https://181649.com/year/2025?_audit=15017458aa154934b2bc4468e896627c",
+      "source_url": "https://181649.com/year/2025",
+      "retrieved_cst": "2026-11-08T05:42:40+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:40 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/181649_2025.html.gz",
+      "raw_sha256": "124601d48791dc3e77480797977da7ae4bc15e6836a198dc2849cd9dce2217f5",
+      "gzip_sha256": "51c986f3e737797d1305f7662858a1eb65b9b6d01ca2a369c3bcd2f2b256593a",
+      "raw_bytes": 273665
+    },
+    "181649_2026": {
+      "requested_url": "https://181649.com/year/2026?_audit=5652c9576f3c434a851e51c403c5ffaa",
+      "source_url": "https://181649.com/year/2026",
+      "retrieved_cst": "2026-11-08T05:42:41+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:41 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/181649_2026.html.gz",
+      "raw_sha256": "c75e4d5fff084dedeabc90de6111f2637525570504d2c9ce3df0813554abfb10",
+      "gzip_sha256": "904d55205f24e95f16e05423a2407b5b197e8daed54e279307499884bce29203",
+      "raw_bytes": 238560
+    },
+    "kj10260_2024": {
+      "requested_url": "https://kj.10260.net/kj/history/2033.html?year=2024&_audit=67674c5d83c94126951ea6803d6bb803",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:42+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:41 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2024.html.gz",
+      "raw_sha256": "b9ad2daf2994001ad38678a7cada429f8c7b9a64ea341eeb6e8dac35976161a5",
+      "gzip_sha256": "239d8ba239598dde8c42facefac9c4111213a622fd955e29859318aa2fbb4748",
+      "raw_bytes": 3638536
+    },
+    "kj10260_2025": {
+      "requested_url": "https://kj.10260.net/kj/history/2033.html?year=2025&_audit=22357ec1d0da4d1089e3264ea439d706",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:44+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:44 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2025.html.gz",
+      "raw_sha256": "73a28bae9bb0ac7028362595a3a633bb07c4892461f2cd6a9aff0ad1b01f3c46",
+      "gzip_sha256": "9786ca938de945cd91185c5aa2fb9218abb0438f07ec1114cfae34749b3c4ba6",
+      "raw_bytes": 3628666
+    },
+    "kj10260_2026": {
+      "requested_url": "https://kj.10260.net/kj/history/2033.html?year=2026&_audit=789dd5a383bf4a0092d03128596693e4",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:47+08:00",
+      "http_date": "Sat, 07 Nov 2026 21:42:46 GMT",
+      "status": 200,
+      "path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2026.html.gz",
+      "raw_sha256": "ebee4af97a94937ac9d8a07066de9ca6efd464e672ad3f25f6219151f1e90cd7",
+      "gzip_sha256": "0518544938c9f174fe197c4f5b71683be53402534b2b2271782d5755fb0b3441",
+      "raw_bytes": 3103406
+    }
+  },
+  "important_limitation": "The API, history displays and third index may share an upstream. No official independent certification. kj10260 conflicts on 7 issues; its 2025031 repeats 24 twice. Original CSV and v1 prereg remain unchanged until separately versioned action.",
+  "result": "TASK242_FULL_HISTORY_RECONCILIATION PASS"
+}

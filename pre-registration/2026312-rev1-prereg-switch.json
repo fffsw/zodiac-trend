@@ -1,0 +1,15 @@
+{
+  "target": 2026312,
+  "revision": "rev1",
+  "switched_at_cst": "2026-11-08T05:53:58+08:00",
+  "original_sha256": "e8b6fa62a1a5255215fcb1eee625aa8a462271a2ec768f020668afc83c54a5e5",
+  "rev1_sha256": "077a1dec6e1f5a576c20146e748b3f0bad5550dc820427850b691079a1a437c3",
+  "rev1_self_md5": "0919b30e8ef3370df3d795ec503bca96",
+  "original_self_md5": "389d672404eb839eb7a4e4f1b62c3bc9",
+  "rolling_path": "data/prereg_2026312.json",
+  "versioned_path": "data/prereg_2026312_rev1.json",
+  "whole_file_attestation_path": "data/prereg_revision_attestation_2026312_0919b30e8ef3370df3d795ec503bca96.json",
+  "whole_file_attestation_sha256": "fe98bcd10438fe8480dab64e3491d29f8bdfc60327f6ae7d4178e7bce98c49a7",
+  "source_check": "data/task242_312_revision_predraw_before_freeze.json",
+  "note": "Full-file SHA covers override; self-MD5 alone does not. Fingerprints are not signatures or independent time evidence."
+}

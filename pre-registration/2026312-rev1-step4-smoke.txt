@@ -1,0 +1,44 @@
+==================================================================
+STEP 4/6 · smoke 全量测试
+==================================================================
+[4a] smoke 必须在 regen 之后、且页面含最新期
+  ✓ 页面含最新期 2026311
+[4b] 动态页面oracle必须对应最新期+1（smoke 不再硬编码期号）
+  ✓ 动态页面oracle @2026312 = 最新期2026311+1; v5.0
+[4c] 执行 smoke
+    最后一期: 2026311  | ALL.len= 250  | POOL_VERSION= v5.0  | 目标期: 2026312
+      ok  POOL_VERSION 已知 (v5.0)
+      ok  ALL.length=250
+      ok  期号连续 2026062–2026311 (250期)
+    最大可能(top): 蛇
+    二中二(t2): ["兔","馬"]
+    三中三(t3): ["兔","虎","龍"]
+    池1(cands): ["蛇","兔","馬","虎","龍"] len 5
+    池2(pool): ["兔","馬","虎","龍","鷄"] len 5
+      ok  最大可能(蛇) ∈ 池1
+      ok  二中二 全部取自池2
+      ok  三中三 全部取自池2
+      ok  二中二∩三中三 恰1肖
+      ok  v5.0 当前目标已有人工定案(无记录不得回退摇号)
+      ok  v5.0 展示组长4–5且distinct(本期5)
+      ok  v5.0 组合/替补组长5–6且distinct(本期5)
+      ok  v5.0 两组并集恰6个不同生肖
+      ok  v5.0 重肖数由人工裁决产生(本期4, 不设配额)
+      ok  v5.0 cands=[top,A,B,C,D]去重的展示组
+      ok  v5.0 pool前4位依次为人工A/B/C/D
+      ok  v5.0 pool尾部恰为非展示替补
+      ok  v5.0 展示去重4–5肖(本期5)
+      ok  v5.0 人工定案与PERIOD_BAN冲突时 fail-closed
+      ok  PERIOD_BAN 恢复后输出复原
+      ok  entPicks 确定性(三次调用完全一致, v5.0)
+      ok  poolTop6.cands 与 entPicks.cands 一致
+      ok  poolTop6.pool 与 entPicks.pool 一致
+      ok  render(num) no throw
+      ok  renderEnt no throw
+      ok  updRanges no throw
+      ok  h1sub shows 2026311
+      ok  footer shows 2026311
+    === SMOKE PASS ===
+  ✓ smoke PASS (26 项断言)
+
+STEP4 PASS → 可执行: bash scripts/step5_archive.sh 2026311

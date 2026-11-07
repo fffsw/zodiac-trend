@@ -1,0 +1,5 @@
+All 250 website records match reconciled input in period/date/six numbers/zodiacs/special record PASS
+Corrected 112 and 276, current rev1 disclosure, resolved original/revised report/prereg URLs PASS
+Raw pre-draw HTML does not contain full future period; standard decoded URLs do PASS
+PAGE_SHA256=af36242db5f3473d585006219c4283074fb7e34cf7db37fb07ffa8c48d497fe0
+TASK242_REV1_PAGE_DATA_QC PASS

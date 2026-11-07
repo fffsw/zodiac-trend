@@ -1,0 +1,99 @@
+{
+  "target": 2026312,
+  "revision": "rev1",
+  "created_cst": "2026-11-08T05:55:53+08:00",
+  "sources": {
+    "api_2024": {
+      "public_file": "2026312-rev1-raw-api_2024.json.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/api_2024.json.gz",
+      "gzip_sha256": "500444a051d4204b876f414610d33b5fd67c340a4bf8c335613f4adcedeb23a5",
+      "uncompressed_sha256": "bee02041b0627c108168c426e0748bf853fa849c509a4232cb50a768c84cc53d",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2024",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00"
+    },
+    "api_2025": {
+      "public_file": "2026312-rev1-raw-api_2025.json.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/api_2025.json.gz",
+      "gzip_sha256": "7133efe64cceeace0301aa447e936410995578275b967192b11ed6ac9e2a7b17",
+      "uncompressed_sha256": "6960443d4f47f6bb0e8ae94eeb9522ccde4021c828dc7ca1e8c2f34252a832bc",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2025",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00"
+    },
+    "api_2026": {
+      "public_file": "2026312-rev1-raw-api_2026.json.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/api_2026.json.gz",
+      "gzip_sha256": "3306b3378e7684718c208e1048008b8486f15acc7bbfb5e4fd5213ca9d19a762",
+      "uncompressed_sha256": "fcbc2c7122327eac14a0d86286c1e9609ea2eff7417db3a86c2feb529f55b7e8",
+      "source_url": "https://history.macaumarksix.com/history/macaujc2/y/2026",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00"
+    },
+    "newmc_2024": {
+      "public_file": "2026312-rev1-raw-newmc_2024.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2024.html.gz",
+      "gzip_sha256": "442fcfdf1782334b0209f1d011afb676c527e76e05d6935f120fdfd5f583979b",
+      "uncompressed_sha256": "b327ddb8d0eef2e1e80224ba3f2a6d3f42285609710ac4d71839dc97cb190275",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:38+08:00"
+    },
+    "newmc_2025": {
+      "public_file": "2026312-rev1-raw-newmc_2025.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2025.html.gz",
+      "gzip_sha256": "7afd3546037fdb1f88520aa7ff42811c0a3ee5e7386788ba8b2ea359237d7c91",
+      "uncompressed_sha256": "5bdbfaee87c052e4935b201df7d36c8316e2187d75bd4bc0d214e0205109f6ef",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:39+08:00"
+    },
+    "newmc_2026": {
+      "public_file": "2026312-rev1-raw-newmc_2026.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/newmc_2026.html.gz",
+      "gzip_sha256": "768d8c6afde2decb4a5c8d3fb6921933ca4460a723630dcc1139f5ce16373a4d",
+      "uncompressed_sha256": "fe247a8c04c4fc4b23a2cf14e6e8accde66dc459013b485d6699d459154befbb",
+      "source_url": "https://new.mc49.xyz/macao-index-1.html",
+      "retrieved_cst": "2026-11-08T05:42:39+08:00"
+    },
+    "181649_2025": {
+      "public_file": "2026312-rev1-raw-181649_2025.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/181649_2025.html.gz",
+      "gzip_sha256": "51c986f3e737797d1305f7662858a1eb65b9b6d01ca2a369c3bcd2f2b256593a",
+      "uncompressed_sha256": "124601d48791dc3e77480797977da7ae4bc15e6836a198dc2849cd9dce2217f5",
+      "source_url": "https://181649.com/year/2025",
+      "retrieved_cst": "2026-11-08T05:42:40+08:00"
+    },
+    "181649_2026": {
+      "public_file": "2026312-rev1-raw-181649_2026.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/181649_2026.html.gz",
+      "gzip_sha256": "904d55205f24e95f16e05423a2407b5b197e8daed54e279307499884bce29203",
+      "uncompressed_sha256": "c75e4d5fff084dedeabc90de6111f2637525570504d2c9ce3df0813554abfb10",
+      "source_url": "https://181649.com/year/2026",
+      "retrieved_cst": "2026-11-08T05:42:41+08:00"
+    },
+    "kj10260_2024": {
+      "public_file": "2026312-rev1-raw-kj10260_2024.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2024.html.gz",
+      "gzip_sha256": "239d8ba239598dde8c42facefac9c4111213a622fd955e29859318aa2fbb4748",
+      "uncompressed_sha256": "b9ad2daf2994001ad38678a7cada429f8c7b9a64ea341eeb6e8dac35976161a5",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:42+08:00"
+    },
+    "kj10260_2025": {
+      "public_file": "2026312-rev1-raw-kj10260_2025.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2025.html.gz",
+      "gzip_sha256": "9786ca938de945cd91185c5aa2fb9218abb0438f07ec1114cfae34749b3c4ba6",
+      "uncompressed_sha256": "73a28bae9bb0ac7028362595a3a633bb07c4892461f2cd6a9aff0ad1b01f3c46",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:44+08:00"
+    },
+    "kj10260_2026": {
+      "public_file": "2026312-rev1-raw-kj10260_2026.html.gz",
+      "original_archive_path": "archive/target312_revision_20261108/history_source_reconciliation/kj10260_2026.html.gz",
+      "gzip_sha256": "0518544938c9f174fe197c4f5b71683be53402534b2b2271782d5755fb0b3441",
+      "uncompressed_sha256": "ebee4af97a94937ac9d8a07066de9ca6efd464e672ad3f25f6219151f1e90cd7",
+      "source_url": "https://kj.10260.net/kj/history/2033.html",
+      "retrieved_cst": "2026-11-08T05:42:47+08:00"
+    }
+  },
+  "old_public_data": "2026312-source-data.csv",
+  "corrected_public_data": "2026312-rev1-source-data.csv",
+  "reproduction_note": "For the published local Python scripts, reconstruct their documented /home/user paths in an isolated workspace; use old CSV for reconciliation QA and corrected CSV for v2 analyses. Never overwrite old snapshots.",
+  "independence_note": "Public display sources may share upstream; raw bytes and checksums are not official certification, signatures, or independent timestamps."
+}

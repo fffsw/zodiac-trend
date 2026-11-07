@@ -1,0 +1,11 @@
+NEGATIVE wrong target: REJECTED
+NEGATIVE existing rev1 file: REJECTED without overwrite
+NEGATIVE missing manual decision: REJECTED
+NEGATIVE wrong overlap schema enum: REJECTED
+NEGATIVE stale source: REJECTED; no file created
+NEGATIVE target result appeared: REJECTED; no file created
+NEGATIVE raw source hash altered: REJECTED; no file created
+NEGATIVE past internal stop: REJECTED; no file created
+NEGATIVE altered CSV vs structure: REJECTED
+Production files and original prereg unchanged; no special lines produced by failure fixtures PASS
+TASK242_REV1_PREFREEZE_NEGATIVES PASS

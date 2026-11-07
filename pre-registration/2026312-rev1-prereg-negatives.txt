@@ -1,0 +1,10 @@
+NEGATIVE repeat rev1 prereg creation: REJECTED without overwrite
+POSITIVE isolated original+rev1+attestation: PASS
+NEGATIVE altered role without checksum: REJECTED
+NEGATIVE altered role with recomputed checksum: REJECTED vs decision
+NEGATIVE override tamper despite self-md5 exclusion: REJECTED by whole-file SHA
+NEGATIVE missing whole-file attestation: REJECTED
+NEGATIVE archived original byte tamper: REJECTED
+NEGATIVE altered manual universe: REJECTED
+Production original/rev1 preregs, historical prereg and manual decisions unchanged PASS
+TASK242_REV1_PREREG_NEGATIVES PASS

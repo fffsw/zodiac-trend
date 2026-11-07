@@ -1,0 +1,208 @@
+TASK242 RECONCILED DRAW STRUCTURE EVIDENCE, target=2026312, cutoff=2026311; six normal numbers only
+Data MD5=f91c57bb50f3c4c36965274eb5f66b11; rows=1042; latest=[32, 40, 49, 14, 19, 16]
+Primary small=1..24; big=25..49; alternative small25=1..25, big26=26..49; roads=n%3; odd=25/even=24; red/blue/green=17/16/16; 0/1/2=16/17/16
+One fixed number: one position=1/49, included in six=6/49. Exact models below are uniform, without replacement.
+No model selects any zodiac or role. All windows are retrospective descriptions; overlapping windows are not independent.
+
+## Exact null distributions
+odd: 0:0.9625% 1:7.5988% 2:22.7964% 3:33.2899% 4:24.9674% 5:9.1185% 6:1.2665%
+small: 0:1.2665% 1:9.1185% 2:24.9674% 3:33.2899% 4:22.7964% 5:7.5988% 6:0.9625%
+small25: 0:0.9625% 1:7.5988% 2:22.7964% 3:33.2899% 4:24.9674% 5:9.1185% 6:1.2665%
+road0: 0:7.9204% 1:27.1555% 2:35.1149% 3:21.8493% 4:6.8719% 5:1.0308% 6:0.0573%
+road all three in full draw=77.8820%; at least one 0-road in full draw=92.0796%
+wave all three in full draw=77.8820%
+distinct zodiac in full draw: 0:0.0000% 1:0.0000% 2:0.0176% 3:1.5890% 4:18.4070% 5:49.5384% 6:30.4480%
+same number as prior six: 0:43.5965% 1:41.3019% 2:13.2378% 3:1.7650% 4:0.0969% 5:0.0018% 6:0.0000%
+full draw sum expectation=150; sum SD=32.787193; span expectation=35.714286
+
+## Disjoint age blocks
+age=0-9 periods=2026302..2026311 n=10 oddsBalls=23/60 smallBalls=29/60 roads=[13, 29, 18] wave=[23, 15, 22] all3Road=8 no0Road=2 road0_2plus=4 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 1, 5: 6, 6: 3} sumMean=152.30 spanMean=35.10
+age=10-19 periods=2026292..2026301 n=10 oddsBalls=34/60 smallBalls=26/60 roads=[17, 25, 18] wave=[19, 20, 21] all3Road=9 no0Road=0 road0_2plus=6 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 2, 5: 6, 6: 2} sumMean=154.00 spanMean=35.40
+age=20-34 periods=2026277..2026291 n=15 oddsBalls=45/90 smallBalls=45/90 roads=[21, 28, 41] wave=[34, 25, 31] all3Road=11 no0Road=3 road0_2plus=7 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 2, 5: 5, 6: 8} sumMean=147.53 spanMean=35.87
+age=35-44 periods=2026267..2026276 n=10 oddsBalls=26/60 smallBalls=34/60 roads=[20, 21, 19] wave=[12, 21, 27] all3Road=9 no0Road=1 road0_2plus=6 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 4, 6: 6} sumMean=140.00 spanMean=34.90
+age=45-59 periods=2026252..2026266 n=15 oddsBalls=48/90 smallBalls=38/90 roads=[31, 30, 29] wave=[28, 27, 35] all3Road=12 no0Road=1 road0_2plus=11 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 9, 6: 6} sumMean=162.27 spanMean=37.40
+age=60-99 periods=2026212..2026251 n=40 oddsBalls=131/240 smallBalls=118/240 roads=[64, 86, 90] wave=[89, 71, 80] all3Road=27 no0Road=8 road0_2plus=21 zodDistinct={0: 0, 1: 0, 2: 0, 3: 0, 4: 12, 5: 19, 6: 9} sumMean=148.47 spanMean=34.15
+age=100-249 periods=2026062..2026211 n=150 oddsBalls=434/900 smallBalls=443/900 roads=[281, 320, 299] wave=[340, 286, 274] all3Road=117 no0Road=14 road0_2plus=94 zodDistinct={0: 0, 1: 0, 2: 0, 3: 3, 4: 31, 5: 75, 6: 41} sumMean=150.96 spanMean=35.42
+
+## Windows (overlap: same draws counted in several windows; no independent confirmation)
+W10 periods=2026302..2026311 n=10 oddballs=23/60 smallballs=29/60 roads=[13, 29, 18] wave=[23, 15, 22] all3Road=8 no0Road=2 road0_2plus=4 waveAll3=10
+  alternative small25/big26 balls=30/30
+  odd 0:0 1:2 2:4 3:3 4:1 5:0 6:0
+  small 0:0 1:1 2:3 3:4 4:1 5:0 6:1
+  small25 0:0 1:1 2:3 3:3 4:2 5:0 6:1
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:1 5:6 6:3
+  prev_numbers 0:6 1:2 2:2 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:1 2:4 3:1 4:4 5:0 6:0
+  012 compositions={'0/3/3': 1, '0/4/2': 1, '1/2/3': 1, '1/3/2': 2, '1/4/1': 1, '2/2/2': 1, '2/3/1': 2, '3/2/1': 1}
+  zodiac shapes={'1/1/1/1/1/1': 3, '2/1/1/1/1': 6, '3/1/1/1': 1}
+  headBall=[10, 17, 7, 12, 14] tailBall=[7, 3, 5, 8, 9, 1, 5, 1, 11, 10]
+  sumMean/median/range=152.3000/163.0/[62, 211] spanMean/range=35.1000/[12, 46]
+  prev7 zodiac distinct expected counts under null=[0.131, 1.257, 3.494, 3.568, 1.37, 0.175, 0.005]
+W20 periods=2026292..2026311 n=20 oddballs=57/120 smallballs=55/120 roads=[30, 54, 36] wave=[42, 35, 43] all3Road=17 no0Road=2 road0_2plus=10 waveAll3=20
+  alternative small25/big26 balls=57/63
+  odd 0:0 1:2 2:6 3:6 4:5 5:1 6:0
+  small 0:1 1:2 2:5 3:8 4:2 5:1 6:1
+  small25 0:1 1:1 2:6 3:7 4:3 5:1 6:1
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:3 5:12 6:5
+  prev_numbers 0:9 1:9 2:2 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:3 2:6 3:6 4:5 5:0 6:0
+  012 compositions={'0/3/3': 1, '0/4/2': 1, '1/1/4': 1, '1/2/3': 1, '1/3/2': 4, '1/4/1': 1, '1/5/0': 1, '2/1/3': 1, '2/2/2': 3, '2/3/1': 4, '3/2/1': 2}
+  zodiac shapes={'1/1/1/1/1/1': 5, '2/1/1/1/1': 12, '2/2/1/1': 2, '3/1/1/1': 1}
+  headBall=[18, 31, 21, 23, 27] tailBall=[12, 8, 12, 20, 13, 4, 9, 8, 17, 17]
+  sumMean/median/range=153.1500/160.0/[62, 221] spanMean/range=35.2500/[12, 46]
+  prev7 zodiac distinct expected counts under null=[0.356, 2.889, 7.17, 6.789, 2.479, 0.308, 0.009]
+W35 periods=2026277..2026311 n=35 oddballs=102/210 smallballs=100/210 roads=[51, 82, 77] wave=[76, 60, 74] all3Road=28 no0Road=5 road0_2plus=17 waveAll3=34
+  alternative small25/big26 balls=102/108
+  odd 0:0 1:3 2:10 3:10 4:11 5:1 6:0
+  small 0:1 1:4 2:8 3:14 4:4 5:2 6:2
+  small25 0:1 1:3 2:9 3:13 4:5 5:2 6:2
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:5 5:17 6:13
+  prev_numbers 0:19 1:12 2:4 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:5 2:10 3:12 4:8 5:0 6:0
+  012 compositions={'0/2/4': 2, '0/3/3': 1, '0/4/2': 2, '1/0/5': 1, '1/1/4': 2, '1/2/3': 3, '1/3/2': 5, '1/4/1': 1, '1/5/0': 1, '2/1/3': 3, '2/2/2': 5, '2/3/1': 5, '3/1/2': 1, '3/2/1': 3}
+  zodiac shapes={'1/1/1/1/1/1': 13, '2/1/1/1/1': 17, '2/2/1/1': 3, '3/1/1/1': 2}
+  headBall=[39, 45, 42, 39, 45] tailBall=[17, 18, 22, 26, 20, 12, 18, 17, 31, 29]
+  sumMean/median/range=150.7429/154/[58, 233] spanMean/range=35.5143/[12, 48]
+  prev7 zodiac distinct expected counts under null=[0.526, 4.615, 12.21, 12.245, 4.748, 0.635, 0.02]
+W40 periods=2026272..2026311 n=40 oddballs=115/240 smallballs=116/240 roads=[63, 91, 86] wave=[81, 70, 89] all3Road=33 no0Road=5 road0_2plus=21 waveAll3=36
+  alternative small25/big26 balls=119/121
+  odd 0:0 1:3 2:12 3:13 4:11 5:1 6:0
+  small 0:1 1:4 2:9 3:17 4:4 5:3 6:2
+  small25 0:1 1:3 2:10 3:15 4:6 5:3 6:2
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:5 5:19 6:16
+  prev_numbers 0:23 1:13 2:4 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:6 2:11 3:14 4:9 5:0 6:0
+  012 compositions={'0/2/4': 2, '0/3/3': 1, '0/4/2': 2, '1/0/5': 1, '1/1/4': 2, '1/2/3': 3, '1/3/2': 6, '1/4/1': 1, '1/5/0': 1, '2/1/3': 4, '2/2/2': 5, '2/3/1': 5, '3/1/2': 2, '3/2/1': 5}
+  zodiac shapes={'1/1/1/1/1/1': 16, '2/1/1/1/1': 19, '2/2/1/1': 3, '3/1/1/1': 2}
+  headBall=[46, 52, 46, 45, 51] tailBall=[19, 20, 27, 29, 24, 15, 23, 20, 32, 31]
+  sumMean/median/range=149.3750/151.5/[58, 233] spanMean/range=35.6500/[12, 48]
+  prev7 zodiac distinct expected counts under null=[0.575, 5.11, 13.736, 14.095, 5.658, 0.798, 0.028]
+W45 periods=2026267..2026311 n=45 oddballs=128/270 smallballs=134/270 roads=[71, 103, 96] wave=[88, 81, 101] all3Road=37 no0Road=6 road0_2plus=23 waveAll3=40
+  alternative small25/big26 balls=139/131
+  odd 0:0 1:3 2:14 3:16 4:11 5:1 6:0
+  small 0:1 1:4 2:9 3:19 4:7 5:3 6:2
+  small25 0:1 1:3 2:10 3:17 4:7 5:5 6:2
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:5 5:21 6:19
+  prev_numbers 0:26 1:14 2:5 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:6 2:12 3:16 4:11 5:0 6:0
+  012 compositions={'0/2/4': 2, '0/3/3': 2, '0/4/2': 2, '1/0/5': 1, '1/1/4': 2, '1/2/3': 3, '1/3/2': 8, '1/4/1': 1, '1/5/0': 1, '2/1/3': 4, '2/2/2': 5, '2/3/1': 5, '3/1/2': 3, '3/2/1': 6}
+  zodiac shapes={'1/1/1/1/1/1': 19, '2/1/1/1/1': 21, '2/2/1/1': 3, '3/1/1/1': 2}
+  headBall=[51, 58, 55, 52, 54] tailBall=[23, 24, 30, 29, 27, 19, 28, 21, 34, 35]
+  sumMean/median/range=148.3556/151/[58, 233] spanMean/range=35.3778/[12, 48]
+  prev7 zodiac distinct expected counts under null=[0.624, 5.649, 15.407, 15.957, 6.429, 0.904, 0.031]
+W60 periods=2026252..2026311 n=60 oddballs=176/360 smallballs=172/360 roads=[102, 133, 125] wave=[116, 108, 136] all3Road=49 no0Road=7 road0_2plus=34 waveAll3=52
+  alternative small25/big26 balls=179/181
+  odd 0:0 1:6 2:16 3:19 4:15 5:3 6:1
+  small 0:1 1:9 2:12 3:22 4:9 5:5 6:2
+  small25 0:1 1:6 2:15 3:20 4:9 5:7 6:2
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:5 5:30 6:25
+  prev_numbers 0:33 1:21 2:6 3:0 4:0 5:0 6:0
+  prev_zodiacs 0:0 1:7 2:20 3:20 4:13 5:0 6:0
+  012 compositions={'0/2/4': 3, '0/3/3': 2, '0/4/2': 2, '1/0/5': 1, '1/1/4': 2, '1/2/3': 4, '1/3/2': 10, '1/4/1': 1, '1/5/0': 1, '2/1/3': 6, '2/2/2': 7, '2/3/1': 6, '3/1/2': 6, '3/2/1': 7, '3/3/0': 2}
+  zodiac shapes={'1/1/1/1/1/1': 25, '2/1/1/1/1': 30, '2/2/1/1': 3, '3/1/1/1': 2}
+  headBall=[69, 70, 73, 70, 78] tailBall=[28, 28, 36, 43, 33, 31, 44, 30, 43, 44]
+  sumMean/median/range=151.8333/153.0/[58, 233] spanMean/range=35.8833/[12, 48]
+  prev7 zodiac distinct expected counts under null=[0.819, 7.479, 20.45, 21.276, 8.678, 1.252, 0.045]
+W100 periods=2026212..2026311 n=100 oddballs=307/600 smallballs=290/600 roads=[166, 219, 215] wave=[205, 179, 216] all3Road=76 no0Road=15 road0_2plus=55 waveAll3=83
+  alternative small25/big26 balls=302/298
+  odd 0:1 1:8 2:23 3:28 4:32 5:7 6:1
+  small 0:2 1:13 2:21 3:36 4:17 5:7 6:4
+  small25 0:2 1:10 2:22 3:34 4:18 5:10 6:4
+  zodiac_distinct 0:0 1:0 2:0 3:0 4:17 5:49 6:34
+  prev_numbers 0:50 1:39 2:10 3:1 4:0 5:0 6:0
+  prev_zodiacs 0:1 1:15 2:35 3:30 4:19 5:0 6:0
+  012 compositions={'0/2/4': 5, '0/3/3': 6, '0/4/2': 4, '1/0/5': 1, '1/1/4': 2, '1/2/3': 9, '1/3/2': 13, '1/4/1': 4, '1/5/0': 1, '2/0/4': 3, '2/1/3': 8, '2/2/2': 10, '2/3/1': 10, '3/0/3': 1, '3/1/2': 8, '3/2/1': 11, '3/3/0': 2, '4/0/2': 1, '4/1/1': 1}
+  zodiac shapes={'1/1/1/1/1/1': 34, '2/1/1/1/1': 49, '2/2/1/1': 14, '3/1/1/1': 3}
+  headBall=[110, 125, 129, 115, 121] tailBall=[40, 53, 57, 67, 60, 47, 68, 63, 68, 77]
+  sumMean/median/range=150.4900/150.5/[58, 233] spanMean/range=35.1900/[12, 48]
+  prev7 zodiac distinct expected counts under null=[1.674, 13.975, 35.251, 34.142, 13.096, 1.799, 0.062]
+W250 periods=2026062..2026311 n=250 oddballs=741/1500 smallballs=733/1500 roads=[447, 539, 514] wave=[545, 465, 490] all3Road=193 no0Road=29 road0_2plus=149 waveAll3=196
+  alternative small25/big26 balls=768/732
+  odd 0:7 1:23 2:52 3:83 4:63 5:19 6:3
+  small 0:3 1:29 2:56 3:87 4:50 5:19 6:6
+  small25 0:2 1:24 2:50 3:89 4:54 5:25 6:6
+  zodiac_distinct 0:0 1:0 2:0 3:3 4:48 5:124 6:75
+  prev_numbers 0:104 1:105 2:37 3:4 4:0 5:0 6:0
+  prev_zodiacs 0:5 1:38 2:86 3:77 4:43 5:1 6:0
+  012 compositions={'0/1/5': 1, '0/2/4': 11, '0/3/3': 8, '0/4/2': 6, '0/5/1': 3, '1/0/5': 1, '1/1/4': 7, '1/2/3': 25, '1/3/2': 26, '1/4/1': 11, '1/5/0': 2, '2/0/4': 6, '2/1/3': 20, '2/2/2': 26, '2/3/1': 34, '2/4/0': 2, '3/0/3': 4, '3/1/2': 18, '3/2/1': 20, '3/3/0': 6, '4/0/2': 4, '4/1/1': 6, '5/0/1': 3}
+  zodiac shapes={'1/1/1/1/1/1': 75, '2/1/1/1/1': 124, '2/2/1/1': 40, '3/1/1/1': 8, '3/2/1': 3}
+  headBall=[272, 299, 326, 294, 309] tailBall=[127, 146, 149, 141, 156, 142, 162, 149, 165, 163]
+  sumMean/median/range=150.7720/151.0/[43, 233] spanMean/range=35.3280/[12, 48]
+  prev7 zodiac distinct expected counts under null=[4.831, 37.699, 89.915, 83.005, 30.437, 3.983, 0.13]
+
+## Most recent 45 full-draw structures
+2026267 nums=[16, 20, 25, 22, 9, 41] road=(1, 3, 2) odd/even=3/3 small/big=4/2 wave=(0, 4, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=133 span=32
+2026268 nums=[48, 34, 11, 21, 19, 36] road=(3, 2, 1) odd/even=3/3 small/big=3/3 wave=(2, 2, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=0 sum=169 span=37
+2026269 nums=[19, 40, 36, 5, 38, 16] road=(1, 3, 2) odd/even=2/4 small/big=3/3 wave=(2, 1, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=2 sum=154 span=35
+2026270 nums=[39, 34, 20, 24, 17, 6] road=(3, 1, 2) odd/even=2/4 small/big=4/2 wave=(2, 1, 3) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=140 span=33
+2026271 nums=[25, 2, 5, 22, 20, 31] road=(0, 3, 3) odd/even=3/3 small/big=4/2 wave=(1, 3, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=1 sum=105 span=29
+2026272 nums=[43, 15, 4, 6, 32, 36] road=(3, 2, 1) odd/even=2/4 small/big=3/3 wave=(0, 3, 3) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=2 prev6N=0 sum=136 span=39
+2026273 nums=[30, 3, 25, 28, 6, 17] road=(3, 2, 1) odd/even=3/3 small/big=3/3 wave=(1, 2, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=1 sum=109 span=27
+2026274 nums=[12, 16, 32, 5, 39, 36] road=(3, 1, 2) odd/even=2/4 small/big=3/3 wave=(1, 1, 4) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=140 span=34
+2026275 nums=[42, 49, 4, 47, 14, 43] road=(1, 3, 2) odd/even=3/3 small/big=2/4 wave=(0, 4, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=1 prev6N=0 sum=199 span=45
+2026276 nums=[2, 21, 17, 40, 11, 24] road=(2, 1, 3) odd/even=3/3 small/big=5/1 wave=(3, 0, 3) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=115 span=38
+2026277 nums=[41, 23, 14, 31, 13, 32] road=(0, 2, 4) odd/even=4/2 small/big=3/3 wave=(2, 3, 1) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=154 span=28
+2026278 nums=[6, 40, 24, 29, 44, 1] road=(2, 2, 2) odd/even=2/4 small/big=3/3 wave=(4, 0, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=144 span=43
+2026279 nums=[29, 32, 47, 38, 6, 26] road=(1, 0, 5) odd/even=2/4 small/big=1/5 wave=(1, 2, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=4 prev6N=2 sum=178 span=41
+2026280 nums=[1, 26, 28, 29, 3, 5] road=(1, 2, 3) odd/even=4/2 small/big=3/3 wave=(2, 2, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=2 sum=92 span=28
+2026281 nums=[22, 19, 21, 32, 48, 38] road=(2, 2, 2) odd/even=2/4 small/big=3/3 wave=(1, 1, 4) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=1 prev6N=0 sum=180 span=29
+2026282 nums=[44, 3, 37, 46, 29, 20] road=(1, 2, 3) odd/even=3/3 small/big=2/4 wave=(2, 3, 1) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=0 sum=179 span=43
+2026283 nums=[35, 8, 15, 6, 21, 1] road=(3, 1, 2) odd/even=4/2 small/big=5/1 wave=(3, 1, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=86 span=34
+2026284 nums=[4, 35, 22, 48, 3, 18] road=(3, 2, 1) odd/even=2/4 small/big=4/2 wave=(2, 3, 1) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=1 sum=130 span=45
+2026285 nums=[46, 45, 43, 39, 20, 40] road=(2, 3, 1) odd/even=3/3 small/big=1/5 wave=(3, 1, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=233 span=26
+2026286 nums=[37, 49, 28, 8, 29, 1] road=(0, 4, 2) odd/even=4/2 small/big=2/4 wave=(3, 1, 2) distinctZ=4 shape=(3, 1, 1, 1) prev7Z=2 prev6N=0 sum=152 span=48
+2026287 nums=[19, 47, 38, 35, 6, 17] road=(1, 1, 4) odd/even=4/2 small/big=3/3 wave=(2, 1, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=1 prev6N=0 sum=162 span=41
+2026288 nums=[14, 48, 5, 17, 46, 21] road=(2, 1, 3) odd/even=3/3 small/big=4/2 wave=(1, 2, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=1 sum=151 span=43
+2026289 nums=[12, 29, 19, 28, 47, 34] road=(1, 3, 2) odd/even=3/3 small/big=2/4 wave=(4, 1, 1) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=169 span=35
+2026290 nums=[8, 9, 17, 15, 7, 2] road=(2, 1, 3) odd/even=4/2 small/big=6/0 wave=(3, 2, 1) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=58 span=15
+2026291 nums=[32, 10, 41, 38, 22, 2] road=(0, 2, 4) odd/even=1/5 small/big=3/3 wave=(1, 2, 3) distinctZ=4 shape=(2, 2, 1, 1) prev7Z=3 prev6N=1 sum=145 span=39
+2026292 nums=[39, 10, 18, 23, 16, 4] road=(2, 3, 1) odd/even=2/4 small/big=5/1 wave=(2, 2, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=1 prev6N=1 sum=110 span=35
+2026293 nums=[38, 10, 48, 49, 13, 9] road=(2, 3, 1) odd/even=3/3 small/big=3/3 wave=(1, 3, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=1 sum=167 span=40
+2026294 nums=[29, 43, 10, 2, 34, 27] road=(1, 3, 2) odd/even=3/3 small/big=2/4 wave=(3, 1, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=1 sum=145 span=41
+2026295 nums=[22, 28, 33, 17, 13, 47] road=(1, 3, 2) odd/even=4/2 small/big=3/3 wave=(1, 1, 4) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=160 span=34
+2026296 nums=[14, 43, 26, 45, 3, 31] road=(2, 2, 2) odd/even=4/2 small/big=2/4 wave=(1, 4, 1) distinctZ=4 shape=(2, 2, 1, 1) prev7Z=1 prev6N=0 sum=162 span=42
+2026297 nums=[27, 40, 25, 26, 33, 9] road=(3, 2, 1) odd/even=4/2 small/big=1/5 wave=(1, 3, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=1 sum=160 span=31
+2026298 nums=[31, 36, 40, 34, 37, 43] road=(1, 5, 0) odd/even=3/3 small/big=0/6 wave=(2, 3, 1) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=1 sum=221 span=12
+2026299 nums=[12, 19, 28, 32, 5, 42] road=(2, 2, 2) odd/even=2/4 small/big=3/3 wave=(2, 1, 3) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=138 span=37
+2026300 nums=[1, 29, 23, 17, 18, 42] road=(2, 1, 3) odd/even=4/2 small/big=4/2 wave=(4, 1, 1) distinctZ=4 shape=(2, 2, 1, 1) prev7Z=3 prev6N=1 sum=130 span=41
+2026301 nums=[27, 41, 23, 11, 2, 43] road=(1, 1, 4) odd/even=5/1 small/big=3/3 wave=(2, 1, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=1 sum=147 span=41
+2026302 nums=[10, 2, 14, 13, 11, 12] road=(1, 2, 3) odd/even=2/4 small/big=6/0 wave=(3, 2, 1) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=2 sum=62 span=12
+2026303 nums=[8, 28, 40, 3, 38, 49] road=(1, 3, 2) odd/even=2/4 small/big=2/4 wave=(2, 1, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=2 prev6N=0 sum=166 span=46
+2026304 nums=[23, 24, 10, 43, 13, 36] road=(2, 3, 1) odd/even=3/3 small/big=4/2 wave=(3, 2, 1) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=1 prev6N=0 sum=149 span=33
+2026305 nums=[31, 49, 29, 44, 18, 40] road=(1, 3, 2) odd/even=3/3 small/big=1/5 wave=(3, 1, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=2 prev6N=0 sum=211 span=31
+2026306 nums=[39, 13, 28, 9, 14, 32] road=(2, 2, 2) odd/even=3/3 small/big=3/3 wave=(1, 2, 3) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=0 sum=135 span=30
+2026307 nums=[48, 38, 49, 9, 13, 3] road=(3, 2, 1) odd/even=4/2 small/big=3/3 wave=(1, 3, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=4 prev6N=2 sum=160 span=46
+2026308 nums=[25, 16, 28, 8, 6, 40] road=(1, 4, 1) odd/even=1/5 small/big=3/3 wave=(2, 1, 3) distinctZ=4 shape=(3, 1, 1, 1) prev7Z=2 prev6N=0 sum=123 span=34
+2026309 nums=[34, 39, 18, 46, 4, 38] road=(2, 3, 1) odd/even=1/5 small/big=2/4 wave=(3, 1, 2) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=3 prev6N=0 sum=179 span=42
+2026310 nums=[37, 11, 34, 2, 40, 44] road=(0, 3, 3) odd/even=2/4 small/big=2/4 wave=(3, 1, 2) distinctZ=6 shape=(1, 1, 1, 1, 1, 1) prev7Z=4 prev6N=1 sum=168 span=42
+2026311 nums=[32, 40, 49, 14, 19, 16] road=(0, 4, 2) odd/even=2/4 small/big=3/3 wave=(2, 1, 3) distinctZ=5 shape=(2, 1, 1, 1, 1) prev7Z=4 prev6N=1 sum=170 span=35
+
+## Each zodiac has all numbers in a single road and a single parity
+鼠 [7, 19, 31, 43] road=1 parity=odd wave=(2, 1, 1)
+牛 [6, 18, 30, 42] road=0 parity=even wave=(2, 1, 1)
+虎 [5, 17, 29, 41] road=2 parity=odd wave=(1, 1, 2)
+兔 [4, 16, 28, 40] road=1 parity=even wave=(1, 1, 2)
+龍 [3, 15, 27, 39] road=0 parity=odd wave=(0, 2, 2)
+蛇 [2, 14, 26, 38] road=2 parity=even wave=(1, 2, 1)
+馬 [1, 13, 25, 37, 49] road=1 parity=odd wave=(2, 2, 1)
+羊 [12, 24, 36, 48] road=0 parity=even wave=(2, 2, 0)
+猴 [11, 23, 35, 47] road=2 parity=odd wave=(2, 1, 1)
+鷄 [10, 22, 34, 46] road=1 parity=even wave=(2, 1, 1)
+狗 [9, 21, 33, 45] road=0 parity=odd wave=(1, 1, 2)
+豬 [8, 20, 32, 44] road=2 parity=even wave=(1, 1, 2)
+
+## Candidate comparisons; per-category cover is the fraction of the CLASS included, not the probability that the next DRAW has that structure
+
+frozen_311_reference_only
+  U z=['蛇', '馬', '兔', '豬', '龍', '鷄'] n=25 numbers=[1, 2, 3, 4, 8, 10, 13, 14, 15, 16, 20, 22, 25, 26, 27, 28, 32, 34, 37, 38, 39, 40, 44, 46, 49]
+    roads=[4, 13, 8], classCover=[0.25, 0.764706, 0.5], expectedDrawnSelectedRoad=[0.489796, 1.591837, 0.979592], pAllRoadsHaveSelected=20.5072%
+    odd/even=9/16 small/big=12/13 alternateSmall25/big26=13/12 red/blue/green=7/9/9 head=[5, 5, 6, 5, 4] tail=[3, 1, 3, 2, 4, 2, 3, 2, 3, 2] numberMean=23.720
+    classP(at least 1 selected) roads=[41.7537, 86.0711, 67.8458]
+  display z=['馬', '兔', '蛇', '豬', '龍'] n=21 numbers=[1, 2, 3, 4, 8, 13, 14, 15, 16, 20, 25, 26, 27, 28, 32, 37, 38, 39, 40, 44, 49]
+    roads=[4, 9, 8], classCover=[0.25, 0.529412, 0.5], expectedDrawnSelectedRoad=[0.489796, 1.102041, 0.979592], pAllRoadsHaveSelected=16.4906%
+    odd/even=9/12 small/big=10/11 alternateSmall25/big26=11/10 red/blue/green=5/8/8 head=[5, 4, 5, 4, 3] tail=[2, 1, 2, 2, 3, 2, 2, 2, 3, 2] numberMean=22.905
+    classP(at least 1 selected) roads=[41.7537, 72.5513, 67.8458]
+
+## Tests and invariants
+CSV structure, mappings, color, six-normal-only, exact nulls, block partition and candidate counts: PASS
+TASK242_RECONCILED_DRAW_STRUCTURE_LEDGER PASS

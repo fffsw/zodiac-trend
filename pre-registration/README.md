@@ -27,3 +27,16 @@
 - [冻结前来源状态](2026312-source-check.json) · [最新期API原文](2026312-source-latest.json) · [312按期API原文](2026312-source-target.json)。已作请求新鲜度检查，但来源可能共上游，服务器时间与空值不构成权威开奖时间证明。第二展示源的完整原文保存在本地证据归档。
 
 这些是人工展示取舍，不代表预测优势、收益或最高置信；开奖结果有随机性，赔率低于公允回报时投注为负期望。开奖记录、哈希、Git提交与在线下载均不是签名或独立可信时间戳。
+
+
+## 2026312 rev1：千期四重肖审查、历史数据更正后的重选
+
+**本期现行盘为rev1；上方2026312原盘是修订前冻结结果，保留对照，不可当成当前盘。** v5.0人工六肖无摇号框架不变。全集蛇兔虎龍馬鷄，单蛇、二兔馬、三兔虎龍，鷄仅替补。原盘为蛇兔虎龍馬豬，单蛇、二兔龍、三兔虎馬，豬替补。修订只讨论前六平码；上期特码只用于上期生肖身份标签，不产生特码选号。
+
+- [修订预注册](2026312-rev1.json) · [完整文件封存](2026312-rev1-attestation.json) · [修订页面](2026312-rev1-page.html) · [原盘页面](2026312-page.html) · [修订分析全文](2026312-rev1-analysis.md) · [规格](2026312-rev1-production-spec.md) · [修订SHA-256清单](2026312-rev1.sha256)。原预注册的self-MD5为389d672404eb839eb7a4e4f1b62c3bc9，修订预注册中的override指向它；兼容用self-MD5不涵盖override，独立文件封存覆盖完整字节。
+- [核对版1042期数据](2026312-rev1-source-data.csv) · [原始冻结数据](2026312-source-data.csv) · [7期差异表](2026312-rev1-history-differences.csv) · [来源核对记录](2026312-rev1-history-reconciliation.json) · [11份历史来源压缩原文索引](2026312-rev1-evidence-index.json)。2026112、2026276在网页250期内，当前页已采用核对版；其余为2024294日期和2025029、2025030、2025031、2025115号码。来源可能共用上游，不是独立官方认证。
+- [千期逐期去重账本CSV](2026312-rev1-repeat-ledger.csv) · [千期连段与15个已知后续](2026312-rev1-repeat-ledger.txt) · [全部指标JSON](2026312-rev1-repeat-metrics.json) · [十二肖49号账本](2026312-rev1-fluctuation-ledgers.txt) · [开奖结构账本](2026312-rev1-draw-structure.txt) · [23个人工候选](2026312-rev1-candidates.json) · [人工决定](2026312-rev1-decision-receipt.json)。主口径为本期6平码肖去重∩上期7球肖去重；当前恰好4重连续2期，千期最长3期，后续小样本不是预测。
+- [来源核对独立测试](2026312-rev1-reconciliation-test.txt) · [千期独立测试](2026312-rev1-repeat-test.txt) · [逐肖及结构独立测试](2026312-rev1-ledger-test.txt) · [候选独立测试](2026312-rev1-candidate-test.txt) · [页面数据对账](2026312-rev1-page-data-test.txt) · [按钮模拟](2026312-rev1-button-test.txt) · [冻结前负测](2026312-rev1-prefreeze-negatives.txt) · [预注册负测](2026312-rev1-prereg-negatives.txt) · [本期赛前源检](2026312-rev1-source-check.json)。按钮为最小DOM模拟，不是真浏览器。
+- [千期分析脚本](2026312-rev1-repeat-analysis.py) · [千期独立复算脚本](2026312-rev1-repeat-independent-test.py) · [历史核对脚本](2026312-rev1-history-independent-test.py) · [页面生成脚本](2026312-rev1-generator.py)。原始脚本使用本地绝对路径；公开索引说明如何在隔离副本恢复目录及正确数据版本，旧原件不可覆盖。
+
+修订前的中间决定曾将top重叠枚举写成不同名，预注册之前已按v5.0规范纠正为coverage，所选肖及槽位未变；[纠正记录](2026312-rev1-schema-correction.json)保留。所有历史频率仅供描述，不能改变下一期开奖概率；有随机性，赔率低于公允回报时投注为负期望。哈希、来源显示和Git记录均非可信独立时间证明。

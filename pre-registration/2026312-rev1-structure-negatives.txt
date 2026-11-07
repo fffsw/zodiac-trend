@@ -1,0 +1,7 @@
+NEGATIVE overwrite existing structure artifact: REJECTED
+NEGATIVE tampered structure artifact: REJECTED
+NEGATIVE duplicated manual roles: REJECTED
+NEGATIVE missing decision source report: REJECTED
+NEGATIVE synthetic target-or-future row in input CSV: REJECTED
+Production artifact, manual file, report, CSV unchanged by negatives: PASS
+TASK241_STRUCTURE_NEGATIVES PASS

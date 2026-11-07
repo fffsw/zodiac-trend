@@ -1,0 +1,7 @@
+Independent membership matrix: all 1000 x two definitions and duplicate invariance PASS
+Independent groupby: exact4/current/max, 1/2/3-streak next distribution and censoring PASS
+495 four-zodiac combinations: fixed-set/continuing-presence maxima PASS
+Independent inclusion-exclusion: two latest-prior-set exact null distributions PASS
+Reconciled historical date and seven-row source evidence verified; original frozen CSV unchanged; no revision decision yet PASS
+METRICS_SHA256=c12bc5861d8ec91722500e19909d6be85dcea7e3d6db5e4e0c1cfaa043dd929a
+TASK242_1000_REPEAT_INDEPENDENT_V2 PASS

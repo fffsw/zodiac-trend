@@ -1,0 +1,13 @@
+{
+  "target": 2026312,
+  "revision": "rev1",
+  "corrected_at_cst": "2026-11-08T05:51:38+08:00",
+  "field": "top_overlap_mode",
+  "old_invalid": "different_from_A",
+  "new_valid": "coverage",
+  "reason": "v5.0 schema uses coverage when top differs from all A/B/C/D; correction occurs before new prereg and changes no selections",
+  "archived_invalid_path": "archive/superseded_2026312_20261108_v1_before_reselection/manual_site_decisions_rev1_invalid_enum.json",
+  "invalid_sha256": "fa550f76a3b2ca6e983e29cce48fa4d536c7c4f2e6eea45e5716631797393372",
+  "corrected_sha256": "285055010f3a137cad5973db6dc6a573c00d8f41e5fa615d72c7facd13233ffa",
+  "prior_decision_receipt": "data/task242_312_revision_decision_receipt.json"
+}

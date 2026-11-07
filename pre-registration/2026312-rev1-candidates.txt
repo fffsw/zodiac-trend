@@ -1,0 +1,165 @@
+TASK242 312 REVISION CANDIDATE AUDIT: hand-written, not scored/ranked; hypothetical uniform six-of-49 is not a prediction
+Previous identities from 311 seven: 鼠兔蛇馬鷄豬; 鷄 was 311 special identity only. In-candidate previous count != 312 observed repeat count.
+
+original_frozen roles={'top': '蛇', 'A': '兔', 'B': '龍', 'C': '虎', 'D': '馬'} reserve=['豬'] prev_U=['蛇', '兔', '馬', '豬']
+ U 012=4/9/12 parity=13/12 small24/big25=12/13 red/blue/green=6/9/10 head=[6, 5, 6, 4, 4] tail=[2, 2, 2, 2, 3, 3, 2, 3, 3, 3]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [0, 0]], 'necessary_category_condition_count': 6098608, 'necessary_category_condition_probability': 0.4361190107192486}, 'three': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [1, 0]], 'necessary_category_condition_count': 3938016, 'necessary_category_condition_probability': 0.2816124010785039}}
+ exact uniform column%=[41.7537, 15.6616, 6.15] 0/1/2/3%=[44.5211, 47.7221, 7.4273, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+mouse_reserve_horse_B_dragon_D roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+mouse_reserve_original_roles roles={'top': '蛇', 'A': '兔', 'B': '龍', 'C': '虎', 'D': '馬'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [0, 0]], 'necessary_category_condition_count': 6098608, 'necessary_category_condition_probability': 0.4361190107192486}, 'three': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [1, 0]], 'necessary_category_condition_count': 3938016, 'necessary_category_condition_probability': 0.2816124010785039}}
+ exact uniform column%=[41.7537, 15.6616, 6.15] 0/1/2/3%=[44.5211, 47.7221, 7.4273, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+pig_reserve_horse_B_dragon_D roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['豬'] prev_U=['蛇', '兔', '馬', '豬']
+ U 012=4/9/12 parity=13/12 small24/big25=12/13 red/blue/green=6/9/10 head=[6, 5, 6, 4, 4] tail=[2, 2, 2, 2, 3, 3, 2, 3, 3, 3]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+sheep_reserve_horse_B_dragon_D roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['羊'] prev_U=['蛇', '兔', '馬']
+ U 012=8/9/8 parity=13/12 small24/big25=12/13 red/blue/green=7/10/8 head=[5, 6, 6, 4, 4] tail=[1, 2, 2, 2, 3, 3, 3, 3, 3, 3]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+chicken_reserve_horse_B_dragon_D roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['鷄'] prev_U=['蛇', '兔', '馬', '鷄']
+ U 012=4/13/8 parity=13/12 small24/big25=12/13 red/blue/green=7/9/9 head=[5, 6, 6, 4, 4] tail=[2, 2, 2, 2, 3, 3, 3, 3, 2, 3]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+pig_display_tiger_reserve roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '豬', 'D': '龍'} reserve=['虎'] prev_U=['蛇', '兔', '豬', '馬']
+ U 012=4/9/12 parity=13/12 small24/big25=12/13 red/blue/green=6/9/10 head=[6, 5, 6, 4, 4] tail=[2, 2, 2, 2, 3, 3, 2, 3, 3, 3]
+ display 012=4/9/8 parity=9/12 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [0, 8]] head=[5, 4, 5, 4, 3] tail=[2, 1, 2, 2, 3, 2, 2, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [0, 1]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+mouse_top_snake_reserve roles={'top': '鼠', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['蛇'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/13/4 parity=17/4 small24/big25=10/11 red/blue/green=6/7/8 road-parity=[[4, 0], [9, 4], [4, 0]] head=[5, 5, 4, 3, 4] tail=[1, 3, 0, 3, 1, 3, 1, 4, 1, 4]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [1, 0], [0, 0]], 'necessary_category_condition_count': 10145436, 'necessary_category_condition_probability': 0.7255126926727297}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+mouse_B_horse_reserve roles={'top': '蛇', 'A': '兔', 'B': '鼠', 'C': '虎', 'D': '龍'} reserve=['馬'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/8/8 parity=12/8 small24/big25=10/10 red/blue/green=5/7/8 road-parity=[[4, 0], [4, 4], [4, 4]] head=[5, 5, 4, 3, 3] tail=[1, 2, 1, 2, 2, 2, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 15.6616, 5.0989] 0/1/2/3%=[45.0397, 47.6737, 7.0193, 0.2673]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+mouse_C_tiger_reserve roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '鼠', 'D': '龍'} reserve=['虎'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/13/4 parity=13/8 small24/big25=10/11 red/blue/green=6/8/7 road-parity=[[4, 0], [9, 4], [0, 4]] head=[5, 5, 4, 4, 3] tail=[1, 2, 1, 3, 2, 2, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 3938016, 'necessary_category_condition_probability': 0.2816124010785039}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+rabbit_top_snake_A roles={'top': '兔', 'A': '蛇', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 1], [0, 0]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 0], [0, 1]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 0], [1, 1]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+horse_top_snake_B roles={'top': '馬', 'A': '兔', 'B': '蛇', 'C': '虎', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [1, 0], [0, 0]], 'necessary_category_condition_count': 10145436, 'necessary_category_condition_probability': 0.7255126926727297}, 'two': {'road_parity_odd_even_minima': [[0, 0], [0, 1], [0, 1]], 'necessary_category_condition_count': 6098608, 'necessary_category_condition_probability': 0.4361190107192486}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[49.5198, 15.6616, 5.0989] 0/1/2/3%=[38.5598, 52.9297, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+rabbit_top_equals_A roles={'top': '兔', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '龍'} reserve=['蛇', '鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/4 parity=13/4 small24/big25=8/9 red/blue/green=4/6/7 road-parity=[[4, 0], [5, 4], [4, 0]] head=[4, 4, 4, 2, 3] tail=[1, 2, 0, 2, 1, 3, 1, 3, 1, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 1], [0, 0]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[58.2463, 19.591, 20.5041, 1.6585]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+horse_A_rabbit_B roles={'top': '蛇', 'A': '馬', 'B': '兔', 'C': '虎', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 6, 5, 4, 4] tail=[1, 3, 1, 3, 2, 3, 2, 4, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 5, 5, 3, 3] tail=[1, 2, 1, 2, 2, 3, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [1, 0], [1, 0]], 'necessary_category_condition_count': 3938016, 'necessary_category_condition_probability': 0.2816124010785039}}
+ exact uniform column%=[41.7537, 18.7222, 6.15] 0/1/2/3%=[42.5115, 48.6806, 8.4784, 0.3295]
+ A-absent%=50.4802 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+ox_for_dragon roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '牛'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=13/12 small24/big25=12/13 red/blue/green=9/8/8 head=[6, 6, 4, 4, 5] tail=[2, 3, 2, 2, 2, 2, 3, 3, 3, 3]
+ display 012=4/9/8 parity=9/12 small24/big25=10/11 red/blue/green=7/7/7 road-parity=[[0, 4], [5, 4], [4, 4]] head=[5, 5, 4, 3, 4] tail=[2, 2, 2, 1, 2, 2, 3, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[0, 1], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+sheep_for_dragon roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '羊'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=13/12 small24/big25=12/13 red/blue/green=9/9/7 head=[5, 6, 5, 4, 5] tail=[1, 3, 2, 2, 3, 2, 3, 3, 3, 3]
+ display 012=4/9/8 parity=9/12 small24/big25=10/11 red/blue/green=7/8/6 road-parity=[[0, 4], [5, 4], [4, 4]] head=[4, 5, 5, 3, 4] tail=[1, 2, 2, 1, 3, 2, 3, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[0, 1], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+dog_for_dragon roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '狗'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=8/8/9 head=[6, 5, 5, 4, 5] tail=[1, 4, 1, 3, 2, 3, 2, 3, 2, 4]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=6/7/8 road-parity=[[4, 0], [5, 4], [4, 4]] head=[5, 4, 5, 3, 4] tail=[1, 3, 1, 2, 2, 3, 2, 2, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+monkey_for_tiger roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '猴', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '馬', '鼠']
+ U 012=4/13/8 parity=17/8 small24/big25=12/13 red/blue/green=8/9/8 head=[5, 6, 5, 5, 4] tail=[1, 3, 1, 4, 2, 3, 2, 4, 2, 3]
+ display 012=4/9/8 parity=13/8 small24/big25=10/11 red/blue/green=6/8/7 road-parity=[[4, 0], [5, 4], [4, 4]] head=[4, 5, 5, 4, 3] tail=[1, 2, 1, 3, 2, 3, 2, 3, 2, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+chicken_for_tiger roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '鷄', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '鷄', '馬', '鼠']
+ U 012=4/17/4 parity=13/12 small24/big25=12/13 red/blue/green=8/9/8 head=[5, 6, 5, 5, 4] tail=[2, 2, 2, 3, 3, 2, 3, 3, 2, 3]
+ display 012=4/13/4 parity=9/12 small24/big25=10/11 red/blue/green=6/8/7 road-parity=[[4, 0], [5, 8], [0, 4]] head=[4, 5, 5, 4, 3] tail=[2, 1, 2, 2, 3, 2, 3, 2, 2, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 2], [0, 0]], 'necessary_category_condition_count': 2002112, 'necessary_category_condition_probability': 0.14317350857591377}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+pig_for_tiger roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '豬', 'D': '龍'} reserve=['鼠'] prev_U=['蛇', '兔', '豬', '馬', '鼠']
+ U 012=4/13/8 parity=13/12 small24/big25=12/13 red/blue/green=7/9/9 head=[6, 5, 5, 5, 4] tail=[2, 2, 2, 3, 3, 2, 2, 3, 3, 3]
+ display 012=4/9/8 parity=9/12 small24/big25=10/11 red/blue/green=5/8/8 road-parity=[[4, 0], [5, 4], [0, 8]] head=[5, 4, 5, 4, 3] tail=[2, 1, 2, 2, 3, 2, 2, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [0, 1]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.5032597682921457, 'no_displayed_member_probability': 0.5824633276067134}
+
+two_zero_both_in_three roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '羊', 'D': '龍'} reserve=['虎'] prev_U=['蛇', '兔', '馬']
+ U 012=8/9/8 parity=13/12 small24/big25=12/13 red/blue/green=7/10/8 head=[5, 6, 6, 4, 4] tail=[1, 2, 2, 2, 3, 3, 3, 3, 3, 3]
+ display 012=8/9/4 parity=9/12 small24/big25=10/11 red/blue/green=6/9/6 road-parity=[[4, 4], [5, 4], [0, 4]] head=[4, 5, 5, 4, 3] tail=[1, 1, 2, 2, 3, 2, 3, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[1, 1], [0, 1], [0, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.2423387149830919, 'no_displayed_member_probability': 0.3215422742976595}
+
+two_zero_split_both_columns roles={'top': '蛇', 'A': '兔', 'B': '羊', 'C': '虎', 'D': '龍'} reserve=['馬'] prev_U=['蛇', '兔', '馬']
+ U 012=8/9/8 parity=13/12 small24/big25=12/13 red/blue/green=7/10/8 head=[5, 6, 6, 4, 4] tail=[1, 2, 2, 2, 3, 3, 3, 3, 3, 3]
+ display 012=8/4/8 parity=8/12 small24/big25=10/10 red/blue/green=5/8/7 road-parity=[[4, 4], [0, 4], [4, 4]] head=[4, 5, 5, 3, 3] tail=[1, 1, 2, 1, 3, 2, 3, 2, 3, 2]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 1], [0, 1], [0, 0]], 'necessary_category_condition_count': 6098608, 'necessary_category_condition_probability': 0.4361190107192486}, 'three': {'road_parity_odd_even_minima': [[1, 0], [0, 1], [1, 0]], 'necessary_category_condition_count': 3640256, 'necessary_category_condition_probability': 0.26031921472650954}}
+ exact uniform column%=[41.7537, 15.6616, 5.0989] 0/1/2/3%=[45.0397, 47.6737, 7.0193, 0.2673]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.2423387149830919, 'no_displayed_member_probability': 0.3215422742976595}
+
+no_zero_display roles={'top': '蛇', 'A': '兔', 'B': '馬', 'C': '虎', 'D': '鼠'} reserve=['豬'] prev_U=['蛇', '兔', '鼠', '馬', '豬']
+ U 012=0/13/12 parity=13/12 small24/big25=12/13 red/blue/green=8/8/9 head=[6, 5, 5, 4, 5] tail=[2, 3, 2, 2, 3, 2, 2, 3, 3, 3]
+ display 012=0/13/8 parity=13/8 small24/big25=10/11 red/blue/green=7/7/7 road-parity=[[0, 0], [9, 4], [4, 4]] head=[5, 5, 4, 3, 4] tail=[1, 3, 1, 2, 2, 2, 2, 3, 2, 3]
+ necessary-category={'top': {'road_parity_odd_even_minima': [[0, 0], [0, 0], [0, 1]], 'necessary_category_condition_count': 9487428, 'necessary_category_condition_probability': 0.6784577257023405}, 'two': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [0, 0]], 'necessary_category_condition_count': 6555240, 'necessary_category_condition_probability': 0.4687733305415346}, 'three': {'road_parity_odd_even_minima': [[0, 0], [1, 1], [1, 0]], 'necessary_category_condition_count': 3938016, 'necessary_category_condition_probability': 0.2816124010785039}}
+ exact uniform column%=[41.7537, 18.7222, 5.0989] 0/1/2/3%=[43.2653, 48.2242, 8.181, 0.3295]
+ A-absent%=58.2463 0-road risk={'class_absent_probability': 0.07920355931456764, 'class_present_but_no_displayed_member_probability': 0.9207964406854323, 'no_displayed_member_probability': 1.0}
+
+All descriptions are opportunity-cost comparisons, not evidence of future advantage; odds unknown. TASK242_REVISION_CANDIDATE_AUDIT_V2 PASS

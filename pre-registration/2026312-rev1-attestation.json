@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "target": 2026312,
+  "created": "2026-11-08T05:53:58+08:00",
+  "prereg_path": "data/prereg_2026312.json",
+  "prereg_self_md5": "0919b30e8ef3370df3d795ec503bca96",
+  "full_prereg_sha256": "077a1dec6e1f5a576c20146e748b3f0bad5550dc820427850b691079a1a437c3",
+  "override_prev_self_md5": "389d672404eb839eb7a4e4f1b62c3bc9",
+  "archived_prereg_path": "archive/superseded_2026312_20261108_v1_before_reselection/prereg_2026312_original.json",
+  "full_archived_prereg_sha256": "e8b6fa62a1a5255215fcb1eee625aa8a462271a2ec768f020668afc83c54a5e5",
+  "scope": "whole-file integrity fingerprint, not a signature or independent time proof",
+  "self_sha256": "49819472774a3fbb4cf9d1bade663cdeb3204264d4f9fba75b85b2b30080d5b2"
+}

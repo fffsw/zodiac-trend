@@ -1,0 +1,7 @@
+23 human-entered candidates: six identities, all slots legal and earlier prereg unchanged PASS
+Independent inclusion-exclusion: each marginal, completed 0/1/2/3 and reserve/no-column integers PASS
+Independent 462 category compositions: necessary category, A absence, 0/1/2 road risk decomposition PASS
+Direct number expansion: U and display, parity, roads, heads, tails, prior identity set PASS
+No outcome replay, score or RNG; chosen prior identities are NOT actual future repeated identities.
+CANDIDATE_JSON_SHA256=a7fdec1a14a97c82a68cec3b9e133a1986031945d3e87669ce5d787b9780b9f2
+TASK242_REVISION_CANDIDATE_INDEPENDENT_V2 PASS

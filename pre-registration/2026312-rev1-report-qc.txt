@@ -1,0 +1,7 @@
+Corrected 1042 source reconciliation, seven differences, immutable v1 prereg PASS
+Both 1000-transition distributions, streaks, exact-four identity, 15 follow-ons and one right-censor PASS
+12 zodiac x five windows and five structural windows in report PASS
+23-candidate independent QA, old/new slots, fair-model counts and prior-identity distinction PASS
+Limitations, no fixed quota, special isolation and source uncertainty PASS
+REPORT_SHA256=5e2461263bfa4c2de0c05e9a1e99dfd11a23d06a67064d8ad914d4226acb8f3e
+TASK242_REVISION_REPORT_QC PASS

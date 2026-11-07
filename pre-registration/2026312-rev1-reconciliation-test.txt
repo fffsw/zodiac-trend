@@ -1,0 +1,7 @@
+Archive gzip/raw SHA-256 and decompression verified for all captured sources PASS
+1042 reconciled records independently compared to API and second source date/numbers/identities PASS
+Third separately hosted display: 2025/26 numbers match 365+311 rows PASS; upstream independence unknown
+Seven pre-existing deviations preserved explicitly; 2025031 prior display repeated number 24 PASS
+Original CSV byte MD5 unchanged; 311 last row unchanged; copy SHA256=cb2170f99d4ce5b3b5378641e6725c891834ff92086385084e8471e1723d96d0
+RECONCILIATION_JSON_SHA256=714b9d84825221ddd9c3db5ace804aebd53469bda41c31a88787f22385094f02
+TASK242_HISTORY_RECONCILIATION_INDEPENDENT PASS

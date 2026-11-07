@@ -1,0 +1,6886 @@
+{
+  "created_cst": "2026-11-08T05:44:48+08:00",
+  "target": 2026312,
+  "cutoff": 2026311,
+  "manual_design_path": "data/task242_312_manual_candidate_design.json",
+  "manual_design_sha256": "031c5673ae1f7d71e8b8c1a1b99e673560cc700eb0e41f78316876032cdd5c9c",
+  "repeat_metrics_path": "data/task242_1000_repeat_metrics_v2.json",
+  "repeat_metrics_sha256": "c12bc5861d8ec91722500e19909d6be85dcea7e3d6db5e4e0c1cfaa043dd929a",
+  "selection_policy": "23 explicit human-written alternatives; no ranking, no RNG, no post-hoc replay. Prior identities in a candidate do not determine actual next draw repeats.",
+  "candidates": {
+    "original_frozen": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "馬"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          32,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 12,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 6,
+          "blue": 9,
+          "green": 10
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.75
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2126097769020988,
+        "head_counts": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "龍",
+          "虎",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "豬"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "豬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6098608,
+          "necessary_category_condition_probability": 0.4361190107192486
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3938016,
+          "necessary_category_condition_probability": 0.2816124010785039
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2190084,
+          860000
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.06149966504135924
+        ],
+        "completed_count_counts": [
+          6225752,
+          6673368,
+          1038616,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4452112356169446,
+          0.4772208101136342,
+          0.07427271640301904,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2981112,
+        "reserve_hit_and_zero_complete_probability": 0.21318301098927503
+      }
+    },
+    "mouse_reserve_horse_B_dragon_D": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "mouse_reserve_original_roles": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "馬"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "龍",
+          "虎",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6098608,
+          "necessary_category_condition_probability": 0.4361190107192486
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3938016,
+          "necessary_category_condition_probability": 0.2816124010785039
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2190084,
+          860000
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.06149966504135924
+        ],
+        "completed_count_counts": [
+          6225752,
+          6673368,
+          1038616,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4452112356169446,
+          0.4772208101136342,
+          0.07427271640301904,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2981112,
+        "reserve_hit_and_zero_complete_probability": 0.21318301098927503
+      }
+    },
+    "pig_reserve_horse_B_dragon_D": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          32,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 12,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 6,
+          "blue": 9,
+          "green": 10
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.75
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2126097769020988,
+        "head_counts": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "豬"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "豬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "sheep_reserve_horse_B_dragon_D": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "羊"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          48,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 8,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 10,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.5,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2816124010785039,
+        "head_counts": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "羊"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "chicken_reserve_horse_B_dragon_D": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鷄"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          25,
+          26,
+          27,
+          28,
+          29,
+          34,
+          37,
+          38,
+          39,
+          40,
+          41,
+          46,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鷄"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鷄"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "pig_display_tiger_reserve": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "豬",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "豬",
+          "龍",
+          "馬",
+          "虎"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          32,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 12,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 6,
+          "blue": 9,
+          "green": 10
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.75
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2126097769020988,
+        "head_counts": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "豬",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          13,
+          14,
+          15,
+          16,
+          20,
+          25,
+          26,
+          27,
+          28,
+          32,
+          37,
+          38,
+          39,
+          40,
+          44,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          4,
+          5,
+          4,
+          3
+        ],
+        "tail_counts": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "虎"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "豬",
+        "馬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "豬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "mouse_top_snake_reserve": {
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          15,
+          16,
+          17,
+          19,
+          25,
+          27,
+          28,
+          29,
+          31,
+          37,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 4,
+          "odd": 17,
+          "even": 4,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 7,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.11999128134981181,
+        "head_counts": [
+          5,
+          5,
+          4,
+          3,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          0,
+          3,
+          1,
+          3,
+          1,
+          4,
+          1,
+          4
+        ]
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "鼠",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.07448610593846487,
+          "no_displayed_member_probability": 0.1392890181049293
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 10145436,
+          "necessary_category_condition_probability": 0.7255126926727297
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "mouse_B_horse_reserve": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "鼠",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "鼠",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          14,
+          15,
+          16,
+          17,
+          19,
+          26,
+          27,
+          28,
+          29,
+          31,
+          38,
+          39,
+          40,
+          41,
+          43
+        ],
+        "number_count": 20,
+        "category_counts": {
+          "road0": 4,
+          "road1": 8,
+          "road2": 8,
+          "odd": 12,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 10,
+          "small_1_25": 10,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 7,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.47058823529411764,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.4489795918367347,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.15218278043704236,
+        "head_counts": [
+          5,
+          5,
+          4,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "馬"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "鼠"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2567393621311951,
+          "no_displayed_member_probability": 0.3215422742976595
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ],
+        "completed_count_probabilities": [
+          0.45039723062717646,
+          0.47673739414191374,
+          0.07019257118371695,
+          0.0026728040471928408
+        ],
+        "reserve_hit_and_zero_complete_count": 3533720,
+        "reserve_hit_and_zero_complete_probability": 0.2527006934301767
+      }
+    },
+    "mouse_C_tiger_reserve": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "鼠",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "鼠",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          13,
+          14,
+          15,
+          16,
+          19,
+          25,
+          26,
+          27,
+          28,
+          31,
+          37,
+          38,
+          39,
+          40,
+          43,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 4,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 8,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.11999128134981181,
+        "head_counts": [
+          5,
+          5,
+          4,
+          4,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "虎"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.07448610593846487,
+          "no_displayed_member_probability": 0.1392890181049293
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3938016,
+          "necessary_category_condition_probability": 0.2816124010785039
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "rabbit_top_snake_A": {
+      "roles": {
+        "top": "兔",
+        "A": "蛇",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "兔",
+          "蛇",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "兔",
+        "蛇",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "horse_top_snake_B": {
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "蛇",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "馬",
+          "兔",
+          "蛇",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "馬",
+        "兔",
+        "蛇"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 10145436,
+          "necessary_category_condition_probability": 0.7255126926727297
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 6098608,
+          "necessary_category_condition_probability": 0.4361190107192486
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probabilities": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2627576,
+        "reserve_hit_and_zero_complete_probability": 0.18790121380315644
+      }
+    },
+    "rabbit_top_equals_A": {
+      "roles": {
+        "top": "兔",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "兔",
+          "馬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          13,
+          15,
+          16,
+          17,
+          25,
+          27,
+          28,
+          29,
+          37,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 17,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 4,
+          "odd": 13,
+          "even": 4,
+          "small_1_24": 8,
+          "big_25_49": 9,
+          "small_1_25": 9,
+          "big_26_49": 8,
+          "red": 4,
+          "blue": 6,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 2.0816326530612246,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.09590343580035664,
+        "head_counts": [
+          4,
+          4,
+          4,
+          2,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          0,
+          2,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "reserves": [
+        "蛇",
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          8145060,
+          2739576,
+          2867260,
+          231920
+        ],
+        "completed_count_probabilities": [
+          0.5824633276067134,
+          0.19591047250621718,
+          0.2050413134726601,
+          0.016584886414409344
+        ],
+        "reserve_hit_and_zero_complete_count": 5820276,
+        "reserve_hit_and_zero_complete_probability": 0.4162151447072816
+      }
+    },
+    "horse_A_rabbit_B": {
+      "roles": {
+        "top": "蛇",
+        "A": "馬",
+        "B": "兔",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "馬",
+          "兔",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "馬",
+        "兔"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5048015505924849,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3938016,
+          "necessary_category_condition_probability": 0.2816124010785039
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          860000
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.06149966504135924
+        ],
+        "completed_count_counts": [
+          5944736,
+          6807400,
+          1185600,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.42511543344105784,
+          0.48680560442156845,
+          0.08478372427097153,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2875712,
+        "reserve_hit_and_zero_complete_probability": 0.20564572645978751
+      }
+    },
+    "ox_for_dragon": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "牛"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "牛",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 9,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          6,
+          4,
+          4,
+          5
+        ],
+        "tail_counts": [
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "牛"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          13,
+          14,
+          16,
+          17,
+          18,
+          25,
+          26,
+          28,
+          29,
+          30,
+          37,
+          38,
+          40,
+          41,
+          42,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 7,
+          "blue": 7,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          5,
+          4,
+          3,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "sheep_for_dragon": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "羊"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "羊",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          12,
+          13,
+          14,
+          16,
+          17,
+          19,
+          24,
+          25,
+          26,
+          28,
+          29,
+          31,
+          36,
+          37,
+          38,
+          40,
+          41,
+          43,
+          48,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 9,
+          "blue": 9,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          5,
+          6,
+          5,
+          4,
+          5
+        ],
+        "tail_counts": [
+          1,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "羊"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          12,
+          13,
+          14,
+          16,
+          17,
+          24,
+          25,
+          26,
+          28,
+          29,
+          36,
+          37,
+          38,
+          40,
+          41,
+          48,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 7,
+          "blue": 8,
+          "green": 6
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          4,
+          5,
+          5,
+          3,
+          4
+        ],
+        "tail_counts": [
+          1,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "dog_for_dragon": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "狗"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "狗",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          9,
+          13,
+          14,
+          16,
+          17,
+          19,
+          21,
+          25,
+          26,
+          28,
+          29,
+          31,
+          33,
+          37,
+          38,
+          40,
+          41,
+          43,
+          45,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 8,
+          "blue": 8,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tail_counts": [
+          1,
+          4,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "狗"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          9,
+          13,
+          14,
+          16,
+          17,
+          21,
+          25,
+          26,
+          28,
+          29,
+          33,
+          37,
+          38,
+          40,
+          41,
+          45,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 7,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "monkey_for_tiger": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "猴",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "猴",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          11,
+          13,
+          14,
+          15,
+          16,
+          19,
+          23,
+          25,
+          26,
+          27,
+          28,
+          31,
+          35,
+          37,
+          38,
+          39,
+          40,
+          43,
+          47,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 17,
+          "even": 8,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 8,
+          "blue": 9,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          5,
+          6,
+          5,
+          5,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          4,
+          2,
+          3,
+          2,
+          4,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "猴",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          13,
+          14,
+          15,
+          16,
+          23,
+          25,
+          26,
+          27,
+          28,
+          35,
+          37,
+          38,
+          39,
+          40,
+          47,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 8,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          4,
+          5,
+          5,
+          4,
+          3
+        ],
+        "tail_counts": [
+          1,
+          2,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "chicken_for_tiger": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "鷄",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          10,
+          13,
+          14,
+          15,
+          16,
+          19,
+          22,
+          25,
+          26,
+          27,
+          28,
+          31,
+          34,
+          37,
+          38,
+          39,
+          40,
+          43,
+          46,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 17,
+          "road2": 4,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 8,
+          "blue": 9,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          1.0,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.13606986819620626,
+        "head_counts": [
+          5,
+          6,
+          5,
+          5,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "鷄",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          13,
+          14,
+          15,
+          16,
+          22,
+          25,
+          26,
+          27,
+          28,
+          34,
+          37,
+          38,
+          39,
+          40,
+          46,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 4,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 8,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.11999128134981181,
+        "head_counts": [
+          4,
+          5,
+          5,
+          4,
+          3
+        ],
+        "tail_counts": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "鷄",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鷄"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.07448610593846487,
+          "no_displayed_member_probability": 0.1392890181049293
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 2002112,
+          "necessary_category_condition_probability": 0.14317350857591377
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "pig_for_tiger": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "豬",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "豬",
+          "龍",
+          "馬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20,
+          25,
+          26,
+          27,
+          28,
+          31,
+          32,
+          37,
+          38,
+          39,
+          40,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 4,
+          "road1": 13,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 9,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2050724923726113,
+        "head_counts": [
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "tail_counts": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "豬",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          13,
+          14,
+          15,
+          16,
+          20,
+          25,
+          26,
+          27,
+          28,
+          32,
+          37,
+          38,
+          39,
+          40,
+          44,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 4,
+          "road1": 9,
+          "road2": 8,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.25,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          5,
+          4,
+          5,
+          4,
+          3
+        ],
+        "tail_counts": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "豬",
+        "馬",
+        "鼠"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "豬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "two_zero_both_in_three": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "羊",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "羊",
+          "龍",
+          "馬",
+          "虎"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          48,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 8,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 10,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.5,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2816124010785039,
+        "head_counts": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "羊",
+          "龍"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          12,
+          13,
+          14,
+          15,
+          16,
+          24,
+          25,
+          26,
+          27,
+          28,
+          36,
+          37,
+          38,
+          39,
+          40,
+          48,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 8,
+          "road1": 9,
+          "road2": 4,
+          "odd": 9,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 6,
+          "blue": 9,
+          "green": 6
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.5,
+          0.5294117647058824,
+          0.25
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.16490605997676172,
+        "head_counts": [
+          4,
+          5,
+          5,
+          4,
+          3
+        ],
+        "tail_counts": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "虎"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.2096843951608059,
+          "no_displayed_member_probability": 0.27448730732727034
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.5032597682921457,
+          "no_displayed_member_probability": 0.5824633276067134
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    },
+    "two_zero_split_both_columns": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "羊",
+        "C": "虎",
+        "D": "龍"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "龍",
+          "馬",
+          "羊"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          48,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 8,
+          "road1": 9,
+          "road2": 8,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 7,
+          "blue": 10,
+          "green": 8
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.5,
+          0.5294117647058824,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.2816124010785039,
+        "head_counts": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tail_counts": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "羊",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          12,
+          14,
+          15,
+          16,
+          17,
+          24,
+          26,
+          27,
+          28,
+          29,
+          36,
+          38,
+          39,
+          40,
+          41,
+          48
+        ],
+        "number_count": 20,
+        "category_counts": {
+          "road0": 8,
+          "road1": 4,
+          "road2": 8,
+          "odd": 8,
+          "even": 12,
+          "small_1_24": 10,
+          "big_25_49": 10,
+          "small_1_25": 10,
+          "big_26_49": 10,
+          "red": 5,
+          "blue": 8,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.5,
+          0.23529411764705882,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.4489795918367347,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.15218278043704236,
+        "head_counts": [
+          4,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tail_counts": [
+          1,
+          1,
+          2,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "reserves": [
+        "馬"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "馬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔"
+      ],
+      "road_parity_display": [
+        [
+          4,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.5176604154402489,
+          "no_displayed_member_probability": 0.5824633276067134
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6098608,
+          "necessary_category_condition_probability": 0.4361190107192486
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3640256,
+          "necessary_category_condition_probability": 0.26031921472650954
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ],
+        "completed_count_probabilities": [
+          0.45039723062717646,
+          0.47673739414191374,
+          0.07019257118371695,
+          0.0026728040471928408
+        ],
+        "reserve_hit_and_zero_complete_count": 3533720,
+        "reserve_hit_and_zero_complete_probability": 0.2527006934301767
+      }
+    },
+    "no_zero_display": {
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "鼠"
+      },
+      "universe": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "虎",
+          "鼠",
+          "馬",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          25,
+          26,
+          28,
+          29,
+          31,
+          32,
+          37,
+          38,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "category_counts": {
+          "road0": 0,
+          "road1": 13,
+          "road2": 12,
+          "odd": 13,
+          "even": 12,
+          "small_1_24": 12,
+          "big_25_49": 13,
+          "small_1_25": 13,
+          "big_26_49": 12,
+          "red": 8,
+          "blue": 8,
+          "green": 9
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.0,
+          0.7647058823529411,
+          0.75
+        ],
+        "null_expected_selected_numbers_in_six": 3.061224489795918,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.0,
+        "head_counts": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tail_counts": [
+          2,
+          3,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "蛇",
+          "兔",
+          "馬",
+          "虎",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          13,
+          14,
+          16,
+          17,
+          19,
+          25,
+          26,
+          28,
+          29,
+          31,
+          37,
+          38,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 21,
+        "category_counts": {
+          "road0": 0,
+          "road1": 13,
+          "road2": 8,
+          "odd": 13,
+          "even": 8,
+          "small_1_24": 10,
+          "big_25_49": 11,
+          "small_1_25": 11,
+          "big_26_49": 10,
+          "red": 7,
+          "blue": 7,
+          "green": 7
+        },
+        "road_category_sizes": [
+          16,
+          17,
+          16
+        ],
+        "selected_numbers_as_fraction_of_each_road": [
+          0.0,
+          0.7647058823529411,
+          0.5
+        ],
+        "null_expected_selected_numbers_in_six": 2.5714285714285716,
+        "null_probability_draw_includes_selected_number_in_all_three_roads": 0.0,
+        "head_counts": [
+          5,
+          5,
+          4,
+          3,
+          4
+        ],
+        "tail_counts": [
+          1,
+          3,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "reserves": [
+        "豬"
+      ],
+      "universe_previous_identities": [
+        "蛇",
+        "兔",
+        "鼠",
+        "馬",
+        "豬"
+      ],
+      "display_previous_identities": [
+        "蛇",
+        "兔",
+        "馬",
+        "鼠"
+      ],
+      "road_parity_display": [
+        [
+          0,
+          0
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "road_risk": {
+        "0": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.9207964406854323,
+          "no_displayed_member_probability": 1.0
+        },
+        "1": {
+          "class_absent_probability": 0.06480291216646443,
+          "class_present_but_no_displayed_member_probability": 0.07448610593846487,
+          "no_displayed_member_probability": 0.1392890181049293
+        },
+        "2": {
+          "class_absent_probability": 0.07920355931456764,
+          "class_present_but_no_displayed_member_probability": 0.2423387149830919,
+          "no_displayed_member_probability": 0.3215422742976595
+        }
+      },
+      "A_absent_probability": 0.5824633276067134,
+      "category_conditions": {
+        "top": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "necessary_category_condition_count": 9487428,
+          "necessary_category_condition_probability": 0.6784577257023405
+        },
+        "two": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 6555240,
+          "necessary_category_condition_probability": 0.4687733305415346
+        },
+        "three": {
+          "road_parity_odd_even_minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "necessary_category_condition_count": 3938016,
+          "necessary_category_condition_probability": 0.2816124010785039
+        }
+      },
+      "exact": {
+        "denominator": 13983816,
+        "column_counts": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probabilities": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "completed_count_counts": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "completed_count_probabilities": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ],
+        "reserve_hit_and_zero_complete_count": 2908592,
+        "reserve_hit_and_zero_complete_probability": 0.20799701597904321
+      }
+    }
+  }
+}
