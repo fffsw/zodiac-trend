@@ -1,0 +1,1299 @@
+{
+  "target": 2026311,
+  "created_cst": "2026-11-07T20:00:31+08:00",
+  "data_last_period": 2026310,
+  "data_md5": "5ce48e10195d3008d1426a77723d0c31",
+  "key_file": "data/task239_311_evidence_card_key.json",
+  "key_sha256": "fe3a91a5497246227a8797b707ab93caae678a330f00a40707c3a31d99df9bb4",
+  "limitations": [
+    "审核者已经读过实名资料及历史对话，不能声称盲评",
+    "五码肖可以从组大小识别；不隐藏统计结构",
+    "标签由确定性哈希仅作显示，不使用随机数，不决定或筛选生肖、槽位"
+  ],
+  "selected_or_ranked": false,
+  "cards": [
+    {
+      "card": "C01",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 5
+        },
+        "20": {
+          "balls": 9,
+          "periods": 9
+        },
+        "35": {
+          "balls": 15,
+          "periods": 15
+        },
+        "40": {
+          "balls": 18,
+          "periods": 18
+        },
+        "45": {
+          "balls": 19,
+          "periods": 19
+        },
+        "60": {
+          "balls": 27,
+          "periods": 25
+        },
+        "100": {
+          "balls": 45,
+          "periods": 40
+        },
+        "250": {
+          "balls": 109,
+          "periods": 95
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 5
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 3,
+          "counts": {
+            "10": 2,
+            "20": 3,
+            "35": 6,
+            "40": 7,
+            "45": 7
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 20,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 2,
+            "40": 3,
+            "45": 3
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 9,
+          "counts": {
+            "10": 1,
+            "20": 3,
+            "35": 3,
+            "40": 3,
+            "45": 3
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 1,
+          "counts": {
+            "10": 2,
+            "20": 3,
+            "35": 4,
+            "40": 5,
+            "45": 6
+          }
+        }
+      ]
+    },
+    {
+      "card": "C02",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35": {
+          "balls": 16,
+          "periods": 14
+        },
+        "40": {
+          "balls": 17,
+          "periods": 15
+        },
+        "45": {
+          "balls": 18,
+          "periods": 16
+        },
+        "60": {
+          "balls": 29,
+          "periods": 25
+        },
+        "100": {
+          "balls": 49,
+          "periods": 42
+        },
+        "250": {
+          "balls": 112,
+          "periods": 99
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 4
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 0,
+          "counts": {
+            "10": 3,
+            "20": 3,
+            "35": 4,
+            "40": 4,
+            "45": 5
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 6,
+          "counts": {
+            "10": 2,
+            "20": 4,
+            "35": 5,
+            "40": 5,
+            "45": 5
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 23,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 3,
+            "40": 3,
+            "45": 3
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 15,
+          "counts": {
+            "10": 0,
+            "20": 1,
+            "35": 4,
+            "40": 5,
+            "45": 5
+          }
+        }
+      ]
+    },
+    {
+      "card": "C03",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20": {
+          "balls": 13,
+          "periods": 10
+        },
+        "35": {
+          "balls": 19,
+          "periods": 16
+        },
+        "40": {
+          "balls": 20,
+          "periods": 17
+        },
+        "45": {
+          "balls": 23,
+          "periods": 20
+        },
+        "60": {
+          "balls": 31,
+          "periods": 27
+        },
+        "100": {
+          "balls": 55,
+          "periods": 46
+        },
+        "250": {
+          "balls": 144,
+          "periods": 116
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 4
+        },
+        "10-19": {
+          "balls": 8,
+          "periods": 6
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 6,
+          "counts": {
+            "10": 2,
+            "20": 6,
+            "35": 6,
+            "40": 6,
+            "45": 6
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 15,
+          "counts": {
+            "10": 0,
+            "20": 2,
+            "35": 4,
+            "40": 5,
+            "45": 6
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 0,
+          "counts": {
+            "10": 2,
+            "20": 4,
+            "35": 5,
+            "40": 5,
+            "45": 7
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 1,
+          "counts": {
+            "10": 1,
+            "20": 1,
+            "35": 4,
+            "40": 4,
+            "45": 4
+          }
+        }
+      ]
+    },
+    {
+      "card": "C04",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 12,
+          "periods": 11
+        },
+        "40": {
+          "balls": 16,
+          "periods": 14
+        },
+        "45": {
+          "balls": 19,
+          "periods": 16
+        },
+        "60": {
+          "balls": 27,
+          "periods": 24
+        },
+        "100": {
+          "balls": 44,
+          "periods": 39
+        },
+        "250": {
+          "balls": 112,
+          "periods": 99
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 3,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 5,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 4,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 2,
+          "counts": {
+            "10": 1,
+            "20": 1,
+            "35": 5,
+            "40": 7,
+            "45": 8
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 1,
+          "counts": {
+            "10": 2,
+            "20": 4,
+            "35": 5,
+            "40": 5,
+            "45": 6
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 37,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 0,
+            "40": 1,
+            "45": 1
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 10,
+          "counts": {
+            "10": 0,
+            "20": 2,
+            "35": 2,
+            "40": 3,
+            "45": 4
+          }
+        }
+      ]
+    },
+    {
+      "card": "C05",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 2,
+          "periods": 2
+        },
+        "20": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35": {
+          "balls": 22,
+          "periods": 18
+        },
+        "40": {
+          "balls": 25,
+          "periods": 21
+        },
+        "45": {
+          "balls": 29,
+          "periods": 25
+        },
+        "60": {
+          "balls": 34,
+          "periods": 30
+        },
+        "100": {
+          "balls": 61,
+          "periods": 52
+        },
+        "250": {
+          "balls": 138,
+          "periods": 116
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 2,
+          "periods": 2
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 14,
+          "periods": 11
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 4,
+          "periods": 4
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 11,
+          "counts": {
+            "10": 0,
+            "20": 1,
+            "35": 3,
+            "40": 5,
+            "45": 6
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 10,
+          "counts": {
+            "10": 0,
+            "20": 2,
+            "35": 6,
+            "40": 7,
+            "45": 8
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 5,
+          "counts": {
+            "10": 1,
+            "20": 3,
+            "35": 9,
+            "40": 9,
+            "45": 10
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 9,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 4,
+            "40": 4,
+            "45": 5
+          }
+        }
+      ]
+    },
+    {
+      "card": "C06",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 8,
+          "periods": 7
+        },
+        "20": {
+          "balls": 15,
+          "periods": 12
+        },
+        "35": {
+          "balls": 23,
+          "periods": 19
+        },
+        "40": {
+          "balls": 25,
+          "periods": 21
+        },
+        "45": {
+          "balls": 27,
+          "periods": 23
+        },
+        "60": {
+          "balls": 32,
+          "periods": 28
+        },
+        "100": {
+          "balls": 61,
+          "periods": 48
+        },
+        "250": {
+          "balls": 138,
+          "periods": 113
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 8,
+          "periods": 7
+        },
+        "10-19": {
+          "balls": 7,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 0,
+          "counts": {
+            "10": 3,
+            "20": 5,
+            "35": 6,
+            "40": 7,
+            "45": 7
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 4,
+          "counts": {
+            "10": 2,
+            "20": 3,
+            "35": 5,
+            "40": 6,
+            "45": 6
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 13,
+          "counts": {
+            "10": 0,
+            "20": 2,
+            "35": 4,
+            "40": 4,
+            "45": 4
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 1,
+          "counts": {
+            "10": 3,
+            "20": 5,
+            "35": 8,
+            "40": 8,
+            "45": 10
+          }
+        }
+      ]
+    },
+    {
+      "card": "C07",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 9,
+          "periods": 6
+        },
+        "20": {
+          "balls": 15,
+          "periods": 11
+        },
+        "35": {
+          "balls": 22,
+          "periods": 18
+        },
+        "40": {
+          "balls": 26,
+          "periods": 22
+        },
+        "45": {
+          "balls": 29,
+          "periods": 24
+        },
+        "60": {
+          "balls": 34,
+          "periods": 29
+        },
+        "100": {
+          "balls": 46,
+          "periods": 41
+        },
+        "250": {
+          "balls": 114,
+          "periods": 99
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 9,
+          "periods": 6
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 4,
+          "periods": 4
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 1,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 3,
+            "40": 5,
+            "45": 5
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 2,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 2,
+            "40": 3,
+            "45": 5
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 2,
+          "counts": {
+            "10": 3,
+            "20": 5,
+            "35": 8,
+            "40": 9,
+            "45": 9
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 0,
+          "counts": {
+            "10": 4,
+            "20": 6,
+            "35": 9,
+            "40": 9,
+            "45": 10
+          }
+        }
+      ]
+    },
+    {
+      "card": "C08",
+      "group_size": 5,
+      "windows": {
+        "10": {
+          "balls": 9,
+          "periods": 8
+        },
+        "20": {
+          "balls": 15,
+          "periods": 13
+        },
+        "35": {
+          "balls": 23,
+          "periods": 19
+        },
+        "40": {
+          "balls": 26,
+          "periods": 22
+        },
+        "45": {
+          "balls": 28,
+          "periods": 24
+        },
+        "60": {
+          "balls": 37,
+          "periods": 32
+        },
+        "100": {
+          "balls": 64,
+          "periods": 55
+        },
+        "250": {
+          "balls": 158,
+          "periods": 131
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 9,
+          "periods": 8
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 10,
+          "counts": {
+            "10": 0,
+            "20": 1,
+            "35": 5,
+            "40": 5,
+            "45": 5
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 3,
+          "counts": {
+            "10": 4,
+            "20": 6,
+            "35": 7,
+            "40": 7,
+            "45": 7
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 2,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 2,
+            "40": 4,
+            "45": 5
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 0,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 4,
+            "40": 4,
+            "45": 5
+          }
+        },
+        {
+          "route": "R5",
+          "gap": 3,
+          "counts": {
+            "10": 3,
+            "20": 4,
+            "35": 5,
+            "40": 6,
+            "45": 6
+          }
+        }
+      ]
+    },
+    {
+      "card": "C09",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 2,
+          "periods": 2
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 13,
+          "periods": 12
+        },
+        "40": {
+          "balls": 13,
+          "periods": 12
+        },
+        "45": {
+          "balls": 16,
+          "periods": 15
+        },
+        "60": {
+          "balls": 24,
+          "periods": 22
+        },
+        "100": {
+          "balls": 38,
+          "periods": 34
+        },
+        "250": {
+          "balls": 106,
+          "periods": 92
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 2,
+          "periods": 2
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 0,
+          "periods": 0
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 3,
+          "counts": {
+            "10": 2,
+            "20": 4,
+            "35": 5,
+            "40": 5,
+            "45": 6
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 22,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 4,
+            "40": 4,
+            "45": 5
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 13,
+          "counts": {
+            "10": 0,
+            "20": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 14,
+          "counts": {
+            "10": 0,
+            "20": 1,
+            "35": 2,
+            "40": 2,
+            "45": 3
+          }
+        }
+      ]
+    },
+    {
+      "card": "C10",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 5
+        },
+        "20": {
+          "balls": 7,
+          "periods": 7
+        },
+        "35": {
+          "balls": 17,
+          "periods": 16
+        },
+        "40": {
+          "balls": 20,
+          "periods": 19
+        },
+        "45": {
+          "balls": 22,
+          "periods": 21
+        },
+        "60": {
+          "balls": 30,
+          "periods": 28
+        },
+        "100": {
+          "balls": 44,
+          "periods": 41
+        },
+        "250": {
+          "balls": 127,
+          "periods": 108
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 5
+        },
+        "10-19": {
+          "balls": 2,
+          "periods": 2
+        },
+        "20-34": {
+          "balls": 10,
+          "periods": 9
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 2,
+          "counts": {
+            "10": 2,
+            "20": 2,
+            "35": 5,
+            "40": 5,
+            "45": 5
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 25,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 2,
+            "40": 3,
+            "45": 5
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 4,
+          "counts": {
+            "10": 1,
+            "20": 3,
+            "35": 6,
+            "40": 8,
+            "45": 8
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 0,
+          "counts": {
+            "10": 2,
+            "20": 2,
+            "35": 4,
+            "40": 4,
+            "45": 4
+          }
+        }
+      ]
+    },
+    {
+      "card": "C11",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20": {
+          "balls": 9,
+          "periods": 7
+        },
+        "35": {
+          "balls": 15,
+          "periods": 13
+        },
+        "40": {
+          "balls": 18,
+          "periods": 16
+        },
+        "45": {
+          "balls": 20,
+          "periods": 18
+        },
+        "60": {
+          "balls": 28,
+          "periods": 25
+        },
+        "100": {
+          "balls": 52,
+          "periods": 42
+        },
+        "250": {
+          "balls": 121,
+          "periods": 100
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 3,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 20,
+          "counts": {
+            "10": 0,
+            "20": 0,
+            "35": 1,
+            "40": 1,
+            "45": 1
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 11,
+          "counts": {
+            "10": 0,
+            "20": 1,
+            "35": 4,
+            "40": 4,
+            "45": 6
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 5,
+          "counts": {
+            "10": 1,
+            "20": 3,
+            "35": 4,
+            "40": 5,
+            "45": 5
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 6,
+          "counts": {
+            "10": 2,
+            "20": 5,
+            "35": 6,
+            "40": 8,
+            "45": 8
+          }
+        }
+      ]
+    },
+    {
+      "card": "C12",
+      "group_size": 4,
+      "windows": {
+        "10": {
+          "balls": 4,
+          "periods": 3
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 13,
+          "periods": 12
+        },
+        "40": {
+          "balls": 16,
+          "periods": 14
+        },
+        "45": {
+          "balls": 20,
+          "periods": 17
+        },
+        "60": {
+          "balls": 27,
+          "periods": 24
+        },
+        "100": {
+          "balls": 41,
+          "periods": 36
+        },
+        "250": {
+          "balls": 121,
+          "periods": 103
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 4,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 4,
+          "periods": 3
+        }
+      },
+      "route_profiles": [
+        {
+          "route": "R1",
+          "gap": 8,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 3,
+            "40": 4,
+            "45": 4
+          }
+        },
+        {
+          "route": "R2",
+          "gap": 6,
+          "counts": {
+            "10": 1,
+            "20": 1,
+            "35": 3,
+            "40": 3,
+            "45": 4
+          }
+        },
+        {
+          "route": "R3",
+          "gap": 6,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 2,
+            "40": 4,
+            "45": 6
+          }
+        },
+        {
+          "route": "R4",
+          "gap": 3,
+          "counts": {
+            "10": 1,
+            "20": 2,
+            "35": 5,
+            "40": 5,
+            "45": 6
+          }
+        }
+      ]
+    }
+  ]
+}
