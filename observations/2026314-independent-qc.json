@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "checks": [
+    "313 input exclusively user-supplied; inferred period and 6+1; empty date",
+    "1043 original data rows byte-identical",
+    "312 corrected input retained",
+    "all 12 zodiac windows W10/20/35/40/45/60/100/250 and five disjoint blocks independently recounted",
+    "all 49 normal-number counts, ages and number attributes independently recounted",
+    "window shapes and seven-ball source separation checked",
+    "31 hand-written candidates checked without ranking",
+    "independent polynomial exact model agrees with inclusion-exclusion for all candidate roles",
+    "frozen 313 D2 normal columns independently resolve 1/1,1/2,1/3"
+  ],
+  "does_not_validate": [
+    "actual source authenticity",
+    "next result",
+    "actual draw fairness",
+    "prediction accuracy",
+    "pre-registration"
+  ],
+  "selected_shape_condition_counts": {
+    "10": {
+      "periods": 10,
+      "zero_0road": 2,
+      "zero_1road": 0,
+      "zero_2road": 0,
+      "at_most_one_0road": 5,
+      "at_most_one_1road": 1,
+      "at_most_one_2road": 6,
+      "at_most_one_odd": 2,
+      "at_most_one_even": 1,
+      "four_or_fewer_zodiacs": 2
+    },
+    "20": {
+      "periods": 20,
+      "zero_0road": 2,
+      "zero_1road": 0,
+      "zero_2road": 1,
+      "at_most_one_0road": 11,
+      "at_most_one_1road": 3,
+      "at_most_one_2road": 8,
+      "at_most_one_odd": 2,
+      "at_most_one_even": 2,
+      "four_or_fewer_zodiacs": 4
+    },
+    "35": {
+      "periods": 35,
+      "zero_0road": 4,
+      "zero_1road": 1,
+      "zero_2road": 1,
+      "at_most_one_0road": 18,
+      "at_most_one_1road": 8,
+      "at_most_one_2road": 12,
+      "at_most_one_odd": 3,
+      "at_most_one_even": 2,
+      "four_or_fewer_zodiacs": 6
+    },
+    "40": {
+      "periods": 40,
+      "zero_0road": 5,
+      "zero_1road": 1,
+      "zero_2road": 1,
+      "at_most_one_0road": 20,
+      "at_most_one_1road": 10,
+      "at_most_one_2road": 12,
+      "at_most_one_odd": 3,
+      "at_most_one_even": 2,
+      "four_or_fewer_zodiacs": 6
+    },
+    "45": {
+      "periods": 45,
+      "zero_0road": 6,
+      "zero_1road": 1,
+      "zero_2road": 1,
+      "at_most_one_0road": 22,
+      "at_most_one_1road": 11,
+      "at_most_one_2road": 14,
+      "at_most_one_odd": 3,
+      "at_most_one_even": 2,
+      "four_or_fewer_zodiacs": 6
+    },
+    "60": {
+      "periods": 60,
+      "zero_0road": 7,
+      "zero_1road": 1,
+      "zero_2road": 3,
+      "at_most_one_0road": 26,
+      "at_most_one_1road": 16,
+      "at_most_one_2road": 18,
+      "at_most_one_odd": 6,
+      "at_most_one_even": 4,
+      "four_or_fewer_zodiacs": 6
+    },
+    "100": {
+      "periods": 100,
+      "zero_0road": 15,
+      "zero_1road": 6,
+      "zero_2road": 3,
+      "at_most_one_0road": 46,
+      "at_most_one_1road": 26,
+      "at_most_one_2road": 29,
+      "at_most_one_odd": 9,
+      "at_most_one_even": 9,
+      "four_or_fewer_zodiacs": 17
+    },
+    "250": {
+      "periods": 250,
+      "zero_0road": 29,
+      "zero_1road": 18,
+      "zero_2road": 10,
+      "at_most_one_0road": 101,
+      "at_most_one_1road": 71,
+      "at_most_one_2road": 89,
+      "at_most_one_odd": 30,
+      "at_most_one_even": 23,
+      "four_or_fewer_zodiacs": 52
+    }
+  },
+  "staged_history_sha256": "662032bf9829c1451ea4dcc221b2b4c8386d5efe953a73e1ac14789b0869e629"
+}

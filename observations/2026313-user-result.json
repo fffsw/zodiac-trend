@@ -1,0 +1,15 @@
+{
+  "period": 2026313,
+  "period_basis": "Inferred from the user's reference to the just-displayed issue and the prior 312 history; user supplied no explicit period number or date in this message.",
+  "status": "USER_SUPPLIED_ONLY_NOT_OFFICIALLY_AUTHENTICATED",
+  "source": "User's latest message; no third-party result substituted",
+  "user_verbatim": "最新开奖狗33 龙39 45狗15龙07鼠20猪43鼠",
+  "normal_numbers": [33, 39, 45, 15, 7, 20],
+  "normal_zodiacs": ["狗", "龍", "狗", "龍", "鼠", "豬"],
+  "seventh_number": 43,
+  "seventh_zodiac": "鼠",
+  "ordering_basis": "Following the established six-normal-plus-seventh convention, the final listed number is treated as the seventh ball.",
+  "date": null,
+  "scope": "Retrospective only: six normal balls for column settlement and historical statistics; seventh ball only for seven-ball zodiac identity intersection. No special-number selection.",
+  "main_history_or_public_site_changed": false
+}

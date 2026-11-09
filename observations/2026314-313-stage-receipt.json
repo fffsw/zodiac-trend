@@ -1,0 +1,29 @@
+{
+  "status": "STAGED_USER_INPUT_ONLY_NO_OFFICIAL_OR_DATE_AUTHENTICATION",
+  "period_inferred_from_previous_display": 2026313,
+  "normal_numbers": [
+    33,
+    39,
+    45,
+    15,
+    7,
+    20
+  ],
+  "normal_zodiacs": [
+    "狗",
+    "龍",
+    "狗",
+    "龍",
+    "鼠",
+    "豬"
+  ],
+  "seventh_number": 43,
+  "seventh_zodiac": "鼠",
+  "date": null,
+  "date_policy": "CSV date is empty and webpage must render --/--, never synthesize a date",
+  "previous_sha256": "7368457fed12328fb796eefaa8c97d0f6689cd926b10a624644a333311a52409",
+  "staged_sha256": "662032bf9829c1451ea4dcc221b2b4c8386d5efe953a73e1ac14789b0869e629",
+  "prior_rows_byte_identical": 1043,
+  "record_count": 1044,
+  "main_history_and_public_site_changed": false
+}

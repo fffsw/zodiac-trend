@@ -1,0 +1,21 @@
+PASS source SHA-256 matches frozen 312 and staged 313
+PASS all 1043 original record lines retained byte-for-byte
+PASS 1044 unique records and correct descending endpoint
+PASS 313 is user input only, date blank, exact six-plus-one; period/order inferred
+PASS confirmed 312 first ball and all seven unchanged
+PASS seven numbers distinct in all source records
+PASS 250 displayed historical rows agree with current zodiac mapping
+PASS 12 zodiac windows and non-overlapping blocks independently recounted
+PASS 49 normal numbers, mapping, attributes, ages, and eight windows independently checked
+PASS 012 roads, parity, waves, heads and tails independently counted from six normals
+PASS 309–313 exact seven-v-seven distinct zodiac overlaps 4/4/5/5/3
+PASS full-history 445 input snapshot hash
+PASS 445 exact seven-ball, 9 followups; bad-draw windows excluded
+PASS 31 prewritten designs, 30 distinct column structures, 12 A identities; no selection by audit
+PASS human chosen roles and reserve
+PASS joint minimums and shared A independently reconstructed
+PASS all prior manual records preserved and 314 choice appended
+PASS 312 original/rev1 frozen; no false 313 or 314 prereg
+PASS browser payload, exact slots, unknown date and compact risk notice
+PASS self-contained byte-for-byte page reproduction from packaged source and decision
+314 OFFLINE INDEPENDENT VERIFICATION PASS — no official-source, predraw-time, mechanism, odds or predictive claim
