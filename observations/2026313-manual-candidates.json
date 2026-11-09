@@ -1,0 +1,2718 @@
+{
+  "status": "DRAFT_AUDIT_ONLY_NOT_PRODUCTION_OR_PREREG",
+  "input_312_from_user": [
+    31,
+    46,
+    4,
+    43,
+    32,
+    15,
+    38
+  ],
+  "human_proposal_id": "draft_horse_top",
+  "selection_method": "人工逐肖及完整合法候选对照，无摇号、打分或历史回放排名",
+  "source_human_design_sha256": "693a9060b83e1e96341413ab57c00468d878279e6317a37ad13ff74d5dc2e31e",
+  "model_note": "49码等可能，6个不放回，基线仅刻画结构；绝不是预测收益或筛选排名。",
+  "candidates": [
+    {
+      "id": "draft_horse_top",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "人工草案：馬单，二栏含龍0路，三栏虎蛇分别奇偶2路，猪替补；代价是鸡鼠外漏。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "unchanged_312_rev1",
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "reserve": [
+        "鷄"
+      ],
+      "universe": [
+        "蛇",
+        "兔",
+        "馬",
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "display": [
+        "蛇",
+        "兔",
+        "馬",
+        "虎",
+        "龍"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "保留312 rev1角色不变作为参照；这不是自动沿用。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2618084,
+          713016
+        ],
+        "column_probability": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.4326527179705454,
+          0.4822420432305459,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "reserve_chicken",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "鷄"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇",
+        "鷄"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "替补由猪换鸡，栏目完全不变，全集1路覆盖扩大；牺牲猪在全集。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          6,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "reserve_mouse",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "鼠"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇",
+        "鼠"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "替补由猪换鼠，栏目完全不变；鼠有近20反方，全集奇数增加。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "top_snake",
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "馬"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "蛇",
+        "兔",
+        "龍",
+        "虎",
+        "馬",
+        "豬"
+      ],
+      "display": [
+        "蛇",
+        "兔",
+        "龍",
+        "虎",
+        "馬"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "把蛇改为单肖，马进入三栏；比较不同角色依赖。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          860000
+        ],
+        "column_probability": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.06149966504135924
+        ],
+        "complete_slots_combinations": [
+          6225752,
+          6673368,
+          1038616,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.4452112356169446,
+          0.4772208101136342,
+          0.07427271640301904,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "top_pig",
+      "roles": {
+        "top": "豬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "馬"
+      ],
+      "universe": [
+        "豬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇",
+        "馬"
+      ],
+      "display": [
+        "豬",
+        "兔",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "把猪放单肖、马改替补，近端更偏猪，但展示缺马。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          4,
+          12
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          4,
+          7,
+          9
+        ],
+        "small_big": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          2,
+          1,
+          2,
+          1,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ],
+        "complete_slots_probability": [
+          0.45039723062717646,
+          0.47673739414191374,
+          0.07019257118371695,
+          0.0026728040471928408
+        ]
+      }
+    },
+    {
+      "id": "A_pig",
+      "roles": {
+        "top": "馬",
+        "A": "豬",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "兔"
+      ],
+      "universe": [
+        "馬",
+        "豬",
+        "龍",
+        "虎",
+        "蛇",
+        "兔"
+      ],
+      "display": [
+        "馬",
+        "豬",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "把共同A从兔换猪；兔只为替补，两个组合共同依赖猪。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          5,
+          12
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "top_equals_A_rabbit",
+      "roles": {
+        "top": "兔",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "馬",
+        "豬"
+      ],
+      "universe": [
+        "兔",
+        "龍",
+        "虎",
+        "蛇",
+        "馬",
+        "豬"
+      ],
+      "display": [
+        "兔",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "concentrated",
+      "rationale": "单肖与A共用兔，展示仅四肖；兔空则三栏全断。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 16,
+        "road_0_1_2": [
+          4,
+          4,
+          8
+        ],
+        "odd_even": [
+          8,
+          8
+        ],
+        "red_blue_green": [
+          3,
+          6,
+          7
+        ],
+        "small_big": [
+          8,
+          8
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          4,
+          2,
+          2
+        ],
+        "tails_0_to_9": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.4175366723932866,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          8145060,
+          3125992,
+          2522428,
+          190336
+        ],
+        "complete_slots_probability": [
+          0.5824633276067134,
+          0.22354355921159147,
+          0.1803819501057508,
+          0.013611163075944363
+        ]
+      }
+    },
+    {
+      "id": "top_rabbit_A_horse",
+      "roles": {
+        "top": "兔",
+        "A": "馬",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "兔",
+        "馬",
+        "龍",
+        "虎",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "兔",
+        "馬",
+        "龍",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "兔单、马为共同A；承认马五码与两个组合的共同依赖。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2618084,
+          860000
+        ],
+        "column_probability": [
+          0.4175366723932866,
+          0.18722242912807205,
+          0.06149966504135924
+        ],
+        "complete_slots_combinations": [
+          5944736,
+          6807400,
+          1185600,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.42511543344105784,
+          0.48680560442156845,
+          0.08478372427097153,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "zero_road_in_three",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "蛇",
+        "C": "虎",
+        "D": "龍"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "蛇",
+        "虎",
+        "龍",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "蛇",
+        "虎",
+        "龍"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "龍与蛇换二/三栏，把唯一展示0路的依赖从二栏转到三栏。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "pig_for_tiger",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "豬",
+        "D": "蛇"
+      },
+      "reserve": [
+        "虎"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "豬",
+        "蛇",
+        "虎"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "豬",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "猪代虎展示；2路展示全偶数，放弃奇数2路。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          9,
+          12
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "pig_for_snake",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserve": [
+        "蛇"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "豬",
+        "蛇"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "虎",
+        "豬"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "猪代蛇展示，承认蛇更强的近20和主窗反方。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          7,
+          9
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "mouse_for_tiger",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "鼠",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "鼠",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "鼠",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "鼠进展示、虎出全集；展示没有奇数2路。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          13,
+          4
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          8,
+          7
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          4,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "monkey_for_tiger",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "猴",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "猴",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "猴",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "以猴代虎保留奇数2路；猴近10稍活跃，虎三个主窗较强。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          6,
+          5,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3,
+          2
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          8,
+          7
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          4,
+          5,
+          5,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "chicken_for_tiger",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "鷄",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "鷄",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "鷄",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "鸡进展示、虎出全集；展示2路仅蛇偶数。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          9,
+          16
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          6,
+          5,
+          4
+        ],
+        "tails_0_to_9": [
+          3,
+          1,
+          3,
+          2,
+          4,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          13,
+          4
+        ],
+        "odd_even": [
+          9,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          8,
+          7
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          4,
+          5,
+          5,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "ox_for_dragon",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "牛",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "牛",
+        "虎",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "牛",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "牛代龍作偶数0路，考察号码路线而非用久未出现作必补理由。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          9,
+          16
+        ],
+        "red_blue_green": [
+          8,
+          8,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          9,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          7,
+          7
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "sheep_for_dragon",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "羊",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "羊",
+        "虎",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "羊",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "羊代龍作偶数0路，承认羊较弱的近端与主窗。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          9,
+          16
+        ],
+        "red_blue_green": [
+          8,
+          9,
+          8
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          6,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          3,
+          1,
+          4,
+          2,
+          3,
+          2,
+          4,
+          2
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          9,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          6
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          4,
+          5,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "dog_for_dragon",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "狗",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "狗",
+        "虎",
+        "蛇",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "狗",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "狗代龍保留奇数0路，承认狗近端和主窗较弱。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          4,
+          6,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          7,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          3,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "two_zero_display",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "羊",
+        "D": "虎"
+      },
+      "reserve": [
+        "豬"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "龍",
+        "羊",
+        "虎",
+        "豬"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "龍",
+        "羊",
+        "虎"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "龍羊两个0路均在展示，但三栏又需要羊；蛇离开全集。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          8,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          6,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          8,
+          9,
+          4
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          8,
+          7
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          4,
+          5,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    },
+    {
+      "id": "no_zero_display",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "豬",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserve": [
+        "龍"
+      ],
+      "universe": [
+        "馬",
+        "兔",
+        "豬",
+        "虎",
+        "蛇",
+        "龍"
+      ],
+      "display": [
+        "馬",
+        "兔",
+        "豬",
+        "虎",
+        "蛇"
+      ],
+      "overlap_mode": "coverage",
+      "rationale": "0路龍只在替补；展示完全无0路，若0路实际出现则无法在展示中命中0路生肖。",
+      "universe_structure": {
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display_structure": {
+        "number_count": 21,
+        "road_0_1_2": [
+          0,
+          9,
+          12
+        ],
+        "odd_even": [
+          9,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          7,
+          8
+        ],
+        "small_big": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "ideal_fair_model": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "column_probability": [
+          0.49519844940751506,
+          0.1566156190842328,
+          0.05098865717340675
+        ],
+        "complete_slots_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "complete_slots_probability": [
+          0.3855977510001562,
+          0.5292970102009351,
+          0.08181000093250655,
+          0.0032952378664021322
+        ]
+      }
+    }
+  ]
+}

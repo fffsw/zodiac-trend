@@ -1,0 +1,36 @@
+{
+  "target": 2026313,
+  "authorization_source": "user selected the predefined unverified_display option after being told about the Macau Judiciary Police warning and inability to independently certify pre-draw status",
+  "selected_option": "unverified_display",
+  "authorized_scope": "nonofficial user-data observation page with human-selected 313 display; visible police fraud warning and unverified-source/fairness limitations",
+  "explicit_exclusions": [
+    "no claim of official lottery approval or official results",
+    "no assertion that release was independently authenticated as pre-draw",
+    "no 313 pre-draw preregistration",
+    "no special-number prediction lines",
+    "no gambling transactions, betting links, or payment collection"
+  ],
+  "user_confirmed_312_numbers": [
+    31,
+    46,
+    4,
+    43,
+    32,
+    15,
+    38
+  ],
+  "site_313_display_only": {
+    "single": "馬",
+    "double": [
+      "兔",
+      "龍"
+    ],
+    "triple": [
+      "兔",
+      "虎",
+      "蛇"
+    ],
+    "reserve_only": "豬"
+  },
+  "note": "User approval changes release scope to an explicitly unverified observation; it does not establish lottery authenticity, randomness or trusted timing."
+}

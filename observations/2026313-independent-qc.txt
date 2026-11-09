@@ -1,0 +1,10 @@
+Current 312 six-plus-one exact; prior history byte-identical; isolated 1043-row history checksum PASS
+Recomputed 12-zodiac/49-number ledgers, eight windows, five age blocks and routes PASS
+Seven-ball deduplicated repeat 4/4/5/5 and 312 rev1 normal-only settlement 0/1, 1/2, 2/3 PASS
+20 human candidates independently recomputed; no automated selection or ranking PASS
+Public 20 human candidates: independently verified all slot counts, road, parity, wave, head, tail and ideal-model combinations PASS
+Independently recomputed public structural windows: 012, parity, wave, size, head, tail and per-period road indicators PASS
+Independent 308/310/311 and both 312 column-by-column settlements PASS
+Candidate: 250 embedded rows, 49 mappings, exact 313 display, scope/risk notice and 43 real Chromium tests PASS; no 313 prereg
+24 protected originals + ten historical gate/QC archives intact; 312 prereg files byte-identical; old deploy 68 dirty entries untouched PASS
+NONOFFICIAL DISPLAY CANDIDATE ARITHMETIC/STRUCTURE/BROWSER QC PASS; NOT OFFICIAL, FAIRNESS OR PREDRAW CERTIFICATION

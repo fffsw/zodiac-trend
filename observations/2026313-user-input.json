@@ -1,0 +1,14 @@
+{
+  "period": 2026312,
+  "status": "CURRENT_USER_CONFIRMED_INPUT_NOT_A_RELEASE",
+  "source_type": "user_confirmed",
+  "user_verbatim": "31鼠 46 鸡 04 兔43 鼠 32猪 15 龙 38蛇",
+  "normal_numbers": [31, 46, 4, 43, 32, 15],
+  "normal_zodiacs": ["鼠", "鷄", "兔", "鼠", "豬", "龍"],
+  "seventh_number": 38,
+  "seventh_zodiac": "蛇",
+  "analysis_scope": "six normals for site frequency and settlement; seventh only for historical seven-ball zodiac identity intersections, not special selection",
+  "date_note": "The user's correction gave numbers, not a draw date; any date metadata has a separate external provenance.",
+  "historical_user_confirmation_record": "data/task251_312_user_confirmed_input.json",
+  "older_input_is_current": false
+}

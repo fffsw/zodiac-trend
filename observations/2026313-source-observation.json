@@ -1,0 +1,32 @@
+{
+  "scope": "unverified_source_observation_only_not_a_predraw_or_publication_gate",
+  "observation_may_be_stale": true,
+  "provenance_warning": "Third-party endpoints may share upstream, target null does not prove pre-draw; local and external clock observations are not an independent trusted publication timestamp. Nothing here verifies official approval, outcome or fairness.",
+  "observations": {
+    "hko_clock": {
+      "url": "https://time.weather.gov.hk/cgi-bin/clock9a.pr",
+      "http_status": 200,
+      "http_date_header": "Mon, 09 Nov 2026 10:13:25 GMT",
+      "sha256": "392157196ad86b449aceb3ad11422d5a5f09e2aa7fecde0839c99a359cda5246",
+      "bytes": 19,
+      "decoded_hkt": "2026-11-09T18:13:25.787+08:00"
+    },
+    "target313": {
+      "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026313",
+      "http_status": 200,
+      "http_date_header": "Mon, 09 Nov 2026 10:13:25 GMT",
+      "sha256": "f0db11874a2939f38348781d9db1013cb246beb628178f953473428996698fb1",
+      "bytes": 90,
+      "json_code": 0,
+      "data_is_null": true
+    },
+    "latest": {
+      "url": "https://macaumarksix.com/api/macaujc2.com",
+      "http_status": 200,
+      "http_date_header": "Mon, 09 Nov 2026 10:13:26 GMT",
+      "sha256": "79fad5139f388d1aa8f86f9136eda8aa38f877c2098361f86cd558f310aa7ebb",
+      "bytes": 449,
+      "latest_issue_displayed": "2026312"
+    }
+  }
+}

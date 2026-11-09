@@ -1,0 +1,3 @@
+Empty-directory rebuild PASS: published input, manual decisions, and generator produce byte-identical 2026313-page.html.
+SHA-256: 7bd1f06691e05af1adc025986feaf4a92bff3d8a69d0b9f7fae69979f08260be
+This is a consistency test only, not a trusted timestamp or proof of an official outcome.
