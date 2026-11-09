@@ -1,0 +1,32 @@
+PASS input historical data SHA-256
+PASS 1,042 prior rows byte-identical, new 312 row inserted only
+PASS 1,043 unique records through 312; no target row
+PASS all historical rows contain seven distinct in-range numbers
+PASS 312 exact user-confirmed six-plus-one input and signs
+PASS all 250 on-page rows match current zodiac mapping
+PASS zodiac 鼠 group mapping
+PASS zodiac 牛 group mapping
+PASS zodiac 虎 group mapping
+PASS zodiac 兔 group mapping
+PASS zodiac 龍 group mapping
+PASS zodiac 蛇 group mapping
+PASS zodiac 馬 group mapping
+PASS zodiac 羊 group mapping
+PASS zodiac 猴 group mapping
+PASS zodiac 鷄 group mapping
+PASS zodiac 狗 group mapping
+PASS zodiac 豬 group mapping
+PASS 12 zodiac ledgers across all windows and five disjoint age blocks
+PASS 49 individual numbers, routes, color, heads, tails, omission and windows
+PASS structural windows: route, parity, wave, head/tail and event counts
+PASS separate seven-v-seven / six-v-seven / six-v-six; exact 4/4/5/5
+PASS 308/310/311/312 retrospectives versus prior decision snapshots
+PASS older period decisions and old D1 preserved
+PASS manually specified D2 roles and reserve
+PASS 24 handwritten alternatives and fixed proposed ID; no ranking
+PASS 24 complete candidate structures and exact ideal-model combinatorics independently checked
+PASS 312 frozen original/rev1 hashes intact; no 313 preregistration
+PASS all 250 embedded browser rows and complete 49 mapping agree with source
+PASS page manual fields, D2 audit link and compact risk notice
+PASS empty-directory byte-for-byte page reproduction in both output locations
+D2 OFFLINE INDEPENDENT VERIFICATION PASS — descriptive evidence only, not an official result or proof of predraw timing

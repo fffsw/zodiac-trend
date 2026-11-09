@@ -1,0 +1,4322 @@
+{
+  "status": "HAND_AUTHORED_ALTERNATIVE_AUDIT_NOT_A_RANKING",
+  "no_auto_select_no_score_no_backtest": true,
+  "proposed_id_already_manually_declared": "C01_mouse_single_pig_in",
+  "model_note": "49-equal six-without-replacement only; no actual fairness or forecast claim",
+  "candidates": [
+    {
+      "id": "C01_mouse_single_pig_in",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "与旧版比，鼠取代马入单栏、猪取代蛇入三栏；同为奇数1路及偶数2路替换，兔龙二栏不变，马仅替补；承担鼠四码代替马五码、蛇与鸡出全集及兔共用风险。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C02_previous_live",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserves": [
+        "豬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "蛇",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20,
+          25,
+          26,
+          27,
+          28,
+          29,
+          32,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          9,
+          12
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          9,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          6,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "蛇"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          25,
+          26,
+          27,
+          28,
+          29,
+          37,
+          38,
+          39,
+          40,
+          41,
+          49
+        ],
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          8,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "兔",
+        "龍",
+        "蛇",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "现行非官方展示对照：五肖与312修订版相同，猪仅替补，鼠和鸡全集外；保留马五码单栏，但不能靠窗口次数或自动沿用证明更优。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ]
+      }
+    },
+    {
+      "id": "C03_horse_single_pig_mouse_reserve",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "鼠"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鼠"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          8,
+          13,
+          15,
+          16,
+          17,
+          20,
+          25,
+          27,
+          28,
+          29,
+          32,
+          37,
+          39,
+          40,
+          41,
+          44,
+          49
+        ],
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          13,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          7,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "与C01全集相同，仅把马与鼠的单栏/替补互换；保留马五码单栏，鼠仍不进有效栏目。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ]
+      }
+    },
+    {
+      "id": "C04_mouse_single_snake_pig_excluded",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "蛇",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          6,
+          5,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          3,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "蛇"
+        ],
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          14,
+          15,
+          16,
+          17,
+          19,
+          26,
+          27,
+          28,
+          29,
+          31,
+          38,
+          39,
+          40,
+          41,
+          43
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          7,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          4,
+          3,
+          3
+        ],
+        "tails_0_to_9": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "蛇"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "只换旧单栏，不动兔龙与虎蛇；蛇保留偶数2路，但猪离开全集。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C05_snake_reserve_same_display",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "蛇"
+        ],
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          4,
+          8,
+          12
+        ],
+        "odd_even": [
+          12,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "蛇",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "展示栏与C01完全相同，蛇替代马做储备；全集不含马，栏目不随替补改变。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C06_chicken_reserve_same_display",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "鷄"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鷄"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          27,
+          28,
+          29,
+          31,
+          32,
+          34,
+          39,
+          40,
+          41,
+          43,
+          44,
+          46
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          4,
+          12,
+          8
+        ],
+        "odd_even": [
+          12,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          7,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "鷄",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "展示栏与C01完全相同，鸡代马为替补；鸡只改变全集而非栏目，蛇和马均不在全集。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C07_chicken_single",
+      "roles": {
+        "top": "鷄",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鷄",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          8,
+          10,
+          13,
+          15,
+          16,
+          17,
+          20,
+          22,
+          25,
+          27,
+          28,
+          29,
+          32,
+          34,
+          37,
+          39,
+          40,
+          41,
+          44,
+          46,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          6,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鷄",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          8,
+          10,
+          15,
+          16,
+          17,
+          20,
+          22,
+          27,
+          28,
+          29,
+          32,
+          34,
+          39,
+          40,
+          41,
+          44,
+          46
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          5,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          3,
+          1,
+          2,
+          1,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "兔",
+        "龍",
+        "鷄",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "鸡替鼠为单栏，兔与鸡均是偶数1路；不再展示鼠，单栏由奇数1路改偶数1路。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C08_ox_for_dragon",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "牛",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "牛",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          25,
+          28,
+          29,
+          30,
+          31,
+          32,
+          37,
+          40,
+          41,
+          42,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          9,
+          7,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          4,
+          4,
+          6
+        ],
+        "tails_0_to_9": [
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "牛",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          16,
+          17,
+          18,
+          19,
+          20,
+          28,
+          29,
+          30,
+          31,
+          32,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          5,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          3,
+          3,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "牛代龙代表偶数0路，二栏兔与牛均属偶数；放弃龙不能以牛30间隔长作为必补理由。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C09_sheep_for_dragon",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "羊",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "羊",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          4,
+          5,
+          7,
+          8,
+          12,
+          13,
+          16,
+          17,
+          19,
+          20,
+          24,
+          25,
+          28,
+          29,
+          31,
+          32,
+          36,
+          37,
+          40,
+          41,
+          43,
+          44,
+          48,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          9,
+          8,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          4,
+          6
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "羊",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          4,
+          5,
+          7,
+          8,
+          12,
+          16,
+          17,
+          19,
+          20,
+          24,
+          28,
+          29,
+          31,
+          32,
+          36,
+          40,
+          41,
+          43,
+          44,
+          48
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          6,
+          7
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          4,
+          3,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          1,
+          3,
+          1,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "羊代龙提供偶数0路，二栏两肖均偶；不以近端波动推导羊必开。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C10_dog_for_dragon",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "狗",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "狗",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          4,
+          5,
+          7,
+          8,
+          9,
+          13,
+          16,
+          17,
+          19,
+          20,
+          21,
+          25,
+          28,
+          29,
+          31,
+          32,
+          33,
+          37,
+          40,
+          41,
+          43,
+          44,
+          45,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          8,
+          7,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          4,
+          5,
+          4,
+          6
+        ],
+        "tails_0_to_9": [
+          2,
+          4,
+          1,
+          3,
+          2,
+          3,
+          1,
+          3,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "狗",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          16,
+          17,
+          19,
+          20,
+          21,
+          28,
+          29,
+          31,
+          32,
+          33,
+          40,
+          41,
+          43,
+          44,
+          45
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          5,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          3,
+          4,
+          3,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "狗代龙保留奇数0路与兔的奇偶组合，但0路具体号码完全改变、龙被排除。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C11_monkey_for_tiger",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "猴",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "猴",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          7,
+          8,
+          11,
+          13,
+          15,
+          16,
+          19,
+          20,
+          23,
+          25,
+          27,
+          28,
+          31,
+          32,
+          35,
+          37,
+          39,
+          40,
+          43,
+          44,
+          47,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          8,
+          8,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          4,
+          2,
+          3,
+          1,
+          4,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "猴",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          7,
+          8,
+          11,
+          15,
+          16,
+          19,
+          20,
+          23,
+          27,
+          28,
+          31,
+          32,
+          35,
+          39,
+          40,
+          43,
+          44,
+          47
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          6,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          3,
+          2,
+          2,
+          1,
+          3,
+          2,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "猴代虎保持奇数2路和猪偶数2路；变动四个号码及尾部，不能因为虎近10少而说必补或必断。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C12_tiger_monkey_odd2",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "猴"
+      },
+      "reserves": [
+        "豬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "猴",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          11,
+          15,
+          16,
+          17,
+          19,
+          20,
+          23,
+          27,
+          28,
+          29,
+          31,
+          32,
+          35,
+          39,
+          40,
+          41,
+          43,
+          44,
+          47
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          4,
+          8,
+          12
+        ],
+        "odd_even": [
+          16,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          7,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "猴"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          11,
+          15,
+          16,
+          17,
+          19,
+          23,
+          27,
+          28,
+          29,
+          31,
+          35,
+          39,
+          40,
+          41,
+          43,
+          47
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          16,
+          4
+        ],
+        "red_blue_green": [
+          6,
+          6,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          5,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          3,
+          0,
+          3,
+          1,
+          3,
+          1,
+          4,
+          1,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "三栏虎猴均为奇数2路，猪仅替补，蛇和马出全集；承担两个奇数2路依赖。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C13_chicken_for_tiger",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "鷄",
+        "D": "豬"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "鷄",
+          "豬",
+          "虎"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          27,
+          28,
+          29,
+          31,
+          32,
+          34,
+          39,
+          40,
+          41,
+          43,
+          44,
+          46
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          4,
+          12,
+          8
+        ],
+        "odd_even": [
+          12,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          7,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "鷄",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          7,
+          8,
+          10,
+          15,
+          16,
+          19,
+          20,
+          22,
+          27,
+          28,
+          31,
+          32,
+          34,
+          39,
+          40,
+          43,
+          44,
+          46
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          12,
+          4
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          6,
+          6,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "鷄",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "鸡入三栏，原奇数2路虎仅替补；展示1路多一肖，2路仅猪偶数，三栏有两个偶数1路肖。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C14_top_overlaps_A",
+      "roles": {
+        "top": "兔",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "鼠",
+        "馬"
+      ],
+      "top_overlap_mode": "concentrated",
+      "universe": {
+        "zodiacs": [
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鼠",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          8,
+          15,
+          16,
+          17,
+          20,
+          27,
+          28,
+          29,
+          32,
+          39,
+          40,
+          41,
+          44
+        ],
+        "number_count": 16,
+        "road_0_1_2": [
+          4,
+          4,
+          8
+        ],
+        "odd_even": [
+          8,
+          8
+        ],
+        "red_blue_green": [
+          3,
+          5,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          8,
+          8
+        ],
+        "heads_0_to_4": [
+          4,
+          3,
+          4,
+          2,
+          3
+        ],
+        "tails_0_to_9": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "单栏与A均兔，四肖实际展示、鼠马均替补；兔没有平码则三栏同时不完整。用以对照重叠，而非固定禁止重叠。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          8145060,
+          3125992,
+          2522428,
+          190336
+        ]
+      }
+    },
+    {
+      "id": "C15_rabbit_single_mouse_anchor",
+      "roles": {
+        "top": "兔",
+        "A": "鼠",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "兔",
+          "鼠",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "兔",
+          "鼠",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "与C01全集和展示集合相同，但兔做单栏、鼠成两个组合共同位；二栏鼠龙均奇数，把共同依赖从兔转给鼠。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C16_pig_single_mouse_three",
+      "roles": {
+        "top": "豬",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "鼠"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "豬",
+          "兔",
+          "龍",
+          "虎",
+          "鼠",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "豬",
+          "兔",
+          "龍",
+          "虎",
+          "鼠"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "同全集展示五肖，猪改单栏，鼠进三栏；三栏同时依赖兔与鼠两个1路，猪不再参与三栏。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C17_dragon_single_mouse_double",
+      "roles": {
+        "top": "龍",
+        "A": "兔",
+        "B": "鼠",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "龍",
+          "兔",
+          "鼠",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "龍",
+          "兔",
+          "鼠",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "同全集，龙作单栏，二栏兔鼠两个1路；展示0路只由单栏承担，无0路时单栏空。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C18_mouse_shared_horse_single",
+      "roles": {
+        "top": "馬",
+        "A": "鼠",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "兔"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "馬",
+          "鼠",
+          "龍",
+          "虎",
+          "豬",
+          "兔"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "馬",
+          "鼠",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          13,
+          15,
+          17,
+          19,
+          20,
+          25,
+          27,
+          29,
+          31,
+          32,
+          37,
+          39,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 21,
+        "road_0_1_2": [
+          4,
+          9,
+          8
+        ],
+        "odd_even": [
+          17,
+          4
+        ],
+        "red_blue_green": [
+          6,
+          7,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          11
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          0,
+          4,
+          1,
+          4
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "马单、鼠为两个组合共同位；二栏鼠龙均奇数，兔仅替补，不能因为312两鼠就当鼠更可能。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          6924764,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ]
+      }
+    },
+    {
+      "id": "C19_pig_snake_even2",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "豬",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "豬",
+          "蛇",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20,
+          25,
+          26,
+          27,
+          28,
+          31,
+          32,
+          37,
+          38,
+          39,
+          40,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          13,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          9,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "豬",
+          "蛇"
+        ],
+        "numbers": [
+          2,
+          3,
+          4,
+          7,
+          8,
+          14,
+          15,
+          16,
+          19,
+          20,
+          26,
+          27,
+          28,
+          31,
+          32,
+          38,
+          39,
+          40,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          8,
+          12
+        ],
+        "red_blue_green": [
+          5,
+          7,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          4,
+          3
+        ],
+        "tails_0_to_9": [
+          2,
+          1,
+          2,
+          2,
+          3,
+          1,
+          2,
+          2,
+          3,
+          2
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "蛇",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "猪蛇均入三栏，虎出全集；两种2路均偶数，失去虎猴奇数2路展示。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C20_zero_road_in_three",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "豬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "豬",
+          "虎",
+          "龍",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "豬",
+          "虎",
+          "龍"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "猪龙对调二/三栏：二栏兔猪两个偶数，唯一0路龙移至三栏；转移而非消除0路依赖。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C21_tiger_double_dragon_three",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "虎",
+        "C": "龍",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "虎",
+          "龍",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          13,
+          15,
+          16,
+          17,
+          19,
+          20,
+          25,
+          27,
+          28,
+          29,
+          31,
+          32,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          1,
+          3,
+          2,
+          3,
+          1,
+          4,
+          2,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "虎",
+          "龍",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "二栏兔虎，三栏兔龙猪，把龙的0路依赖移至三栏；猪不再与虎同时出现在三栏。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C22_chicken_shared",
+      "roles": {
+        "top": "鼠",
+        "A": "鷄",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "鷄",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ],
+        "numbers": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          10,
+          13,
+          15,
+          17,
+          19,
+          20,
+          22,
+          25,
+          27,
+          29,
+          31,
+          32,
+          34,
+          37,
+          39,
+          41,
+          43,
+          44,
+          46,
+          49
+        ],
+        "number_count": 25,
+        "road_0_1_2": [
+          4,
+          13,
+          8
+        ],
+        "odd_even": [
+          17,
+          8
+        ],
+        "red_blue_green": [
+          8,
+          8,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          13
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          1,
+          4,
+          1,
+          4
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "鷄",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          5,
+          7,
+          8,
+          10,
+          15,
+          17,
+          19,
+          20,
+          22,
+          27,
+          29,
+          31,
+          32,
+          34,
+          39,
+          41,
+          43,
+          44,
+          46
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          6,
+          6,
+          8
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "龍",
+        "鷄",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "鸡代兔成为共同位，兔离开全集；保留偶数1路但两个组合均转而依赖鸡。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C23_sheep_reserve_same_display",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "羊"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "羊"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          12,
+          15,
+          16,
+          17,
+          19,
+          20,
+          24,
+          27,
+          28,
+          29,
+          31,
+          32,
+          36,
+          39,
+          40,
+          41,
+          43,
+          44,
+          48
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          8,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          8,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          5,
+          5,
+          5,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "同展示栏，羊代马作替补，全集增加偶数0路但栏目不变；马蛇鸡均不在全集。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    },
+    {
+      "id": "C24_ox_reserve_same_display",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "top_overlap_mode": "coverage",
+      "universe": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "牛"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "number_count": 24,
+        "road_0_1_2": [
+          8,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          12
+        ],
+        "red_blue_green": [
+          7,
+          7,
+          10
+        ],
+        "small_big_1_24_25_49": [
+          12,
+          12
+        ],
+        "heads_0_to_4": [
+          6,
+          5,
+          4,
+          4,
+          5
+        ],
+        "tails_0_to_9": [
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "display": {
+        "zodiacs": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "numbers": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          15,
+          16,
+          17,
+          19,
+          20,
+          27,
+          28,
+          29,
+          31,
+          32,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "number_count": 20,
+        "road_0_1_2": [
+          4,
+          8,
+          8
+        ],
+        "odd_even": [
+          12,
+          8
+        ],
+        "red_blue_green": [
+          5,
+          6,
+          9
+        ],
+        "small_big_1_24_25_49": [
+          10,
+          10
+        ],
+        "heads_0_to_4": [
+          5,
+          4,
+          4,
+          3,
+          4
+        ],
+        "tails_0_to_9": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          2,
+          3
+        ]
+      },
+      "prior_seven_identity_intersection": [
+        "鼠",
+        "兔",
+        "龍",
+        "豬"
+      ],
+      "prior_identity_intersection_is_not_a_quota": true,
+      "human_comparison": "同展示栏，牛代马作替补，全集增加偶数0路；不能把补0路线的替补错算成栏目命中。",
+      "ideal_model_only": {
+        "denominator": 13983816,
+        "column_combinations": [
+          5838756,
+          2190084,
+          713016
+        ],
+        "complete_slot_count_combinations": [
+          6298272,
+          6666608,
+          981560,
+          37376
+        ]
+      }
+    }
+  ]
+}
