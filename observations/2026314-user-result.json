@@ -1,0 +1,18 @@
+{
+  "period": 2026314,
+  "period_basis": "Inferred from the user's reference to the just-displayed 314 issue; the user did not explicitly provide a period number in this message.",
+  "status": "USER_SUPPLIED_ONLY_NOT_OFFICIALLY_AUTHENTICATED",
+  "source": "User's message only; no third-party draw result substituted or queried",
+  "user_numbers_verbatim": "13、26、09、37、34、44、31",
+  "user_zodiacs_verbatim": "马、蛇、狗、马、鸡、猪、鼠",
+  "user_distinct_zodiacs_verbatim": "马、蛇、狗、鸡、猪、鼠",
+  "normal_numbers": [13, 26, 9, 37, 34, 44],
+  "normal_zodiacs": ["馬", "蛇", "狗", "馬", "鷄", "豬"],
+  "seventh_number": 31,
+  "seventh_zodiac": "鼠",
+  "ordering_basis": "Based on established previous convention, the first six are treated as normal balls and the last as the seventh; the user did not explicitly label the final number as the seventh in this message.",
+  "seven_ball_distinct_zodiacs": ["馬", "蛇", "狗", "鷄", "豬", "鼠"],
+  "date": null,
+  "scope": "Retrospective only: six normal balls for column settlement and descriptive statistics; seventh only for historic seven-ball zodiac identity intersection and historical display, never special-number selection. No 315 selection or website update without further instruction.",
+  "main_history_or_public_site_changed_at_intake": false
+}

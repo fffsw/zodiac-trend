@@ -1,0 +1,24 @@
+PASS exact user seven numbers, order assumption and unknown date
+PASS user mappings and seven-ball deduplicated signs independently verified
+PASS published HTML settles 0/1, 1/2, 2/3; zero complete
+PASS four displayed balls, one reserve ball and five universe balls are not completed columns
+PASS pig reserve, snake outside, mouse only seventh
+PASS actual road, parity and waves from six balls
+PASS five signs, one pair, sum/span and head/small-big metrics
+PASS all 2-road normals are even; only zero-road is 09 dog
+PASS five distinct signs is necessary but not sufficient; two zero-road zodiac slots cannot both complete
+PASS seven-v-seven 3 signs versus six-v-seven 2 signs; no repeated numbers
+PASS all 12 zodiac 8-window and disjoint age-block values recomputed directly
+PASS all 49 numbers: prior counts/ages, zodiac, road, wave, parity, head and tail
+PASS six actual balls retain pre-314 rather than post-result ages and counts
+PASS all prior route/risk shape counts directly recomputed; overlapping windows not independent
+PASS 31 original candidates have 30 unordered actual column structures; reserve-only duplicate identified
+PASS shared-position concentration and all 31 after-result outcomes independently counted, not ranked
+PASS frozen E10/E11 alternatives, reserve-only E09 and E24 do not get conflated
+PASS candidate overlap architecture measured, not imposed as new rule
+PASS ideal-model zero-column and shared-slot dependence independently calculated by inclusion-exclusion
+PASS exact 4/4/5 seven-v-seven record and 314 extension reproduced independently
+PASS 308–314 per-period records and 309 correct columns
+PASS all 24 before-review frozen files preserve their hashes
+PASS main history and public-site source still through 313/314; no 315 selection
+INDEPENDENT 314 RETROSPECTIVE QC PASS — not an official draw, pre-registration, real-mechanism or prediction certificate

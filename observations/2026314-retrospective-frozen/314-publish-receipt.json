@@ -1,0 +1,91 @@
+{
+  "release_scope": "NONOFFICIAL_UNVERIFIED_DISPLAY_NOT_PREDRAW_PREREG",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "analysis": "https://fffsw.github.io/zodiac-trend/observations/2026314-analysis.md",
+  "commit": "695bead81e897af6e7a7a35805257ca5b246d455",
+  "github_pages_actions": {
+    "run_id": 42676263514,
+    "head_sha": "695bead81e897af6e7a7a35805257ca5b246d455",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/42676263514",
+    "scope": "GitHub Pages build/deployment state only, not predraw or official certification"
+  },
+  "public_http_files_checked": 87,
+  "public_http_sha_match": "PASS",
+  "public_browser_checks": 53,
+  "local_browser_checks": 53,
+  "browser_status": "PASS_NONOFFICIAL_NOT_A_PREDRAW_CERTIFICATE",
+  "313_and_314_prereg_status": [
+    {
+      "path": "pre-registration/2026313.json",
+      "status": 404,
+      "absent": true
+    },
+    {
+      "path": "pre-registration/2026314.json",
+      "status": 404,
+      "absent": true
+    }
+  ],
+  "prepush_status_only": {
+    "scope": "third-party status observations only; no official, fairness or predraw authentication",
+    "numbers_accessed_or_saved": false,
+    "may_be_stale_or_share_upstream": true,
+    "observations": {
+      "target": {
+        "http_status": 200,
+        "server_date_header": "Mon, 09 Nov 2026 18:41:33 GMT",
+        "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026314",
+        "target_record_is_null": true
+      },
+      "latest": {
+        "http_status": 200,
+        "server_date_header": "Mon, 09 Nov 2026 18:41:33 GMT",
+        "url": "https://macaumarksix.com/api/macaujc2.com",
+        "latest_issue_identifier": 2026313
+      }
+    },
+    "status": "NO_TARGET_RECORD_OBSERVED_NOT_PROOF_OF_PRE_DRAW"
+  },
+  "page_sha256": "54c9d5da57cca4fa2b8f4d2c151f31b228cd3a4de3b4fed6ef2c5cd0b6f23b0b",
+  "history_sha256": "662032bf9829c1451ea4dcc221b2b4c8386d5efe953a73e1ac14789b0869e629",
+  "immutable_manifest_sha256": "f982534f44b292495f168cef83e6d016612e6a55c22801cc0e4b8d34edecb284",
+  "313_user_only_six_plus_one_inferred": [
+    33,
+    39,
+    45,
+    15,
+    7,
+    20,
+    43
+  ],
+  "313_date": null,
+  "prior_history_rows_byte_identical": 1043,
+  "site_decision": {
+    "universe": [
+      "牛",
+      "虎",
+      "馬",
+      "狗",
+      "鷄",
+      "豬"
+    ],
+    "single": "牛",
+    "pair": [
+      "虎",
+      "馬"
+    ],
+    "triple": [
+      "虎",
+      "狗",
+      "鷄"
+    ],
+    "reserve": [
+      "豬"
+    ]
+  },
+  "local_package_verifier_and_manifests": "PASS",
+  "original_dirty_deploy_entries": 68,
+  "caveat": "Status, SHA and browser checks do not certify source, predraw timing, actual random mechanism, predictive power or returns."
+}

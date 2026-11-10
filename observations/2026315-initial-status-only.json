@@ -1,0 +1,9 @@
+{
+  "scope": "315 status only; no target numbers read or saved; no official or predraw authentication",
+  "observations": {
+    "target": {"http_status": 200, "server_date_header": "Tue, 10 Nov 2026 18:47:11 GMT", "target_record_is_null": true},
+    "latest": {"http_status": 200, "server_date_header": "Tue, 10 Nov 2026 18:47:11 GMT", "latest_issue_identifier": 2026314}
+  },
+  "status": "NO_TARGET_RECORD_OBSERVED_NOT_PROOF_OF_PRE_DRAW",
+  "may_be_stale_or_share_upstream": true
+}

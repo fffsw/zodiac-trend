@@ -1,0 +1,20 @@
+{
+  "scope": "third-party status observations only; no official, fairness or predraw authentication",
+  "numbers_accessed_or_saved": false,
+  "may_be_stale_or_share_upstream": true,
+  "observations": {
+    "target": {
+      "http_status": 200,
+      "server_date_header": "Mon, 09 Nov 2026 18:41:33 GMT",
+      "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026314",
+      "target_record_is_null": true
+    },
+    "latest": {
+      "http_status": 200,
+      "server_date_header": "Mon, 09 Nov 2026 18:41:33 GMT",
+      "url": "https://macaumarksix.com/api/macaujc2.com",
+      "latest_issue_identifier": 2026313
+    }
+  },
+  "status": "NO_TARGET_RECORD_OBSERVED_NOT_PROOF_OF_PRE_DRAW"
+}

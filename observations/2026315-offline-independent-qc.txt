@@ -1,0 +1,22 @@
+PASS frozen 313 and staged user 314 source bytes
+PASS all prior 1044 records byte-identical, user 314 only appended
+PASS 1045 unique source records through 314 only
+PASS 314 user-only six-plus-one and 313/314 dates unknown
+PASS 313 and corrected 312 exact records
+PASS distinct numbers and current mapping of 250 displayed rows
+PASS 12 sign ages, periods, balls and nonoverlapping age blocks
+PASS all 49 number mappings, attributes, ages and eight windows
+PASS six-normal 012, parity, wave, head, tail and selected scenario recounts
+PASS 309–314 exact seven-to-seven distinct identities 4/4/5/5/3/3
+PASS immutable full-history 445 source through 311
+PASS 445 exact seven-ball intersection and excluded bad windows
+PASS 38 hand designs, 37 distinct columns, 16 overlaps, 12 shared-A identities, exact ideal probabilities
+PASS manually fixed P01, reserve outside all columns
+PASS joint route/parity minima reconstructed
+PASS old 314 choice settled 0/1, 1/2, 2/3, zero complete
+PASS 314 and 315 model group isomorphism, not increased prediction
+PASS all previous manual decisions preserved; 315 appended
+PASS original and revised 312 untouched; no fake 313/314/315 preregistration
+PASS page payload, exact manual roles, unknown dates and compact warning
+PASS byte-for-byte standalone page reproduction from packaged records and hand decision
+315 OFFLINE INDEPENDENT VERIFICATION PASS — nonofficial, not predraw or mechanism certification

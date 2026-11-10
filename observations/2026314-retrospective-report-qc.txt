@@ -1,0 +1,37 @@
+PASS independent data audit passes
+PASS exact user input, inferred order and unknown date
+PASS three reported column outcomes and 0 complete
+PASS display/universe/reserve/outsider/seventh accounting
+PASS six-ball structure and odd-2road identity risk
+PASS 0-road and odd-2road prior shape counterarguments
+PASS individual zodiac decision and ledger row 鼠
+PASS individual zodiac decision and ledger row 牛
+PASS individual zodiac decision and ledger row 虎
+PASS individual zodiac decision and ledger row 兔
+PASS individual zodiac decision and ledger row 龍
+PASS individual zodiac decision and ledger row 蛇
+PASS individual zodiac decision and ledger row 馬
+PASS individual zodiac decision and ledger row 羊
+PASS individual zodiac decision and ledger row 猴
+PASS individual zodiac decision and ledger row 鷄
+PASS individual zodiac decision and ledger row 狗
+PASS individual zodiac decision and ledger row 豬
+PASS 49 numbers and pre-314 35/40/45 counts and ages represented accurately
+PASS 31 prewritten cases all cross-checked and shared-A/duplicate/overlap caveats visible
+PASS E10/E11/E09/E24 full counterfactuals not backdated into recommendation
+PASS 308–314 versioned columns, 309 correction, 308 random legacy
+PASS ideal model values correct and explicitly hypothetical
+PASS seven-ball dedup, six/seven separation, 445 uncertainty
+PASS no unauthorized future selection and no ranking rule
+PASS nine Markdown tables have contiguous header/delimiter (found 9)
+PASS local evidence link exists archive/task261_314_failure_review/input/user_314.json
+PASS local evidence link exists archive/task261_314_failure_review/before/
+PASS local evidence link exists archive/task261_314_failure_review/before.sha256
+PASS local evidence link exists archive/task261_314_failure_review/analysis/frozen_source_match.json
+PASS local evidence link exists archive/task261_314_failure_review/analysis/retrospective.json
+PASS local evidence link exists archive/task261_314_failure_review/analysis/user_six_prior_ledger.csv
+PASS local evidence link exists archive/task261_314_failure_review/analysis/candidate_outcomes_original_order.csv
+PASS local evidence link exists archive/task261_314_failure_review/analysis/prior_shape_windows.csv
+PASS local evidence link exists archive/task261_314_failure_review/analysis/repeat_445.json
+PASS local evidence link exists archive/task261_314_failure_review/analysis/independent_qc.txt
+REPORT QC PASS — no prediction or official certification

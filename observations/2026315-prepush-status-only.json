@@ -1,0 +1,23 @@
+{
+  "scope": "315 status-only; no draw-value materialization, printing, or saving; not official or predraw authentication",
+  "target_nonnull_content_bytes_consumed": 0,
+  "latest_nonstatus_values_discarded_without_assembly": true,
+  "may_be_stale_or_share_upstream": true,
+  "observations": {
+    "target": {
+      "http_status": 200,
+      "server_date_header": "Tue, 10 Nov 2026 19:03:24 GMT",
+      "url": "https://history.macaumarksix.com/history/macaujc2/expect/2026315",
+      "target_record_is_null": true,
+      "value_content_bytes_consumed": 0,
+      "target_code": 0
+    },
+    "latest": {
+      "http_status": 200,
+      "server_date_header": "Tue, 10 Nov 2026 19:03:24 GMT",
+      "url": "https://macaumarksix.com/api/macaujc2.com",
+      "latest_issue_identifier": 2026314
+    }
+  },
+  "status": "NO_TARGET_RECORD_OBSERVED_NOT_PROOF_OF_PRE_DRAW"
+}

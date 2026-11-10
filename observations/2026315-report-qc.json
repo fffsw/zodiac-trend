@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "nonofficial, unknown timing and mechanism boundaries",
+    "314 user-only six-plus-one, inferred ordering and both dates unknown",
+    "314 old published columns and zero complete",
+    "manually fixed P01 roles and reserve",
+    "12 per-sign decisions, W35/40/45 and five nonoverlapping age blocks",
+    "all 49 individual number attributes, role, age and W35/40/45 rows",
+    "38 complete alternatives in original order, duplicate and overlap disclosed",
+    "six independently verified vulnerability windows match the report",
+    "same-universe overlap comparison, ideal percentages and 314 model-isomorphism disclosed",
+    "exact 445 identity and quality limitations",
+    "dated anti-fraud warning without unsupported current license claim",
+    "four valid Markdown table headers without blank separator",
+    "local browser audit explicitly scoped to unpublished stage"
+  ],
+  "report_sha256": "8e2d9477f58f13cc8a90ac8311f81b334aa00937f8fb0b3352a88f4df19fed1e",
+  "limitations": [
+    "not predraw time authentication",
+    "not official source authentication",
+    "not actual mechanism validation"
+  ]
+}

@@ -1,0 +1,4729 @@
+{
+  "scope": "User-supplied 313, retrospective only, official status and timing not authenticated; no 314 picks or update",
+  "date_user_supplied": false,
+  "input": {
+    "period": 2026313,
+    "period_basis": "Inferred from the user's reference to the just-displayed issue and the prior 312 history; user supplied no explicit period number or date in this message.",
+    "status": "USER_SUPPLIED_ONLY_NOT_OFFICIALLY_AUTHENTICATED",
+    "source": "User's latest message; no third-party result substituted",
+    "user_verbatim": "最新开奖狗33 龙39 45狗15龙07鼠20猪43鼠",
+    "normal_numbers": [
+      33,
+      39,
+      45,
+      15,
+      7,
+      20
+    ],
+    "normal_zodiacs": [
+      "狗",
+      "龍",
+      "狗",
+      "龍",
+      "鼠",
+      "豬"
+    ],
+    "seventh_number": 43,
+    "seventh_zodiac": "鼠",
+    "ordering_basis": "Following the established six-normal-plus-seventh convention, the final listed number is treated as the seventh ball.",
+    "date": null,
+    "scope": "Retrospective only: six normal balls for column settlement and historical statistics; seventh ball only for seven-ball zodiac identity intersection. No special-number selection.",
+    "main_history_or_public_site_changed": false
+  },
+  "D2_publication_provenance": {
+    "status": "PUBLIC_REANALYSIS_D2_VERIFIED_NONOFFICIAL",
+    "scope": "user-authorized nonofficial display; not official result, not a predraw preregistration, no target result used",
+    "commit": "fd05618970f36b22a16b2e7b7fa6931157462d33",
+    "parent_commit": "116ac377ff3bd2247839440ab62d4cb489339109",
+    "page_url": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+    "analysis_url": "https://fffsw.github.io/zodiac-trend/observations/2026313-reanalysis-v2-analysis.md",
+    "page_sha256": "cf3eaa581284480ae54ec102a2f9a290846b6b8b90557be554eb125f09025635",
+    "github_actions": {
+      "id": 42610002816,
+      "head_sha": "fd05618970f36b22a16b2e7b7fa6931157462d33",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/fffsw/zodiac-trend/actions/runs/42610002816"
+    },
+    "unique_public_files_verified": 54,
+    "browser_checks": 49,
+    "browser_status": "PASS_LIVE_D2_CONCISE_NOT_A_PREDRAW_CERTIFICATE",
+    "user_312": [
+      31,
+      46,
+      4,
+      43,
+      32,
+      15,
+      38
+    ],
+    "display_313": {
+      "universe": [
+        "鼠",
+        "兔",
+        "龍",
+        "虎",
+        "豬",
+        "馬"
+      ],
+      "single": "鼠",
+      "double": [
+        "兔",
+        "龍"
+      ],
+      "triple": [
+        "兔",
+        "虎",
+        "豬"
+      ],
+      "reserve_only": "馬"
+    },
+    "prior_D1": {
+      "single": "馬",
+      "double": [
+        "兔",
+        "龍"
+      ],
+      "triple": [
+        "兔",
+        "虎",
+        "蛇"
+      ],
+      "reserve_only": "豬"
+    },
+    "independent_candidates": 24,
+    "old_312_original_and_rev1_kept": true,
+    "prereg_313_public_http_status": 404,
+    "historical_sources_and_actual_draw_mechanism_unverified": true,
+    "git_status_of_original_dirty_deploy": "intentionally untouched; not used for push"
+  },
+  "D2": {
+    "universe": [
+      "鼠",
+      "兔",
+      "龍",
+      "虎",
+      "豬",
+      "馬"
+    ],
+    "top": "鼠",
+    "A": "兔",
+    "B": "龍",
+    "C": "虎",
+    "D": "豬"
+  },
+  "D1": {
+    "universe": [
+      "馬",
+      "兔",
+      "龍",
+      "虎",
+      "蛇",
+      "豬"
+    ],
+    "top": "馬",
+    "A": "兔",
+    "B": "龍",
+    "C": "虎",
+    "D": "蛇"
+  },
+  "settlement_D2": {
+    "universe": [
+      "鼠",
+      "虎",
+      "兔",
+      "龍",
+      "馬",
+      "豬"
+    ],
+    "display": [
+      "鼠",
+      "虎",
+      "兔",
+      "龍",
+      "豬"
+    ],
+    "reserve_only": [
+      "馬"
+    ],
+    "slots": [
+      {
+        "name": "single",
+        "required": [
+          "鼠"
+        ],
+        "present": [
+          "鼠"
+        ],
+        "missing": [],
+        "present_count": 1,
+        "needed_count": 1,
+        "complete": true
+      },
+      {
+        "name": "double",
+        "required": [
+          "兔",
+          "龍"
+        ],
+        "present": [
+          "龍"
+        ],
+        "missing": [
+          "兔"
+        ],
+        "present_count": 1,
+        "needed_count": 2,
+        "complete": false
+      },
+      {
+        "name": "triple",
+        "required": [
+          "虎",
+          "兔",
+          "豬"
+        ],
+        "present": [
+          "豬"
+        ],
+        "missing": [
+          "虎",
+          "兔"
+        ],
+        "present_count": 1,
+        "needed_count": 3,
+        "complete": false
+      }
+    ],
+    "complete_count": 1,
+    "actual_distinct_signs": [
+      "鼠",
+      "龍",
+      "狗",
+      "豬"
+    ],
+    "actual_signs_in_universe": [
+      "鼠",
+      "龍",
+      "豬"
+    ],
+    "actual_signs_in_display": [
+      "鼠",
+      "龍",
+      "豬"
+    ],
+    "actual_signs_in_reserve": [],
+    "actual_signs_outside_universe": [
+      "狗"
+    ],
+    "universe_ball_count": 4,
+    "display_ball_count": 4,
+    "reserve_ball_count": 0,
+    "outside_ball_count": 2
+  },
+  "settlement_D1": {
+    "universe": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "豬"
+    ],
+    "display": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬"
+    ],
+    "reserve_only": [
+      "豬"
+    ],
+    "slots": [
+      {
+        "name": "single",
+        "required": [
+          "馬"
+        ],
+        "present": [],
+        "missing": [
+          "馬"
+        ],
+        "present_count": 0,
+        "needed_count": 1,
+        "complete": false
+      },
+      {
+        "name": "double",
+        "required": [
+          "兔",
+          "龍"
+        ],
+        "present": [
+          "龍"
+        ],
+        "missing": [
+          "兔"
+        ],
+        "present_count": 1,
+        "needed_count": 2,
+        "complete": false
+      },
+      {
+        "name": "triple",
+        "required": [
+          "虎",
+          "兔",
+          "蛇"
+        ],
+        "present": [],
+        "missing": [
+          "虎",
+          "兔",
+          "蛇"
+        ],
+        "present_count": 0,
+        "needed_count": 3,
+        "complete": false
+      }
+    ],
+    "complete_count": 0,
+    "actual_distinct_signs": [
+      "鼠",
+      "龍",
+      "狗",
+      "豬"
+    ],
+    "actual_signs_in_universe": [
+      "龍",
+      "豬"
+    ],
+    "actual_signs_in_display": [
+      "龍"
+    ],
+    "actual_signs_in_reserve": [
+      "豬"
+    ],
+    "actual_signs_outside_universe": [
+      "鼠",
+      "狗"
+    ],
+    "universe_ball_count": 3,
+    "display_ball_count": 2,
+    "reserve_ball_count": 1,
+    "outside_ball_count": 3
+  },
+  "actual_structure": {
+    "numbers": [
+      33,
+      39,
+      45,
+      15,
+      7,
+      20
+    ],
+    "zodiacs": [
+      "狗",
+      "龍",
+      "狗",
+      "龍",
+      "鼠",
+      "豬"
+    ],
+    "distinct_zodiac_count": 4,
+    "zodiac_ball_count": {
+      "狗": 2,
+      "龍": 2,
+      "鼠": 1,
+      "豬": 1
+    },
+    "multiplicity_pattern": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "road_0_1_2": [
+      4,
+      1,
+      1
+    ],
+    "odd_even": [
+      5,
+      1
+    ],
+    "red_blue_green": [
+      2,
+      2,
+      2
+    ],
+    "small_big_01_24_25_49": [
+      3,
+      3
+    ],
+    "heads_0_to_4": [
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "tails_0_to_9": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      0,
+      1
+    ],
+    "sum": 159,
+    "span": 38,
+    "road0_zodiacs": [
+      "龍",
+      "狗"
+    ]
+  },
+  "each_ball_prior": [
+    {
+      "number": 33,
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 3,
+      "pre313_last_normal_age": 15,
+      "pre313_windows": {
+        "10": 0,
+        "20": 2,
+        "35": 2,
+        "40": 2,
+        "45": 2,
+        "60": 4,
+        "100": 8,
+        "250": 22
+      },
+      "D2_location": "outside"
+    },
+    {
+      "number": 39,
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 9,
+      "pre313_last_normal_age": 3,
+      "pre313_windows": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 5,
+        "45": 6,
+        "60": 8,
+        "100": 12,
+        "250": 30
+      },
+      "D2_location": "B"
+    },
+    {
+      "number": 45,
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 4,
+      "tail": 5,
+      "pre313_last_normal_age": 16,
+      "pre313_windows": {
+        "10": 0,
+        "20": 1,
+        "35": 2,
+        "40": 2,
+        "45": 2,
+        "60": 4,
+        "100": 7,
+        "250": 27
+      },
+      "D2_location": "outside"
+    },
+    {
+      "number": 15,
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 1,
+      "tail": 5,
+      "pre313_last_normal_age": 0,
+      "pre313_windows": {
+        "10": 1,
+        "20": 1,
+        "35": 3,
+        "40": 3,
+        "45": 4,
+        "60": 6,
+        "100": 8,
+        "250": 29
+      },
+      "D2_location": "B"
+    },
+    {
+      "number": 7,
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 0,
+      "tail": 7,
+      "pre313_last_normal_age": 22,
+      "pre313_windows": {
+        "10": 0,
+        "20": 0,
+        "35": 1,
+        "40": 1,
+        "45": 1,
+        "60": 3,
+        "100": 11,
+        "250": 31
+      },
+      "D2_location": "top"
+    },
+    {
+      "number": 20,
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 2,
+      "tail": 0,
+      "pre313_last_normal_age": 27,
+      "pre313_windows": {
+        "10": 0,
+        "20": 0,
+        "35": 2,
+        "40": 2,
+        "45": 4,
+        "60": 5,
+        "100": 7,
+        "250": 29
+      },
+      "D2_location": "D"
+    }
+  ],
+  "pre_period_shapes": {
+    "10": {
+      "first_period": 2026303,
+      "last_period": 2026312,
+      "n": 10,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 0,
+      "road2_exactly_1": 5,
+      "odd5_even1": 0,
+      "at_most_one_even": 0,
+      "distinct_exactly_4": 1,
+      "pattern_2_2_1_1": 0,
+      "two_or_more_distinct_0road_zodiacs": 3,
+      "both_dragon_and_dog_0road": 2
+    },
+    "20": {
+      "first_period": 2026293,
+      "last_period": 2026312,
+      "n": 20,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 2,
+      "road2_exactly_1": 7,
+      "odd5_even1": 1,
+      "at_most_one_even": 1,
+      "distinct_exactly_4": 3,
+      "pattern_2_2_1_1": 2,
+      "two_or_more_distinct_0road_zodiacs": 7,
+      "both_dragon_and_dog_0road": 4
+    },
+    "35": {
+      "first_period": 2026278,
+      "last_period": 2026312,
+      "n": 35,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 6,
+      "road2_exactly_1": 10,
+      "odd5_even1": 1,
+      "at_most_one_even": 1,
+      "distinct_exactly_4": 5,
+      "pattern_2_2_1_1": 3,
+      "two_or_more_distinct_0road_zodiacs": 15,
+      "both_dragon_and_dog_0road": 7
+    },
+    "40": {
+      "first_period": 2026273,
+      "last_period": 2026312,
+      "n": 40,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 8,
+      "road2_exactly_1": 11,
+      "odd5_even1": 1,
+      "at_most_one_even": 1,
+      "distinct_exactly_4": 5,
+      "pattern_2_2_1_1": 3,
+      "two_or_more_distinct_0road_zodiacs": 18,
+      "both_dragon_and_dog_0road": 7
+    },
+    "45": {
+      "first_period": 2026268,
+      "last_period": 2026312,
+      "n": 45,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 9,
+      "road2_exactly_1": 13,
+      "odd5_even1": 1,
+      "at_most_one_even": 1,
+      "distinct_exactly_4": 5,
+      "pattern_2_2_1_1": 3,
+      "two_or_more_distinct_0road_zodiacs": 21,
+      "both_dragon_and_dog_0road": 7
+    },
+    "60": {
+      "first_period": 2026253,
+      "last_period": 2026312,
+      "n": 60,
+      "exact_road_4_1_1": 0,
+      "road0_at_least_4": 0,
+      "road1_exactly_1": 14,
+      "road2_exactly_1": 14,
+      "odd5_even1": 3,
+      "at_most_one_even": 4,
+      "distinct_exactly_4": 5,
+      "pattern_2_2_1_1": 3,
+      "two_or_more_distinct_0road_zodiacs": 31,
+      "both_dragon_and_dog_0road": 10
+    },
+    "100": {
+      "first_period": 2026213,
+      "last_period": 2026312,
+      "n": 100,
+      "exact_road_4_1_1": 1,
+      "road0_at_least_4": 2,
+      "road1_exactly_1": 19,
+      "road2_exactly_1": 26,
+      "odd5_even1": 7,
+      "at_most_one_even": 8,
+      "distinct_exactly_4": 16,
+      "pattern_2_2_1_1": 13,
+      "two_or_more_distinct_0road_zodiacs": 50,
+      "both_dragon_and_dog_0road": 16
+    },
+    "250": {
+      "first_period": 2026063,
+      "last_period": 2026312,
+      "n": 250,
+      "exact_road_4_1_1": 6,
+      "road0_at_least_4": 13,
+      "road1_exactly_1": 52,
+      "road2_exactly_1": 78,
+      "odd5_even1": 19,
+      "at_most_one_even": 22,
+      "distinct_exactly_4": 48,
+      "pattern_2_2_1_1": 40,
+      "two_or_more_distinct_0road_zodiacs": 135,
+      "both_dragon_and_dog_0road": 39
+    }
+  },
+  "zodiac_prior": {
+    "鼠": {
+      "numbers": [
+        7,
+        19,
+        31,
+        43
+      ],
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20": {
+          "balls": 12,
+          "periods": 9
+        },
+        "35": {
+          "balls": 17,
+          "periods": 14
+        },
+        "40": {
+          "balls": 19,
+          "periods": 16
+        },
+        "45": {
+          "balls": 23,
+          "periods": 20
+        },
+        "60": {
+          "balls": 30,
+          "periods": 26
+        },
+        "100": {
+          "balls": 53,
+          "periods": 43
+        },
+        "250": {
+          "balls": 126,
+          "periods": 103
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 4
+        },
+        "10-19": {
+          "balls": 7,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 5,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 4,
+          "periods": 4
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six": true,
+      "previous_seven_identity": true
+    },
+    "牛": {
+      "numbers": [
+        6,
+        18,
+        30,
+        42
+      ],
+      "windows": {
+        "10": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20": {
+          "balls": 6,
+          "periods": 5
+        },
+        "35": {
+          "balls": 12,
+          "periods": 11
+        },
+        "40": {
+          "balls": 15,
+          "periods": 13
+        },
+        "45": {
+          "balls": 17,
+          "periods": 15
+        },
+        "60": {
+          "balls": 25,
+          "periods": 22
+        },
+        "100": {
+          "balls": 44,
+          "periods": 39
+        },
+        "250": {
+          "balls": 110,
+          "periods": 98
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 3,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 2
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 3,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "虎": {
+      "numbers": [
+        5,
+        17,
+        29,
+        41
+      ],
+      "windows": {
+        "10": {
+          "balls": 1,
+          "periods": 1
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 19,
+          "periods": 16
+        },
+        "40": {
+          "balls": 23,
+          "periods": 20
+        },
+        "45": {
+          "balls": 26,
+          "periods": 23
+        },
+        "60": {
+          "balls": 32,
+          "periods": 29
+        },
+        "100": {
+          "balls": 60,
+          "periods": 52
+        },
+        "250": {
+          "balls": 135,
+          "periods": 114
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 1,
+          "periods": 1
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 12,
+          "periods": 10
+        },
+        "35-39": {
+          "balls": 4,
+          "periods": 4
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 7,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "兔": {
+      "numbers": [
+        4,
+        16,
+        28,
+        40
+      ],
+      "windows": {
+        "10": {
+          "balls": 12,
+          "periods": 8
+        },
+        "20": {
+          "balls": 16,
+          "periods": 12
+        },
+        "35": {
+          "balls": 24,
+          "periods": 19
+        },
+        "40": {
+          "balls": 28,
+          "periods": 23
+        },
+        "45": {
+          "balls": 31,
+          "periods": 25
+        },
+        "60": {
+          "balls": 37,
+          "periods": 31
+        },
+        "100": {
+          "balls": 48,
+          "periods": 42
+        },
+        "250": {
+          "balls": 117,
+          "periods": 101
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 12,
+          "periods": 8
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 4,
+          "periods": 4
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six": true,
+      "previous_seven_identity": true
+    },
+    "龍": {
+      "numbers": [
+        3,
+        15,
+        27,
+        39
+      ],
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 5
+        },
+        "20": {
+          "balls": 9,
+          "periods": 9
+        },
+        "35": {
+          "balls": 16,
+          "periods": 16
+        },
+        "40": {
+          "balls": 18,
+          "periods": 18
+        },
+        "45": {
+          "balls": 20,
+          "periods": 20
+        },
+        "60": {
+          "balls": 28,
+          "periods": 26
+        },
+        "100": {
+          "balls": 43,
+          "periods": 39
+        },
+        "250": {
+          "balls": 110,
+          "periods": 96
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 5
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six": true,
+      "previous_seven_identity": true
+    },
+    "蛇": {
+      "numbers": [
+        2,
+        14,
+        26,
+        38
+      ],
+      "windows": {
+        "10": {
+          "balls": 6,
+          "periods": 6
+        },
+        "20": {
+          "balls": 14,
+          "periods": 12
+        },
+        "35": {
+          "balls": 23,
+          "periods": 19
+        },
+        "40": {
+          "balls": 26,
+          "periods": 22
+        },
+        "45": {
+          "balls": 28,
+          "periods": 24
+        },
+        "60": {
+          "balls": 34,
+          "periods": 30
+        },
+        "100": {
+          "balls": 62,
+          "periods": 49
+        },
+        "250": {
+          "balls": 139,
+          "periods": 114
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 6,
+          "periods": 6
+        },
+        "10-19": {
+          "balls": 8,
+          "periods": 6
+        },
+        "20-34": {
+          "balls": 9,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 1,
+      "previous_six": false,
+      "previous_seven_identity": true
+    },
+    "馬": {
+      "numbers": [
+        1,
+        13,
+        25,
+        37,
+        49
+      ],
+      "windows": {
+        "10": {
+          "balls": 9,
+          "periods": 8
+        },
+        "20": {
+          "balls": 16,
+          "periods": 14
+        },
+        "35": {
+          "balls": 23,
+          "periods": 19
+        },
+        "40": {
+          "balls": 26,
+          "periods": 22
+        },
+        "45": {
+          "balls": 27,
+          "periods": 23
+        },
+        "60": {
+          "balls": 36,
+          "periods": 31
+        },
+        "100": {
+          "balls": 63,
+          "periods": 55
+        },
+        "250": {
+          "balls": 155,
+          "periods": 129
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 9,
+          "periods": 8
+        },
+        "10-19": {
+          "balls": 7,
+          "periods": 6
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "last_normal_age": 1,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "羊": {
+      "numbers": [
+        12,
+        24,
+        36,
+        48
+      ],
+      "windows": {
+        "10": {
+          "balls": 3,
+          "periods": 2
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 12,
+          "periods": 11
+        },
+        "40": {
+          "balls": 15,
+          "periods": 13
+        },
+        "45": {
+          "balls": 20,
+          "periods": 17
+        },
+        "60": {
+          "balls": 26,
+          "periods": 23
+        },
+        "100": {
+          "balls": 40,
+          "periods": 35
+        },
+        "250": {
+          "balls": 121,
+          "periods": 103
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 3,
+          "periods": 2
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 5,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 5,
+          "periods": 4
+        }
+      },
+      "last_normal_age": 5,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "猴": {
+      "numbers": [
+        11,
+        23,
+        35,
+        47
+      ],
+      "windows": {
+        "10": {
+          "balls": 2,
+          "periods": 2
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 14,
+          "periods": 12
+        },
+        "40": {
+          "balls": 17,
+          "periods": 15
+        },
+        "45": {
+          "balls": 18,
+          "periods": 16
+        },
+        "60": {
+          "balls": 28,
+          "periods": 24
+        },
+        "100": {
+          "balls": 49,
+          "periods": 42
+        },
+        "250": {
+          "balls": 110,
+          "periods": 97
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 2,
+          "periods": 2
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "last_normal_age": 2,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "鷄": {
+      "numbers": [
+        10,
+        22,
+        34,
+        46
+      ],
+      "windows": {
+        "10": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20": {
+          "balls": 11,
+          "periods": 9
+        },
+        "35": {
+          "balls": 20,
+          "periods": 17
+        },
+        "40": {
+          "balls": 20,
+          "periods": 17
+        },
+        "45": {
+          "balls": 23,
+          "periods": 20
+        },
+        "60": {
+          "balls": 32,
+          "periods": 28
+        },
+        "100": {
+          "balls": 56,
+          "periods": 47
+        },
+        "250": {
+          "balls": 143,
+          "periods": 115
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 5,
+          "periods": 4
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 9,
+          "periods": 8
+        },
+        "35-39": {
+          "balls": 0,
+          "periods": 0
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six": true,
+      "previous_seven_identity": true
+    },
+    "狗": {
+      "numbers": [
+        9,
+        21,
+        33,
+        45
+      ],
+      "windows": {
+        "10": {
+          "balls": 2,
+          "periods": 2
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 12,
+          "periods": 11
+        },
+        "40": {
+          "balls": 13,
+          "periods": 12
+        },
+        "45": {
+          "balls": 14,
+          "periods": 13
+        },
+        "60": {
+          "balls": 21,
+          "periods": 20
+        },
+        "100": {
+          "balls": 38,
+          "periods": 34
+        },
+        "250": {
+          "balls": 105,
+          "periods": 91
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 2,
+          "periods": 2
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 5,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "last_normal_age": 5,
+      "previous_six": false,
+      "previous_seven_identity": false
+    },
+    "豬": {
+      "numbers": [
+        8,
+        20,
+        32,
+        44
+      ],
+      "windows": {
+        "10": {
+          "balls": 7,
+          "periods": 7
+        },
+        "20": {
+          "balls": 8,
+          "periods": 8
+        },
+        "35": {
+          "balls": 18,
+          "periods": 17
+        },
+        "40": {
+          "balls": 20,
+          "periods": 19
+        },
+        "45": {
+          "balls": 23,
+          "periods": 22
+        },
+        "60": {
+          "balls": 31,
+          "periods": 29
+        },
+        "100": {
+          "balls": 44,
+          "periods": 41
+        },
+        "250": {
+          "balls": 129,
+          "periods": 110
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 7,
+          "periods": 7
+        },
+        "10-19": {
+          "balls": 1,
+          "periods": 1
+        },
+        "20-34": {
+          "balls": 10,
+          "periods": 9
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six": true,
+      "previous_seven_identity": true
+    }
+  },
+  "number_prior": {
+    "1": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 0,
+      "tail": 1,
+      "last_normal_age": 12,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 5,
+        "100": 10,
+        "250": 34
+      }
+    },
+    "2": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 0,
+      "tail": 2,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 4,
+        "35": 6,
+        "40": 7,
+        "45": 8,
+        "60": 9,
+        "100": 12,
+        "250": 30
+      }
+    },
+    "3": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 0,
+      "tail": 3,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 6,
+        "40": 7,
+        "45": 7,
+        "60": 10,
+        "100": 12,
+        "250": 30
+      }
+    },
+    "4": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 0,
+      "tail": 4,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 5,
+        "45": 6,
+        "60": 6,
+        "100": 12,
+        "250": 27
+      }
+    },
+    "5": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 0,
+      "tail": 5,
+      "last_normal_age": 13,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 3,
+        "40": 4,
+        "45": 6,
+        "60": 9,
+        "100": 11,
+        "250": 29
+      }
+    },
+    "6": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 0,
+      "tail": 6,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 5,
+        "40": 6,
+        "45": 8,
+        "60": 13,
+        "100": 18,
+        "250": 31
+      }
+    },
+    "7": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 0,
+      "tail": 7,
+      "last_normal_age": 22,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 1,
+        "40": 1,
+        "45": 1,
+        "60": 3,
+        "100": 11,
+        "250": 31
+      }
+    },
+    "8": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 0,
+      "tail": 8,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 12,
+        "250": 34
+      }
+    },
+    "9": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 0,
+      "tail": 9,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 13,
+        "250": 26
+      }
+    },
+    "10": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 1,
+      "tail": 0,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 4,
+        "35": 6,
+        "40": 6,
+        "45": 6,
+        "60": 8,
+        "100": 13,
+        "250": 33
+      }
+    },
+    "11": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 1,
+      "tail": 1,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 3,
+        "40": 4,
+        "45": 5,
+        "60": 6,
+        "100": 12,
+        "250": 29
+      }
+    },
+    "12": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 1,
+      "tail": 2,
+      "last_normal_age": 10,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 3,
+        "40": 4,
+        "45": 4,
+        "60": 4,
+        "100": 8,
+        "250": 28
+      }
+    },
+    "13": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 1,
+      "tail": 3,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 3,
+        "20": 6,
+        "35": 6,
+        "40": 7,
+        "45": 7,
+        "60": 9,
+        "100": 18,
+        "250": 28
+      }
+    },
+    "14": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 1,
+      "tail": 4,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 5,
+        "40": 7,
+        "45": 7,
+        "60": 7,
+        "100": 15,
+        "250": 28
+      }
+    },
+    "15": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 1,
+      "tail": 5,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 3,
+        "40": 3,
+        "45": 4,
+        "60": 6,
+        "100": 8,
+        "250": 29
+      }
+    },
+    "16": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 1,
+      "tail": 6,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 3,
+        "40": 4,
+        "45": 5,
+        "60": 7,
+        "100": 8,
+        "250": 21
+      }
+    },
+    "17": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 1,
+      "tail": 7,
+      "last_normal_age": 12,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 5,
+        "40": 7,
+        "45": 8,
+        "60": 8,
+        "100": 16,
+        "250": 40
+      }
+    },
+    "18": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 1,
+      "tail": 8,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 6,
+        "100": 12,
+        "250": 26
+      }
+    },
+    "19": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 1,
+      "tail": 9,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 7,
+        "60": 9,
+        "100": 14,
+        "250": 38
+      }
+    },
+    "20": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 2,
+      "tail": 0,
+      "last_normal_age": 27,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 2,
+        "40": 2,
+        "45": 4,
+        "60": 5,
+        "100": 7,
+        "250": 29
+      }
+    },
+    "21": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 2,
+      "tail": 1,
+      "last_normal_age": 24,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 3,
+        "40": 4,
+        "45": 5,
+        "60": 6,
+        "100": 10,
+        "250": 30
+      }
+    },
+    "22": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 2,
+      "tail": 2,
+      "last_normal_age": 17,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 4,
+        "40": 4,
+        "45": 5,
+        "60": 9,
+        "100": 16,
+        "250": 36
+      }
+    },
+    "23": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 2,
+      "tail": 3,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 4,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 12,
+        "250": 32
+      }
+    },
+    "24": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 2,
+      "tail": 4,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 2,
+        "40": 3,
+        "45": 4,
+        "60": 6,
+        "100": 10,
+        "250": 35
+      }
+    },
+    "25": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 2,
+      "tail": 5,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 2,
+        "40": 3,
+        "45": 4,
+        "60": 7,
+        "100": 12,
+        "250": 35
+      }
+    },
+    "26": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 2,
+      "tail": 6,
+      "last_normal_age": 15,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 4,
+        "40": 4,
+        "45": 4,
+        "60": 7,
+        "100": 14,
+        "250": 36
+      }
+    },
+    "27": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 2,
+      "tail": 7,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 3,
+        "35": 3,
+        "40": 3,
+        "45": 3,
+        "60": 4,
+        "100": 11,
+        "250": 21
+      }
+    },
+    "28": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 2,
+      "tail": 8,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 3,
+        "20": 5,
+        "35": 8,
+        "40": 9,
+        "45": 9,
+        "60": 11,
+        "100": 14,
+        "250": 32
+      }
+    },
+    "29": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 2,
+      "tail": 9,
+      "last_normal_age": 7,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 9,
+        "40": 9,
+        "45": 9,
+        "60": 11,
+        "100": 22,
+        "250": 39
+      }
+    },
+    "30": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 3,
+      "tail": 0,
+      "last_normal_age": 39,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 0,
+        "40": 1,
+        "45": 1,
+        "60": 2,
+        "100": 6,
+        "250": 28
+      }
+    },
+    "31": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 3,
+      "tail": 1,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 4,
+        "40": 5,
+        "45": 6,
+        "60": 7,
+        "100": 11,
+        "250": 27
+      }
+    },
+    "32": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 3,
+      "tail": 2,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 3,
+        "20": 4,
+        "35": 7,
+        "40": 9,
+        "45": 10,
+        "60": 11,
+        "100": 13,
+        "250": 30
+      }
+    },
+    "33": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 3,
+      "last_normal_age": 15,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 2,
+        "40": 2,
+        "45": 2,
+        "60": 4,
+        "100": 8,
+        "250": 22
+      }
+    },
+    "34": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 3,
+      "tail": 4,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 5,
+        "40": 5,
+        "45": 7,
+        "60": 7,
+        "100": 12,
+        "250": 31
+      }
+    },
+    "35": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 3,
+      "tail": 5,
+      "last_normal_age": 25,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 3,
+        "40": 3,
+        "45": 3,
+        "60": 6,
+        "100": 10,
+        "250": 22
+      }
+    },
+    "36": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 3,
+      "tail": 6,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 2,
+        "40": 3,
+        "45": 6,
+        "60": 9,
+        "100": 13,
+        "250": 30
+      }
+    },
+    "37": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 3,
+      "tail": 7,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 4,
+        "40": 4,
+        "45": 4,
+        "60": 6,
+        "100": 9,
+        "250": 30
+      }
+    },
+    "38": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 3,
+      "tail": 8,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 3,
+        "20": 4,
+        "35": 8,
+        "40": 8,
+        "45": 9,
+        "60": 11,
+        "100": 21,
+        "250": 45
+      }
+    },
+    "39": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 9,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 5,
+        "45": 6,
+        "60": 8,
+        "100": 12,
+        "250": 30
+      }
+    },
+    "40": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 4,
+      "tail": 0,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 5,
+        "20": 7,
+        "35": 9,
+        "40": 10,
+        "45": 11,
+        "60": 13,
+        "100": 14,
+        "250": 37
+      }
+    },
+    "41": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 4,
+      "tail": 1,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 2,
+        "40": 3,
+        "45": 3,
+        "60": 4,
+        "100": 11,
+        "250": 27
+      }
+    },
+    "42": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 4,
+      "tail": 2,
+      "last_normal_age": 12,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 2,
+        "40": 3,
+        "45": 3,
+        "60": 4,
+        "100": 8,
+        "250": 25
+      }
+    },
+    "43": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 4,
+      "tail": 3,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 6,
+        "35": 7,
+        "40": 8,
+        "45": 9,
+        "60": 11,
+        "100": 17,
+        "250": 30
+      }
+    },
+    "44": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 4,
+      "tail": 4,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 4,
+        "45": 4,
+        "60": 8,
+        "100": 12,
+        "250": 36
+      }
+    },
+    "45": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 4,
+      "tail": 5,
+      "last_normal_age": 16,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 2,
+        "40": 2,
+        "45": 2,
+        "60": 4,
+        "100": 7,
+        "250": 27
+      }
+    },
+    "46": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 4,
+      "tail": 6,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 8,
+        "100": 15,
+        "250": 43
+      }
+    },
+    "47": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 4,
+      "tail": 7,
+      "last_normal_age": 17,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 4,
+        "40": 5,
+        "45": 5,
+        "60": 9,
+        "100": 15,
+        "250": 27
+      }
+    },
+    "48": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 4,
+      "tail": 8,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 6,
+        "60": 7,
+        "100": 9,
+        "250": 28
+      }
+    },
+    "49": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 4,
+      "tail": 9,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 4,
+        "20": 5,
+        "35": 6,
+        "40": 7,
+        "45": 7,
+        "60": 9,
+        "100": 14,
+        "250": 28
+      }
+    }
+  },
+  "repeats": {
+    "313_seven_vs_312_seven": [
+      "鼠",
+      "龍",
+      "豬"
+    ],
+    "313_six_vs_312_seven": [
+      "鼠",
+      "龍",
+      "豬"
+    ],
+    "313_six_vs_312_six": [
+      "鼠",
+      "龍",
+      "豬"
+    ],
+    "six_vs_six_same_numbers": [
+      15
+    ],
+    "309_313_seven_v_seven": [
+      4,
+      4,
+      5,
+      5,
+      3
+    ]
+  },
+  "prior_periods": [
+    {
+      "period": 2026308,
+      "normal_numbers": [
+        25,
+        16,
+        28,
+        8,
+        6,
+        40
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "兔",
+        "兔",
+        "豬",
+        "牛",
+        "兔"
+      ],
+      "slots": [
+        {
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "鼠",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "鼠"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "虎",
+            "蛇",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "虎",
+            "蛇"
+          ],
+          "complete": false
+        }
+      ],
+      "complete_count": 0,
+      "mode": "v4.2"
+    },
+    {
+      "period": 2026309,
+      "normal_numbers": [
+        34,
+        39,
+        18,
+        46,
+        4,
+        38
+      ],
+      "normal_zodiacs": [
+        "鷄",
+        "龍",
+        "牛",
+        "鷄",
+        "兔",
+        "蛇"
+      ],
+      "slots": [
+        {
+          "required": [
+            "馬"
+          ],
+          "present": [],
+          "missing": [
+            "馬"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [],
+          "complete": true
+        },
+        {
+          "required": [
+            "虎",
+            "蛇",
+            "羊"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "虎",
+            "羊"
+          ],
+          "complete": false
+        }
+      ],
+      "complete_count": 1,
+      "mode": "v5.0"
+    },
+    {
+      "period": 2026310,
+      "normal_numbers": [
+        37,
+        11,
+        34,
+        2,
+        40,
+        44
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "猴",
+        "鷄",
+        "蛇",
+        "兔",
+        "豬"
+      ],
+      "slots": [
+        {
+          "required": [
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [],
+          "complete": true
+        },
+        {
+          "required": [
+            "龍",
+            "蛇"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "龍"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "虎",
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "complete": false
+        }
+      ],
+      "complete_count": 1,
+      "mode": "v5.0"
+    },
+    {
+      "period": 2026311,
+      "normal_numbers": [
+        32,
+        40,
+        49,
+        14,
+        19,
+        16
+      ],
+      "normal_zodiacs": [
+        "豬",
+        "兔",
+        "馬",
+        "蛇",
+        "鼠",
+        "兔"
+      ],
+      "slots": [
+        {
+          "required": [
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [],
+          "complete": true
+        },
+        {
+          "required": [
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [],
+          "complete": true
+        },
+        {
+          "required": [
+            "兔",
+            "龍",
+            "豬"
+          ],
+          "present": [
+            "兔",
+            "豬"
+          ],
+          "missing": [
+            "龍"
+          ],
+          "complete": false
+        }
+      ],
+      "complete_count": 2,
+      "mode": "v5.0"
+    },
+    {
+      "period": 2026312,
+      "normal_numbers": [
+        31,
+        46,
+        4,
+        43,
+        32,
+        15
+      ],
+      "normal_zodiacs": [
+        "鼠",
+        "鷄",
+        "兔",
+        "鼠",
+        "豬",
+        "龍"
+      ],
+      "slots": [
+        {
+          "required": [
+            "蛇"
+          ],
+          "present": [],
+          "missing": [
+            "蛇"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "兔",
+            "馬"
+          ],
+          "present": [
+            "兔"
+          ],
+          "missing": [
+            "馬"
+          ],
+          "complete": false
+        },
+        {
+          "required": [
+            "虎",
+            "兔",
+            "龍"
+          ],
+          "present": [
+            "兔",
+            "龍"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "complete": false
+        }
+      ],
+      "complete_count": 0,
+      "mode": "v5.0"
+    }
+  ],
+  "frozen_24_candidate_review": {
+    "candidate_count": 24,
+    "different_column_structures_excluding_reserves": 20,
+    "A_counts": {
+      "兔": 21,
+      "鼠": 2,
+      "鷄": 1
+    },
+    "roles_identical_to_C01": [
+      "C01_mouse_single_pig_in",
+      "C05_snake_reserve_same_display",
+      "C06_chicken_reserve_same_display",
+      "C23_sheep_reserve_same_display",
+      "C24_ox_reserve_same_display"
+    ],
+    "contains_dog": [
+      "C10_dog_for_dragon"
+    ],
+    "contains_both_dog_and_dragon": [],
+    "all_triple_include_rabbit_or_tiger": true,
+    "all_triple_incomplete": true,
+    "candidates_in_original_order": [
+      {
+        "id": "C01_mouse_single_pig_in",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C02_previous_live",
+        "roles": {
+          "top": "馬",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "蛇"
+        },
+        "reserves": [
+          "豬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "蛇"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "兔",
+              "蛇"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 0,
+        "display_set": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "蛇"
+        ],
+        "universe": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "蛇",
+          "豬"
+        ]
+      },
+      {
+        "id": "C03_horse_single_pig_mouse_reserve",
+        "roles": {
+          "top": "馬",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "鼠"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 0,
+        "display_set": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "馬",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鼠"
+        ]
+      },
+      {
+        "id": "C04_mouse_single_snake_pig_excluded",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "蛇"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "蛇"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "兔",
+              "蛇"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "蛇"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "蛇",
+          "馬"
+        ]
+      },
+      {
+        "id": "C05_snake_reserve_same_display",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "蛇"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "蛇"
+        ]
+      },
+      {
+        "id": "C06_chicken_reserve_same_display",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "鷄"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鷄"
+        ]
+      },
+      {
+        "id": "C07_chicken_single",
+        "roles": {
+          "top": "鷄",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鷄"
+            ],
+            "present": [],
+            "missing": [
+              "鷄"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 0,
+        "display_set": [
+          "鷄",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鷄",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C08_ox_for_dragon",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "牛",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "牛",
+              "兔"
+            ],
+            "present": [],
+            "missing": [
+              "牛",
+              "兔"
+            ],
+            "present_count": 0,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "牛",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "牛",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C09_sheep_for_dragon",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "羊",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "兔",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "羊",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "羊",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C10_dog_for_dragon",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "狗",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "狗"
+            ],
+            "present": [
+              "狗"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "狗",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "狗",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C11_monkey_for_tiger",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "猴",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "兔",
+              "猴",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "兔",
+              "猴"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "猴",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "猴",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C12_tiger_monkey_odd2",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "猴"
+        },
+        "reserves": [
+          "豬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "猴"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "兔",
+              "猴"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "猴"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "猴",
+          "豬"
+        ]
+      },
+      {
+        "id": "C13_chicken_for_tiger",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "鷄",
+          "D": "豬"
+        },
+        "reserves": [
+          "虎"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "兔",
+              "鷄",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "兔",
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "鷄",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "鷄",
+          "豬",
+          "虎"
+        ]
+      },
+      {
+        "id": "C14_top_overlaps_A",
+        "roles": {
+          "top": "兔",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "鼠",
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "兔"
+            ],
+            "present": [],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 0,
+        "display_set": [
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "鼠",
+          "馬"
+        ]
+      },
+      {
+        "id": "C15_rabbit_single_mouse_anchor",
+        "roles": {
+          "top": "兔",
+          "A": "鼠",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "兔"
+            ],
+            "present": [],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "鼠",
+              "龍"
+            ],
+            "present": [
+              "鼠",
+              "龍"
+            ],
+            "missing": [],
+            "present_count": 2,
+            "needed_count": 2,
+            "complete": true
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鼠",
+              "虎",
+              "豬"
+            ],
+            "present": [
+              "鼠",
+              "豬"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 2,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "兔",
+          "鼠",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "兔",
+          "鼠",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C16_pig_single_mouse_three",
+        "roles": {
+          "top": "豬",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "鼠"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鼠",
+              "虎",
+              "兔"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "豬",
+          "兔",
+          "龍",
+          "虎",
+          "鼠"
+        ],
+        "universe": [
+          "豬",
+          "兔",
+          "龍",
+          "虎",
+          "鼠",
+          "馬"
+        ]
+      },
+      {
+        "id": "C17_dragon_single_mouse_double",
+        "roles": {
+          "top": "龍",
+          "A": "兔",
+          "B": "鼠",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "鼠",
+              "兔"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "龍",
+          "兔",
+          "鼠",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "龍",
+          "兔",
+          "鼠",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C18_mouse_shared_horse_single",
+        "roles": {
+          "top": "馬",
+          "A": "鼠",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "兔"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "double",
+            "required": [
+              "鼠",
+              "龍"
+            ],
+            "present": [
+              "鼠",
+              "龍"
+            ],
+            "missing": [],
+            "present_count": 2,
+            "needed_count": 2,
+            "complete": true
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鼠",
+              "虎",
+              "豬"
+            ],
+            "present": [
+              "鼠",
+              "豬"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 2,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "馬",
+          "鼠",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "馬",
+          "鼠",
+          "龍",
+          "虎",
+          "豬",
+          "兔"
+        ]
+      },
+      {
+        "id": "C19_pig_snake_even2",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "豬",
+          "D": "蛇"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "兔",
+              "蛇",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "兔",
+              "蛇"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "豬",
+          "蛇"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "豬",
+          "蛇",
+          "馬"
+        ]
+      },
+      {
+        "id": "C20_zero_road_in_three",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "豬",
+          "C": "虎",
+          "D": "龍"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "豬",
+          "虎",
+          "龍"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "豬",
+          "虎",
+          "龍",
+          "馬"
+        ]
+      },
+      {
+        "id": "C21_tiger_double_dragon_three",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "虎",
+          "C": "龍",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "虎",
+              "兔"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 0,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "兔",
+              "龍",
+              "豬"
+            ],
+            "present": [
+              "龍",
+              "豬"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 2,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "虎",
+          "龍",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "虎",
+          "龍",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C22_chicken_shared",
+        "roles": {
+          "top": "鼠",
+          "A": "鷄",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "馬"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "龍",
+              "鷄"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "鷄",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "鷄",
+          "龍",
+          "虎",
+          "豬",
+          "馬"
+        ]
+      },
+      {
+        "id": "C23_sheep_reserve_same_display",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "羊"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "羊"
+        ]
+      },
+      {
+        "id": "C24_ox_reserve_same_display",
+        "roles": {
+          "top": "鼠",
+          "A": "兔",
+          "B": "龍",
+          "C": "虎",
+          "D": "豬"
+        },
+        "reserves": [
+          "牛"
+        ],
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "鼠"
+            ],
+            "present": [
+              "鼠"
+            ],
+            "missing": [],
+            "present_count": 1,
+            "needed_count": 1,
+            "complete": true
+          },
+          {
+            "name": "double",
+            "required": [
+              "兔",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "兔",
+              "豬"
+            ],
+            "present": [
+              "豬"
+            ],
+            "missing": [
+              "虎",
+              "兔"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_count": 1,
+        "display_set": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬"
+        ],
+        "universe": [
+          "鼠",
+          "兔",
+          "龍",
+          "虎",
+          "豬",
+          "牛"
+        ]
+      }
+    ]
+  },
+  "post_result_hypothetical_not_previous_candidate": {
+    "description": "Illustrates opportunity cost only; constructed after seeing outcome; no predictive validity",
+    "roles": {
+      "universe": [
+        "鼠",
+        "龍",
+        "狗",
+        "虎",
+        "豬",
+        "馬"
+      ],
+      "top": "鼠",
+      "A": "龍",
+      "B": "狗",
+      "C": "虎",
+      "D": "豬"
+    },
+    "settlement": {
+      "universe": [
+        "鼠",
+        "虎",
+        "龍",
+        "馬",
+        "狗",
+        "豬"
+      ],
+      "display": [
+        "鼠",
+        "虎",
+        "龍",
+        "狗",
+        "豬"
+      ],
+      "reserve_only": [
+        "馬"
+      ],
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鼠"
+          ],
+          "present": [
+            "鼠"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true
+        },
+        {
+          "name": "double",
+          "required": [
+            "龍",
+            "狗"
+          ],
+          "present": [
+            "龍",
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "龍",
+            "豬"
+          ],
+          "present": [
+            "龍",
+            "豬"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false
+        }
+      ],
+      "complete_count": 2,
+      "actual_distinct_signs": [
+        "鼠",
+        "龍",
+        "狗",
+        "豬"
+      ],
+      "actual_signs_in_universe": [
+        "鼠",
+        "龍",
+        "狗",
+        "豬"
+      ],
+      "actual_signs_in_display": [
+        "鼠",
+        "龍",
+        "狗",
+        "豬"
+      ],
+      "actual_signs_in_reserve": [],
+      "actual_signs_outside_universe": [],
+      "universe_ball_count": 6,
+      "display_ball_count": 6,
+      "reserve_ball_count": 0,
+      "outside_ball_count": 0
+    }
+  },
+  "ideal_model_only": {
+    "assumption": "49 equally likely numbers, six without replacement; not actual fairness or odds",
+    "denominator": 13983816,
+    "road_4_1_1_count": 495040,
+    "odd5_even1_count": 1275120,
+    "D2_slot_combinations": [
+      5838756,
+      2190084,
+      713016
+    ],
+    "D2_complete_slot_count_combinations": [
+      6298272,
+      6666608,
+      981560,
+      37376
+    ]
+  }
+}

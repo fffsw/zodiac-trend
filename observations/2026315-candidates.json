@@ -1,0 +1,3602 @@
+{
+  "status": "PASS",
+  "selection_source": "manual_decision.json; metrics do not choose, score or rank",
+  "candidate_count": 38,
+  "unique_column_structures": 37,
+  "duplicate_groups_ignoring_reserve": [
+    [
+      "P01_tiger_snake_horse_dragon_rabbit_ox",
+      "P13_dog_reserve_same_columns"
+    ]
+  ],
+  "top_overlap_candidate_count": 16,
+  "top_overlap_candidates": [
+    "P07_dragon_top_overlaps_C",
+    "P08_snake_top_overlaps_A",
+    "P09_horse_top_overlaps_B",
+    "P10_rabbit_top_overlaps_D",
+    "P17_tiger_top_overlaps_D",
+    "P28_pig_top_overlaps_A",
+    "P29_horse_top_overlaps_A",
+    "P30_dragon_top_overlaps_A",
+    "P31_rabbit_top_overlaps_A",
+    "P32_dog_top_overlaps_A",
+    "P33_tiger_top_overlaps_A",
+    "P34_monkey_top_overlaps_A",
+    "P35_ox_top_overlaps_A",
+    "P36_sheep_top_overlaps_A",
+    "P37_chicken_top_overlaps_A",
+    "P38_mouse_top_overlaps_A"
+  ],
+  "shared_A_identities": [
+    "鼠",
+    "牛",
+    "虎",
+    "兔",
+    "龍",
+    "蛇",
+    "馬",
+    "羊",
+    "猴",
+    "鷄",
+    "狗",
+    "豬"
+  ],
+  "ideal_model": "49 equally likely distinct numbers, six drawn without replacement; no actual draw fairness or forecast claim",
+  "selected": {
+    "id": "P01_tiger_snake_horse_dragon_rabbit_ox",
+    "roles": {
+      "top": "虎",
+      "A": "蛇",
+      "B": "馬",
+      "C": "龍",
+      "D": "兔"
+    },
+    "reserves": [
+      "牛"
+    ],
+    "displayed_zodiacs": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬"
+    ],
+    "universe": [
+      "牛",
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬"
+    ],
+    "top_overlaps_ABCD": false,
+    "displayed_number_count": 21,
+    "universe_number_count": 25,
+    "display_road_counts": [
+      4,
+      9,
+      8
+    ],
+    "display_odd_even": [
+      13,
+      8
+    ],
+    "minimums": {
+      "single": {
+        "distinct_zodiacs": 1,
+        "road_min": [
+          0,
+          0,
+          1
+        ],
+        "odd_min": 1,
+        "even_min": 0
+      },
+      "pair": {
+        "distinct_zodiacs": 2,
+        "road_min": [
+          0,
+          1,
+          1
+        ],
+        "odd_min": 1,
+        "even_min": 1
+      },
+      "triple": {
+        "distinct_zodiacs": 3,
+        "road_min": [
+          1,
+          1,
+          1
+        ],
+        "odd_min": 1,
+        "even_min": 2
+      },
+      "all_columns": {
+        "distinct_zodiacs": 5,
+        "road_min": [
+          1,
+          2,
+          2
+        ],
+        "odd_min": 3,
+        "even_min": 2
+      }
+    },
+    "ideal_model_probabilities_percent": {
+      "single_pct": 41.753667239328664,
+      "pair_pct": 18.722242912807204,
+      "triple_pct": 5.098865717340674,
+      "all_columns_pct": 0.32952378664021326,
+      "no_column_pct": 43.26527179705454,
+      "pair_and_triple_pct": 1.6584886414409343
+    },
+    "comparison": "人工拟选；虎单与蛇共同位不同，二栏奇偶不同且两路；三栏三路各一、两偶；全集牛仅替补。全栏要求两种2路及两种1路，蛇空双栏断。"
+  },
+  "candidates": [
+    {
+      "id": "P01_tiger_snake_horse_dragon_rabbit_ox",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "人工拟选；虎单与蛇共同位不同，二栏奇偶不同且两路；三栏三路各一、两偶；全集牛仅替补。全栏要求两种2路及两种1路，蛇空双栏断。"
+    },
+    {
+      "id": "P02_previous_314_display_reference",
+      "roles": {
+        "top": "牛",
+        "A": "虎",
+        "B": "馬",
+        "C": "狗",
+        "D": "鷄"
+      },
+      "reserves": [
+        "豬"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "虎",
+        "馬",
+        "鷄",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "馬",
+        "鷄",
+        "狗",
+        "豬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "314已发布原盘参考；虎空双栏断、单牛和三栏狗需两个0路。保留事实对照，不用本期开奖结果排名规则。"
+    },
+    {
+      "id": "P03_monkey_single",
+      "roles": {
+        "top": "猴",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "猴"
+      ],
+      "universe": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "猴"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猴替虎做奇2单，展示失05/17/29/41而纳11/23/35/47；猴空单栏断，栏位组合不变。"
+    },
+    {
+      "id": "P04_pig_single",
+      "roles": {
+        "top": "豬",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "豬"
+      ],
+      "universe": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "豬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        9,
+        12
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 2,
+          "even_min": 3
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猪替虎做偶2单；猪蛇全栏同时完整需两个偶2肖，展示不含奇2。上期猪不能作为续开论据。"
+    },
+    {
+      "id": "P05_chicken_single",
+      "roles": {
+        "top": "鷄",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        13,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        12
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            3,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 3
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鸡作偶1单，展示鸡、马、兔三个不同1路肖；全部栏位完整至少三球1路。"
+    },
+    {
+      "id": "P06_ox_single",
+      "roles": {
+        "top": "牛",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        12
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 3
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "牛单、龙三栏，需要两种0路肖同时满足单与三；与P01只一展示0肖作完整比较。"
+    },
+    {
+      "id": "P07_dragon_top_overlaps_C",
+      "roles": {
+        "top": "龍",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 45.67405635200006,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "单龍与三栏C重叠，四肖展示，虎牛仅替补；单可在蛇缺时单独完成，但全部栏位需四肖。"
+    },
+    {
+      "id": "P08_snake_top_overlaps_A",
+      "roles": {
+        "top": "蛇",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "单肖与共同A同为蛇；蛇缺时三栏均断，四肖即可满足全部栏目；与P01同全集、直接比较集中与错开。"
+    },
+    {
+      "id": "P09_horse_top_overlaps_B",
+      "roles": {
+        "top": "馬",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 49.51984494075151,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 47.03977798334875,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "单馬重叠二栏B，四肖展示；蛇空两组合断但单馬仍可能完整，单双对馬依赖集中。"
+    },
+    {
+      "id": "P10_rabbit_top_overlaps_D",
+      "roles": {
+        "top": "兔",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 45.67405635200006,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "单兔重叠三栏D，四肖展示；蛇空时单兔仍可能完整，兔空则单栏和三栏同时断。"
+    },
+    {
+      "id": "P11_pig_shared",
+      "roles": {
+        "top": "虎",
+        "A": "豬",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "馬",
+        "豬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "馬",
+        "豬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猪替蛇作偶2共同位，保持栏目路线奇偶类型；蛇02/14/26/38全部退出，猪缺亦会同时断两栏。"
+    },
+    {
+      "id": "P12_mouse_pair",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "鼠",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "鼠",
+        "虎",
+        "兔",
+        "龍",
+        "蛇"
+      ],
+      "universe": [
+        "鼠",
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 20,
+      "universe_number_count": 24,
+      "display_road_counts": [
+        4,
+        8,
+        8
+      ],
+      "display_odd_even": [
+        12,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 15.66156190842328,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.26728040471928405,
+        "no_column_pct": 45.03972306271764,
+        "pair_and_triple_pct": 1.3611163075944364
+      },
+      "comparison": "鼠替马做奇1二栏腿；两栏形态不变但二栏组数由5降4，马全集外；均匀模型覆盖变化不证明实际优势。"
+    },
+    {
+      "id": "P13_dog_reserve_same_columns",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "狗"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "只将P01替补牛换狗，所有栏目完全不变；全集从偶0牛改奇0狗，不能当作独立栏目结构。"
+    },
+    {
+      "id": "P14_dog_triple",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "狗",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "狗替龙为奇0三栏；类型不变但09/21/33/45替代03/15/27/39，龙整组退出。"
+    },
+    {
+      "id": "P15_ox_triple",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "牛",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "虎",
+        "兔",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        9,
+        12
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 0,
+          "even_min": 3
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 2,
+          "even_min": 3
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "牛替龙作偶0三栏，三栏蛇牛兔均为偶；任何少于三个偶球的期形必断三栏。"
+    },
+    {
+      "id": "P16_chicken_triple",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "鷄"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鸡替兔为偶1三栏，取得34等而舍04/16/28/40；上期鸡出现不是停开信号。"
+    },
+    {
+      "id": "P17_tiger_top_overlaps_D",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "虎"
+      },
+      "reserves": [
+        "牛",
+        "兔"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        5,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        4
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            0,
+            2
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            1,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 1
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 45.67405635200006,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "虎单重叠三栏D；三栏蛇龙虎含两个2路，蛇缺双组断、虎缺单和三栏均断。"
+    },
+    {
+      "id": "P18_tiger_shared",
+      "roles": {
+        "top": "牛",
+        "A": "虎",
+        "B": "馬",
+        "C": "狗",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "虎",
+        "兔",
+        "馬",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "虎继续奇2共同位，三栏三路；蛇仅替补，重现共同虎空双栏断的反方而非永久排虎。"
+    },
+    {
+      "id": "P19_monkey_shared",
+      "roles": {
+        "top": "牛",
+        "A": "猴",
+        "B": "馬",
+        "C": "狗",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "兔",
+        "馬",
+        "猴",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "兔",
+        "蛇",
+        "馬",
+        "猴",
+        "狗"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猴代虎做奇2共同位；展示缺偶2，蛇只替补；猴空同样双栏断。"
+    },
+    {
+      "id": "P20_rabbit_shared",
+      "roles": {
+        "top": "虎",
+        "A": "兔",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "兔重回共同位；二栏兔馬需两个1路球，三栏三路各一；不能因313兔缺就固定排除。"
+    },
+    {
+      "id": "P21_chicken_shared",
+      "roles": {
+        "top": "虎",
+        "A": "鷄",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鸡作偶1共同位；二栏鸡馬同为1路但不同肖，鸡空两栏断；不能因314鸡现就判停。"
+    },
+    {
+      "id": "P22_dragon_shared",
+      "roles": {
+        "top": "虎",
+        "A": "龍",
+        "B": "馬",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "龙作奇0共同位，三栏三路各一；龙空两栏断；二栏龙馬至少两奇。"
+    },
+    {
+      "id": "P23_dog_shared",
+      "roles": {
+        "top": "虎",
+        "A": "狗",
+        "B": "馬",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "狗作奇0共同位，龙全集外；二栏狗馬双奇，狗空双栏断。"
+    },
+    {
+      "id": "P24_mouse_shared",
+      "roles": {
+        "top": "虎",
+        "A": "鼠",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "鼠",
+        "虎",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "鼠",
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        17,
+        4
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 4,
+          "even_min": 1
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鼠作奇1共同位；二栏鼠馬需两球1路，314鼠仅是第七球、不能当作前六码命中。"
+    },
+    {
+      "id": "P25_horse_shared",
+      "roles": {
+        "top": "虎",
+        "A": "馬",
+        "B": "龍",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        8
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            0,
+            2,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            1,
+            2,
+            2
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 6.149966504135924,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 42.51154334410579,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "马作5码共同位，三栏馬兔两个1路；马空双栏断，5码不等于最高置信。"
+    },
+    {
+      "id": "P26_ox_shared",
+      "roles": {
+        "top": "虎",
+        "A": "牛",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            2,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "牛作偶0共同位，三栏牛龍两个不同0路；蛇只替补，牛空双栏断。"
+    },
+    {
+      "id": "P27_sheep_shared",
+      "roles": {
+        "top": "虎",
+        "A": "羊",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "馬",
+        "羊"
+      ],
+      "universe": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "羊"
+      ],
+      "top_overlaps_ABCD": false,
+      "displayed_number_count": 21,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            2,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_min": [
+            2,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 0.32952378664021326,
+        "no_column_pct": 43.26527179705454,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "羊作偶0共同位，三栏羊龍两个0路；羊牛同类型不同号码，不能凭近期少就断言必出。"
+    },
+    {
+      "id": "P28_pig_top_overlaps_A",
+      "roles": {
+        "top": "豬",
+        "A": "豬",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "馬",
+        "豬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "馬",
+        "豬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猪为单及共同A，四肖展示；猪空三栏同时断，需同时考虑降低全栏所需不同肖与增加集中。"
+    },
+    {
+      "id": "P29_horse_top_overlaps_A",
+      "roles": {
+        "top": "馬",
+        "A": "馬",
+        "B": "龍",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            0,
+            2,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 49.51984494075151,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 6.149966504135924,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 50.48015505924849,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "马为单及共同A，四肖展示；马5码只改变理想模型覆盖，马空三栏均断。"
+    },
+    {
+      "id": "P30_dragon_top_overlaps_A",
+      "roles": {
+        "top": "龍",
+        "A": "龍",
+        "B": "馬",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "龙为单及共同A，三栏三路各一；0路没有龙时三栏均断。"
+    },
+    {
+      "id": "P31_rabbit_top_overlaps_A",
+      "roles": {
+        "top": "兔",
+        "A": "兔",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "兔为单及共同A；二栏兔馬需两球1路，兔缺三栏均断。"
+    },
+    {
+      "id": "P32_dog_top_overlaps_A",
+      "roles": {
+        "top": "狗",
+        "A": "狗",
+        "B": "馬",
+        "C": "蛇",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "狗为单及共同A，四肖展示；龙全集外，狗缺三栏均断。"
+    },
+    {
+      "id": "P33_tiger_top_overlaps_A",
+      "roles": {
+        "top": "虎",
+        "A": "虎",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "虎",
+        "兔",
+        "龍",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        4
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 1
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "虎为单及共同A；蛇仅替补，虎空三栏均断；不以314虎缺证明下期走势。"
+    },
+    {
+      "id": "P34_monkey_top_overlaps_A",
+      "roles": {
+        "top": "猴",
+        "A": "猴",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "蛇",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "馬",
+        "猴"
+      ],
+      "universe": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "猴"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        4
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            0,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 1
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "猴为单及共同A；展示缺偶2，蛇只替补；猴缺三栏均断。"
+    },
+    {
+      "id": "P35_ox_top_overlaps_A",
+      "roles": {
+        "top": "牛",
+        "A": "牛",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "牛",
+        "兔",
+        "龍",
+        "馬"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        0
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            2,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            2,
+            2,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "牛为单及共同A；三栏牛龍两个0路、兔偶1；牛缺三栏均断。"
+    },
+    {
+      "id": "P36_sheep_top_overlaps_A",
+      "roles": {
+        "top": "羊",
+        "A": "羊",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "蛇"
+      ],
+      "displayed_zodiacs": [
+        "兔",
+        "龍",
+        "馬",
+        "羊"
+      ],
+      "universe": [
+        "虎",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "羊"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        8,
+        9,
+        0
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            1,
+            0,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            1,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            2,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            2,
+            2,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "羊为单及共同A；羊龍为两种0路，羊缺三栏均断。"
+    },
+    {
+      "id": "P37_chicken_top_overlaps_A",
+      "roles": {
+        "top": "鷄",
+        "A": "鷄",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        9,
+        8
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 0,
+          "even_min": 1
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 1
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 1,
+          "even_min": 2
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 2
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鸡为单及共同A；二栏鸡馬两种1路，鸡空三栏均断。"
+    },
+    {
+      "id": "P38_mouse_top_overlaps_A",
+      "roles": {
+        "top": "鼠",
+        "A": "鼠",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎",
+        "牛"
+      ],
+      "displayed_zodiacs": [
+        "鼠",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "universe": [
+        "鼠",
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "top_overlaps_ABCD": true,
+      "displayed_number_count": 17,
+      "universe_number_count": 25,
+      "display_road_counts": [
+        4,
+        9,
+        4
+      ],
+      "display_odd_even": [
+        13,
+        4
+      ],
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_min": [
+            0,
+            1,
+            0
+          ],
+          "odd_min": 1,
+          "even_min": 0
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_min": [
+            0,
+            2,
+            0
+          ],
+          "odd_min": 2,
+          "even_min": 0
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_min": [
+            1,
+            1,
+            1
+          ],
+          "odd_min": 2,
+          "even_min": 1
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_min": [
+            1,
+            2,
+            1
+          ],
+          "odd_min": 3,
+          "even_min": 1
+        }
+      },
+      "ideal_model_probabilities_percent": {
+        "single_pct": 41.753667239328664,
+        "pair_pct": 18.722242912807204,
+        "triple_pct": 5.098865717340674,
+        "all_columns_pct": 1.6584886414409343,
+        "no_column_pct": 58.246332760671336,
+        "pair_and_triple_pct": 1.6584886414409343
+      },
+      "comparison": "鼠为单及共同A；二栏鼠馬两种1路，鼠空三栏均断；不能用314第七球声称平码已开。"
+    }
+  ],
+  "input_sha256": {
+    "handcrafted_candidates.json": "949523e1a21838a29f52361d3b57d751cee3e7ba273e5a4081cbc5e14e40f6f9",
+    "manual_decision.json": "de2e7f1378300366099b2e433a2b0e31e8b8907e8a853ac0fdb1dbcab4f07af0",
+    "evidence.json": "3e5321e050c6d911f7e306ca14b1442f7104e8df3cc2ec1d58f8afc59ee58544"
+  }
+}

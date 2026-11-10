@@ -1,0 +1,158 @@
+{
+  "period": 2026312,
+  "created": "2026-11-08T05:53:58+08:00",
+  "data_md5": "f91c57bb50f3c4c36965274eb5f66b11",
+  "data_last_period": 2026311,
+  "scope": "site_regular_only",
+  "normal_balls_per_draw": 6,
+  "special_lines": "not_generated",
+  "previous_special_zodiac_used_only_as_identity_label": true,
+  "previous_seven_identity_zodiacs": [
+    "鼠",
+    "兔",
+    "蛇",
+    "馬",
+    "鷄",
+    "豬"
+  ],
+  "analysis_primary_windows": [
+    35,
+    40,
+    45
+  ],
+  "structure_audit_self_sha256": "85d4c5c45715fc9379a71ea287644f07b8a33ee26fed8cb6b3d8b95fa639caf1",
+  "predraw_observed_at_cst": "2026-11-08T05:53:54+08:00",
+  "lines": {},
+  "site_display": {
+    "top": 5,
+    "t2": [
+      3,
+      6
+    ],
+    "t3": [
+      3,
+      2,
+      4
+    ],
+    "cands": [
+      5,
+      3,
+      6,
+      2,
+      4
+    ],
+    "pool": [
+      3,
+      6,
+      2,
+      4,
+      9
+    ],
+    "version": "v5.0",
+    "universe": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      9
+    ],
+    "universe_zodiac": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "鷄"
+    ],
+    "selection_mode": "manual_universe_and_slots_no_shake",
+    "selection_zodiac": [
+      "蛇",
+      "兔",
+      "虎",
+      "龍",
+      "馬",
+      "鷄"
+    ],
+    "selection_source": "312期千期四重肖与重选审查_20261108.md",
+    "allocation_shake": "none (manual roles; cands/pool are derived display groupings only)",
+    "manual_decision": {
+      "universe": [
+        5,
+        3,
+        2,
+        4,
+        6,
+        9
+      ],
+      "universe_zodiac_report_order": [
+        "蛇",
+        "兔",
+        "虎",
+        "龍",
+        "馬",
+        "鷄"
+      ],
+      "roles": {
+        "top": 5,
+        "A": 3,
+        "B": 6,
+        "C": 2,
+        "D": 4
+      },
+      "roles_zodiac": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "display": [
+        5,
+        3,
+        6,
+        2,
+        4
+      ],
+      "display_zodiac": [
+        "蛇",
+        "兔",
+        "馬",
+        "虎",
+        "龍"
+      ],
+      "reserves": [
+        9
+      ],
+      "reserve_zodiac": [
+        "鷄"
+      ],
+      "repeat_count": 4,
+      "top_overlap_mode": "coverage",
+      "pool_semantics": "cands=display group; pool=A/B/C/D plus nondisplay reserves",
+      "human_review_note": "核对版千期4重两连及截尾、十二肖35/40/45期、近端年龄块和23个完整结构候选；以人工作取舍，非摇号、评分或回测",
+      "revision_reason": "明确更正7期历史，312七球口径4重两连后重审；豬替补改鷄，馬与龍交换二／三栏位置。原盘及全部旧预注册保留。",
+      "universe_rationale": "参见关联的千期与逐肖审查报告",
+      "slot_rationale": {
+        "all": "参见关联的23案逐栏与对照审查报告"
+      },
+      "reserve_rationale": "参见关联的鷄与豬、鼠逐肖对照"
+    }
+  },
+  "self_md5": "0919b30e8ef3370df3d795ec503bca96",
+  "revision": "rev1",
+  "data_sha256": "cb2170f99d4ce5b3b5378641e6725c891834ff92086385084e8471e1723d96d0",
+  "original_data_md5": "088592290c52e7079c1ec07d43474204",
+  "history_reconciliation": "7 periods: 2024294, 2025029, 2025030, 2025031, 2025115, 2026112, 2026276",
+  "analysis_report_sha256": "5e2461263bfa4c2de0c05e9a1e99dfd11a23d06a67064d8ad914d4226acb8f3e",
+  "repeat_ledger_sha256": "6427e985c5c26255da824a102f8f7055d3d5c8f8defe3325a53562ff763b83c3",
+  "reconciliation_manifest_sha256": "714b9d84825221ddd9c3db5ace804aebd53469bda41c31a88787f22385094f02",
+  "historical_source_independence": "displays may share upstream; not official independent certification",
+  "override": {
+    "prev_self_md5": "389d672404eb839eb7a4e4f1b62c3bc9",
+    "prev_full_sha256": "e8b6fa62a1a5255215fcb1eee625aa8a462271a2ec768f020668afc83c54a5e5",
+    "reason": "七期历史数据来源核对更正，重新研究千期四重肖连开后人工重选312；原盘保留；豬替补改鷄，馬龍交换二三栏位置。",
+    "original_public_prereg": "pre-registration/2026312.json",
+    "original_public_page": "pre-registration/2026312-page.html"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "scope": "public static 314 display and audit files from already published GitHub commit; no target result data fetched; byte match only, not trusted predraw or official authentication",
+  "commit": "695bead81e897af6e7a7a35805257ca5b246d455",
+  "files": [
+    {
+      "remote": "zodiac_trend.html",
+      "frozen_local": "314-published-page.html",
+      "sha256": "54c9d5da57cca4fa2b8f4d2c151f31b228cd3a4de3b4fed6ef2c5cd0b6f23b0b",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-manual-decisions.json",
+      "frozen_local": "manual-site-decisions.json",
+      "sha256": "b93c2fe5e9bdee43f05db74359eea238da6b8a40fbf51d320bbb46357ae5de4f",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-manual-decision.json",
+      "frozen_local": "314-handwritten-decision.json",
+      "sha256": "ee0867eca54a97e6ced47333dadac4b29a1749fca4069517e26743d71bd5e00d",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-handwritten-design.json",
+      "frozen_local": "314-31-handwritten-designs.json",
+      "sha256": "ad66df084a73f471fe939b8e951d27b7e9e73d336e1d447fe448908d21502f9b",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-candidates.json",
+      "frozen_local": "314-candidates-audit.json",
+      "sha256": "3b0b8ba7bc8a708e18e0f6719c1aaf7e66a9a66be1dccf3718f0970cc4072734",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-evidence.json",
+      "frozen_local": "314-evidence-before-draw.json",
+      "sha256": "c0b2ce0c7ce1df6f06fc4900859024f898af5a6d31eddfc17fef65c3c1bdab78",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-source-data.csv",
+      "frozen_local": "314-public-source-through-313.csv",
+      "sha256": "662032bf9829c1451ea4dcc221b2b4c8386d5efe953a73e1ac14789b0869e629",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-analysis.md",
+      "frozen_local": "314-public-analysis.md",
+      "sha256": "5465949e9e76fdb719726627310ea567087447e169d4dd192d1444f32f32372c",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-zodiac-ledger.csv",
+      "frozen_local": "314-zodiac-ledger-before.csv",
+      "sha256": "3425f56c52b8ff48d9c7951c3bf8fe06d94a2213b4bcbe08663bbcb34d25ff67",
+      "matched": true
+    },
+    {
+      "remote": "observations/2026314-number-ledger.csv",
+      "frozen_local": "314-number-ledger-before.csv",
+      "sha256": "2e8aabc0a3024ff7d47af28d4b6eee20b5a7d64b2835cf118f5145e888cd3c0a",
+      "matched": true
+    }
+  ],
+  "status": "PASS"
+}

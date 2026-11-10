@@ -1,0 +1,38 @@
+{
+  "schema": "human_manual_choice_v1",
+  "period": 2026314,
+  "selection_timestamp_basis": "selection written before candidate audit computation; a status-only query had already been made, but no 314 result numbers were read or used; not a trusted pre-registration",
+  "input_scope": "2026313 six normal numbers 33,39,45,15,07,20 and seventh 43, supplied by user only; date unknown; 313 period and six-plus-one inferred from context",
+  "status": "NONOFFICIAL_UNVERIFIED_DISPLAY_NOT_PREREG",
+  "human_choice": "E01_cow_tiger_horse_dog_chicken_pig",
+  "universe": ["牛", "虎", "馬", "狗", "鷄", "豬"],
+  "top": "牛",
+  "pair": ["虎", "馬"],
+  "triple": ["虎", "狗", "鷄"],
+  "reserves": ["豬"],
+  "per_sign_reasons": {
+    "鼠": "不选。与马同为奇1路；鼠4码、马5码；仍可能重肖，排除全部07/19/31/43承担损失，不因上期07而追或因重肖而排。",
+    "牛": "单栏，4码偶0路：与展示中的狗构成奇偶不同的两个0路肖；牛含06这个0头，另有30、42。仅覆盖设计，不是说牛欠开；空牛单栏断。",
+    "虎": "两组共同A，4码奇2路。三栏可成0/1/2各一且只需要一个2路；对照猴同为奇2路。虎近10仅1期是反方而非补涨理由；虎空则二、三栏均断。",
+    "兔": "未进六肖。鸡同属偶1路；本次以鸡34提供3头，取舍掉兔04的0头和16/28/40；不能说兔因313没开就不会开，兔是上轮共有位、留独立反方。",
+    "龍": "未进六肖。狗与龙都是奇0路；本次选狗09/21/33/45而舍龙03/15/27/39，其中狗含红45、龙无红；龙上期两球既不是必续也不是必停。",
+    "蛇": "未进六肖。猪与蛇都是偶2路并只能选一作为替补；选择猪不是因为313的20。展示本身不含偶2路，蛇02/14/26/38与猪同样均非栏目承诺。",
+    "馬": "二栏B，奇1路5码，覆盖01/13/25/37/49；与虎不同行路同为奇数，二栏至少两奇。与鼠比较，五码只在等可能模型下增大这一腿组合覆盖，不是实际概率证明；马不是固定选。",
+    "羊": "未进六肖。羊与牛同为偶0路；牛含06和30，代价是不覆盖羊12/24/36/48。羊非因近况少而排；羊作为单或共同位均已列完整方案。",
+    "猴": "未进六肖。猴与虎同为奇2路，虎有05与41而猴有35等；选择虎意味着放弃11/23/35/47，不由虎上期缺失推断反弹。",
+    "鷄": "三栏D，偶1路；三栏虎/狗/鸡分别为奇2/奇0/偶1，单栏牛与二栏A虎不同路。鸡34提供3头，代价是兔04、16、28、40均不覆盖；鸡空三栏断。",
+    "狗": "三栏C，奇0路；和牛同为0路但不是同一肖，允许分别各出一个；09/21/33/45中45为红。狗上期两球不被当续开依据；龙与狗同出时此方案仍丢龙。",
+    "豬": "唯一替补，偶2路；仅扩大六肖全集覆盖，不属于任何单、二、三栏，不能计为栏目命中。蛇是同路同偶完整替代；猪上期出现不代表续开。"
+  },
+  "structural_counterarguments": [
+    "共同虎空：二栏和三栏同时不完整；更换共同位只转移风险，不能证明某个A更可能出现。",
+    "二栏虎马同奇：少于两奇时二栏不可能完整；三栏虎狗鸡须至少两奇一偶。",
+    "三栏三路各一：任何一路空时三栏不可能完整；上期只有一球2路时也必须恰好属于虎，偶数2路不能替代虎。",
+    "单栏牛为偶0，三栏狗为奇0：两栏同时完整需至少两球0路；全集牛狗属于不同肖，单个0路球不能同时代表两个肖。",
+    "马和鸡同为1路但不同肖：二、三栏同时完整需至少两球1路；两栏都依赖虎。",
+    "三栏共同完整须牛虎马狗鸡5个不同肖，至少0/1/2路分别2/2/1球、至少三奇二偶；上期仅4个不同肖时无可能三栏全中。",
+    "展示五肖未含偶数2路；猪仅替补，蛇不在全集，不能借替补说三栏覆盖猪蛇。龙鼠兔等全被舍弃，313出现两球的龙亦不受保护。",
+    "近35/40/45统计有重叠，频次与遗漏不提供可验证下一期预测方向；每期人工取舍，未承诺固定重肖或固定马。"
+  ],
+  "selection_method": "Manual structural diversification and explicit counterarguments across complete candidates; no score, no ranking by historical hits, no random choice, no fixed top/A overlap, no fixed identity quota. Number-color-head comparisons are descriptive tradeoffs, not asserted predictive mechanisms."
+}

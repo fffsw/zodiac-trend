@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "checks": [
+    "1044 prior history rows byte-identical, only 314 staged",
+    "1045 rows, 313 and 314 both date unknown",
+    "314 six-plus-one inferred solely from user, no date invented",
+    "313 and corrected 312 preserved",
+    "evidence scope and latest user period",
+    "12 zodiac window/age-block ledgers independently recounted",
+    "49 numbers W10/20/35/40/45/60/100/250 and attributes independently recounted",
+    "selected shared-A / joint route / parity scenario counts verified in overlapping windows",
+    "exact seven-v-seven adjacent counts 4/4/5/5/3/3",
+    "38 handwritten candidates and fixed manual decision, no algorithmic choice",
+    "all 38 hand candidates, necessary shapes and exact ideal probabilities by independent direct enumeration",
+    "reserve-only duplicate and 16 top-overlap candidates explicitly accounted",
+    "manually fixed roles, reserve, all-columns road/parity necessary conditions",
+    "314 failure 0/1 1/2 2/3, zero complete retained",
+    "314 and 315 same group-size model probabilities; no prediction improvement claim",
+    "main history and live page source unchanged during stage"
+  ],
+  "selected_shape_condition_counts": {
+    "10": {
+      "periods": 10,
+      "no_even_2road": 0,
+      "no_odd_0road": 4,
+      "at_most_one_0road": 6,
+      "at_most_one_1road": 1,
+      "at_most_one_2road": 5,
+      "at_most_one_even": 1,
+      "four_or_fewer_signs": 2
+    },
+    "20": {
+      "periods": 20,
+      "no_even_2road": 4,
+      "no_odd_0road": 9,
+      "at_most_one_0road": 11,
+      "at_most_one_1road": 3,
+      "at_most_one_2road": 8,
+      "at_most_one_even": 2,
+      "four_or_fewer_signs": 4
+    },
+    "35": {
+      "periods": 35,
+      "no_even_2road": 7,
+      "no_odd_0road": 13,
+      "at_most_one_0road": 18,
+      "at_most_one_1road": 7,
+      "at_most_one_2road": 12,
+      "at_most_one_even": 2,
+      "four_or_fewer_signs": 6
+    },
+    "40": {
+      "periods": 40,
+      "no_even_2road": 7,
+      "no_odd_0road": 17,
+      "at_most_one_0road": 21,
+      "at_most_one_1road": 9,
+      "at_most_one_2road": 12,
+      "at_most_one_even": 2,
+      "four_or_fewer_signs": 6
+    },
+    "45": {
+      "periods": 45,
+      "no_even_2road": 8,
+      "no_odd_0road": 18,
+      "at_most_one_0road": 22,
+      "at_most_one_1road": 11,
+      "at_most_one_2road": 14,
+      "at_most_one_even": 2,
+      "four_or_fewer_signs": 6
+    },
+    "60": {
+      "periods": 60,
+      "no_even_2road": 14,
+      "no_odd_0road": 23,
+      "at_most_one_0road": 26,
+      "at_most_one_1road": 16,
+      "at_most_one_2road": 18,
+      "at_most_one_even": 4,
+      "four_or_fewer_signs": 6
+    },
+    "100": {
+      "periods": 100,
+      "no_even_2road": 26,
+      "no_odd_0road": 43,
+      "at_most_one_0road": 47,
+      "at_most_one_1road": 26,
+      "at_most_one_2road": 29,
+      "at_most_one_even": 9,
+      "four_or_fewer_signs": 17
+    },
+    "250": {
+      "periods": 250,
+      "no_even_2road": 69,
+      "no_odd_0road": 100,
+      "at_most_one_0road": 101,
+      "at_most_one_1road": 71,
+      "at_most_one_2road": 89,
+      "at_most_one_even": 23,
+      "four_or_fewer_signs": 52
+    }
+  },
+  "limitations": [
+    "not official draw authentication",
+    "not predraw timestamp",
+    "not actual draw mechanism",
+    "not predictive evidence",
+    "not investment return"
+  ],
+  "staged_history_sha256": "687efa128921ef7ace365131c023592a162a8dca4c367c88949ea0c16656ffb5"
+}

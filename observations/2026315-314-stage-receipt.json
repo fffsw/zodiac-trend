@@ -1,0 +1,30 @@
+{
+  "status": "STAGED_USER_INPUT_ONLY_NOT_OFFICIALLY_AUTHENTICATED",
+  "period_and_six_plus_one_inferred": true,
+  "period": 2026314,
+  "normal_numbers": [
+    13,
+    26,
+    9,
+    37,
+    34,
+    44
+  ],
+  "normal_zodiacs": [
+    "馬",
+    "蛇",
+    "狗",
+    "馬",
+    "鷄",
+    "豬"
+  ],
+  "seventh_number": 31,
+  "seventh_zodiac": "鼠",
+  "date": null,
+  "date_policy": "314 and 313 dates remain empty; page --/--",
+  "prior_sha256": "662032bf9829c1451ea4dcc221b2b4c8386d5efe953a73e1ac14789b0869e629",
+  "staged_sha256": "687efa128921ef7ace365131c023592a162a8dca4c367c88949ea0c16656ffb5",
+  "prior_rows_byte_identical": 1044,
+  "record_count": 1045,
+  "main_history_and_public_site_changed_at_staging": false
+}
