@@ -8,6 +8,8 @@
 
 [当前版页面快照](2026315-restored-layout-page.html) · [生成器](2026315-restored-layout-generator.py) · [本地浏览器验收](2026315-restored-layout-local-browser-qc.json) · [静态核验](2026315-restored-layout-static-qc.json) · [版本说明](2026315-restored-layout-note.json) · [文件哈希](2026315-restored-layout.sha256) · [回退时的索引快照](2026315-README-at-6504cdb.md)。
 
+项目根入口原先错误地跳至域名根目录并返回404，已修为同目录相对跳转；[入口修正记录](2026315-entry-fix-note.json)。
+
 只恢复版式和显示措辞，不重新选择或改变历史数据。旧页面硬编码的截止时间没有可靠依据，故期号框只显示编号而不编造倒计时。此版亦没有赛前认证或新增预注册；状态查询只查有无目标记录与最新期号，并非赛前证明。微信客户端实际提示仍需用户核实。
 
 ## 2026315原版记录：314复盘后人工定案

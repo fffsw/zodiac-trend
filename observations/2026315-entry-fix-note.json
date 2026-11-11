@@ -1,0 +1,10 @@
+{
+  "scope": "FIX_EXISTING_PROJECT_ROOT_REDIRECT_ONLY",
+  "parent_commit": "524f096e5d8364e9b98a78149a3bf911456e619d",
+  "observed_before": "Project /zodiac-trend/ index used an absolute /zodiac_trend.html redirect; that different domain-root URL returned 404.",
+  "change": "Both meta refresh and fallback anchor now use ./zodiac_trend.html, preserving the visible page layout and homepage bytes.",
+  "old_index_sha256": "b236ba62b531fd5f0a2476b02312937f0700948136f34ff933ddcbb535002d63",
+  "fixed_index_sha256": "d924e8023ac64f123b8389f9eddbce98ca8fb46dad3b14706c2e30377f2d641f",
+  "homepage_sha256": "16cadce0b366aa6273017002db75d37bdda279eb8c2497029a6bbda9dd59d34e",
+  "wechat_warning_status": "unknown; a redirect correction cannot certify WeChat access"
+}
