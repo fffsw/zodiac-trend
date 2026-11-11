@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "315 original layout; old 315 P01 and 314 user data preserved; target existence was checked but no 315 numbers read; synthetic future row only in deleted temporary directory; not official, predraw, outcome, fairness, or WeChat certification",
+  "page_sha256": "16cadce0b366aa6273017002db75d37bdda279eb8c2497029a6bbda9dd59d34e",
+  "generator_sha256": "01dadac26d8eafa4c3935f2714626b4d160dc98848943e5ade9bbd6c69cdabfe",
+  "checks": [
+    "previous 315 page frozen and retained unchanged",
+    "314 source exact historical bytes preserved",
+    "315 manual decisions exact bytes preserved",
+    "root and www generation match byte for byte",
+    "CSS identical to earlier layout and last 315 page",
+    "expected original code location uniquely identified",
+    "expected original code location uniquely identified",
+    "expected original code location uniquely identified",
+    "expected original code location uniquely identified",
+    "page JavaScript and embedded historical data otherwise byte-identical to released 315 snapshot",
+    "all 250 displayed rows independently match source including dates and seven balls",
+    "314 user numbers and unknown date retained",
+    "P01 fixed roles and ox reserve exactly retained",
+    "no formerly prominent notices or labels",
+    "issue display without asserted timing",
+    "single self-contained page with no automatic external scripts or assets",
+    "brief footer provides audit context without claiming official status",
+    "generator reproduces released page byte for byte",
+    "synthetic future regeneration keeps simple layout and waits for manual decision",
+    "original dirty deployment checkout remains untouched"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "USER_CLARIFIED_RESTORE_ORIGINAL_LAYOUT_WITH_315_PLAN_NOT_ROLL_BACK_DATA",
+  "correction": "The assistant previously misunderstood the request and restored the 314 page; the user clarified that the original layout, not historical data, should be restored.",
+  "parent_commit": "6504cdb1bc5cce498d31a662e805ceacc7bd6493",
+  "old_314_page_sha256": "54c9d5da57cca4fa2b8f4d2c151f31b228cd3a4de3b4fed6ef2c5cd0b6f23b0b",
+  "previous_315_page_sha256": "3ac43b1210fc7aab4dfac2463fb9d9a1727199f479aafd2f6fbcf6c8eafb12c4",
+  "new_315_original_layout_page_sha256": "16cadce0b366aa6273017002db75d37bdda279eb8c2497029a6bbda9dd59d34e",
+  "new_generator_sha256": "01dadac26d8eafa4c3935f2714626b4d160dc98848943e5ade9bbd6c69cdabfe",
+  "through_issue": 2026314,
+  "314_source": "user-provided six 13,26,09,37,34,44 plus seventh 31; date unknown and order/issue inferred from context",
+  "315_manual_choice": {
+    "universe": [
+      "虎",
+      "蛇",
+      "馬",
+      "龍",
+      "兔",
+      "牛"
+    ],
+    "single": "虎",
+    "pair": [
+      "蛇",
+      "馬"
+    ],
+    "triple": [
+      "蛇",
+      "龍",
+      "兔"
+    ],
+    "reserve_only": [
+      "牛"
+    ]
+  },
+  "layout": "same CSS and principal element order as earlier version; later prominent banner removed; brief footer retains provenance",
+  "schedule": "no verified deadline; issue box displays identifier only, not a fabricated countdown",
+  "status_scope": "target presence and latest ID only; null is not proof of predraw and source may be stale; no 315 numbers read",
+  "313_314_315_predraw_preregistration": "none; no new preregistration or official representation",
+  "preservation": "314 and old 315 snapshots, data, decisions, reports, status evidence, prior README snapshot and all old manifests retained",
+  "browser_checks": 61,
+  "future_generation": "generator reproduced homepage exactly and retained layout/waits for human decision with a deleted synthetic future fixture",
+  "wechat_safety": "unknown; HTTP and browser testing cannot determine the actual WeChat warning",
+  "reproduction": "Place 2026315-source-data.csv as data/macau_mark_six_full.csv, 2026315-manual-decisions.json as data/manual_site_decisions.json, create www/, then run 2026315-restored-layout-generator.py from that directory with POOL_VERSION=v5.0."
+}
