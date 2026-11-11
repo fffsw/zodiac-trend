@@ -1,0 +1,15 @@
+{
+  "scope": "USER_REQUESTED_RESTORATION_OF_EXACT_PRE_315_HOMEPAGE_NOT_A_NEW_PREDICTION",
+  "user_request_verbatim": "我也没让你弄网站啊 ，你切回原来的版本不就好了",
+  "parent_commit": "2f1c74ecb85265de324e958fa27ed76acf57f261",
+  "previous_315_page_sha256": "3ac43b1210fc7aab4dfac2463fb9d9a1727199f479aafd2f6fbcf6c8eafb12c4",
+  "restored_314_page_sha256": "54c9d5da57cca4fa2b8f4d2c151f31b228cd3a4de3b4fed6ef2c5cd0b6f23b0b",
+  "homepage_restored_from": "observations/2026314-page.html, byte-for-byte",
+  "homepage_shows_period": "314 original nonofficial display; historic input only through 313",
+  "314_result_status": "user already provided result; do not represent 314 as the current or upcoming issue",
+  "315_review_and_manual_choices": "preserved as historical records, not on homepage",
+  "site_risk_notice": "unchanged from the exact restored 314 page",
+  "wechat_security_status": "not independently known, user must test; restoring page does not certify removal of warning",
+  "third_party_draw_result_queried": false,
+  "old_prereg_and_manifests": "preserved; no new preregistration"
+}
