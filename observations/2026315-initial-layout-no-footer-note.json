@@ -1,0 +1,21 @@
+{
+  "scope": "Only initial-style layout, display text, scrolling and entire unwanted footer removal; existing computation and choices kept",
+  "parent_commit": "45b6255aeb5a4d4238b912f6ba17822853b52105",
+  "old_homepage_sha256": "16cadce0b366aa6273017002db75d37bdda279eb8c2497029a6bbda9dd59d34e",
+  "new_homepage_sha256": "5270c8d378d85b5f4acf770a897aec7918c2cd710ef81be53787215a9b26611b",
+  "new_generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "history_sha256": "687efa128921ef7ace365131c023592a162a8dca4c367c88949ea0c16656ffb5",
+  "manual_decisions_sha256": "184cc7a8758aee5f5ded71c0b745057092cc8bd3187871b60bca93aa3b2121ee",
+  "315_selection": {
+    "single": "虎",
+    "double": "蛇馬",
+    "triple": "蛇龍兔",
+    "reserve_only": "牛"
+  },
+  "predraw_authentication": false,
+  "actual_draw_mechanism_authenticated": false,
+  "wechat_safety_verified": false,
+  "status_query_scope": "target record existence and latest issue identifier only; no target contents or other 314 results",
+  "test_scope": "Chromium desktop and mobile simulation; local synthetic draw fixtures only",
+  "prepared_at_utc": "2026-11-11T09:58:12.477933+00:00"
+}

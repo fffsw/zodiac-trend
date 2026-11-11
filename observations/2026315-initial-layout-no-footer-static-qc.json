@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "layout/text/scroll only, preserving current JS algorithm and user data; synthetic future row was in a deleted temporary directory; not official, predraw or WeChat validation",
+  "page_sha256": "5270c8d378d85b5f4acf770a897aec7918c2cd710ef81be53787215a9b26611b",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "checks": [
+    "previous public page frozen",
+    "prior user-review preview frozen",
+    "314 user-only history unchanged",
+    "315 hand decision unchanged",
+    "stage root and www pages identical",
+    "expected presentation-only change located",
+    "expected presentation-only change located",
+    "expected presentation-only change located",
+    "all remaining JS including 315 data and 314 decisions byte-identical to current implementation",
+    "footer is the sole script change relative to reviewed layout preview",
+    "requested movable horizontal columns retained",
+    "CSS relative to live contains only targeted moving-column rule",
+    "all 250 displayed rows match the protected 314 user history",
+    "P01: single tiger, pair snake/horse, triple snake/dragon/rabbit, ox reserve",
+    "entire unwanted footer removed without relocation",
+    "self-contained page; no automatic external assets",
+    "generator reproduces current page byte for byte",
+    "synthetic future regeneration has no footer and requires manual decision",
+    "original dirty deploy left untouched"
+  ]
+}

@@ -1,6 +1,12 @@
 # 非官方资料展示
 
-> **首页当前版本：315简洁版。**用户澄清需要恢复的是最初的版式，而不是旧数据；上一版助手误解后回退到314页面，现已纠正。首页保留用户提供的314号码并展示既定315方案，恢复早期布局。314旧页和315原页均保留，页面更新不能证明微信安全提示已消失。
+> **首页当前版本：最初版式、移除页底说明。**保留用户314号码、既定315方案和现有计算逻辑；期数与指标栏随走势图横向移动。只改变布局、文字和显示；没有编造开奖日期或截止时间。微信安全提示仍需在真实微信内核实。
+
+## 2026315最初版式与页底修正
+
+[当前页面快照](2026315-initial-layout-no-footer-page.html) · [生成器](2026315-initial-layout-no-footer-generator.py) · [改前首页](2026315-previous-current-layout-page.html) · [改前生成器](2026315-previous-current-layout-generator.py) · [页面验收](2026315-initial-layout-no-footer-browser-qc.json) · [页底检查](2026315-initial-layout-no-footer-bottom-qc.json) · [横向滑动检查](2026315-initial-layout-no-footer-scroll-qc.json) · [版本记录](2026315-initial-layout-no-footer-note.json) · [浏览器检查脚本](2026315-initial-layout-no-footer-browser-qc.js) · [页底检查脚本](2026315-initial-layout-no-footer-bottom-qc.js) · [滑动检查脚本](2026315-initial-layout-no-footer-scroll-qc.js) · [校验清单](2026315-initial-layout-no-footer.sha256) · [原目录记录](2026315-README-at-45b6255a.md)。
+
+> **上一个版本：315简洁版（已存档）。**用户澄清需要恢复的是最初的版式，而不是旧数据；上一版助手误解后回退到314页面，现已纠正。首页保留用户提供的314号码并展示既定315方案，恢复早期布局。314旧页和315原页均保留，页面更新不能证明微信安全提示已消失。
 
 本目录仅供观察，不是官方数据、投注建议或赛前预注册；号码来源、实际机制和赛前状态未认证。312、313、314号码由用户提供，313与314日期未知，期号及六＋一按上下文推定。澳门司警2024年曾警示相关博彩网站诈骗：[司警通告](https://www.gcs.gov.mo/news/detail/zh-hans/N24JR61szQ)。等可能模型只是数学假设。
 

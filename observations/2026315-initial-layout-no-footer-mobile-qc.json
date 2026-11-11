@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Chromium mobile emulation only, not real iOS Safari or a WeChat safety decision",
+  "url": "file:///home/user/archive/task267_footer_cleanup/stage/zodiac_trend.html",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "mobile viewport, iPhone-style user agent and touch emulated",
+    "mobile page fits viewport; graph has its own horizontal scrolling",
+    "no added banner on mobile",
+    "mobile current issue is 315",
+    "mobile graph horizontally scrollable",
+    "mobile graph reaches right side",
+    "touch switches to zodiac view",
+    "touch switches to 50 periods",
+    "touch switches back to number view",
+    "touch 单肖展示虎",
+    "touch 二中二蛇馬",
+    "touch 三中三蛇龍兔",
+    "synthetic local entry updates identifier",
+    "no automatic 316 picks from synthetic entry",
+    "undo synthetic entry restores 315 identifier",
+    "no synthetic record left in mobile context",
+    "no automatically loaded external scripts or assets",
+    "no unhandled mobile browser errors"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "file:///home/user/archive/task267_footer_cleanup/stage/zodiac_trend.html",
+      "type": "document"
+    }
+  ]
+}
