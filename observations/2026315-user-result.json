@@ -1,0 +1,27 @@
+{
+  "raw_user_text": "牛06 狗09 马25 龙27 狗33鸡22羊48",
+  "source": "user-provided only; no external result queried or used",
+  "issue": 2026315,
+  "issue_and_six_plus_one_are_inferred_from_conversation": true,
+  "date": null,
+  "normal_numbers": [
+    6,
+    9,
+    25,
+    27,
+    33,
+    22
+  ],
+  "normal_zodiacs": [
+    "牛",
+    "狗",
+    "馬",
+    "龍",
+    "狗",
+    "鷄"
+  ],
+  "seventh_number": 48,
+  "seventh_zodiac": "羊",
+  "normal_statistics_scope": "first six only; the seventh may be used only for historical seven-ball distinct-zodiac intersections",
+  "official_authentication": false
+}

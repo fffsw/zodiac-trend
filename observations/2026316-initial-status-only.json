@@ -1,0 +1,21 @@
+{
+  "scope": "316 target existence and latest issue identifier only; not official or predraw authentication",
+  "target_nonnull_content_bytes_consumed": 0,
+  "latest_nonstatus_values_discarded_without_assembly": true,
+  "may_be_stale_or_share_upstream": true,
+  "observations": {
+    "target": {
+      "http_status": 200,
+      "server_date_header": "Thu, 12 Nov 2026 10:28:39 GMT",
+      "target_record_is_null": true,
+      "value_content_bytes_consumed": 0,
+      "target_code": 0
+    },
+    "latest": {
+      "http_status": 200,
+      "server_date_header": "Thu, 12 Nov 2026 10:28:39 GMT",
+      "latest_issue_identifier": 2026315
+    }
+  },
+  "status": "NO_TARGET_RECORD_OBSERVED_NOT_PROOF_OF_PRE_DRAW"
+}

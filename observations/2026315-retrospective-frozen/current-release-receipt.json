@@ -1,0 +1,56 @@
+{
+  "status": "LIVE_INITIAL_STYLE_FOOTER_REMOVED_WECHAT_STATUS_UNKNOWN",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "project_entry": "https://fffsw.github.io/zodiac-trend/",
+  "commit": "f3e4905ddd9402f40ae61fe96fe3fc3ede5499d1",
+  "parent_commit": "45b6255aeb5a4d4238b912f6ba17822853b52105",
+  "github_pages_actions": {
+    "run_id": 42999740997,
+    "head_sha": "f3e4905ddd9402f40ae61fe96fe3fc3ede5499d1",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/42999740997",
+    "scope": "Pages deployment only; not a WeChat safety verdict"
+  },
+  "page_sha256": "5270c8d378d85b5f4acf770a897aec7918c2cd710ef81be53787215a9b26611b",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "source_csv_sha256": "687efa128921ef7ace365131c023592a162a8dca4c367c88949ea0c16656ffb5",
+  "manual_decisions_sha256": "184cc7a8758aee5f5ded71c0b745057092cc8bd3187871b60bca93aa3b2121ee",
+  "314_user_only_six_plus_one_inferred": [
+    13,
+    26,
+    9,
+    37,
+    34,
+    44,
+    31
+  ],
+  "315_manual_choice": {
+    "single": "虎",
+    "pair": [
+      "蛇",
+      "馬"
+    ],
+    "triple": [
+      "蛇",
+      "龍",
+      "兔"
+    ],
+    "reserve_only": [
+      "牛"
+    ]
+  },
+  "scope": "earliest recorded 石坑绝密 styling, text, synchronous horizontal movement, complete footer removal; optimized calculations and historical evidence preserved",
+  "footer_relocated": false,
+  "public_http_files_checked": 191,
+  "historical_and_new_manifests_checked": 9,
+  "public_desktop_browser_checks": 66,
+  "public_rendered_bottom_checks": 37,
+  "public_scroll_checks": 9,
+  "public_mobile_touch_checks": 18,
+  "public_entry_checks": 5,
+  "wechat_warning_resolved": null,
+  "wechat_note": "Real WeChat-client check is required; HTTP and emulated browsers are not a WeChat safety determination.",
+  "draw_status_note": "Existence checks only; no 315 result contents or additional 314 results read; not predraw authentication",
+  "original_dirty_deploy_unchanged": true
+}

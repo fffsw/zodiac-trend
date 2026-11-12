@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 outcome rows match frozen candidates and independent settlements",
+    "12 zodiac 35/40/45, disjoint age blocks, and all 49 numbers match pre-result frozen evidence",
+    "overlapping prior pressure windows reproduced without miscount",
+    "key prose outcomes, 445 counts, time/source boundaries and three reference corrections present",
+    "all evidence links resolve within workspace"
+  ],
+  "report_sha256": "2ca6d22399d8ca556511cec2caf1b972e9e280348e8c338a22431fec284d8da2"
+}

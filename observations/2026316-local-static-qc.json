@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "static isolated stage, synthetic future row only; no 316 outcome and no predraw or official certification",
+  "page_sha256": "d90915414341142815830ca6fb152c4f39d9042c99da0bb3d344b791293ccde6",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "checks": [
+    "315 live base remains frozen before publication",
+    "two generated pages identical",
+    "optimized generator and current layout byte-for-byte unchanged",
+    "user 315 staged only; original history not yet modified",
+    "all 1045 prior input rows preserved byte-for-byte",
+    "all 250 rows reproduce staged CSV, including exact user 315 with unknown date",
+    "249 overlapping rows and all 49 zodiac mappings unchanged",
+    "313/314 user input with unknown dates and corrected 312 preserved",
+    "exact Q01 single/pair/triple/reserve and every prior page decision preserved",
+    "prior manual records preserved; stage is isolated",
+    "except data payload, one manual record and range, whole HTML CSS JS are byte-identical to live",
+    "requested footer and conspicuous labels not restored or relocated",
+    "no new external assets, scripts or automatic requests",
+    "working relative entry preserved",
+    "original 68-entry dirty deploy status unchanged",
+    "24 frozen 315 evidence hashes still match",
+    "local independent_qc.json passes",
+    "local report_qc_v2.json passes",
+    "local manual_stage_receipt.json passes",
+    "same generator reproduces 316 stage byte-for-byte",
+    "synthetic future stage has no 317 manual decision and no restored footer"
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "strategy": "site_manual_universe_and_slots_no_shake_v5.0",
+  "decisions": {
+    "2026309": {
+      "target": 2026309,
+      "universe_zodiac": [
+        "蛇",
+        "馬",
+        "虎",
+        "兔",
+        "龍",
+        "羊"
+      ],
+      "top_zodiac": "馬",
+      "a_zodiac": "蛇",
+      "b_zodiac": "兔",
+      "c_zodiac": "虎",
+      "d_zodiac": "羊",
+      "top_overlap_mode": "coverage",
+      "analysis_extension": "v5.0-S1",
+      "source_report": "309期开奖结构审查与人工重选_20261105.md",
+      "universe_rationale": "根据用户新增开奖结构要求重新人工逐肖选择：保留蛇馬虎兔与龍，羊换豬。全集0/1/2由4/9/12变8/9/8，展示由0/9/12变4/9/8；豬W35/40/45出现期比羊多3/3/4，是自愿接受的近期账本代价，不表示羊的真实概率更高。上期身份自然为馬兔两肖，不设配额。",
+      "slot_rationale": {
+        "top": "馬W10为9球8期，五个号码的单栏均匀基线49.5198%；单独承担顶栏而非最高置信，删除最近10期块后偏弱的风险已披露。",
+        "A": "蛇W20为14球11期，近三个不重叠年龄块6/5、8/6、8/7；保留共同A，但蛇不开时两条组合栏同时断。",
+        "B": "兔W35/40/45为22/18、26/21、28/23，近端表现但含308单期三球；与蛇均为偶数，二中二要求至少两个偶数。",
+        "C": "虎W35/40/45为23/19、27/23、30/26，跨块账本较广而近20回到基线，放三中三而不称预测增强。",
+        "D": "羊W10为5/4，W35/40/45为15/13、18/16、21/18；展示4个0路偶数，换掉豬四个2路号。豬在三个主窗的出现期均较羊高，龍在W35/W40均多羊2期，均为有意接受的反方代价。"
+      },
+      "reserve_rationale": "龍为0路奇数，W35/W40出现期为15/18，各多羊2期，仍留六肖作唯一非展示替补；其四码开出但三栏落空须单列复盘。"
+    },
+    "2026310": {
+      "target": 2026310,
+      "decided_at": "2026-11-06T04:50:32+08:00",
+      "universe_zodiac": [
+        "蛇",
+        "馬",
+        "虎",
+        "兔",
+        "龍",
+        "鷄"
+      ],
+      "top_zodiac": "馬",
+      "a_zodiac": "蛇",
+      "b_zodiac": "龍",
+      "c_zodiac": "虎",
+      "d_zodiac": "兔",
+      "top_overlap_mode": "coverage",
+      "analysis_extension": "v5.0-S1",
+      "source_report": "310期网站人工选肖与开奖结构审查_20261106.md",
+      "universe_rationale": "逐肖人工裁决：蛇、馬、虎、兔、龍展示，鷄仅为替补；35/40/45并列，检查近端及不重叠年龄块。全年部分平码背景和逐号码路线仅描述。全集012为4/13/8而展示为4/9/8，0路暴露和羊、牛、豬替补反证均明确；选择仅为摘要取舍，不证明优势。上期七球身份5肖不设配额，13馬仅身份标签。",
+      "slot_rationale": {
+        "top": "馬有五码；W10 9球8期，其中13和49共7球，近端集中；单栏49.5198%是均匀基线而非最高置信，不因上期单肖落空惩罚。",
+        "A": "蛇W10 7/6、W20 15/12，近三个非重叠年龄块为7/6、8/6、8/7；兔W40/45略多，蛇共同A不开时两组合栏同时失败。",
+        "B": "龍W10 5/5、W20 10/10，唯一展示0路四码；309的39开出不单独构成升入展示的理由，0路其他号码仍漏。",
+        "C": "虎W35/40/45为22/18、26/22、30/26，W10降为4/3，较强旧块与近期回落同时保留；放C不称预测提升。",
+        "D": "兔W10 8球5期、W20 14/10；308三球仅一期，W35的28与40占16/22；鷄四路线更均匀但此次为替补。"
+      },
+      "reserve_rationale": "鷄W35/40/45为18/15、20/17、23/20，W20 12/9，近10含309两球同一期；仅入全集，不进入任何栏位。羊/牛改作替补使全集0路增加但展示不变；豬W40/45出现期略多鷄，均为反方机会成本。"
+    },
+    "2026311": {
+      "target": 2026311,
+      "decided_at": "2026-11-07T20:09:13+08:00",
+      "universe_zodiac": [
+        "蛇",
+        "馬",
+        "兔",
+        "豬",
+        "龍",
+        "鷄"
+      ],
+      "top_zodiac": "馬",
+      "a_zodiac": "兔",
+      "b_zodiac": "蛇",
+      "c_zodiac": "豬",
+      "d_zodiac": "龍",
+      "top_overlap_mode": "coverage",
+      "analysis_extension": "v5.0-S1",
+      "source_report": "311期网站人工选肖与开奖结构审查_20261107.md",
+      "universe_rationale": "人工逐肖比较W35/40/45及近端、不重叠年龄块、逐号路线；蛇馬兔豬龍展示，鷄仅替补。展示012为4/9/8，但0路只有龍、2路全偶，错过虎猴奇数2路和牛羊狗0路；这些是明确机会成本，不是预测优势。上期身份五肖是选择结果而非配额。",
+      "slot_rationale": {
+        "top": "馬W10 9球8期、W20 15/13、主窗23/19、26/22、28/24；五码组均匀基线49.5198%仅为覆盖口径，不是最高置信。309和310单肖也是馬，此次仍逐期比较初拟单蛇/二中二兔馬，不能固定馬。",
+        "A": "兔W10 9/6、W20 15/11、主窗22/18、26/22、29/24；近10的28和40共7球，主窗也集中。蛇近端出现期更高，兔空会使两条组合同时失败。",
+        "B": "蛇W10 8/7、W20 15/12，三个主窗为23/19、25/21、27/23；兔蛇为1路偶+2路偶。B蛇↔D龍的完整合法对照已审查，龙空时二中二和三中三影响会转移。",
+        "C": "豬W10 5/5、W20 7/7、主窗17/16、20/19、22/21；虎W35/40/45分别22/18、25/21、29/25更强，猴与豬W20均7期，均是落选反方。豬+蛇使展示2路全偶，承担当期奇数2路遗漏。",
+        "D": "龍W10 5/5、W20 9/9、主窗15/15、18/18、19/19；是展示唯一0路组，牛羊狗均为机会成本。无0路与有0路但龍空是不同事件，龙空只必断三中三。"
+      },
+      "reserve_rationale": "鷄W10 5/4、W20 13/10、主窗19/16、20/17、23/20；与A兔和C豬进入展示分别完成具体合法比较。310鸡34留替补造成的损失不掩盖，但不因一期机械升入；鷄出现仍不算栏目命中。"
+    },
+    "2026312": {
+      "target": 2026312,
+      "revision": "rev1",
+      "decided_at_cst": "2026-11-08T05:51:08+08:00",
+      "source_report": "312期千期四重肖与重选审查_20261108.md",
+      "universe_zodiac": [
+        "蛇",
+        "兔",
+        "虎",
+        "龍",
+        "馬",
+        "鷄"
+      ],
+      "top_zodiac": "蛇",
+      "a_zodiac": "兔",
+      "b_zodiac": "馬",
+      "c_zodiac": "虎",
+      "d_zodiac": "龍",
+      "top_overlap_mode": "coverage",
+      "manual_review": "核对版千期4重两连及截尾、十二肖35/40/45期、近端年龄块和23个完整结构候选；以人工作取舍，非摇号、评分或回测",
+      "revision_reason": "明确更正7期历史，312七球口径4重两连后重审；豬替补改鷄，馬与龍交换二／三栏位置。原盘及全部旧预注册保留。",
+      "original_prereg_self_md5": "389d672404eb839eb7a4e4f1b62c3bc9",
+      "reconciled_data_md5": "f91c57bb50f3c4c36965274eb5f66b11",
+      "primary_repeat_identity_definition": "current six normal zodiacs intersect previous seven ball zodiacs, dedup each",
+      "previous_special_scope": "previous special is identity label only; never generate special picks or count current special"
+    },
+    "2026313": {
+      "target": 2026313,
+      "scope": "user_authorized_nonofficial_observation_not_predraw_preregistration",
+      "strategy": "site_manual_universe_and_slots_no_shake_v5.0",
+      "analysis_extension": "v5.0-S1-reanalysis-D2",
+      "release_scope_version": "nonofficial_display_D2_reanalysis",
+      "replaces_release_scope_version": "nonofficial_display_D1",
+      "prior_decision_snapshot": "observations/2026313-manual-display-decisions.json",
+      "source_report": "observations/2026313-reanalysis-v2-analysis.md",
+      "universe_zodiac": [
+        "鼠",
+        "兔",
+        "龍",
+        "虎",
+        "豬",
+        "馬"
+      ],
+      "top_zodiac": "鼠",
+      "a_zodiac": "兔",
+      "b_zodiac": "龍",
+      "c_zodiac": "虎",
+      "d_zodiac": "豬",
+      "top_overlap_mode": "coverage",
+      "manual_review": "用户授权非官方重新分析：35/40/45并列，不作独立投票；逐肖逐号、不重叠年龄块、结构、24套完整人工候选及308/310/311/312复盘。人工选择C01，不评分、不摇号、不用目标期结果或回测排名；不认证赛前或开奖机制。",
+      "universe_rationale": "由旧马兔龙虎蛇猪改鼠兔龙虎猪马：鼠进单栏、猪进三栏、马降替补、蛇出全集；并非仅换替补。展示20码012=4/8/8、奇偶=12/8、红蓝绿=5/6/9；这些只是覆盖描述。蛇、鸡及牛羊狗猴等全集外，可正常开出；任何选择都不证明下一期优势。",
+      "slot_rationale": {
+        "top": "鼠07/19/31/43均为奇数1路；选择把此前全集外的一组实际纳入展示，与马同路线同奇偶但号码不同。312两鼠不是续开信号；W35中的43集中、07少亦不代表追补。马五码单栏在理想均匀模型的覆盖更高，放弃该结构优势是明确代价，不称鼠更可能。",
+        "A": "兔04/16/28/40为偶数1路，二、三栏共享；W35的28与40占17/24球，近10的12球只来自8期。只为减少一次变动过多而继续采用此共同位，不称兔优于鸡；兔缺则两栏同时不完整。",
+        "B": "龙03/15/27/39为奇数0路，是唯一展示0路；二栏需要龙具体出现，并非有任何0路即满足。无0路或仅牛羊狗0路均使龙缺；只为保留本次二栏结构，不因312开15就认为龙将持续。",
+        "C": "虎05/17/29/41为奇数2路；W35有19球其中29占9球，近10仅1球1期，不能把旧块当未来优势、也不能说冷必补；和猴同为奇数2路但号码不同，本次选虎保留0头05、放弃猴3头35。",
+        "D": "猪08/20/32/44为偶数2路；与旧蛇同奇偶同路线，三栏依然必须同时出现虎与猪两种生肖，而非仅两球2路。猪比蛇在展示中增4头、少1头，替换6尾为0尾；这些形状无预测证明。蛇W20 14球12期对猪8球8期是明确反方，不以猪近期多或上期32断言优势。"
+      },
+      "reserve_rationale": "马01/13/25/37/49仅为六码全集的非展示替补，不计任一栏位；相较蛇/鸡替补，马可在全集另含5个奇数1路号码，但不使单肖、二栏或三栏更可能命中。没有固定马席位，下一期仍需独立人工审查。",
+      "previous_seventh_ball_scope": "previous seven-ball zodiac identity intersection only; not special-number picks or site settlement",
+      "selection_is_not_official_or_time_authenticated": true,
+      "human_comparison_id": "C01_mouse_single_pig_in"
+    },
+    "2026314": {
+      "target": 2026314,
+      "scope": "user_authorized_nonofficial_observation_not_predraw_preregistration",
+      "strategy": "site_manual_universe_and_slots_no_shake_v5.0",
+      "analysis_extension": "v5.0-S1-review313-314-D1",
+      "release_scope_version": "nonofficial_display_314_D1",
+      "source_report": "observations/2026314-analysis.md",
+      "universe_zodiac": [
+        "牛",
+        "虎",
+        "馬",
+        "狗",
+        "鷄",
+        "豬"
+      ],
+      "top_zodiac": "牛",
+      "a_zodiac": "虎",
+      "b_zodiac": "馬",
+      "c_zodiac": "狗",
+      "d_zodiac": "鷄",
+      "top_overlap_mode": "coverage",
+      "manual_review": "313用户唯一号码复盘后，35/40/45并列且非独立投票；逐肖逐号、互不重叠年龄块、31套手工设计（30种实际栏目），逐栏结构与反方；人工选E01，不用总分、随机、目标结果或历史命中排名。",
+      "universe_rationale": "牛虎馬狗鷄展示，豬仅替补；全集在0/1/2三路各有奇偶不同的两肖，但展示没有偶2路。牛与狗为两个不同的0路肖，各需独立球；龙、鼠、兔、蛇及猴羊均可能出现在全集外。",
+      "slot_rationale": {
+        "top": "单栏，4码偶0路：与展示中的狗构成奇偶不同的两个0路肖；牛含06这个0头，另有30、42。仅覆盖设计，不是说牛欠开；空牛单栏断。",
+        "A": "两组共同A，4码奇2路。三栏可成0/1/2各一且只需要一个2路；对照猴同为奇2路。虎近10仅1期是反方而非补涨理由；虎空则二、三栏均断。",
+        "B": "二栏B，奇1路5码，覆盖01/13/25/37/49；与虎不同行路同为奇数，二栏至少两奇。与鼠比较，五码只在等可能模型下增大这一腿组合覆盖，不是实际概率证明；马不是固定选。",
+        "C": "三栏C，奇0路；和牛同为0路但不是同一肖，允许分别各出一个；09/21/33/45中45为红。狗上期两球不被当续开依据；龙与狗同出时此方案仍丢龙。",
+        "D": "三栏D，偶1路；三栏虎/狗/鸡分别为奇2/奇0/偶1，单栏牛与二栏A虎不同路。鸡34提供3头，代价是兔04、16、28、40均不覆盖；鸡空三栏断。"
+      },
+      "reserve_rationale": "唯一替补，偶2路；仅扩大六肖全集覆盖，不属于任何单、二、三栏，不能计为栏目命中。蛇是同路同偶完整替代；猪上期出现不代表续开。",
+      "previous_seventh_ball_scope": "previous seven-ball zodiac identity intersection only; not special-number picks or site settlement",
+      "selection_is_not_official_or_time_authenticated": true,
+      "human_comparison_id": "E01_cow_tiger_horse_dog_chicken_pig",
+      "input_313_provenance": "user only, six-plus-one and period inferred, date unknown; not official or externally authenticated",
+      "joint_warning": "A虎空会使两组合栏同时断；三栏各1路，二栏需2奇；全三栏须5肖、0/1/2至少2/2/1且至少3奇2偶；此选择不证明预测优势。"
+    },
+    "2026315": {
+      "target": 2026315,
+      "scope": "user_authorized_nonofficial_observation_not_predraw_preregistration",
+      "strategy": "site_manual_universe_and_slots_no_shake_v5.0",
+      "analysis_extension": "v5.0-S1-review314-315-D1",
+      "release_scope_version": "nonofficial_display_315_D1",
+      "source_report": "observations/2026315-analysis.md",
+      "universe_zodiac": [
+        "虎",
+        "蛇",
+        "馬",
+        "龍",
+        "兔",
+        "牛"
+      ],
+      "top_zodiac": "虎",
+      "a_zodiac": "蛇",
+      "b_zodiac": "馬",
+      "c_zodiac": "龍",
+      "d_zodiac": "兔",
+      "top_overlap_mode": "coverage",
+      "manual_review": "314用户唯一号码复盘后，35/40/45并列且非独立投票；逐肖逐号、不重叠年龄块，38套手写设计、37种栏目和16个单位重叠案；固定P01，再独立枚举验算。不摇号、不打分、不用315结果或历史命中排名。",
+      "universe_rationale": "虎蛇馬龍兔为展示，牛为唯一替补；五展示生肖21码、含替补25码，展示0/1/2为4/9/8，奇偶13/8；蛇空二三同断，猪、狗、鸡等均可能开在全集外。",
+      "slot_rationale": {
+        "top": "单栏、奇2路；与蛇A不同肖，蛇空时单虎仍有可能完整。虎与猴同为奇2，本次接受猴11/23/35/47整组落选以保留虎05/17/29/41；虎近10少、314空均不是必补理由。",
+        "A": "二、三栏共同A、偶2路；与猪同路线同奇偶、各4码，蛇02/14/26/38与猪08/20/32/44的头尾和颜色不同，选择只是主观覆盖取舍，没有验证蛇优于猪。蛇缺则两组合栏同断；不因314的26或旧E10一次事后完成判断续开。",
+        "B": "二栏B、奇1路，与蛇不同路线及奇偶；5码相较4码鼠在等可能模型的该栏覆盖较大，但不认证实际概率。314有13/37两马既不构成续开也不构成停开；马非固定席位。",
+        "C": "三栏C、奇0路，龙03/15/27/39替代狗09/21/33/45；这保留一个展示0路生肖但不是任何0路均可替龙。无0路、或仅牛羊狗0路时三栏均断。",
+        "D": "三栏D、偶1路，与蛇偶2、龙奇0组成各一路；兔04/16/28/40替代鸡10/22/34/46是具体号码与头尾覆盖取舍，不能因314鸡34出现就判鸡停。兔空则三栏断。"
+      },
+      "reserve_rationale": "唯一替补、偶0路，只扩大六肖全集而不属于任何栏位；不能因为它在314单栏落空就认为停开。与替补狗的完整对照不改变任何栏目，不能冒充获救。",
+      "previous_seventh_ball_scope": "previous seven-ball zodiac identity intersection only; not special-number picks or site settlement",
+      "selection_is_not_official_or_time_authenticated": true,
+      "human_comparison_id": "P01_tiger_snake_horse_dragon_rabbit_ox",
+      "input_314_provenance": "user only, six-plus-one and period inferred, date unknown; no third-party 314 results used or queried, not official or externally authenticated",
+      "joint_warning": "蛇空二三同断；三栏需蛇龍兔三路各一且两偶；三栏全完须五肖、0/1/2至少1/2/2、至少3奇2偶；风险转移而非预测增强。"
+    }
+  }
+}
