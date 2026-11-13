@@ -1,0 +1,31 @@
+{
+  "status": "STAGED_USER_316_ONLY_NOT_OFFICIALLY_AUTHENTICATED",
+  "period_and_six_plus_one_inferred": true,
+  "period": 2026316,
+  "normal_numbers": [
+    14,
+    4,
+    10,
+    46,
+    45,
+    49
+  ],
+  "normal_zodiacs": [
+    "蛇",
+    "兔",
+    "鷄",
+    "鷄",
+    "狗",
+    "馬"
+  ],
+  "seventh_number": 3,
+  "seventh_zodiac": "龍",
+  "date": null,
+  "date_policy": "313, 314, 315 and 316 dates unknown",
+  "prior_sha256": "d84c05b808a03c2c84b6a8191fb28e292da090df8a8708b2150f899dd3eea314",
+  "staged_sha256": "c512317d3da1c9cb80af3d335e884733d7783444e0d454cfe75cb572b7178e88",
+  "prior_rows_byte_identical": 1046,
+  "record_count": 1047,
+  "main_history_and_public_site_changed_at_staging": false,
+  "317_draw_result_read": false
+}

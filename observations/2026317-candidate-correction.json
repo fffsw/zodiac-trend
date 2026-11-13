@@ -1,0 +1,25 @@
+{
+  "status": "CORRECTED_BEFORE_PUBLICATION_INITIAL_PRESERVED",
+  "finding": "R16 三栏兔馬虎为偶1、奇1、奇2，0/1/2路为0/2/1；原手写说明错误地写成各路一肖。角色与机器计算的最低路线均正确，仅比较文字错误。",
+  "why_not_detected": "Earlier checks validated structures and text identity, not the meaning of all unstructured descriptions; add explicit semantic assertion and report-QC gate.",
+  "saved_initial_sha256": {
+    "handcrafted_candidates_initial.json": "acaae34edfa70addbe21d89a6d39db735ba0cba803c737f8911aceacde58c8b7",
+    "candidate_audit_initial.json": "b370e88478e6e93e3bd28bbc4313597d2022ab8b0cce7840c5146fc6e9291258",
+    "candidate_audit_initial.csv": "af93894eae5e501c245569fde9f66a39a24d77ce043f443a551d1d9e716618f3",
+    "independent_qc_initial.json": "aaa1d29e783e6c143d485fcd8faa538425f5d13fa530884fcfe52884ff88a68f",
+    "317_report_initial_before_R16_correction.md": "0e50ca3cf5589c96d9baf2d177c43b2a84b73260cdcfe602672deb42b20c8a47"
+  },
+  "selected_R01_changed": false,
+  "outcome_or_target_result_read": false,
+  "published": false,
+  "revised_sha256": {
+    "handcrafted_candidates.json": "fddd75fb3bec2d674203acde1066e27fee8cf6416552d8fa2628892887432411",
+    "candidate_audit.json": "db5d67c0901ca44fc88cbe94f4ef0b980cd063d99fd68c09285dc81ada49dfe0",
+    "independent_qc.json": "3ec3f9ab163ed052f44f46e98bc45fe8cc5da9e39e6cf4a4da3d6404576edfa6",
+    "report_qc.json": "bd8da7e90a0b5f5e52afc8c1dcab5723ef378ea07b41f437d46a804811afa42f"
+  },
+  "revised_report_sha256": "a9edda59905da82a9170de44007071639060105c0982482a93cc49b6961f2382",
+  "revised_independent_qc_status": "PASS",
+  "revised_report_qc_status": "PASS",
+  "correction_scope": "R16 comparison prose only; all 38 roles/reserves and selected R01 unchanged; semantic route-claim assertions added"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 outcome rows match frozen candidate roles and independent settlements",
+    "12 zodiac windows and disjoint age blocks plus all 49 numbers match pre-result frozen evidence",
+    "all 35/40/45 prior structural-pressure counts match, windows overlap",
+    "six actual balls prior-age, road, parity, wave, head-tail and prior windows match",
+    "all historical progress rows match prior archived evidence",
+    "named comparisons resolve, Q17 all-column minima and identical-model claims verified; original 316 report matches previous full-table QC",
+    "key conclusions, counterfactual counts, historical boundaries and ideal-model prose verified",
+    "all nine workspace evidence links resolve"
+  ],
+  "report_sha256": "05adb259bf84caabc9d27e076359bd644c202930b359fbd8d682702889dd9f20"
+}

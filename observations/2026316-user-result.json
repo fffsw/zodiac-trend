@@ -1,0 +1,27 @@
+{
+  "raw_user_text": "蛇14 兔04 鸡10 46鸡 45狗49马 03龙",
+  "source": "user-provided only; no external 316 result queried or used",
+  "issue": 2026316,
+  "issue_and_six_plus_one_are_inferred_from_conversation": true,
+  "date": null,
+  "normal_numbers": [
+    14,
+    4,
+    10,
+    46,
+    45,
+    49
+  ],
+  "normal_zodiacs": [
+    "蛇",
+    "兔",
+    "鷄",
+    "鷄",
+    "狗",
+    "馬"
+  ],
+  "seventh_number": 3,
+  "seventh_zodiac": "龍",
+  "normal_statistics_scope": "first six only; the seventh may be used only for historical seven-ball distinct-zodiac intersections and separately displayed as an existing record, never normal columns or special-number picks",
+  "official_authentication": false
+}

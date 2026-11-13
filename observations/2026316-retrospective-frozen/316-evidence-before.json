@@ -1,0 +1,3193 @@
+{
+  "status": "DESCRIPTIVE_INPUT_ONLY_NOT_A_FORECAST",
+  "scope": "sole new 315 user numbers; first six statistics; seventh only adjacent zodiac identity; no target result",
+  "history_sha256": "d84c05b808a03c2c84b6a8191fb28e292da090df8a8708b2150f899dd3eea314",
+  "history_rows": 1046,
+  "latest_period": 2026315,
+  "latest_date": null,
+  "primary_windows": [
+    35,
+    40,
+    45
+  ],
+  "windows_overlap_not_independent_votes": true,
+  "blocks": [
+    [
+      0,
+      9
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      20,
+      34
+    ],
+    [
+      35,
+      39
+    ],
+    [
+      40,
+      44
+    ]
+  ],
+  "per_zodiac": {
+    "鼠": {
+      "numbers": [
+        7,
+        19,
+        31,
+        43
+      ],
+      "windows": {
+        "10": {
+          "balls": 4,
+          "periods": 3
+        },
+        "20": {
+          "balls": 12,
+          "periods": 9
+        },
+        "35": {
+          "balls": 18,
+          "periods": 15
+        },
+        "40": {
+          "balls": 19,
+          "periods": 16
+        },
+        "45": {
+          "balls": 22,
+          "periods": 19
+        },
+        "60": {
+          "balls": 31,
+          "periods": 27
+        },
+        "100": {
+          "balls": 51,
+          "periods": 42
+        },
+        "250": {
+          "balls": 126,
+          "periods": 103
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 4,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 8,
+          "periods": 6
+        },
+        "20-34": {
+          "balls": 6,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 2,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    },
+    "牛": {
+      "numbers": [
+        6,
+        18,
+        30,
+        42
+      ],
+      "windows": {
+        "10": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35": {
+          "balls": 11,
+          "periods": 10
+        },
+        "40": {
+          "balls": 13,
+          "periods": 12
+        },
+        "45": {
+          "balls": 17,
+          "periods": 15
+        },
+        "60": {
+          "balls": 24,
+          "periods": 21
+        },
+        "100": {
+          "balls": 43,
+          "periods": 38
+        },
+        "250": {
+          "balls": 111,
+          "periods": 99
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 3,
+          "periods": 3
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 4,
+          "periods": 4
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 4,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six_identity": true,
+      "previous_seven_identity": true
+    },
+    "虎": {
+      "numbers": [
+        5,
+        17,
+        29,
+        41
+      ],
+      "windows": {
+        "10": {
+          "balls": 0,
+          "periods": 0
+        },
+        "20": {
+          "balls": 5,
+          "periods": 4
+        },
+        "35": {
+          "balls": 15,
+          "periods": 13
+        },
+        "40": {
+          "balls": 21,
+          "periods": 18
+        },
+        "45": {
+          "balls": 24,
+          "periods": 21
+        },
+        "60": {
+          "balls": 31,
+          "periods": 28
+        },
+        "100": {
+          "balls": 58,
+          "periods": 50
+        },
+        "250": {
+          "balls": 134,
+          "periods": 113
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 0,
+          "periods": 0
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 10,
+          "periods": 9
+        },
+        "35-39": {
+          "balls": 6,
+          "periods": 5
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 10,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    },
+    "兔": {
+      "numbers": [
+        4,
+        16,
+        28,
+        40
+      ],
+      "windows": {
+        "10": {
+          "balls": 9,
+          "periods": 6
+        },
+        "20": {
+          "balls": 15,
+          "periods": 11
+        },
+        "35": {
+          "balls": 22,
+          "periods": 17
+        },
+        "40": {
+          "balls": 25,
+          "periods": 20
+        },
+        "45": {
+          "balls": 29,
+          "periods": 24
+        },
+        "60": {
+          "balls": 35,
+          "periods": 29
+        },
+        "100": {
+          "balls": 48,
+          "periods": 42
+        },
+        "250": {
+          "balls": 116,
+          "periods": 100
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 9,
+          "periods": 6
+        },
+        "10-19": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 4,
+          "periods": 4
+        }
+      },
+      "last_normal_age": 3,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    },
+    "龍": {
+      "numbers": [
+        3,
+        15,
+        27,
+        39
+      ],
+      "windows": {
+        "10": {
+          "balls": 7,
+          "periods": 6
+        },
+        "20": {
+          "balls": 11,
+          "periods": 10
+        },
+        "35": {
+          "balls": 18,
+          "periods": 17
+        },
+        "40": {
+          "balls": 19,
+          "periods": 18
+        },
+        "45": {
+          "balls": 22,
+          "periods": 21
+        },
+        "60": {
+          "balls": 29,
+          "periods": 26
+        },
+        "100": {
+          "balls": 44,
+          "periods": 39
+        },
+        "250": {
+          "balls": 113,
+          "periods": 98
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 7,
+          "periods": 6
+        },
+        "10-19": {
+          "balls": 4,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six_identity": true,
+      "previous_seven_identity": true
+    },
+    "蛇": {
+      "numbers": [
+        2,
+        14,
+        26,
+        38
+      ],
+      "windows": {
+        "10": {
+          "balls": 6,
+          "periods": 6
+        },
+        "20": {
+          "balls": 13,
+          "periods": 11
+        },
+        "35": {
+          "balls": 21,
+          "periods": 18
+        },
+        "40": {
+          "balls": 26,
+          "periods": 22
+        },
+        "45": {
+          "balls": 28,
+          "periods": 24
+        },
+        "60": {
+          "balls": 34,
+          "periods": 30
+        },
+        "100": {
+          "balls": 61,
+          "periods": 48
+        },
+        "250": {
+          "balls": 135,
+          "periods": 112
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 6,
+          "periods": 6
+        },
+        "10-19": {
+          "balls": 7,
+          "periods": 5
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 5,
+          "periods": 4
+        },
+        "40-44": {
+          "balls": 2,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 1,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    },
+    "馬": {
+      "numbers": [
+        1,
+        13,
+        25,
+        37,
+        49
+      ],
+      "windows": {
+        "10": {
+          "balls": 9,
+          "periods": 7
+        },
+        "20": {
+          "balls": 16,
+          "periods": 14
+        },
+        "35": {
+          "balls": 24,
+          "periods": 19
+        },
+        "40": {
+          "balls": 27,
+          "periods": 22
+        },
+        "45": {
+          "balls": 30,
+          "periods": 25
+        },
+        "60": {
+          "balls": 37,
+          "periods": 32
+        },
+        "100": {
+          "balls": 63,
+          "periods": 55
+        },
+        "250": {
+          "balls": 157,
+          "periods": 130
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 9,
+          "periods": 7
+        },
+        "10-19": {
+          "balls": 7,
+          "periods": 7
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six_identity": true,
+      "previous_seven_identity": true
+    },
+    "羊": {
+      "numbers": [
+        12,
+        24,
+        36,
+        48
+      ],
+      "windows": {
+        "10": {
+          "balls": 1,
+          "periods": 1
+        },
+        "20": {
+          "balls": 6,
+          "periods": 5
+        },
+        "35": {
+          "balls": 11,
+          "periods": 10
+        },
+        "40": {
+          "balls": 13,
+          "periods": 12
+        },
+        "45": {
+          "balls": 16,
+          "periods": 14
+        },
+        "60": {
+          "balls": 25,
+          "periods": 22
+        },
+        "100": {
+          "balls": 39,
+          "periods": 34
+        },
+        "250": {
+          "balls": 119,
+          "periods": 101
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 1,
+          "periods": 1
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 5,
+          "periods": 5
+        },
+        "35-39": {
+          "balls": 2,
+          "periods": 2
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 2
+        }
+      },
+      "last_normal_age": 8,
+      "previous_six_identity": false,
+      "previous_seven_identity": true
+    },
+    "猴": {
+      "numbers": [
+        11,
+        23,
+        35,
+        47
+      ],
+      "windows": {
+        "10": {
+          "balls": 1,
+          "periods": 1
+        },
+        "20": {
+          "balls": 6,
+          "periods": 5
+        },
+        "35": {
+          "balls": 13,
+          "periods": 11
+        },
+        "40": {
+          "balls": 16,
+          "periods": 14
+        },
+        "45": {
+          "balls": 17,
+          "periods": 15
+        },
+        "60": {
+          "balls": 24,
+          "periods": 21
+        },
+        "100": {
+          "balls": 48,
+          "periods": 41
+        },
+        "250": {
+          "balls": 109,
+          "periods": 96
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 1,
+          "periods": 1
+        },
+        "10-19": {
+          "balls": 5,
+          "periods": 4
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 6
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "last_normal_age": 5,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    },
+    "鷄": {
+      "numbers": [
+        10,
+        22,
+        34,
+        46
+      ],
+      "windows": {
+        "10": {
+          "balls": 6,
+          "periods": 5
+        },
+        "20": {
+          "balls": 9,
+          "periods": 8
+        },
+        "35": {
+          "balls": 22,
+          "periods": 19
+        },
+        "40": {
+          "balls": 22,
+          "periods": 19
+        },
+        "45": {
+          "balls": 23,
+          "periods": 20
+        },
+        "60": {
+          "balls": 32,
+          "periods": 28
+        },
+        "100": {
+          "balls": 57,
+          "periods": 48
+        },
+        "250": {
+          "balls": 144,
+          "periods": 116
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 6,
+          "periods": 5
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 13,
+          "periods": 11
+        },
+        "35-39": {
+          "balls": 0,
+          "periods": 0
+        },
+        "40-44": {
+          "balls": 1,
+          "periods": 1
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six_identity": true,
+      "previous_seven_identity": true
+    },
+    "狗": {
+      "numbers": [
+        9,
+        21,
+        33,
+        45
+      ],
+      "windows": {
+        "10": {
+          "balls": 7,
+          "periods": 5
+        },
+        "20": {
+          "balls": 10,
+          "periods": 7
+        },
+        "35": {
+          "balls": 17,
+          "periods": 14
+        },
+        "40": {
+          "balls": 18,
+          "periods": 15
+        },
+        "45": {
+          "balls": 18,
+          "periods": 15
+        },
+        "60": {
+          "balls": 26,
+          "periods": 23
+        },
+        "100": {
+          "balls": 42,
+          "periods": 36
+        },
+        "250": {
+          "balls": 108,
+          "periods": 93
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 7,
+          "periods": 5
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 2
+        },
+        "20-34": {
+          "balls": 7,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 1,
+          "periods": 1
+        },
+        "40-44": {
+          "balls": 0,
+          "periods": 0
+        }
+      },
+      "last_normal_age": 0,
+      "previous_six_identity": true,
+      "previous_seven_identity": true
+    },
+    "豬": {
+      "numbers": [
+        8,
+        20,
+        32,
+        44
+      ],
+      "windows": {
+        "10": {
+          "balls": 7,
+          "periods": 7
+        },
+        "20": {
+          "balls": 10,
+          "periods": 10
+        },
+        "35": {
+          "balls": 18,
+          "periods": 17
+        },
+        "40": {
+          "balls": 21,
+          "periods": 20
+        },
+        "45": {
+          "balls": 24,
+          "periods": 23
+        },
+        "60": {
+          "balls": 32,
+          "periods": 30
+        },
+        "100": {
+          "balls": 46,
+          "periods": 43
+        },
+        "250": {
+          "balls": 128,
+          "periods": 110
+        }
+      },
+      "disjoint_age_blocks": {
+        "0-9": {
+          "balls": 7,
+          "periods": 7
+        },
+        "10-19": {
+          "balls": 3,
+          "periods": 3
+        },
+        "20-34": {
+          "balls": 8,
+          "periods": 7
+        },
+        "35-39": {
+          "balls": 3,
+          "periods": 3
+        },
+        "40-44": {
+          "balls": 3,
+          "periods": 3
+        }
+      },
+      "last_normal_age": 1,
+      "previous_six_identity": false,
+      "previous_seven_identity": false
+    }
+  },
+  "per_number": {
+    "1": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 0,
+      "tail": 1,
+      "last_normal_age": 15,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 3,
+        "40": 5,
+        "45": 5,
+        "60": 5,
+        "100": 8,
+        "250": 34
+      }
+    },
+    "2": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 0,
+      "tail": 2,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 6,
+        "40": 7,
+        "45": 8,
+        "60": 9,
+        "100": 12,
+        "250": 27
+      }
+    },
+    "3": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 0,
+      "tail": 3,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 5,
+        "40": 6,
+        "45": 7,
+        "60": 10,
+        "100": 12,
+        "250": 30
+      }
+    },
+    "4": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 0,
+      "tail": 4,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 4,
+        "45": 6,
+        "60": 6,
+        "100": 12,
+        "250": 27
+      }
+    },
+    "5": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 0,
+      "tail": 5,
+      "last_normal_age": 16,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 2,
+        "40": 3,
+        "45": 5,
+        "60": 8,
+        "100": 10,
+        "250": 29
+      }
+    },
+    "6": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 0,
+      "tail": 6,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 6,
+        "45": 8,
+        "60": 12,
+        "100": 19,
+        "250": 32
+      }
+    },
+    "7": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 0,
+      "tail": 7,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 2,
+        "40": 2,
+        "45": 2,
+        "60": 4,
+        "100": 12,
+        "250": 32
+      }
+    },
+    "8": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 0,
+      "tail": 8,
+      "last_normal_age": 7,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 12,
+        "250": 33
+      }
+    },
+    "9": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 0,
+      "tail": 9,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 4,
+        "20": 5,
+        "35": 7,
+        "40": 7,
+        "45": 7,
+        "60": 9,
+        "100": 14,
+        "250": 28
+      }
+    },
+    "10": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 1,
+      "tail": 0,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 6,
+        "40": 6,
+        "45": 6,
+        "60": 7,
+        "100": 13,
+        "250": 33
+      }
+    },
+    "11": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 1,
+      "tail": 1,
+      "last_normal_age": 5,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 3,
+        "40": 4,
+        "45": 4,
+        "60": 5,
+        "100": 11,
+        "250": 29
+      }
+    },
+    "12": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 1,
+      "tail": 2,
+      "last_normal_age": 13,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 3,
+        "40": 3,
+        "45": 4,
+        "60": 4,
+        "100": 7,
+        "250": 28
+      }
+    },
+    "13": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 1,
+      "tail": 3,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 3,
+        "20": 5,
+        "35": 7,
+        "40": 8,
+        "45": 8,
+        "60": 9,
+        "100": 18,
+        "250": 29
+      }
+    },
+    "14": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 1,
+      "tail": 4,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 5,
+        "40": 6,
+        "45": 7,
+        "60": 7,
+        "100": 15,
+        "250": 28
+      }
+    },
+    "15": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 1,
+      "tail": 5,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 4,
+        "40": 4,
+        "45": 5,
+        "60": 6,
+        "100": 8,
+        "250": 30
+      }
+    },
+    "16": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 1,
+      "tail": 6,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 3,
+        "40": 3,
+        "45": 4,
+        "60": 6,
+        "100": 8,
+        "250": 21
+      }
+    },
+    "17": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 1,
+      "tail": 7,
+      "last_normal_age": 15,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 5,
+        "40": 6,
+        "45": 7,
+        "60": 8,
+        "100": 16,
+        "250": 39
+      }
+    },
+    "18": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 1,
+      "tail": 8,
+      "last_normal_age": 6,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 6,
+        "100": 12,
+        "250": 26
+      }
+    },
+    "19": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 1,
+      "tail": 9,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 9,
+        "100": 13,
+        "250": 38
+      }
+    },
+    "20": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 2,
+      "tail": 0,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 3,
+        "40": 3,
+        "45": 4,
+        "60": 6,
+        "100": 8,
+        "250": 30
+      }
+    },
+    "21": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 2,
+      "tail": 1,
+      "last_normal_age": 27,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 3,
+        "40": 4,
+        "45": 4,
+        "60": 6,
+        "100": 10,
+        "250": 30
+      }
+    },
+    "22": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 2,
+      "tail": 2,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 5,
+        "40": 5,
+        "45": 6,
+        "60": 9,
+        "100": 16,
+        "250": 37
+      }
+    },
+    "23": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 2,
+      "tail": 3,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 3,
+        "35": 4,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 12,
+        "250": 31
+      }
+    },
+    "24": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 2,
+      "tail": 4,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 1,
+        "40": 3,
+        "45": 3,
+        "60": 6,
+        "100": 10,
+        "250": 34
+      }
+    },
+    "25": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 2,
+      "tail": 5,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 3,
+        "40": 3,
+        "45": 5,
+        "60": 8,
+        "100": 13,
+        "250": 36
+      }
+    },
+    "26": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 2,
+      "tail": 6,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 3,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 15,
+        "250": 36
+      }
+    },
+    "27": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 2,
+      "tail": 7,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 1,
+        "20": 3,
+        "35": 4,
+        "40": 4,
+        "45": 4,
+        "60": 5,
+        "100": 11,
+        "250": 22
+      }
+    },
+    "28": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 2,
+      "tail": 8,
+      "last_normal_age": 7,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 7,
+        "40": 8,
+        "45": 9,
+        "60": 10,
+        "100": 14,
+        "250": 32
+      }
+    },
+    "29": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 2,
+      "tail": 9,
+      "last_normal_age": 10,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 6,
+        "40": 9,
+        "45": 9,
+        "60": 11,
+        "100": 21,
+        "250": 39
+      }
+    },
+    "30": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 3,
+      "tail": 0,
+      "last_normal_age": 42,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 0,
+        "40": 0,
+        "45": 1,
+        "60": 2,
+        "100": 4,
+        "250": 28
+      }
+    },
+    "31": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 3,
+      "tail": 1,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 1,
+        "20": 4,
+        "35": 4,
+        "40": 5,
+        "45": 6,
+        "60": 7,
+        "100": 10,
+        "250": 26
+      }
+    },
+    "32": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 3,
+      "tail": 2,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 3,
+        "20": 4,
+        "35": 6,
+        "40": 8,
+        "45": 10,
+        "60": 11,
+        "100": 13,
+        "250": 30
+      }
+    },
+    "33": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 3,
+      "last_normal_age": 0,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 4,
+        "40": 4,
+        "45": 4,
+        "60": 6,
+        "100": 10,
+        "250": 23
+      }
+    },
+    "34": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 3,
+      "tail": 4,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 3,
+        "20": 4,
+        "35": 6,
+        "40": 6,
+        "45": 6,
+        "60": 8,
+        "100": 13,
+        "250": 31
+      }
+    },
+    "35": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 3,
+      "tail": 5,
+      "last_normal_age": 28,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 3,
+        "40": 3,
+        "45": 3,
+        "60": 4,
+        "100": 10,
+        "250": 22
+      }
+    },
+    "36": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 3,
+      "tail": 6,
+      "last_normal_age": 11,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 2,
+        "40": 2,
+        "45": 4,
+        "60": 8,
+        "100": 13,
+        "250": 29
+      }
+    },
+    "37": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 3,
+      "tail": 7,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 10,
+        "250": 30
+      }
+    },
+    "38": {
+      "zodiac": "蛇",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 3,
+      "tail": 8,
+      "last_normal_age": 6,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 7,
+        "40": 8,
+        "45": 8,
+        "60": 11,
+        "100": 19,
+        "250": 44
+      }
+    },
+    "39": {
+      "zodiac": "龍",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 3,
+      "tail": 9,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 3,
+        "20": 3,
+        "35": 5,
+        "40": 5,
+        "45": 6,
+        "60": 8,
+        "100": 13,
+        "250": 31
+      }
+    },
+    "40": {
+      "zodiac": "兔",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 4,
+      "tail": 0,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 3,
+        "20": 7,
+        "35": 8,
+        "40": 10,
+        "45": 10,
+        "60": 13,
+        "100": 14,
+        "250": 36
+      }
+    },
+    "41": {
+      "zodiac": "虎",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 4,
+      "tail": 1,
+      "last_normal_age": 14,
+      "window_counts": {
+        "10": 0,
+        "20": 1,
+        "35": 2,
+        "40": 3,
+        "45": 3,
+        "60": 4,
+        "100": 11,
+        "250": 27
+      }
+    },
+    "42": {
+      "zodiac": "牛",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 4,
+      "tail": 2,
+      "last_normal_age": 15,
+      "window_counts": {
+        "10": 0,
+        "20": 2,
+        "35": 2,
+        "40": 2,
+        "45": 3,
+        "60": 4,
+        "100": 8,
+        "250": 25
+      }
+    },
+    "43": {
+      "zodiac": "鼠",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 4,
+      "tail": 3,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 1,
+        "20": 5,
+        "35": 7,
+        "40": 7,
+        "45": 9,
+        "60": 11,
+        "100": 16,
+        "250": 30
+      }
+    },
+    "44": {
+      "zodiac": "豬",
+      "road": 2,
+      "odd_even": "偶",
+      "wave": "綠",
+      "head": 4,
+      "tail": 4,
+      "last_normal_age": 1,
+      "window_counts": {
+        "10": 2,
+        "20": 3,
+        "35": 4,
+        "40": 5,
+        "45": 5,
+        "60": 8,
+        "100": 13,
+        "250": 35
+      }
+    },
+    "45": {
+      "zodiac": "狗",
+      "road": 0,
+      "odd_even": "奇",
+      "wave": "紅",
+      "head": 4,
+      "tail": 5,
+      "last_normal_age": 2,
+      "window_counts": {
+        "10": 1,
+        "20": 2,
+        "35": 3,
+        "40": 3,
+        "45": 3,
+        "60": 5,
+        "100": 8,
+        "250": 27
+      }
+    },
+    "46": {
+      "zodiac": "鷄",
+      "road": 1,
+      "odd_even": "偶",
+      "wave": "紅",
+      "head": 4,
+      "tail": 6,
+      "last_normal_age": 3,
+      "window_counts": {
+        "10": 2,
+        "20": 2,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 8,
+        "100": 15,
+        "250": 43
+      }
+    },
+    "47": {
+      "zodiac": "猴",
+      "road": 2,
+      "odd_even": "奇",
+      "wave": "藍",
+      "head": 4,
+      "tail": 7,
+      "last_normal_age": 20,
+      "window_counts": {
+        "10": 0,
+        "20": 0,
+        "35": 3,
+        "40": 4,
+        "45": 5,
+        "60": 8,
+        "100": 15,
+        "250": 27
+      }
+    },
+    "48": {
+      "zodiac": "羊",
+      "road": 0,
+      "odd_even": "偶",
+      "wave": "藍",
+      "head": 4,
+      "tail": 8,
+      "last_normal_age": 8,
+      "window_counts": {
+        "10": 1,
+        "20": 1,
+        "35": 5,
+        "40": 5,
+        "45": 5,
+        "60": 7,
+        "100": 9,
+        "250": 28
+      }
+    },
+    "49": {
+      "zodiac": "馬",
+      "road": 1,
+      "odd_even": "奇",
+      "wave": "綠",
+      "head": 4,
+      "tail": 9,
+      "last_normal_age": 4,
+      "window_counts": {
+        "10": 2,
+        "20": 4,
+        "35": 6,
+        "40": 6,
+        "45": 7,
+        "60": 8,
+        "100": 14,
+        "250": 28
+      }
+    }
+  },
+  "structural_windows": {
+    "10": {
+      "first_period": 2026306,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        18,
+        28,
+        14
+      ],
+      "odd_even_ball_counts": [
+        28,
+        32
+      ],
+      "red_blue_green_ball_counts": [
+        17,
+        19,
+        24
+      ],
+      "small_big_1_24_25_49": [
+        26,
+        34
+      ],
+      "head_ball_counts": [
+        12,
+        12,
+        8,
+        16,
+        12
+      ],
+      "tail_ball_counts": [
+        4,
+        2,
+        5,
+        7,
+        9,
+        5,
+        7,
+        4,
+        7,
+        10
+      ],
+      "no_0road_periods": 2,
+      "no_1road_periods": 0,
+      "no_2road_periods": 1,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 1,
+      "at_least_four_green_periods": 1,
+      "at_most_one_0road_periods": 5,
+      "at_most_one_1road_periods": 1,
+      "at_most_one_2road_periods": 6,
+      "at_most_one_odd_periods": 2,
+      "at_most_one_even_periods": 1,
+      "no_odd_2road_periods": 9,
+      "no_even_2road_periods": 1,
+      "no_even_1road_periods": 2,
+      "no_odd_0road_periods": 3,
+      "at_least_two_2road_periods": 4,
+      "distinct4_or_fewer_periods": 2,
+      "multiple_zero_road_zodiacs_periods": 5,
+      "three_roads_present_periods": 7
+    },
+    "20": {
+      "first_period": 2026296,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        34,
+        52,
+        34
+      ],
+      "odd_even_ball_counts": [
+        60,
+        60
+      ],
+      "red_blue_green_ball_counts": [
+        40,
+        38,
+        42
+      ],
+      "small_big_1_24_25_49": [
+        52,
+        68
+      ],
+      "head_ball_counts": [
+        20,
+        26,
+        21,
+        26,
+        27
+      ],
+      "tail_ball_counts": [
+        10,
+        9,
+        12,
+        19,
+        14,
+        8,
+        11,
+        8,
+        13,
+        16
+      ],
+      "no_0road_periods": 2,
+      "no_1road_periods": 0,
+      "no_2road_periods": 2,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 1,
+      "at_least_four_green_periods": 1,
+      "at_most_one_0road_periods": 10,
+      "at_most_one_1road_periods": 3,
+      "at_most_one_2road_periods": 9,
+      "at_most_one_odd_periods": 2,
+      "at_most_one_even_periods": 2,
+      "no_odd_2road_periods": 13,
+      "no_even_2road_periods": 4,
+      "no_even_1road_periods": 5,
+      "no_odd_0road_periods": 9,
+      "at_least_two_2road_periods": 11,
+      "distinct4_or_fewer_periods": 4,
+      "multiple_zero_road_zodiacs_periods": 8,
+      "three_roads_present_periods": 16
+    },
+    "35": {
+      "first_period": 2026281,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        57,
+        86,
+        67
+      ],
+      "odd_even_ball_counts": [
+        105,
+        105
+      ],
+      "red_blue_green_ball_counts": [
+        72,
+        63,
+        75
+      ],
+      "small_big_1_24_25_49": [
+        100,
+        110
+      ],
+      "head_ball_counts": [
+        38,
+        46,
+        39,
+        42,
+        45
+      ],
+      "tail_ball_counts": [
+        17,
+        15,
+        22,
+        27,
+        20,
+        15,
+        17,
+        19,
+        29,
+        29
+      ],
+      "no_0road_periods": 4,
+      "no_1road_periods": 0,
+      "no_2road_periods": 2,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 1,
+      "at_least_four_green_periods": 3,
+      "at_most_one_0road_periods": 17,
+      "at_most_one_1road_periods": 7,
+      "at_most_one_2road_periods": 13,
+      "at_most_one_odd_periods": 3,
+      "at_most_one_even_periods": 2,
+      "no_odd_2road_periods": 16,
+      "no_even_2road_periods": 8,
+      "no_even_1road_periods": 8,
+      "no_odd_0road_periods": 13,
+      "at_least_two_2road_periods": 22,
+      "distinct4_or_fewer_periods": 6,
+      "multiple_zero_road_zodiacs_periods": 16,
+      "three_roads_present_periods": 29
+    },
+    "40": {
+      "first_period": 2026276,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        63,
+        93,
+        84
+      ],
+      "odd_even_ball_counts": [
+        120,
+        120
+      ],
+      "red_blue_green_ball_counts": [
+        84,
+        70,
+        86
+      ],
+      "small_big_1_24_25_49": [
+        115,
+        125
+      ],
+      "head_ball_counts": [
+        45,
+        50,
+        49,
+        46,
+        50
+      ],
+      "tail_ball_counts": [
+        19,
+        21,
+        25,
+        30,
+        24,
+        16,
+        21,
+        21,
+        31,
+        32
+      ],
+      "no_0road_periods": 5,
+      "no_1road_periods": 1,
+      "no_2road_periods": 2,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 1,
+      "at_least_four_green_periods": 3,
+      "at_most_one_0road_periods": 20,
+      "at_most_one_1road_periods": 9,
+      "at_most_one_2road_periods": 13,
+      "at_most_one_odd_periods": 3,
+      "at_most_one_even_periods": 2,
+      "no_odd_2road_periods": 16,
+      "no_even_2road_periods": 8,
+      "no_even_1road_periods": 10,
+      "no_odd_0road_periods": 16,
+      "at_least_two_2road_periods": 27,
+      "distinct4_or_fewer_periods": 6,
+      "multiple_zero_road_zodiacs_periods": 18,
+      "three_roads_present_periods": 32
+    },
+    "45": {
+      "first_period": 2026271,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        73,
+        104,
+        93
+      ],
+      "odd_even_ball_counts": [
+        133,
+        137
+      ],
+      "red_blue_green_ball_counts": [
+        87,
+        83,
+        100
+      ],
+      "small_big_1_24_25_49": [
+        130,
+        140
+      ],
+      "head_ball_counts": [
+        53,
+        55,
+        54,
+        53,
+        55
+      ],
+      "tail_ball_counts": [
+        21,
+        22,
+        31,
+        33,
+        27,
+        21,
+        26,
+        23,
+        32,
+        34
+      ],
+      "no_0road_periods": 6,
+      "no_1road_periods": 1,
+      "no_2road_periods": 2,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 3,
+      "at_least_four_green_periods": 4,
+      "at_most_one_0road_periods": 22,
+      "at_most_one_1road_periods": 10,
+      "at_most_one_2road_periods": 15,
+      "at_most_one_odd_periods": 3,
+      "at_most_one_even_periods": 2,
+      "no_odd_2road_periods": 17,
+      "no_even_2road_periods": 9,
+      "no_even_1road_periods": 10,
+      "no_odd_0road_periods": 18,
+      "at_least_two_2road_periods": 30,
+      "distinct4_or_fewer_periods": 6,
+      "multiple_zero_road_zodiacs_periods": 21,
+      "three_roads_present_periods": 36
+    },
+    "60": {
+      "first_period": 2026256,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        104,
+        135,
+        121
+      ],
+      "odd_even_ball_counts": [
+        178,
+        182
+      ],
+      "red_blue_green_ball_counts": [
+        117,
+        111,
+        132
+      ],
+      "small_big_1_24_25_49": [
+        171,
+        189
+      ],
+      "head_ball_counts": [
+        70,
+        67,
+        75,
+        72,
+        76
+      ],
+      "tail_ball_counts": [
+        28,
+        27,
+        37,
+        43,
+        35,
+        31,
+        41,
+        32,
+        41,
+        45
+      ],
+      "no_0road_periods": 7,
+      "no_1road_periods": 1,
+      "no_2road_periods": 4,
+      "at_least_four_0road_periods": 2,
+      "no_red_periods": 5,
+      "at_least_four_green_periods": 4,
+      "at_most_one_0road_periods": 26,
+      "at_most_one_1road_periods": 15,
+      "at_most_one_2road_periods": 19,
+      "at_most_one_odd_periods": 5,
+      "at_most_one_even_periods": 4,
+      "no_odd_2road_periods": 22,
+      "no_even_2road_periods": 14,
+      "no_even_1road_periods": 14,
+      "no_odd_0road_periods": 23,
+      "at_least_two_2road_periods": 41,
+      "distinct4_or_fewer_periods": 6,
+      "multiple_zero_road_zodiacs_periods": 32,
+      "three_roads_present_periods": 48
+    },
+    "100": {
+      "first_period": 2026216,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        168,
+        219,
+        213
+      ],
+      "odd_even_ball_counts": [
+        306,
+        294
+      ],
+      "red_blue_green_ball_counts": [
+        201,
+        186,
+        213
+      ],
+      "small_big_1_24_25_49": [
+        288,
+        312
+      ],
+      "head_ball_counts": [
+        111,
+        121,
+        130,
+        115,
+        123
+      ],
+      "tail_ball_counts": [
+        39,
+        50,
+        56,
+        68,
+        63,
+        49,
+        70,
+        64,
+        66,
+        75
+      ],
+      "no_0road_periods": 15,
+      "no_1road_periods": 6,
+      "no_2road_periods": 4,
+      "at_least_four_0road_periods": 4,
+      "no_red_periods": 10,
+      "at_least_four_green_periods": 8,
+      "at_most_one_0road_periods": 46,
+      "at_most_one_1road_periods": 26,
+      "at_most_one_2road_periods": 30,
+      "at_most_one_odd_periods": 9,
+      "at_most_one_even_periods": 9,
+      "no_odd_2road_periods": 29,
+      "no_even_2road_periods": 27,
+      "no_even_1road_periods": 28,
+      "no_odd_0road_periods": 42,
+      "at_least_two_2road_periods": 70,
+      "distinct4_or_fewer_periods": 17,
+      "multiple_zero_road_zodiacs_periods": 50,
+      "three_roads_present_periods": 75
+    },
+    "250": {
+      "first_period": 2026066,
+      "last_period": 2026315,
+      "road_ball_counts": [
+        451,
+        543,
+        506
+      ],
+      "odd_even_ball_counts": [
+        747,
+        753
+      ],
+      "red_blue_green_ball_counts": [
+        538,
+        470,
+        492
+      ],
+      "small_big_1_24_25_49": [
+        735,
+        765
+      ],
+      "head_ball_counts": [
+        272,
+        301,
+        327,
+        294,
+        306
+      ],
+      "tail_ball_counts": [
+        127,
+        146,
+        147,
+        143,
+        155,
+        144,
+        161,
+        150,
+        163,
+        164
+      ],
+      "no_0road_periods": 28,
+      "no_1road_periods": 17,
+      "no_2road_periods": 11,
+      "at_least_four_0road_periods": 15,
+      "no_red_periods": 17,
+      "at_least_four_green_periods": 21,
+      "at_most_one_0road_periods": 101,
+      "at_most_one_1road_periods": 70,
+      "at_most_one_2road_periods": 90,
+      "at_most_one_odd_periods": 29,
+      "at_most_one_even_periods": 23,
+      "no_odd_2road_periods": 82,
+      "no_even_2road_periods": 70,
+      "no_even_1road_periods": 80,
+      "no_odd_0road_periods": 100,
+      "at_least_two_2road_periods": 160,
+      "distinct4_or_fewer_periods": 51,
+      "multiple_zero_road_zodiacs_periods": 136,
+      "three_roads_present_periods": 194
+    }
+  },
+  "adjacent_identity_repeats": {
+    "2026309": {
+      "seven_v_seven_count": 4,
+      "seven_v_seven_signs": [
+        "牛",
+        "兔",
+        "馬",
+        "鷄"
+      ],
+      "current_six_vs_previous_seven_count": 3,
+      "current_six_vs_previous_six_count": 2
+    },
+    "2026310": {
+      "seven_v_seven_count": 4,
+      "seven_v_seven_signs": [
+        "兔",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "current_six_vs_previous_seven_count": 4,
+      "current_six_vs_previous_six_count": 3
+    },
+    "2026311": {
+      "seven_v_seven_count": 5,
+      "seven_v_seven_signs": [
+        "兔",
+        "蛇",
+        "馬",
+        "鷄",
+        "豬"
+      ],
+      "current_six_vs_previous_seven_count": 4,
+      "current_six_vs_previous_six_count": 4
+    },
+    "2026312": {
+      "seven_v_seven_count": 5,
+      "seven_v_seven_signs": [
+        "鼠",
+        "兔",
+        "蛇",
+        "鷄",
+        "豬"
+      ],
+      "current_six_vs_previous_seven_count": 4,
+      "current_six_vs_previous_six_count": 3
+    },
+    "2026313": {
+      "seven_v_seven_count": 3,
+      "seven_v_seven_signs": [
+        "鼠",
+        "龍",
+        "豬"
+      ],
+      "current_six_vs_previous_seven_count": 3,
+      "current_six_vs_previous_six_count": 3
+    },
+    "2026314": {
+      "seven_v_seven_count": 3,
+      "seven_v_seven_signs": [
+        "鼠",
+        "狗",
+        "豬"
+      ],
+      "current_six_vs_previous_seven_count": 2,
+      "current_six_vs_previous_six_count": 2
+    },
+    "2026315": {
+      "seven_v_seven_count": 3,
+      "seven_v_seven_signs": [
+        "馬",
+        "鷄",
+        "狗"
+      ],
+      "current_six_vs_previous_seven_count": 3,
+      "current_six_vs_previous_six_count": 3
+    }
+  },
+  "recent_45_normal_records": [
+    {
+      "period": 2026271,
+      "numbers": [
+        25,
+        2,
+        5,
+        22,
+        20,
+        31
+      ],
+      "zodiacs": [
+        "馬",
+        "蛇",
+        "虎",
+        "鷄",
+        "豬",
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026272,
+      "numbers": [
+        43,
+        15,
+        4,
+        6,
+        32,
+        36
+      ],
+      "zodiacs": [
+        "鼠",
+        "龍",
+        "兔",
+        "牛",
+        "豬",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026273,
+      "numbers": [
+        30,
+        3,
+        25,
+        28,
+        6,
+        17
+      ],
+      "zodiacs": [
+        "牛",
+        "龍",
+        "馬",
+        "兔",
+        "牛",
+        "虎"
+      ]
+    },
+    {
+      "period": 2026274,
+      "numbers": [
+        12,
+        16,
+        32,
+        5,
+        39,
+        36
+      ],
+      "zodiacs": [
+        "羊",
+        "兔",
+        "豬",
+        "虎",
+        "龍",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026275,
+      "numbers": [
+        42,
+        49,
+        4,
+        47,
+        14,
+        43
+      ],
+      "zodiacs": [
+        "牛",
+        "馬",
+        "兔",
+        "猴",
+        "蛇",
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026276,
+      "numbers": [
+        2,
+        21,
+        17,
+        40,
+        11,
+        24
+      ],
+      "zodiacs": [
+        "蛇",
+        "狗",
+        "虎",
+        "兔",
+        "猴",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026277,
+      "numbers": [
+        41,
+        23,
+        14,
+        31,
+        13,
+        32
+      ],
+      "zodiacs": [
+        "虎",
+        "猴",
+        "蛇",
+        "鼠",
+        "馬",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026278,
+      "numbers": [
+        6,
+        40,
+        24,
+        29,
+        44,
+        1
+      ],
+      "zodiacs": [
+        "牛",
+        "兔",
+        "羊",
+        "虎",
+        "豬",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026279,
+      "numbers": [
+        29,
+        32,
+        47,
+        38,
+        6,
+        26
+      ],
+      "zodiacs": [
+        "虎",
+        "豬",
+        "猴",
+        "蛇",
+        "牛",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026280,
+      "numbers": [
+        1,
+        26,
+        28,
+        29,
+        3,
+        5
+      ],
+      "zodiacs": [
+        "馬",
+        "蛇",
+        "兔",
+        "虎",
+        "龍",
+        "虎"
+      ]
+    },
+    {
+      "period": 2026281,
+      "numbers": [
+        22,
+        19,
+        21,
+        32,
+        48,
+        38
+      ],
+      "zodiacs": [
+        "鷄",
+        "鼠",
+        "狗",
+        "豬",
+        "羊",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026282,
+      "numbers": [
+        44,
+        3,
+        37,
+        46,
+        29,
+        20
+      ],
+      "zodiacs": [
+        "豬",
+        "龍",
+        "馬",
+        "鷄",
+        "虎",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026283,
+      "numbers": [
+        35,
+        8,
+        15,
+        6,
+        21,
+        1
+      ],
+      "zodiacs": [
+        "猴",
+        "豬",
+        "龍",
+        "牛",
+        "狗",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026284,
+      "numbers": [
+        4,
+        35,
+        22,
+        48,
+        3,
+        18
+      ],
+      "zodiacs": [
+        "兔",
+        "猴",
+        "鷄",
+        "羊",
+        "龍",
+        "牛"
+      ]
+    },
+    {
+      "period": 2026285,
+      "numbers": [
+        46,
+        45,
+        43,
+        39,
+        20,
+        40
+      ],
+      "zodiacs": [
+        "鷄",
+        "狗",
+        "鼠",
+        "龍",
+        "豬",
+        "兔"
+      ]
+    },
+    {
+      "period": 2026286,
+      "numbers": [
+        37,
+        49,
+        28,
+        8,
+        29,
+        1
+      ],
+      "zodiacs": [
+        "馬",
+        "馬",
+        "兔",
+        "豬",
+        "虎",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026287,
+      "numbers": [
+        19,
+        47,
+        38,
+        35,
+        6,
+        17
+      ],
+      "zodiacs": [
+        "鼠",
+        "猴",
+        "蛇",
+        "猴",
+        "牛",
+        "虎"
+      ]
+    },
+    {
+      "period": 2026288,
+      "numbers": [
+        14,
+        48,
+        5,
+        17,
+        46,
+        21
+      ],
+      "zodiacs": [
+        "蛇",
+        "羊",
+        "虎",
+        "虎",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026289,
+      "numbers": [
+        12,
+        29,
+        19,
+        28,
+        47,
+        34
+      ],
+      "zodiacs": [
+        "羊",
+        "虎",
+        "鼠",
+        "兔",
+        "猴",
+        "鷄"
+      ]
+    },
+    {
+      "period": 2026290,
+      "numbers": [
+        8,
+        9,
+        17,
+        15,
+        7,
+        2
+      ],
+      "zodiacs": [
+        "豬",
+        "狗",
+        "虎",
+        "龍",
+        "鼠",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026291,
+      "numbers": [
+        32,
+        10,
+        41,
+        38,
+        22,
+        2
+      ],
+      "zodiacs": [
+        "豬",
+        "鷄",
+        "虎",
+        "蛇",
+        "鷄",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026292,
+      "numbers": [
+        39,
+        10,
+        18,
+        23,
+        16,
+        4
+      ],
+      "zodiacs": [
+        "龍",
+        "鷄",
+        "牛",
+        "猴",
+        "兔",
+        "兔"
+      ]
+    },
+    {
+      "period": 2026293,
+      "numbers": [
+        38,
+        10,
+        48,
+        49,
+        13,
+        9
+      ],
+      "zodiacs": [
+        "蛇",
+        "鷄",
+        "羊",
+        "馬",
+        "馬",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026294,
+      "numbers": [
+        29,
+        43,
+        10,
+        2,
+        34,
+        27
+      ],
+      "zodiacs": [
+        "虎",
+        "鼠",
+        "鷄",
+        "蛇",
+        "鷄",
+        "龍"
+      ]
+    },
+    {
+      "period": 2026295,
+      "numbers": [
+        22,
+        28,
+        33,
+        17,
+        13,
+        47
+      ],
+      "zodiacs": [
+        "鷄",
+        "兔",
+        "狗",
+        "虎",
+        "馬",
+        "猴"
+      ]
+    },
+    {
+      "period": 2026296,
+      "numbers": [
+        14,
+        43,
+        26,
+        45,
+        3,
+        31
+      ],
+      "zodiacs": [
+        "蛇",
+        "鼠",
+        "蛇",
+        "狗",
+        "龍",
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026297,
+      "numbers": [
+        27,
+        40,
+        25,
+        26,
+        33,
+        9
+      ],
+      "zodiacs": [
+        "龍",
+        "兔",
+        "馬",
+        "蛇",
+        "狗",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026298,
+      "numbers": [
+        31,
+        36,
+        40,
+        34,
+        37,
+        43
+      ],
+      "zodiacs": [
+        "鼠",
+        "羊",
+        "兔",
+        "鷄",
+        "馬",
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026299,
+      "numbers": [
+        12,
+        19,
+        28,
+        32,
+        5,
+        42
+      ],
+      "zodiacs": [
+        "羊",
+        "鼠",
+        "兔",
+        "豬",
+        "虎",
+        "牛"
+      ]
+    },
+    {
+      "period": 2026300,
+      "numbers": [
+        1,
+        29,
+        23,
+        17,
+        18,
+        42
+      ],
+      "zodiacs": [
+        "馬",
+        "虎",
+        "猴",
+        "虎",
+        "牛",
+        "牛"
+      ]
+    },
+    {
+      "period": 2026301,
+      "numbers": [
+        27,
+        41,
+        23,
+        11,
+        2,
+        43
+      ],
+      "zodiacs": [
+        "龍",
+        "虎",
+        "猴",
+        "猴",
+        "蛇",
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026302,
+      "numbers": [
+        10,
+        2,
+        14,
+        13,
+        11,
+        12
+      ],
+      "zodiacs": [
+        "鷄",
+        "蛇",
+        "蛇",
+        "馬",
+        "猴",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026303,
+      "numbers": [
+        8,
+        28,
+        40,
+        3,
+        38,
+        49
+      ],
+      "zodiacs": [
+        "豬",
+        "兔",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026304,
+      "numbers": [
+        23,
+        24,
+        10,
+        43,
+        13,
+        36
+      ],
+      "zodiacs": [
+        "猴",
+        "羊",
+        "鷄",
+        "鼠",
+        "馬",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026305,
+      "numbers": [
+        31,
+        49,
+        29,
+        44,
+        18,
+        40
+      ],
+      "zodiacs": [
+        "鼠",
+        "馬",
+        "虎",
+        "豬",
+        "牛",
+        "兔"
+      ]
+    },
+    {
+      "period": 2026306,
+      "numbers": [
+        39,
+        13,
+        28,
+        9,
+        14,
+        32
+      ],
+      "zodiacs": [
+        "龍",
+        "馬",
+        "兔",
+        "狗",
+        "蛇",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026307,
+      "numbers": [
+        48,
+        38,
+        49,
+        9,
+        13,
+        3
+      ],
+      "zodiacs": [
+        "羊",
+        "蛇",
+        "馬",
+        "狗",
+        "馬",
+        "龍"
+      ]
+    },
+    {
+      "period": 2026308,
+      "numbers": [
+        25,
+        16,
+        28,
+        8,
+        6,
+        40
+      ],
+      "zodiacs": [
+        "馬",
+        "兔",
+        "兔",
+        "豬",
+        "牛",
+        "兔"
+      ]
+    },
+    {
+      "period": 2026309,
+      "numbers": [
+        34,
+        39,
+        18,
+        46,
+        4,
+        38
+      ],
+      "zodiacs": [
+        "鷄",
+        "龍",
+        "牛",
+        "鷄",
+        "兔",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026310,
+      "numbers": [
+        37,
+        11,
+        34,
+        2,
+        40,
+        44
+      ],
+      "zodiacs": [
+        "馬",
+        "猴",
+        "鷄",
+        "蛇",
+        "兔",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026311,
+      "numbers": [
+        32,
+        40,
+        49,
+        14,
+        19,
+        16
+      ],
+      "zodiacs": [
+        "豬",
+        "兔",
+        "馬",
+        "蛇",
+        "鼠",
+        "兔"
+      ]
+    },
+    {
+      "period": 2026312,
+      "numbers": [
+        31,
+        46,
+        4,
+        43,
+        32,
+        15
+      ],
+      "zodiacs": [
+        "鼠",
+        "鷄",
+        "兔",
+        "鼠",
+        "豬",
+        "龍"
+      ]
+    },
+    {
+      "period": 2026313,
+      "numbers": [
+        33,
+        39,
+        45,
+        15,
+        7,
+        20
+      ],
+      "zodiacs": [
+        "狗",
+        "龍",
+        "狗",
+        "龍",
+        "鼠",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026314,
+      "numbers": [
+        13,
+        26,
+        9,
+        37,
+        34,
+        44
+      ],
+      "zodiacs": [
+        "馬",
+        "蛇",
+        "狗",
+        "馬",
+        "鷄",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026315,
+      "numbers": [
+        6,
+        9,
+        25,
+        27,
+        33,
+        22
+      ],
+      "zodiacs": [
+        "牛",
+        "狗",
+        "馬",
+        "龍",
+        "狗",
+        "鷄"
+      ]
+    }
+  ]
+}

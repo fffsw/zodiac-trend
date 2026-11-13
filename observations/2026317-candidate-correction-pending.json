@@ -1,0 +1,15 @@
+{
+  "status": "PRESERVED_INITIAL_DRAFT_PENDING_CORRECTION",
+  "finding": "R16 三栏兔馬虎为偶1、奇1、奇2，0/1/2路为0/2/1；原手写说明错误地写成各路一肖。角色与机器计算的最低路线均正确，仅比较文字错误。",
+  "why_not_detected": "Earlier checks validated structures and text identity, not the meaning of all unstructured descriptions; add explicit semantic assertion and report-QC gate.",
+  "saved_initial_sha256": {
+    "handcrafted_candidates_initial.json": "acaae34edfa70addbe21d89a6d39db735ba0cba803c737f8911aceacde58c8b7",
+    "candidate_audit_initial.json": "b370e88478e6e93e3bd28bbc4313597d2022ab8b0cce7840c5146fc6e9291258",
+    "candidate_audit_initial.csv": "af93894eae5e501c245569fde9f66a39a24d77ce043f443a551d1d9e716618f3",
+    "independent_qc_initial.json": "aaa1d29e783e6c143d485fcd8faa538425f5d13fa530884fcfe52884ff88a68f",
+    "317_report_initial_before_R16_correction.md": "0e50ca3cf5589c96d9baf2d177c43b2a84b73260cdcfe602672deb42b20c8a47"
+  },
+  "selected_R01_changed": false,
+  "outcome_or_target_result_read": false,
+  "published": false
+}

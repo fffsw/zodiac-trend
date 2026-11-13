@@ -1,0 +1,63 @@
+{
+  "status": "LIVE_316_MANUAL_DISPLAY_PUBLIC_QA_PASS_WECHAT_UNKNOWN",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "project_entry": "https://fffsw.github.io/zodiac-trend/",
+  "analysis": "https://fffsw.github.io/zodiac-trend/observations/2026316-analysis.md",
+  "retrospective_315": "https://fffsw.github.io/zodiac-trend/observations/2026315-retrospective-public.md",
+  "commit": "8f8f32bc7ea1840a5d583b40f8cd38382f60fdda",
+  "parent_commit": "f3e4905ddd9402f40ae61fe96fe3fc3ede5499d1",
+  "github_pages_actions": {
+    "run_id": 43203610843,
+    "head_sha": "8f8f32bc7ea1840a5d583b40f8cd38382f60fdda",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/43203610843",
+    "scope": "Pages deployment only; not a WeChat, source, predraw or mechanism verification"
+  },
+  "page_sha256": "d90915414341142815830ca6fb152c4f39d9042c99da0bb3d344b791293ccde6",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "history_sha256": "d84c05b808a03c2c84b6a8191fb28e292da090df8a8708b2150f899dd3eea314",
+  "manual_decisions_sha256": "7e79723033e9ed6419b7bde6fc7a8e6711dff9f36e9f5fdf7a932561a69bdf79",
+  "315_user_only_six_plus_one_inferred": [
+    6,
+    9,
+    25,
+    27,
+    33,
+    22,
+    48
+  ],
+  "315_date": null,
+  "prior_history_rows_byte_identical": 1045,
+  "candidate_records": 38,
+  "distinct_column_structures": 36,
+  "top_overlap_candidates": 10,
+  "site_decision": {
+    "single": "鷄",
+    "pair": [
+      "狗",
+      "蛇"
+    ],
+    "triple": [
+      "狗",
+      "馬",
+      "虎"
+    ],
+    "reserve_only": [
+      "牛"
+    ]
+  },
+  "public_http_files_checked": 264,
+  "historical_and_new_manifests_checked": 10,
+  "public_desktop_browser_checks": 71,
+  "public_rendered_bottom_checks": 37,
+  "public_scroll_checks": 9,
+  "public_mobile_touch_checks": 18,
+  "public_entry_checks": 5,
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_result_read": false,
+  "predraw_certified": false,
+  "official_source_or_mechanism_certified": false,
+  "wechat_warning_resolved": null,
+  "note": "Third-party existence/latest check is not timing proof. Chromium mobile/WeChat UA emulation is not a real WeChat security verdict."
+}

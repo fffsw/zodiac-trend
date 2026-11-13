@@ -1,0 +1,250 @@
+{
+  "status": "PASS",
+  "scope": "layout/scroll for the supplied file or HTTPS URL; Chromium desktop and mobile emulation, not real iOS or WeChat",
+  "url": "file:///home/user/archive/task271_317_release/stage/zodiac_trend.html",
+  "browser": "158.0.8127.18",
+  "checks": [
+    "negative control detects previously fixed desktop side columns",
+    "desktop-wide num: issue, all four indicator columns and chart move together",
+    "desktop-wide zod: graph fits so no sideways scroll is required",
+    "desktop-narrow num: issue, all four indicator columns and chart move together",
+    "desktop-narrow zod: issue, all four indicator columns and chart move together",
+    "mobile-touch num: issue, all four indicator columns and chart move together",
+    "mobile-touch zod: issue, all four indicator columns and chart move together",
+    "simulated finger swipe scrolls chart and period column together",
+    "no unhandled browser errors"
+  ],
+  "measurements": [
+    {
+      "case": "before-desktop-number",
+      "view": "num",
+      "max": 416,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.n"
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -120
+      ]
+    },
+    {
+      "case": "desktop-wide-num",
+      "view": "num",
+      "max": 416,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.n"
+      ],
+      "delta": [
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120
+      ]
+    },
+    {
+      "case": "desktop-wide-zod",
+      "view": "zod",
+      "max": 0,
+      "moved": 0,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.z"
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "case": "desktop-narrow-num",
+      "view": "num",
+      "max": 856,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.n"
+      ],
+      "delta": [
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120
+      ]
+    },
+    {
+      "case": "desktop-narrow-zod",
+      "view": "zod",
+      "max": 155,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.z"
+      ],
+      "delta": [
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120
+      ]
+    },
+    {
+      "case": "mobile-touch-num",
+      "view": "num",
+      "max": 1430,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.n"
+      ],
+      "delta": [
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120
+      ]
+    },
+    {
+      "case": "mobile-touch-zod",
+      "view": "zod",
+      "max": 729,
+      "moved": 120,
+      "selectors": [
+        "th.perh",
+        "tbody tr:last-child td.per",
+        "th.sti.i1",
+        "th.sti.i2",
+        "th.sti.i3",
+        "th.sti.i4",
+        "tbody tr:last-child td.sti.i1",
+        "tbody tr:last-child td.sti.i2",
+        "tbody tr:last-child td.sti.i3",
+        "tbody tr:last-child td.sti.i4",
+        "tbody tr:last-child td.z"
+      ],
+      "delta": [
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120,
+        -120
+      ]
+    },
+    {
+      "case": "actual-touch-swipe",
+      "beforeX": 17,
+      "scroll": 327,
+      "periodX": -310
+    }
+  ],
+  "errors": []
+}

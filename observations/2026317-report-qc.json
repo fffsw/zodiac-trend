@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 candidate table roles, reserves, overlap, minima and descriptions match corrected audited handwriting",
+    "all named references and key role/cost comparisons correct, including R16 triple corrected to 0/2/1",
+    "all 12 zodiac windows, disjoint blocks and manual rationales match independently checked evidence",
+    "all 49 number attributes, ages, placement and W35/40/45 independently checked",
+    "15 scenario rows including all six route-by-parity absences match independent counts",
+    "six ideal-model rows include equivalent previous structure and adverse R08/R20 comparisons",
+    "prepublication R16 prose correction and preservation independently verified; choice and roles unchanged",
+    "316 review, R01 risk, model adverse terms, 445, correction and honest source/time boundaries present",
+    "all eight workspace evidence links resolve",
+    "linked 316 retrospective matches its independent report QC"
+  ],
+  "report_sha256": "a9edda59905da82a9170de44007071639060105c0982482a93cc49b6961f2382"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "static isolated stage, synthetic future fixture only; no 317 result, predraw or official certification",
+  "page_sha256": "c363f9317b5dcbd57feb9afe04a397dbfb980779786b66baff5cc9bdfe4835bf",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "checks": [
+    "316 public base, workspace source and clean clone remain byte-identical before publication",
+    "two generated stage pages identical",
+    "optimized generator and layout byte-for-byte unchanged",
+    "user 316 staged only; original main history not yet modified",
+    "all 1046 earlier input rows byte-identical",
+    "250 rows reproduce stage CSV; exact 316 user six-plus-one, date unknown",
+    "249 overlapping rows and all 49 zodiac mappings unchanged",
+    "313/314/315 inferred user entries, unknown dates and corrected 312 preserved",
+    "exact R01 single/pair/triple/reserve and every prior page decision preserved",
+    "all prior manual records preserved; stage isolated",
+    "except data, new manual record and range title, entire HTML/CSS/JS byte-identical to live 316",
+    "requested footer and conspicuous labels not restored or relocated",
+    "no newly loaded external assets/scripts or automatic requests",
+    "working relative entry preserved",
+    "original 68-entry dirty deploy status unchanged",
+    "28 frozen 316 evidence hashes unchanged",
+    "stage independent_qc.json passes",
+    "stage report_qc.json passes",
+    "stage manual_stage_receipt.json passes",
+    "same generator independently reproduces stage page byte-for-byte",
+    "synthetic future row has no 318 manual decision, no restored footer"
+  ]
+}

@@ -1,0 +1,26 @@
+PASS unchanged prior 315/316 portable verifier and ten canonical manifests pass
+PASS 1046 earlier source rows byte-identical; only user 316 added
+PASS source data hashes and prior public snapshot match
+PASS 1047 distinct source periods through user 316
+PASS 316 exact user six-plus-one inferred, 313–316 dates unknown
+PASS distinct seven values and zodiac mappings; seventh separate from normal settlement
+PASS 316 Q01 1/1, 2/2, 2/3: independently settle all 38 frozen candidates
+PASS 316 normal route 1/4/1, parity 2/4, sum 168: 2-road present, odd-2 absent
+PASS six-versus-six and seven-versus-seven identity intersections are separated
+PASS exact 4/4/5 deduplicated seven-ball intersections; 8 invalid windows excluded
+PASS 12 signs, eight normal-ball windows and five nonoverlapping age blocks independently recounted
+PASS all 49 numbers, attributes, ages and eight normal-ball windows recounted
+PASS route, parity, color and six cross-route parity absence counts recounted; windows overlap
+PASS 38 manual designs, 37 distinct columns, six overlaps, A concentration, independent ideal-model counts
+PASS manually fixed R01, reserve outside slots, precise route and parity constraints
+PASS no-route and crossed parity absence impacts
+PASS R02/R08/R09/R20 counterarguments retained, model is not evidence of prediction
+PASS initial R16 prose mistake transparently preserved and corrected; choice unchanged
+PASS all prior manual decisions preserved, 317 appended
+PASS no retroactive 313–317 preregistrations
+PASS all 250 page rows, unknown dates, exact R01 slots, no footer and 49 mappings verified
+PASS standalone optimized generator reproduces page snapshot byte-for-byte
+PASS original report hashes match independent QC and remain byte-identical
+PASS all 28 frozen 316 before-files match original SHA-256 manifest
+PASS ten previous plus new immutable canonical evidence manifests verified
+OFFLINE 316/317 VERIFICATION PASS — no proof of source, predraw status, mechanism, prediction or returns

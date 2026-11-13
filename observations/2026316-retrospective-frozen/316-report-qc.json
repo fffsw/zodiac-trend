@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 candidate table roles, reserves, overlap, minima and descriptions match audited handwritten designs",
+    "named references resolve and role changes, alternatives and identical-universe comparisons are correct",
+    "all 12 zodiac ledgers and manual rationales match",
+    "all 49 numbers and 35/40/45 observations match independently checked evidence",
+    "ideal-model comparisons include adverse Q02, Q21 and Q35 and match independent enumeration",
+    "315 diagnosis, 316 counterarguments, source/time assumptions and model risk disclosed",
+    "workspace evidence links resolve",
+    "initial QC copy preserved; only Q20 comparison was added and verified"
+  ],
+  "report_sha256": "0a5bea9ce3c8b602bb3e805da0da80f1ac975730d909c210f3f43cf06e369b70",
+  "initial_report_sha256": "723a97ed7bc91846c34695bcfd1935dc8a8ddc740aa517c46621b449c6107f24"
+}

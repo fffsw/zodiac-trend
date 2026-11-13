@@ -1,0 +1,165 @@
+{
+  "scope": "Adjacent identity intersections of deduplicated seven balls, consecutive comparisons exactly 4/4/5, identities may vary. User 316 date unknown; seventh never part of normal statistics or picks.",
+  "frozen_source_sha256": "50a169bba6e0c07c57c7f105c19c92505b96d149d7c16e992bf8a4be2adfe156",
+  "first_period": "2020001",
+  "last_period": "2026316",
+  "period_records": 2497,
+  "candidate_three_transition_windows": 2494,
+  "invalid_candidate_windows": 8,
+  "valid_candidate_windows": 2486,
+  "events": [
+    {
+      "periods": [
+        "2021212",
+        "2021213",
+        "2021214",
+        "2021215"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2021216",
+      "follow_seven_repeat_count": 2
+    },
+    {
+      "periods": [
+        "2021236",
+        "2021237",
+        "2021238",
+        "2021239"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2021240",
+      "follow_seven_repeat_count": 4
+    },
+    {
+      "periods": [
+        "2021273",
+        "2021274",
+        "2021275",
+        "2021276"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2021277",
+      "follow_seven_repeat_count": 2
+    },
+    {
+      "periods": [
+        "2022048",
+        "2022049",
+        "2022050",
+        "2022051"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2022052",
+      "follow_seven_repeat_count": 4
+    },
+    {
+      "periods": [
+        "2022350",
+        "2022351",
+        "2022352",
+        "2022353"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2022354",
+      "follow_seven_repeat_count": 3
+    },
+    {
+      "periods": [
+        "2023085",
+        "2023086",
+        "2023087",
+        "2023088"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2023089",
+      "follow_seven_repeat_count": 4
+    },
+    {
+      "periods": [
+        "2023148",
+        "2023149",
+        "2023150",
+        "2023151"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2023152",
+      "follow_seven_repeat_count": 3
+    },
+    {
+      "periods": [
+        "2026177",
+        "2026178",
+        "2026179",
+        "2026180"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2026181",
+      "follow_seven_repeat_count": 3
+    },
+    {
+      "periods": [
+        "2026308",
+        "2026309",
+        "2026310",
+        "2026311"
+      ],
+      "transition_counts": [
+        4,
+        4,
+        5
+      ],
+      "follow_period": "2026312",
+      "follow_seven_repeat_count": 5
+    }
+  ],
+  "known_followup_count": 9,
+  "followup_counts": {
+    "2": 2,
+    "4": 3,
+    "3": 3,
+    "5": 1
+  },
+  "last_eight_adjacent_repeat_counts": [
+    4,
+    4,
+    5,
+    5,
+    3,
+    3,
+    3,
+    4
+  ],
+  "limitations": "2020 first 66 entries single source and date/zodiac doubts; two bad records and eight windows excluded; sources not officially authenticated; descriptive only, no forecast"
+}

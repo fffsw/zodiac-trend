@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Independent 316 user-only retrospective; not official, predraw, mechanism or predictive certification",
+  "checks": [
+    "exact user numbers, inferred period/order and unknown date",
+    "user zodiac mapping, duplicate chicken and normal-versus-seven identity deduplication",
+    "published Q01 settles as 1/1, 2/2, 2/3 and two completed columns",
+    "five displayed balls, zero reserve balls, five universe balls, rabbit outside",
+    "ox is only reserve, 04 rabbit outside, 03 dragon is only seventh",
+    "normal-only route, parity and waves",
+    "normal-only shape, head, tail, size, sum and span",
+    "Q01 triple requires three different odd signs including odd-2 tiger; actual only two odd and no odd-2",
+    "316 vs 315 six/six and six/seven three signs, seven/seven four signs, no repeated number",
+    "all 12 pre-316 zodiac windows and five nonoverlapping age blocks recounted",
+    "all 49 pre-316 number windows, ages, parity, route, wave, head and tail recounted",
+    "each of the six actual balls uses frozen pre-316 ledger, not post-result data",
+    "all prior structural exposure counts recounted, including three-odd and no odd-2; primary windows overlap",
+    "38 frozen candidates, 36 distinct structures, reserve-only Q01/Q30/Q31 duplicates",
+    "38 post-result outcomes include two three-column completions; not a ranking or proof",
+    "independently checked reserve-only, same-odd-2 substitution, direct Q17 and Q20/Q34 post-result counterfactuals",
+    "Q17 replaces only tiger with rabbit; Q34 concentrates chicken in single/shared role",
+    "all 38 ideal models directly enumerated, equal-probability and overlap counterarguments explicit",
+    "model probabilities independently checked; no real fairness or predictive claim",
+    "exact deduplicated seven-ball 445 and 316 extension independently reproduced",
+    "308–316 differing versions recorded accurately, not a ranking",
+    "28 frozen 316 pre-review artifacts unchanged",
+    "main history, published source and manual decisions unchanged during review",
+    "original dirty deploy untouched"
+  ],
+  "retrospective_sha256": "56c7d22830710bf0410cfa12d71655c7e3c4f927ffb3a489eb0c4546a11a0dbd",
+  "445_sha256": "59e028319bb37239ede0a8550299eb15f722d2a4c04987a1fee66980dc92a164"
+}
