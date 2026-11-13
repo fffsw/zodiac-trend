@@ -1,0 +1,30 @@
+{
+  "status": "PASS_FINAL_LIVE_DISPLAY",
+  "scope": "316 retrospective and 317 display; source, timing, actual mechanism and WeChat safety not certified; clock mismatch not calibrated",
+  "checks": [
+    "actual release and uncertain timing, source, draw and WeChat status accurately recorded",
+    "staged, local and public-verified mirror homepage bytes identical",
+    "optimized generator and working project entry unchanged",
+    "only user 316 row appended; all 1046 prior rows and CRLF byte-identical",
+    "exact user 316, unknown date, repeated 315 not misattributed, no 317 outcome inserted",
+    "all prior manual decisions preserved; 317 exact R01 roles and reserve",
+    "all original 68 dirty entries unchanged",
+    "all 28 frozen 316 before-evidence hashes intact",
+    "all 346 public-verified files mirrored and byte-matched locally",
+    "standalone 316/317 mirror verifier and eleven historical/current manifests pass",
+    "checked 317 original report preserved; separate final report adds actual QA and clock warning",
+    "316 retrospective and archived public original byte-identical",
+    "both main reports local evidence links resolve",
+    "local validation index identifies 317 as current and preserves earlier snapshot links",
+    "317 status-only unverified display; no retroactive preregistration",
+    "public Chromium function, bottom, synchronized scroll, simulated mobile and entry checks pass; not real WeChat",
+    "session versus runtime/server date disagreement is preserved and disclosed, not used as timing proof",
+    "latest public homepage and both public reports still byte-match verified commit",
+    "remote main remains at verified commit and isolated clone is clean",
+    "protected local synchronization completed without staging leftovers"
+  ],
+  "receipt_sha256": "3183e501611dc15141d4a76fd88b9be692d025b2341f6bb750b042a99a483951",
+  "report316_sha256": "05adb259bf84caabc9d27e076359bd644c202930b359fbd8d682702889dd9f20",
+  "report317_original_sha256": "a9edda59905da82a9170de44007071639060105c0982482a93cc49b6961f2382",
+  "report317_with_release_sha256": "fe440d3a4e56953881dd164170f79ebda7c41e6509be23e13edc5579dcb6cec7"
+}

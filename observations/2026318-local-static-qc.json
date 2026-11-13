@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "static isolated stage and synthetic future fixture; no target result, official source or timing certificate",
+  "page_sha256": "c2e5cc698cb6c05493cf8b2099924abf540fe2d60dba61414de80563d410c382",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "checks": [
+    "317 public base, workspace source and clean clone remain byte-identical before publication",
+    "two stage pages byte-identical",
+    "optimized generator, logic and layout unchanged",
+    "user 317 staged only, original history remains frozen",
+    "1047 earlier source rows and CRLF byte-for-byte preserved",
+    "250 page rows reproduced from stage CSV; exact user 317 six-plus-one, date unknown",
+    "249 overlapping rows and all 49 zodiac mappings unchanged",
+    "313–316 user entries, unknown dates and corrected 312 first number preserved",
+    "exact S01 slots and reserve; every prior page decision preserved",
+    "all prior detailed manual records preserved; stage isolated",
+    "except input data, new manual decision and range title, entire HTML/CSS/JS identical to tested 317 baseline",
+    "requested absent footer and visible labels not restored",
+    "no external assets/scripts or automatic requests introduced",
+    "working relative entry preserved",
+    "original 68-entry dirty deploy unchanged",
+    "38 frozen 317 files verified against before manifest",
+    "stage evidence_qc.json passes",
+    "stage independent_qc.json passes",
+    "stage report_qc.json passes",
+    "stage manual_stage_receipt.json passes",
+    "same generator independently reproduces staged homepage byte-for-byte",
+    "synthetic future row has no automatic 319 choice or restored footer"
+  ]
+}

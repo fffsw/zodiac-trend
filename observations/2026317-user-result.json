@@ -1,0 +1,35 @@
+{
+  "raw_user_text": "还是老样子，回顾对话，重点分析这期失败，吸取教训并分析复盘，确保下期挑选的生肖不会在犯。一步一步来，不要跳过，不要偷懒。\n开奖号码：31、49、30、22、43、24、26\n开奖生肖：鼠、马、牛、鸡、鼠、羊、蛇\n生肖去重：鼠、马、牛、鸡、羊、蛇",
+  "source": "user-provided only; no external 317 result queried or used",
+  "issue": 2026317,
+  "issue_and_six_plus_one_are_inferred_from_conversation": true,
+  "date": null,
+  "normal_numbers": [
+    31,
+    49,
+    30,
+    22,
+    43,
+    24
+  ],
+  "normal_zodiacs": [
+    "鼠",
+    "馬",
+    "牛",
+    "鷄",
+    "鼠",
+    "羊"
+  ],
+  "seventh_number": 26,
+  "seventh_zodiac": "蛇",
+  "user_reported_seven_distinct_zodiacs": [
+    "鼠",
+    "馬",
+    "牛",
+    "鷄",
+    "羊",
+    "蛇"
+  ],
+  "normal_statistics_scope": "first six only; the seventh may be used only for historical seven-ball distinct-zodiac intersections and separately displayed as an existing record, never normal columns or special-number picks",
+  "official_authentication": false
+}

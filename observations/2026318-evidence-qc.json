@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "318 descriptive evidence only; no target result, ranking, source, timing, mechanism or prediction certification",
+  "checks": [
+    "1047 earlier records byte-identical; exactly one user 317 record staged, CRLF preserved",
+    "exact user 317 with 313–317 dates unknown; no 318 outcome",
+    "mapping from frozen page; 26 snake not in normal data",
+    "evidence is through exact 317 only, with overlapping windows identified",
+    "all 12 signs, eight first-six windows and five nonoverlapping age blocks independently recounted",
+    "all 49 numbers and eight normal-only windows, route, parity, wave, head, tail and age recounted",
+    "all 66 sign-pair joint-absence counts per window and same-class peer-present-target-absent cases independently recounted",
+    "joint-absence CSV matches evidence without scoring or ranking",
+    "seven-ball identity counts separately reproduced and not used for normal choice",
+    "changing seventh leaves all normal rows and every W45 joint-absence count unchanged",
+    "317 retrospective and report independently verified before choice",
+    "main history, site and decisions unchanged during stage",
+    "original 68-item dirty deploy untouched"
+  ],
+  "evidence_sha256": "886e1e1aba16c0fbe3a353d01cd740c4acbbfff3b124e8f48f46675cd71a697a",
+  "joint_ledger_sha256": "6a4d6365eef59dcd7c63f518c12a6320d35bb3cb6ba6d058a9ba2fb12d4dd325"
+}

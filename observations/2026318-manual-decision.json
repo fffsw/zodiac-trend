@@ -1,0 +1,49 @@
+{
+  "schema": "manual_evidence_and_counterarguments_318",
+  "period": 2026318,
+  "selection_timestamp_basis": "after user-only 317 review; no authenticated clock, predraw status or official source",
+  "input_scope": "user-provided 317, inferred issue and six-plus-one, date unknown; 317 seventh for historical seven-ball identity only",
+  "status": "HUMAN_CHOICE_UNVERIFIED_OBSERVATION_NOT_A_FORECAST",
+  "human_choice": "S01",
+  "universe": [
+    "牛",
+    "馬",
+    "豬",
+    "狗",
+    "鷄",
+    "虎"
+  ],
+  "top": "牛",
+  "pair": [
+    "馬",
+    "豬"
+  ],
+  "triple": [
+    "馬",
+    "狗",
+    "鷄"
+  ],
+  "reserves": [
+    "虎"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "manual fixed before audit; 35/40/45 are overlapping descriptive windows; no scoring, ranking, randomization, fixed horse or target outcome",
+  "structural_reason": "单牛偶0、共同馬奇1，二馬豬一奇一偶，三馬狗鷄两奇一偶；共同馬缺二三同断，牛馬同时缺足以三栏全断；不将最近零栏或重复身份外推为规则。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；S07用鼠代替共同馬，需承担鼠缺两组合断，鼠上期两球不代表会续出。",
+    "牛": "单栏，偶0四码06/18/30/42；S02以同偶0羊作反方，牛缺单栏断、无偶0单栏必断，上期30出现不预测续停。",
+    "虎": "唯一替补，奇2四码05/17/29/41；S18换同奇2猴仅改变替补，虎不补栏，近十期前六未出不是必补理由。",
+    "兔": "全集外，偶1四码04/16/28/40；S06将三栏鷄换兔，选鷄排兔有兔出鷄空的代价，不因317兔缺就永久排除。",
+    "龍": "全集外，奇0四码03/15/27/39；S05将三栏狗换龍，同类但号码不同，有奇0也不保证选中的狗。",
+    "蛇": "全集外，偶2四码02/14/26/38；S04将二栏豬换蛇，豬在W35/40/45出现期少于蛇是接受的代价；317第七26不参与选择。",
+    "馬": "二三共同A，奇1五码01/13/25/37/49；S07用鼠作同类反方，馬缺两组合断；五码仅在理想假设有覆盖差异，不固定馬。",
+    "羊": "全集外，偶0四码12/24/36/48；S02用羊代替单牛，同类结构但覆盖不同，羊上期出现不预测下一次续停。",
+    "猴": "全集外，奇2四码11/23/35/47；S18作替补反方、S12作共同位，猴近期少见不是必补理由。",
+    "鷄": "三栏D，偶1四码10/22/34/46；S06换兔，同类号码不同；有偶1仍可能只有兔，鷄缺三栏断。",
+    "狗": "三栏C，奇0四码09/21/33/45；S05换龍，同类号码不同；无奇0三栏断，317缺狗不代表该肖必开或必停。",
+    "豬": "二栏B，偶2四码08/20/32/44；S04换蛇，豬W35/40/45出现期15/19/21少于蛇18/21/24，是自愿承担的覆盖代价；无2路二栏断。"
+  },
+  "counterarguments": "S03将豬鷄换位令三栏三路俱有、二栏改需两个1路肖；S08共同鷄取代馬需承担不同号码；S20同全集单與共同馬重叠，集中全中和全空风险；S02/S04/S05/S06/S07是同类反方；S17/S18仅换替补。",
+  "joint_warning": "牛馬同时缺三栏全断；馬缺二三断。无0路单三断，无1路二三断，无2路二断；无偶0单断、无奇0三断、无奇1二三断、无偶1三断、无偶2二断；全栏须5肖、0/1/2至少2/2/1、奇偶至少2/3，均非充分条件。",
+  "limits": "historical counts, route/pool placement and ideal-model calculations do not change actual probabilities or guarantee results; actual mechanism, source and timing unauthenticated"
+}

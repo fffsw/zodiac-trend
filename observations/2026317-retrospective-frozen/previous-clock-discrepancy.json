@@ -1,0 +1,26 @@
+{
+  "status": "CLOCK_DISCREPANCY_NOT_CALIBRATED",
+  "trusted_session_local_date": "2026-10-13",
+  "trusted_session_timezone": "Asia/Shanghai",
+  "runtime_clock_utc_raw": "2026-11-13T10:23:15.351022+00:00",
+  "runtime_clock_asia_shanghai_raw": "2026-11-13T18:23:15.351022+08:00",
+  "third_party_http_date_headers_raw_utc": {
+    "initial": {
+      "target": "Fri, 13 Nov 2026 10:02:47 GMT",
+      "latest": "Fri, 13 Nov 2026 10:02:47 GMT"
+    },
+    "prepush": {
+      "target": "Fri, 13 Nov 2026 10:16:07 GMT",
+      "latest": "Fri, 13 Nov 2026 10:16:07 GMT"
+    },
+    "finalpush": {
+      "target": "Fri, 13 Nov 2026 10:18:55 GMT",
+      "latest": "Fri, 13 Nov 2026 10:18:55 GMT"
+    },
+    "commitpush": {
+      "target": "Fri, 13 Nov 2026 10:19:47 GMT",
+      "latest": "Fri, 13 Nov 2026 10:19:47 GMT"
+    }
+  },
+  "scope": "The runtime clock and HTTP Date headers do not agree with the supplied session local date; raw server/runtime observations are preserved, but none is accepted as draw date, current official time, proof of predraw, or official authentication. Prior 316 date remains unknown; do not alter history or invent a date. Cause cannot be established here. Git commit timestamps inherit runtime clock and also are not timing proof."
+}

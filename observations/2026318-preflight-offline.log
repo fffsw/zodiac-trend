@@ -1,0 +1,26 @@
+PASS unchanged prior portable verifier and eleven canonical manifests pass
+PASS 1047 earlier source rows and CRLF byte-identical; only user 317 added
+PASS source-data hashes and preceding public snapshot match
+PASS 1048 distinct source periods through user 317
+PASS 317 exact user six-plus-one inferred, 313–317 dates unknown
+PASS distinct seven values and 250 mapped rows; seventh separate from normal settlement
+PASS 317 R01 0/1, 0/2, 2/3: independently settle all 38 frozen candidates
+PASS 317 normal 2/4/0, parity 3/3, sum 199: no odd0, chicken even1 is not rabbit
+PASS six-versus-six and seven-versus-seven zodiac identity intersections separated
+PASS exact 4/4/5 deduplicated seven-ball intersections; 8 invalid windows excluded
+PASS 12 signs, eight normal-ball windows and five nonoverlapping age blocks independently recounted
+PASS 49 numbers: attributes, age and eight normal-ball windows independently recounted
+PASS all 66 joint absences, same-class replacement, route, parity, wave, head and tail rechecked
+PASS S01 cow+horse and R01 rabbit+dog jointly absent counts exposed; overlapping, non-predictive
+PASS 38 human designs, 36 distinct slot structures, six overlaps, A concentration and ideal models independently enumerated
+PASS manually fixed S01, tiger reserve outside slots, precise route/parity constraints
+PASS no-route and six crossed parity absence impacts independently reproduced
+PASS S03/S07/S20 and reserve-only counterarguments retained, model does not prove prediction
+PASS all prior manual decisions preserved, only 318 appended
+PASS no retroactive 313–318 preregistrations
+PASS all 250 page rows, unknown dates, exact S01 roles, no footer and 49 mappings verified
+PASS optimized generator reproducibly rebuilds page snapshot byte-for-byte
+PASS original report hashes match independent report QCs and remain byte-identical
+PASS all 38 frozen 317 files match original SHA-256 manifest
+PASS eleven previous plus new immutable canonical evidence manifests verified
+OFFLINE 317/318 VERIFICATION PASS — no proof of source, predraw status, mechanism, prediction or returns

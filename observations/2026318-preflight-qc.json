@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "pre-publication package only; no target result read or official, predraw, mechanism or WeChat certification",
+  "untracked_immutable_count_before_final_status": 84,
+  "checks": [
+    "isolated clone and remote remain at frozen 317 parent",
+    "only homepage, observation index and 84 allowed immutable new files",
+    "packaged homepage identical to tested isolated stage",
+    "both independently checked original reports byte-preserved",
+    "original local page, generator, index and source still unchanged",
+    "original 68-entry dirty checkout untouched",
+    "no retroactive 313–318 preregistration records",
+    "all public report links resolve; original reports separately preserved",
+    "portable verifier independently recomputes 317 settlement, 318 candidates, 445 and twelve manifests in ephemeral copy"
+  ]
+}

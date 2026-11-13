@@ -1,0 +1,20 @@
+{
+  "status": "CLOCK_DISCREPANCY_NOT_CALIBRATED",
+  "supplied_session_local_date": "2026-10-13",
+  "supplied_session_timezone": "Asia/Shanghai",
+  "runtime_clock_utc_raw": "2026-11-13T19:36:31.333878+00:00",
+  "runtime_clock_asia_shanghai_raw": "2026-11-14T03:36:31.333878+08:00",
+  "third_party_http_date_headers_raw_utc": {
+    "initial": {
+      "target": "Fri, 13 Nov 2026 19:17:34 GMT",
+      "latest": "Fri, 13 Nov 2026 19:17:34 GMT"
+    },
+    "prepush": {
+      "target": "Fri, 13 Nov 2026 19:36:04 GMT",
+      "latest": "Fri, 13 Nov 2026 19:36:04 GMT"
+    }
+  },
+  "earlier_receipt_sha256": "4c3e024fe200de2d92322f590d750af939aa8b307a9c3108237921e242488b83",
+  "earlier_receipt_preserved": true,
+  "scope": "Supplied session date and raw observed runtime/server dates differ. Do not infer actual draw time, official source, chronology or predraw status; user input 317 date remains unknown. Git commit timestamps inherit runtime clock and are not timing proof. The cause is not calibrated here."
+}

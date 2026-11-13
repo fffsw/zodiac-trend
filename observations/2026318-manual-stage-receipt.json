@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "target": 2026318,
+  "candidate": "S01",
+  "prior_decisions_preserved": 9,
+  "staged_sha256": "7858fb135e289ba8463fe112d8a7e2e0121978010711b30feb5710c9d53d14c6",
+  "before_sha256": "1f90058a85182ad9b5f704a86e5da0ee564fe86ba918454c39cf0291ed58118b",
+  "scope": "isolated stage only; no main history, public site or original dirty deploy changed"
+}
