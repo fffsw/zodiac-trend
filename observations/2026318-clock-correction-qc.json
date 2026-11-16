@@ -1,0 +1,10 @@
+{
+  "status": "PASS_CORRECTION_IS_NOT_TIMING_AUTHENTICATION",
+  "raw_times_are_same_instant": true,
+  "supplied_date_field_is_code_literal_and_not_independently_calibrated": true,
+  "old_318_analysis_sha256": "528801376c44ef21c991e3b896a798f565d961d6aa8c2621069cd7eec85ec361",
+  "old_clock_receipt_sha256": "de9c767b3dd62d193faa920579d1ed500590a9341176f1243a28bd50abbfb249",
+  "correction_sha256": "8cb9f465d93c192fc449bfe8b73cc16046136fe295450890e856bd4e3daf1542",
+  "no_rewrite_of_old_manifest_or_evidence": true,
+  "source_and_draw_date_unknown": true
+}

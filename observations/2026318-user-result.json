@@ -1,0 +1,29 @@
+{
+  "raw_user_318": "318期：10 鸡 36 羊 02蛇 09狗 26蛇 37马 38蛇",
+  "source": "user only, no external 318 values queried",
+  "issue": 2026318,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    10,
+    36,
+    2,
+    9,
+    26,
+    37
+  ],
+  "normal_zodiacs": [
+    "鷄",
+    "羊",
+    "蛇",
+    "狗",
+    "蛇",
+    "馬"
+  ],
+  "seventh_number": 38,
+  "seventh_zodiac": "蛇",
+  "scope": "first six for normal settlement/statistics; seventh raw history and seven-ball zodiac identity intersection only; not a special-number pick",
+  "319_received_simultaneously_and_not_blind": true,
+  "official_authentication": false
+}

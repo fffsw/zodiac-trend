@@ -1,0 +1,50 @@
+{
+  "schema": "manual_319_AFTER_OUTCOME_RECONSTRUCTION_NOT_PUBLISHED",
+  "period": 2026319,
+  "status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "selection_bias_cannot_be_excluded": true,
+  "previous_history_only_through": 2026318,
+  "target_user_result_already_seen": true,
+  "human_choice": "T01",
+  "universe": [
+    "牛",
+    "鷄",
+    "蛇",
+    "馬",
+    "狗",
+    "虎"
+  ],
+  "top": "牛",
+  "pair": [
+    "鷄",
+    "蛇"
+  ],
+  "triple": [
+    "鷄",
+    "馬",
+    "狗"
+  ],
+  "reserves": [
+    "虎"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "After-outcome manual reconstruction based on prior descriptive ledger; 35/40/45 are overlapping windows, not votes. No score, ranking, randomization, claim of pre-outcome independence, or claim that this was published.",
+  "structural_reason": "单牛偶0；共同鷄偶1；二鷄蛇均为偶数，三鷄馬狗两奇一偶。鷄缺则二三断；牛鷄同缺可致三栏全断。设计采用单与共同位错开，非固定规则。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；T05代馬、T27作共同位；馬与鼠虽同奇1但不能互补，排鼠承担其号码出现的损失。",
+    "牛": "单栏，偶0四码06/18/30/42；与羊W35/40/45期数接近，选牛只是身份覆盖决定；T02羊作反方，318出现羊不代表牛应补。",
+    "虎": "仅替补，奇2四码05/17/29/41；前六近龄13，最近十期0期、之前块仍有；T17改猴、T18改兔，替补不补栏，冷龄不是必出。",
+    "兔": "全集外，偶1四码04/16/28/40；T07替共同鷄；兔较近20期也多次出现，排兔承担有兔无鷄的身份风险。",
+    "龍": "全集外，奇0四码03/15/27/39；T06代狗、T16为共同位；龍狗同类不同号，不能据318缺龍判断续停。",
+    "蛇": "二栏B，偶2四码02/14/26/38；T04用豬反方。其前六中期分布较广，但318两球不能证明会重复；无偶2二栏断，第七蛇不参与决策。",
+    "馬": "三栏C，奇1五码01/13/25/37/49；T05以四码鼠作反方、T08改共同位；不同身份不能互补，五码仅条件模型下改变静态覆盖。",
+    "羊": "全集外，偶0四码12/24/36/48；T02为单栏反方；318前六羊出现只作历史记录，不表示必续或必停。",
+    "猴": "全集外，奇2四码11/23/35/47；T17作替补、T12作共同位反方；最近较少不能推出必补。",
+    "鷄": "二三共同A，偶1四码10/22/34/46；T07兔、T08馬为反方。多个年龄块有记录但近10占比高且40–44块为零，鷄缺二三齐断。",
+    "狗": "三栏D，奇0四码09/21/33/45；T06以龍代狗；近0–9及20–34块有记录，但有奇0不保证狗。",
+    "豬": "全集外，偶2四码08/20/32/44；T04代二蛇、T13为共同位；排豬不代表豬较弱，接受豬出蛇缺的损失。"
+  },
+  "counterarguments": "T02羊替牛、T04豬替蛇、T05鼠替馬、T06龍替狗、T07兔替共同鷄；T03同全集交换蛇馬，T08共同馬，T20单与共同鷄重叠。T17/T18仅换替补；比较不作事后排名。",
+  "joint_warning": "牛鷄同时缺三栏齐断；鷄缺二三断。无0路单三断，无1路二三断，无2路二断；无偶0单断、无偶1二三断、无偶2二断、无奇1或奇0三断；全栏需5个不同肖，路线至少2/2/1，奇偶至少2/3，仅是必要条件。",
+  "limits": "319 has already been supplied; cannot infer selection was unbiased, pre-draw, published, an independent test, predictive or superior. Actual source and mechanism unverified."
+}

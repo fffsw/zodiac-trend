@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 candidate rows match independent settlement and reserve roles",
+    "all twelve zodiac tables, five nonoverlapping blocks and complete 49-number preperiod ledger match",
+    "all six actual balls, classes and preperiod ages/frequencies reproduce frozen evidence",
+    "all named S01/S02/S03/S04/S05/S06/S07/S08/S20 role references and outcomes checked",
+    "peer substitutions, simultaneous identity mismatch and historical 2/2/2 and 1/5/0 counts independently reproduced",
+    "key result, actual structure, seven-ball intersection, 445 and uncertainty statements present and correct",
+    "all nine evidence links resolve"
+  ],
+  "report_sha256": "618f928550c1cdb40b514fc59088071d4ce1e81f18d87f527b2b5606293bb600"
+}

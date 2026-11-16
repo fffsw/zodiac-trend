@@ -1,0 +1,50 @@
+{
+  "scope": "user-authorized 318 unverified observation; not preregistration, predraw, official or source authentication",
+  "parent_commit": "a88b37fe679c32ab7883858d44cc5c230aae2182",
+  "old_homepage_sha256": "c363f9317b5dcbd57feb9afe04a397dbfb980779786b66baff5cc9bdfe4835bf",
+  "new_homepage_sha256": "c2e5cc698cb6c05493cf8b2099924abf540fe2d60dba61414de80563d410c382",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "staged_history_sha256": "107f5139da77110592bfef5985de3563489d1e3e2950ae69acb6009c4e3fce9e",
+  "staged_decisions_sha256": "7858fb135e289ba8463fe112d8a7e2e0121978010711b30feb5710c9d53d14c6",
+  "user_317_six_plus_one_inferred": [
+    31,
+    49,
+    30,
+    22,
+    43,
+    24,
+    26
+  ],
+  "user_317_date": null,
+  "selected_candidate": "S01",
+  "selected": {
+    "single": "牛",
+    "pair": [
+      "馬",
+      "豬"
+    ],
+    "triple": [
+      "馬",
+      "狗",
+      "鷄"
+    ],
+    "reserve_only": [
+      "虎"
+    ]
+  },
+  "target_result_read": false,
+  "timing_official_mechanism_and_wechat_safety_authenticated": false,
+  "prior_1047_rows_byte_identical": true,
+  "original_dirty_deploy_not_touched": true,
+  "local_qa_only_not_public_yet": true,
+  "cow_horse_joint_absence_35_40_45": [
+    10,
+    11,
+    13
+  ],
+  "prior_dog_rabbit_joint_absence_35_40_45": [
+    8,
+    10,
+    11
+  ]
+}

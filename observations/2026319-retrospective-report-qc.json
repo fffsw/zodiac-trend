@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 clearly post-outcome candidate rows match independent settlement",
+    "12 identities, five disjoint blocks and all 49 prior normal-number cells match",
+    "all six user balls, classes and prior ages/frequencies match",
+    "all named substitutions and T20/T21/T26 comparison outcomes checked, no retrospective ranking",
+    "results, cross-parity failures, exact shapes, 445 and explicit unblinded limits correct",
+    "all nine evidence links resolve"
+  ],
+  "report_sha256": "4c7069ccff778295fc755e225f35aeaeea12a9f43e4d7a389bc7734285007921",
+  "scope": "outcome-known reconstruction, not published plan, not blind forecast"
+}

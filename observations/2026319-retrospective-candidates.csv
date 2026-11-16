@@ -1,0 +1,39 @@
+candidate_id,single,double,triple,reserves,single_progress,double_progress,triple_progress,complete_columns,normal_display_balls,normal_universe_balls,normal_reserve_signs,normal_outside_universe_signs,note
+T01,牛,鷄蛇,鷄馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T02,羊,鷄蛇,鷄馬狗,虎,0/1,0/2,2/3,0,3,3,,牛 龍,after-result diagnostic only; not a rule ranking or predraw claim
+T03,牛,鷄馬,鷄蛇狗,虎,1/1,1/2,1/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T04,牛,鷄豬,鷄馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T05,牛,鷄蛇,鷄鼠狗,虎,1/1,0/2,1/3,1,2,2,,龍 馬,after-result diagnostic only; not a rule ranking or predraw claim
+T06,牛,鷄蛇,鷄馬龍,虎,1/1,0/2,2/3,1,5,5,,狗,after-result diagnostic only; not a rule ranking or predraw claim
+T07,牛,兔蛇,兔馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T08,牛,馬蛇,馬鷄狗,虎,1/1,1/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T09,牛,狗蛇,狗馬鷄,虎,1/1,1/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T10,牛,蛇鷄,蛇馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T11,牛,虎蛇,虎馬狗,鷄,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T12,牛,猴馬,猴狗鷄,虎,1/1,1/2,1/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T13,牛,豬鷄,豬馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T14,牛,羊蛇,羊馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T15,牛,鼠蛇,鼠馬狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T16,牛,龍蛇,龍馬鷄,虎,1/1,1/2,2/3,1,5,5,,狗,after-result diagnostic only; not a rule ranking or predraw claim
+T17,牛,鷄蛇,鷄馬狗,猴,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T18,牛,鷄蛇,鷄馬狗,兔,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T19,牛,鷄蛇,鷄虎狗,馬,1/1,0/2,1/3,1,2,4,馬,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T20,鷄,鷄蛇,鷄馬狗,牛 虎,0/1,0/2,2/3,0,3,4,牛,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T21,牛,牛蛇,牛馬狗,鷄 虎,1/1,1/2,3/3,2,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T22,蛇,蛇鷄,蛇馬狗,牛 虎,0/1,0/2,2/3,0,3,4,牛,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T23,馬,馬蛇,馬鷄狗,牛 虎,1/1,1/2,2/3,1,3,4,牛,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T24,狗,狗蛇,狗馬鷄,牛 虎,1/1,1/2,2/3,1,3,4,牛,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T25,虎,虎蛇,虎馬牛,狗 鷄,0/1,0/2,2/3,0,3,4,狗,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T26,牛,馬狗,馬蛇鷄,虎,1/1,2/2,1/3,2,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T27,牛,鼠馬,鼠狗鷄,虎,1/1,1/2,1/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T28,狗,羊蛇,羊馬鷄,虎,1/1,0/2,1/3,1,3,3,,牛 龍,after-result diagnostic only; not a rule ranking or predraw claim
+T29,牛,蛇豬,蛇馬鷄,虎,1/1,0/2,1/3,1,3,3,,龍 狗,after-result diagnostic only; not a rule ranking or predraw claim
+T30,牛,猴豬,猴馬鷄,虎,1/1,0/2,1/3,1,3,3,,龍 狗,after-result diagnostic only; not a rule ranking or predraw claim
+T31,馬,鷄蛇,鷄牛狗,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T32,蛇,鷄牛,鷄馬狗,虎,0/1,1/2,2/3,0,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T33,狗,鷄蛇,鷄馬牛,虎,1/1,0/2,2/3,1,4,4,,龍,after-result diagnostic only; not a rule ranking or predraw claim
+T34,鷄,兔狗,兔牛虎,鼠,0/1,1/2,1/3,0,2,2,,龍 馬,after-result diagnostic only; not a rule ranking or predraw claim
+T35,羊,龍鷄,龍鼠豬,虎,0/1,1/2,1/3,0,2,2,,牛 馬 狗,after-result diagnostic only; not a rule ranking or predraw claim
+T36,牛,兔虎,兔龍羊,鷄,1/1,0/2,1/3,1,3,3,,馬 狗,after-result diagnostic only; not a rule ranking or predraw claim
+T37,羊,豬鼠,豬鷄虎,龍,0/1,0/2,0/3,0,0,2,龍,牛 馬 狗,after-result diagnostic only; not a rule ranking or predraw claim
+T38,鷄,牛蛇,牛狗鼠,虎,0/1,1/2,2/3,0,2,2,,龍 馬,after-result diagnostic only; not a rule ranking or predraw claim

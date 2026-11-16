@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "317 review, 318 manual unverified display, live website, preserved history and local synchronization; not a real WeChat safety evaluation or proof of prediction/timing/source",
+  "checks": [
+    "non-force 318 commit and exact Pages deployment success",
+    "434 public files, 12 manifests, six negative paths and four simulated UA requests passed; four retried transparently",
+    "public browser 75, bottom 37, actual scroll 9, emulated touch 18 and entry 5 checks pass; not real WeChat",
+    "public, clone, stage and both local homepages match exact tested bytes",
+    "optimized generator and entry unchanged",
+    "1047 prior history rows byte-identical, only user 317 appended with original CRLF",
+    "user 317 first six, separate seventh, inferred issue and unknown 313–317 dates preserved",
+    "all prior manual decisions preserved; exact S01 selected, tiger reserve only",
+    "38 frozen 317 input and previous evidence files remain intact",
+    "original 68-entry dirty deploy untouched",
+    "434-file local mirror equals the exact publicly verified bytes",
+    "portable verifier independently recomputes 317 settlement, 318 candidates, 445 and twelve manifests after sync",
+    "compact full mirror archive passes checksum, CRC and file-count verification",
+    "317 loss, 318 overlapping-window adverse comparison and unchanged no-route failure matrix independently anchored",
+    "combined report preserves both original reports and all local report/index links resolve",
+    "status-only checks, clock discrepancy, no guarantee, no predraw/source/WeChat certification accurately bounded",
+    "remote still matches the clean, verified 318 commit"
+  ],
+  "complete_report_sha256": "2b0c33a7923ef940c5e941d18a3d9d99a86835694efdd9472b11238513a077ff",
+  "current_homepage_sha256": "c2e5cc698cb6c05493cf8b2099924abf540fe2d60dba61414de80563d410c382",
+  "commit": "02cb3ed748f9aa8ca9c985c9fcac8ba3907ebddd"
+}

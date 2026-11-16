@@ -1,0 +1,29 @@
+{
+  "raw_user_319": "319期：06牛 03龙15龙马13 25马 45狗5虎",
+  "source": "user only; result supplied simultaneously with 318, before reconstructed 319 decision",
+  "issue": 2026319,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    6,
+    3,
+    15,
+    13,
+    25,
+    45
+  ],
+  "normal_zodiacs": [
+    "牛",
+    "龍",
+    "龍",
+    "馬",
+    "馬",
+    "狗"
+  ],
+  "seventh_number": 5,
+  "seventh_zodiac": "虎",
+  "scope": "first six for normal settlement/statistics; seventh raw history and seven-ball zodiac identity intersection only; not a special-number pick",
+  "reconstruction_was_after_user_input": true,
+  "official_authentication": false
+}

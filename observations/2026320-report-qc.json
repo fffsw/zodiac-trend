@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all previous QCs and immediately preceding user history boundary",
+    "12 sign tables with all main-window period/ball counts, age blocks and human counterarguments",
+    "all 49 normal-ball rows, complete coverage, route/parity/wave/age/count attributes",
+    "all 38 manually written candidate rows, role coverage and minimums match independently audited records",
+    "all seven illustrative model rows and adverse comparisons correctly formatted",
+    "13 stress-scenario W35/W40/W45 frequencies match first-six records",
+    "318 published and 319 unblinded results distinguished, key numeric claims correct, all local links resolve"
+  ],
+  "report_sha256": "5499160bde66445493b4a19fa5189bc9ee94d9097373893c86856f66146664b0",
+  "scope": "arithmetic and transparent provenance only; not a prediction or source/timing certificate"
+}

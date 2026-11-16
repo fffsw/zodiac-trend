@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "target": 2026320,
+  "candidate": "U01",
+  "prior_decisions_preserved": 10,
+  "319_reconstruction_not_fabricated_as_public": true,
+  "staged_sha256": "ea2f50f015b51063086ea63dd5a4c7c3c6d2179294eabd85f7a4b89c36b25776",
+  "before_sha256": "7858fb135e289ba8463fe112d8a7e2e0121978010711b30feb5710c9d53d14c6",
+  "scope": "isolated stage only; no main history, public site or original dirty deploy changed"
+}

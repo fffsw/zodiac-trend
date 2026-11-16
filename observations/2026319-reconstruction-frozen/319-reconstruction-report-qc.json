@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent prior evidence and unblinded target status",
+    "all twelve sign, overlapping windows, disjoint blocks, manual arguments match",
+    "all 49 normal-number rows reproduce prior ledger and roles",
+    "all 38 candidate rows, roles, coverage minima, and human descriptions match audit",
+    "five ideal models correctly labelled and exact",
+    "unblinded status, outcome boundary, prior 318 completion and all evidence links correct"
+  ],
+  "report_sha256": "2841409d8f041b4eb6ac04909c33b66714415a4e48985a080880b64e325b8c4b",
+  "scope": "correct arithmetic and transparent after-outcome labeling only; not an unbiased prediction or past publication"
+}

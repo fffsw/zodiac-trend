@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "320 risk and same-universe counterarguments; no claim of real timing, source, prediction or fairness; no 320 result accessed",
+  "checks": [
+    "U01 exact human choice, shared rabbit, odd-even pair, monkey reserve, no fixed overlap",
+    "named same-class alternatives, same-universe U03/U08/U20 and structural stress claims checked against roles",
+    "complete U01 3-route and 6 cross-parity necessary-failure matrices checked",
+    "selected joint absences, rabbit/chicken identity replacement, at-most-one 1-road, and all stated 12-sign tradeoff counts recounted from first six",
+    "conditional ideal-model adverse comparisons verified; no real-mechanism inference",
+    "319 first six only used for choice; 05 tiger kept separate; no 319 reconstruction inserted as a published decision"
+  ],
+  "manual_sha256": "82892d1c2325f310a58b9e8baad5877d02ea2a2752258c1b1b2208efc9dd0722",
+  "candidate_audit_sha256": "088af0762fb2774caa5db6502a270444896351b75d436bf2bb6afebf3b4ed4f0"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "318 recorded UTC and Shanghai runtime values refer to same instant; different calendar date is expected",
+    "original session-date field is a code literal; source is not independently proven by this receipt",
+    "raw HTTP dates reproduce original status receipts; they do not authenticate draw time or independent source",
+    "old report and all 318 manifest entries unchanged; correction is separately discoverable",
+    "explicit semantic correction, truthful limitations and local evidence links"
+  ],
+  "correction_sha256": "8cb9f465d93c192fc449bfe8b73cc16046136fe295450890e856bd4e3daf1542",
+  "old_analysis_sha256": "528801376c44ef21c991e3b896a798f565d961d6aa8c2621069cd7eec85ec361",
+  "old_receipt_sha256": "de9c767b3dd62d193faa920579d1ed500590a9341176f1243a28bd50abbfb249",
+  "scope": "corrects unsupported previous clock interpretation; does not authenticate an event or infer real current time"
+}

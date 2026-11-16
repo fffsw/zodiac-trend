@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "candidate arithmetic only for 2026319; not evidence of mechanism, timing, probability advantage or unbiased 319 choice",
+  "checks": [
+    "input verified through immediately preceding user period only",
+    "319 result was already known; reconstruction is not a blind or published pre-draw plan",
+    "38 explicitly written plans and one manual choice, not a rank",
+    "38 sets, number coverage, route/parity stress matrices, joint absences and ideal models independently enumerated",
+    "candidate structures, only-reserve duplicates, shared identity concentration and overlap audited",
+    "selected roles and exactly six-sign universe match manual file; reserves never automatically fill a slot",
+    "319 named same-class alternatives, same-universe counterarguments and route claims verified against roles",
+    "main history, original public page and dirty deploy unchanged before release"
+  ],
+  "manual_sha256": "5c10fdb72504521afcea9d87b9c11c4830e2edd4b84e206b0f4856e8cd132c46",
+  "evidence_sha256": "2e4b2fd9457468f85a5344d8ab97e5de17c6db714c9f9f2869cd1d59e39b7115",
+  "candidate_sha256": "d4e392bee8892e55167ff7619a8e294a418bc6463ed04ac84324363632a52f44"
+}
