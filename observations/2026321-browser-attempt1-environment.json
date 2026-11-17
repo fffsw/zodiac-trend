@@ -1,0 +1,23 @@
+{
+  "status": "FAIL_ENVIRONMENT_NOT_PAGE",
+  "reason": "Chromium could not start because libnspr4.so and other OS libraries were missing; no browser/page checks ran",
+  "attempt_logs": [
+    {
+      "file": "local_browser_attempt1_missing_system_libs.log",
+      "sha256": "fd82a50d5aba82b821a1b1c2d3165cca03dc6d0e7016f7128da6f84193e2eea9"
+    },
+    {
+      "file": "local_mobile_attempt1_missing_system_libs.log",
+      "sha256": "52c1b9208a27a8c7f80494e8369668e5f58e7414f49d3044d5cdb0f97553ac2f"
+    },
+    {
+      "file": "local_bottom_attempt1_missing_system_libs.log",
+      "sha256": "ddc12006cddb6ac842f2a37775024455f7971be720ed319397d110db6b637ad9"
+    },
+    {
+      "file": "local_scroll_attempt1_missing_system_libs.log",
+      "sha256": "a5a36da853b2fd42040ccd3401f6b75a27608a20614210103cb2e92f54758a16"
+    }
+  ],
+  "next": "install Chromium system dependencies and rerun checks"
+}

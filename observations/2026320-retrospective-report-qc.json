@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 pre-existing candidate rows match original roles and user-only first-six settlement",
+    "all 12 prior sign windows, nonoverlapping age blocks and 49 number counts match",
+    "all six user normal balls and their frozen ages, windows and slot locations match",
+    "named U02/U07/U17/U18/U29/U37 counterfactual identities and post-result outcomes verified, never ranking",
+    "320 pre-choice peer substitution, jointly absent odd routes, exact shape and parity frequencies independently checked",
+    "actual 320 structure, real one-column completion, none-versus-one prior intersections and exact 445 descriptive scan correct",
+    "all nine local evidence links resolve"
+  ],
+  "report_sha256": "9127f1fc5d5a8143b6a99a4251f6e7ff696e871c8fecb0391d80827c93f63a4a",
+  "scope": "320 user-only normal-ball review; prior display was published but source and predraw not authenticated"
+}

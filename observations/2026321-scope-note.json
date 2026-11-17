@@ -1,0 +1,54 @@
+{
+  "scope": "user-authorized 321 unverified observation; not preregistration, predraw, official or source authentication",
+  "parent_commit": "88d4c88e44d3af79eb409c117085dbcab2dc38c1",
+  "old_homepage_sha256": "1670b0b88fe91674e725adbbda4da9b4af1b635e007147a33a5e39bc41cb783f",
+  "new_homepage_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "staged_history_sha256": "629b54819cc3e4a326811c38e66f13656c76f571b1ad70af60c7a2de5d8f15e7",
+  "staged_decisions_sha256": "c82da96de3e87061e2adf6fd87b2656b7997cc34c57adcdcb7296b4efcfab1ec",
+  "user_320_six_plus_one_inferred": [
+    14,
+    17,
+    32,
+    34,
+    24,
+    46,
+    20
+  ],
+  "user_date_320": null,
+  "320_freeze_after_user_result_not_predraw": true,
+  "320_published_U01_complete_columns": 1,
+  "319_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "selected_candidate": "V01",
+  "selected": {
+    "single": "狗",
+    "pair": [
+      "蛇",
+      "鷄"
+    ],
+    "triple": [
+      "蛇",
+      "羊",
+      "馬"
+    ],
+    "reserve_only": [
+      "豬"
+    ]
+  },
+  "target_result_read": false,
+  "timing_official_mechanism_and_wechat_safety_authenticated": false,
+  "prior_1050_rows_byte_identical": true,
+  "original_dirty_deploy_not_touched": true,
+  "local_qa_only_not_public_yet": true,
+  "dog_snake_joint_absence_35_40_45": [
+    11,
+    13,
+    14
+  ],
+  "dog_pig_joint_absence_35_40_45": [
+    11,
+    12,
+    13
+  ],
+  "320_wording_clarification_separate_originals_preserved": true
+}

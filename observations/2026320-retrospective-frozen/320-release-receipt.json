@@ -1,0 +1,85 @@
+{
+  "status": "LIVE_320_MANUAL_DISPLAY_PUBLIC_QA_PASS_WECHAT_UNKNOWN",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "project_entry": "https://fffsw.github.io/zodiac-trend/",
+  "public_index": "https://fffsw.github.io/zodiac-trend/observations/",
+  "analysis": "https://fffsw.github.io/zodiac-trend/observations/2026320-analysis.md",
+  "clock_correction": "UTC and Asia/Shanghai values denote the same instant; source/applicability of old session-date literal not independently shown; original preserved",
+  "commit": "88d4c88e44d3af79eb409c117085dbcab2dc38c1",
+  "parent_commit": "02cb3ed748f9aa8ca9c985c9fcac8ba3907ebddd",
+  "github_pages_actions": {
+    "run_id": 43862363668,
+    "head_sha": "88d4c88e44d3af79eb409c117085dbcab2dc38c1",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/43862363668",
+    "scope": "Pages deployment only; not WeChat, source, predraw or mechanism verification"
+  },
+  "page_sha256": "1670b0b88fe91674e725adbbda4da9b4af1b635e007147a33a5e39bc41cb783f",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "history_sha256": "a7a6fba7127c077325fca8e4d50896a61212923fc80ea0f99b9d3834ac026b06",
+  "manual_decisions_sha256": "ea2f50f015b51063086ea63dd5a4c7c3c6d2179294eabd85f7a4b89c36b25776",
+  "318_user_only_six_plus_one_inferred": [
+    10,
+    36,
+    2,
+    9,
+    26,
+    37,
+    38
+  ],
+  "319_user_only_six_plus_one_inferred": [
+    6,
+    3,
+    15,
+    13,
+    25,
+    45,
+    5
+  ],
+  "user_dates": {
+    "318": null,
+    "319": null
+  },
+  "prior_history_rows_byte_identical": 1048,
+  "user_history_rows_added": 2,
+  "319_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "319_result_known_before_reconstruction": true,
+  "candidate_records": 38,
+  "distinct_column_structures": 36,
+  "top_overlap_candidates": 6,
+  "site_decision": {
+    "single": "羊",
+    "pair": [
+      "兔",
+      "馬"
+    ],
+    "triple": [
+      "兔",
+      "狗",
+      "蛇"
+    ],
+    "reserve_only": [
+      "猴"
+    ]
+  },
+  "public_http_files_checked": 560,
+  "historical_and_new_manifests_checked": 13,
+  "http_checks_retried": 2,
+  "public_desktop_browser_checks": 77,
+  "public_rendered_bottom_checks": 37,
+  "public_scroll_checks": 9,
+  "public_mobile_touch_checks": 18,
+  "public_entry_checks": 5,
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_result_read": false,
+  "predraw_certified": false,
+  "official_source_or_mechanism_certified": false,
+  "wechat_warning_resolved": null,
+  "old_318_manifest_sha256": "9201cfe85d28c91fefcceb805f888cf0791fabb953b0fca400912bcf7a6b1f57",
+  "new_320_manifest_sha256": "a2e84597094b4e604489c79af2bf1cacff443f2cd7adac0a694803d7136a877f",
+  "compact_bundle_sha256": "e6068c43d44201e5f140cb7a8413e3d9256ae8d669d84b4924ba7ee9be0aea7b",
+  "compact_bundle_files": 593,
+  "prior_318_mirror_files_restored_from_verified_zip": 313,
+  "note": "Third-party existence/latest checks are not timing proof. Chromium mobile/WeChat UA emulation is not a real WeChat security verdict."
+}

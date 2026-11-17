@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "320 actual published U01 display, settled only against user-supplied first six; prior public bytes frozen after user input, with no predraw or source authentication. The 319 comparison remains explicitly after-outcome reconstructed.",
+  "plan_status": "PUBLISHED_320_UNVERIFIED_DISPLAY",
+  "checks": [
+    "user issue, six numbers, mapped identities, separate seventh and prior data boundary",
+    "all actual first-six road, cross parity, wave, size, heads, tails, sum, span and multiplicity checked",
+    "38 candidates and selected plan independently settled, including true partial completions and reserve exclusion",
+    "all 38 candidate result CSV rows match frozen roles and user input",
+    "six actual numbers, all 12 prior identity windows and disjoint age blocks independently recounted",
+    "all eight prior windows: actual shapes, three roads, six route-parity risks, shared/top and each peer substitution recounted",
+    "six-ball and seven-ball identities separated; exact 4/4/5 scan excludes eight invalid windows",
+    "ideal-only model independently enumerated; not actual probability or evidence of forecasting",
+    "frozen published 320 baseline and original dirty deploy preserved"
+  ],
+  "retrospective_sha256": "0a5055ba769c543934edfe65d0396e9ffba588a7b2deeb03b6e13f893aa8b61c",
+  "candidate_csv_sha256": "30b8114b998f9d784ecc71958327e1902547aa2b4d35efe2e368050b5d5cbfc1"
+}

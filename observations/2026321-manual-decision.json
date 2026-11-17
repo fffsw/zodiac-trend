@@ -1,0 +1,50 @@
+{
+  "schema": "manual_evidence_and_counterarguments_321",
+  "period": 2026321,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_A_FORECAST",
+  "selection_is_not_official_or_time_authenticated": true,
+  "target_result_read_or_used": false,
+  "previous_history_only_through": 2026320,
+  "human_choice": "V01",
+  "universe": [
+    "狗",
+    "蛇",
+    "鷄",
+    "羊",
+    "馬",
+    "豬"
+  ],
+  "top": "狗",
+  "pair": [
+    "蛇",
+    "鷄"
+  ],
+  "triple": [
+    "蛇",
+    "羊",
+    "馬"
+  ],
+  "reserves": [
+    "豬"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "human 12-sign and 49-number review, parallel overlapping W35/40/45, disjoint age blocks, joint absence and route-parity counterarguments; no randomization, score, candidate ranking, fixed sign or fixed overlap; no predraw authentication",
+  "structural_reason": "单狗奇0；共同蛇偶2；二蛇鷄为不同2/1路但双偶，三蛇羊馬为2/0/1路且两偶一奇。蛇缺或无偶2时二三断；无奇0只强制单断，无奇1只强制三断，无偶1只强制二断。与320原盘不同：兔缺不再直接打断两组，二栏不再需两个1路肖；代价是无2路现在强制二三断，双偶二栏在偶数至多1球时必断。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；V05替三馬。W35/40/45鼠14/16/17期、馬21/23/26期，但窗口重叠且次数不证未来；有鼠无馬9/11/11期是排鼠代价。",
+    "牛": "全集外，偶0四码06/18/30/42；V04替三羊。W35/40/45牛10/12/14期、羊11/13/15期，仅列同类覆盖差异；有牛无羊8/9/10期是选择羊的反方。",
+    "虎": "全集外，奇2四码05/17/29/41；V13作共同位、V18仅替补。320唯一奇球是虎不保证续出；不因猴较久未出现就认定虎或猴下期更强。",
+    "兔": "全集外，偶1四码04/16/28/40；320兔缺导致二三断，但不固定排兔。V03以兔替二鷄；有兔无鷄W35/40/45为8/8/11期，选鷄不能填兔。",
+    "龍": "全集外，奇0四码03/15/27/39；V02替单狗。W35狗龍均14期，W40/45龍18/19期、狗17/18期；近0–9龍4期6球、狗6期8球，选狗不是更优证明。",
+    "蛇": "二三共同A，偶2四码02/14/26/38；320蛇与豬都在前六，不能保证重复。V06同全集改共同豬；有豬无蛇W35/40/45为6/9/10期，蛇缺则二三断。",
+    "馬": "三栏D，奇1五码01/13/25/37/49；V05同奇1鼠四码对照，馬缺或无奇1使三栏断。320無奇1并不意味着321必回补，也不把馬固定。",
+    "羊": "三栏C，偶0四码12/24/36/48；V04牛为同类反方。羊W35/40/45为11/13/15期、牛10/12/14期；320羊出现不保证续出，羊缺三栏断。",
+    "猴": "全集外，奇2四码11/23/35/47；V12放共同、V17仅替补。最近十期前六0期、近龄10，不能由冷龄推出必出；虎猴同类不同码。",
+    "鷄": "二栏B，偶1四码10/22/34/46；V03兔为同类反方。W35/40/45鷄19/23/23期、兔16/18/21期；鷄近0–9为7期9球、40–44为0期，320两球不证明续出。",
+    "狗": "单栏，奇0四码09/21/33/45；V02龍为同类反方。狗近0–9为6期8球、龍4期6球，但龍W40/45期数更高；320无奇0或狗缺不意味着必反弹。",
+    "豬": "仅替补，偶2四码08/20/32/44；V06放共同、蛇改替补。蛇缺豬有W35/40/45为6/9/10期；32前六仅作历史，20第七不用于选择或补栏。"
+  },
+  "counterarguments": "V02龍替单狗、V03兔替二鷄、V04牛替三羊、V05鼠替三馬、V06豬替共同蛇；V07/V08/V10同全集位置对照，V20单与共同蛇重叠，V17/V18仅换替补。选择鷄而非兔、蛇而非豬不是统计证明，不能只因320结果追鷄或认定兔停。",
+  "joint_warning": "狗蛇同时缺可致三栏齐断，W35/40/45为11/13/14期；对照旧320羊兔同时缺11/13/15期。窗口重叠，不能说风险消失或下期概率下降；狗蛇同缺是零栏充分情景而非唯一情景。全栏须5肖、0/1/2至少2/2/1和至少2奇3偶，只是必要条件。",
+  "limits": "Source, actual mechanism, timing and fairness unverified; under an ideal fair independent model historical hot/cold and manual layouts cannot change the next draw of any specified number; no guarantee. Seventh is raw history and adjacent seven-ball zodiac identity only, never normal or special-number selection."
+}

@@ -1,0 +1,65 @@
+{
+  "scope": "user-authorized 320 unverified observation; not preregistration, predraw, official or source authentication",
+  "parent_commit": "02cb3ed748f9aa8ca9c985c9fcac8ba3907ebddd",
+  "old_homepage_sha256": "c2e5cc698cb6c05493cf8b2099924abf540fe2d60dba61414de80563d410c382",
+  "new_homepage_sha256": "1670b0b88fe91674e725adbbda4da9b4af1b635e007147a33a5e39bc41cb783f",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "staged_history_sha256": "a7a6fba7127c077325fca8e4d50896a61212923fc80ea0f99b9d3834ac026b06",
+  "staged_decisions_sha256": "ea2f50f015b51063086ea63dd5a4c7c3c6d2179294eabd85f7a4b89c36b25776",
+  "user_318_six_plus_one_inferred": [
+    10,
+    36,
+    2,
+    9,
+    26,
+    37,
+    38
+  ],
+  "user_319_six_plus_one_inferred": [
+    6,
+    3,
+    15,
+    13,
+    25,
+    45,
+    5
+  ],
+  "user_dates": {
+    "318": null,
+    "319": null
+  },
+  "319_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "319_was_already_known_before_reconstruction": true,
+  "selected_candidate": "U01",
+  "selected": {
+    "single": "羊",
+    "pair": [
+      "兔",
+      "馬"
+    ],
+    "triple": [
+      "兔",
+      "狗",
+      "蛇"
+    ],
+    "reserve_only": [
+      "猴"
+    ]
+  },
+  "target_result_read": false,
+  "timing_official_mechanism_and_wechat_safety_authenticated": false,
+  "prior_1048_rows_byte_identical": true,
+  "original_dirty_deploy_not_touched": true,
+  "local_qa_only_not_public_yet": true,
+  "sheep_rabbit_joint_absence_35_40_45": [
+    11,
+    13,
+    15
+  ],
+  "319_reconstruction_cow_chicken_joint_absence_35_40_45": [
+    10,
+    11,
+    13
+  ],
+  "clock_correction_published_separately_originals_preserved": true
+}

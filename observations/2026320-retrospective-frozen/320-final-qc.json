@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "318 review, explicitly unblinded 319 reconstruction/review, 320 manual unverified display, public website, history and local synchronization; not source, timing, real mechanism, prediction or WeChat certification",
+  "checks": [
+    "non-force exact 320 commit deployed successfully to GitHub Pages",
+    "560 public file hashes, 13 old/new manifests, 8 negative and 4 simulated-UA checks passed; two 503s retried",
+    "public Chromium checks: functionality 77, bottom 37, linked scroll 9, mobile simulation 18, entry 5; not a real WeChat verdict",
+    "public byte-verified, clean clone, isolated stage, mirror and local homepages match exactly",
+    "optimized generator and prior relative entry preserved",
+    "1048 historical rows byte-identical with original CRLF; only user 318 and 319 added",
+    "user-only 318/319 correct; six versus seventh separate; issue specified and dates unknown",
+    "prior detailed decisions preserved, 320 U01 roles exact, monkey reserve only and no fake 319 published plan",
+    "36 frozen actual 318 materials and 19 frozen post-outcome 319 reconstruction materials remain intact",
+    "318 published original and 319 explicitly unblinded reconstruction each have exactly one complete column",
+    "old 318 manifest byte-preserved and new 125-entry manifest independently checked",
+    "560-file local mirror equals the exact publicly verified bytes",
+    "portable offline verifier recomputes both settlements, 12 signs, 49 numbers, 66 pairs, 38 cases, ideal-only models, 445 and correction",
+    "593-entry portable ZIP passes CRC, SHA-256 and per-file mirror equality",
+    "original 318 verified ZIP intact; missing local mirror entries restored without overwriting prior bytes",
+    "combined report retains four immutable originals, publication appendix and all local report/index links resolve",
+    "318 clock correction publicly indexed and independently verified; no retroactive dating claim",
+    "status-only checks never prove timing/source; no preregistration, actual 320 result or real WeChat verdict claimed",
+    "original 68-entry dirty deploy untouched; clean remote still equals verified commit"
+  ],
+  "combined_report_sha256": "90e8b7b99f760b0c523587fe5e294dcaa39ae91f079cead16b07621d8e20ff1f",
+  "current_homepage_sha256": "1670b0b88fe91674e725adbbda4da9b4af1b635e007147a33a5e39bc41cb783f",
+  "bundle_sha256": "e6068c43d44201e5f140cb7a8413e3d9256ae8d669d84b4924ba7ee9be0aea7b",
+  "commit": "88d4c88e44d3af79eb409c117085dbcab2dc38c1"
+}

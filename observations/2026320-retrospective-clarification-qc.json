@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "clarifies U07 grouping only; no original report, original QC, decisions or history changed",
+  "original_report_sha256": "9127f1fc5d5a8143b6a99a4251f6e7ff696e871c8fecb0391d80827c93f63a4a",
+  "original_qc_sha256": "4924d545d439c74275f8a9108fcd08a4f4a34084fdaa98c5d3d5fb4ea5340113",
+  "clarification_sha256": "990d91b7aa53adbcb4a366662e492f81783f2cb7fbcf1e2f186beb9288f78e6a",
+  "U07": [
+    "1/1",
+    "1/2",
+    "2/3",
+    1
+  ],
+  "U01": [
+    "1/1",
+    "0/2",
+    "1/3",
+    1
+  ]
+}

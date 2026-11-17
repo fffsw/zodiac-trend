@@ -1,0 +1,5 @@
+{
+  "status": "FAILED_NO_MUTATION",
+  "reason": "command used relative scripts/task279_stage_321_manual_decision.py from isolated stage; file is in workspace root scripts; Python never opened script",
+  "next": "run absolute path, then generate page from isolated cwd"
+}

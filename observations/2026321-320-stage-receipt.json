@@ -1,0 +1,33 @@
+{
+  "status": "STAGED_USER_320_FOR_321_UNAUTHENTICATED_DISPLAY",
+  "period_user_specified": true,
+  "six_plus_one_inferred": true,
+  "period": 2026320,
+  "normal_numbers": [
+    14,
+    17,
+    32,
+    34,
+    24,
+    46
+  ],
+  "normal_zodiacs": [
+    "蛇",
+    "虎",
+    "豬",
+    "鷄",
+    "羊",
+    "鷄"
+  ],
+  "seventh_number": 20,
+  "seventh_zodiac": "豬",
+  "date": null,
+  "prior_sha256": "a7a6fba7127c077325fca8e4d50896a61212923fc80ea0f99b9d3834ac026b06",
+  "staged_sha256": "629b54819cc3e4a326811c38e66f13656c76f571b1ad70af60c7a2de5d8f15e7",
+  "prior_rows_byte_identical": 1050,
+  "record_count": 1051,
+  "319_reconstruction_not_fabricated_as_published_site_decision": true,
+  "320_published_decision_preserved": true,
+  "main_history_and_public_site_changed_at_staging": false,
+  "no_321_result_queried_or_used": true
+}
