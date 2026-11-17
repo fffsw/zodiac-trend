@@ -1,0 +1,12 @@
+{
+  "scope": "ancillary observations index repair only; no homepage, draw data, prior evidence, selections, pre-registration, source or timing change",
+  "parent_commit": "69f05f7a1996098c79514a72a2dce09f021bbbab",
+  "observed_directory_http_status_before_repair": 404,
+  "homepage_sha256_unchanged": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "index_html_sha256": "e38dccf41fb9beef31e4436fbaf87ffbbc0ca4398dd7cc5f3f24a9767da57b43",
+  "index_entries": 20,
+  "no_external_scripts_or_assets": true,
+  "original_320_and_321_manifests_unchanged": true,
+  "target_status_observation_not_predraw_proof": true,
+  "real_wechat_safety_unknown": true
+}
