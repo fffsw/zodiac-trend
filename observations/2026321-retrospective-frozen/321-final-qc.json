@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "320 user-only retrospective and 321 public display structural verification; not source, clock, actual mechanism, pre-draw, WeChat safety or outcome certification",
+  "selection_commit": "69f05f7a1996098c79514a72a2dce09f021bbbab",
+  "index_repair_commit": "97927e051f53417dfc0ee29958a34c19d1e630b1",
+  "page_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "bundle_sha256": "7e8a98eb3e5ad3558fa941d2e47ba8ea0a5dc9e47949f69d25d4dc80412491ee",
+  "bundle_files": 708,
+  "checks": [
+    "1050 prior CRLF rows retained byte-for-byte; exact user-only 320 six and separate seventh, blank date and no fabricated 321 result",
+    "all prior decisions preserved; no fabricated 319 decision, exact 321 manual slots and reserve",
+    "public/staged/local homepage bytes match; optimized generator and root entry unchanged; ancillary index repaired separately",
+    "original 320 report and QC preserved, ambiguous U07 wording clarified; combined report and all local links verified",
+    "two non-force commits and Pages deployments, 663 public files, 15 manifests, index and browser checks verified; no real WeChat verdict",
+    "708-file offline bundle byte-identical to mirror; all 15 manifests and independent portable verifier pass",
+    "old verified ZIPs preserved, restored mirror conflicts refused, original 68-entry dirty deploy untouched",
+    "provenance limits, post-result 320 freeze, lack of forecast guarantee and unknown WeChat status not overstated"
+  ]
+}

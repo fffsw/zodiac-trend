@@ -1,0 +1,29 @@
+{
+  "raw_user_input": "322期47猴31鼠43鼠17虎08猪30牛07鼠",
+  "source": "user only; no external draw numbers queried or substituted",
+  "issue": 2026322,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    47,
+    31,
+    43,
+    17,
+    8,
+    30
+  ],
+  "normal_zodiacs": [
+    "猴",
+    "鼠",
+    "鼠",
+    "虎",
+    "豬",
+    "牛"
+  ],
+  "seventh_number": 7,
+  "seventh_zodiac": "鼠",
+  "scope": "first six only for normal settlement/statistics and next selection; seventh only raw history and seven-ball zodiac identity intersection; no special-number picks",
+  "official_authentication": false,
+  "target_result_already_supplied_before_322_reconstruction": true
+}

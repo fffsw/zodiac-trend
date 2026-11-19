@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "candidate arithmetic only for unblinded 2026322 reconstruction; not evidence of publication, mechanism, timing, probability advantage or outcome guarantee",
+  "checks": [
+    "input verified through immediately preceding user period only",
+    "322 was known before reconstruction; no blind, pre-draw or published claim",
+    "38 explicitly written plans and one manual choice, not a rank",
+    "38 sets, number coverage, route/parity stress matrices, joint absences and ideal models independently enumerated",
+    "candidate structures, only-reserve duplicates, shared identity concentration and overlap audited",
+    "selected roles and exactly six-sign universe match manual file; reserves never automatically fill a slot",
+    "all 38 previous V structures retained; selected W01 traces to V10; odd/even and 1-road tradeoffs independently checked",
+    "main history, original public page and dirty deploy unchanged during reconstruction"
+  ],
+  "manual_sha256": "b629e1cf33228e8ab63502a220690c46922b20fbda306ef3ed1ce6be3b69a077",
+  "evidence_sha256": "de44fa556a0cf35dc0324ec04d8b00a9155f1b57cf76fed6a2a4aa13036f9411",
+  "candidate_sha256": "bff16fe2ef0105e35aa4bd3d721783a4d49f9ecc6b74458dcb0535898f828da1"
+}

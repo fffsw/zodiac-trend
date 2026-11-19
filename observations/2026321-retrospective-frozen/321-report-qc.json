@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "independent evidence/candidate/retrospective QCs and no target outcome",
+    "all 12 zodiac rows including W35/40/45 period/ball counts and mutually exclusive age blocks",
+    "all 49 number rows and first-six only attributes match the independently audited ledger",
+    "all 38 manually authored candidates, actual roles, reserves and necessary structural minima",
+    "nine ideal-only model rows, including old U01 and all adverse same-universe comparisons",
+    "13 historical stress scenarios and V01/V10 countervailing forced-failure conditions",
+    "320 actual completion, user-only input, 319 reconstruction, 445 exact seven-ball scope, no timing claim, clarification, all local links"
+  ],
+  "report_sha256": "dca296ddd49cad6a4f08c742ab8f491f16d00b5dbe69825fb5aef373cb01c53d",
+  "scope": "arithmetic and transparent provenance only; not a prediction, source/timing or WeChat certificate"
+}

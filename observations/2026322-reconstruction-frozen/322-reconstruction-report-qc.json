@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "322 unblinded reconstruction report; known result, not predraw",
+  "checks": [
+    "38 source-mapped inherited candidate structures, all model minima and labels verified",
+    "known-outcome, non-publication and non-independence disclosures present",
+    "seven local evidence links resolve"
+  ],
+  "report_sha256": "bd325cb987cf5d6c5b4d41a4ea845ae34f4466c3175a1bc9dc9d7d3b811a435a"
+}

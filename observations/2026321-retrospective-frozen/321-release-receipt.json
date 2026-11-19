@@ -1,0 +1,107 @@
+{
+  "status": "LIVE_321_MANUAL_DISPLAY_PUBLIC_QA_PASS_WECHAT_UNKNOWN",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "project_entry": "https://fffsw.github.io/zodiac-trend/",
+  "public_index": "https://fffsw.github.io/zodiac-trend/observations/",
+  "analysis": "https://fffsw.github.io/zodiac-trend/observations/2026321-analysis.md",
+  "review": "https://fffsw.github.io/zodiac-trend/observations/2026320-retrospective-public.md",
+  "selection_commit": "69f05f7a1996098c79514a72a2dce09f021bbbab",
+  "index_repair_commit": "97927e051f53417dfc0ee29958a34c19d1e630b1",
+  "previous_320_commit": "88d4c88e44d3af79eb409c117085dbcab2dc38c1",
+  "github_pages_selection_actions": {
+    "run_id": 44082872601,
+    "head_sha": "69f05f7a1996098c79514a72a2dce09f021bbbab",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/44082872601",
+    "scope": "Pages deployment only; not WeChat, source, predraw or mechanism verification"
+  },
+  "github_pages_index_repair_actions": {
+    "run_id": 44083678914,
+    "head_sha": "97927e051f53417dfc0ee29958a34c19d1e630b1",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/44083678914",
+    "scope": "Pages index repair only; not WeChat, source, predraw or mechanism verification"
+  },
+  "page_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "index_sha256": "e38dccf41fb9beef31e4436fbaf87ffbbc0ca4398dd7cc5f3f24a9767da57b43",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "history_sha256": "629b54819cc3e4a326811c38e66f13656c76f571b1ad70af60c7a2de5d8f15e7",
+  "manual_decisions_sha256": "c82da96de3e87061e2adf6fd87b2656b7997cc34c57adcdcb7296b4efcfab1ec",
+  "user_320_six_plus_one_inferred": [
+    14,
+    17,
+    32,
+    34,
+    24,
+    46,
+    20
+  ],
+  "user_date_320": null,
+  "prior_history_rows_byte_identical": 1050,
+  "user_history_rows_added": 1,
+  "320_plan_status": "PUBLISHED_320_UNVERIFIED_DISPLAY_FROZEN_AFTER_USER_RESULT",
+  "320_settlement": {
+    "single": "1/1",
+    "pair": "0/2",
+    "triple": "1/3",
+    "complete_columns": 1
+  },
+  "319_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "candidate_records": 38,
+  "distinct_column_structures": 36,
+  "top_overlap_candidates": 6,
+  "site_decision": {
+    "single": "狗",
+    "pair": [
+      "蛇",
+      "鷄"
+    ],
+    "triple": [
+      "蛇",
+      "羊",
+      "馬"
+    ],
+    "reserve_only": [
+      "豬"
+    ]
+  },
+  "public_http_files_checked": 663,
+  "historical_and_new_manifests_checked": 15,
+  "directory_index_before": 404,
+  "directory_index_after": 200,
+  "final_http_checks_retried": 0,
+  "pre_index_fix_http_checks_retried": 2,
+  "public_desktop_browser_checks": 80,
+  "public_rendered_bottom_checks": 37,
+  "public_scroll_checks": 9,
+  "public_mobile_touch_checks": 18,
+  "public_entry_checks": 5,
+  "public_index_browser_checks": 17,
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_result_read": false,
+  "predraw_certified": false,
+  "official_source_or_mechanism_certified": false,
+  "wechat_warning_resolved": null,
+  "old_320_manifest_sha256": "a2e84597094b4e604489c79af2bf1cacff443f2cd7adac0a694803d7136a877f",
+  "new_321_manifest_sha256": "dc57a33add9ef9d3a6ba5c8dcf784844232f80dc73c3d017081fa05b0a009810",
+  "index_repair_manifest_sha256": "786e861b8cd082ad1b23a6613dcfb6f42a17dddf02a80c642dfb360fc14dc433",
+  "compact_bundle_sha256": "7e8a98eb3e5ad3558fa941d2e47ba8ea0a5dc9e47949f69d25d4dc80412491ee",
+  "compact_bundle_files": 708,
+  "historical_mirror_restore": [
+    {
+      "mirror": "318",
+      "verified_zip_entries": 458,
+      "already_present_and_preserved": 145,
+      "missing_restored_without_overwrite": 313
+    },
+    {
+      "mirror": "320",
+      "verified_zip_entries": 593,
+      "already_present_and_preserved": 135,
+      "missing_restored_without_overwrite": 458
+    }
+  ],
+  "note": "Third-party existence/latest checks are not timing proof. Chromium mobile/WeChat UA emulation is not a real WeChat security verdict."
+}

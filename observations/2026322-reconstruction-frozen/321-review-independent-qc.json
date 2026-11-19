@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "321 actual published V01 display, settled only against user-supplied first six; public bytes frozen after user supplied 321 and 322, with no predraw or source authentication. 322 is already known and any forthcoming 322 selection must be labeled unblinded reconstruction.",
+  "plan_status": "PUBLISHED_321_UNVERIFIED_DISPLAY",
+  "checks": [
+    "user issue, six numbers, mapped identities, separate seventh and prior data boundary",
+    "all actual first-six road, cross parity, wave, size, heads, tails, sum, span and multiplicity checked",
+    "38 candidates and selected plan independently settled, including true partial completions and reserve exclusion",
+    "all 38 candidate result CSV rows match frozen roles and user input",
+    "six actual numbers, all 12 prior identity windows and disjoint age blocks independently recounted",
+    "all eight prior windows: actual shapes, three roads, six route-parity risks, shared/top and each peer substitution recounted",
+    "six-ball and seven-ball identities separated; exact 4/4/5 scan excludes eight invalid windows",
+    "ideal-only model independently enumerated; not actual probability or evidence of forecasting",
+    "frozen published 321 baseline and original dirty deploy preserved; freeze after user result"
+  ],
+  "retrospective_sha256": "cea368672c013ce440c0f12b3ab91580cf3df183b35ece1d07cd765e741dd552",
+  "candidate_csv_sha256": "772e895327298b198d9c056a419f75a2bf595b7fe598996a64beffcd6b61ba77"
+}

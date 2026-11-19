@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "12 sign rows, 49 number rows independently cross-checked",
+    "13 stress-window rows, six hypothetical-model rows and 21-code display attributes checked",
+    "445 descriptive scope and no forecast interpretation checked"
+  ],
+  "report_sha256": "3d7e2a4916b14e0493c484fc7632a0177d4a59735943baa471fc4967f2c938d8"
+}

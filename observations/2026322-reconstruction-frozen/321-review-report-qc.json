@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 pre-existing V candidate rows match original roles and user-only first-six settlement",
+    "all 12 prior sign windows, nonoverlapping age blocks and 49 number counts match",
+    "all six user normal balls and their frozen ages, windows and slot locations match",
+    "named same-class and V29/V33/V36 counterfactuals independently settled, never ranked",
+    "pre-choice pig/snake substitution, jointly absent even routes, actual shape and parity frequencies independently checked",
+    "actual 321 structure, one-column completion, first-six versus seven-ball intersection, correct 445 scan and timing limits",
+    "all nine local evidence links resolve"
+  ],
+  "report_sha256": "d263ff566548325933702a9da8f74b5fc1d586c4dce36972c9cb239bf11487ee",
+  "scope": "321 user-only normal-ball review; prior display was published but source and predraw not authenticated; 322 already known"
+}

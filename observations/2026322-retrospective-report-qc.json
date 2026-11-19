@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 source-mapped reconstruction outcomes match first-six settlement",
+    "12 zodiac prior windows, nonoverlapping age blocks and 49 number counts match",
+    "six actual normal balls and frozen ages, windows, positions match",
+    "named counterfactual identities and 33/5 distribution verified; no ranking",
+    "joint absence, peer replacement and actual-structure history counts verified",
+    "actual 322 structure, zero-completion reconstruction, boundary and 445 scan verified",
+    "all nine local evidence links resolve"
+  ],
+  "report_sha256": "51a8ff13c441c03ec13949ef1ff14b8b2c32d2abfe622aad547e40c88cf76cb3",
+  "scope": "322 outcome-known comparison review; not published, blind or pre-draw"
+}

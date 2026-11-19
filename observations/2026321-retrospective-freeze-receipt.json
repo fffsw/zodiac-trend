@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_INPUT_NOT_PREDRAW_CERTIFICATION",
+  "frozen_files": 40,
+  "321_published_page_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "user_321_sha256": "187080557355fb12c197d01c43c20588143d68c2e7b70daa8289b8fe4230b084",
+  "user_322_queued_sha256": "d38318264a9d9afa8340b10a4bca9c32b98fc95b23dd8eda8d71e4b5272e6867",
+  "prior_public_commit": "97927e051f53417dfc0ee29958a34c19d1e630b1",
+  "prior_public_manifests_and_bundle_verified": true,
+  "322_was_already_supplied_before_reconstruction": true,
+  "main_history_and_dirty_deploy_untouched": true,
+  "server_date_header_raw_unverified": "Thu, 19 Nov 2026 10:17:28 GMT"
+}

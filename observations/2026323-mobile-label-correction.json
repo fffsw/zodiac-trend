@@ -1,0 +1,12 @@
+{
+  "status": "QA_LABEL_CORRECTED_BEFORE_PUBLICATION",
+  "original_mobile_check_label": "synthetic local 321 fixture updates identifier",
+  "actual_asserted_synthetic_issue": 2026323,
+  "actual_next_identifier_asserted": 2026324,
+  "correction": "synthetic local 323 fixture updates identifier",
+  "original_result_preserved": "2026323-local-mobile-qc.json",
+  "independently_rerun_result": "2026323-local-mobile-corrected-qc.json",
+  "unpublished_previous_script_sha256": "94f3fd4999bc22b5b8c314aff4a28c141845681c22435d82c36cc4cb6e683ba6",
+  "corrected_script_sha256": "e3c2f5aecd96775acdfc971b52dfd3b43410dea229b899ac3d53c337082af5d7",
+  "scope": "label correction only; actual user data and 323 selection unchanged; synthetic fixture is not a result"
+}

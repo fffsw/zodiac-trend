@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "321 risk and counterarguments; no claim of real timing, source, prediction or fairness; no 321 result accessed",
+  "checks": [
+    "V01 exact human choice, shared snake, cross-route even-even pair, pig reserve",
+    "named same-class and same-universe V06/V07/V08/V10/V20 alternatives verified, including duplicated routes and reserve-only changes",
+    "complete V01 3-route and 6 crossed-parity necessary-failure matrices; pair and triple each need two different even signs",
+    "joint absence, substitute-sign risks, missing-road pressure and all stated selected sign windows independently recounted",
+    "ideal-only model exposes worse pair and zero-column versus old U01, better triple, same-universe V10 and V20 counterarguments; no real-mechanism inference",
+    "320 six and separately stored seventh checked; a hypothetical replay is diagnostic only and all candidates are correlated"
+  ],
+  "manual_sha256": "a0a7838ae449fbcccdbe9ee5a6a5a518c34d189b16e525c5ae404f8211573e31",
+  "candidate_audit_sha256": "e2ede9821a191be515ffe51443e156c249aaf285858dbac7781aad096c1af740"
+}

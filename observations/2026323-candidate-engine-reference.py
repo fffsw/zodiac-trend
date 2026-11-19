@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+"""Audit already manually written 323 designs; never select or rank; 323 result not looked up."""
+from pathlib import Path
+from collections import Counter,defaultdict
+from itertools import combinations
+from math import comb
+import csv,hashlib,json,sys
+R=Path('/home/user');target=int(sys.argv[1]);assert target==2026323;A=R/'archive/task283_323_release';O=A/'analysis';J=lambda n:json.loads((O/n).read_text(encoding='utf8'));data=J('handcrafted_candidates.json');decision=J('manual_decision.json');e=J('evidence.json');Z=list('鼠牛虎兔龍蛇馬羊猴鷄狗豬');assert len(data['candidates'])==38 and data['proposed_id']==decision['human_choice'];groups={z:e['per_zodiac'][z]['numbers'] for z in Z};assert all(len({n%3 for n in v})==len({n%2 for n in v})==1 for v in groups.values());den=comb(49,6)
+def req(gs):
+ road=Counter(groups[z][0]%3 for z in gs);odd=sum(groups[z][0]%2 for z in gs);return {'distinct_zodiacs':len(gs),'road_min':[road[k] for k in range(3)],'odd_min':odd,'even_min':len(gs)-odd,'cross_road_parity_min':{f'{k}_{p}':sum(groups[z][0]%3==k and groups[z][0]%2==(p=='odd') for z in gs) for k in range(3) for p in ('odd','even')}}
+def cnt(gs):
+ gs=list(gs);return sum((-1)**k*sum(comb(49-sum(len(groups[z]) for z in t),6) for t in combinations(gs,k)) for k in range(len(gs)+1))
+def metrics(slots):
+ S,P,T=[slots[k] for k in ('single','pair','triple')];s,p,t=map(cnt,(S,P,T));sp,st,pt=map(cnt,(S|P,S|T,P|T));all3=cnt(S|P|T);none=den-s-p-t+sp+st+pt-all3
+ return {'single_pct':100*s/den,'pair_pct':100*p/den,'triple_pct':100*t/den,'all_columns_pct':100*all3/den,'no_column_pct':100*none/den,'pair_and_triple_pct':100*pt/den}
+pairkey=lambda a,b:'|'.join(sorted([a,b],key=Z.index));seen=set();canon=defaultdict(list);out=[]
+for c in data['candidates']:
+ assert c['id'] not in seen;seen.add(c['id']);r=c['roles'];assert set(r)==set(('top','A','B','C','D')) and all(z in Z for z in r.values()) and len({r[k] for k in 'ABCD'})==4
+ shown=set(r.values());reserve=c['reserves'];assert len(reserve)==len(set(reserve)) and not shown.intersection(reserve) and len(shown|set(reserve))==6 and len(c['comparison'])>10
+ slots={'single':{r['top']},'pair':{r['A'],r['B']},'triple':{r['A'],r['C'],r['D']},'all_columns':shown};assert [len(slots[k]) for k in ('single','pair','triple')]==[1,2,3]
+ signature=(r['top'],frozenset(slots['pair']),frozenset(slots['triple']));canon[signature].append(c['id']);ns=sorted(n for z in shown for n in groups[z]);uns=sorted(n for z in shown|set(reserve) for n in groups[z]);assert len(ns)==len(set(ns)) and len(uns)==len(set(uns))
+ route={str(k):[label for label in ('single','pair','triple') if any(groups[z][0]%3==k for z in slots[label])] for k in range(3)}
+ cross={f'{k}_{p}':[label for label in ('single','pair','triple') if any(groups[z][0]%3==k and groups[z][0]%2==(p=='odd') for z in slots[label])] for k in range(3) for p in ('odd','even')}
+ joint={str(w):(e['structural_windows'][str(w)]['no_'+r['top']+'_periods'] if r['top']==r['A'] else e['joint_zodiac_absence_periods'][str(w)][pairkey(r['top'],r['A'])]) for w in (35,40,45)}
+ peer={str(w):e['same_route_parity_peer_present_target_absent_periods'][str(w)][r['A']] for w in (35,40,45)}
+ out.append({'id':c['id'],'roles':r,'reserves':reserve,'displayed_zodiacs':[z for z in Z if z in shown],'universe':[z for z in Z if z in shown|set(reserve)],'top_overlaps_ABCD':r['top'] in {r[k] for k in 'ABCD'},'displayed_number_count':len(ns),'universe_number_count':len(uns),'display_numbers':ns,'universe_numbers':uns,'display_road_counts':[sum(n%3==k for n in ns) for k in range(3)],'display_odd_even':[sum(n%2 for n in ns),sum(n%2==0 for n in ns)],'display_waves':[sum(e['per_number'][str(n)]['wave']==v for n in ns) for v in ('紅','藍','綠')],'display_heads':[sum(n//10==k for n in ns) for k in range(5)],'display_tails':[sum(n%10==k for n in ns) for k in range(10)],'minimums':{k:req(v) for k,v in slots.items()},'no_route_forced_incomplete_columns':route,'no_road_parity_forced_incomplete_columns':cross,'top_and_shared_both_absent_history':joint,'shared_missing_peer_present_history':peer,'ideal_model_probabilities_percent':metrics(slots),'comparison':c['comparison']})
+sel=next(x for x in out if x['id']==data['proposed_id']);r=sel['roles'];assert decision['top']==r['top'] and decision['pair']==[r['A'],r['B']] and decision['triple']==[r['A'],r['C'],r['D']] and decision['reserves']==sel['reserves'] and set(decision['universe'])==set(sel['universe'])
+dupes=[v for v in canon.values() if len(v)>1];overlap=[x['id'] for x in out if x['top_overlaps_ABCD']];As=Counter(x['roles']['A'] for x in out);assert set(As)==set(Z)
+result={'status':'PASS','selection_source':'manual_decision.json; metrics do not choose, score or rank','target_already_known_not_blind':False,'candidate_count':len(out),'unique_column_structures':len(canon),'duplicate_groups_ignoring_reserve':dupes,'top_overlap_candidate_count':len(overlap),'top_overlap_candidates':overlap,'shared_A_counts':dict(As),'joint_absence_source':'first six only; overlapping windows; not predictions or independent votes','ideal_model':'49 equally likely distinct numbers, six drawn without replacement; not a claim about actual fairness or forecast','selected':sel,'candidates':out,'input_sha256':{n:hashlib.sha256((O/n).read_bytes()).hexdigest() for n in ('handcrafted_candidates.json','manual_decision.json','evidence.json')}}
+p=O/'candidate_audit.json';assert not p.exists();p.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+with (O/'candidate_audit.csv').open('x',encoding='utf8',newline='') as f:
+ w=csv.writer(f);w.writerow(['id','single','pair','triple','reserve','top_overlap','displayed_codes','universe_codes','all_min_0_1_2','all_min_odd_even','triple_min_0_1_2','triple_min_odd_even','no_0route_forced_incomplete','no_1route_forced_incomplete','no_2route_forced_incomplete','no_odd0_forced_incomplete','no_even0_forced_incomplete','no_odd1_forced_incomplete','no_even1_forced_incomplete','no_odd2_forced_incomplete','no_even2_forced_incomplete','top_and_shared_absent_W35_W40_W45','ideal_single_pct','ideal_pair_pct','ideal_triple_pct','ideal_all_pct','ideal_zero_pct','manual_comparison'])
+ for x in out:
+  r=x['roles'];a=x['minimums']['all_columns'];t=x['minimums']['triple'];p=x['ideal_model_probabilities_percent'];w.writerow([x['id'],r['top'],r['A']+r['B'],r['A']+r['C']+r['D'],' '.join(x['reserves']),x['top_overlaps_ABCD'],x['displayed_number_count'],x['universe_number_count'],'/'.join(map(str,a['road_min'])),f"{a['odd_min']}/{a['even_min']}",'/'.join(map(str,t['road_min'])),f"{t['odd_min']}/{t['even_min']}"]+['+'.join(x['no_route_forced_incomplete_columns'][str(k)]) for k in range(3)]+['+'.join(x['no_road_parity_forced_incomplete_columns'][f'{k}_{q}']) for k in range(3) for q in ('odd','even')]+['/'.join(str(x['top_and_shared_both_absent_history'][str(w)]) for w in (35,40,45))]+[f'{p[k]:.6f}' for k in ('single_pct','pair_pct','triple_pct','all_columns_pct','no_column_pct')]+[x['comparison']])
+print('PASS',target,'38 manually authored candidates,',len(canon),'distinct slot structures,',len(overlap),'overlaps; joint risks; no ranking')
+print(json.dumps({'selected':sel,'duplicate_groups':dupes,'A_counts':dict(As)},ensure_ascii=False,indent=2))

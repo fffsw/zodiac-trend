@@ -1,0 +1,50 @@
+{
+  "schema": "manual_evidence_and_counterarguments_323",
+  "period": 2026323,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_A_FORECAST_GUARANTEE",
+  "selection_is_not_official_or_time_authenticated": true,
+  "target_result_read_or_used": false,
+  "previous_history_only_through": 2026322,
+  "human_choice": "X01",
+  "universe": [
+    "兔",
+    "蛇",
+    "狗",
+    "牛",
+    "馬",
+    "豬"
+  ],
+  "top": "兔",
+  "pair": [
+    "蛇",
+    "狗"
+  ],
+  "triple": [
+    "蛇",
+    "牛",
+    "馬"
+  ],
+  "reserves": [
+    "豬"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "Human choice to illustrate diverse routes and parity; 12-sign and 49-number review, overlapping W35/40/45, disjoint age blocks and counterarguments. Not a forecast advantage, not a fixed sign, no score or ranking.",
+  "structural_reason": "单兔偶1；共同蛇偶2；二蛇狗跨2/0路且一奇一偶，三蛇牛馬为2/0/1路，两偶一奇。相对322重建W01二馬鷄需两个1路身份，此二栏不再集中1路；相对321 V01双偶二栏，改成一奇一偶。但蛇缺或无偶2二三断，无奇0二断，三仍要求两个不同偶肖；只是更换风险，不证明改善。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；X05代三馬。322前六31、43出现不证明续出或停止，马缺鼠有W35/40/45为9/11/12期。",
+    "牛": "三栏C，偶0四码06/18/30/42；X04同类羊反方，有羊无牛W35/40/45为9/9/10期；322 30牛出现不证明续出。",
+    "虎": "全集外，奇2四码05/17/29/41；X12共同虎反方。322前六17出现不保证续出；321第七41不参与选择。",
+    "兔": "单栏，偶1四码04/16/28/40；X02同类鷄反方。兔截至322前六近龄6、W35/40/45为15/18/20期，有鷄无兔11/11/13期；历史不是下一期依据。",
+    "龍": "全集外，奇0四码03/15/27/39；X03替二狗，有龍无狗W35/40/45为6/7/9期；具体身份不能互补。",
+    "蛇": "二三共同A，偶2四码02/14/26/38；X06同全集换豬，有豬无蛇W35/40/45为7/10/12期；蛇缺或无偶2二三断。",
+    "馬": "三栏D，奇1五码01/13/25/37/49；X05鼠为同类反方。322两个1路球皆为鼠，不证明323馬会回补；馬缺三栏断，不固定馬。",
+    "羊": "全集外，偶0四码12/24/36/48；X04替牛，羊与牛同类不同号码，不因322牛出现就认定羊或牛续停。",
+    "猴": "全集外，奇2四码11/23/35/47；X13作共同位、X17仅替补。321和322都出现47猴不证明下期必继续或停止。",
+    "鷄": "全集外，偶1四码10/22/34/46；X02替单兔。其W35/40/45为19/21/23期、兔15/18/20期，但窗口重叠，历史较多不证明未来优劣。",
+    "狗": "二栏B，奇0四码09/21/33/45；X03龍反方；322无奇0不保证323回补。无奇0使二栏断。",
+    "豬": "仅替补，偶2四码08/20/32/44；X06改共同豬、蛇退替补。321和322的08豬仅是历史，不自动补蛇或预测下一期。"
+  },
+  "counterarguments": "X02鷄替单兔、X03龍替二狗、X04羊替三牛、X05鼠替三馬、X06豬替共同蛇；X07/X08/X10同全集位置对照，X20单与共同蛇重叠，X17/X18只换替补。選蛇不证明优于豬，历史窗口不是预测证据。",
+  "joint_warning": "兔蛇同时缺可致三栏齐断，W35/40/45为8/9/10期；有豬无蛇7/10/12期。有兩奇或两偶、各路都有仍不能保证具体身份。全栏需5肖、0/1/2至少2/2/1、至少2奇3偶，仅为必要条件。",
+  "limits": "Actual source, 323 status, clock and mechanism unverified. If independent fair draws, history and manual structure do not predict a future draw. No outcome guarantee. Seventh only raw history and adjacent seven-ball identity; never normal or special-number selection."
+}

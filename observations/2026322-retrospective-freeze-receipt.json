@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_ONLY_FOR_TRANSPARENT_POST_OUTCOME_SETTLEMENT",
+  "before_file_count": 21,
+  "before_manifest_sha256": "37df2a7a750b2b1233e47fa301b72b0aece6b5c2b969e87093464800fb709c79",
+  "input_sha256": "d38318264a9d9afa8340b10a4bca9c32b98fc95b23dd8eda8d71e4b5272e6867",
+  "322_result_was_seen_before_reconstruction": true,
+  "no_blind_predraw_published_claim": true,
+  "date": null,
+  "public_322_was_not_fabricated": true
+}

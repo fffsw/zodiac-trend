@@ -1,0 +1,32 @@
+{
+  "status": "STAGED_USER_322_FOR_323_ANALYSIS",
+  "period_user_specified": true,
+  "six_plus_one_inferred": true,
+  "period": 2026322,
+  "normal_numbers": [
+    47,
+    31,
+    43,
+    17,
+    8,
+    30
+  ],
+  "normal_zodiacs": [
+    "猴",
+    "鼠",
+    "鼠",
+    "虎",
+    "豬",
+    "牛"
+  ],
+  "seventh_number": 7,
+  "seventh_zodiac": "鼠",
+  "date": null,
+  "prior_sha256": "bbdd086147a395931f4489a3d911390e56da2457cc9836e5954cb59937be563a",
+  "staged_sha256": "762450e9aa5dcbe78f2af237a2c40eb114eadfbc9668bee14c45243831b51818",
+  "prior_rows_byte_identical": 1052,
+  "record_count": 1053,
+  "322_reconstruction_was_not_written_as_a_published_decision": true,
+  "323_result_not_in_stage_or_queried": true,
+  "main_history_and_public_site_changed_at_staging": false
+}
