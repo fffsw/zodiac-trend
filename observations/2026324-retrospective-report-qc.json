@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 source-mapped reconstruction outcomes match first-six settlement",
+    "12 zodiac prior windows, nonoverlapping age blocks and 49 number counts match",
+    "six actual normal balls and frozen ages, windows, positions match",
+    "named counterfactual identities and 2/23/13/0 distribution verified; no ranking",
+    "pig absence while snake present, 2-route scarcity and actual-structure history independently counted",
+    "actual 324 structure, one-completion reconstruction, unblinding and 445 scan verified",
+    "all nine local evidence links resolve"
+  ],
+  "report_sha256": "8b01809377998fb3f9b0e4ebdda40ffdef4a0f34fa2fe476dfd01ec24d375452",
+  "scope": "324 outcome-known comparison review; not published, blind or pre-draw"
+}

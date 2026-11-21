@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "324 unblinded reconstruction report; outcome known, not published or predraw",
+  "checks": [
+    "38 previous 323 source structures, all minima and labels checked",
+    "all 12 zodiac ledgers and all 49 normal number rows match prior-only evidence",
+    "unblinding, actual 323 pair complete, Y01 no-road and joint-risk disclosure verified",
+    "seven local evidence links resolve"
+  ],
+  "report_sha256": "8c2559a997cf465b8863e7e9c3885f1ccc9863d31458a28e757001cfc155ae5d"
+}

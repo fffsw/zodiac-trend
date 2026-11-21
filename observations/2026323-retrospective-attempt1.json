@@ -1,0 +1,6 @@
+{
+  "status": "GUARD_FAILED_BEFORE_OUTPUT",
+  "error": "initial manual remainder of 41 was mistaken as 1; 41 % 3 is 2, so first-six route counts are 3/0/3",
+  "corrected_before_reexecution": true,
+  "no_generated_retrospective_files_written": true
+}

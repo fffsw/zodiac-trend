@@ -1,0 +1,50 @@
+{
+  "schema": "manual_evidence_and_counterarguments_325",
+  "period": 2026325,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_A_FORECAST_GUARANTEE",
+  "selection_is_not_official_or_time_authenticated": true,
+  "target_result_read_or_used": false,
+  "previous_history_only_through": 2026324,
+  "human_choice": "Z01",
+  "universe": [
+    "虎",
+    "狗",
+    "兔",
+    "馬",
+    "蛇",
+    "豬"
+  ],
+  "top": "虎",
+  "pair": [
+    "狗",
+    "兔"
+  ],
+  "triple": [
+    "狗",
+    "馬",
+    "蛇"
+  ],
+  "reserves": [
+    "豬"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "Human choice to compare route concentration and parity after explicitly distinguishing 323 published display from 324 after-outcome reconstruction; 12-sign and 49-number prior ledgers, overlapping W35/40/45, disjoint age blocks and counterarguments. No claim of predictive advantage, no score or ranking.",
+  "structural_reason": "单虎奇2；共同狗奇0；二狗兔跨0/1路且奇偶不同；三狗馬蛇为0/1/2路，两奇一偶，单与组合错开。相对324重建Y01三豬羊虎需两2路，三栏不再有该门槛；代价是无1路会使二三都不完整，共同狗或无奇0时二三断，且全栏仍需两个不同2路肖，2路至多一球无法全完。相对323 X01的三栏两偶，现三栏需两奇，偶数至多一球不再必断三栏，但奇数至多一球必断三栏；风险迁移，不证明预测改善。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；Z04替三馬，有鼠无馬W35/40/45为9/12/13期。324前六19鼠、第七43鼠不能证明续出或停止；第七不参与选择。",
+    "牛": "全集外，偶0四码06/18/30/42；Z22可作共同位，Z28替二兔；牛羊同偶0不同身份，不因324无牛认定回补。",
+    "虎": "单栏，奇2四码05/17/29/41；Z02猴为同类反方，有猴无虎W35/40/45为5/5/7期；无奇2必使单栏不完整，W35/40/45无奇2为19/20/21期。",
+    "兔": "二栏B，偶1四码04/16/28/40；Z03同类鷄反方，有鷄无兔W35/40/45为10/11/13期，不能把鷄当兔。",
+    "龍": "全集外，奇0四码03/15/27/39；Z06同类代共同狗，有龍无狗W35/40/45为6/6/9期；龍出现不补狗。",
+    "蛇": "三栏D，偶2四码02/14/26/38；Z05同全集豬反方，有豬无蛇W35/40/45为7/9/11期；替补豬不能补蛇。",
+    "馬": "三栏C，奇1五码01/13/25/37/49；Z04鼠为同类反方；此前缺馬不证明325回补，且不固定馬。",
+    "羊": "全集外，偶0四码12/24/36/48；Z21共同羊、Z29二羊结构反方；324羊出现不证明续出或停出。",
+    "猴": "全集外，奇2四码11/23/35/47；Z02可替单虎。323第七47猴不参与平码选择，也不能证明猴的未来。",
+    "鷄": "全集外，偶1四码10/22/34/46；Z03代二兔，与兔同类但号码不同，324兩者同出不证明325续出。",
+    "狗": "二三共同A，奇0四码09/21/33/45；Z06龍为同类反方；无奇0或狗缺使二三断。323和324有狗不是325会继续的证据。",
+    "豬": "仅替补，偶2四码08/20/32/44；Z05同全集把豬放三栏、蛇退替补。324有蛇无豬不证明下期会反转；替补不自动补栏。"
+  },
+  "counterarguments": "Z02猴替单虎，Z03鷄替二兔，Z04鼠替三馬，Z05豬替三蛇，Z06龍替共同狗；Z07/Z08/Z09/Z10同全集换位置，Z11单与共同狗重叠，Z17/Z18只换替补。Z31是324事后Y01结构，Z32是323实际X01结构；不因事后表现选择或排名。",
+  "joint_warning": "虎狗同时缺足以使三栏齐断，W35/40/45为11/11/12期；无奇2使单断19/20/21期，无奇0使二三断13/16/16期。有龍无狗6/6/9期。全栏须5肖、0/1/2至少1/2/2、至少3奇2偶；2路至多一球时三栏仍可能完整但全栏不可能全完。历史窗口互相包含且事件重叠，不是概率。",
+  "limits": "Actual source, 325 status, clock and mechanism unverified. If independent fair draws, history and manual structure do not predict a future draw. No outcome guarantee. Seventh only raw history and adjacent seven-ball identity; never normal or special-number selection."
+}

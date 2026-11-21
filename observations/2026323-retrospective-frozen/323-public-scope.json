@@ -1,0 +1,64 @@
+{
+  "scope": "user-authorized 323 unverified observation; not preregistration, predraw, official or source authentication",
+  "parent_commit": "97927e051f53417dfc0ee29958a34c19d1e630b1",
+  "old_homepage_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+  "new_homepage_sha256": "f3c6fa211ccf8977c98e19da24b5fec384f258a5d560d17008342a48ea3b2a69",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "staged_history_sha256": "762450e9aa5dcbe78f2af237a2c40eb114eadfbc9668bee14c45243831b51818",
+  "staged_decisions_sha256": "7ed6c3b752f31f1f3f52bfe62563bf0e747cafa897cb354955bf24745bc2ec55",
+  "user_321_six_plus_one_inferred": [
+    15,
+    45,
+    23,
+    8,
+    47,
+    49,
+    41
+  ],
+  "user_322_six_plus_one_inferred": [
+    47,
+    31,
+    43,
+    17,
+    8,
+    30,
+    7
+  ],
+  "user_dates": null,
+  "321_freeze_after_both_results_not_predraw": true,
+  "321_published_V01_complete_columns": 1,
+  "322_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "322_reconstructed_W01_complete_columns": 0,
+  "selected_candidate": "X01",
+  "selected": {
+    "single": "兔",
+    "pair": [
+      "蛇",
+      "狗"
+    ],
+    "triple": [
+      "蛇",
+      "牛",
+      "馬"
+    ],
+    "reserve_only": [
+      "豬"
+    ]
+  },
+  "target_result_read": false,
+  "timing_official_mechanism_and_wechat_safety_authenticated": false,
+  "prior_1051_rows_byte_identical": true,
+  "original_dirty_deploy_not_touched": true,
+  "prior_index_html_unchanged_to_preserve_index_repair_manifest": true,
+  "local_qa_only_not_public_yet": true,
+  "rabbit_snake_joint_absence_35_40_45": [
+    8,
+    9,
+    10
+  ],
+  "pig_present_snake_absent_35_40_45": [
+    7,
+    10,
+    12
+  ]
+}

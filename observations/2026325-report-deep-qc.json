@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "independent historical pressure counts and logical counterexamples, not a forecast",
+  "checks": [
+    "all 14 historical pressure rows independently recounted from first-six data only",
+    "road, parity, triple and all-column necessary conditions match actual zodiac sets",
+    "constructive six-number counterexamples prove 2-road or even scarcity need not force triple, and no even 0 need not force any column",
+    "top/shared absence and exact same-class identity replacement counts independently recounted",
+    "323 actually displayed and 324 unblinded reconstructed outcomes preserved without conflation"
+  ],
+  "report_sha256": "ad3f944e77be09fa7b65cfd9d4c99c91eca8340de78178b99ef0e7e539d8f9d2"
+}

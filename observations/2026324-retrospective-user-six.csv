@@ -1,0 +1,7 @@
+number,zodiac,road,odd_even,wave,head,tail,prior_last_normal_age,W10,W20,W35,W40,W45,location
+19,鼠,1,奇,紅,1,9,12,0,1,3,4,5,outside_universe
+04,兔,1,偶,藍,0,4,7,1,3,4,5,5,outside_universe
+14,蛇,2,偶,藍,1,4,3,2,4,6,7,7,reserve
+12,羊,0,偶,紅,1,2,21,0,0,3,3,3,C
+21,狗,0,奇,綠,2,1,35,0,0,0,1,3,B
+34,鷄,1,偶,紅,3,4,3,2,4,7,7,7,top

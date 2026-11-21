@@ -1,0 +1,29 @@
+{
+  "raw_user_input": "324期 19鼠 04兔 14蛇 12羊 21狗 34鸡 43鼠",
+  "source": "user only; no external draw numbers queried or substituted",
+  "issue": 2026324,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    19,
+    4,
+    14,
+    12,
+    21,
+    34
+  ],
+  "normal_zodiacs": [
+    "鼠",
+    "兔",
+    "蛇",
+    "羊",
+    "狗",
+    "鷄"
+  ],
+  "seventh_number": 43,
+  "seventh_zodiac": "鼠",
+  "scope": "first six only for normal settlement/statistics and next selection; seventh only raw history and seven-ball zodiac identity intersection; no special-number picks",
+  "official_authentication": false,
+  "target_result_already_supplied_before_324_reconstruction": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "candidate arithmetic only for unblinded 2026324 reconstruction; not evidence of publication, mechanism, timing, probability advantage or outcome guarantee",
+  "checks": [
+    "input verified through immediately preceding user period only",
+    "324 was known before reconstruction; no blind, pre-draw or published claim",
+    "38 explicitly written plans and one manual choice, not a rank",
+    "38 sets, number coverage, route/parity stress matrices, joint absences and ideal models independently enumerated",
+    "candidate structures, only-reserve duplicates, shared identity concentration and overlap audited",
+    "selected roles and exactly six-sign universe match manual file; reserves never automatically fill a slot",
+    "all 38 previous X structures retained; Y01 traces to X29; 1-road protection transfers risk to 2-road and shared pig",
+    "main history, original public page and dirty deploy unchanged during reconstruction"
+  ],
+  "manual_sha256": "f38868fb62660c75c8c392ed65dffa37795ee27bda8bb325a3029232cb9b36d9",
+  "evidence_sha256": "d4532d264ad1194e443f552c829d5e9781779841d5d9954439797d71d2c32cd9",
+  "candidate_sha256": "8be49ca44d080b9968652c333ea835531b776914e90cfaf96ec2f3fe4939e818"
+}

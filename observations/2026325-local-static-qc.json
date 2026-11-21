@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "static isolated stage and synthetic fixture; not source, timing, WeChat, actual mechanism or forecast certificate",
+  "page_sha256": "24258b36614377f6bfe4ce6d1d2e4d4a68f75b7933ac9e73810c28e489a716a0",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "checks": [
+    "published 323 baseline, main page and clean clone remain byte-identical before new publication",
+    "two staged 325 pages byte-identical",
+    "optimized generator, logic and layout unchanged",
+    "only user 323/324 staged; original main history unchanged",
+    "1053 earlier history rows and CRLF preserved byte-for-byte; exactly two user rows added",
+    "all 250 page rows match staged source; user 323/324 exact with seventh and unknown dates",
+    "248 overlapping page rows and all 49 mappings unchanged",
+    "exact target-325 Z01 roles; no fabricated target-324 decision; prior page decisions preserved",
+    "prior detailed manual records preserved; 324 reconstruction not published as actual",
+    "except history, decision payloads and range title, entire HTML/CSS/JS identical to previous tested layout",
+    "requested deleted footer and later prominent labels not reintroduced",
+    "no external assets/scripts or automatic network requests introduced",
+    "relative entry preserved",
+    "original 68-entry dirty deploy untouched",
+    "all 21 frozen 324 reconstruction inputs unchanged; freeze after user result",
+    "stage evidence_qc.json passes",
+    "stage independent_qc.json passes",
+    "stage report_qc.json passes",
+    "stage report_deep_qc.json passes",
+    "stage manual_stage_receipt.json passes",
+    "unchanged generator independently reproduces 325 page byte-for-byte",
+    "synthetic 325 fixture causes no automatic 326 picks or added footer"
+  ]
+}

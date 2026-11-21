@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 previous X candidates match published roles and user first-six settlement",
+    "all 12 signs, overlapping windows, nonoverlapping age blocks and 49 number counts match",
+    "six actual normal balls and frozen ages, windows and slot locations match",
+    "named counterfactuals and 11/23/4/0 distribution verified; no ranking",
+    "no 1-road, no even 0-road and exact 3/0/3 prior frequencies independently recounted",
+    "actual structure, true pair completion, intersections, 445 scan and post-result freeze disclosure correct",
+    "all nine local evidence links resolve"
+  ],
+  "report_sha256": "12e5d6f6961548536bcbcbab2e8f46432cb3fceec94b4a62d46da24daf6f5143",
+  "scope": "323 user-only normal-ball review; display was published but source/predraw not authenticated; 324 already known"
+}
