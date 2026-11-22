@@ -1,0 +1,13 @@
+{
+  "status": "PASS_STAGED_NOT_PUBLISHED",
+  "stage_path": "/home/user/archive/task290_326_revision/stage",
+  "v1_commit": "2fb153aa282c08e9d6461c9be8bd7bdf566218b7",
+  "history_unchanged_sha256": "307655d85b643128f28d0a8c3babf662d770ded56a815b67ff34561f067fcc07",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "v1_page_sha256": "ed669f9f9f25eb52f17c87f91766bbbe3765d9da7840d65fea35bf276b9bf22d",
+  "revision_page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "revision_manual_decisions_sha256": "12025a49c714e8641c04849d89fa6665e9c0ea35b09ddac14e8787d7a9347a23",
+  "earlier_decisions_unchanged": true,
+  "target_result_read": false,
+  "scope": "isolated user-authorized display revision; not authenticated predraw, official or predictive claim"
+}

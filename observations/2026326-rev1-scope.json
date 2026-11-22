@@ -1,0 +1,65 @@
+{
+  "scope": "326 user-authorized revision after clarification, not official, predraw, outcome, mechanism, predictive advantage or WeChat certification",
+  "previous_public_commit": "2fb153aa282c08e9d6461c9be8bd7bdf566218b7",
+  "previous_public_page_sha256": "ed669f9f9f25eb52f17c87f91766bbbe3765d9da7840d65fea35bf276b9bf22d",
+  "revision_page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "source_325": "user only, six-plus-one inferred, date unknown",
+  "history_through_325_sha256": "307655d85b643128f28d0a8c3babf662d770ded56a815b67ff34561f067fcc07",
+  "prior_decisions_preserved": true,
+  "326_outcome_read": false,
+  "current_selection": {
+    "single": "羊",
+    "pair": [
+      "虎",
+      "羊"
+    ],
+    "triple": [
+      "虎",
+      "馬",
+      "鷄"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ]
+  },
+  "old_selection": {
+    "single": "羊",
+    "pair": [
+      "虎",
+      "羊"
+    ],
+    "triple": [
+      "虎",
+      "馬",
+      "兔"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ]
+  },
+  "prior_four_distinct": [
+    "虎",
+    "馬",
+    "鷄",
+    "龍"
+  ],
+  "theoretical_repeat_maximum": 4,
+  "posthoc_2024plus_joint_n": 48,
+  "six_repeat_0_to_4": [
+    5,
+    18,
+    17,
+    8,
+    0
+  ],
+  "seven_repeat_0_to_4": [
+    5,
+    13,
+    19,
+    9,
+    2
+  ],
+  "original_326_index_is_immutable_historical_snapshot": true
+}

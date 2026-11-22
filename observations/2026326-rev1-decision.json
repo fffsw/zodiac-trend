@@ -1,0 +1,62 @@
+{
+  "period": 2026326,
+  "status": "REVISION_AFTER_USER_CLARIFICATION_NOT_PREDRAW_CERTIFIED",
+  "selected_id": "R01",
+  "source_in_earlier_38": "AA16",
+  "prior_public_choice": "AA01",
+  "prior_public_slots": {
+    "single": "羊",
+    "pair": [
+      "虎",
+      "羊"
+    ],
+    "triple": [
+      "虎",
+      "馬",
+      "兔"
+    ],
+    "reserve": [
+      "龍",
+      "蛇"
+    ]
+  },
+  "revised_universe": [
+    "羊",
+    "虎",
+    "馬",
+    "鷄",
+    "龍",
+    "蛇"
+  ],
+  "single": "羊",
+  "pair": [
+    "虎",
+    "羊"
+  ],
+  "triple": [
+    "虎",
+    "馬",
+    "鷄"
+  ],
+  "reserve": [
+    "龍",
+    "蛇"
+  ],
+  "top_overlap_mode": "concentrated",
+  "trigger_previous_four": [
+    "虎",
+    "馬",
+    "鷄",
+    "龍"
+  ],
+  "displayed_previous_signs": [
+    "虎",
+    "馬",
+    "鷄"
+  ],
+  "selection_is_not_an_actual_repeat_count": true,
+  "target_result_read": false,
+  "choice_reason": "匹配325前六七球均四肖的48例中，下期前六观测最高重3而理论仍可重4；把三栏改为上期虎馬鷄三个身份，在重足4时三栏一定完整，也允许重3且恰为虎馬鷄时三栏完整。羊不在上期四肖内，单羊可在零重时独立出现。保留单与二，三栏兔→鷄；鷄与兔均偶1四码，不证明鷄更可能。",
+  "important_cost": "前六重0、1、2肖时，三栏必不完整；重3不是虎馬鷄也会断。共同虎缺二三断，羊缺单二断，1路至多一球使三栏断；重4时若羊缺，只有三栏完整而不能全栏完成。此案优先处理高重肖、牺牲原案重2时三栏可成的机会。",
+  "model_limit": "公平49码模型下原案与修订案的无条件栏目和零栏概率相同，不能声称因修订提升预测或避免失败；所有条件概率只作数学示意。"
+}

@@ -1,0 +1,447 @@
+{
+  "status": "PASS_EXPLORATORY_NOT_FORECAST",
+  "scope": "前六码和七球均恰好四肖的联合筛选；在查看预设边缘统计后补充，属于探索性分析，不是独立验证或事先盲测。325本身下一期未读，排除在已知后续中。",
+  "source_csv_sha256": "f6cc66c5829832859c983b48e8deeddc8805819c814e40a4daac4d3b98c6ccf6",
+  "groups": {
+    "2024plus": {
+      "next_normal_repeat": {
+        "n": 48,
+        "counts": [
+          5,
+          18,
+          17,
+          8,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 48,
+        "counts": [
+          5,
+          13,
+          19,
+          9,
+          2
+        ]
+      }
+    },
+    "all_2020plus": {
+      "next_normal_repeat": {
+        "n": 113,
+        "counts": [
+          8,
+          47,
+          46,
+          12,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 113,
+        "counts": [
+          7,
+          35,
+          51,
+          18,
+          2
+        ]
+      }
+    },
+    "2024": {
+      "next_normal_repeat": {
+        "n": 20,
+        "counts": [
+          1,
+          8,
+          7,
+          4,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 20,
+        "counts": [
+          1,
+          7,
+          8,
+          4,
+          0
+        ]
+      }
+    },
+    "2025": {
+      "next_normal_repeat": {
+        "n": 15,
+        "counts": [
+          1,
+          5,
+          7,
+          2,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 15,
+        "counts": [
+          1,
+          2,
+          8,
+          3,
+          1
+        ]
+      }
+    },
+    "2026": {
+      "next_normal_repeat": {
+        "n": 13,
+        "counts": [
+          3,
+          5,
+          3,
+          2,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 13,
+        "counts": [
+          3,
+          4,
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    "last_35": {
+      "next_normal_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "last_40": {
+      "next_normal_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "last_45": {
+      "next_normal_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 2,
+        "counts": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "2024plus_exact_325_both_multiplicities": {
+      "next_normal_repeat": {
+        "n": 31,
+        "counts": [
+          3,
+          10,
+          12,
+          6,
+          0
+        ]
+      },
+      "next_seven_repeat": {
+        "n": 31,
+        "counts": [
+          3,
+          7,
+          13,
+          6,
+          2
+        ]
+      }
+    }
+  },
+  "matching_exact_325_six_identity_set_all_2020plus_known_followups": 0,
+  "recent_matching_pairs_2026": [
+    {
+      "previous": 2026065,
+      "next": 2026066,
+      "prior_six": [
+        "虎",
+        "蛇",
+        "羊",
+        "狗"
+      ],
+      "next_six_repeat_count": 2,
+      "next_six_repeat_signs": [
+        "蛇",
+        "羊"
+      ],
+      "next_seven_repeat_count": 2,
+      "next_seven_repeat_signs": [
+        "蛇",
+        "羊"
+      ]
+    },
+    {
+      "previous": 2026082,
+      "next": 2026083,
+      "prior_six": [
+        "虎",
+        "龍",
+        "馬",
+        "狗"
+      ],
+      "next_six_repeat_count": 1,
+      "next_six_repeat_signs": [
+        "馬"
+      ],
+      "next_seven_repeat_count": 2,
+      "next_seven_repeat_signs": [
+        "虎",
+        "馬"
+      ]
+    },
+    {
+      "previous": 2026086,
+      "next": 2026087,
+      "prior_six": [
+        "龍",
+        "蛇",
+        "羊",
+        "鷄"
+      ],
+      "next_six_repeat_count": 1,
+      "next_six_repeat_signs": [
+        "蛇"
+      ],
+      "next_seven_repeat_count": 1,
+      "next_seven_repeat_signs": [
+        "蛇"
+      ]
+    },
+    {
+      "previous": 2026090,
+      "next": 2026091,
+      "prior_six": [
+        "虎",
+        "馬",
+        "羊",
+        "豬"
+      ],
+      "next_six_repeat_count": 3,
+      "next_six_repeat_signs": [
+        "虎",
+        "羊",
+        "豬"
+      ],
+      "next_seven_repeat_count": 4,
+      "next_seven_repeat_signs": [
+        "虎",
+        "馬",
+        "羊",
+        "豬"
+      ]
+    },
+    {
+      "previous": 2026135,
+      "next": 2026136,
+      "prior_six": [
+        "牛",
+        "猴",
+        "狗",
+        "豬"
+      ],
+      "next_six_repeat_count": 0,
+      "next_six_repeat_signs": [],
+      "next_seven_repeat_count": 0,
+      "next_seven_repeat_signs": []
+    },
+    {
+      "previous": 2026140,
+      "next": 2026141,
+      "prior_six": [
+        "牛",
+        "兔",
+        "馬",
+        "鷄"
+      ],
+      "next_six_repeat_count": 1,
+      "next_six_repeat_signs": [
+        "鷄"
+      ],
+      "next_seven_repeat_count": 1,
+      "next_seven_repeat_signs": [
+        "鷄"
+      ]
+    },
+    {
+      "previous": 2026167,
+      "next": 2026168,
+      "prior_six": [
+        "鼠",
+        "兔",
+        "龍",
+        "猴"
+      ],
+      "next_six_repeat_count": 3,
+      "next_six_repeat_signs": [
+        "兔",
+        "龍",
+        "猴"
+      ],
+      "next_seven_repeat_count": 3,
+      "next_seven_repeat_signs": [
+        "兔",
+        "龍",
+        "猴"
+      ]
+    },
+    {
+      "previous": 2026184,
+      "next": 2026185,
+      "prior_six": [
+        "馬",
+        "羊",
+        "猴",
+        "豬"
+      ],
+      "next_six_repeat_count": 2,
+      "next_six_repeat_signs": [
+        "羊",
+        "猴"
+      ],
+      "next_seven_repeat_count": 2,
+      "next_seven_repeat_signs": [
+        "羊",
+        "猴"
+      ]
+    },
+    {
+      "previous": 2026208,
+      "next": 2026209,
+      "prior_six": [
+        "鼠",
+        "兔",
+        "羊",
+        "猴"
+      ],
+      "next_six_repeat_count": 0,
+      "next_six_repeat_signs": [],
+      "next_seven_repeat_count": 0,
+      "next_seven_repeat_signs": []
+    },
+    {
+      "previous": 2026219,
+      "next": 2026220,
+      "prior_six": [
+        "鼠",
+        "虎",
+        "鷄",
+        "豬"
+      ],
+      "next_six_repeat_count": 0,
+      "next_six_repeat_signs": [],
+      "next_seven_repeat_count": 0,
+      "next_seven_repeat_signs": []
+    },
+    {
+      "previous": 2026239,
+      "next": 2026240,
+      "prior_six": [
+        "鼠",
+        "虎",
+        "猴",
+        "鷄"
+      ],
+      "next_six_repeat_count": 1,
+      "next_six_repeat_signs": [
+        "鷄"
+      ],
+      "next_seven_repeat_count": 1,
+      "next_seven_repeat_signs": [
+        "鷄"
+      ]
+    },
+    {
+      "previous": 2026291,
+      "next": 2026292,
+      "prior_six": [
+        "虎",
+        "蛇",
+        "鷄",
+        "豬"
+      ],
+      "next_six_repeat_count": 1,
+      "next_six_repeat_signs": [
+        "鷄"
+      ],
+      "next_seven_repeat_count": 1,
+      "next_seven_repeat_signs": [
+        "鷄"
+      ]
+    },
+    {
+      "previous": 2026313,
+      "next": 2026314,
+      "prior_six": [
+        "鼠",
+        "龍",
+        "狗",
+        "豬"
+      ],
+      "next_six_repeat_count": 2,
+      "next_six_repeat_signs": [
+        "狗",
+        "豬"
+      ],
+      "next_seven_repeat_count": 3,
+      "next_seven_repeat_signs": [
+        "鼠",
+        "狗",
+        "豬"
+      ]
+    }
+  ]
+}

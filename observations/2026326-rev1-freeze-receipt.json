@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "freeze 326 prior published display at revision request; not evidence that either version was predraw or that sources are official",
+  "v1_commit": "2fb153aa282c08e9d6461c9be8bd7bdf566218b7",
+  "v1_page_sha256": "ed669f9f9f25eb52f17c87f91766bbbe3765d9da7840d65fea35bf276b9bf22d",
+  "v1_bundle_sha256": "5e35d75131d3c1de45d283348f0294b1991aad809fb3176f97e44a6e4aaf7ecd",
+  "v1_selection": {
+    "single": "羊",
+    "pair": [
+      "虎",
+      "羊"
+    ],
+    "triple": [
+      "虎",
+      "馬",
+      "兔"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ]
+  },
+  "frozen_files": 24,
+  "before_manifest_sha256": "b9a113d5db1445e48b86a1f04a89430c411b8c36138d2d677b7dfc18a0c5485b",
+  "dirty_deploy_entries_preserved": 68,
+  "326_outcome_read": false
+}

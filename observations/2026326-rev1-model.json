@@ -1,0 +1,1241 @@
+{
+  "status": "PASS_EXACT_MATHEMATICAL_MODEL_NOT_FORECAST",
+  "scope": "Fixed manual comparisons chosen after examining data. Assumes six numbers uniformly drawn without replacement from 1–49, the 2026 mapping, and identity-only first-six settlement. Neither actual fairness, source, timing, outcome, prediction nor returns authenticated.",
+  "identity_method": "2^12 allowed-zodiac subsets and Mobius inversion; exact present-set weights",
+  "sign_number_sizes": {
+    "鼠": 4,
+    "牛": 4,
+    "虎": 4,
+    "兔": 4,
+    "龍": 4,
+    "蛇": 4,
+    "馬": 5,
+    "羊": 4,
+    "猴": 4,
+    "鷄": 4,
+    "狗": 4,
+    "豬": 4
+  },
+  "model_denominator": 13983816,
+  "prior_distinct": [
+    "虎",
+    "馬",
+    "鷄",
+    "龍"
+  ],
+  "repeat_0_to_4_numerators": [
+    906192,
+    4543392,
+    5936976,
+    2365336,
+    231920
+  ],
+  "repeat_0_to_4_percent": [
+    6.480291216646443,
+    32.49035885483619,
+    42.45605062309172,
+    16.91481066398471,
+    1.6584886414409343
+  ],
+  "plans": [
+    {
+      "id": "R00",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserve_only": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "馬",
+        "兔"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "馬"
+      ],
+      "number_of_previous_signs_in_three": 2,
+      "complete_columns_numerator_0_to_3": [
+        7516980,
+        4276752,
+        1958164,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 6.149966504135924,
+        "all": 1.6584886414409343,
+        "zero": 53.754854897976344
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1712060,
+            512148,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3302376,
+            1518680,
+            971040,
+            144880
+          ],
+          "three_complete_numerator": 442240,
+          "zero_pct_conditional": 55.62387316371163,
+          "all_pct_conditional": 2.440299573385508
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1373800,
+            475600,
+            434016,
+            81920
+          ],
+          "three_complete_numerator": 371680,
+          "zero_pct_conditional": 58.080543313930875,
+          "all_pct_conditional": 3.463355734660953
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            144880,
+            40960,
+            40960,
+            5120
+          ],
+          "three_complete_numerator": 46080,
+          "zero_pct_conditional": 62.46981717833736,
+          "all_pct_conditional": 2.207657813038979
+        }
+      },
+      "comparison_note": "326原已上线AA01：三栏2个上期生肖虎馬加新兔；若恰重4肖，兔不一定出现，三栏不一定完整。"
+    },
+    {
+      "id": "R01",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "reserve_only": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        7516980,
+        4276752,
+        1958164,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 6.149966504135924,
+        "all": 1.6584886414409343,
+        "zero": 53.754854897976344
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1712060,
+            512148,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3599736,
+            1221320,
+            1115920,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 60.6324836078165,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1221320,
+            628080,
+            330096,
+            185840
+          ],
+          "three_complete_numerator": 628080,
+          "zero_pct_conditional": 51.63410187812641,
+          "all_pct_conditional": 7.8568118863451115
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            185840,
+            0,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "326修订AA16：三栏虎馬鷄均属上期；若下期前六重足四肖，则三栏一定完整。重3必须恰为虎馬鷄；重2或更少三栏必断。"
+    },
+    {
+      "id": "R02",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "龍",
+        "D": "鷄"
+      },
+      "reserve_only": [
+        "馬",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        7622380,
+        4171352,
+        1999748,
+        190336
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        713016
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 5.098865717340674,
+        "all": 1.3611163075944364,
+        "zero": 54.5085833509251
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1712060,
+            512148,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3599736,
+            1221320,
+            1115920,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 60.6324836078165,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1326720,
+            522680,
+            371680,
+            144256
+          ],
+          "three_complete_numerator": 481096,
+          "zero_pct_conditional": 56.09012842150121,
+          "all_pct_conditional": 6.098752989004522
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            185840,
+            0,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "同全集AA12：三栏虎龍鷄三路各一，但全栏须羊龍两个不同0路肖；重3若缺馬可成三，若缺龍不能。"
+    },
+    {
+      "id": "R03",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserve_only": [
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "馬",
+        "鷄",
+        "龍"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        6050136,
+        6743584,
+        1144016,
+        46080
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2618084,
+        713016
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 18.722242912807204,
+        "triple": 5.098865717340674,
+        "all": 0.32952378664021326,
+        "zero": 43.26527179705454
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            2224208,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            2911972,
+            2582764,
+            442240,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 49.048067568405195,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            442240,
+            1407160,
+            515936,
+            0
+          ],
+          "three_complete_numerator": 481096,
+          "zero_pct_conditional": 18.69670947383374,
+          "all_pct_conditional": 0.0
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            0,
+            185840,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "四个上期肖覆盖在组合中：若前六重足四肖，二三均完整；但二三同时完整必须重足四，单羊若无则不全完。"
+    },
+    {
+      "id": "R04",
+      "roles": {
+        "top": "馬",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserve_only": [
+        "羊",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "馬",
+        "虎",
+        "鷄",
+        "龍"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        6577956,
+        4787776,
+        2386164,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        6924764,
+        2618084,
+        713016
+      ],
+      "percent": {
+        "single": 49.51984494075151,
+        "pair": 18.722242912807204,
+        "triple": 5.098865717340674,
+        "all": 1.6584886414409343,
+        "zero": 47.03977798334875
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            906192,
+            0,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 100.0,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            3124800,
+            1418592,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 68.77680816447271,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            2546964,
+            2260008,
+            1130004,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 42.900021829294914,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            1109176,
+            1256160,
+            0
+          ],
+          "three_complete_numerator": 481096,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 0.0
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            0,
+            0,
+            231920
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 100.0
+        }
+      },
+      "comparison_note": "全部展示为上期四肖：若前六重足四肖则三栏全完；零重会令三栏齐断，且单馬与二馬重叠。"
+    },
+    {
+      "id": "R05",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserve_only": [
+        "鷄",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "馬",
+        "龍"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "馬"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        7516980,
+        4276752,
+        1958164,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 6.149966504135924,
+        "all": 1.6584886414409343,
+        "zero": 53.754854897976344
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1712060,
+            512148,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3599736,
+            1221320,
+            1115920,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 60.6324836078165,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1221320,
+            628080,
+            330096,
+            185840
+          ],
+          "three_complete_numerator": 628080,
+          "zero_pct_conditional": 51.63410187812641,
+          "all_pct_conditional": 7.8568118863451115
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            185840,
+            0,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "保留虎馬龍三上期肖作三栏，三肖全奇；奇数不满3球时三栏必断，鷄仅替补。"
+    },
+    {
+      "id": "R06",
+      "roles": {
+        "top": "羊",
+        "A": "龍",
+        "B": "羊",
+        "C": "虎",
+        "D": "鷄"
+      },
+      "reserve_only": [
+        "馬",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "龍",
+        "虎",
+        "鷄"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        7622380,
+        4171352,
+        1999748,
+        190336
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        713016
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 5.098865717340674,
+        "all": 1.3611163075944364,
+        "zero": 54.5085833509251
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1712060,
+            512148,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3599736,
+            1221320,
+            1115920,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 60.6324836078165,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1326720,
+            522680,
+            371680,
+            144256
+          ],
+          "three_complete_numerator": 481096,
+          "zero_pct_conditional": 56.09012842150121,
+          "all_pct_conditional": 6.098752989004522
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            185840,
+            0,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "三栏龍虎鷄各路一肖；二龍羊需两个不同0路肖，且馬只作替补。"
+    },
+    {
+      "id": "R07",
+      "roles": {
+        "top": "羊",
+        "A": "馬",
+        "B": "羊",
+        "C": "虎",
+        "D": "鷄"
+      },
+      "reserve_only": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "馬",
+        "虎",
+        "鷄"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        7516980,
+        3848752,
+        2386164,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2618084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 18.722242912807204,
+        "triple": 6.149966504135924,
+        "all": 1.6584886414409343,
+        "zero": 53.754854897976344
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            1536444,
+            687764,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3599736,
+            1010520,
+            1326720,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 60.6324836078165,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            1221320,
+            586496,
+            371680,
+            185840
+          ],
+          "three_complete_numerator": 628080,
+          "zero_pct_conditional": 51.63410187812641,
+          "all_pct_conditional": 7.8568118863451115
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            185840,
+            0,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "共同馬替代共同虎；无1路时二三均断；本次单仍羊，龙仅替补。"
+    },
+    {
+      "id": "R08",
+      "roles": {
+        "top": "鷄",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "reserve_only": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "鷄",
+        "虎",
+        "羊",
+        "馬"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        6667992,
+        5974728,
+        1109176,
+        231920
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 6.149966504135924,
+        "all": 1.6584886414409343,
+        "zero": 47.68363656958873
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            906192,
+            0,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 100.0,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2989644,
+            1553748,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 65.80202632746635,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            2329916,
+            3270220,
+            336840,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 39.244153926173865,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            442240,
+            1150760,
+            586496,
+            185840
+          ],
+          "three_complete_numerator": 628080,
+          "zero_pct_conditional": 18.69670947383374,
+          "all_pct_conditional": 7.8568118863451115
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            0,
+            185840,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "单鷄与三重叠；若上期四肖零重，单二三全部不完整；不证明鷄会继续出现。"
+    },
+    {
+      "id": "R09",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "鷄",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserve_only": [
+        "蛇"
+      ],
+      "displayed_in_order": [
+        "羊",
+        "虎",
+        "鷄",
+        "馬",
+        "龍"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "馬"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        6225752,
+        6673368,
+        1038616,
+        46080
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2190084,
+        860000
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 15.66156190842328,
+        "triple": 6.149966504135924,
+        "all": 0.32952378664021326,
+        "zero": 44.52112356169446
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            2224208,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            3087588,
+            2512548,
+            336840,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 52.00607177795565,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            442240,
+            1407160,
+            515936,
+            0
+          ],
+          "three_complete_numerator": 628080,
+          "zero_pct_conditional": 18.69670947383374,
+          "all_pct_conditional": 0.0
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            0,
+            185840,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "四上期肖在二三全部覆盖，二虎鷄跨路混奇偶；三虎馬龍全部奇肖，须至少3奇。"
+    },
+    {
+      "id": "R10",
+      "roles": {
+        "top": "蛇",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserve_only": [
+        "羊"
+      ],
+      "displayed_in_order": [
+        "蛇",
+        "虎",
+        "馬",
+        "鷄",
+        "龍"
+      ],
+      "previous_signs_in_three": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "number_of_previous_signs_in_three": 3,
+      "complete_columns_numerator_0_to_3": [
+        6050136,
+        6743584,
+        1144016,
+        46080
+      ],
+      "single_pair_triple_numerators": [
+        5838756,
+        2618084,
+        713016
+      ],
+      "percent": {
+        "single": 41.753667239328664,
+        "pair": 18.722242912807204,
+        "triple": 5.098865717340674,
+        "all": 0.32952378664021326,
+        "zero": 43.26527179705454
+      },
+      "by_repeat_count": {
+        "0": {
+          "model_hands": 906192,
+          "complete_columns_numerator_0_to_3": [
+            376740,
+            529452,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 41.57397107897664,
+          "all_pct_conditional": 0.0
+        },
+        "1": {
+          "model_hands": 4543392,
+          "complete_columns_numerator_0_to_3": [
+            2319184,
+            2224208,
+            0,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 51.045210274614206,
+          "all_pct_conditional": 0.0
+        },
+        "2": {
+          "model_hands": 5936976,
+          "complete_columns_numerator_0_to_3": [
+            2911972,
+            2582764,
+            442240,
+            0
+          ],
+          "three_complete_numerator": 0,
+          "zero_pct_conditional": 49.048067568405195,
+          "all_pct_conditional": 0.0
+        },
+        "3": {
+          "model_hands": 2365336,
+          "complete_columns_numerator_0_to_3": [
+            442240,
+            1407160,
+            515936,
+            0
+          ],
+          "three_complete_numerator": 481096,
+          "zero_pct_conditional": 18.69670947383374,
+          "all_pct_conditional": 0.0
+        },
+        "4": {
+          "model_hands": 231920,
+          "complete_columns_numerator_0_to_3": [
+            0,
+            0,
+            185840,
+            46080
+          ],
+          "three_complete_numerator": 231920,
+          "zero_pct_conditional": 0.0,
+          "all_pct_conditional": 19.86892031735081
+        }
+      },
+      "comparison_note": "四上期肖覆盖组合、单蛇作新肖；单与组合错开，蛇羊均属四码组但身份不能替换。"
+    }
+  ],
+  "selected_id": "R01",
+  "old_v1_id": "R00",
+  "old_new_triple_disagreement": {
+    "v2_complete_v1_incomplete_by_repeat_0_to_4": [
+      0,
+      0,
+      0,
+      442240,
+      185840
+    ],
+    "v1_complete_v2_incomplete_by_repeat_0_to_4": [
+      0,
+      0,
+      442240,
+      185840,
+      0
+    ],
+    "v2_gain_total": 628080,
+    "v2_loss_total": 628080,
+    "interpretation": "The equal four-number groups for rabbit/chicken balance marginal ideal-model probabilities; conditional scenarios exchange, so no predicted improvement."
+  },
+  "target_result_read": false,
+  "input_design_sha256": "08916c10fb3152318ccebc4366f0b3a005b77641e52afa00dd50d05b921ac763"
+}

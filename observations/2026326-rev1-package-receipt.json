@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PRELIMINARY_PACKAGE_NOT_YET_PUBLISHED",
+  "parent_commit": "2fb153aa282c08e9d6461c9be8bd7bdf566218b7",
+  "added_files": 57,
+  "modified_paths": [
+    "observations/README.md",
+    "zodiac_trend.html"
+  ],
+  "revised_page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "old_index_sha256_unchanged": "3cef25d7ba43e599824fd35e9d236b349e4d2252f088978948c00f971fc8aa12",
+  "frozen_old_files": 24,
+  "old_326_manifest_preserved": true,
+  "original_dirty_deploy_unchanged": true,
+  "target_result_read": false,
+  "initial_check_correction": "package_initial_correction.json",
+  "remaining": "index browser test, revision manifest, portable verifier, final status-only, exact non-force push and public checks"
+}

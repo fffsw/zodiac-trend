@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "independent identity/category mathematics and synthetic witnesses, not actual result or forecast",
+  "checks": [
+    "2026 identity map, group cardinalities and fair six-ball denominator checked independently",
+    "all 11 fixed plans recounted by a different category-count enumeration, including repeat-conditioned columns",
+    "previous-four intersection distribution checked by direct inclusion-exclusion",
+    "AA01 versus AA16: equal unconditional baseline, but all conditional gained/lost situations recounted separately",
+    "synthetic examples confirm advantages and disadvantages, and seven-ball repeat-four does not imply first-six triple completion",
+    "recent-window shared-absence and <=1 1-road risk counts checked from frozen raw first-six numbers",
+    "revised selection exactly equals pre-existing alternative AA16; decision is explicitly not an actual repeat count"
+  ],
+  "model_sha256": "453c0d2c1221ddd1fe79a788e2a38b1d7c1978bf52f24e629a74a6c1388bc447",
+  "design_sha256": "08916c10fb3152318ccebc4366f0b3a005b77641e52afa00dd50d05b921ac763",
+  "decision_sha256": "049454742a7eaba626a11e837cea6748a2abd4f9da129041397849e54d09cf8f"
+}

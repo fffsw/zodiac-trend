@@ -1,0 +1,7 @@
+{
+  "status": "CORRECTED_AND_INDEPENDENTLY_RECHECKED",
+  "error": "initial package check stripped leading whitespace from the first git status line, so falsely omitted the modified README; the preparation had already completed before the assertion",
+  "correction": "preserve porcelain leading whitespace using subprocess output splitlines without strip; recheck exact files, hashes, both manifests, links and old portable verifier without rerunning the preparation",
+  "original_claimed_success": false,
+  "remote_pushed": false
+}

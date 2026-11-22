@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "326 revision index display only; Chromium desktop and mobile emulation, not source, official, predraw or WeChat certification",
+  "url": "file:///home/user/archive/task290_326_revision/clean_deploy/observations/2026326-rev1-index.html",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "desktop clarified heading and own-issue distinct signs",
+    "desktop theoretical and six/seven historical maxima distinguished",
+    "desktop no historical ceiling or seventh-ball settlement fallacy",
+    "desktop exact revision, reserve only, original archive clearly distinguished",
+    "desktop incomplete risks are visible",
+    "desktop 48-pair distributions",
+    "desktop provenance, target and WeChat limitations",
+    "desktop honest equal baseline comparison",
+    "desktop layout fits viewport; table scrolls independently",
+    "desktop no external assets or scripts",
+    "desktop local revised analysis and clearly archived original links",
+    "mobile clarified heading and own-issue distinct signs",
+    "mobile theoretical and six/seven historical maxima distinguished",
+    "mobile no historical ceiling or seventh-ball settlement fallacy",
+    "mobile exact revision, reserve only, original archive clearly distinguished",
+    "mobile incomplete risks are visible",
+    "mobile 48-pair distributions",
+    "mobile provenance, target and WeChat limitations",
+    "mobile honest equal baseline comparison",
+    "mobile layout fits viewport; table scrolls independently",
+    "mobile no external assets or scripts",
+    "mobile local revised analysis and clearly archived original links",
+    "no browser errors"
+  ],
+  "errors": []
+}

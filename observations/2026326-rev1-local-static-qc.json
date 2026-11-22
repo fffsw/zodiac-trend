@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "isolated static/reproducibility checks, not source, prediction, predraw, official status, actual mechanism or WeChat certification",
+  "checks": [
+    "two staged pages match; live clone still contains old page before release",
+    "all 250 historical page rows and 325 first-six plus seventh unchanged",
+    "every HTML/CSS/JS byte outside the manual payload unchanged",
+    "only 326 manual page roles changed, old and new exact, all other target decisions unchanged",
+    "only detailed 326 decision revised, no fake 324 decision, exact reserve boundaries",
+    "history and optimized generator byte-identical to old release",
+    "exact source matching for all page rows; no 326 draw read from history",
+    "no restored footer/banner, external assets, or network requests",
+    "unrelated dirty deploy untouched",
+    "all 24 original-version frozen inputs hash-checked",
+    "unchanged generator independently reproduces both revised pages byte-for-byte",
+    "synthetic fixture produces no automatic 327 picks or footer; fixture is not real result",
+    "report asserts correct distinct boundaries, risks and synthetic examples",
+    "independent maximum_independent_qc.json PASS",
+    "independent revision_model_independent_qc.json PASS"
+  ],
+  "page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5"
+}

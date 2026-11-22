@@ -1,0 +1,16 @@
+{
+  "scope": "User clarification after 326 v1 was published, before this revision",
+  "user_words": "这期分析的不一样，只开出最低的4个重肖，需要判断下期最大重肖多少，最终修改并重新上线。我的意思是去除重复只开出4个生肖。",
+  "interpretation": "325期本身前六和七球去重都为虎馬鷄龍四肖；不是324→325交集四肖。分前六与七球计算下期重复的理论最大和历史观察最大，并说明频率与风险。",
+  "325_normal": [
+    41,
+    37,
+    10,
+    1,
+    27,
+    17
+  ],
+  "325_seventh": 3,
+  "326_result_read": false,
+  "actual_predraw_status_or_official_source_authenticated": false
+}

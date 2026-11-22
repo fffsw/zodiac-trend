@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "exploratory historical maxima and theoretical bounds; no claim of authenticated source, future ceiling or forecast",
+  "checks": [
+    "raw year-specific signs, invalid rows, exact adjacency and target-not-read scope independently reconstructed",
+    "maxima, maximum frequencies, 0–4 distributions and all cited max-case identifiers independently recounted for each distinct cohort",
+    "historical maximum-six and maximum-seven examples plus fewer-than-four counterexamples verified against original-year raw records",
+    "upper bound four is attainable by an explicitly synthetic six-number construction; not a forecast",
+    "revised pair ledger agrees with previously published independent study and frozen sources"
+  ],
+  "maximum_study_sha256": "9cc57503997c5674e2cb550dc14c14c8ccdc7f8c5e4d9847b685001e4d571030",
+  "maximum_pairs_sha256": "da2cfd0f1f2daea09673c1afcf431600b15b894cc168084e2570d21ad1a88eb9"
+}
