@@ -1,0 +1,6 @@
+{
+  "status": "CORRECTED_AND_PRESERVED_ORIGINAL",
+  "error": "Initial script mistakenly compared the observed latest issue 325 with 324; target 326 null and latest 325 were recorded correctly, but the derived status incorrectly said anomaly. Corrected expected latest to 325 and repeated without consuming target values. Neither check proves pre-draw.",
+  "initial_original": "initial_status_only.json",
+  "initial_rerun": "initial_corrected_status_only.json"
+}

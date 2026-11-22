@@ -1,0 +1,6 @@
+{
+  "status": "INITIAL_LAUNCH_FAILURE_RESOLVED",
+  "issue": "The four local Playwright checks initially could not launch Chromium: libnspr4.so and other system libraries were missing in the restored sandbox. No browser QC output or deployment was produced on the failed attempts.",
+  "resolution": "Installed the missing Debian Chromium runtime libraries; ldd no longer reports missing shared libraries. The checks must be run again and judged only by their actual new outputs.",
+  "limits": "System packages and Playwright cache may not persist into a later restored sandbox; simulated browsers do not certify real iOS or WeChat safety."
+}

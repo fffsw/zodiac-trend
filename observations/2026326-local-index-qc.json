@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "326 archival index only; Chromium desktop and mobile emulation, not WeChat/source/predraw certificate",
+  "url": "file:///home/user/archive/task289_326_release/clean_deploy/observations/2026326-index.html",
+  "browser": "159.0.8154.6",
+  "checks": [
+    "desktop heading",
+    "desktop 325 actual display and post-result freeze",
+    "desktop separate six/seven repeat counts and exploratory limitation",
+    "desktop 326 exact display, reserve boundary and zero-column risk",
+    "desktop source, outcome, timing, mechanism and WeChat boundaries",
+    "desktop fits viewport",
+    "desktop no external scripts or assets",
+    "desktop local links only",
+    "mobile heading",
+    "mobile 325 actual display and post-result freeze",
+    "mobile separate six/seven repeat counts and exploratory limitation",
+    "mobile 326 exact display, reserve boundary and zero-column risk",
+    "mobile source, outcome, timing, mechanism and WeChat boundaries",
+    "mobile fits viewport",
+    "mobile no external scripts or assets",
+    "mobile local links only",
+    "no unhandled browser errors"
+  ],
+  "errors": []
+}

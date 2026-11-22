@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "325 actual published display user-only review; after-result frozen, timing and official source unverified",
+  "checks": [
+    "all 38 frozen candidate rows and true first-six settlements match",
+    "12-sign and 49-number frozen historical tables and disjoint blocks correct",
+    "all six user balls, prior ages, windows and slot locations correct",
+    "325 actual metrics, 4-sign study, 38-plan distribution and evidence limits correctly represented",
+    "all local evidence links resolve"
+  ],
+  "report_sha256": "cb5ecac079cc9fb7c1b8b9c5ea9698cf1dee092711eadc6019e30fbd46a6246e"
+}

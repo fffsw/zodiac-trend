@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "independent historical pressure counts, repeat comparison and logical witnesses, not a forecast",
+  "checks": [
+    "all 13 historical pressure rows independently recounted from raw first-six data",
+    "all forced-column claims, and 4-sign route and parity minima independently checked",
+    "constructive repeat-count and missing-class witnesses confirm no-count, one-count, zero-column, all-column and class counterexamples",
+    "joint and four same-class replacement counts independently recounted",
+    "325 actual display, 324 unblinded reconstruction and repeat-study table preserved; no fallacy or guarantee asserted"
+  ],
+  "report_sha256": "fdf1e3f1d20a31be086e1d0f2b090d85d2d249081fff261070c89fd9b0113134"
+}

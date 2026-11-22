@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 manual comparison rows, roles, overlap and minima agree",
+    "all 12 prior-only zodiac ledgers and 49 number rows checked",
+    "eight ideal-only model rows agree with independent enumeration, including zero complete columns",
+    "disclosed 325 provenance, paired scopes, repeat counterexamples, choice, probabilities and twelve evidence links"
+  ],
+  "scope": "326 display report; no target result read, not official or time authenticated",
+  "report_sha256": "fdf1e3f1d20a31be086e1d0f2b090d85d2d249081fff261070c89fd9b0113134"
+}

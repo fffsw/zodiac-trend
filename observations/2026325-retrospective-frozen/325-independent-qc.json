@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "candidate arithmetic only for 2026325; not evidence of mechanism, timing, probability advantage or outcome guarantee",
+  "checks": [
+    "input verified through immediately preceding user period only",
+    "325 display not authenticated as official or pre-draw; no 325 values looked up",
+    "38 explicitly written plans and one manual choice, not a rank",
+    "38 sets, number coverage, route/parity stress matrices, joint absences and ideal models independently enumerated",
+    "candidate structures, only-reserve duplicates, shared identity concentration and overlap audited",
+    "selected roles and exactly six-sign universe match manual file; reserves never automatically fill a slot",
+    "same-class replacements, same-universe cases, 323/324 comparison, and route/parity risks independently checked",
+    "main history, original public page and dirty deploy unchanged before release"
+  ],
+  "manual_sha256": "f56bee2eaf208e06f932e4a83aac316f375b0eff8070d7cd3d67b6b82991bd89",
+  "evidence_sha256": "3e75ff849fd7cde0c80090b5d7625931a6637ed25a90a2ae2278ec98d3e1c30e",
+  "candidate_sha256": "2c5ff9fcf1328aed881ff0adaf3f81373746fac9dfdf6d0e7e3c7a16264bbea8"
+}

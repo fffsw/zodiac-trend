@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "325 actual published display frozen only after user supplied 325; not proof of predraw timing, official source or mechanism; settlement uses user first six only; seventh separate for seven-ball overlaps",
+  "plan_status": "PUBLISHED_325_UNVERIFIED_DISPLAY",
+  "checks": [
+    "user issue, six numbers, mapped identities, separate seventh and prior data boundary",
+    "all actual first-six road, cross parity, wave, size, heads, tails, sum, span and multiplicity checked",
+    "38 candidates and selected plan independently settled, including true partial completions and reserve exclusion",
+    "all 38 candidate result CSV rows match frozen roles and user input",
+    "six actual numbers, all 12 prior identity windows and disjoint age blocks independently recounted",
+    "all eight prior windows: actual shapes, three roads, six route-parity risks, shared/top and each peer substitution recounted",
+    "six-ball and seven-ball identities separated; exact 4/4/5 scan excludes eight invalid windows",
+    "ideal-only model independently enumerated; not actual probability or evidence of forecasting",
+    "frozen published 325 baseline and original dirty deploy preserved; freeze after user result"
+  ],
+  "retrospective_sha256": "a09ac14d53b156da56cd39b7cc5d3425caee2f4b6ccd2cc78e04a57f8f31a082",
+  "candidate_csv_sha256": "037db4338a1e96201e6a90494305b7eaaeb8a2c1e831196442ec635d6d0998c5"
+}

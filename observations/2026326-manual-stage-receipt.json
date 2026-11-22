@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "target": 2026326,
+  "candidate": "AA01",
+  "prior_decisions_preserved": 14,
+  "324_reconstruction_not_fabricated_as_public": true,
+  "325_published_decision_unchanged": true,
+  "staged_sha256": "51ac830a15d76f95241d3db2fda075e49f5ba91bcca1cf433bb063102b58f97d",
+  "before_sha256": "ccb3a1c48c5369d6a89f2ceb7fc4daf2b2c690ecae9bb4c0a379ff7cd280c2ea",
+  "scope": "isolated stage only; no main history, public site or original dirty deploy changed"
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "user-authorized 326 unverified observation; not preregistration, predraw, official or source authentication",
+  "parent_commit": "f871173b66ab10860bdf0076368cf8bcb89856f0",
+  "old_homepage_sha256": "24258b36614377f6bfe4ce6d1d2e4d4a68f75b7933ac9e73810c28e489a716a0",
+  "new_homepage_sha256": "ed669f9f9f25eb52f17c87f91766bbbe3765d9da7840d65fea35bf276b9bf22d",
+  "generator_unchanged_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "staged_history_sha256": "307655d85b643128f28d0a8c3babf662d770ded56a815b67ff34561f067fcc07",
+  "staged_decisions_sha256": "51ac830a15d76f95241d3db2fda075e49f5ba91bcca1cf433bb063102b58f97d",
+  "user_325_six_plus_one_inferred": [
+    41,
+    37,
+    10,
+    1,
+    27,
+    17,
+    3
+  ],
+  "user_date": null,
+  "325_freeze_after_result_not_predraw": true,
+  "325_published_Z01_complete_columns": 1,
+  "325_settlement_counts": [
+    1,
+    0,
+    1
+  ],
+  "324_plan_status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "selected_candidate": "AA01",
+  "selected": {
+    "single": "羊",
+    "pair": [
+      "虎",
+      "羊"
+    ],
+    "triple": [
+      "虎",
+      "馬",
+      "兔"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ]
+  },
+  "four_sign_2024plus_both_scopes_n": 48,
+  "follow_six_repeat_counts_0_to_4": [
+    5,
+    18,
+    17,
+    8,
+    0
+  ],
+  "follow_seven_repeat_counts_0_to_4": [
+    5,
+    13,
+    19,
+    9,
+    2
+  ],
+  "joint_sample_is_posthoc_exploratory": true,
+  "target_result_read": false,
+  "timing_official_mechanism_and_wechat_safety_authenticated": false,
+  "prior_1055_rows_byte_identical": true,
+  "original_dirty_deploy_not_touched": true,
+  "prior_index_html_unchanged_to_preserve_index_repair_manifest": true,
+  "local_qa_only_not_public_yet": true,
+  "sheep_tiger_joint_absence_35_40_45": [
+    16,
+    16,
+    18
+  ],
+  "ideal_zero_column_pct_aa01": 53.754854897976344,
+  "ideal_zero_column_pct_same_universe_aa02": 44.52112356169446
+}

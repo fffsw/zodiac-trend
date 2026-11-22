@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "six joint-condition rows and sample sizes match independent raw-data recount",
+    "scope-specific marginals, subgroup, identity exposure and ideal model correct",
+    "unknown outcome, 1-versus-2 counterexample, exploratory selection, identity and no-guarantee disclosures preserved",
+    "all six study links resolve"
+  ],
+  "report_sha256": "9b92b907f7d739894eaa3f40e7dc9fa158e6d9a501b2e3270edaabe0db0099d2"
+}

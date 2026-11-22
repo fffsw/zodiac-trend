@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 38 manual rows, roles, comparison labels, overlap and minimums agree",
+    "all 12 prior-only zodiac ledgers and 49 number rows checked",
+    "all six conditional-model comparison rows match independently enumerated models",
+    "actual 323 and outcome-known 324 correctly distinguished; 13 evidence links exist"
+  ],
+  "scope": "325 display report; no target result read, not official or time authenticated",
+  "report_sha256": "ad3f944e77be09fa7b65cfd9d4c99c91eca8340de78178b99ef0e7e539d8f9d2"
+}

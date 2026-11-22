@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "325 user-only four-sign repeat count study through 325, 326 unknown; descriptive sources not authenticated, no promised future count",
+  "checks": [
+    "raw source ends at user 325; 326 excluded from known followups",
+    "valid adjacency, cross-year boundaries and invalid records independently checked",
+    "all three outcome scopes, 2024+, full historical and overlapping rolling-window distributions independently recounted",
+    "conjoint exact four-scope and exact-multiplicity exploratory analyses reproduced; exact prior four identities have no known followup",
+    "repeated-versus-single prior identities counted per exposure, not treated as independent draws",
+    "six- and seven-ball ideal models verified by independent inclusion-exclusion, not empirical forecasting",
+    "all historical four-sign pair ledger rows reconcile to frozen raw records",
+    "prespecified marginals and explicitly exploratory conjoint analysis hash-linked to frozen source"
+  ],
+  "study_sha256": "1a205d143257e407c19ccd8533402da45d920e39edf32add17e6f7913231e8ed",
+  "conjoint_sha256": "65ae06f4513ada9eb97074ad52e79cf8ff02349719dee0907930854d4c01ea1d",
+  "pair_csv_sha256": "f6cc66c5829832859c983b48e8deeddc8805819c814e40a4daac4d3b98c6ccf6"
+}

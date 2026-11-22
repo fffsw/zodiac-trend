@@ -1,0 +1,5 @@
+{
+  "status": "CORRECTED_BEFORE_INDEPENDENT_QC",
+  "issue": "Initial audit used target_already_known_not_blind=false; analysis only established the target result was not read, not that the target draw was unperformed or unknown to anyone.",
+  "correction": "Replaced ambiguous field with target_result_read_by_analysis=false and draw_status_not_certified=true. Candidate arithmetic and decisions are unchanged. The initial audit is retained alongside corrected output."
+}

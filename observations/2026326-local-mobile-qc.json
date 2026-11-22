@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Chromium mobile emulation only, not real iOS Safari or a WeChat safety decision",
+  "url": "file:///home/user/archive/task289_326_release/stage/zodiac_trend.html",
+  "browser": "159.0.8154.6",
+  "checks": [
+    "mobile viewport, iPhone-style user agent and touch emulated",
+    "mobile page fits viewport; graph has own horizontal scrolling",
+    "no added banner on mobile",
+    "mobile issue is 326",
+    "mobile graph horizontally scrollable",
+    "mobile graph reaches right side",
+    "touch switches to zodiac view",
+    "touch switches to 50 periods",
+    "touch switches back to number view",
+    "touch 单肖展示羊",
+    "touch 二中二虎羊",
+    "touch 三中三虎馬兔",
+    "synthetic local 326 fixture updates identifier",
+    "no automatic 327 picks from synthetic 326",
+    "undo synthetic fixture restores 326 identifier",
+    "no synthetic record left in mobile context",
+    "no automatically loaded external scripts or assets",
+    "no unhandled mobile browser errors"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "file:///home/user/archive/task289_326_release/stage/zodiac_trend.html",
+      "type": "document"
+    }
+  ]
+}

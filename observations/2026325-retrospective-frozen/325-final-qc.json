@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "323 user-only actual display review, 324 unblinded reconstruction and 325 public display structural verification; not source, clock, actual mechanism, predraw, WeChat safety or outcome certification",
+  "commit": "f871173b66ab10860bdf0076368cf8bcb89856f0",
+  "page_sha256": "24258b36614377f6bfe4ce6d1d2e4d4a68f75b7933ac9e73810c28e489a716a0",
+  "bundle_sha256": "ef524a382d43c0c8a483b46d42a81b11d76920644487a198e8a7ebcb0376670c",
+  "bundle_files": 973,
+  "checks": [
+    "1053 prior CRLF rows retained byte-for-byte; exact user-only 323/324, separate sevenths, blank dates and no 325 result",
+    "all prior decisions preserved; no fabricated 324 decision; exact 325 slots and reserve",
+    "staged/local/public-mirrored homepage bytes match, unchanged generator and root entry, old immutable index preserved",
+    "original analyses preserved, 323 actual versus 324 post-outcome distinction and all local links verified",
+    "non-force commit and Pages deployment, 943 public files, 17 manifests and all recorded browser checks; no real WeChat verdict",
+    "973-file offline bundle byte-identical to mirror; all 17 manifests and independent portable verifier pass",
+    "old verified ZIPs preserved, missing mirrors restored without overwrite, original 68-entry dirty deploy untouched",
+    "post-result 323 freeze, 324 known-outcome reconstruction and unknown timing/WeChat status not overstated"
+  ]
+}

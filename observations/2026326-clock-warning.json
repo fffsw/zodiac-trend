@@ -1,0 +1,7 @@
+{
+  "status": "CLOCK_OR_HEADER_INCONSISTENCY_NOT_RESOLVED",
+  "provided_local_date_context": "2026-10-13 Asia/Shanghai",
+  "status_response_date_header_example": "Sun, 22 Nov 2026 09:54:38 GMT",
+  "finding": "The server Date header is later than the provided local-date context. The server header, sandbox clock, and the third-party status source must not be used to claim an authenticated current date, draw deadline, or predraw timing.",
+  "limits": "The observed null target and latest identifier may also be stale or share an upstream. The user-supplied issue and results are not independently verified. No 326 result was read."
+}
