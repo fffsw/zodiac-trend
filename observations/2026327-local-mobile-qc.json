@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Chromium mobile emulation only; synthetic input, not real iOS Safari, WeChat safety or predraw proof",
+  "url": "file:///home/user/archive/task292_327_release/stage/zodiac_trend.html",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "mobile viewport, iPhone-style agent and touch emulated",
+    "mobile page fits viewport; chart has own horizontal scrolling",
+    "no added banner on mobile",
+    "mobile issue is 327",
+    "mobile chart horizontally scrollable",
+    "mobile graph reaches right side",
+    "touch switches to zodiac view",
+    "touch switches to 50 records",
+    "touch returns to number view",
+    "touch 单肖展示馬",
+    "touch 二中二鷄龍",
+    "touch 三中三鷄虎牛",
+    "synthetic local 327 updates identifier",
+    "no automatic 328 picks",
+    "undo restores 327 display",
+    "no synthetic row left",
+    "no automatic external assets",
+    "no unhandled mobile errors"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "file:///home/user/archive/task292_327_release/stage/zodiac_trend.html",
+      "type": "document"
+    }
+  ]
+}

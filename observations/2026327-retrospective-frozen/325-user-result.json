@@ -1,0 +1,28 @@
+{
+  "raw_user_input": "325期 41虎 37马 10鸡 01 马 27 龙 17 虎 03 龙",
+  "source": "user only; no external draw numbers queried or substituted",
+  "issue": 2026325,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    41,
+    37,
+    10,
+    1,
+    27,
+    17
+  ],
+  "normal_zodiacs": [
+    "虎",
+    "馬",
+    "鷄",
+    "馬",
+    "龍",
+    "虎"
+  ],
+  "seventh_number": 3,
+  "seventh_zodiac": "龍",
+  "scope": "first six only for normal settlement/statistics and next normal selection; seventh separately raw history and seven-ball zodiac intersections; no special-number picks",
+  "official_authentication": false
+}

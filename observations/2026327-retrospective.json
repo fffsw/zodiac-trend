@@ -1,0 +1,6011 @@
+{
+  "status": "PASS_DESCRIPTIVE_REVIEW_NOT_FORECAST",
+  "scope": "326 settlement is user-supplied, freeze after result. Historical comparison combines varying versions and provenance; prereg and git snapshots cannot authenticate timing/public display. 319/322/324 reconstructions not counted. 327 result not read.",
+  "issue": 2026326,
+  "user_input": {
+    "raw_user_input": "326期 09狗16兔22鸡36羊05虎47猴 23猴",
+    "source": "user only; no third-party target draw numbers queried or substituted",
+    "issue": 2026326,
+    "issue_user_specified": true,
+    "six_plus_one_inferred_from_conversation_order": true,
+    "date": null,
+    "normal_numbers": [
+      9,
+      16,
+      22,
+      36,
+      5,
+      47
+    ],
+    "normal_zodiacs": [
+      "狗",
+      "兔",
+      "鷄",
+      "羊",
+      "虎",
+      "猴"
+    ],
+    "seventh_number": 23,
+    "seventh_zodiac": "猴",
+    "scope": "first six only for normal settlement/statistics and next normal selection; seventh separately raw history and seven-ball zodiac intersections; no special-number picks",
+    "official_authentication": false
+  },
+  "actual_revision": "R01/AA16",
+  "settlement": {
+    "displayed_signs": [
+      "虎",
+      "馬",
+      "羊",
+      "鷄"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ],
+    "universe": [
+      "虎",
+      "龍",
+      "蛇",
+      "馬",
+      "羊",
+      "鷄"
+    ],
+    "slots": [
+      {
+        "name": "single",
+        "required": [
+          "羊"
+        ],
+        "present": [
+          "羊"
+        ],
+        "missing": [],
+        "present_count": 1,
+        "needed_count": 1,
+        "complete": true,
+        "balls": [
+          {
+            "number": 36,
+            "zodiac": "羊"
+          }
+        ]
+      },
+      {
+        "name": "pair",
+        "required": [
+          "虎",
+          "羊"
+        ],
+        "present": [
+          "虎",
+          "羊"
+        ],
+        "missing": [],
+        "present_count": 2,
+        "needed_count": 2,
+        "complete": true,
+        "balls": [
+          {
+            "number": 36,
+            "zodiac": "羊"
+          },
+          {
+            "number": 5,
+            "zodiac": "虎"
+          }
+        ]
+      },
+      {
+        "name": "triple",
+        "required": [
+          "虎",
+          "馬",
+          "鷄"
+        ],
+        "present": [
+          "虎",
+          "鷄"
+        ],
+        "missing": [
+          "馬"
+        ],
+        "present_count": 2,
+        "needed_count": 3,
+        "complete": false,
+        "balls": [
+          {
+            "number": 22,
+            "zodiac": "鷄"
+          },
+          {
+            "number": 5,
+            "zodiac": "虎"
+          }
+        ]
+      }
+    ],
+    "complete_columns": 2,
+    "displayed_hits": [
+      "虎",
+      "羊",
+      "鷄"
+    ],
+    "reserve_hits": [],
+    "outside_universe_hits": [
+      "兔",
+      "猴",
+      "狗"
+    ],
+    "normal_distinct": [
+      "虎",
+      "兔",
+      "羊",
+      "猴",
+      "鷄",
+      "狗"
+    ]
+  },
+  "original_v1_settlement": {
+    "displayed_signs": [
+      "虎",
+      "兔",
+      "馬",
+      "羊"
+    ],
+    "reserve_only": [
+      "龍",
+      "蛇"
+    ],
+    "universe": [
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "羊"
+    ],
+    "slots": [
+      {
+        "name": "single",
+        "required": [
+          "羊"
+        ],
+        "present": [
+          "羊"
+        ],
+        "missing": [],
+        "present_count": 1,
+        "needed_count": 1,
+        "complete": true,
+        "balls": [
+          {
+            "number": 36,
+            "zodiac": "羊"
+          }
+        ]
+      },
+      {
+        "name": "pair",
+        "required": [
+          "虎",
+          "羊"
+        ],
+        "present": [
+          "虎",
+          "羊"
+        ],
+        "missing": [],
+        "present_count": 2,
+        "needed_count": 2,
+        "complete": true,
+        "balls": [
+          {
+            "number": 36,
+            "zodiac": "羊"
+          },
+          {
+            "number": 5,
+            "zodiac": "虎"
+          }
+        ]
+      },
+      {
+        "name": "triple",
+        "required": [
+          "虎",
+          "兔",
+          "馬"
+        ],
+        "present": [
+          "虎",
+          "兔"
+        ],
+        "missing": [
+          "馬"
+        ],
+        "present_count": 2,
+        "needed_count": 3,
+        "complete": false,
+        "balls": [
+          {
+            "number": 16,
+            "zodiac": "兔"
+          },
+          {
+            "number": 5,
+            "zodiac": "虎"
+          }
+        ]
+      }
+    ],
+    "complete_columns": 2,
+    "displayed_hits": [
+      "虎",
+      "兔",
+      "羊"
+    ],
+    "reserve_hits": [],
+    "outside_universe_hits": [
+      "猴",
+      "鷄",
+      "狗"
+    ],
+    "normal_distinct": [
+      "虎",
+      "兔",
+      "羊",
+      "猴",
+      "鷄",
+      "狗"
+    ]
+  },
+  "shape": {
+    "normal_distinct_signs": 6,
+    "seven_distinct_signs": 6,
+    "sum": 135,
+    "span": 42,
+    "road_0_1_2": [
+      2,
+      2,
+      2
+    ],
+    "odd_even": [
+      3,
+      3
+    ],
+    "red_blue_green": [
+      0,
+      3,
+      3
+    ],
+    "road1_odd": 0,
+    "road1_even": 2,
+    "small_big_1_24_25_49": [
+      4,
+      2
+    ],
+    "repeated_from_325_six": [
+      "虎",
+      "鷄"
+    ],
+    "repeated_from_325_seven": [
+      "虎",
+      "鷄"
+    ]
+  },
+  "pre_326_pressure": {
+    "10": {
+      "no_odd_1road": 2,
+      "at_most_one_1road": 2,
+      "has_1road_but_no_odd1": 1,
+      "road_exact_2_2_2": 1,
+      "no_red": 0,
+      "six_distinct": 1,
+      "no_horse": 4,
+      "no_horse_and_no_rat": 2
+    },
+    "20": {
+      "no_odd_1road": 3,
+      "at_most_one_1road": 3,
+      "has_1road_but_no_odd1": 2,
+      "road_exact_2_2_2": 2,
+      "no_red": 1,
+      "six_distinct": 3,
+      "no_horse": 7,
+      "no_horse_and_no_rat": 3
+    },
+    "35": {
+      "no_odd_1road": 5,
+      "at_most_one_1road": 5,
+      "has_1road_but_no_odd1": 4,
+      "road_exact_2_2_2": 4,
+      "no_red": 1,
+      "six_distinct": 6,
+      "no_horse": 13,
+      "no_horse_and_no_rat": 5
+    },
+    "40": {
+      "no_odd_1road": 6,
+      "at_most_one_1road": 8,
+      "has_1road_but_no_odd1": 5,
+      "road_exact_2_2_2": 4,
+      "no_red": 1,
+      "six_distinct": 8,
+      "no_horse": 17,
+      "no_horse_and_no_rat": 6
+    },
+    "45": {
+      "no_odd_1road": 7,
+      "at_most_one_1road": 9,
+      "has_1road_but_no_odd1": 6,
+      "road_exact_2_2_2": 5,
+      "no_red": 1,
+      "six_distinct": 12,
+      "no_horse": 20,
+      "no_horse_and_no_rat": 7
+    },
+    "60": {
+      "no_odd_1road": 11,
+      "at_most_one_1road": 14,
+      "has_1road_but_no_odd1": 9,
+      "road_exact_2_2_2": 6,
+      "no_red": 4,
+      "six_distinct": 20,
+      "no_horse": 27,
+      "no_horse_and_no_rat": 11
+    },
+    "100": {
+      "no_odd_1road": 22,
+      "at_most_one_1road": 26,
+      "has_1road_but_no_odd1": 16,
+      "road_exact_2_2_2": 10,
+      "no_red": 10,
+      "six_distinct": 33,
+      "no_horse": 44,
+      "no_horse_and_no_rat": 22
+    },
+    "250": {
+      "no_odd_1road": 60,
+      "at_most_one_1road": 69,
+      "has_1road_but_no_odd1": 42,
+      "road_exact_2_2_2": 25,
+      "no_red": 17,
+      "six_distinct": 74,
+      "no_horse": 120,
+      "no_horse_and_no_rat": 60
+    }
+  },
+  "number_details_before_326": [
+    {
+      "number": 9,
+      "zodiac": "狗",
+      "road": 0,
+      "parity": "奇",
+      "wave": "藍",
+      "position": "outside_universe",
+      "age_before_326": 2,
+      "previous_first_six": false
+    },
+    {
+      "number": 16,
+      "zodiac": "兔",
+      "road": 1,
+      "parity": "偶",
+      "wave": "綠",
+      "position": "outside_universe",
+      "age_before_326": 14,
+      "previous_first_six": false
+    },
+    {
+      "number": 22,
+      "zodiac": "鷄",
+      "road": 1,
+      "parity": "偶",
+      "wave": "綠",
+      "position": "display",
+      "age_before_326": 8,
+      "previous_first_six": true
+    },
+    {
+      "number": 36,
+      "zodiac": "羊",
+      "road": 0,
+      "parity": "偶",
+      "wave": "藍",
+      "position": "display",
+      "age_before_326": 7,
+      "previous_first_six": false
+    },
+    {
+      "number": 5,
+      "zodiac": "虎",
+      "road": 2,
+      "parity": "奇",
+      "wave": "綠",
+      "position": "display",
+      "age_before_326": 26,
+      "previous_first_six": true
+    },
+    {
+      "number": 47,
+      "zodiac": "猴",
+      "road": 2,
+      "parity": "奇",
+      "wave": "藍",
+      "position": "outside_universe",
+      "age_before_326": 3,
+      "previous_first_six": false
+    }
+  ],
+  "previous_325_joint_4_sample_n": 48,
+  "actual_325_to_326_first_six_repeat_count": 2,
+  "risk_was_disclosed": "R01 triple has three prior signs, therefore repeat 0–2 cannot complete; 326 actual repeat=2 and missing 馬. Actual route 1 has two balls but neither odd1; not no 1-road.",
+  "rabbit_to_chicken_did_not_change_column_counts_this_result": true,
+  "candidate_outcomes": [
+    {
+      "family": "original_38",
+      "id": "AA01",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA02",
+      "roles": {
+        "top": "蛇",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍"
+      ],
+      "single_hit": 0,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA03",
+      "roles": {
+        "top": "羊",
+        "A": "馬",
+        "B": "羊",
+        "C": "虎",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA04",
+      "roles": {
+        "top": "馬",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 0,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA05",
+      "roles": {
+        "top": "兔",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA06",
+      "roles": {
+        "top": "羊",
+        "A": "羊",
+        "B": "虎",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA07",
+      "roles": {
+        "top": "羊",
+        "A": "兔",
+        "B": "羊",
+        "C": "虎",
+        "D": "馬"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA08",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "鷄",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA09",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "豬"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA10",
+      "roles": {
+        "top": "羊",
+        "A": "龍",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍",
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA11",
+      "roles": {
+        "top": "羊",
+        "A": "蛇",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 1,
+      "triple_missing": [
+        "蛇",
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA12",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "龍",
+        "D": "鷄"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA13",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "鼠",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "鼠"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA14",
+      "roles": {
+        "top": "羊",
+        "A": "猴",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊",
+        "猴"
+      ],
+      "outside_universe_hits": [
+        "虎",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA15",
+      "roles": {
+        "top": "牛",
+        "A": "虎",
+        "B": "牛",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 0,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 0,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔"
+      ],
+      "outside_universe_hits": [
+        "羊",
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA16",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA17",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA18",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "蛇"
+      },
+      "reserves": [
+        "龍",
+        "兔"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "蛇",
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA19",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserves": [
+        "兔",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍",
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA20",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "鼠",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "鼠",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA21",
+      "roles": {
+        "top": "羊",
+        "A": "鼠",
+        "B": "羊",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬",
+        "虎"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 0,
+      "complete_columns": 1,
+      "triple_missing": [
+        "鼠",
+        "龍",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA22",
+      "roles": {
+        "top": "羊",
+        "A": "牛",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 1,
+      "triple_missing": [
+        "牛",
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA23",
+      "roles": {
+        "top": "羊",
+        "A": "猴",
+        "B": "羊",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "馬",
+        "虎"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊",
+        "猴"
+      ],
+      "outside_universe_hits": [
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA24",
+      "roles": {
+        "top": "羊",
+        "A": "豬",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 1,
+      "triple_missing": [
+        "馬",
+        "豬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA25",
+      "roles": {
+        "top": "羊",
+        "A": "鷄",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA26",
+      "roles": {
+        "top": "羊",
+        "A": "狗",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "虎",
+        "龍"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊",
+        "狗"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA27",
+      "roles": {
+        "top": "羊",
+        "A": "龍",
+        "B": "羊",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬",
+        "兔"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA28",
+      "roles": {
+        "top": "羊",
+        "A": "兔",
+        "B": "羊",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserves": [
+        "虎",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍",
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA29",
+      "roles": {
+        "top": "羊",
+        "A": "馬",
+        "B": "羊",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎",
+        "兔"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 0,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "displayed_hits": [
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA30",
+      "roles": {
+        "top": "馬",
+        "A": "羊",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎",
+        "兔"
+      ],
+      "single_hit": 0,
+      "pair_hits": 1,
+      "triple_hits": 1,
+      "complete_columns": 0,
+      "triple_missing": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA31",
+      "roles": {
+        "top": "虎",
+        "A": "狗",
+        "B": "兔",
+        "C": "馬",
+        "D": "蛇"
+      },
+      "reserves": [
+        "豬"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "蛇",
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "狗"
+      ],
+      "outside_universe_hits": [
+        "羊",
+        "猴",
+        "鷄"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA32",
+      "roles": {
+        "top": "兔",
+        "A": "蛇",
+        "B": "狗",
+        "C": "牛",
+        "D": "馬"
+      },
+      "reserves": [
+        "豬"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 0,
+      "complete_columns": 1,
+      "triple_missing": [
+        "牛",
+        "蛇",
+        "馬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "狗"
+      ],
+      "outside_universe_hits": [
+        "虎",
+        "羊",
+        "猴",
+        "鷄"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA33",
+      "roles": {
+        "top": "鷄",
+        "A": "豬",
+        "B": "狗",
+        "C": "羊",
+        "D": "虎"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "豬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄",
+        "狗"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA34",
+      "roles": {
+        "top": "鷄",
+        "A": "羊",
+        "B": "兔",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "兔",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "虎",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA35",
+      "roles": {
+        "top": "蛇",
+        "A": "鷄",
+        "B": "蛇",
+        "C": "龍",
+        "D": "羊"
+      },
+      "reserves": [
+        "兔",
+        "豬"
+      ],
+      "single_hit": 0,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 0,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "虎",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA36",
+      "roles": {
+        "top": "虎",
+        "A": "龍",
+        "B": "虎",
+        "C": "鷄",
+        "D": "羊"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA37",
+      "roles": {
+        "top": "羊",
+        "A": "牛",
+        "B": "羊",
+        "C": "狗",
+        "D": "虎"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "牛"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "狗"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "鷄"
+      ]
+    },
+    {
+      "family": "original_38",
+      "id": "AA38",
+      "roles": {
+        "top": "牛",
+        "A": "豬",
+        "B": "牛",
+        "C": "猴",
+        "D": "兔"
+      },
+      "reserves": [
+        "馬",
+        "龍"
+      ],
+      "single_hit": 0,
+      "pair_hits": 0,
+      "triple_hits": 2,
+      "complete_columns": 0,
+      "triple_missing": [
+        "豬"
+      ],
+      "displayed_hits": [
+        "兔",
+        "猴"
+      ],
+      "outside_universe_hits": [
+        "虎",
+        "羊",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R00",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "兔"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "猴",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R01",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R02",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "龍",
+        "D": "鷄"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R03",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R04",
+      "roles": {
+        "top": "馬",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserves": [
+        "羊",
+        "蛇"
+      ],
+      "single_hit": 0,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 0,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R05",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserves": [
+        "鷄",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍",
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R06",
+      "roles": {
+        "top": "羊",
+        "A": "龍",
+        "B": "羊",
+        "C": "虎",
+        "D": "鷄"
+      },
+      "reserves": [
+        "馬",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R07",
+      "roles": {
+        "top": "羊",
+        "A": "馬",
+        "B": "羊",
+        "C": "虎",
+        "D": "鷄"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 1,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R08",
+      "roles": {
+        "top": "鷄",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "reserves": [
+        "龍",
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 2,
+      "complete_columns": 2,
+      "triple_missing": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R09",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "鷄",
+        "C": "馬",
+        "D": "龍"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "single_hit": 1,
+      "pair_hits": 2,
+      "triple_hits": 1,
+      "complete_columns": 2,
+      "triple_missing": [
+        "龍",
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "family": "revision_11",
+      "id": "R10",
+      "roles": {
+        "top": "蛇",
+        "A": "虎",
+        "B": "馬",
+        "C": "鷄",
+        "D": "龍"
+      },
+      "reserves": [
+        "羊"
+      ],
+      "single_hit": 0,
+      "pair_hits": 1,
+      "triple_hits": 2,
+      "complete_columns": 0,
+      "triple_missing": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "虎",
+        "鷄"
+      ],
+      "outside_universe_hits": [
+        "兔",
+        "猴",
+        "狗"
+      ]
+    }
+  ],
+  "historical_outcomes": [
+    {
+      "period": 2026291,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v2.9.1",
+      "reference": "prior-records/2026291.json",
+      "roles": {
+        "top": "羊",
+        "A": "猴",
+        "B": "鷄",
+        "C": "牛",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        32,
+        10,
+        41,
+        38,
+        22,
+        2
+      ],
+      "normal_zodiacs": [
+        "豬",
+        "鷄",
+        "虎",
+        "蛇",
+        "鷄",
+        "蛇"
+      ],
+      "special_number": 17,
+      "special_zodiac": "虎",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "羊"
+          ],
+          "present": [],
+          "missing": [
+            "羊"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "猴",
+            "鷄"
+          ],
+          "present": [
+            "鷄"
+          ],
+          "missing": [
+            "猴"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 22,
+              "zodiac": "鷄"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "牛",
+            "馬",
+            "猴"
+          ],
+          "present": [],
+          "missing": [
+            "牛",
+            "馬",
+            "猴"
+          ],
+          "present_count": 0,
+          "needed_count": 3,
+          "complete": false,
+          "balls": []
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "牛",
+        "馬",
+        "猴"
+      ],
+      "displayed_hits": [
+        "鷄"
+      ]
+    },
+    {
+      "period": 2026292,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v3.0",
+      "reference": "prior-records/2026292.json",
+      "roles": {
+        "top": "鼠",
+        "A": "馬",
+        "B": "猴",
+        "C": "鼠",
+        "D": "牛"
+      },
+      "normal_numbers": [
+        39,
+        10,
+        18,
+        23,
+        16,
+        4
+      ],
+      "normal_zodiacs": [
+        "龍",
+        "鷄",
+        "牛",
+        "猴",
+        "兔",
+        "兔"
+      ],
+      "special_number": 36,
+      "special_zodiac": "羊",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鼠"
+          ],
+          "present": [],
+          "missing": [
+            "鼠"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "馬",
+            "猴"
+          ],
+          "present": [
+            "猴"
+          ],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 23,
+              "zodiac": "猴"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "鼠",
+            "牛",
+            "馬"
+          ],
+          "present": [
+            "牛"
+          ],
+          "missing": [
+            "鼠",
+            "馬"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 18,
+              "zodiac": "牛"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "鼠",
+        "馬"
+      ],
+      "displayed_hits": [
+        "牛",
+        "猴"
+      ]
+    },
+    {
+      "period": 2026293,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v2.5",
+      "reference": "prior-records/2026293.json",
+      "roles": {
+        "top": "鼠",
+        "A": "馬",
+        "B": "豬",
+        "C": "狗",
+        "D": "猴"
+      },
+      "normal_numbers": [
+        38,
+        10,
+        48,
+        49,
+        13,
+        9
+      ],
+      "normal_zodiacs": [
+        "蛇",
+        "鷄",
+        "羊",
+        "馬",
+        "馬",
+        "狗"
+      ],
+      "special_number": 5,
+      "special_zodiac": "虎",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鼠"
+          ],
+          "present": [],
+          "missing": [
+            "鼠"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "馬",
+            "豬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "豬"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            },
+            {
+              "number": 13,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "馬",
+            "猴",
+            "狗"
+          ],
+          "present": [
+            "馬",
+            "狗"
+          ],
+          "missing": [
+            "猴"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            },
+            {
+              "number": 13,
+              "zodiac": "馬"
+            },
+            {
+              "number": 9,
+              "zodiac": "狗"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "猴"
+      ],
+      "displayed_hits": [
+        "馬",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026294,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v2.5",
+      "reference": "prior-records/2026294.json",
+      "roles": {
+        "top": "兔",
+        "A": "猴",
+        "B": "豬",
+        "C": "牛",
+        "D": "虎"
+      },
+      "normal_numbers": [
+        29,
+        43,
+        10,
+        2,
+        34,
+        27
+      ],
+      "normal_zodiacs": [
+        "虎",
+        "鼠",
+        "鷄",
+        "蛇",
+        "鷄",
+        "龍"
+      ],
+      "special_number": 28,
+      "special_zodiac": "兔",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "兔"
+          ],
+          "present": [],
+          "missing": [
+            "兔"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "猴",
+            "豬"
+          ],
+          "present": [],
+          "missing": [
+            "猴",
+            "豬"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "牛",
+            "虎",
+            "猴"
+          ],
+          "present": [
+            "虎"
+          ],
+          "missing": [
+            "牛",
+            "猴"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 29,
+              "zodiac": "虎"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "牛",
+        "猴"
+      ],
+      "displayed_hits": [
+        "虎"
+      ]
+    },
+    {
+      "period": 2026295,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v2.5",
+      "reference": "prior-records/2026295.json",
+      "roles": {
+        "top": "豬",
+        "A": "狗",
+        "B": "牛",
+        "C": "猴",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        22,
+        28,
+        33,
+        17,
+        13,
+        47
+      ],
+      "normal_zodiacs": [
+        "鷄",
+        "兔",
+        "狗",
+        "虎",
+        "馬",
+        "猴"
+      ],
+      "special_number": 25,
+      "special_zodiac": "馬",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "豬"
+          ],
+          "present": [],
+          "missing": [
+            "豬"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "牛",
+            "狗"
+          ],
+          "present": [
+            "狗"
+          ],
+          "missing": [
+            "牛"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 33,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "馬",
+            "猴",
+            "狗"
+          ],
+          "present": [
+            "馬",
+            "猴",
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 3,
+          "needed_count": 3,
+          "complete": true,
+          "balls": [
+            {
+              "number": 33,
+              "zodiac": "狗"
+            },
+            {
+              "number": 13,
+              "zodiac": "馬"
+            },
+            {
+              "number": 47,
+              "zodiac": "猴"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [],
+      "displayed_hits": [
+        "馬",
+        "猴",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026296,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.1",
+      "reference": "prior-records/2026296.json",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "鼠",
+        "C": "牛",
+        "D": "鷄"
+      },
+      "normal_numbers": [
+        14,
+        43,
+        26,
+        45,
+        3,
+        31
+      ],
+      "normal_zodiacs": [
+        "蛇",
+        "鼠",
+        "蛇",
+        "狗",
+        "龍",
+        "鼠"
+      ],
+      "special_number": 23,
+      "special_zodiac": "猴",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鼠",
+            "蛇"
+          ],
+          "present": [
+            "鼠",
+            "蛇"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            },
+            {
+              "number": 26,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 31,
+              "zodiac": "鼠"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "牛",
+            "蛇",
+            "鷄"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "牛",
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 26,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "牛",
+        "鷄"
+      ],
+      "displayed_hits": [
+        "鼠",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026297,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026297.json",
+      "roles": {
+        "top": "兔",
+        "A": "鷄",
+        "B": "狗",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        27,
+        40,
+        25,
+        26,
+        33,
+        9
+      ],
+      "normal_zodiacs": [
+        "龍",
+        "兔",
+        "馬",
+        "蛇",
+        "狗",
+        "狗"
+      ],
+      "special_number": 13,
+      "special_zodiac": "馬",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "兔"
+          ],
+          "present": [
+            "兔"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 40,
+              "zodiac": "兔"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鷄",
+            "狗"
+          ],
+          "present": [
+            "狗"
+          ],
+          "missing": [
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 33,
+              "zodiac": "狗"
+            },
+            {
+              "number": 9,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "鷄"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "虎",
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 26,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "虎",
+        "鷄"
+      ],
+      "displayed_hits": [
+        "兔",
+        "蛇",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026298,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026298.json",
+      "roles": {
+        "top": "虎",
+        "A": "鼠",
+        "B": "牛",
+        "C": "蛇",
+        "D": "虎"
+      },
+      "normal_numbers": [
+        31,
+        36,
+        40,
+        34,
+        37,
+        43
+      ],
+      "normal_zodiacs": [
+        "鼠",
+        "羊",
+        "兔",
+        "鷄",
+        "馬",
+        "鼠"
+      ],
+      "special_number": 8,
+      "special_zodiac": "豬",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鼠",
+            "牛"
+          ],
+          "present": [
+            "鼠"
+          ],
+          "missing": [
+            "牛"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 31,
+              "zodiac": "鼠"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "鼠",
+            "虎",
+            "蛇"
+          ],
+          "present": [
+            "鼠"
+          ],
+          "missing": [
+            "虎",
+            "蛇"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 31,
+              "zodiac": "鼠"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "虎",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "鼠"
+      ]
+    },
+    {
+      "period": 2026299,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026299.json",
+      "roles": {
+        "top": "蛇",
+        "A": "狗",
+        "B": "龍",
+        "C": "馬",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        12,
+        19,
+        28,
+        32,
+        5,
+        42
+      ],
+      "normal_zodiacs": [
+        "羊",
+        "鼠",
+        "兔",
+        "豬",
+        "虎",
+        "牛"
+      ],
+      "special_number": 23,
+      "special_zodiac": "猴",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "蛇"
+          ],
+          "present": [],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "龍",
+            "狗"
+          ],
+          "present": [],
+          "missing": [
+            "龍",
+            "狗"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "狗"
+          ],
+          "present": [],
+          "missing": [
+            "蛇",
+            "馬",
+            "狗"
+          ],
+          "present_count": 0,
+          "needed_count": 3,
+          "complete": false,
+          "balls": []
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "displayed_hits": []
+    },
+    {
+      "period": 2026300,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026300.json",
+      "roles": {
+        "top": "虎",
+        "A": "馬",
+        "B": "鷄",
+        "C": "蛇",
+        "D": "虎"
+      },
+      "normal_numbers": [
+        1,
+        29,
+        23,
+        17,
+        18,
+        42
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "虎",
+        "猴",
+        "虎",
+        "牛",
+        "牛"
+      ],
+      "special_number": 38,
+      "special_zodiac": "蛇",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [
+            "虎"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 29,
+              "zodiac": "虎"
+            },
+            {
+              "number": 17,
+              "zodiac": "虎"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "馬",
+            "鷄"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 1,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "馬"
+          ],
+          "present": [
+            "虎",
+            "馬"
+          ],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 1,
+              "zodiac": "馬"
+            },
+            {
+              "number": 29,
+              "zodiac": "虎"
+            },
+            {
+              "number": 17,
+              "zodiac": "虎"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [
+        "蛇"
+      ],
+      "displayed_hits": [
+        "虎",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026301,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026301.json",
+      "roles": {
+        "top": "鼠",
+        "A": "龍",
+        "B": "蛇",
+        "C": "虎",
+        "D": "鼠"
+      },
+      "normal_numbers": [
+        27,
+        41,
+        23,
+        11,
+        2,
+        43
+      ],
+      "normal_zodiacs": [
+        "龍",
+        "虎",
+        "猴",
+        "猴",
+        "蛇",
+        "鼠"
+      ],
+      "special_number": 17,
+      "special_zodiac": "虎",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鼠"
+          ],
+          "present": [
+            "鼠"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "龍",
+            "蛇"
+          ],
+          "present": [
+            "龍",
+            "蛇"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 27,
+              "zodiac": "龍"
+            },
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "鼠",
+            "虎",
+            "龍"
+          ],
+          "present": [
+            "鼠",
+            "虎",
+            "龍"
+          ],
+          "missing": [],
+          "present_count": 3,
+          "needed_count": 3,
+          "complete": true,
+          "balls": [
+            {
+              "number": 27,
+              "zodiac": "龍"
+            },
+            {
+              "number": 41,
+              "zodiac": "虎"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 3,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [],
+      "displayed_hits": [
+        "鼠",
+        "虎",
+        "龍",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026302,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026302.json",
+      "roles": {
+        "top": "虎",
+        "A": "鷄",
+        "B": "狗",
+        "C": "蛇",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        10,
+        2,
+        14,
+        13,
+        11,
+        12
+      ],
+      "normal_zodiacs": [
+        "鷄",
+        "蛇",
+        "蛇",
+        "馬",
+        "猴",
+        "羊"
+      ],
+      "special_number": 45,
+      "special_zodiac": "狗",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鷄",
+            "狗"
+          ],
+          "present": [
+            "鷄"
+          ],
+          "missing": [
+            "狗"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "鷄"
+          ],
+          "present": [
+            "蛇",
+            "馬",
+            "鷄"
+          ],
+          "missing": [],
+          "present_count": 3,
+          "needed_count": 3,
+          "complete": true,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 13,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [],
+      "displayed_hits": [
+        "蛇",
+        "馬",
+        "鷄"
+      ]
+    },
+    {
+      "period": 2026303,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026303.json",
+      "roles": {
+        "top": "虎",
+        "A": "虎",
+        "B": "龍",
+        "C": "蛇",
+        "D": "鷄"
+      },
+      "normal_numbers": [
+        8,
+        28,
+        40,
+        3,
+        38,
+        49
+      ],
+      "normal_zodiacs": [
+        "豬",
+        "兔",
+        "兔",
+        "龍",
+        "蛇",
+        "馬"
+      ],
+      "special_number": 17,
+      "special_zodiac": "虎",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "虎",
+            "龍"
+          ],
+          "present": [
+            "龍"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 3,
+              "zodiac": "龍"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "鷄"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "虎",
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 38,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "虎",
+        "鷄"
+      ],
+      "displayed_hits": [
+        "龍",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026304,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026304.json",
+      "roles": {
+        "top": "虎",
+        "A": "鼠",
+        "B": "羊",
+        "C": "鷄",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        23,
+        24,
+        10,
+        43,
+        13,
+        36
+      ],
+      "normal_zodiacs": [
+        "猴",
+        "羊",
+        "鷄",
+        "鼠",
+        "馬",
+        "羊"
+      ],
+      "special_number": 21,
+      "special_zodiac": "狗",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鼠",
+            "羊"
+          ],
+          "present": [
+            "鼠",
+            "羊"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 24,
+              "zodiac": "羊"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            },
+            {
+              "number": 36,
+              "zodiac": "羊"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "鼠",
+            "蛇",
+            "鷄"
+          ],
+          "present": [
+            "鼠",
+            "鷄"
+          ],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 43,
+              "zodiac": "鼠"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "蛇"
+      ],
+      "displayed_hits": [
+        "鼠",
+        "羊",
+        "鷄"
+      ]
+    },
+    {
+      "period": 2026305,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026305.json",
+      "roles": {
+        "top": "兔",
+        "A": "蛇",
+        "B": "虎",
+        "C": "鷄",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        31,
+        49,
+        29,
+        44,
+        18,
+        40
+      ],
+      "normal_zodiacs": [
+        "鼠",
+        "馬",
+        "虎",
+        "豬",
+        "牛",
+        "兔"
+      ],
+      "special_number": 26,
+      "special_zodiac": "蛇",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "兔"
+          ],
+          "present": [
+            "兔"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 40,
+              "zodiac": "兔"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "虎",
+            "蛇"
+          ],
+          "present": [
+            "虎"
+          ],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 29,
+              "zodiac": "虎"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "鷄"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "蛇",
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "蛇",
+        "鷄"
+      ],
+      "displayed_hits": [
+        "虎",
+        "兔",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026306,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026306.json",
+      "roles": {
+        "top": "猴",
+        "A": "鷄",
+        "B": "羊",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        39,
+        13,
+        28,
+        9,
+        14,
+        32
+      ],
+      "normal_zodiacs": [
+        "龍",
+        "馬",
+        "兔",
+        "狗",
+        "蛇",
+        "豬"
+      ],
+      "special_number": 15,
+      "special_zodiac": "龍",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "猴"
+          ],
+          "present": [],
+          "missing": [
+            "猴"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "羊",
+            "鷄"
+          ],
+          "present": [],
+          "missing": [
+            "羊",
+            "鷄"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "鷄"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "虎",
+            "鷄"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "虎",
+        "鷄"
+      ],
+      "displayed_hits": [
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026307,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026307.json",
+      "roles": {
+        "top": "兔",
+        "A": "羊",
+        "B": "蛇",
+        "C": "鼠",
+        "D": "兔"
+      },
+      "normal_numbers": [
+        48,
+        38,
+        49,
+        9,
+        13,
+        3
+      ],
+      "normal_zodiacs": [
+        "羊",
+        "蛇",
+        "馬",
+        "狗",
+        "馬",
+        "龍"
+      ],
+      "special_number": 42,
+      "special_zodiac": "牛",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "兔"
+          ],
+          "present": [],
+          "missing": [
+            "兔"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "羊"
+          ],
+          "present": [
+            "蛇",
+            "羊"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 48,
+              "zodiac": "羊"
+            },
+            {
+              "number": 38,
+              "zodiac": "蛇"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "鼠",
+            "兔",
+            "羊"
+          ],
+          "present": [
+            "羊"
+          ],
+          "missing": [
+            "鼠",
+            "兔"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 48,
+              "zodiac": "羊"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "鼠",
+        "兔"
+      ],
+      "displayed_hits": [
+        "蛇",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026308,
+      "source_kind": "SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED",
+      "version": "v4.2",
+      "reference": "prior-records/2026308.json",
+      "roles": {
+        "top": "虎",
+        "A": "馬",
+        "B": "鼠",
+        "C": "虎",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        25,
+        16,
+        28,
+        8,
+        6,
+        40
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "兔",
+        "兔",
+        "豬",
+        "牛",
+        "兔"
+      ],
+      "special_number": 46,
+      "special_zodiac": "鷄",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "鼠",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "鼠"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 25,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "虎",
+            "蛇"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 25,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "虎",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "馬"
+      ]
+    },
+    {
+      "period": 2026309,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026309.html",
+      "roles": {
+        "top": "馬",
+        "A": "蛇",
+        "B": "兔",
+        "C": "虎",
+        "D": "羊"
+      },
+      "normal_numbers": [
+        34,
+        39,
+        18,
+        46,
+        4,
+        38
+      ],
+      "normal_zodiacs": [
+        "鷄",
+        "龍",
+        "牛",
+        "鷄",
+        "兔",
+        "蛇"
+      ],
+      "special_number": 13,
+      "special_zodiac": "馬",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "馬"
+          ],
+          "present": [],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 4,
+              "zodiac": "兔"
+            },
+            {
+              "number": 38,
+              "zodiac": "蛇"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "蛇",
+            "羊"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "虎",
+            "羊"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 38,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "虎",
+        "羊"
+      ],
+      "displayed_hits": [
+        "兔",
+        "蛇"
+      ]
+    },
+    {
+      "period": 2026310,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026310.html",
+      "roles": {
+        "top": "馬",
+        "A": "蛇",
+        "B": "龍",
+        "C": "虎",
+        "D": "兔"
+      },
+      "normal_numbers": [
+        37,
+        11,
+        34,
+        2,
+        40,
+        44
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "猴",
+        "鷄",
+        "蛇",
+        "兔",
+        "豬"
+      ],
+      "special_number": 46,
+      "special_zodiac": "鷄",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 37,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "龍",
+            "蛇"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "龍"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 40,
+              "zodiac": "兔"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [
+        "虎"
+      ],
+      "displayed_hits": [
+        "兔",
+        "蛇",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026311,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026311.html",
+      "roles": {
+        "top": "馬",
+        "A": "兔",
+        "B": "蛇",
+        "C": "豬",
+        "D": "龍"
+      },
+      "normal_numbers": [
+        32,
+        40,
+        49,
+        14,
+        19,
+        16
+      ],
+      "normal_zodiacs": [
+        "豬",
+        "兔",
+        "馬",
+        "蛇",
+        "鼠",
+        "兔"
+      ],
+      "special_number": 34,
+      "special_zodiac": "鷄",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 40,
+              "zodiac": "兔"
+            },
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 16,
+              "zodiac": "兔"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "兔",
+            "龍",
+            "豬"
+          ],
+          "present": [
+            "兔",
+            "豬"
+          ],
+          "missing": [
+            "龍"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 32,
+              "zodiac": "豬"
+            },
+            {
+              "number": 40,
+              "zodiac": "兔"
+            },
+            {
+              "number": 16,
+              "zodiac": "兔"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 2,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [
+        "龍"
+      ],
+      "displayed_hits": [
+        "兔",
+        "蛇",
+        "馬",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026312,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026312.html",
+      "roles": {
+        "top": "蛇",
+        "A": "兔",
+        "B": "馬",
+        "C": "虎",
+        "D": "龍"
+      },
+      "normal_numbers": [
+        31,
+        46,
+        4,
+        43,
+        32,
+        15
+      ],
+      "normal_zodiacs": [
+        "鼠",
+        "鷄",
+        "兔",
+        "鼠",
+        "豬",
+        "龍"
+      ],
+      "special_number": 38,
+      "special_zodiac": "蛇",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "蛇"
+          ],
+          "present": [],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "馬"
+          ],
+          "present": [
+            "兔"
+          ],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 4,
+              "zodiac": "兔"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "兔",
+            "龍"
+          ],
+          "present": [
+            "兔",
+            "龍"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 4,
+              "zodiac": "兔"
+            },
+            {
+              "number": 15,
+              "zodiac": "龍"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "虎"
+      ],
+      "displayed_hits": [
+        "兔",
+        "龍"
+      ]
+    },
+    {
+      "period": 2026313,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026313.html",
+      "roles": {
+        "top": "鼠",
+        "A": "兔",
+        "B": "龍",
+        "C": "虎",
+        "D": "豬"
+      },
+      "normal_numbers": [
+        33,
+        39,
+        45,
+        15,
+        7,
+        20
+      ],
+      "normal_zodiacs": [
+        "狗",
+        "龍",
+        "狗",
+        "龍",
+        "鼠",
+        "豬"
+      ],
+      "special_number": 43,
+      "special_zodiac": "鼠",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鼠"
+          ],
+          "present": [
+            "鼠"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 7,
+              "zodiac": "鼠"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "龍"
+          ],
+          "present": [
+            "龍"
+          ],
+          "missing": [
+            "兔"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 39,
+              "zodiac": "龍"
+            },
+            {
+              "number": 15,
+              "zodiac": "龍"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "兔",
+            "豬"
+          ],
+          "present": [
+            "豬"
+          ],
+          "missing": [
+            "虎",
+            "兔"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 20,
+              "zodiac": "豬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "虎",
+        "兔"
+      ],
+      "displayed_hits": [
+        "鼠",
+        "龍",
+        "豬"
+      ]
+    },
+    {
+      "period": 2026314,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026314.html",
+      "roles": {
+        "top": "牛",
+        "A": "虎",
+        "B": "馬",
+        "C": "狗",
+        "D": "鷄"
+      },
+      "normal_numbers": [
+        13,
+        26,
+        9,
+        37,
+        34,
+        44
+      ],
+      "normal_zodiacs": [
+        "馬",
+        "蛇",
+        "狗",
+        "馬",
+        "鷄",
+        "豬"
+      ],
+      "special_number": 31,
+      "special_zodiac": "鼠",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "牛"
+          ],
+          "present": [],
+          "missing": [
+            "牛"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "虎",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 13,
+              "zodiac": "馬"
+            },
+            {
+              "number": 37,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "鷄",
+            "狗"
+          ],
+          "present": [
+            "鷄",
+            "狗"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 9,
+              "zodiac": "狗"
+            },
+            {
+              "number": 34,
+              "zodiac": "鷄"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "虎"
+      ],
+      "displayed_hits": [
+        "馬",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026315,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026315.html",
+      "roles": {
+        "top": "虎",
+        "A": "蛇",
+        "B": "馬",
+        "C": "龍",
+        "D": "兔"
+      },
+      "normal_numbers": [
+        6,
+        9,
+        25,
+        27,
+        33,
+        22
+      ],
+      "normal_zodiacs": [
+        "牛",
+        "狗",
+        "馬",
+        "龍",
+        "狗",
+        "鷄"
+      ],
+      "special_number": 48,
+      "special_zodiac": "羊",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "馬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "蛇"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 25,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "兔",
+            "龍",
+            "蛇"
+          ],
+          "present": [
+            "龍"
+          ],
+          "missing": [
+            "兔",
+            "蛇"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 27,
+              "zodiac": "龍"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "兔",
+        "蛇"
+      ],
+      "displayed_hits": [
+        "龍",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026316,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026316.html",
+      "roles": {
+        "top": "鷄",
+        "A": "狗",
+        "B": "蛇",
+        "C": "馬",
+        "D": "虎"
+      },
+      "normal_numbers": [
+        14,
+        4,
+        10,
+        46,
+        45,
+        49
+      ],
+      "normal_zodiacs": [
+        "蛇",
+        "兔",
+        "鷄",
+        "鷄",
+        "狗",
+        "馬"
+      ],
+      "special_number": 3,
+      "special_zodiac": "龍",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鷄"
+          ],
+          "present": [
+            "鷄"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 46,
+              "zodiac": "鷄"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "狗"
+          ],
+          "present": [
+            "蛇",
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 45,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "馬",
+            "狗"
+          ],
+          "present": [
+            "馬",
+            "狗"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 45,
+              "zodiac": "狗"
+            },
+            {
+              "number": 49,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 2,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [
+        "虎"
+      ],
+      "displayed_hits": [
+        "蛇",
+        "馬",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026317,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026317.html",
+      "roles": {
+        "top": "狗",
+        "A": "兔",
+        "B": "豬",
+        "C": "馬",
+        "D": "牛"
+      },
+      "normal_numbers": [
+        31,
+        49,
+        30,
+        22,
+        43,
+        24
+      ],
+      "normal_zodiacs": [
+        "鼠",
+        "馬",
+        "牛",
+        "鷄",
+        "鼠",
+        "羊"
+      ],
+      "special_number": 26,
+      "special_zodiac": "蛇",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "狗"
+          ],
+          "present": [],
+          "missing": [
+            "狗"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "豬"
+          ],
+          "present": [],
+          "missing": [
+            "兔",
+            "豬"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "牛",
+            "兔",
+            "馬"
+          ],
+          "present": [
+            "牛",
+            "馬"
+          ],
+          "missing": [
+            "兔"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            },
+            {
+              "number": 30,
+              "zodiac": "牛"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 0,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": true,
+      "missing_triple": [
+        "兔"
+      ],
+      "displayed_hits": [
+        "牛",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026318,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026318.html",
+      "roles": {
+        "top": "牛",
+        "A": "馬",
+        "B": "豬",
+        "C": "狗",
+        "D": "鷄"
+      },
+      "normal_numbers": [
+        10,
+        36,
+        2,
+        9,
+        26,
+        37
+      ],
+      "normal_zodiacs": [
+        "鷄",
+        "羊",
+        "蛇",
+        "狗",
+        "蛇",
+        "馬"
+      ],
+      "special_number": 38,
+      "special_zodiac": "蛇",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "牛"
+          ],
+          "present": [],
+          "missing": [
+            "牛"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "馬",
+            "豬"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "豬"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 37,
+              "zodiac": "馬"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "馬",
+            "鷄",
+            "狗"
+          ],
+          "present": [
+            "馬",
+            "鷄",
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 3,
+          "needed_count": 3,
+          "complete": true,
+          "balls": [
+            {
+              "number": 10,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 9,
+              "zodiac": "狗"
+            },
+            {
+              "number": 37,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [],
+      "displayed_hits": [
+        "馬",
+        "鷄",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026320,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026320.html",
+      "roles": {
+        "top": "羊",
+        "A": "兔",
+        "B": "馬",
+        "C": "狗",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        14,
+        17,
+        32,
+        34,
+        24,
+        46
+      ],
+      "normal_zodiacs": [
+        "蛇",
+        "虎",
+        "豬",
+        "鷄",
+        "羊",
+        "鷄"
+      ],
+      "special_number": 20,
+      "special_zodiac": "豬",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "羊"
+          ],
+          "present": [
+            "羊"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 24,
+              "zodiac": "羊"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "馬"
+          ],
+          "present": [],
+          "missing": [
+            "兔",
+            "馬"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "兔",
+            "蛇",
+            "狗"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "兔",
+            "狗"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 14,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "兔",
+        "狗"
+      ],
+      "displayed_hits": [
+        "蛇",
+        "羊"
+      ]
+    },
+    {
+      "period": 2026321,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026321.html",
+      "roles": {
+        "top": "狗",
+        "A": "蛇",
+        "B": "鷄",
+        "C": "羊",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        15,
+        45,
+        23,
+        8,
+        47,
+        49
+      ],
+      "normal_zodiacs": [
+        "龍",
+        "狗",
+        "猴",
+        "豬",
+        "猴",
+        "馬"
+      ],
+      "special_number": 41,
+      "special_zodiac": "虎",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "狗"
+          ],
+          "present": [
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 45,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "鷄"
+          ],
+          "present": [],
+          "missing": [
+            "蛇",
+            "鷄"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "羊"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "蛇",
+            "羊"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 49,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "蛇",
+        "羊"
+      ],
+      "displayed_hits": [
+        "馬",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026323,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026323.html",
+      "roles": {
+        "top": "兔",
+        "A": "蛇",
+        "B": "狗",
+        "C": "牛",
+        "D": "馬"
+      },
+      "normal_numbers": [
+        33,
+        8,
+        2,
+        9,
+        15,
+        41
+      ],
+      "normal_zodiacs": [
+        "狗",
+        "豬",
+        "蛇",
+        "狗",
+        "龍",
+        "虎"
+      ],
+      "special_number": 47,
+      "special_zodiac": "猴",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "兔"
+          ],
+          "present": [],
+          "missing": [
+            "兔"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "狗"
+          ],
+          "present": [
+            "蛇",
+            "狗"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 33,
+              "zodiac": "狗"
+            },
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            },
+            {
+              "number": 9,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "牛",
+            "蛇",
+            "馬"
+          ],
+          "present": [
+            "蛇"
+          ],
+          "missing": [
+            "牛",
+            "馬"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 2,
+              "zodiac": "蛇"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": true,
+      "missing_triple": [
+        "牛",
+        "馬"
+      ],
+      "displayed_hits": [
+        "蛇",
+        "狗"
+      ]
+    },
+    {
+      "period": 2026325,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026325.html",
+      "roles": {
+        "top": "虎",
+        "A": "狗",
+        "B": "兔",
+        "C": "馬",
+        "D": "蛇"
+      },
+      "normal_numbers": [
+        41,
+        37,
+        10,
+        1,
+        27,
+        17
+      ],
+      "normal_zodiacs": [
+        "虎",
+        "馬",
+        "鷄",
+        "馬",
+        "龍",
+        "虎"
+      ],
+      "special_number": 3,
+      "special_zodiac": "龍",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "虎"
+          ],
+          "present": [
+            "虎"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 41,
+              "zodiac": "虎"
+            },
+            {
+              "number": 17,
+              "zodiac": "虎"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "兔",
+            "狗"
+          ],
+          "present": [],
+          "missing": [
+            "兔",
+            "狗"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "狗"
+          ],
+          "present": [
+            "馬"
+          ],
+          "missing": [
+            "蛇",
+            "狗"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 37,
+              "zodiac": "馬"
+            },
+            {
+              "number": 1,
+              "zodiac": "馬"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "shared_missing": true,
+      "same_shared_loss_both_combinations": true,
+      "top_missing": false,
+      "missing_triple": [
+        "蛇",
+        "狗"
+      ],
+      "displayed_hits": [
+        "虎",
+        "馬"
+      ]
+    },
+    {
+      "period": 2026326,
+      "source_kind": "GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED",
+      "version": "v5.0",
+      "reference": "historical-pages/2026326.html",
+      "roles": {
+        "top": "羊",
+        "A": "虎",
+        "B": "羊",
+        "C": "馬",
+        "D": "鷄"
+      },
+      "normal_numbers": [
+        9,
+        16,
+        22,
+        36,
+        5,
+        47
+      ],
+      "normal_zodiacs": [
+        "狗",
+        "兔",
+        "鷄",
+        "羊",
+        "虎",
+        "猴"
+      ],
+      "special_number": 23,
+      "special_zodiac": "猴",
+      "result_provenance": "user-supplied for later issues; earlier reconciled historical data, not officially authenticated",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "羊"
+          ],
+          "present": [
+            "羊"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 36,
+              "zodiac": "羊"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "虎",
+            "羊"
+          ],
+          "present": [
+            "虎",
+            "羊"
+          ],
+          "missing": [],
+          "present_count": 2,
+          "needed_count": 2,
+          "complete": true,
+          "balls": [
+            {
+              "number": 36,
+              "zodiac": "羊"
+            },
+            {
+              "number": 5,
+              "zodiac": "虎"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "馬",
+            "鷄"
+          ],
+          "present": [
+            "虎",
+            "鷄"
+          ],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 22,
+              "zodiac": "鷄"
+            },
+            {
+              "number": 5,
+              "zodiac": "虎"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 2,
+      "shared_missing": false,
+      "same_shared_loss_both_combinations": false,
+      "top_missing": false,
+      "missing_triple": [
+        "馬"
+      ],
+      "displayed_hits": [
+        "虎",
+        "羊",
+        "鷄"
+      ]
+    }
+  ],
+  "historical_groups": {
+    "all_33_mixed_sources_versions": {
+      "n": 33,
+      "complete_columns_distribution_0_to_3": [
+        13,
+        16,
+        3,
+        1
+      ],
+      "single_complete": 12,
+      "pair_complete": 9,
+      "triple_complete": 4,
+      "shared_A_absent": 15,
+      "top_absent": 21,
+      "triple_missing_identities": {
+        "牛": 4,
+        "馬": 5,
+        "猴": 3,
+        "鼠": 2,
+        "鷄": 5,
+        "虎": 11,
+        "蛇": 9,
+        "狗": 3,
+        "兔": 5,
+        "羊": 2,
+        "龍": 1
+      }
+    },
+    "frozen_prereg_291_308": {
+      "n": 18,
+      "complete_columns_distribution_0_to_3": [
+        9,
+        8,
+        0,
+        1
+      ],
+      "single_complete": 4,
+      "pair_complete": 4,
+      "triple_complete": 3,
+      "shared_A_absent": 8,
+      "top_absent": 14,
+      "triple_missing_identities": {
+        "牛": 3,
+        "馬": 3,
+        "猴": 3,
+        "鼠": 2,
+        "鷄": 5,
+        "虎": 5,
+        "蛇": 6,
+        "狗": 1,
+        "兔": 1
+      }
+    },
+    "git_snapshot_309_326": {
+      "n": 15,
+      "complete_columns_distribution_0_to_3": [
+        4,
+        8,
+        3,
+        0
+      ],
+      "single_complete": 8,
+      "pair_complete": 5,
+      "triple_complete": 1,
+      "shared_A_absent": 7,
+      "top_absent": 7,
+      "triple_missing_identities": {
+        "虎": 6,
+        "羊": 2,
+        "龍": 1,
+        "兔": 4,
+        "蛇": 3,
+        "狗": 2,
+        "牛": 1,
+        "馬": 2
+      }
+    },
+    "git_snapshot_313_326": {
+      "n": 11,
+      "complete_columns_distribution_0_to_3": [
+        3,
+        6,
+        2,
+        0
+      ],
+      "single_complete": 6,
+      "pair_complete": 3,
+      "triple_complete": 1,
+      "shared_A_absent": 7,
+      "top_absent": 5,
+      "triple_missing_identities": {
+        "虎": 3,
+        "兔": 4,
+        "蛇": 3,
+        "狗": 2,
+        "羊": 1,
+        "牛": 1,
+        "馬": 2
+      }
+    }
+  },
+  "unpublished_reconstructions": [
+    {
+      "period": 2026319,
+      "status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "牛"
+          ],
+          "present": [
+            "牛"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 6,
+              "zodiac": "牛"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "蛇",
+            "鷄"
+          ],
+          "present": [],
+          "missing": [
+            "蛇",
+            "鷄"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "馬",
+            "鷄",
+            "狗"
+          ],
+          "present": [
+            "馬",
+            "狗"
+          ],
+          "missing": [
+            "鷄"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 13,
+              "zodiac": "馬"
+            },
+            {
+              "number": 25,
+              "zodiac": "馬"
+            },
+            {
+              "number": 45,
+              "zodiac": "狗"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "role": {
+        "top": "牛",
+        "A": "鷄",
+        "B": "蛇",
+        "C": "馬",
+        "D": "狗"
+      },
+      "reference": "319-reconstruction-manual.json"
+    },
+    {
+      "period": 2026322,
+      "status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "狗"
+          ],
+          "present": [],
+          "missing": [
+            "狗"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "pair",
+          "required": [
+            "馬",
+            "鷄"
+          ],
+          "present": [],
+          "missing": [
+            "馬",
+            "鷄"
+          ],
+          "present_count": 0,
+          "needed_count": 2,
+          "complete": false,
+          "balls": []
+        },
+        {
+          "name": "triple",
+          "required": [
+            "蛇",
+            "馬",
+            "羊"
+          ],
+          "present": [],
+          "missing": [
+            "蛇",
+            "馬",
+            "羊"
+          ],
+          "present_count": 0,
+          "needed_count": 3,
+          "complete": false,
+          "balls": []
+        }
+      ],
+      "complete_columns": 0,
+      "role": {
+        "top": "狗",
+        "A": "馬",
+        "B": "鷄",
+        "C": "羊",
+        "D": "蛇"
+      },
+      "reference": "322-reconstruction-manual.json"
+    },
+    {
+      "period": 2026324,
+      "status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "鷄"
+          ],
+          "present": [
+            "鷄"
+          ],
+          "missing": [],
+          "present_count": 1,
+          "needed_count": 1,
+          "complete": true,
+          "balls": [
+            {
+              "number": 34,
+              "zodiac": "鷄"
+            }
+          ]
+        },
+        {
+          "name": "pair",
+          "required": [
+            "狗",
+            "豬"
+          ],
+          "present": [
+            "狗"
+          ],
+          "missing": [
+            "豬"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false,
+          "balls": [
+            {
+              "number": 21,
+              "zodiac": "狗"
+            }
+          ]
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "羊",
+            "豬"
+          ],
+          "present": [
+            "羊"
+          ],
+          "missing": [
+            "虎",
+            "豬"
+          ],
+          "present_count": 1,
+          "needed_count": 3,
+          "complete": false,
+          "balls": [
+            {
+              "number": 12,
+              "zodiac": "羊"
+            }
+          ]
+        }
+      ],
+      "complete_columns": 1,
+      "role": {
+        "top": "鷄",
+        "A": "豬",
+        "B": "狗",
+        "C": "羊",
+        "D": "虎"
+      },
+      "reference": "324-reconstruction-manual.json"
+    }
+  ],
+  "number_of_distinct_previous_signs_to_327": 6,
+  "theoretical_repeat_maximum_to_327_six": 6,
+  "theoretical_repeat_maximum_to_327_seven": 6,
+  "target_327_result_read": false,
+  "limitations": "Do not rank or claim ability from retrospective alternatives; models/frequencies not next-event probabilities; user input date and official source unauthenticated."
+}

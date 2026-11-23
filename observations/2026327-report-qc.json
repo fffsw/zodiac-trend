@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "report arithmetic and links, not official source, historical date, prediction or predraw certification",
+  "checks": [
+    "all 108 columns in 33 stored versions plus three separately labeled reconstructions independently recounted",
+    "all 12 zodiac numbers, ages and W35/40/45 period/ball counts independently re-derived from six normal numbers",
+    "all 49 number attributes and independent six-number ages/window counts checked",
+    "all twelve candidate identity sets and reserve labels match frozen manual designs",
+    "six/seven cohorts and fair-model comparisons labeled unverified, nonpredictive and synthetic where appropriate",
+    "all local evidence links resolve"
+  ],
+  "report_sha256": "d702bf0c8a2983ae2767369e5304a19a79e023713a20b9497f44f5e5e84fe0e8",
+  "initial_wording_sha256": "9afe0f10be249de893b6e258bce1097024e68f3fe05478f6be04fe9f167a7270",
+  "wording_correction": "candidate BB02/BB04 benefits explicitly qualified as fair-model comparisons before release"
+}

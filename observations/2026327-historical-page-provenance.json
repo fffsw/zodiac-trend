@@ -1,0 +1,110 @@
+{
+  "scope": "Versions selected from surviving published-record commits; 312 and 326 use latest revised version. Git and post-result freezes cannot authenticate predraw time. Missing 319/322/324 not invented.",
+  "records": [
+    {
+      "target": 2026309,
+      "git_commit": "288b8d4292b08b6f2431b3f5ada131c8aa49d3fe",
+      "page_sha256": "9611518d082bdd93b77c2a985d14ebcd8b86c6b8a87719eca3b5350263bf156d",
+      "snapshot_tail_period": 2026308,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026310,
+      "git_commit": "c8d3f68dd1c5206ec6722a272c98b5b95753411e",
+      "page_sha256": "d72079307b5093e02ad4fadb636bb71e1cbcc1252ceead800a91da831dbfaa23",
+      "snapshot_tail_period": 2026309,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026311,
+      "git_commit": "a70b13b5008ba83066420f8d8b282a954f99cdd5",
+      "page_sha256": "c73289195abe0421bfe8a9d75a4e9a93e08288900203bc0d25f3eca4376af818",
+      "snapshot_tail_period": 2026310,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026312,
+      "git_commit": "42a930ab6cb6b3771f8e491171a2ccddd578e5cc",
+      "page_sha256": "af36242db5f3473d585006219c4283074fb7e34cf7db37fb07ffa8c48d497fe0",
+      "snapshot_tail_period": 2026311,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026313,
+      "git_commit": "fd05618970f36b22a16b2e7b7fa6931157462d33",
+      "page_sha256": "cf3eaa581284480ae54ec102a2f9a290846b6b8b90557be554eb125f09025635",
+      "snapshot_tail_period": 2026312,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026314,
+      "git_commit": "695bead81e897af6e7a7a35805257ca5b246d455",
+      "page_sha256": "54c9d5da57cca4fa2b8f4d2c151f31b228cd3a4de3b4fed6ef2c5cd0b6f23b0b",
+      "snapshot_tail_period": 2026313,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026315,
+      "git_commit": "f3e4905ddd9402f40ae61fe96fe3fc3ede5499d1",
+      "page_sha256": "5270c8d378d85b5f4acf770a897aec7918c2cd710ef81be53787215a9b26611b",
+      "snapshot_tail_period": 2026314,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026316,
+      "git_commit": "8f8f32bc7ea1840a5d583b40f8cd38382f60fdda",
+      "page_sha256": "d90915414341142815830ca6fb152c4f39d9042c99da0bb3d344b791293ccde6",
+      "snapshot_tail_period": 2026315,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026317,
+      "git_commit": "a88b37fe679c32ab7883858d44cc5c230aae2182",
+      "page_sha256": "c363f9317b5dcbd57feb9afe04a397dbfb980779786b66baff5cc9bdfe4835bf",
+      "snapshot_tail_period": 2026316,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026318,
+      "git_commit": "02cb3ed748f9aa8ca9c985c9fcac8ba3907ebddd",
+      "page_sha256": "c2e5cc698cb6c05493cf8b2099924abf540fe2d60dba61414de80563d410c382",
+      "snapshot_tail_period": 2026317,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026320,
+      "git_commit": "88d4c88e44d3af79eb409c117085dbcab2dc38c1",
+      "page_sha256": "1670b0b88fe91674e725adbbda4da9b4af1b635e007147a33a5e39bc41cb783f",
+      "snapshot_tail_period": 2026319,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026321,
+      "git_commit": "69f05f7a1996098c79514a72a2dce09f021bbbab",
+      "page_sha256": "a5c80bfae8385dfbfd4b02afcfb5f10354a8558f9956854ae9f8ef3f8d9f4bd8",
+      "snapshot_tail_period": 2026320,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026323,
+      "git_commit": "76484ce5bbeee56ce1a82516f6f9619461219fa9",
+      "page_sha256": "f3c6fa211ccf8977c98e19da24b5fec384f258a5d560d17008342a48ea3b2a69",
+      "snapshot_tail_period": 2026322,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026325,
+      "git_commit": "f871173b66ab10860bdf0076368cf8bcb89856f0",
+      "page_sha256": "24258b36614377f6bfe4ce6d1d2e4d4a68f75b7933ac9e73810c28e489a716a0",
+      "snapshot_tail_period": 2026324,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    },
+    {
+      "target": 2026326,
+      "git_commit": "50431fb57f3b89e7bd95d0f0462fdaebd0a4a607",
+      "page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+      "snapshot_tail_period": 2026325,
+      "source": "Git commit page snapshot; independent timing/public visibility not certified"
+    }
+  ]
+}

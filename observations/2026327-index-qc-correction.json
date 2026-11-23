@@ -1,0 +1,7 @@
+{
+  "status": "PASS_AFTER_TEST_WORDING_CORRECTION",
+  "initial_result": "Index test failed at desktop source limitation assertion; the page correctly said 未认证 while test expected the different phrase 未经认证.",
+  "correction": "Test now checks the actual words 未认证 and 不等于已认证的真实历史; no page, data, decision, or report changed.",
+  "independent_result": "25 desktop/mobile index checks passed after correcting the test string.",
+  "scope": "Rendering check only; not source or timing certification."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "live revision, integrity, reproducibility and local synchronization only; no authentication of source/timing/fairness/WeChat or predictive skill",
+  "commit": "50431fb57f3b89e7bd95d0f0462fdaebd0a4a607",
+  "checks": [
+    "exact non-force commit remains deployed and clean; Pages success",
+    "1116 live bytes match and 19 manifests verified; initial 503 and targeted 404 both retained",
+    "live desktop, mobile emulation, bottom, scroll, entry and revision index browser checks pass",
+    "public, staged and two local page copies match by SHA-256",
+    "generator, all history, root entry and 325 data unchanged",
+    "only 326 manual choice revised, all prior choices preserved and no fake 324 record",
+    "HTML/CSS/JS outside manual payload unchanged, exact revised roles",
+    "old version index, manifest and old complete ZIP remain unchanged",
+    "24 frozen prior files match; unrelated 68-entry dirty checkout unchanged",
+    "historical observations, theoretical ceiling and no claimed model improvement independently verified",
+    "local report and current index reflect revision, limitations and historical original",
+    "all relative links in local report and validation index resolve",
+    "portable ZIP SHA matches release receipt",
+    "ZIP CRC, all 1116 public hashes and independent offline reproduction pass after extraction",
+    "no 326 result read; source, predraw timing, actual mechanism and real WeChat safety not certified"
+  ],
+  "revision_page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "bundle_sha256": "4fcab4394991a14b65e9b3e115b2142ab7f29521edc27481c0df9ffdef41bcdd",
+  "report_sha256": "098ba29b82b8cb8cddeedd536216524b1ec9daf61e971d949949bd2532350053",
+  "target_result_read": false
+}

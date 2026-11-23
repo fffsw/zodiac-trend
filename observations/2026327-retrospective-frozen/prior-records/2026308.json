@@ -1,0 +1,146 @@
+{
+  "period": 2026308,
+  "created": "2026-11-03T22:00:23+08:00",
+  "data_md5": "f03a7084d98c4c762c43b09d571f59c3",
+  "data_last_period": 2026307,
+  "excluded": {
+    "latest_special_zodiac": "牛",
+    "latest_seven_zodiacs": [
+      "牛",
+      "龍",
+      "蛇",
+      "馬",
+      "羊",
+      "狗"
+    ],
+    "latest_special_group_numbers": [
+      6,
+      18,
+      30,
+      42
+    ]
+  },
+  "window": {
+    "A_S_B": [
+      2026208,
+      2026307
+    ],
+    "C": [
+      2026048,
+      2026307
+    ],
+    "C_n": 260
+  },
+  "lines": {
+    "A_numbers": [
+      17,
+      23,
+      8
+    ],
+    "A_numbers_zodiac": [
+      "虎",
+      "猴",
+      "豬"
+    ],
+    "A_numbers_strict7": [
+      17,
+      23,
+      8
+    ],
+    "S_zodiac": [
+      "蛇",
+      "馬",
+      "虎"
+    ],
+    "S_counts": {
+      "蛇": 12,
+      "馬": 11,
+      "虎": 10
+    },
+    "B_roll3_readonly": [
+      "蛇",
+      "馬",
+      "虎"
+    ],
+    "C_deficit": [
+      "鷄",
+      "鼠",
+      "豬"
+    ],
+    "C_deficit_raw": [
+      "鷄",
+      "鼠",
+      "豬"
+    ],
+    "C_gap": [
+      "鷄",
+      "鼠",
+      "羊"
+    ],
+    "C_deficit_values": {
+      "鷄": 5.22,
+      "鼠": 2.22,
+      "豬": 2.22
+    },
+    "C_gap_values": {
+      "鷄": 26,
+      "鼠": 22,
+      "羊": 15
+    }
+  },
+  "site_display": {
+    "top": 2,
+    "t2": [
+      6,
+      0
+    ],
+    "t3": [
+      6,
+      2,
+      5
+    ],
+    "cands": [
+      2,
+      5,
+      3,
+      6,
+      11
+    ],
+    "pool": [
+      2,
+      6,
+      5,
+      0,
+      3
+    ],
+    "version": "v4.2",
+    "universe": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      11
+    ],
+    "universe_zodiac": [
+      "鼠",
+      "虎",
+      "兔",
+      "蛇",
+      "馬",
+      "豬"
+    ],
+    "selection_mode": "manual_35_45_window_universe",
+    "selection_zodiac": [
+      "蛇",
+      "馬",
+      "虎",
+      "兔",
+      "豬",
+      "鼠"
+    ],
+    "selection_source": "308期网站人工选肖_35-45主窗口_20261104.md",
+    "allocation_shake": "site _alloc6 + 4000-step LCG (unchanged)"
+  },
+  "self_md5": "33b42f83a1fae7147faa1c09290dbe2b"
+}

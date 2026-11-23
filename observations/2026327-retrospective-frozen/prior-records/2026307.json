@@ -1,0 +1,150 @@
+{
+  "period": 2026307,
+  "created": "2026-11-03T02:55:22+08:00",
+  "data_md5": "6424745b6abb79693871fc4bfa9b5588",
+  "data_last_period": 2026306,
+  "excluded": {
+    "latest_special_zodiac": "龍",
+    "latest_seven_zodiacs": [
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "狗",
+      "豬"
+    ],
+    "latest_special_group_numbers": [
+      3,
+      15,
+      27,
+      39
+    ]
+  },
+  "window": {
+    "A_S_B": [
+      2026207,
+      2026306
+    ],
+    "C": [
+      2026048,
+      2026306
+    ],
+    "C_n": 259
+  },
+  "lines": {
+    "A_numbers": [
+      17,
+      23,
+      8
+    ],
+    "A_numbers_zodiac": [
+      "虎",
+      "猴",
+      "豬"
+    ],
+    "A_numbers_strict7": [
+      17,
+      23,
+      5
+    ],
+    "S_zodiac": [
+      "蛇",
+      "馬",
+      "虎"
+    ],
+    "S_counts": {
+      "蛇": 12,
+      "馬": 11,
+      "虎": 10
+    },
+    "B_roll3_readonly": [
+      "蛇",
+      "馬",
+      "虎"
+    ],
+    "C_deficit": [
+      "鷄",
+      "牛",
+      "鼠"
+    ],
+    "C_deficit_raw": [
+      "鷄",
+      "牛",
+      "鼠"
+    ],
+    "C_gap": [
+      "鷄",
+      "牛",
+      "鼠"
+    ],
+    "C_deficit_values": {
+      "鷄": 5.14,
+      "牛": 3.14,
+      "鼠": 2.14
+    },
+    "C_gap_values": {
+      "鷄": 25,
+      "牛": 23,
+      "鼠": 21
+    }
+  },
+  "site_display": {
+    "top": 3,
+    "t2": [
+      7,
+      5
+    ],
+    "t3": [
+      7,
+      0,
+      3
+    ],
+    "cands": [
+      2,
+      5,
+      3
+    ],
+    "pool": [
+      2,
+      9,
+      0,
+      5,
+      3,
+      7
+    ],
+    "version": "v4.2",
+    "universe": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9
+    ],
+    "universe_zodiac": [
+      "鼠",
+      "虎",
+      "兔",
+      "蛇",
+      "羊",
+      "鷄"
+    ],
+    "selection_mode": "manual_35_45_window_revised_universe",
+    "selection_zodiac": [
+      "蛇",
+      "兔",
+      "虎",
+      "鼠",
+      "鷄",
+      "羊"
+    ],
+    "selection_source": "307期网站人工选肖_35-45主窗口修订_20261103.md",
+    "allocation_shake": "site _alloc6 + 4000-step LCG (unchanged)"
+  },
+  "self_md5": "bb65695d5162a80c6313b186bba67f72",
+  "override": {
+    "at": "2026-11-03T02:55:22+08:00",
+    "reason": "User-authorized pre-draw method correction: replace superseded long-window 2026307 manual Universe with 35-45 main-window revised Universe; original prereg archived at archive/superseded_2026307_longwindow_20261103/prereg_2026307_original.json",
+    "prev_self_md5": "213438274a7c29cf6e0a650ad3d25d54"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "period": 2026303,
+  "created": "2026-10-29T22:34:14+08:00",
+  "data_md5": "9b77eb64a37c14f8128b2f3e00a26a56",
+  "data_last_period": 2026302,
+  "excluded": {
+    "latest_special_zodiac": "狗",
+    "latest_seven_zodiacs": [
+      "蛇",
+      "馬",
+      "羊",
+      "猴",
+      "鷄",
+      "狗"
+    ],
+    "latest_special_group_numbers": [
+      9,
+      21,
+      33,
+      45
+    ]
+  },
+  "window": {
+    "A_S_B": [
+      2026203,
+      2026302
+    ],
+    "C": [
+      2026048,
+      2026302
+    ],
+    "C_n": 255
+  },
+  "lines": {
+    "A_numbers": [
+      17,
+      23,
+      8
+    ],
+    "A_numbers_zodiac": [
+      "虎",
+      "猴",
+      "豬"
+    ],
+    "A_numbers_strict7": [
+      17,
+      8,
+      5
+    ],
+    "S_zodiac": [
+      "馬",
+      "蛇",
+      "猴"
+    ],
+    "S_counts": {
+      "馬": 12,
+      "蛇": 11,
+      "猴": 11
+    },
+    "B_roll3_readonly": [
+      "馬",
+      "蛇",
+      "猴"
+    ],
+    "C_deficit": [
+      "鷄",
+      "牛",
+      "龍"
+    ],
+    "C_deficit_raw": [
+      "鷄",
+      "牛",
+      "狗"
+    ],
+    "C_gap": [
+      "龍",
+      "鷄",
+      "牛"
+    ],
+    "C_deficit_values": {
+      "鷄": 4.82,
+      "牛": 2.82,
+      "龍": 1.82
+    },
+    "C_gap_values": {
+      "龍": 22,
+      "鷄": 21,
+      "牛": 19
+    }
+  },
+  "site_display": {
+    "top": 2,
+    "t2": [
+      2,
+      4
+    ],
+    "t3": [
+      2,
+      5,
+      9
+    ],
+    "cands": [
+      2,
+      3,
+      5
+    ],
+    "pool": [
+      2,
+      5,
+      9,
+      0,
+      4
+    ],
+    "version": "v4.2",
+    "universe": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      9
+    ],
+    "universe_zodiac": [
+      "鼠",
+      "虎",
+      "兔",
+      "龍",
+      "蛇",
+      "鷄"
+    ],
+    "selection_mode": "manual_review_calibrated_universe",
+    "selection_zodiac": [
+      "蛇",
+      "鷄",
+      "虎",
+      "鼠",
+      "龍",
+      "兔"
+    ],
+    "selection_source": "303期网站人工选肖_302深度复盘后_20261029.md",
+    "allocation_shake": "site _alloc6 + 4000-step LCG (unchanged)"
+  },
+  "self_md5": "a328cc1ea30d9bc61cc8c5c912e6e58a"
+}

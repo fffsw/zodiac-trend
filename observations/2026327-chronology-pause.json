@@ -1,0 +1,182 @@
+{
+  "status": "PAUSED_CHRONOLOGY_CONFLICT_NEEDS_USER_CLARIFICATION",
+  "reference_local_date": "2026-10-13",
+  "reference_timezone": "Asia/Shanghai",
+  "runtime_clock_utc_observation": "2026-11-22T22:29:39.946633+00:00",
+  "third_party_http_date_header": "Sun, 22 Nov 2026 22:16:53 GMT",
+  "third_party_http_date_is_future_relative_to_reference": true,
+  "latest_id_observed_by_third_party": 326,
+  "third_party_target_record_was_null_not_predraw_proof": true,
+  "future_dated_records_count": 26,
+  "future_dated_records": [
+    {
+      "period": 2026287,
+      "recorded_date": "2026-10-14"
+    },
+    {
+      "period": 2026288,
+      "recorded_date": "2026-10-15"
+    },
+    {
+      "period": 2026289,
+      "recorded_date": "2026-10-16"
+    },
+    {
+      "period": 2026290,
+      "recorded_date": "2026-10-17"
+    },
+    {
+      "period": 2026291,
+      "recorded_date": "2026-10-18"
+    },
+    {
+      "period": 2026292,
+      "recorded_date": "2026-10-19"
+    },
+    {
+      "period": 2026293,
+      "recorded_date": "2026-10-20"
+    },
+    {
+      "period": 2026294,
+      "recorded_date": "2026-10-21"
+    },
+    {
+      "period": 2026295,
+      "recorded_date": "2026-10-22"
+    },
+    {
+      "period": 2026296,
+      "recorded_date": "2026-10-23"
+    },
+    {
+      "period": 2026297,
+      "recorded_date": "2026-10-24"
+    },
+    {
+      "period": 2026298,
+      "recorded_date": "2026-10-25"
+    },
+    {
+      "period": 2026299,
+      "recorded_date": "2026-10-26"
+    },
+    {
+      "period": 2026300,
+      "recorded_date": "2026-10-27"
+    },
+    {
+      "period": 2026301,
+      "recorded_date": "2026-10-28"
+    },
+    {
+      "period": 2026302,
+      "recorded_date": "2026-10-29"
+    },
+    {
+      "period": 2026303,
+      "recorded_date": "2026-10-30"
+    },
+    {
+      "period": 2026304,
+      "recorded_date": "2026-10-31"
+    },
+    {
+      "period": 2026305,
+      "recorded_date": "2026-11-01"
+    },
+    {
+      "period": 2026306,
+      "recorded_date": "2026-11-02"
+    },
+    {
+      "period": 2026307,
+      "recorded_date": "2026-11-03"
+    },
+    {
+      "period": 2026308,
+      "recorded_date": "2026-11-04"
+    },
+    {
+      "period": 2026309,
+      "recorded_date": "2026-11-05"
+    },
+    {
+      "period": 2026310,
+      "recorded_date": "2026-11-06"
+    },
+    {
+      "period": 2026311,
+      "recorded_date": "2026-11-07"
+    },
+    {
+      "period": 2026312,
+      "recorded_date": "2026-11-08"
+    }
+  ],
+  "undated_records_count": 14,
+  "undated_record_periods": [
+    2026313,
+    2026314,
+    2026315,
+    2026316,
+    2026317,
+    2026318,
+    2026319,
+    2026320,
+    2026321,
+    2026322,
+    2026323,
+    2026324,
+    2026325,
+    2026326
+  ],
+  "historical_review_record_count": 33,
+  "historical_review_future_dated_records": [
+    2026291,
+    2026292,
+    2026293,
+    2026294,
+    2026295,
+    2026296,
+    2026297,
+    2026298,
+    2026299,
+    2026300,
+    2026301,
+    2026302,
+    2026303,
+    2026304,
+    2026305,
+    2026306,
+    2026307,
+    2026308,
+    2026309,
+    2026310,
+    2026311,
+    2026312
+  ],
+  "historical_review_undated_records": [
+    2026313,
+    2026314,
+    2026315,
+    2026316,
+    2026317,
+    2026318,
+    2026320,
+    2026321,
+    2026323,
+    2026325,
+    2026326
+  ],
+  "user_326_date_unknown": true,
+  "user_326_official_source_unconfirmed": true,
+  "what_remains_valid": "326 arithmetic is conditional on user numbers and frozen displayed roles; it is not evidence of officially occurring event or predraw timing. 327 choices are staged only and not certified real-world picks.",
+  "remote_commit_before_and_after": "50431fb57f3b89e7bd95d0f0462fdaebd0a4a607",
+  "public_page_sha256_unchanged": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "new_327_commit_created": false,
+  "new_327_deployed": false,
+  "original_dirty_deploy_unchanged": true,
+  "history_sha256": "0166bfabb3acbf2cc10d0e3974350fc8199b2a1925c5f7974ac5082b6cb7183d",
+  "next_step": "Ask whether data is an expressly simulated/unverified exercise or request accurate official issue, date and source. Do not silently reclassify future-dated data as past."
+}

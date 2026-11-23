@@ -1,0 +1,62 @@
+{
+  "schema": "manual_evidence_and_counterarguments_326",
+  "period": 2026326,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_A_FORECAST_GUARANTEE",
+  "selection_is_not_official_or_time_authenticated": true,
+  "target_result_read_or_used": false,
+  "previous_history_only_through": 2026325,
+  "human_choice": "AA01",
+  "universe": [
+    "羊",
+    "虎",
+    "馬",
+    "兔",
+    "龍",
+    "蛇"
+  ],
+  "top": "羊",
+  "pair": [
+    "虎",
+    "羊"
+  ],
+  "triple": [
+    "虎",
+    "馬",
+    "兔"
+  ],
+  "reserves": [
+    "龍",
+    "蛇"
+  ],
+  "top_overlap_mode": "concentrated",
+  "previous_325_six_distinct": [
+    "虎",
+    "馬",
+    "鷄",
+    "龍"
+  ],
+  "two_repeat_working_scenario": [
+    "虎",
+    "馬"
+  ],
+  "repeat_scenario_is_not_actual_repeat_or_guarantee": true,
+  "selection_method": "Human comparison of previous-325 four-sign repeat count, actual plan failure, 12/49 ledgers, 35/40/45 and non-overlapping age blocks, 38 manually authored structures and identity counterexamples. 2 repeats is a conditional working scenario, 1 repeat a coequal counter-scenario, not a ranking or proof.",
+  "structural_reason": "单羊与二羊重叠，展示4个不同肖；若下期恰有4肖，四个身份恰好齐备时全栏才有可能，而不是只要4肖就成功。二虎羊跨2/0路且混奇偶；三虎馬兔有两个不同1路肖，无1路仅三断，但1路至多1球必断三。无偶2不会直接断任何栏。代价是单羊缺使单二断，共同虎缺使二三断；无奇2二三断，无偶0单二断；羊虎同缺足以三栏齐断。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；AA13以鼠代馬，同类不同号码且马有五码；325无鼠不能证明326回补。",
+    "牛": "全集外，偶0四码06/18/30/42；AA15以牛代羊，有牛无羊W35/40/45为8/9/10期；同类不同身份。",
+    "虎": "二三共同A，奇2四码05/17/29/41；325前六两球仍一肖。无奇2或虎缺二三断；无奇2 W35/40/45为19/19/21期，风险很大。AA14以猴作同类反方。",
+    "兔": "三栏D，偶1四码04/16/28/40；与馬同属1路且三栏需要两个不同1路肖，1路至多一球必断三栏。AA16鷄同类反方，有鷄无兔11/12/14期。",
+    "龍": "仅替补，奇0四码03/15/27/39；325前六27龍及第七03龍同肖，AA17/AA29让龍展示；替补不补栏，龍续出与否未被证明。",
+    "蛇": "仅替补，偶2四码02/14/26/38；325无偶2，但不证明326回补；AA02以蛇为单、AA18置三，同类豬不能互补。",
+    "馬": "三栏C，奇1五码01/13/25/37/49；325前六2球算一肖，取作两重情景之一，不证明会续出。AA13鼠是同奇1四码反方，325后有鼠无馬W35/40/45为8/11/13期。",
+    "羊": "单栏且二栏B，偶0四码12/24/36/48；羊缺或无偶0使单二断，不能因325无偶0断言326回补；AA15牛为同类反方。",
+    "猴": "全集外，奇2四码11/23/35/47；AA14共同猴代虎，有猴无虎5/5/7期，不保证虎猴任何一方。",
+    "鷄": "全集外，偶1四码10/22/34/46；325有鷄而无兔，AA16换三兔为鷄，同类不能互补。AA08仅换替补不改变栏目。",
+    "狗": "全集外，奇0四码09/21/33/45；325共同狗缺使二三断，AA26重设共同狗，但一次缺失不证明继续缺或回补。",
+    "豬": "全集外，偶2四码08/20/32/44；AA24共同豬、AA09仅替补，與蛇同类不同身份，不凭325无偶2判断。"
+  },
+  "counterarguments": "AA02同全集单蛇错开，增加身份覆盖、降低零栏理想基线但全栏需5肖；AA03共同馬会把无1路风险集中到二三；AA06单与共同羊重叠导致羊缺三栏齐断；AA17三虎龍兔各路一肖却让全栏需要两个0路肖；AA18又令三栏需要两个2路肖；AA30零重时三栏必断。不能因325四肖就认定326也四肖。",
+  "joint_warning": "截至325，羊虎同缺W35/40/45为16/16/18期，仅是三栏齐断的充分情景；无奇2为19/19/21期使虎缺二三断，无偶0为17/19/21期使羊缺单二断，1路至多一球5/8/9期使三栏断。全栏需羊虎馬兔4个身份，0/1/2至少1/2/1、至少2奇2偶。历史窗口重叠且事件相互重叠，不是概率。",
+  "limits": "Actual source, 326 status, clock and mechanism unverified. If independent fair draws, history and manual structure do not predict a future draw. No outcome guarantee. Seventh only raw history and adjacent seven-ball identity; never normal settlement or special-number selection."
+}

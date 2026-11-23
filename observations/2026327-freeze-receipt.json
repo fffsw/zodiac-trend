@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_INPUT_NOT_PREDRAW_CERTIFICATION",
+  "frozen_files": 70,
+  "historical_git_page_snapshots": 15,
+  "old_pre_reg_record_snapshots": 18,
+  "after_outcome_reconstructions_not_actual_published": [
+    2026319,
+    2026322,
+    2026324
+  ],
+  "326_revised_page_sha256": "7e08164f943a5067d8ea306da95227b6ac1468aa7b7503a0c64045f80a59d0c5",
+  "old_bundle_sha256": "4fcab4394991a14b65e9b3e115b2142ab7f29521edc27481c0df9ffdef41bcdd",
+  "user_326_sha256": "4d87bd91c9eed898d77a1ac977b417508babbe689ab35caa8d4f5072352a6167",
+  "previous_public_commit": "50431fb57f3b89e7bd95d0f0462fdaebd0a4a607",
+  "prior_manifests_and_offline_verifier_pass": true,
+  "initial_327_status_only_not_predraw_authentication": true,
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_327_result_read": false
+}

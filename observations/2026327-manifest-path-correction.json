@@ -1,0 +1,8 @@
+{
+  "status": "CORRECTED_PREPUBLICATION_OFFLINE_PATH_CHECK",
+  "initial_failure": "The verifier initially constrained every old manifest path to the observations directory, but an old, already validated 313 manifest refers to ../pre-registration/2026312.json, still safely inside the repository.",
+  "correction": "Old manifests are now bounded to the repository root; the new manifest and 70-copy frozen manifest remain bounded to their own directories. No older files, selection, data or report were altered.",
+  "initial_verifier_sha256": "648200cb02343cd423a3cfa399449fbdd817fa70e67b1a5585f228ea8f61d7ef",
+  "initial_manifest_sha256": "66466c177722b067d5839bb02d86887ecc35c888bc6333a62db7c71cff561562",
+  "corrected_verifier_sha256": "9e565b801f58596d2df7662873c267591445ce23c7afbf3b8b4eb7561b374611"
+}

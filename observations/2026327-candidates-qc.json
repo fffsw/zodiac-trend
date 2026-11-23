@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "independent combinatorial and descriptive audit, not real mechanism, timing, official results, forecast or winnings",
+  "checks": [
+    "all structures frozen before audit; target values not read",
+    "all 12 exact model event counts independently reproduced using direct integer compositions, with identity-union and road checks",
+    "BB01 vs same-combination BB02 tradeoff confirmed, not forecast or return",
+    "historical 35/40/45 horse and chicken jointly absent directly recounted; windows overlap",
+    "repeat-conditioned events independently enumerated: full columns only possible for repeat 2 or 3, six repeats forces zero for this layout",
+    "six-repeat counterexample valid and explicitly synthetic, not target result"
+  ],
+  "selected_id": "BB01",
+  "candidate_audit_sha256": "21e65d69ecfa960ba60b50c6fc7a0d41eb47218612fcaf901937a0878f115b21",
+  "manual_decision_sha256": "34e29c27f35d0153bdba7726804e6fb030e7e96650ac91614e02c9351edf461c"
+}

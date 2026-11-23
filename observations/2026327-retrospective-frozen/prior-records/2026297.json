@@ -1,0 +1,117 @@
+{
+  "period": 2026297,
+  "created": "2026-10-23T22:50:46+08:00",
+  "data_md5": "575245c985f9351f3e0c7587888b907e",
+  "data_last_period": 2026296,
+  "excluded": {
+    "latest_special_zodiac": "猴",
+    "latest_seven_zodiacs": [
+      "鼠",
+      "龍",
+      "蛇",
+      "猴",
+      "狗"
+    ],
+    "latest_special_group_numbers": [
+      11,
+      23,
+      35,
+      47
+    ]
+  },
+  "window": {
+    "A_S_B": [
+      2026197,
+      2026296
+    ],
+    "C": [
+      2026048,
+      2026296
+    ],
+    "C_n": 249
+  },
+  "lines": {
+    "A_numbers": [
+      17,
+      40,
+      5
+    ],
+    "A_numbers_zodiac": [
+      "虎",
+      "兔",
+      "虎"
+    ],
+    "A_numbers_strict7": [
+      17,
+      40,
+      5
+    ],
+    "S_zodiac": [
+      "馬",
+      "豬",
+      "兔"
+    ],
+    "S_counts": {
+      "馬": 11,
+      "豬": 11,
+      "兔": 10
+    },
+    "B_roll3_readonly": [
+      "馬",
+      "豬",
+      "兔"
+    ],
+    "C_deficit": [
+      "鷄",
+      "狗",
+      "牛"
+    ],
+    "C_deficit_raw": [
+      "鷄",
+      "狗",
+      "牛"
+    ],
+    "C_gap": [
+      "狗",
+      "龍",
+      "鷄"
+    ],
+    "C_deficit_values": {
+      "鷄": 4.33,
+      "狗": 3.33,
+      "牛": 2.33
+    },
+    "C_gap_values": {
+      "狗": 22,
+      "龍": 16,
+      "鷄": 15
+    }
+  },
+  "site_display": {
+    "top": 3,
+    "t2": [
+      9,
+      10
+    ],
+    "t3": [
+      9,
+      2,
+      5
+    ],
+    "cands": [
+      2,
+      3,
+      9,
+      5
+    ],
+    "pool": [
+      2,
+      9,
+      5,
+      10,
+      1
+    ],
+    "version": "v4.2"
+  },
+  "self_md5": "8c1edb2aba55cda0efb863668d8656e0"
+}

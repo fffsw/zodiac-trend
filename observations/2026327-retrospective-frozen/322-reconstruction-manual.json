@@ -1,0 +1,51 @@
+{
+  "schema": "manual_322_AFTER_OUTCOME_RECONSTRUCTION_NOT_PUBLISHED",
+  "period": 2026322,
+  "status": "AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW",
+  "selection_bias_cannot_be_excluded": true,
+  "previous_history_only_through": 2026321,
+  "target_user_result_already_seen": true,
+  "human_choice": "W01",
+  "origin_321_candidate_id": "V10",
+  "universe": [
+    "狗",
+    "馬",
+    "鷄",
+    "羊",
+    "蛇",
+    "豬"
+  ],
+  "top": "狗",
+  "pair": [
+    "馬",
+    "鷄"
+  ],
+  "triple": [
+    "馬",
+    "羊",
+    "蛇"
+  ],
+  "reserves": [
+    "豬"
+  ],
+  "top_overlap_mode": "coverage",
+  "selection_method": "Explicit after-outcome reconstruction, anchored to the already-documented 321 V10 alternative; no score or ranking. Prior-only evidence cannot undo knowledge of the 322 outcome.",
+  "structural_reason": "二馬鷄奇偶不同，避免321 V01双偶二栏，但须两个不同1路肖；共同馬缺二三断。三馬羊蛇各路一肖，單狗与共同馬错开；狗馬同缺三栏齐断。",
+  "per_sign_reasons": {
+    "鼠": "全集外，奇1四码07/19/31/43；与共同馬同类不同号码。截至321有鼠无馬W35/40/45为9/10/11期，承担马缺鼠有的代价。",
+    "牛": "全集外，偶0四码06/18/30/42；与三羊同类不同身份，不能因为321无偶0认定必须回补。",
+    "虎": "全集外，奇2四码05/17/29/41；321第七41虎仅记七球交集，不能因此推选虎。",
+    "兔": "全集外，偶1四码04/16/28/40；与二鷄同类但号码不同，不能因两者同偶1自动互补。",
+    "龍": "全集外，奇0四码03/15/27/39；与单狗同类，321同时出现不保证任一续出。",
+    "蛇": "三栏D，偶2四码02/14/26/38；与替补豬同类不同身份，321蛇缺豬有不等于322必反转。",
+    "馬": "二三共同A，奇1五码01/13/25/37/49；换掉V01二蛇鷄双偶门槛，代价是馬缺二三断，且二栏需两个不同1路肖。",
+    "羊": "三栏C，偶0四码12/24/36/48；牛为同类反方，321无偶0不保证下期有。",
+    "猴": "全集外，奇2四码11/23/35/47；321前六两球并不证明继续或停止。",
+    "鷄": "二栏B，偶1四码10/22/34/46；兔为同类反方，二馬鷄两肖同1路，1路至少两球仍不保证具体身份。",
+    "狗": "单栏，奇0四码09/21/33/45；321单栏命中仅是历史，狗与共同馬同时缺会使三栏全断。",
+    "豬": "仅替补，偶2四码08/20/32/44；321前六08豬不使其能替代蛇，替补不自动补栏。"
+  },
+  "counterarguments": "继承原V01为W02：二蛇鷄跨路双偶、共同蛇；W01原V10二馬鷄奇偶不同却同1路，共同馬缺则二三断。V02龍代狗，V03兔代鷄，V04牛代羊，V06豬代蛇等仅身份对照；替补不得补栏。",
+  "joint_warning": "狗馬同时缺三栏齐断；截至321 W35/40/45为10/11/12期；无奇1使二三断，无1路同样二三断，1路最多一球必使二栏断。全栏需5个不同肖，路线至少2/2/1、奇偶至少2/3，仅为必要条件。",
+  "limits": "322 already supplied before reconstruction; no pre-draw, blind, published, unbiased-selection, or predictive-strength claim. First six only for selection and settlement; seventh solely raw and seven-ball identity."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "Wording clarified before model audit; choices and role identities unchanged",
+  "files": {
+    "manual_decision.json": {
+      "initial_sha256": "8f4fee6343ec86821dd38243ce506bd502447d42069f37eb0133b1ecb6331008",
+      "current_sha256": "34e29c27f35d0153bdba7726804e6fb030e7e96650ac91614e02c9351edf461c",
+      "backup": "manual_decision-initial-wording.json"
+    },
+    "handcrafted_candidates.json": {
+      "initial_sha256": "a54c2d9c10fbf59294f2e2c3b13cb2e5e5f36c6e4bf9314cb0abbfab4a8b5e16",
+      "current_sha256": "52a0b3998f49e184bd8c3ee35be93d371bad24073ff994041e91c247504b74a8",
+      "backup": "handcrafted_candidates-initial-wording.json"
+    }
+  }
+}
