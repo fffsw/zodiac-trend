@@ -1,0 +1,32 @@
+{
+  "status": "STAGED_USER_328_FOR_329_ANALYSIS",
+  "period": 2026328,
+  "user_328_date": null,
+  "six_plus_one_inferred": true,
+  "normal_numbers": [
+    15,
+    21,
+    31,
+    5,
+    12,
+    47
+  ],
+  "normal_zodiacs": [
+    "龍",
+    "狗",
+    "鼠",
+    "虎",
+    "羊",
+    "猴"
+  ],
+  "seventh_number": 6,
+  "seventh_zodiac": "牛",
+  "prior_sha256": "871c44064c79e5adca13054ead4b0281429fb1533a92def2c3987f9a1ce934b0",
+  "staged_sha256": "20193584b93314ab7c206423db16fa3d340b7cd4d79b8252bc0870854b43c19f",
+  "prior_rows_byte_identical": 1058,
+  "record_count": 1059,
+  "328_previous_display_decision_preserved": true,
+  "319_322_324_reconstructions_not_written_as_public": true,
+  "329_result_queried_or_used": false,
+  "public_and_main_history_unchanged_at_staging": true
+}

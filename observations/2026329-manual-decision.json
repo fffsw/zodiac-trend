@@ -1,0 +1,70 @@
+{
+  "schema": "manual_comparison_for_329",
+  "target": 2026329,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_OFFICIAL_NOT_PRE_DRAW_CERTIFIED",
+  "choice": "DD01",
+  "universe": [
+    "馬",
+    "虎",
+    "鷄",
+    "鼠",
+    "羊",
+    "蛇"
+  ],
+  "top": "馬",
+  "pair": [
+    "虎",
+    "鷄"
+  ],
+  "triple": [
+    "虎",
+    "鼠",
+    "羊"
+  ],
+  "reserves": [
+    "蛇"
+  ],
+  "top_overlap_mode": "coverage",
+  "previous_328_six": [
+    "鼠",
+    "虎",
+    "龍",
+    "羊",
+    "猴",
+    "狗"
+  ],
+  "previous_328_seven": [
+    "鼠",
+    "牛",
+    "虎",
+    "龍",
+    "羊",
+    "猴",
+    "狗"
+  ],
+  "previous_displayed": [
+    "鼠",
+    "虎",
+    "羊"
+  ],
+  "nonprevious_displayed": [
+    "馬",
+    "鷄"
+  ],
+  "previous_328_date": null,
+  "data_source": "user-provided 328; first-six plus seventh inferred; source, date, mapping and official status unverified",
+  "target_329_result_queried_or_used": false,
+  "selection_method": "After seeing 328 and retrospectively inspecting 35 retained displays, user-history cohorts and prior exact fair-model comparisons, choose a five-identity structure with horse single separate from both combinations. Tiger remains the pair/triple shared identity; pair tiger/chicken crosses routes/parity; triple tiger/mouse/sheep covers three routes. Exactly three of five displayed identities appeared among 328 normal six. This makes all-column completion possible if the next normal-six overlap is four, but not guaranteed. Identity choice was human-selected from seen data, not pre-registered or independently predictive.",
+  "pre_formal_audit_disclosure": "The 328 result, old 35-period review, six-versus-seven repeat cohorts, old ideal-model calculations and an initial illustrative cohort count were inspected before DD01 and the 12 comparisons were written. Formal exact candidate audit and independent arithmetic verification occur afterwards. No 329 outcome was looked up or used; time and blind selection are not authenticated.",
+  "primary_risks": "虎是二三共同位，虎缺必断两组合；馬缺单断但不必然断三。鷄缺二断；鼠或羊缺三断。零栏当且仅当馬缺且［虎缺或（鷄缺且（鼠缺或羊缺））］。三码同路、同奇偶或替补出现不能替代指定生肖。三虎鼠羊都是328前六旧肖；若下一期前六相对328重肖不足3，三肖必断。全栏需马虎鸡鼠羊五身份：重肖只可能为3或4；重0/1/2/5/6必不全完，即使重3/4也未必全完。",
+  "role_rationales": {
+    "馬": "单肖，五码01/13/25/37/49；与组合不共身份。328未出不代表会回补。與鼠同奇1路仍是不同身份。",
+    "虎": "二三共同，奇2 05/17/29/41；328是替补且为正码，这不预测下期。虎缺两组合均断。",
+    "鷄": "二栏，偶1 10/22/34/46；与虎跨路且奇偶互补，328缺不代表会回补。",
+    "鼠": "三肖，奇1 07/19/31/43；与馬同奇1但不能互代，缺鼠则三栏不完整。",
+    "羊": "三肖，偶0 12/24/36/48；使三栏覆盖三路，缺羊则三栏不完整。",
+    "蛇": "仅替补，偶2 02/14/26/38；不参与正式栏结算，也不自动补缺。"
+  },
+  "structural_caveat": "全栏需至少两个奇1路（馬、鼠）且至少三个奇数、两个偶数；二、三共享虎，任何跨路覆盖都不能避免身份共同位依赖。全栏只可能在与328前六重3或4肖时，条件成立也不能保证。",
+  "previous_repeat_scope": "328前六6个不同生肖、七球7个不同生肖（第七牛新），因此应将资料里前六6/七球7的130对与前六6/七球6的133对分开。仅历史条件描述；七球重复不能用于正码栏目结算。"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "local data/code/page integrity and synthetic tests only; no official, timing, predictive or WeChat certification",
+  "checks": [
+    "staged pages equal; published old page remains unchanged before push",
+    "250 chart rows match source, exact user 328 six and separate seventh, date unknown; no 329",
+    "249 overlapping prior rows and 49 mappings unchanged",
+    "exact 329 DD01 roles, one reserve; all old manual page decisions preserved",
+    "all layout, styles, and behavior unchanged outside data, decisions and range title",
+    "all 1058 old records byte-identical; main history not yet changed",
+    "17 prior decisions preserved; main decisions not yet changed",
+    "original generator and relative entry unchanged",
+    "no deleted footer, external assets or automatic network calls",
+    "30 frozen baseline files match manifest",
+    "independent check evidence_qc.json",
+    "independent check candidate_audit_qc.json",
+    "independent check independent_qc.json",
+    "independent check report_qc.json",
+    "clean reproduction equals staged page byte-for-byte",
+    "synthetic 329 fixture does not create automatic 330 choices",
+    "24 previous public manifests remain intact before push",
+    "329 outcome not queried or used; no pre-draw claim",
+    "old unrelated dirty checkout remains untouched"
+  ],
+  "checks_count": 19,
+  "page_sha256": "e81c8e7d6944a853d726be915c35b598ac25332b8ce708333c6a87644c084afe",
+  "source_sha256": "20193584b93314ab7c206423db16fa3d340b7cd4d79b8252bc0870854b43c19f",
+  "manual_sha256": "50115305ca2ce23c25d4614526899c4a75d51af404783c1b5eb0f99794545a01"
+}

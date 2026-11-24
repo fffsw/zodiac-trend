@@ -1,0 +1,26 @@
+{
+  "period": 2026328,
+  "original_user_text": "328期 15龙 21狗 31鼠05虎12羊47猴06牛",
+  "normal_numbers": [
+    15,
+    21,
+    31,
+    5,
+    12,
+    47
+  ],
+  "normal_zodiacs": [
+    "龍",
+    "狗",
+    "鼠",
+    "虎",
+    "羊",
+    "猴"
+  ],
+  "seventh_number": 6,
+  "seventh_zodiac": "牛",
+  "date": null,
+  "six_plus_one_inferred_from_user_sequence_and_standing_rule": true,
+  "source": "user-provided; official source, date and actual event time not independently authenticated",
+  "seventh_scope": "stored separately; never substitutes for a normal column"
+}

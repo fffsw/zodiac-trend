@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "target": 2026329,
+  "candidate": "DD01",
+  "prior_decisions_preserved": 17,
+  "319_322_324_reconstructions_not_fabricated_as_public": true,
+  "328_display_decision_unchanged": true,
+  "staged_decisions_sha256": "50115305ca2ce23c25d4614526899c4a75d51af404783c1b5eb0f99794545a01",
+  "previous_decisions_sha256": "f3c39aab3f8bad84d468c8747b068b85121b8e5bae9a667af55de845f644055f",
+  "staged_page_sha256": "e81c8e7d6944a853d726be915c35b598ac25332b8ce708333c6a87644c084afe",
+  "staged_history_sha256": "20193584b93314ab7c206423db16fa3d340b7cd4d79b8252bc0870854b43c19f",
+  "generator_unchanged": true,
+  "target_329_result_queried_or_used": false,
+  "scope": "isolated stage only; no main history, public site or original dirty deploy changed"
+}

@@ -1,0 +1,248 @@
+{
+  "status": "PASS_DESCRIPTIVE_EXPLORATORY_NOT_FORECAST",
+  "scope": "Condition selected after seeing user 327; six distinct prior signs in both prior six and seven. Follow-up historical values only through 327. User record date and official source unknown; no 328 result read. Historical labels per historical record, not remapped to 2026. Adjacent windows and outcomes may overlap.",
+  "input_history_sha256": "871c44064c79e5adca13054ead4b0281429fb1533a92def2c3987f9a1ce934b0",
+  "historical_records": 1058,
+  "excluded_invalid_or_nonadjacent_pairs": [],
+  "groups": {
+    "2024plus": {
+      "n": 132,
+      "six_to_six_counts_0_to_6": [
+        2,
+        9,
+        45,
+        47,
+        26,
+        3,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        3,
+        33,
+        54,
+        35,
+        6,
+        1
+      ]
+    },
+    "2024": {
+      "n": 42,
+      "six_to_six_counts_0_to_6": [
+        0,
+        1,
+        16,
+        16,
+        8,
+        1,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        0,
+        11,
+        17,
+        13,
+        1,
+        0
+      ]
+    },
+    "2025": {
+      "n": 42,
+      "six_to_six_counts_0_to_6": [
+        2,
+        1,
+        18,
+        13,
+        7,
+        1,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        2,
+        8,
+        21,
+        8,
+        3,
+        0
+      ]
+    },
+    "2026": {
+      "n": 48,
+      "six_to_six_counts_0_to_6": [
+        0,
+        7,
+        11,
+        18,
+        11,
+        1,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        1,
+        14,
+        16,
+        14,
+        2,
+        1
+      ]
+    }
+  },
+  "current_pending": {
+    "previous_issue": 2026327,
+    "previous_six": [
+      "鼠",
+      "虎",
+      "馬",
+      "羊",
+      "鷄",
+      "狗"
+    ],
+    "previous_seven": [
+      "鼠",
+      "虎",
+      "馬",
+      "羊",
+      "鷄",
+      "狗"
+    ],
+    "target_issue": 2026328,
+    "target_result_read": false,
+    "included_in_followup_denominators": false
+  },
+  "theoretical_repeat_max_six_to_six": 6,
+  "theoretical_repeat_max_seven_to_seven": 6,
+  "witness_six_repeat_6_not_328": [
+    {
+      "number": 7,
+      "zodiac": "鼠"
+    },
+    {
+      "number": 5,
+      "zodiac": "虎"
+    },
+    {
+      "number": 1,
+      "zodiac": "馬"
+    },
+    {
+      "number": 12,
+      "zodiac": "羊"
+    },
+    {
+      "number": 10,
+      "zodiac": "鷄"
+    },
+    {
+      "number": 9,
+      "zodiac": "狗"
+    }
+  ],
+  "witness_six_repeat_0_not_328": [
+    {
+      "number": 6,
+      "zodiac": "牛"
+    },
+    {
+      "number": 4,
+      "zodiac": "兔"
+    },
+    {
+      "number": 3,
+      "zodiac": "龍"
+    },
+    {
+      "number": 2,
+      "zodiac": "蛇"
+    },
+    {
+      "number": 11,
+      "zodiac": "猴"
+    },
+    {
+      "number": 8,
+      "zodiac": "豬"
+    }
+  ],
+  "uniform_49_independent_model": {
+    "6": {
+      "prior_identities": [
+        "鼠",
+        "虎",
+        "馬",
+        "羊",
+        "鷄",
+        "狗"
+      ],
+      "prior_group_sizes": [
+        4,
+        4,
+        5,
+        4,
+        4,
+        4
+      ],
+      "other_number_count": 24,
+      "denominator": 13983816,
+      "counts_0_to_6": [
+        134596,
+        1551144,
+        4825100,
+        5222000,
+        2008800,
+        237056,
+        5120
+      ],
+      "percent_0_to_6": [
+        0.9625126646403243,
+        11.09242284080397,
+        34.50488765012354,
+        37.343168703020694,
+        14.365177573846795,
+        1.6952168134935415,
+        0.036613754071134805
+      ]
+    },
+    "7": {
+      "prior_identities": [
+        "鼠",
+        "虎",
+        "馬",
+        "羊",
+        "鷄",
+        "狗"
+      ],
+      "prior_group_sizes": [
+        4,
+        4,
+        5,
+        4,
+        4,
+        4
+      ],
+      "other_number_count": 24,
+      "denominator": 85900584,
+      "counts_0_to_6": [
+        346104,
+        5404356,
+        22805460,
+        34244040,
+        19237200,
+        3691904,
+        171520
+      ],
+      "percent_0_to_6": [
+        0.4029122782215311,
+        6.29140775108118,
+        26.548667003241793,
+        39.864734796215124,
+        22.394725511994192,
+        4.297879977160575,
+        0.19967268208560723
+      ]
+    }
+  },
+  "limitations": "Joint six-sign cohort is exploratory selected after observing 327; conditional association is not a forecast. Zodiac data and draw mechanism are unauthenticated. Six vs six and seven vs seven are distinct; zero observed is not impossibility. Uniform model assumes 49 equiprobable numbers, without replacement per draw and independence across draws."
+}

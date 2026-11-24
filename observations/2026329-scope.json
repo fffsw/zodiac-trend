@@ -1,0 +1,13 @@
+{
+  "status": "PREPARED_SCOPE_NOT_A_DRAW_OR_TIMING_CERTIFICATION",
+  "action": "Review user 328, retain 35 source-based displays and separately identify three reconstructions, then display manually selected 329 DD01.",
+  "baseline_commit": "2d114cda47793825e2512d37149c762a97badb3f",
+  "previous_page_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "new_page_sha256": "e81c8e7d6944a853d726be915c35b598ac25332b8ce708333c6a87644c084afe",
+  "target_329_result_queried_or_used": false,
+  "official_source_date_mapping_or_predraw_certified": false,
+  "public_frozen_subset_count": 25,
+  "local_full_freeze_manifest_sha256": "e1235a9bf5d2f035f8dbfff009cd94af693af4d7b1b0a7d98c5dbf83a4249c4b",
+  "private_old_dirty_status_not_published": true,
+  "prior_report_and_manifests_preserved": true
+}

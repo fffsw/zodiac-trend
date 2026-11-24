@@ -1,0 +1,9 @@
+{
+  "status": "PREPARATION_ASSERTION_FAILED_BEFORE_COMMIT_OR_PUSH; RECOVERED_BY_RECHECKING_EXISTING_ISOLATED_PREPARATION",
+  "cause": "The status helper used strip(), which removed the leading porcelain status space on the first modified path, making the check overlook observations/README.md. The actual isolated clone had both intended tracked modifications and 76 intended new files.",
+  "correction": "Preserve leading spaces using rstrip('\\n'); do not rerun the partially completed preparation. Independently recheck all changed paths, input hashes, old manifests and public frozen subset before writing the preparation receipt.",
+  "public_site_or_main_workspace_modified_by_failed_check": false,
+  "old_dirty_deploy_modified": false,
+  "target_329_outcome_queried_or_used": false,
+  "scope": "Status-parsing and recovery only; not official-source, draw-time or forecast verification."
+}

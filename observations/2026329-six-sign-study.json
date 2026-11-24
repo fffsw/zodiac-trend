@@ -1,0 +1,180 @@
+{
+  "status": "PASS_DESCRIPTIVE_EXPLORATORY_NOT_FORECAST",
+  "scope": "328 has six distinct NORMAL identities and SEVEN distinct seven-ball identities. Therefore the 6/7 cohort matches this structural condition; prior 6/6 cohort is separate and not interchangeable. Historical source and target timing unverified; comparisons are descriptive, not forecast. Era-boundary pairs excluded.",
+  "input_history_sha256": "20193584b93314ab7c206423db16fa3d340b7cd4d79b8252bc0870854b43c19f",
+  "historical_records": 1059,
+  "excluded_pairs": [
+    {
+      "previous": 2024040,
+      "next": 2024041,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    },
+    {
+      "previous": 2025028,
+      "next": 2025029,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    },
+    {
+      "previous": 2026047,
+      "next": 2026048,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    }
+  ],
+  "groups": {
+    "previous_six_6_seven_6": {
+      "n": 133,
+      "six_to_six_counts_0_to_6": [
+        2,
+        9,
+        45,
+        47,
+        27,
+        3,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        3,
+        33,
+        54,
+        36,
+        6,
+        1
+      ]
+    },
+    "previous_six_6_seven_7": {
+      "n": 130,
+      "six_to_six_counts_0_to_6": [
+        2,
+        12,
+        50,
+        47,
+        16,
+        3,
+        0
+      ],
+      "seven_to_seven_counts_0_to_7": [
+        0,
+        7,
+        13,
+        53,
+        41,
+        13,
+        3,
+        0
+      ]
+    }
+  },
+  "current_pending": {
+    "previous_issue": 2026328,
+    "previous_six": [
+      "鼠",
+      "虎",
+      "龍",
+      "羊",
+      "猴",
+      "狗"
+    ],
+    "previous_seven": [
+      "鼠",
+      "牛",
+      "虎",
+      "龍",
+      "羊",
+      "猴",
+      "狗"
+    ],
+    "target_issue": 2026329,
+    "target_result_queried_or_used": false,
+    "included_in_followup_denominators": false
+  },
+  "uniform_49_independent_model": {
+    "six_to_six": {
+      "previous_identities": [
+        "鼠",
+        "虎",
+        "龍",
+        "羊",
+        "猴",
+        "狗"
+      ],
+      "sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "draw_count": 6,
+      "denominator": 13983816,
+      "counts": [
+        177100,
+        1787520,
+        5019420,
+        5000800,
+        1795200,
+        199680,
+        4096
+      ],
+      "percent": [
+        1.2664640324214793,
+        12.782776890084937,
+        35.89449403510458,
+        35.7613401091662,
+        12.83769752119164,
+        1.4279364087742574,
+        0.02929100325690784
+      ]
+    },
+    "seven_to_seven": {
+      "previous_identities": [
+        "鼠",
+        "牛",
+        "虎",
+        "龍",
+        "羊",
+        "猴",
+        "狗"
+      ],
+      "sizes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "draw_count": 7,
+      "denominator": 85900584,
+      "counts": [
+        116280,
+        2550940,
+        15028860,
+        32043480,
+        26790400,
+        8494080,
+        860160,
+        16384
+      ],
+      "percent": [
+        0.13536578517324166,
+        2.9696422087188603,
+        17.495643568616483,
+        37.30298271313266,
+        31.187680866057907,
+        9.888268047164848,
+        1.001343599712896,
+        0.01907321142310278
+      ]
+    }
+  },
+  "limitations": "Cohort condition selected after observing 328; overlapping consecutive draws and nonauthenticated data; no inference that future repeat count follows empirical shares. Seven-to-seven includes the seventh ball, never normal-column settlement. Theoretical max six-to-six is 6; seven-to-seven is 7 for this case. Uniform model is a conditional mathematical assumption, not real-world proof."
+}

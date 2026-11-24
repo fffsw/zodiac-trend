@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_DEEP_REVIEW",
+  "scope": "Internal source consistency, deterministic logic and exact assumed-fair combinatorics. Not official data, chronology, 328 results, prediction, profitability or real WeChat certification.",
+  "checks": [
+    "23 frozen input files and no target result in analysis",
+    "all BB01/CC01 exact joint event counts and hypothetical 4-code variant independently reproduced with inclusion-exclusion",
+    "triple implies single; zero-column disjoint partition and partial-hit risk verified",
+    "all feasible zodiac sets independently enumerate repeat 0→zero, repeat 5→at least one, repeat 6→exactly two",
+    "every disclosed repeat-condition witness is a labeled synthetic six-number set, not a claimed outcome",
+    "990 identical-role distributions follow from exchangeable 4-code groups; not evidence of predictive equivalence in real draws",
+    "all stored records have internally consistent zodiac offsets; three transitions and no transition among 132 selected pairs; 15 dates absent",
+    "five nonoverlapping retrospective blocks and old/new 45-row distributions directly re-settled",
+    "downloadable tables, mapping sensitivity and decision-to-hold are consistent; hypothesis is not asserted as the 328 mapping"
+  ],
+  "deep_metrics_sha256": "8bd8cb1f8e032981a879f993b6a4918cc50a9b59ec4668f62d2937b8f0d78f84",
+  "history_sha256": "871c44064c79e5adca13054ead4b0281429fb1533a92def2c3987f9a1ce934b0",
+  "target_328_outcome_queried_or_used": false
+}
