@@ -1,0 +1,643 @@
+{
+  "status": "PASS_DEEP_REVIEW_NOT_A_FORECAST",
+  "scope": "Frozen local history through user 327 and 328 CC01 only; no 328 outcome lookup; old snapshots do not certify predraw, official data, clock or actual mechanism.",
+  "input_freeze_sha256": "a0651cc6dcb900f37b4ecc3681a7e81394a70e43f1bf52b0df2a92c06ee95f8d",
+  "target_328_outcome_queried_or_used": false,
+  "data_audit": {
+    "rows": 1058,
+    "numbers_in_range_and_seven_distinct": true,
+    "wave_labels_match_local_key": true,
+    "zodiac_label_internal_offset_consistent_all_rows": true,
+    "undated_issue_count": 15,
+    "undated_issues": [
+      2026313,
+      2026314,
+      2026315,
+      2026316,
+      2026317,
+      2026318,
+      2026319,
+      2026320,
+      2026321,
+      2026322,
+      2026323,
+      2026324,
+      2026325,
+      2026326,
+      2026327
+    ],
+    "offset_counts": {
+      "4": 40,
+      "5": 354,
+      "6": 384,
+      "7": 280
+    },
+    "internal_mapping_changes": [
+      {
+        "from_period": 2024040,
+        "to_period": 2024041,
+        "from_date_as_stored": "2024-02-09",
+        "to_date_as_stored": "2024-02-10",
+        "from_offset": 4,
+        "to_offset": 5
+      },
+      {
+        "from_period": 2025028,
+        "to_period": 2025029,
+        "from_date_as_stored": "2025-01-28",
+        "to_date_as_stored": "2025-01-29",
+        "from_offset": 5,
+        "to_offset": 6
+      },
+      {
+        "from_period": 2026047,
+        "to_period": 2026048,
+        "from_date_as_stored": "2026-02-16",
+        "to_date_as_stored": "2026-02-17",
+        "from_offset": 6,
+        "to_offset": 7
+      }
+    ],
+    "132_six_sign_cohort_cross_mapping_changes": 0,
+    "note": "Offsets/changes describe local records only, not independently verified official mapping or dates."
+  },
+  "six_sign_cohort": {
+    "n": 132,
+    "recorded_six_0_to_6": [
+      2,
+      9,
+      45,
+      47,
+      26,
+      3,
+      0
+    ],
+    "recorded_seven_0_to_6": [
+      0,
+      3,
+      33,
+      54,
+      35,
+      6,
+      1
+    ],
+    "fixed_2026_remap_same_repeat_counts_for_these_pairs": true,
+    "current_prev_group_model_repeat6_pct": 0.036613754071134805,
+    "iid_132_identical_current_groups_zero_repeat6_pct": 95.28107244577568,
+    "iid_counterfactual_warning": "The 132 actual pairs are not 132 independent repeats of the current fixed six; do not apply this value as a historical p-value."
+  },
+  "ideal_model": {
+    "draws": 13983816,
+    "definition": "49 equally likely, 6 different numbers without replacement. No payout or profit model. For the repeat-conditioned table, additionally assume the target is independent of the frozen prior and the current offset 7 mapping persists.",
+    "BB01": {
+      "group_sizes": {
+        "馬": 5,
+        "鷄": 4,
+        "龍": 4,
+        "虎": 4,
+        "牛": 4
+      },
+      "displayed_numbers": 21,
+      "patterns_single_pair_triple": {
+        "000": 5392128,
+        "001": 336840,
+        "010": 1185828,
+        "011": 144256,
+        "100": 5878924,
+        "101": 185840,
+        "110": 813920,
+        "111": 46080
+      },
+      "complete_columns_0_to_3_counts": [
+        5392128,
+        7401592,
+        1144016,
+        46080
+      ],
+      "complete_columns_0_to_3_pct": [
+        38.55977510001562,
+        52.92970102009351,
+        8.181000093250654,
+        0.32952378664021326
+      ],
+      "single_pair_triple_pct": [
+        49.51984494075151,
+        15.66156190842328,
+        5.098865717340674
+      ],
+      "at_least_one_pct": 61.44022489998438,
+      "at_least_two_pct": 8.510523879890869,
+      "expected_complete_columns": 0.7028027256651547
+    },
+    "CC01": {
+      "group_sizes": {
+        "馬": 5,
+        "狗": 4,
+        "鷄": 4,
+        "蛇": 4
+      },
+      "displayed_numbers": 17,
+      "patterns_single_pair_triple": {
+        "000": 5728968,
+        "001": 0,
+        "010": 1330084,
+        "011": 0,
+        "100": 5436684,
+        "101": 628080,
+        "110": 628080,
+        "111": 231920
+      },
+      "complete_columns_0_to_3_counts": [
+        5728968,
+        6766768,
+        1256160,
+        231920
+      ],
+      "complete_columns_0_to_3_pct": [
+        40.96855965496113,
+        48.38999597820795,
+        8.98295572538998,
+        1.6584886414409343
+      ],
+      "single_pair_triple_pct": [
+        49.51984494075151,
+        15.66156190842328,
+        6.149966504135924
+      ],
+      "at_least_one_pct": 59.03144034503887,
+      "at_least_two_pct": 10.641444366830914,
+      "expected_complete_columns": 0.7133137335331071
+    },
+    "CC01_zero_column_disjoint_partition": {
+      "no_horse_and_no_dog_count": 3838380,
+      "no_horse_dog_present_no_chicken_count": 1890588,
+      "pct": [
+        27.448730732727032,
+        13.519828922234103
+      ],
+      "no_displayed_identity_count": 906192,
+      "no_displayed_identity_pct": 6.480291216646443,
+      "has_displayed_identity_but_zero_complete_pct": 34.48826843831469
+    },
+    "hypothetical_offset8_not_a_328_mapping_claim": {
+      "group_sizes": {
+        "馬": 4,
+        "狗": 4,
+        "鷄": 4,
+        "蛇": 4
+      },
+      "displayed_numbers": 16,
+      "patterns_single_pair_triple": {
+        "000": 6667992,
+        "001": 0,
+        "010": 1477068,
+        "011": 0,
+        "100": 4603060,
+        "101": 522680,
+        "110": 522680,
+        "111": 190336
+      },
+      "complete_columns_0_to_3_counts": [
+        6667992,
+        6080128,
+        1045360,
+        190336
+      ],
+      "complete_columns_0_to_3_pct": [
+        47.68363656958873,
+        43.47974830332436,
+        7.4754988194924765,
+        1.3611163075944364
+      ],
+      "single_pair_triple_pct": [
+        41.753667239328664,
+        15.66156190842328,
+        5.098865717340674
+      ],
+      "at_least_one_pct": 52.31636343041127,
+      "at_least_two_pct": 8.836615127086912,
+      "expected_complete_columns": 0.6251409486509262
+    },
+    "hypothetical_offset8_mapping_examples": {
+      "馬": [
+        2,
+        14,
+        26,
+        38
+      ],
+      "狗": [
+        10,
+        22,
+        34,
+        46
+      ],
+      "鷄": [
+        11,
+        23,
+        35,
+        47
+      ],
+      "蛇": [
+        3,
+        15,
+        27,
+        39
+      ]
+    },
+    "identical_ideal_distribution_role_permutations": 990,
+    "equivalence_within_12": [
+      [
+        "CC01",
+        "CC05",
+        "CC06",
+        "CC07",
+        "CC08",
+        "CC09",
+        "CC10",
+        "CC12"
+      ],
+      [
+        "CC02"
+      ],
+      [
+        "CC03"
+      ],
+      [
+        "CC04"
+      ],
+      [
+        "CC11"
+      ]
+    ]
+  },
+  "logical_repeat_possibilities": {
+    "0": [
+      0
+    ],
+    "1": [
+      0,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "4": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "5": [
+      1,
+      2,
+      3
+    ],
+    "6": [
+      2
+    ]
+  },
+  "feasible_identity_sets_enumerated": 2497,
+  "synthetic_witnesses_not_328": [
+    {
+      "case": "repeat0_zero",
+      "synthetic_not_328_numbers": [
+        6,
+        4,
+        3,
+        2,
+        11,
+        8
+      ],
+      "repeat_identities": 0,
+      "completed_single_pair_triple": [
+        false,
+        false,
+        false
+      ],
+      "complete_columns": 0
+    },
+    {
+      "case": "repeat1_only_single",
+      "synthetic_not_328_numbers": [
+        1,
+        6,
+        4,
+        3,
+        2,
+        11
+      ],
+      "repeat_identities": 1,
+      "completed_single_pair_triple": [
+        true,
+        false,
+        false
+      ],
+      "complete_columns": 1
+    },
+    {
+      "case": "repeat2_single_and_triple",
+      "synthetic_not_328_numbers": [
+        1,
+        9,
+        2,
+        6,
+        4,
+        3
+      ],
+      "repeat_identities": 2,
+      "completed_single_pair_triple": [
+        true,
+        false,
+        true
+      ],
+      "complete_columns": 2
+    },
+    {
+      "case": "repeat3_all",
+      "synthetic_not_328_numbers": [
+        1,
+        9,
+        10,
+        2,
+        6,
+        4
+      ],
+      "repeat_identities": 3,
+      "completed_single_pair_triple": [
+        true,
+        true,
+        true
+      ],
+      "complete_columns": 3
+    },
+    {
+      "case": "repeat5_only_pair",
+      "synthetic_not_328_numbers": [
+        9,
+        10,
+        7,
+        5,
+        12,
+        6
+      ],
+      "repeat_identities": 5,
+      "completed_single_pair_triple": [
+        false,
+        true,
+        false
+      ],
+      "complete_columns": 1
+    },
+    {
+      "case": "repeat5_only_single",
+      "synthetic_not_328_numbers": [
+        1,
+        10,
+        7,
+        5,
+        12,
+        2
+      ],
+      "repeat_identities": 5,
+      "completed_single_pair_triple": [
+        true,
+        false,
+        false
+      ],
+      "complete_columns": 1
+    },
+    {
+      "case": "repeat6_exactly_two",
+      "synthetic_not_328_numbers": [
+        1,
+        9,
+        10,
+        7,
+        5,
+        12
+      ],
+      "repeat_identities": 6,
+      "completed_single_pair_triple": [
+        true,
+        true,
+        false
+      ],
+      "complete_columns": 2
+    }
+  ],
+  "conditional_model_by_repeat": [
+    {
+      "repeat": 0,
+      "denominator": 134596,
+      "single": 0,
+      "pair": 0,
+      "triple": 0,
+      "all_columns": 0,
+      "no_complete_column": 134596,
+      "no_complete_pct": 100.0,
+      "all_complete_pct": 0.0
+    },
+    {
+      "repeat": 1,
+      "denominator": 1551144,
+      "single": 340424,
+      "pair": 0,
+      "triple": 0,
+      "all_columns": 0,
+      "no_complete_column": 1210720,
+      "no_complete_pct": 78.05335932705152,
+      "all_complete_pct": 0.0
+    },
+    {
+      "repeat": 2,
+      "denominator": 4825100,
+      "single": 1952020,
+      "pair": 287308,
+      "triple": 188320,
+      "all_columns": 0,
+      "no_complete_column": 2585772,
+      "no_complete_pct": 53.59001885971275,
+      "all_complete_pct": 0.0
+    },
+    {
+      "repeat": 3,
+      "denominator": 5222000,
+      "single": 2973600,
+      "pair": 971880,
+      "triple": 436160,
+      "all_columns": 109040,
+      "no_complete_column": 1573880,
+      "no_complete_pct": 30.13941018766756,
+      "all_complete_pct": 2.088088854844887
+    },
+    {
+      "repeat": 4,
+      "denominator": 2008800,
+      "single": 1448800,
+      "pair": 770640,
+      "triple": 215040,
+      "all_columns": 107520,
+      "no_complete_column": 224000,
+      "no_complete_pct": 11.150935882118677,
+      "all_complete_pct": 5.352449223416965
+    },
+    {
+      "repeat": 5,
+      "denominator": 237056,
+      "single": 204800,
+      "pair": 155136,
+      "triple": 20480,
+      "all_columns": 15360,
+      "no_complete_column": 0,
+      "no_complete_pct": 0.0,
+      "all_complete_pct": 6.479481641468682
+    },
+    {
+      "repeat": 6,
+      "denominator": 5120,
+      "single": 5120,
+      "pair": 5120,
+      "triple": 0,
+      "all_columns": 0,
+      "no_complete_column": 0,
+      "no_complete_pct": 0.0,
+      "all_complete_pct": 0.0
+    }
+  ],
+  "recent_45_retrospective": {
+    "blocks": [
+      {
+        "age": "0-9",
+        "period_range_old_to_new": [
+          2026318,
+          2026327
+        ],
+        "n": 10,
+        "CC01_complete_columns_0_to_3": [
+          3,
+          5,
+          1,
+          1
+        ],
+        "BB01_complete_columns_0_to_3": [
+          5,
+          4,
+          1,
+          0
+        ]
+      },
+      {
+        "age": "10-19",
+        "period_range_old_to_new": [
+          2026308,
+          2026317
+        ],
+        "n": 10,
+        "CC01_complete_columns_0_to_3": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "BB01_complete_columns_0_to_3": [
+          1,
+          8,
+          1,
+          0
+        ]
+      },
+      {
+        "age": "20-34",
+        "period_range_old_to_new": [
+          2026293,
+          2026307
+        ],
+        "n": 15,
+        "CC01_complete_columns_0_to_3": [
+          4,
+          6,
+          4,
+          1
+        ],
+        "BB01_complete_columns_0_to_3": [
+          3,
+          12,
+          0,
+          0
+        ]
+      },
+      {
+        "age": "35-39",
+        "period_range_old_to_new": [
+          2026288,
+          2026292
+        ],
+        "n": 5,
+        "CC01_complete_columns_0_to_3": [
+          4,
+          1,
+          0,
+          0
+        ],
+        "BB01_complete_columns_0_to_3": [
+          4,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "age": "40-44",
+        "period_range_old_to_new": [
+          2026283,
+          2026287
+        ],
+        "n": 5,
+        "CC01_complete_columns_0_to_3": [
+          2,
+          3,
+          0,
+          0
+        ],
+        "BB01_complete_columns_0_to_3": [
+          1,
+          4,
+          0,
+          0
+        ]
+      }
+    ],
+    "CC01_distribution_0_to_3": [
+      16,
+      19,
+      6,
+      4
+    ],
+    "BB01_distribution_0_to_3": [
+      14,
+      29,
+      2,
+      0
+    ],
+    "paired_CC_BB_counts": {
+      "0|0": 11,
+      "0|1": 5,
+      "1|0": 3,
+      "1|1": 15,
+      "1|2": 1,
+      "2|1": 5,
+      "2|2": 1,
+      "3|1": 4
+    },
+    "warning": "Both candidates evaluated on the same 45 already-observed rows; CC01 was chosen after looking at this history, so this is not an independent trial or predictive comparison."
+  },
+  "decision": "No new authenticated information distinguishes the selected identities; retain CC01. Supplement structural, mapping and model-objective omissions without claiming an improvement or using 328 results."
+}

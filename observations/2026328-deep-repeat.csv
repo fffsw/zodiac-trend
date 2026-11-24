@@ -1,0 +1,8 @@
+repeat_327_six_count,possible_complete_columns,ideal_denominator,ideal_zero_complete_count,ideal_zero_complete_pct,ideal_all_complete_count,ideal_all_complete_pct,scope
+0,0,134596,134596,100.000000,0,0.000000,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+1,0/1,1551144,1210720,78.053359,0,0.000000,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+2,0/1/2,4825100,2585772,53.590019,0,0.000000,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+3,0/1/2/3,5222000,1573880,30.139410,109040,2.088089,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+4,0/1/2/3,2008800,224000,11.150936,107520,5.352449,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+5,1/2/3,237056,0,0.000000,15360,6.479482,"structural possibility; fair independent 49-number model for percentages, not 328 result"
+6,2,5120,0,0.000000,0,0.000000,"structural possibility; fair independent 49-number model for percentages, not 328 result"

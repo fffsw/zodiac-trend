@@ -1,0 +1,13 @@
+{
+  "status": "PREPARED_NOT_YET_PUBLISHED",
+  "action": "Add deep review of omitted logical constraints, objective tradeoff and mapping assumptions; keep 328 page and decision unchanged",
+  "baseline_commit": "634ac1d00007a1ca2d021a656649ab0e67ead772",
+  "base_page_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "target_328_result_queried_or_used": false,
+  "official_source_date_or_predraw_certified": false,
+  "historical_mapping_changes_are_internal_data_only": true,
+  "hypothetical_mapping_is_not_claimed_to_apply_to_328": true,
+  "previous_report_and_manifests_preserved": true,
+  "public_frozen_input_files": 18,
+  "private_local_dirty_checkout_status_in_public_bundle": false
+}

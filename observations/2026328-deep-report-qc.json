@@ -1,0 +1,16 @@
+{
+  "status": "PASS_DEEP_REPORT_QC",
+  "scope": "Text-to-evidence, arithmetic and links; not official provenance, timing, prediction or real WeChat safety",
+  "report_sha256": "69b0fc7db07e766b3f31cbd9094172c66077547fa1ab1fd8568b75583d54ae36",
+  "deep_metrics_sha256": "8bd8cb1f8e032981a879f993b6a4918cc50a9b59ec4668f62d2937b8f0d78f84",
+  "checks": [
+    "327 user settlement, repeat4, three-new requirement and saved/reconstructed history scope cross-checked",
+    "full ideal distributions, nested event warning, partial-match risk and deterministic shared-horse logic checked",
+    "all seven repeat possibilities reproduced; conditional conclusion and synthetic witness clearly labeled",
+    "mapping sensitivity, label-count limitation, undated rows and non-claim about 328 mapping all present",
+    "role symmetry, five disjoint blocks and post-selection/non-blind retrospective caveat checked",
+    "hypothetical IID example, no-guarantee and local evidence links are explicitly qualified",
+    "isolated report generator reproduces the reviewed local addendum exactly"
+  ],
+  "target_328_outcome_queried_or_used": false
+}

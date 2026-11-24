@@ -1,0 +1,15 @@
+{
+  "status": "PASS_DEEP_ADDITIONS_PREPARED_NOT_PUBLISHED",
+  "baseline_commit": "634ac1d00007a1ca2d021a656649ab0e67ead772",
+  "modified_paths": [
+    "observations/README.md"
+  ],
+  "added_files": 17,
+  "public_frozen_input_files": 18,
+  "page_unchanged_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "deep_report_sha256": "4117ba39fc4cc7f305ecfb5b66ef753a7f02dba4b4aead68e5e18ea3b0cdc826",
+  "deep_index_sha256": "93f72a256c202d3de8a7ee10ab29b376661c3e0ce904941088d7e4a421f89665",
+  "historical_manifests_preserved": true,
+  "private_status_not_published": true,
+  "target_328_result_queried_or_used": false
+}
