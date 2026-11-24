@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_BEFORE_WORDING_CORRECTION",
+  "clock_observation_utc_not_authenticated": "2026-11-24T11:00:11.434148+00:00",
+  "public_328_commit": "cf667fbdd81fa6b9216fbdca021f6993711e4428",
+  "originals": {
+    "unverified-328-local-report.md": {
+      "source": "327期复盘_328期方案与逐期核验.md",
+      "sha256": "05c548c6358bbb4f6f62adeacd1bc2a2f97df32db03f53b0c804a3cab7648cdb"
+    },
+    "unverified-328-generator.py": {
+      "source": "scripts/task295_make_328_report.py",
+      "sha256": "f104811cb97522aeecfce9c06d06e70d8c9905894fda4066a173cfff857b5884"
+    },
+    "unverified-328-local-report-qc.json": {
+      "source": "archive/task295_328_release/analysis/report_independent_qc.json",
+      "sha256": "c1a51d189d1309532825b39f5a97d21d53a1698a0db39c48ac7f3193ab406e8f"
+    },
+    "unverified-328-local-index.html": {
+      "source": "archive/task295_328_release/analysis/2026328-index.html",
+      "sha256": "093f5223ef1a7c24f0d98cc162a9285e5769c756de69385bcdeca22d25f2cec4"
+    },
+    "unverified-328-local-index-qc.json": {
+      "source": "archive/task295_328_release/analysis/local_index_qc.json",
+      "sha256": "d0e5959cf85626d9d78ce26a30c6ca324a26922420dea01fdc8807cf45be5ee2"
+    },
+    "unverified-328-public-manifest.sha256": {
+      "source": "archive/task295_328_release/clean_deploy/observations/2026328.sha256",
+      "sha256": "27d2ac0559a4292fdd69c7937fa4b9af29aa64aac41c6ba512cb0440ca150175"
+    },
+    "unverified-327-public-pause.json": {
+      "source": "archive/task295_328_release/clean_deploy/observations/2026327-chronology-pause.json",
+      "sha256": "cf62bd93704e83e71b2cc021601b024e5b620fbe865c9d8051a1e47e25c5259e"
+    }
+  },
+  "scope": "Original report, index, scripts, qc and public hashes preserved; dates and sources not independently authenticated"
+}

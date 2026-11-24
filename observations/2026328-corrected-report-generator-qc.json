@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "isolated generator reproduces corrected local report exactly; not timestamp or source authentication",
+  "sha256": "aed59cbb3dd98459f49aeff4b7699dc0a4e05e4ce6aecb6fbf13de37a9289674",
+  "generator_sha256": "1446d736d85b832d17acfc7c6cdaf3354859a9c2dd3731eda5ec559394660105",
+  "generator_stdout": {
+    "status": "PASS_DRAFT_CONDITIONAL_NOT_OFFICIAL_OR_PREDRAW",
+    "file": "/tmp/328-corrected-report-xy77_1kk/327期复盘_328期方案与逐期核验.md",
+    "sha256": "aed59cbb3dd98459f49aeff4b7699dc0a4e05e4ce6aecb6fbf13de37a9289674",
+    "chars": 12092,
+    "history_rows": 37,
+    "zodiac_rows": 12,
+    "number_rows": 49,
+    "new_candidates": 12,
+    "prior_counterfactuals": 12
+  }
+}

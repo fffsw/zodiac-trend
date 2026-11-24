@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "corrected report arithmetic, provenance and local links only; clocks, official source, predraw timing, real mechanism or prediction not certified",
+  "checks": [
+    "111 columns across 34 stored versions and three separately marked reconstructions independently re-settled",
+    "all 12 zodiac groups, ages and overlapping window period/ball counts reproduced",
+    "all 49 number identities, structural attributes, ages and window counts checked",
+    "12 proposed comparisons and 12 prior alternatives settled only after result, exact roles and counts",
+    "327 root cause, historic counts, conditional study, model tradeoff and limitations present",
+    "all local report evidence links resolve",
+    "corrected date wording explicitly addresses conflicting reference clocks, identifies 15 undated records and leaves all numerical body text unchanged"
+  ],
+  "report_sha256": "aed59cbb3dd98459f49aeff4b7699dc0a4e05e4ce6aecb6fbf13de37a9289674",
+  "preserved_initial_report_sha256": "05c548c6358bbb4f6f62adeacd1bc2a2f97df32db03f53b0c804a3cab7648cdb"
+}

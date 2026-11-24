@@ -1,0 +1,14 @@
+{
+  "status": "PASS_CORRECTION_PREPARED_NOT_PUBLISHED",
+  "parent_commit": "cf667fbdd81fa6b9216fbdca021f6993711e4428",
+  "added_files": 13,
+  "modified_paths": [
+    "observations/README.md"
+  ],
+  "original_manifests_preserved": true,
+  "page_unchanged_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "corrected_public_analysis_sha256": "f580892126c7c0c97f99cc16da4720e46e460e7f88d63502fef67fb599de808a",
+  "corrected_public_index_sha256": "a894de4acb125cc2e3d648cb9b78d8a98eb3a417ca0f7983fa84f98ecf53b10f",
+  "not_official_or_predraw_certified": true,
+  "target_328_result_queried_or_used": false
+}

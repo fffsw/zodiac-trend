@@ -1,0 +1,27 @@
+{
+  "status": "CORRECTION_PREPARED_NOT_YET_PUBLISHED",
+  "initial_328_public_commit": "cf667fbdd81fa6b9216fbdca021f6993711e4428",
+  "correction": "Withdraw unqualified future/date-conflict claims due to unverified competing reference clocks; preserve originals and hash manifests",
+  "selection_unchanged": {
+    "single": "馬",
+    "pair": [
+      "狗",
+      "鷄"
+    ],
+    "triple": [
+      "狗",
+      "馬",
+      "蛇"
+    ],
+    "reserve": [
+      "虎",
+      "牛"
+    ]
+  },
+  "source_and_draw_datetime_certified": false,
+  "target_328_result_queried_or_used": false,
+  "preserved_327_manifest_sha256": "3505f85ae837ac8d73e5f092208ba87ed3816cd68e7800a83bee2c7e6382e3c1",
+  "preserved_328_manifest_sha256": "27d2ac0559a4292fdd69c7937fa4b9af29aa64aac41c6ba512cb0440ca150175",
+  "homepage_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "local_corrected_report_sha256": "aed59cbb3dd98459f49aeff4b7699dc0a4e05e4ce6aecb6fbf13de37a9289674"
+}
