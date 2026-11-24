@@ -1,0 +1,28 @@
+{
+  "raw_user_input": "327期 21狗49马07鼠41虎46鸡36羊45狗",
+  "issue": 2026327,
+  "issue_user_specified": true,
+  "source": "user only; not independently verified against official source",
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    21,
+    49,
+    7,
+    41,
+    46,
+    36
+  ],
+  "normal_zodiacs": [
+    "狗",
+    "馬",
+    "鼠",
+    "虎",
+    "鷄",
+    "羊"
+  ],
+  "seventh_number": 45,
+  "seventh_zodiac": "狗",
+  "scope": "first six for column settlement; seventh stored separately and for explicitly separate seven-ball comparisons only",
+  "target_328_result_queried_or_used": false
+}

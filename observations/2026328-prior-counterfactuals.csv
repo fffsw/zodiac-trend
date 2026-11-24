@@ -1,0 +1,13 @@
+id,single,pair,triple,reserve,single_hits,pair_hits,triple_hits,pair_missing,triple_missing,complete_columns,scope
+BB01,馬,鷄龍,鷄虎牛,蛇,1,1,2,龍,牛,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB02,龍,鷄龍,鷄虎牛,馬 蛇,0,1,2,龍,牛,0,"post-result counterfactual, not published outcome or evidence of future performance"
+BB03,蛇,鷄龍,鷄虎牛,馬,0,1,2,龍,牛,0,"post-result counterfactual, not published outcome or evidence of future performance"
+BB04,牛,鷄龍,鷄虎牛,馬 蛇,0,1,2,龍,牛,0,"post-result counterfactual, not published outcome or evidence of future performance"
+BB05,馬,虎龍,虎鷄牛,蛇,1,1,2,龍,牛,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB06,馬,龍鷄,龍虎牛,蛇,1,1,1,龍,龍 牛,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB07,馬,鷄龍,鷄虎蛇,牛,1,1,2,龍,蛇,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB08,馬,鷄龍,鷄虎羊,蛇,1,1,3,龍,,2,"post-result counterfactual, not published outcome or evidence of future performance"
+BB09,馬,鷄龍,鷄虎牛,羊,1,1,2,龍,牛,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB10,牛,鷄龍,鷄虎馬,蛇,0,1,3,龍,,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB11,馬,牛龍,牛虎鷄,蛇,1,0,2,牛 龍,牛,1,"post-result counterfactual, not published outcome or evidence of future performance"
+BB12,馬,羊龍,羊虎兔,蛇,1,1,2,龍,兔,1,"post-result counterfactual, not published outcome or evidence of future performance"

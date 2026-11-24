@@ -1,0 +1,34 @@
+period,source_kind,version,single,pair,triple,normal_numbers,normal_zodiacs,special_separate,single_present,single_missing,single_hits,pair_present,pair_missing,pair_hits,triple_present,triple_missing,triple_hits,complete_columns,shared_A_missing,reference
+2026291,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v2.9.1,羊,猴鷄,猴牛馬,32 10 41 38 22 02,豬 鷄 虎 蛇 鷄 蛇,17虎,,羊,0/1,鷄,猴,1/2,,牛 馬 猴,0/3,0,True,prior-records/2026291.json
+2026292,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v3.0,鼠,馬猴,馬鼠牛,39 10 18 23 16 04,龍 鷄 牛 猴 兔 兔,36羊,,鼠,0/1,猴,馬,1/2,牛,鼠 馬,1/3,0,True,prior-records/2026292.json
+2026293,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v2.5,鼠,馬豬,馬狗猴,38 10 48 49 13 09,蛇 鷄 羊 馬 馬 狗,05虎,,鼠,0/1,馬,豬,1/2,馬 狗,猴,2/3,0,False,prior-records/2026293.json
+2026294,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v2.5,兔,猴豬,猴牛虎,29 43 10 02 34 27,虎 鼠 鷄 蛇 鷄 龍,28兔,,兔,0/1,,猴 豬,0/2,虎,牛 猴,1/3,0,True,prior-records/2026294.json
+2026295,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v2.5,豬,狗牛,狗猴馬,22 28 33 17 13 47,鷄 兔 狗 虎 馬 猴,25馬,,豬,0/1,狗,牛,1/2,馬 猴 狗,,3/3,1,False,prior-records/2026295.json
+2026296,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.1,虎,蛇鼠,蛇牛鷄,14 43 26 45 03 31,蛇 鼠 蛇 狗 龍 鼠,23猴,,虎,0/1,鼠 蛇,,2/2,蛇,牛 鷄,1/3,1,False,prior-records/2026296.json
+2026297,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,兔,鷄狗,鷄虎蛇,27 40 25 26 33 09,龍 兔 馬 蛇 狗 狗,13馬,兔,,1/1,狗,鷄,1/2,蛇,虎 鷄,1/3,1,True,prior-records/2026297.json
+2026298,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,鼠牛,鼠蛇虎,31 36 40 34 37 43,鼠 羊 兔 鷄 馬 鼠,08豬,,虎,0/1,鼠,牛,1/2,鼠,虎 蛇,1/3,0,False,prior-records/2026298.json
+2026299,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,蛇,狗龍,狗馬蛇,12 19 28 32 05 42,羊 鼠 兔 豬 虎 牛,23猴,,蛇,0/1,,龍 狗,0/2,,蛇 馬 狗,0/3,0,True,prior-records/2026299.json
+2026300,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,馬鷄,馬蛇虎,01 29 23 17 18 42,馬 虎 猴 虎 牛 牛,38蛇,虎,,1/1,馬,鷄,1/2,虎 馬,蛇,2/3,1,False,prior-records/2026300.json
+2026301,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,鼠,龍蛇,龍虎鼠,27 41 23 11 02 43,龍 虎 猴 猴 蛇 鼠,17虎,鼠,,1/1,龍 蛇,,2/2,鼠 虎 龍,,3/3,3,False,prior-records/2026301.json
+2026302,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,鷄狗,鷄蛇馬,10 02 14 13 11 12,鷄 蛇 蛇 馬 猴 羊,45狗,,虎,0/1,鷄,狗,1/2,蛇 馬 鷄,,3/3,1,False,prior-records/2026302.json
+2026303,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,虎龍,虎蛇鷄,08 28 40 03 38 49,豬 兔 兔 龍 蛇 馬,17虎,,虎,0/1,龍,虎,1/2,蛇,虎 鷄,1/3,0,True,prior-records/2026303.json
+2026304,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,鼠羊,鼠鷄蛇,23 24 10 43 13 36,猴 羊 鷄 鼠 馬 羊,21狗,,虎,0/1,鼠 羊,,2/2,鼠 鷄,蛇,2/3,1,False,prior-records/2026304.json
+2026305,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,兔,蛇虎,蛇鷄馬,31 49 29 44 18 40,鼠 馬 虎 豬 牛 兔,26蛇,兔,,1/1,虎,蛇,1/2,馬,蛇 鷄,1/3,1,True,prior-records/2026305.json
+2026306,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,猴,鷄羊,鷄虎蛇,39 13 28 09 14 32,龍 馬 兔 狗 蛇 豬,15龍,,猴,0/1,,羊 鷄,0/2,蛇,虎 鷄,1/3,0,True,prior-records/2026306.json
+2026307,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,兔,羊蛇,羊鼠兔,48 38 49 09 13 03,羊 蛇 馬 狗 馬 龍,42牛,,兔,0/1,蛇 羊,,2/2,羊,鼠 兔,1/3,1,False,prior-records/2026307.json
+2026308,SURVIVING_PRE_REGISTRATION_SITE_DISPLAY_NOT_PUBLICATION_OR_TIME_CERTIFIED,v4.2,虎,馬鼠,馬虎蛇,25 16 28 08 06 40,馬 兔 兔 豬 牛 兔,46鷄,,虎,0/1,馬,鼠,1/2,馬,虎 蛇,1/3,0,False,prior-records/2026308.json
+2026309,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,馬,蛇兔,蛇虎羊,34 39 18 46 04 38,鷄 龍 牛 鷄 兔 蛇,13馬,,馬,0/1,兔 蛇,,2/2,蛇,虎 羊,1/3,1,False,historical-pages/2026309.html
+2026310,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,馬,蛇龍,蛇虎兔,37 11 34 02 40 44,馬 猴 鷄 蛇 兔 豬,46鷄,馬,,1/1,蛇,龍,1/2,兔 蛇,虎,2/3,1,False,historical-pages/2026310.html
+2026311,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,馬,兔蛇,兔豬龍,32 40 49 14 19 16,豬 兔 馬 蛇 鼠 兔,34鷄,馬,,1/1,兔 蛇,,2/2,兔 豬,龍,2/3,2,False,historical-pages/2026311.html
+2026312,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,蛇,兔馬,兔虎龍,31 46 04 43 32 15,鼠 鷄 兔 鼠 豬 龍,38蛇,,蛇,0/1,兔,馬,1/2,兔 龍,虎,2/3,0,False,historical-pages/2026312.html
+2026313,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,鼠,兔龍,兔虎豬,33 39 45 15 07 20,狗 龍 狗 龍 鼠 豬,43鼠,鼠,,1/1,龍,兔,1/2,豬,虎 兔,1/3,1,True,historical-pages/2026313.html
+2026314,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,牛,虎馬,虎狗鷄,13 26 09 37 34 44,馬 蛇 狗 馬 鷄 豬,31鼠,,牛,0/1,馬,虎,1/2,鷄 狗,虎,2/3,0,True,historical-pages/2026314.html
+2026315,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,虎,蛇馬,蛇龍兔,06 09 25 27 33 22,牛 狗 馬 龍 狗 鷄,48羊,,虎,0/1,馬,蛇,1/2,龍,兔 蛇,1/3,0,True,historical-pages/2026315.html
+2026316,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,鷄,狗蛇,狗馬虎,14 04 10 46 45 49,蛇 兔 鷄 鷄 狗 馬,03龍,鷄,,1/1,蛇 狗,,2/2,馬 狗,虎,2/3,2,False,historical-pages/2026316.html
+2026317,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,狗,兔豬,兔馬牛,31 49 30 22 43 24,鼠 馬 牛 鷄 鼠 羊,26蛇,,狗,0/1,,兔 豬,0/2,牛 馬,兔,2/3,0,True,historical-pages/2026317.html
+2026318,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,牛,馬豬,馬狗鷄,10 36 02 09 26 37,鷄 羊 蛇 狗 蛇 馬,38蛇,,牛,0/1,馬,豬,1/2,馬 鷄 狗,,3/3,1,False,historical-pages/2026318.html
+2026320,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,羊,兔馬,兔狗蛇,14 17 32 34 24 46,蛇 虎 豬 鷄 羊 鷄,20豬,羊,,1/1,,兔 馬,0/2,蛇,兔 狗,1/3,1,True,historical-pages/2026320.html
+2026321,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,狗,蛇鷄,蛇羊馬,15 45 23 08 47 49,龍 狗 猴 豬 猴 馬,41虎,狗,,1/1,,蛇 鷄,0/2,馬,蛇 羊,1/3,1,True,historical-pages/2026321.html
+2026323,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,兔,蛇狗,蛇牛馬,33 08 02 09 15 41,狗 豬 蛇 狗 龍 虎,47猴,,兔,0/1,蛇 狗,,2/2,蛇,牛 馬,1/3,1,False,historical-pages/2026323.html
+2026325,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,虎,狗兔,狗馬蛇,41 37 10 01 27 17,虎 馬 鷄 馬 龍 虎,03龍,虎,,1/1,,兔 狗,0/2,馬,蛇 狗,1/3,1,True,historical-pages/2026325.html
+2026326,GIT_PAGE_SNAPSHOT_WITH_RECORDED_COMMIT_NOT_TIME_CERTIFIED,v5.0,羊,虎羊,虎馬鷄,09 16 22 36 05 47,狗 兔 鷄 羊 虎 猴,23猴,羊,,1/1,虎 羊,,2/2,虎 鷄,馬,2/3,2,False,historical-pages/2026326.html

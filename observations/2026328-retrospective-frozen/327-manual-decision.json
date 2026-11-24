@@ -1,0 +1,59 @@
+{
+  "schema": "manual_comparison_for_327",
+  "target": 2026327,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_PREDRAW_OR_FORECAST_GUARANTEE",
+  "selection_method": "Explicit manual tradeoff, not a scored ranking: standalone horse is a separate 5-number identity; pair and triple share chicken under the existing site layout; triple uses one identity per road, with two previously observed signs and one nonprevious. Prefer lowering the chance of no complete column under the stated ideal model, at the expense of requiring five specific identities for all columns. Fair model and historical records do not certify real draws.",
+  "choice": "BB01",
+  "universe": [
+    "馬",
+    "鷄",
+    "龍",
+    "虎",
+    "牛",
+    "蛇"
+  ],
+  "top": "馬",
+  "pair": [
+    "鷄",
+    "龍"
+  ],
+  "triple": [
+    "鷄",
+    "虎",
+    "牛"
+  ],
+  "reserves": [
+    "蛇"
+  ],
+  "top_overlap_mode": "coverage",
+  "previous_326_six": [
+    "虎",
+    "兔",
+    "羊",
+    "猴",
+    "鷄",
+    "狗"
+  ],
+  "previous_displayed": [
+    "虎",
+    "鷄"
+  ],
+  "nonprevious_displayed": [
+    "牛",
+    "龍",
+    "馬"
+  ],
+  "previous_326_date": null,
+  "data_source": "user-provided 326 only; first-six plus seventh inferred from order; official source and time not authenticated",
+  "target_result_read_or_used": false,
+  "primary_risks": "馬缺单断；鷄缺二三断；馬鷄同缺足以令零栏；龍缺二断；虎或牛缺三断。前六重0或1时三肖栏不完整；重6时单、二、三肖栏全不完整。要全部完整须馬鷄龍虎牛五个具体身份，前六重0/1/4/5/6均不可能全完（重4最多两新肖，实际需三新肖），重2或3仍不保证。",
+  "role_rationales": {
+    "馬": "单栏，五码01/13/25/37/49；与二三错开，在所述49码等可能模型中单栏覆盖更大；326没出不是下期必回补，馬缺单断。",
+    "鷄": "二三共同，偶1四码10/22/34/46；326出现。鷄缺则二三均不完整，同偶1的兔不能补鷄；近期较多不保证继续。",
+    "龍": "二栏，奇0四码03/15/27/39；326没有，和鷄跨路。龍缺二断，不可据缺一次认为必回补。",
+    "虎": "三栏，奇2四码05/17/29/41；326出现。虎缺三断，同奇2的猴不补虎。",
+    "牛": "三栏，偶0四码06/18/30/42；326没有，令三栏跨三个路别。羊同偶0却不能补牛，遗漏4期不证明要出。",
+    "蛇": "仅替补、偶2四码02/14/26/38，和五个展示肖合起来覆盖六种路奇偶类型；不自动补单二三，326无蛇不证明下期回补。"
+  },
+  "source_identity_repeat_vs_prediction": "Previous 326 was six distinct normal signs and same six in seven; choosing two of those as displayed is a design exposure, not an actual 327 repeat claim. Six-to-six and seven-to-seven counted separately."
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "328 manual display from user-provided 327 and unverified local data, not official outcome, authenticated chronology, predraw prediction, mechanism, advantage, winnings or real WeChat safety",
+  "previous_commit": "9a3bc6f1ae049cdd5cad19a94b0061dc0c1e38dc",
+  "source_327": "user only; six-plus-one inferred from order, date unknown",
+  "selected": {
+    "single": "馬",
+    "pair": [
+      "狗",
+      "鷄"
+    ],
+    "triple": [
+      "狗",
+      "馬",
+      "蛇"
+    ],
+    "reserve_only": [
+      "虎",
+      "牛"
+    ]
+  },
+  "327_user_conditional_settlement": {
+    "single": "1/1",
+    "pair": "1/2 缺龍",
+    "triple": "2/3 缺牛",
+    "complete_columns": 1
+  },
+  "historical_versions_count": 34,
+  "after_outcome_reconstructions_not_mixed": [
+    319,
+    322,
+    324
+  ],
+  "chronology_and_official_source_unresolved": true,
+  "328_values_queried_or_used": false,
+  "staged_page_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a"
+}

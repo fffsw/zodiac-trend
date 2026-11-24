@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "local page/data/code integrity and synthetic tests; not official, timing, prediction or WeChat certification",
+  "checks": [
+    "staged pages match; previous published page remains unchanged prior to push",
+    "all 250 rows match source, exactly one user-provided 327, separate seventh and unknown date; no 328 outcome",
+    "249 overlapping rows and all 49 current mappings unchanged",
+    "exact 328 CC01 roles and reserves; all prior manual page decisions preserved, reconstructed issues not fabricated",
+    "all page layout, styles and logic unchanged outside data, decisions and range title",
+    "1057 older records unchanged byte-for-byte; CRLF preserved; main history not yet changed",
+    "all 16 prior decision records preserved; main decisions not yet changed",
+    "original generator and relative entry remain unchanged",
+    "no deleted footer, external dependencies or automatic network requests",
+    "30 new and 70 previous frozen copies match their manifests",
+    "328 outcome not queried or used; no predraw claim",
+    "independent arithmetic check evidence_qc.json passes",
+    "independent arithmetic check candidate_audit_qc.json passes",
+    "independent arithmetic check six_sign_repeat_qc.json passes",
+    "independent arithmetic check independent_qc.json passes",
+    "original generator independently reproduces staged 328 page byte-for-byte",
+    "synthetic 328 fixture causes no automatic 329 picks; fixture is not an actual outcome",
+    "all 20 previous public SHA-256 manifests remain intact in clean checkout"
+  ],
+  "page_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "source_sha256": "871c44064c79e5adca13054ead4b0281429fb1533a92def2c3987f9a1ce934b0",
+  "manual_sha256": "f3c39aab3f8bad84d468c8747b068b85121b8e5bae9a667af55de845f644055f"
+}

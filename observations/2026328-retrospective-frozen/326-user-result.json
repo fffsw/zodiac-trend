@@ -1,0 +1,28 @@
+{
+  "raw_user_input": "326期 09狗16兔22鸡36羊05虎47猴 23猴",
+  "source": "user only; no third-party target draw numbers queried or substituted",
+  "issue": 2026326,
+  "issue_user_specified": true,
+  "six_plus_one_inferred_from_conversation_order": true,
+  "date": null,
+  "normal_numbers": [
+    9,
+    16,
+    22,
+    36,
+    5,
+    47
+  ],
+  "normal_zodiacs": [
+    "狗",
+    "兔",
+    "鷄",
+    "羊",
+    "虎",
+    "猴"
+  ],
+  "seventh_number": 23,
+  "seventh_zodiac": "猴",
+  "scope": "first six only for normal settlement/statistics and next normal selection; seventh separately raw history and seven-ball zodiac intersections; no special-number picks",
+  "official_authentication": false
+}

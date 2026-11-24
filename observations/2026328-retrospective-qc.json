@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "arithmetic and frozen-record consistency only; no official, pre-draw, outcome, mechanism, return or prediction certification",
+  "checks": [
+    "30 current freeze copies and 70 previous frozen originals match their independent prior manifests",
+    "all 102 columns for 34 saved versions re-settled from raw files, never including seventh ball",
+    "three post-result reconstructions separately checked, not counted as actual original releases",
+    "327 shared chicken hit, both missing tails and same-route/parity peers, repeat-four exposure and pre-327 joint absences independently checked",
+    "34-record summary and shared-anchor and same-category failure counts independently recounted",
+    "12 already-recorded 327 alternatives re-settled only as explicitly post-result counterfactuals",
+    "34-row downloadable CSV agrees with independent per-column recount"
+  ],
+  "retrospective_sha256": "b77281c5331f4a6e3f492b49332e305d6c21438ab94a53b21dcef35248a1479b",
+  "historical_csv_sha256": "13be08a74e7cc0e7091eec32c60fae1658d8f593832672b1901f31f928aeb307",
+  "candidate_csv_sha256": "21ec5efcc9722728156db7e91a5e95eeb04dcaae4043be110669426953a73dc9",
+  "target_328_result_queried_or_used": false
+}

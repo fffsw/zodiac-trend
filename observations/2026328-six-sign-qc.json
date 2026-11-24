@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "independent historical and mathematical recount only; no official, future outcome or predraw authentication",
+  "checks": [
+    "1042 earlier records agree with longer frozen source; remaining recent user history and 327 treated as unverified user source",
+    "all 132 adjacent followups and each year distribution independently recomputed using archived zodiac labels, not 2026 mapping",
+    "separate generating-function recurrence reproduces six- and seven-ball ideal counts and denominators",
+    "327 pending six-sign trigger and illustrative repeat-0/repeat-6 examples; neither is 328"
+  ],
+  "study_sha256": "54dc119907325b35c4b57e241ccc436a12bcb283dc8e42e8b9ffc2d5cc85b31c",
+  "pairs_sha256": "35176aa0e4ee6ec806df7361625eafbb14efcb467664cc4fbeb3d4ff5bdbf50d"
+}

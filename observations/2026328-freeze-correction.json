@@ -1,0 +1,6 @@
+{
+  "status": "PARTIAL_FREEZE_RESUMED_AFTER_MISSING_SNAPSHOT_QC",
+  "initial_failure": "The original final_independent_qc.json from the prior turn did not survive the workspace snapshot. The attempted freeze stopped after copying 30 source files; no manifest or 327 input had yet been written.",
+  "correction": "The unavailable prior-QC file is omitted, not fabricated. The prior signed release receipt, original 1283-entry ZIP, 327 offline verifier, all 20 manifests, previous 70-copy frozen manifest, prior live page and local root bytes are independently rechecked. Existing partial copies are retained only if their SHA-256 equals the source; no old file is overwritten.",
+  "scope": "A post-result freeze checks record integrity, not official draw source or pre-draw timing."
+}

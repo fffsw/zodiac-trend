@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_327_NOT_PREDRAW_CERTIFICATION",
+  "frozen_files": 30,
+  "previous_public_commit": "9a3bc6f1ae049cdd5cad19a94b0061dc0c1e38dc",
+  "327_page_sha256": "dbd22e829aafed507add0dd2e552b9b54efbe9e168386616a8621c9c0acd9123",
+  "previous_bundle_sha256": "fbbc9fd9a8d9aa60b14b992da8b4ba88dbd6c4556f8b54e104bd5da3d08e6ba9",
+  "prior_20_manifests_and_327_offline_verifier_pass": true,
+  "prior_70_frozen_copies_verified_in_clean_clone": true,
+  "prior_snapshots_retained_in_existing_327_package": true,
+  "user_327_sha256": "86756f709db87aed3d17ae0dbb2bcf8d82ac9390cf832006801f53d7b7f665ab",
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_328_result_queried_or_used": false,
+  "scope": "Freeze occurred after user supplied 327, not proof of pre-draw timing; 328 has not been queried."
+}

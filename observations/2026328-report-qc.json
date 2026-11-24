@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "report arithmetic and local links only, not official, timing, real mechanism or prediction certification",
+  "checks": [
+    "111 columns across 34 stored versions and three separately marked reconstructions independently re-settled",
+    "all 12 zodiac groups, ages and overlapping window period/ball counts reproduced",
+    "all 49 number identities, structural attributes, ages and window counts checked",
+    "12 proposed comparisons and 12 prior alternatives settled only after result, exact roles and counts",
+    "327 root cause, historic counts, conditional study, model tradeoff and limitations present",
+    "all local report evidence links resolve"
+  ],
+  "report_sha256": "05c548c6358bbb4f6f62adeacd1bc2a2f97df32db03f53b0c804a3cab7648cdb"
+}

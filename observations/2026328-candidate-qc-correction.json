@@ -1,0 +1,6 @@
+{
+  "status": "CORRECTED_INDEPENDENT_TEST_ONLY",
+  "initial_failure": "The independent QC's unused preliminary group-size sanity check accidentally included selected signs in its 'other new' group, causing its total to exceed 49. The preceding 12-candidate group-polynomial recount had completed successfully; the conditional audit had not yet run.",
+  "correction": "The test now excludes both previous and selected signs from that sanity-check group. The actual conditional recount keeps all 12 zodiac groups separate, so distinct repeats are not aggregated. No input, candidate, selection or formal model output was changed.",
+  "scope": "Retain initial test failure and rerun all checks; does not certify prediction, official source or timing."
+}

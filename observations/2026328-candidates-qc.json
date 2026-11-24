@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "independent integer combinatorics, historical description and structure only; not official source, date, winning, timing or predictive verification",
+  "checks": [
+    "all 12 candidate exact event counts independently reproduced by zodiac-group generating polynomial",
+    "selected four-sign concentration increases modeled all-column share while increasing modeled zero-column share; no forecast claim",
+    "repeat-conditioned exact counts and full-column impossibility outside repeat 3–5 independently checked",
+    "joint zero-column condition and overlapping W35/W40/W45 descriptive counts independently checked",
+    "cross-column duplicated-road limitation proven for every route assignment satisfying pair/triple spread",
+    "candidate table agrees with exact audit; reserve-only comparison leaves event probabilities unchanged"
+  ],
+  "selected_id": "CC01",
+  "candidate_audit_sha256": "86cb1cafe7c993027ac911cede72721b0b3959c979c5d81cebc5e9fe4fada037",
+  "manual_decision_sha256": "c233a58e6ac6ca666f9b8f181ac47fb5048f59a3e810016252c7334a1d91b8f4",
+  "target_328_result_queried_or_used": false
+}

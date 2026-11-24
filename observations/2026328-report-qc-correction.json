@@ -1,0 +1,5 @@
+{
+  "status": "CORRECTED_TEST_WORDING_ONLY",
+  "initial_failure": "The report QA checked for the wording 不能保证下期命中 while the report actually says 没有任何方案可以保证下期命中. The 111 column, 12-sign, 49-number, and 24 comparison rows had already passed; the final wording assertion stopped the check.",
+  "correction": "The QA assertion now checks the actual, stronger report wording. The report, candidate, source data and website did not change; all QA must rerun from the beginning."
+}

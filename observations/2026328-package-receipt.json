@@ -1,0 +1,16 @@
+{
+  "status": "PASS_PREPARED_NOT_PUBLISHED",
+  "parent_commit": "9a3bc6f1ae049cdd5cad19a94b0061dc0c1e38dc",
+  "added_files": 84,
+  "modified_paths": [
+    "observations/README.md",
+    "zodiac_trend.html"
+  ],
+  "frozen_327_review_files": 30,
+  "page_sha256": "aa129f740c671492e941080f17d16410beb2757a3fdf224c039e756e1350713a",
+  "public_report_sha256": "fa42ff9f97831d6f64fc6b7c7297f9edeea65471c276495945bfc9959eed030e",
+  "index_sha256": "093f5223ef1a7c24f0d98cc162a9285e5769c756de69385bcdeca22d25f2cec4",
+  "source_and_time_authenticated": false,
+  "target_328_result_queried_or_used": false,
+  "remaining": "finalize manifest, portable verifier, prepublication exact path audit, nonforce push and public checks"
+}

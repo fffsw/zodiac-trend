@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "independent retrospective and historical recount; not official source, predraw timing, actual mechanism or predictive advantage",
+  "checks": [
+    "326 user input, six-plus-one convention and 2026 zodiac groups independently checked",
+    "each 291–326 raw historical six and separately stored seventh matches this era mapping",
+    "326 single/pair complete and triple missing horse; old rabbit and revised chicken both appear, without counting special",
+    "repeat-two and absent odd-1-road, rather than absent or insufficient whole 1-road, verified",
+    "eight pre-326 window counts independently recomputed; overlapping windows not independent",
+    "all 49 previously defined 326 alternatives independently settled, no post-outcome ranking claim",
+    "33 individual records independently re-settled against frozen 18 earlier prereg records and 15 original Git pages",
+    "all group totals recounted; 319/322/324 after-result reconstructions excluded from actual-record statistics",
+    "326 has six distinct signs so next theoretical repeat ceiling is six; no claim about actual 327"
+  ],
+  "retrospective_sha256": "80c9c2231f70cb185d869fe462937f53e248969495c864d7c55341e65e894326",
+  "historical_csv_sha256": "f0bcadb3bf3c84a98f4a5714ea6f0a25ee35c3ed13d7e36ae7693ecbe070a2b8",
+  "candidate_csv_sha256": "184c63ab8acb164f9afc919cc0e62082654edecac1abec763a80eb96aa686aff"
+}

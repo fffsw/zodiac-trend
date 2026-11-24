@@ -1,0 +1,87 @@
+{
+  "status": "LIVE_327_MANUAL_DISPLAY_PUBLIC_QA_PASS_WECHAT_UNKNOWN",
+  "website": "https://fffsw.github.io/zodiac-trend/zodiac_trend.html",
+  "project_entry": "https://fffsw.github.io/zodiac-trend/",
+  "public_327_index": "https://fffsw.github.io/zodiac-trend/observations/2026327-index.html",
+  "public_analysis": "https://fffsw.github.io/zodiac-trend/observations/2026327-analysis.md",
+  "local_report": "326期复盘_327期方案与逐期核验.md",
+  "commit": "9a3bc6f1ae049cdd5cad19a94b0061dc0c1e38dc",
+  "previous_commit": "50431fb57f3b89e7bd95d0f0462fdaebd0a4a607",
+  "github_pages_actions": {
+    "run_id": 45150380918,
+    "head_sha": "9a3bc6f1ae049cdd5cad19a94b0061dc0c1e38dc",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/fffsw/zodiac-trend/actions/runs/45150380918",
+    "scope": "Pages deployment only; not WeChat, source, predraw or mechanism verification"
+  },
+  "page_sha256": "dbd22e829aafed507add0dd2e552b9b54efbe9e168386616a8621c9c0acd9123",
+  "old_history_sha256": "307655d85b643128f28d0a8c3babf662d770ded56a815b67ff34561f067fcc07",
+  "new_history_sha256": "0166bfabb3acbf2cc10d0e3974350fc8199b2a1925c5f7974ac5082b6cb7183d",
+  "manual_decisions_sha256": "5844aa6676674f0bd7c5ec446c3f1b504293c582357dab78470b0334ba1133ef",
+  "user_326_six_plus_one_inferred": [
+    9,
+    16,
+    22,
+    36,
+    5,
+    47,
+    23
+  ],
+  "user_326_date": null,
+  "prior_history_rows_preserved": 1056,
+  "new_user_history_rows": 1,
+  "prior_manual_decisions_preserved": 15,
+  "new_manual_decisions": 1,
+  "after_result_reconstructions_not_fabricated": [
+    319,
+    322,
+    324
+  ],
+  "326_settlement": {
+    "single": "1/1",
+    "pair": "2/2",
+    "triple": "2/3 缺馬",
+    "complete_columns": 2
+  },
+  "stored_versions_reviewed": 33,
+  "columns_distribution_0_1_2_3": [
+    13,
+    16,
+    3,
+    1
+  ],
+  "site_decision": {
+    "single": "馬",
+    "pair": [
+      "鷄",
+      "龍"
+    ],
+    "triple": [
+      "鷄",
+      "虎",
+      "牛"
+    ],
+    "reserve_only": [
+      "蛇"
+    ]
+  },
+  "public_http_files_checked": 1253,
+  "public_manifests_checked": 20,
+  "http_retry_count": 0,
+  "public_browser_checks": 59,
+  "public_mobile_checks": 18,
+  "public_bottom_checks": 37,
+  "public_scroll_checks": 9,
+  "public_entry_checks": 5,
+  "public_index_checks": 25,
+  "original_dirty_deploy_entries_preserved": 68,
+  "target_result_read": false,
+  "official_source_or_predraw_certified": false,
+  "wechat_safety_certified": false,
+  "zip_sha256": "fbbc9fd9a8d9aa60b14b992da8b4ba88dbd6c4556f8b54e104bd5da3d08e6ba9",
+  "zip_entries": 1283,
+  "zip_website_files": 1253,
+  "zip_is_entire_git_mirror": false,
+  "note": "Integrity and numerical consistency only. Partial date conflict and missing user date remain unresolved; target-null status may be stale and does not establish timing. Mobile/WeChat UA is simulation, not actual WeChat safety."
+}
