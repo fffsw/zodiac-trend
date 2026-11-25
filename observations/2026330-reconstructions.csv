@@ -1,0 +1,4 @@
+period,source_kind,version,single,pair,triple,normal_numbers,normal_zodiacs,special_separate,single_present,single_missing,single_hits,pair_present,pair_missing,pair_hits,triple_present,triple_missing,triple_hits,complete_columns,shared_A_missing,reference
+2026319,AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW,AFTER_RESULT_RECONSTRUCTION,牛,鷄蛇,鷄馬狗,06 03 15 13 25 45,牛 龍 龍 馬 馬 狗,05虎,牛,,1/1,,鷄 蛇,0/2,馬 狗,鷄,2/3,1,True,319-reconstruction-manual.json
+2026322,AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW,AFTER_RESULT_RECONSTRUCTION,狗,馬鷄,馬羊蛇,47 31 43 17 08 30,猴 鼠 鼠 虎 豬 牛,07鼠,,狗,0/1,,馬 鷄,0/2,,馬 羊 蛇,0/3,0,True,322-reconstruction-manual.json
+2026324,AFTER_OUTCOME_RECONSTRUCTED_NOT_PUBLISHED_OR_PREDRAW,AFTER_RESULT_RECONSTRUCTION,鷄,豬狗,豬羊虎,19 04 14 12 21 34,鼠 兔 蛇 羊 狗 鷄,43鼠,鷄,,1/1,狗,豬,1/2,羊,豬 虎,1/3,1,True,324-reconstruction-manual.json

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Local data, code and synthetic tests only; no official, timing, prediction, or real WeChat certification",
+  "checks": [
+    "staged outputs identical, prior public and workspace page unchanged",
+    "250 chart rows exact, user 329 six and separate seventh inferred, no 330 draw",
+    "249 overlapping prior chart rows and mapping unchanged",
+    "exact 330 EE01 roles and reserve, previous decisions preserved, reconstructed entries absent",
+    "layout, style and behavior unchanged outside data, decisions and range title",
+    "all 1059 old records byte-identical; main history unchanged",
+    "18 prior decisions preserved, main decisions unchanged",
+    "original generator and relative entry unchanged",
+    "no footer, external assets or automatic network requests",
+    "29 frozen baseline files match manifest",
+    "independent check evidence_qc.json",
+    "independent check candidate_qc.json",
+    "independent check independent_qc.json",
+    "independent check report_qc.json",
+    "clean reproduction equals staged page byte-for-byte",
+    "synthetic 330 fixture never creates an automatic 331 choice",
+    "25 previous public manifests remain intact before push",
+    "330 outcome not queried or used; no pre-draw claim",
+    "unrelated dirty checkout unchanged"
+  ],
+  "checks_count": 19,
+  "page_sha256": "bc3ed27616b0c5e06b92cc6de223dc0ea94b9bfd8999e6add8c5165abf927cc1",
+  "source_sha256": "5f83f5e0b151e4ba00867141d8515d69c394a1d9a665a59522a7977e3c9921c6",
+  "manual_sha256": "7b465e3456157c87ff273cc5f1545ea41752b945ec7a7899704499777329242f"
+}

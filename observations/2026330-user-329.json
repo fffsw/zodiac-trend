@@ -1,0 +1,27 @@
+{
+  "period": 2026329,
+  "original_user_text": "328期 狗45 牛06 鸡46 狗33 鼠31 兔40 44猪",
+  "user_period_clarification": "是329的",
+  "normal_numbers": [
+    45,
+    6,
+    46,
+    33,
+    31,
+    40
+  ],
+  "normal_zodiacs": [
+    "狗",
+    "牛",
+    "鷄",
+    "狗",
+    "鼠",
+    "兔"
+  ],
+  "seventh_number": 44,
+  "seventh_zodiac": "豬",
+  "date": null,
+  "six_plus_one_inferred_from_user_sequence_and_standing_rule": true,
+  "source": "user-provided with explicit period correction to 329; official source, date and actual event time not independently authenticated",
+  "seventh_scope": "stored separately; never substitutes for a normal column"
+}

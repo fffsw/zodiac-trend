@@ -1,0 +1,836 @@
+previous,next,prev6_distinct,prev7_distinct,prev6,prev7,next6,next7,repeat6,repeat6_count,repeat7,repeat7_count,source
+2024001,2024002,5,6,鼠 牛 兔 馬 猴,鼠 牛 兔 馬 猴 狗,牛 龍 猴 鷄 狗,牛 虎 龍 猴 鷄 狗,牛 猴,2,牛 猴 狗,3,stored historical labels; not externally authenticated
+2024002,2024003,5,6,牛 龍 猴 鷄 狗,牛 虎 龍 猴 鷄 狗,鼠 虎 羊 狗 豬,鼠 虎 羊 鷄 狗 豬,狗,1,虎 鷄 狗,3,stored historical labels; not externally authenticated
+2024003,2024004,5,6,鼠 虎 羊 狗 豬,鼠 虎 羊 鷄 狗 豬,鼠 牛 兔 龍,鼠 牛 兔 龍,鼠,1,鼠,1,stored historical labels; not externally authenticated
+2024005,2024006,5,6,鼠 虎 兔 馬 猴,鼠 虎 兔 馬 猴 鷄,兔 蛇 鷄 狗 豬,兔 蛇 鷄 狗 豬,兔,1,兔 鷄,2,stored historical labels; not externally authenticated
+2024006,2024007,5,5,兔 蛇 鷄 狗 豬,兔 蛇 鷄 狗 豬,鼠 牛 龍 馬 猴 豬,鼠 牛 龍 馬 猴 鷄 豬,豬,1,鷄 豬,2,stored historical labels; not externally authenticated
+2024007,2024008,6,7,鼠 牛 龍 馬 猴 豬,鼠 牛 龍 馬 猴 鷄 豬,牛 兔 馬 羊 豬,牛 兔 馬 羊 猴 豬,牛 馬 豬,3,牛 馬 猴 豬,4,stored historical labels; not externally authenticated
+2024008,2024009,5,6,牛 兔 馬 羊 豬,牛 兔 馬 羊 猴 豬,牛 龍 蛇 馬 鷄 豬,牛 龍 蛇 馬 鷄 狗 豬,牛 馬 豬,3,牛 馬 豬,3,stored historical labels; not externally authenticated
+2024009,2024010,6,7,牛 龍 蛇 馬 鷄 豬,牛 龍 蛇 馬 鷄 狗 豬,鼠 虎 兔 馬 狗,鼠 虎 兔 龍 馬 狗,馬,1,龍 馬 狗,3,stored historical labels; not externally authenticated
+2024010,2024011,5,6,鼠 虎 兔 馬 狗,鼠 虎 兔 龍 馬 狗,虎 龍 羊 猴 豬,虎 龍 羊 猴 鷄 豬,虎,1,虎 龍,2,stored historical labels; not externally authenticated
+2024011,2024012,5,6,虎 龍 羊 猴 豬,虎 龍 羊 猴 鷄 豬,牛 龍 羊 豬,牛 龍 馬 羊 豬,龍 羊 豬,3,龍 羊 豬,3,stored historical labels; not externally authenticated
+2024013,2024014,5,6,虎 龍 馬 猴 豬,虎 龍 馬 猴 狗 豬,虎 兔 猴 鷄 豬,虎 兔 猴 鷄 豬,虎 猴 豬,3,虎 猴 豬,3,stored historical labels; not externally authenticated
+2024014,2024015,5,5,虎 兔 猴 鷄 豬,虎 兔 猴 鷄 豬,虎 羊 猴 狗 豬,牛 虎 羊 猴 狗 豬,虎 猴 豬,3,虎 猴 豬,3,stored historical labels; not externally authenticated
+2024015,2024016,5,6,虎 羊 猴 狗 豬,牛 虎 羊 猴 狗 豬,牛 兔 馬 猴 鷄 豬,牛 兔 馬 猴 鷄 豬,猴 豬,2,牛 猴 豬,3,stored historical labels; not externally authenticated
+2024016,2024017,6,6,牛 兔 馬 猴 鷄 豬,牛 兔 馬 猴 鷄 豬,牛 兔 鷄 狗 豬,牛 兔 蛇 鷄 狗 豬,牛 兔 鷄 豬,4,牛 兔 鷄 豬,4,stored historical labels; not externally authenticated
+2024017,2024018,5,6,牛 兔 鷄 狗 豬,牛 兔 蛇 鷄 狗 豬,鼠 牛 蛇 猴 豬,鼠 牛 蛇 猴 豬,牛 豬,2,牛 蛇 豬,3,stored historical labels; not externally authenticated
+2024018,2024019,5,5,鼠 牛 蛇 猴 豬,鼠 牛 蛇 猴 豬,牛 蛇 馬 羊 鷄,牛 蛇 馬 羊 鷄 豬,牛 蛇,2,牛 蛇 豬,3,stored historical labels; not externally authenticated
+2024019,2024020,5,6,牛 蛇 馬 羊 鷄,牛 蛇 馬 羊 鷄 豬,鼠 牛 龍 蛇 狗,鼠 牛 龍 蛇 狗 豬,牛 蛇,2,牛 蛇 豬,3,stored historical labels; not externally authenticated
+2024020,2024021,5,6,鼠 牛 龍 蛇 狗,鼠 牛 龍 蛇 狗 豬,牛 虎 龍 羊 猴,牛 虎 龍 蛇 羊 猴,牛 龍,2,牛 龍 蛇,3,stored historical labels; not externally authenticated
+2024021,2024022,5,6,牛 虎 龍 羊 猴,牛 虎 龍 蛇 羊 猴,鼠 龍 馬 羊 猴 狗,鼠 龍 馬 羊 猴 狗 豬,龍 羊 猴,3,龍 羊 猴,3,stored historical labels; not externally authenticated
+2024022,2024023,6,7,鼠 龍 馬 羊 猴 狗,鼠 龍 馬 羊 猴 狗 豬,龍 蛇 羊 鷄 豬,龍 蛇 羊 猴 鷄 豬,龍 羊,2,龍 羊 猴 豬,4,stored historical labels; not externally authenticated
+2024023,2024024,5,6,龍 蛇 羊 鷄 豬,龍 蛇 羊 猴 鷄 豬,牛 兔 蛇 鷄 狗 豬,牛 兔 蛇 鷄 狗 豬,蛇 鷄 豬,3,蛇 鷄 豬,3,stored historical labels; not externally authenticated
+2024024,2024025,6,6,牛 兔 蛇 鷄 狗 豬,牛 兔 蛇 鷄 狗 豬,牛 虎 蛇 馬 羊,牛 虎 蛇 馬 羊 猴,牛 蛇,2,牛 蛇,2,stored historical labels; not externally authenticated
+2024025,2024026,5,6,牛 虎 蛇 馬 羊,牛 虎 蛇 馬 羊 猴,牛 虎 龍 馬 狗,牛 虎 龍 馬 狗,牛 虎 馬,3,牛 虎 馬,3,stored historical labels; not externally authenticated
+2024026,2024027,5,5,牛 虎 龍 馬 狗,牛 虎 龍 馬 狗,蛇 鷄 狗,鼠 蛇 鷄 狗,狗,1,狗,1,stored historical labels; not externally authenticated
+2024028,2024029,5,6,鼠 兔 猴 狗 豬,鼠 兔 羊 猴 狗 豬,牛 虎 蛇 羊 鷄 狗,鼠 牛 虎 蛇 羊 鷄 狗,狗,1,鼠 羊 狗,3,stored historical labels; not externally authenticated
+2024029,2024030,6,7,牛 虎 蛇 羊 鷄 狗,鼠 牛 虎 蛇 羊 鷄 狗,牛 龍 蛇 馬 羊 猴,牛 龍 蛇 馬 羊 猴,牛 蛇 羊,3,牛 蛇 羊,3,stored historical labels; not externally authenticated
+2024030,2024031,6,6,牛 龍 蛇 馬 羊 猴,牛 龍 蛇 馬 羊 猴,鼠 牛 虎 龍 鷄,鼠 牛 虎 龍 鷄,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024031,2024032,5,5,鼠 牛 虎 龍 鷄,鼠 牛 虎 龍 鷄,牛 蛇 馬,鼠 牛 蛇 馬,牛,1,鼠 牛,2,stored historical labels; not externally authenticated
+2024033,2024034,6,7,虎 兔 龍 羊 猴 豬,虎 兔 龍 羊 猴 狗 豬,牛 兔 龍 羊 猴 狗,牛 兔 龍 蛇 羊 猴 狗,兔 龍 羊 猴,4,兔 龍 羊 猴 狗,5,stored historical labels; not externally authenticated
+2024034,2024035,6,7,牛 兔 龍 羊 猴 狗,牛 兔 龍 蛇 羊 猴 狗,牛 虎 龍 猴 狗,牛 虎 龍 猴 狗,牛 龍 猴 狗,4,牛 龍 猴 狗,4,stored historical labels; not externally authenticated
+2024035,2024036,5,5,牛 虎 龍 猴 狗,牛 虎 龍 猴 狗,鼠 虎 兔 龍 豬,鼠 虎 兔 龍 豬,虎 龍,2,虎 龍,2,stored historical labels; not externally authenticated
+2024036,2024037,5,5,鼠 虎 兔 龍 豬,鼠 虎 兔 龍 豬,鼠 牛 兔 猴 狗,鼠 牛 兔 馬 猴 狗,鼠 兔,2,鼠 兔,2,stored historical labels; not externally authenticated
+2024037,2024038,5,6,鼠 牛 兔 猴 狗,鼠 牛 兔 馬 猴 狗,牛 虎 馬 鷄,牛 虎 馬 鷄 狗,牛,1,牛 馬 狗,3,stored historical labels; not externally authenticated
+2024039,2024040,5,6,牛 虎 馬 猴 豬,牛 虎 馬 猴 鷄 豬,牛 虎 兔 羊 猴 狗,鼠 牛 虎 兔 羊 猴 狗,牛 虎 猴,3,牛 虎 猴,3,stored historical labels; not externally authenticated
+2024041,2024042,6,7,牛 虎 蛇 猴 狗 豬,鼠 牛 虎 蛇 猴 狗 豬,鼠 兔 蛇 馬 羊 狗,鼠 虎 兔 蛇 馬 羊 狗,蛇 狗,2,鼠 虎 蛇 狗,4,stored historical labels; not externally authenticated
+2024042,2024043,6,7,鼠 兔 蛇 馬 羊 狗,鼠 虎 兔 蛇 馬 羊 狗,鼠 牛 虎 龍 狗,鼠 牛 虎 龍 狗 豬,鼠 狗,2,鼠 虎 狗,3,stored historical labels; not externally authenticated
+2024043,2024044,5,6,鼠 牛 虎 龍 狗,鼠 牛 虎 龍 狗 豬,鼠 牛 兔 羊 狗 豬,鼠 牛 兔 羊 狗 豬,鼠 牛 狗,3,鼠 牛 狗 豬,4,stored historical labels; not externally authenticated
+2024044,2024045,6,6,鼠 牛 兔 羊 狗 豬,鼠 牛 兔 羊 狗 豬,鼠 牛 龍 羊 猴,鼠 牛 龍 羊 猴,鼠 牛 羊,3,鼠 牛 羊,3,stored historical labels; not externally authenticated
+2024045,2024046,5,5,鼠 牛 龍 羊 猴,鼠 牛 龍 羊 猴,牛 龍 蛇 狗,牛 兔 龍 蛇 狗,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024047,2024048,6,6,鼠 兔 龍 蛇 羊 猴,鼠 兔 龍 蛇 羊 猴,鼠 龍 羊 猴 豬,鼠 龍 羊 猴 豬,鼠 龍 羊 猴,4,鼠 龍 羊 猴,4,stored historical labels; not externally authenticated
+2024048,2024049,5,5,鼠 龍 羊 猴 豬,鼠 龍 羊 猴 豬,鼠 牛 蛇 鷄 狗,鼠 牛 蛇 馬 鷄 狗,鼠,1,鼠,1,stored historical labels; not externally authenticated
+2024049,2024050,5,6,鼠 牛 蛇 鷄 狗,鼠 牛 蛇 馬 鷄 狗,鼠 虎 龍 馬 鷄 豬,鼠 虎 龍 馬 鷄 豬,鼠 鷄,2,鼠 馬 鷄,3,stored historical labels; not externally authenticated
+2024050,2024051,6,6,鼠 虎 龍 馬 鷄 豬,鼠 虎 龍 馬 鷄 豬,鼠 蛇 馬 鷄 狗 豬,鼠 蛇 馬 鷄 狗 豬,鼠 馬 鷄 豬,4,鼠 馬 鷄 豬,4,stored historical labels; not externally authenticated
+2024051,2024052,6,6,鼠 蛇 馬 鷄 狗 豬,鼠 蛇 馬 鷄 狗 豬,鼠 兔 蛇 馬 羊,鼠 兔 蛇 馬 羊 猴,鼠 蛇 馬,3,鼠 蛇 馬,3,stored historical labels; not externally authenticated
+2024052,2024053,5,6,鼠 兔 蛇 馬 羊,鼠 兔 蛇 馬 羊 猴,牛 虎 蛇 馬 羊 猴,牛 虎 龍 蛇 馬 羊 猴,蛇 馬 羊,3,蛇 馬 羊 猴,4,stored historical labels; not externally authenticated
+2024053,2024054,6,7,牛 虎 蛇 馬 羊 猴,牛 虎 龍 蛇 馬 羊 猴,鼠 虎 兔 馬 豬,鼠 虎 兔 馬 猴 豬,虎 馬,2,虎 馬 猴,3,stored historical labels; not externally authenticated
+2024054,2024055,5,6,鼠 虎 兔 馬 豬,鼠 虎 兔 馬 猴 豬,牛 蛇 馬 羊 豬,牛 蛇 馬 羊 狗 豬,馬 豬,2,馬 豬,2,stored historical labels; not externally authenticated
+2024055,2024056,5,6,牛 蛇 馬 羊 豬,牛 蛇 馬 羊 狗 豬,鼠 兔 龍 蛇 豬,鼠 兔 龍 蛇 馬 豬,蛇 豬,2,蛇 馬 豬,3,stored historical labels; not externally authenticated
+2024056,2024057,5,6,鼠 兔 龍 蛇 豬,鼠 兔 龍 蛇 馬 豬,兔 馬 鷄 狗,兔 馬 羊 鷄 狗,兔,1,兔 馬,2,stored historical labels; not externally authenticated
+2024059,2024060,5,6,虎 龍 羊 猴 狗,虎 龍 羊 猴 狗 豬,牛 虎 兔 猴 狗,牛 虎 兔 猴 鷄 狗,虎 猴 狗,3,虎 猴 狗,3,stored historical labels; not externally authenticated
+2024060,2024061,5,6,牛 虎 兔 猴 狗,牛 虎 兔 猴 鷄 狗,鼠 兔 龍 鷄,鼠 兔 龍 猴 鷄,兔,1,兔 猴 鷄,3,stored historical labels; not externally authenticated
+2024063,2024064,5,5,龍 蛇 鷄 狗 豬,龍 蛇 鷄 狗 豬,鼠 牛 兔 龍 蛇,鼠 牛 兔 龍 蛇 羊,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2024064,2024065,5,6,鼠 牛 兔 龍 蛇,鼠 牛 兔 龍 蛇 羊,牛 兔 猴 狗 豬,牛 兔 猴 狗 豬,牛 兔,2,牛 兔,2,stored historical labels; not externally authenticated
+2024065,2024066,5,5,牛 兔 猴 狗 豬,牛 兔 猴 狗 豬,鼠 牛 龍 馬 狗,鼠 牛 龍 馬 狗 豬,牛 狗,2,牛 狗 豬,3,stored historical labels; not externally authenticated
+2024066,2024067,5,6,鼠 牛 龍 馬 狗,鼠 牛 龍 馬 狗 豬,龍 馬 鷄 狗 豬,龍 馬 羊 鷄 狗 豬,龍 馬 狗,3,龍 馬 狗 豬,4,stored historical labels; not externally authenticated
+2024067,2024068,5,6,龍 馬 鷄 狗 豬,龍 馬 羊 鷄 狗 豬,虎 兔 馬 猴 鷄 豬,虎 兔 馬 猴 鷄 豬,馬 鷄 豬,3,馬 鷄 豬,3,stored historical labels; not externally authenticated
+2024068,2024069,6,6,虎 兔 馬 猴 鷄 豬,虎 兔 馬 猴 鷄 豬,鼠 牛 虎 兔 狗,鼠 牛 虎 兔 鷄 狗,虎 兔,2,虎 兔 鷄,3,stored historical labels; not externally authenticated
+2024069,2024070,5,6,鼠 牛 虎 兔 狗,鼠 牛 虎 兔 鷄 狗,虎 兔 蛇 羊 猴,虎 兔 蛇 羊 猴 豬,虎 兔,2,虎 兔,2,stored historical labels; not externally authenticated
+2024070,2024071,5,6,虎 兔 蛇 羊 猴,虎 兔 蛇 羊 猴 豬,鼠 牛 兔 蛇 馬 豬,鼠 牛 虎 兔 蛇 馬 豬,兔 蛇,2,虎 兔 蛇 豬,4,stored historical labels; not externally authenticated
+2024071,2024072,6,7,鼠 牛 兔 蛇 馬 豬,鼠 牛 虎 兔 蛇 馬 豬,虎 龍 羊 猴 鷄,虎 龍 羊 猴 鷄 狗,,0,虎,1,stored historical labels; not externally authenticated
+2024072,2024073,5,6,虎 龍 羊 猴 鷄,虎 龍 羊 猴 鷄 狗,鼠 虎 兔 龍 狗,鼠 虎 兔 龍 羊 狗,虎 龍,2,虎 龍 羊 狗,4,stored historical labels; not externally authenticated
+2024073,2024074,5,6,鼠 虎 兔 龍 狗,鼠 虎 兔 龍 羊 狗,鼠 兔 龍 猴 狗,鼠 牛 兔 龍 猴 狗,鼠 兔 龍 狗,4,鼠 兔 龍 狗,4,stored historical labels; not externally authenticated
+2024074,2024075,5,6,鼠 兔 龍 猴 狗,鼠 牛 兔 龍 猴 狗,虎 兔 羊 鷄 狗,牛 虎 兔 羊 鷄 狗,兔 狗,2,牛 兔 狗,3,stored historical labels; not externally authenticated
+2024075,2024076,5,6,虎 兔 羊 鷄 狗,牛 虎 兔 羊 鷄 狗,虎 蛇 馬 鷄 豬,鼠 虎 蛇 馬 鷄 豬,虎 鷄,2,虎 鷄,2,stored historical labels; not externally authenticated
+2024076,2024077,5,6,虎 蛇 馬 鷄 豬,鼠 虎 蛇 馬 鷄 豬,鼠 牛 龍 猴 狗,鼠 牛 龍 猴 鷄 狗,,0,鼠 鷄,2,stored historical labels; not externally authenticated
+2024077,2024078,5,6,鼠 牛 龍 猴 狗,鼠 牛 龍 猴 鷄 狗,虎 龍 馬 鷄 狗 豬,鼠 虎 龍 馬 鷄 狗 豬,龍 狗,2,鼠 龍 鷄 狗,4,stored historical labels; not externally authenticated
+2024078,2024079,6,7,虎 龍 馬 鷄 狗 豬,鼠 虎 龍 馬 鷄 狗 豬,虎 兔 蛇 羊 狗 豬,虎 兔 蛇 羊 鷄 狗 豬,虎 狗 豬,3,虎 鷄 狗 豬,4,stored historical labels; not externally authenticated
+2024079,2024080,6,7,虎 兔 蛇 羊 狗 豬,虎 兔 蛇 羊 鷄 狗 豬,牛 虎 馬 羊 豬,牛 虎 兔 馬 羊 豬,虎 羊 豬,3,虎 兔 羊 豬,4,stored historical labels; not externally authenticated
+2024080,2024081,5,6,牛 虎 馬 羊 豬,牛 虎 兔 馬 羊 豬,鼠 蛇 馬 羊 猴 狗,鼠 龍 蛇 馬 羊 猴 狗,馬 羊,2,馬 羊,2,stored historical labels; not externally authenticated
+2024081,2024082,6,7,鼠 蛇 馬 羊 猴 狗,鼠 龍 蛇 馬 羊 猴 狗,虎 龍 蛇 馬 猴 狗,虎 龍 蛇 馬 羊 猴 狗,蛇 馬 猴 狗,4,龍 蛇 馬 羊 猴 狗,6,stored historical labels; not externally authenticated
+2024082,2024083,6,7,虎 龍 蛇 馬 猴 狗,虎 龍 蛇 馬 羊 猴 狗,兔 龍 蛇 馬 鷄 狗,兔 龍 蛇 馬 羊 鷄 狗,龍 蛇 馬 狗,4,龍 蛇 馬 羊 狗,5,stored historical labels; not externally authenticated
+2024083,2024084,6,7,兔 龍 蛇 馬 鷄 狗,兔 龍 蛇 馬 羊 鷄 狗,虎 龍 馬 猴 鷄,鼠 虎 龍 馬 猴 鷄,龍 馬 鷄,3,龍 馬 鷄,3,stored historical labels; not externally authenticated
+2024084,2024085,5,6,虎 龍 馬 猴 鷄,鼠 虎 龍 馬 猴 鷄,鼠 兔 龍 蛇 馬,鼠 兔 龍 蛇 馬,龍 馬,2,鼠 龍 馬,3,stored historical labels; not externally authenticated
+2024085,2024086,5,5,鼠 兔 龍 蛇 馬,鼠 兔 龍 蛇 馬,鼠 牛 兔 龍 羊 狗,鼠 牛 兔 龍 馬 羊 狗,鼠 兔 龍,3,鼠 兔 龍 馬,4,stored historical labels; not externally authenticated
+2024086,2024087,6,7,鼠 牛 兔 龍 羊 狗,鼠 牛 兔 龍 馬 羊 狗,鼠 兔 龍 羊 猴 狗,鼠 兔 龍 羊 猴 狗 豬,鼠 兔 龍 羊 狗,5,鼠 兔 龍 羊 狗,5,stored historical labels; not externally authenticated
+2024087,2024088,6,7,鼠 兔 龍 羊 猴 狗,鼠 兔 龍 羊 猴 狗 豬,蛇 羊 鷄 狗 豬,龍 蛇 羊 鷄 狗 豬,羊 狗,2,龍 羊 狗 豬,4,stored historical labels; not externally authenticated
+2024088,2024089,5,6,蛇 羊 鷄 狗 豬,龍 蛇 羊 鷄 狗 豬,牛 蛇 猴 豬,牛 龍 蛇 猴 豬,蛇 豬,2,龍 蛇 豬,3,stored historical labels; not externally authenticated
+2024091,2024092,6,7,鼠 牛 兔 龍 馬 豬,鼠 牛 兔 龍 馬 羊 豬,虎 猴 鷄 狗 豬,虎 蛇 猴 鷄 狗 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2024092,2024093,5,6,虎 猴 鷄 狗 豬,虎 蛇 猴 鷄 狗 豬,牛 虎 兔 馬 羊 豬,鼠 牛 虎 兔 馬 羊 豬,虎 豬,2,虎 豬,2,stored historical labels; not externally authenticated
+2024093,2024094,6,7,牛 虎 兔 馬 羊 豬,鼠 牛 虎 兔 馬 羊 豬,兔 蛇 馬 羊 鷄 狗,兔 蛇 馬 羊 猴 鷄 狗,兔 馬 羊,3,兔 馬 羊,3,stored historical labels; not externally authenticated
+2024094,2024095,6,7,兔 蛇 馬 羊 鷄 狗,兔 蛇 馬 羊 猴 鷄 狗,鼠 兔 龍 羊 狗 豬,鼠 兔 龍 蛇 羊 狗 豬,兔 羊 狗,3,兔 蛇 羊 狗,4,stored historical labels; not externally authenticated
+2024095,2024096,6,7,鼠 兔 龍 羊 狗 豬,鼠 兔 龍 蛇 羊 狗 豬,鼠 牛 虎 狗 豬,鼠 牛 虎 狗 豬,鼠 狗 豬,3,鼠 狗 豬,3,stored historical labels; not externally authenticated
+2024096,2024097,5,5,鼠 牛 虎 狗 豬,鼠 牛 虎 狗 豬,虎 龍 馬 羊 豬,虎 龍 馬 羊 豬,虎 豬,2,虎 豬,2,stored historical labels; not externally authenticated
+2024097,2024098,5,5,虎 龍 馬 羊 豬,虎 龍 馬 羊 豬,虎 龍 猴 狗 豬,虎 龍 羊 猴 狗 豬,虎 龍 豬,3,虎 龍 羊 豬,4,stored historical labels; not externally authenticated
+2024098,2024099,5,6,虎 龍 猴 狗 豬,虎 龍 羊 猴 狗 豬,兔 馬 鷄 豬,牛 兔 馬 鷄 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2024100,2024101,6,6,鼠 兔 蛇 馬 鷄 豬,鼠 兔 蛇 馬 鷄 豬,鼠 虎 兔 猴 狗 豬,鼠 虎 兔 猴 狗 豬,鼠 兔 豬,3,鼠 兔 豬,3,stored historical labels; not externally authenticated
+2024101,2024102,6,6,鼠 虎 兔 猴 狗 豬,鼠 虎 兔 猴 狗 豬,鼠 蛇 羊 鷄 狗 豬,鼠 蛇 羊 鷄 狗 豬,鼠 狗 豬,3,鼠 狗 豬,3,stored historical labels; not externally authenticated
+2024102,2024103,6,6,鼠 蛇 羊 鷄 狗 豬,鼠 蛇 羊 鷄 狗 豬,虎 蛇 猴 鷄 狗,鼠 虎 蛇 猴 鷄 狗,蛇 鷄 狗,3,鼠 蛇 鷄 狗,4,stored historical labels; not externally authenticated
+2024103,2024104,5,6,虎 蛇 猴 鷄 狗,鼠 虎 蛇 猴 鷄 狗,鼠 虎 蛇 鷄 豬,鼠 虎 蛇 馬 鷄 豬,虎 蛇 鷄,3,鼠 虎 蛇 鷄,4,stored historical labels; not externally authenticated
+2024104,2024105,5,6,鼠 虎 蛇 鷄 豬,鼠 虎 蛇 馬 鷄 豬,牛 兔 羊 狗 豬,牛 兔 龍 羊 狗 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2024105,2024106,5,6,牛 兔 羊 狗 豬,牛 兔 龍 羊 狗 豬,龍 蛇 馬 羊,牛 龍 蛇 馬 羊,羊,1,牛 龍 羊,3,stored historical labels; not externally authenticated
+2024109,2024110,6,7,鼠 牛 兔 龍 羊 豬,鼠 牛 兔 龍 羊 狗 豬,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 豬,羊 豬,2,羊 豬,2,stored historical labels; not externally authenticated
+2024110,2024111,5,5,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 豬,牛 龍 羊 豬,牛 龍 羊 狗 豬,羊 豬,2,羊 豬,2,stored historical labels; not externally authenticated
+2024112,2024113,5,6,鼠 蛇 馬 猴 鷄,鼠 蛇 馬 猴 鷄 狗,鼠 虎 龍 蛇 狗,鼠 虎 龍 蛇 狗,鼠 蛇,2,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2024113,2024114,5,5,鼠 虎 龍 蛇 狗,鼠 虎 龍 蛇 狗,虎 龍 羊 狗,虎 龍 羊 狗 豬,虎 龍 狗,3,虎 龍 狗,3,stored historical labels; not externally authenticated
+2024116,2024117,5,6,虎 兔 蛇 馬 鷄,虎 兔 蛇 馬 羊 鷄,鼠 兔 猴 狗,鼠 兔 龍 猴 狗,兔,1,兔,1,stored historical labels; not externally authenticated
+2024118,2024119,6,7,鼠 牛 兔 龍 羊 狗,鼠 牛 兔 龍 羊 猴 狗,牛 虎 兔 猴 鷄,牛 虎 兔 猴 鷄,牛 兔,2,牛 兔 猴,3,stored historical labels; not externally authenticated
+2024119,2024120,5,5,牛 虎 兔 猴 鷄,牛 虎 兔 猴 鷄,鼠 龍 羊 猴 鷄,鼠 龍 羊 猴 鷄,猴 鷄,2,猴 鷄,2,stored historical labels; not externally authenticated
+2024120,2024121,5,5,鼠 龍 羊 猴 鷄,鼠 龍 羊 猴 鷄,虎 蛇 馬 猴 鷄 狗,虎 兔 蛇 馬 猴 鷄 狗,猴 鷄,2,猴 鷄,2,stored historical labels; not externally authenticated
+2024121,2024122,6,7,虎 蛇 馬 猴 鷄 狗,虎 兔 蛇 馬 猴 鷄 狗,牛 虎 兔 龍 羊 鷄,牛 虎 兔 龍 蛇 羊 鷄,虎 鷄,2,虎 兔 蛇 鷄,4,stored historical labels; not externally authenticated
+2024122,2024123,6,7,牛 虎 兔 龍 羊 鷄,牛 虎 兔 龍 蛇 羊 鷄,馬 羊 猴 狗,馬 羊 猴 狗,羊,1,羊,1,stored historical labels; not externally authenticated
+2024125,2024126,6,7,鼠 虎 兔 馬 猴 狗,鼠 虎 兔 蛇 馬 猴 狗,兔 馬 猴 鷄,兔 馬 猴 鷄 狗,兔 馬 猴,3,兔 馬 猴 狗,4,stored historical labels; not externally authenticated
+2024127,2024128,6,7,鼠 虎 羊 猴 狗 豬,鼠 虎 蛇 羊 猴 狗 豬,鼠 兔 龍 蛇 猴,鼠 兔 龍 蛇 猴,鼠 猴,2,鼠 蛇 猴,3,stored historical labels; not externally authenticated
+2024128,2024129,5,5,鼠 兔 龍 蛇 猴,鼠 兔 龍 蛇 猴,牛 馬 猴 鷄 狗,牛 龍 馬 猴 鷄 狗,猴,1,龍 猴,2,stored historical labels; not externally authenticated
+2024129,2024130,5,6,牛 馬 猴 鷄 狗,牛 龍 馬 猴 鷄 狗,龍 馬 猴 鷄 狗,鼠 龍 馬 猴 鷄 狗,馬 猴 鷄 狗,4,龍 馬 猴 鷄 狗,5,stored historical labels; not externally authenticated
+2024130,2024131,5,6,龍 馬 猴 鷄 狗,鼠 龍 馬 猴 鷄 狗,鼠 虎 蛇 馬 狗,鼠 牛 虎 蛇 馬 狗,馬 狗,2,鼠 馬 狗,3,stored historical labels; not externally authenticated
+2024131,2024132,5,6,鼠 虎 蛇 馬 狗,鼠 牛 虎 蛇 馬 狗,虎 龍 羊 鷄 豬,虎 龍 羊 鷄 豬,虎,1,虎,1,stored historical labels; not externally authenticated
+2024132,2024133,5,5,虎 龍 羊 鷄 豬,虎 龍 羊 鷄 豬,牛 虎 兔 馬 猴 鷄,牛 虎 兔 馬 猴 鷄 狗,虎 鷄,2,虎 鷄,2,stored historical labels; not externally authenticated
+2024133,2024134,6,7,牛 虎 兔 馬 猴 鷄,牛 虎 兔 馬 猴 鷄 狗,鼠 兔 龍 馬 羊 狗,鼠 兔 龍 馬 羊 狗,兔 馬,2,兔 馬 狗,3,stored historical labels; not externally authenticated
+2024134,2024135,6,6,鼠 兔 龍 馬 羊 狗,鼠 兔 龍 馬 羊 狗,鼠 牛 虎 馬 羊 鷄,鼠 牛 虎 馬 羊 鷄,鼠 馬 羊,3,鼠 馬 羊,3,stored historical labels; not externally authenticated
+2024135,2024136,6,6,鼠 牛 虎 馬 羊 鷄,鼠 牛 虎 馬 羊 鷄,兔 蛇 馬 羊 猴 狗,兔 蛇 馬 羊 猴 鷄 狗,馬 羊,2,馬 羊 鷄,3,stored historical labels; not externally authenticated
+2024136,2024137,6,7,兔 蛇 馬 羊 猴 狗,兔 蛇 馬 羊 猴 鷄 狗,虎 兔 龍 羊 鷄 豬,牛 虎 兔 龍 羊 鷄 豬,兔 羊,2,兔 羊 鷄,3,stored historical labels; not externally authenticated
+2024137,2024138,6,7,虎 兔 龍 羊 鷄 豬,牛 虎 兔 龍 羊 鷄 豬,鼠 兔 鷄 狗 豬,鼠 兔 鷄 狗 豬,兔 鷄 豬,3,兔 鷄 豬,3,stored historical labels; not externally authenticated
+2024138,2024139,5,5,鼠 兔 鷄 狗 豬,鼠 兔 鷄 狗 豬,兔 龍 蛇 羊 狗,兔 龍 蛇 羊 狗,兔 狗,2,兔 狗,2,stored historical labels; not externally authenticated
+2024139,2024140,5,5,兔 龍 蛇 羊 狗,兔 龍 蛇 羊 狗,鼠 龍 蛇 馬 狗 豬,鼠 龍 蛇 馬 狗 豬,龍 蛇 狗,3,龍 蛇 狗,3,stored historical labels; not externally authenticated
+2024140,2024141,6,6,鼠 龍 蛇 馬 狗 豬,鼠 龍 蛇 馬 狗 豬,鼠 牛 馬 羊 狗 豬,鼠 牛 馬 羊 狗 豬,鼠 馬 狗 豬,4,鼠 馬 狗 豬,4,stored historical labels; not externally authenticated
+2024141,2024142,6,6,鼠 牛 馬 羊 狗 豬,鼠 牛 馬 羊 狗 豬,鼠 兔 馬 羊 狗,鼠 虎 兔 馬 羊 狗,鼠 馬 羊 狗,4,鼠 馬 羊 狗,4,stored historical labels; not externally authenticated
+2024142,2024143,5,6,鼠 兔 馬 羊 狗,鼠 虎 兔 馬 羊 狗,牛 兔 馬 羊 狗 豬,牛 兔 蛇 馬 羊 狗 豬,兔 馬 羊 狗,4,兔 馬 羊 狗,4,stored historical labels; not externally authenticated
+2024143,2024144,6,7,牛 兔 馬 羊 狗 豬,牛 兔 蛇 馬 羊 狗 豬,鼠 牛 兔 羊 猴,鼠 牛 兔 羊 猴,牛 兔 羊,3,牛 兔 羊,3,stored historical labels; not externally authenticated
+2024144,2024145,5,5,鼠 牛 兔 羊 猴,鼠 牛 兔 羊 猴,鼠 虎 兔 馬 猴,鼠 虎 兔 馬 猴,鼠 兔 猴,3,鼠 兔 猴,3,stored historical labels; not externally authenticated
+2024145,2024146,5,5,鼠 虎 兔 馬 猴,鼠 虎 兔 馬 猴,牛 虎 兔 鷄,牛 虎 兔 鷄 狗,虎 兔,2,虎 兔,2,stored historical labels; not externally authenticated
+2024147,2024148,5,5,鼠 兔 馬 猴 豬,鼠 兔 馬 猴 豬,虎 龍 馬 羊 猴,虎 龍 馬 羊 猴,馬 猴,2,馬 猴,2,stored historical labels; not externally authenticated
+2024148,2024149,5,5,虎 龍 馬 羊 猴,虎 龍 馬 羊 猴,龍 蛇 羊 猴 鷄 豬,龍 蛇 羊 猴 鷄 豬,龍 羊 猴,3,龍 羊 猴,3,stored historical labels; not externally authenticated
+2024149,2024150,6,6,龍 蛇 羊 猴 鷄 豬,龍 蛇 羊 猴 鷄 豬,牛 虎 蛇 猴,牛 虎 蛇 猴,蛇 猴,2,蛇 猴,2,stored historical labels; not externally authenticated
+2024151,2024152,5,5,鼠 兔 蛇 猴 鷄,鼠 兔 蛇 猴 鷄,牛 虎 馬 豬,牛 虎 馬 猴 豬,,0,猴,1,stored historical labels; not externally authenticated
+2024153,2024154,5,5,牛 虎 羊 鷄 豬,牛 虎 羊 鷄 豬,牛 兔 蛇 羊 鷄,牛 兔 蛇 羊 鷄,牛 羊 鷄,3,牛 羊 鷄,3,stored historical labels; not externally authenticated
+2024154,2024155,5,5,牛 兔 蛇 羊 鷄,牛 兔 蛇 羊 鷄,鼠 牛 馬 鷄 狗,鼠 牛 馬 鷄 狗,牛 鷄,2,牛 鷄,2,stored historical labels; not externally authenticated
+2024155,2024156,5,5,鼠 牛 馬 鷄 狗,鼠 牛 馬 鷄 狗,兔 龍 蛇 鷄 豬,兔 龍 蛇 鷄 豬,鷄,1,鷄,1,stored historical labels; not externally authenticated
+2024156,2024157,5,5,兔 龍 蛇 鷄 豬,兔 龍 蛇 鷄 豬,鼠 龍 蛇 馬,鼠 龍 蛇 馬 猴,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2024158,2024159,5,6,鼠 虎 蛇 馬 豬,鼠 虎 蛇 馬 鷄 豬,鼠 龍 鷄 狗 豬,鼠 龍 鷄 狗 豬,鼠 豬,2,鼠 鷄 豬,3,stored historical labels; not externally authenticated
+2024159,2024160,5,5,鼠 龍 鷄 狗 豬,鼠 龍 鷄 狗 豬,虎 龍 蛇 鷄,虎 龍 蛇 鷄,龍 鷄,2,龍 鷄,2,stored historical labels; not externally authenticated
+2024162,2024163,5,5,鼠 龍 馬 鷄 豬,鼠 龍 馬 鷄 豬,虎 龍 鷄 狗 豬,牛 虎 龍 鷄 狗 豬,龍 鷄 豬,3,龍 鷄 豬,3,stored historical labels; not externally authenticated
+2024163,2024164,5,6,虎 龍 鷄 狗 豬,牛 虎 龍 鷄 狗 豬,蛇 鷄 狗 豬,蛇 鷄 狗 豬,鷄 狗 豬,3,鷄 狗 豬,3,stored historical labels; not externally authenticated
+2024166,2024167,5,6,鼠 虎 蛇 猴 狗,鼠 虎 蛇 猴 鷄 狗,鼠 兔 龍 馬 羊 鷄,鼠 兔 龍 馬 羊 鷄,鼠,1,鼠 鷄,2,stored historical labels; not externally authenticated
+2024167,2024168,6,6,鼠 兔 龍 馬 羊 鷄,鼠 兔 龍 馬 羊 鷄,兔 馬 羊 鷄,兔 馬 羊 鷄,兔 馬 羊 鷄,4,兔 馬 羊 鷄,4,stored historical labels; not externally authenticated
+2024170,2024171,6,6,牛 龍 蛇 羊 鷄 狗,牛 龍 蛇 羊 鷄 狗,龍 猴 鷄 狗 豬,牛 龍 猴 鷄 狗 豬,龍 鷄 狗,3,牛 龍 鷄 狗,4,stored historical labels; not externally authenticated
+2024171,2024172,5,6,龍 猴 鷄 狗 豬,牛 龍 猴 鷄 狗 豬,鼠 羊 鷄 狗 豬,鼠 羊 鷄 狗 豬,鷄 狗 豬,3,鷄 狗 豬,3,stored historical labels; not externally authenticated
+2024172,2024173,5,5,鼠 羊 鷄 狗 豬,鼠 羊 鷄 狗 豬,鼠 馬 羊 猴,鼠 龍 馬 羊 猴,鼠 羊,2,鼠 羊,2,stored historical labels; not externally authenticated
+2024174,2024175,5,5,兔 蛇 馬 猴 狗,兔 蛇 馬 猴 狗,牛 兔 龍 豬,牛 兔 龍 豬,兔,1,兔,1,stored historical labels; not externally authenticated
+2024176,2024177,5,5,牛 虎 龍 蛇 豬,牛 虎 龍 蛇 豬,鼠 龍 蛇,鼠 龍 蛇 馬,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2024178,2024179,6,6,虎 龍 蛇 馬 猴 鷄,虎 龍 蛇 馬 猴 鷄,牛 龍 蛇 馬,牛 龍 蛇 馬,龍 蛇 馬,3,龍 蛇 馬,3,stored historical labels; not externally authenticated
+2024182,2024183,6,6,鼠 虎 羊 猴 鷄 豬,鼠 虎 羊 猴 鷄 豬,虎 兔 龍 馬 猴,虎 兔 龍 馬 猴,虎 猴,2,虎 猴,2,stored historical labels; not externally authenticated
+2024183,2024184,5,5,虎 兔 龍 馬 猴,虎 兔 龍 馬 猴,鼠 虎 蛇 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,虎 猴,2,虎 猴,2,stored historical labels; not externally authenticated
+2024184,2024185,6,6,鼠 虎 蛇 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,兔 龍 蛇 鷄 豬,兔 龍 蛇 鷄 豬,蛇 豬,2,蛇 豬,2,stored historical labels; not externally authenticated
+2024185,2024186,5,5,兔 龍 蛇 鷄 豬,兔 龍 蛇 鷄 豬,鼠 虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2024186,2024187,6,6,鼠 虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,虎 兔 馬 羊 猴 狗,虎 兔 馬 羊 猴 狗,虎 兔 馬 狗,4,虎 兔 馬 狗,4,stored historical labels; not externally authenticated
+2024187,2024188,6,6,虎 兔 馬 羊 猴 狗,虎 兔 馬 羊 猴 狗,鼠 牛 猴 鷄 狗,鼠 牛 羊 猴 鷄 狗,猴 狗,2,羊 猴 狗,3,stored historical labels; not externally authenticated
+2024188,2024189,5,6,鼠 牛 猴 鷄 狗,鼠 牛 羊 猴 鷄 狗,虎 兔 鷄 豬,虎 兔 鷄 狗 豬,鷄,1,鷄 狗,2,stored historical labels; not externally authenticated
+2024190,2024191,5,6,牛 虎 兔 蛇 羊,鼠 牛 虎 兔 蛇 羊,兔 蛇 馬 羊 狗,虎 兔 蛇 馬 羊 狗,兔 蛇 羊,3,虎 兔 蛇 羊,4,stored historical labels; not externally authenticated
+2024191,2024192,5,6,兔 蛇 馬 羊 狗,虎 兔 蛇 馬 羊 狗,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄 狗,兔 羊,2,虎 兔 羊 狗,4,stored historical labels; not externally authenticated
+2024192,2024193,5,6,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄 狗,虎 兔 龍 馬 鷄,牛 虎 兔 龍 馬 鷄,虎 兔 鷄,3,虎 兔 鷄,3,stored historical labels; not externally authenticated
+2024193,2024194,5,6,虎 兔 龍 馬 鷄,牛 虎 兔 龍 馬 鷄,虎 兔 羊 鷄 豬,鼠 虎 兔 羊 鷄 豬,虎 兔 鷄,3,虎 兔 鷄,3,stored historical labels; not externally authenticated
+2024194,2024195,5,6,虎 兔 羊 鷄 豬,鼠 虎 兔 羊 鷄 豬,鼠 牛 虎 兔 羊,鼠 牛 虎 兔 羊 猴,虎 兔 羊,3,鼠 虎 兔 羊,4,stored historical labels; not externally authenticated
+2024195,2024196,5,6,鼠 牛 虎 兔 羊,鼠 牛 虎 兔 羊 猴,蛇 鷄 狗 豬,虎 蛇 鷄 狗 豬,,0,虎,1,stored historical labels; not externally authenticated
+2024197,2024198,5,5,鼠 虎 羊 猴 狗,鼠 虎 羊 猴 狗,馬 羊 鷄 狗,牛 馬 羊 鷄 狗,羊 狗,2,羊 狗,2,stored historical labels; not externally authenticated
+2024199,2024200,5,6,牛 蛇 馬 猴 鷄,牛 虎 蛇 馬 猴 鷄,牛 虎 龍 羊,牛 虎 龍 羊 狗,牛,1,牛 虎,2,stored historical labels; not externally authenticated
+2024201,2024202,5,5,牛 龍 蛇 鷄 狗,牛 龍 蛇 鷄 狗,鼠 牛 馬 猴 狗,鼠 牛 馬 猴 狗,牛 狗,2,牛 狗,2,stored historical labels; not externally authenticated
+2024202,2024203,5,5,鼠 牛 馬 猴 狗,鼠 牛 馬 猴 狗,蛇 馬 猴 鷄 狗,蛇 馬 猴 鷄 狗,馬 猴 狗,3,馬 猴 狗,3,stored historical labels; not externally authenticated
+2024203,2024204,5,5,蛇 馬 猴 鷄 狗,蛇 馬 猴 鷄 狗,牛 虎 羊 狗 豬,鼠 牛 虎 羊 狗 豬,狗,1,狗,1,stored historical labels; not externally authenticated
+2024204,2024205,5,6,牛 虎 羊 狗 豬,鼠 牛 虎 羊 狗 豬,牛 龍 羊 狗 豬,牛 龍 羊 狗 豬,牛 羊 狗 豬,4,牛 羊 狗 豬,4,stored historical labels; not externally authenticated
+2024205,2024206,5,5,牛 龍 羊 狗 豬,牛 龍 羊 狗 豬,牛 兔 蛇 馬 狗,牛 兔 蛇 馬 狗,牛 狗,2,牛 狗,2,stored historical labels; not externally authenticated
+2024206,2024207,5,5,牛 兔 蛇 馬 狗,牛 兔 蛇 馬 狗,鼠 虎 龍 蛇 馬,鼠 虎 龍 蛇 馬 豬,蛇 馬,2,蛇 馬,2,stored historical labels; not externally authenticated
+2024207,2024208,5,6,鼠 虎 龍 蛇 馬,鼠 虎 龍 蛇 馬 豬,鼠 牛 虎 龍 馬 豬,鼠 牛 虎 龍 馬 豬,鼠 虎 龍 馬,4,鼠 虎 龍 馬 豬,5,stored historical labels; not externally authenticated
+2024208,2024209,6,6,鼠 牛 虎 龍 馬 豬,鼠 牛 虎 龍 馬 豬,鼠 虎 蛇 羊 猴,鼠 虎 蛇 羊 猴,鼠 虎,2,鼠 虎,2,stored historical labels; not externally authenticated
+2024209,2024210,5,5,鼠 虎 蛇 羊 猴,鼠 虎 蛇 羊 猴,兔 龍 蛇 猴 狗,兔 龍 蛇 猴 狗,蛇 猴,2,蛇 猴,2,stored historical labels; not externally authenticated
+2024210,2024211,5,5,兔 龍 蛇 猴 狗,兔 龍 蛇 猴 狗,虎 蛇 猴 鷄 狗,虎 蛇 猴 鷄 狗,蛇 猴 狗,3,蛇 猴 狗,3,stored historical labels; not externally authenticated
+2024211,2024212,5,5,虎 蛇 猴 鷄 狗,虎 蛇 猴 鷄 狗,鼠 牛 龍 羊 鷄,鼠 牛 龍 羊 鷄,鷄,1,鷄,1,stored historical labels; not externally authenticated
+2024212,2024213,5,5,鼠 牛 龍 羊 鷄,鼠 牛 龍 羊 鷄,鼠 牛 羊 狗,鼠 牛 兔 羊 狗,鼠 牛 羊,3,鼠 牛 羊,3,stored historical labels; not externally authenticated
+2024216,2024217,5,6,牛 蛇 猴 狗 豬,牛 虎 蛇 猴 狗 豬,龍 馬 羊 豬,虎 龍 馬 羊 豬,豬,1,虎 豬,2,stored historical labels; not externally authenticated
+2024218,2024219,5,5,虎 龍 蛇 鷄 狗,虎 龍 蛇 鷄 狗,鼠 牛 蛇 馬 猴 豬,鼠 牛 兔 蛇 馬 猴 豬,蛇,1,蛇,1,stored historical labels; not externally authenticated
+2024219,2024220,6,7,鼠 牛 蛇 馬 猴 豬,鼠 牛 兔 蛇 馬 猴 豬,鼠 牛 龍 蛇 猴,鼠 牛 龍 蛇 猴,鼠 牛 蛇 猴,4,鼠 牛 蛇 猴,4,stored historical labels; not externally authenticated
+2024220,2024221,5,5,鼠 牛 龍 蛇 猴,鼠 牛 龍 蛇 猴,牛 兔 蛇 狗 豬,牛 兔 龍 蛇 狗 豬,牛 蛇,2,牛 龍 蛇,3,stored historical labels; not externally authenticated
+2024221,2024222,5,6,牛 兔 蛇 狗 豬,牛 兔 龍 蛇 狗 豬,鼠 兔 龍 蛇 猴 鷄,鼠 兔 龍 蛇 猴 鷄 狗,兔 蛇,2,兔 龍 蛇 狗,4,stored historical labels; not externally authenticated
+2024222,2024223,6,7,鼠 兔 龍 蛇 猴 鷄,鼠 兔 龍 蛇 猴 鷄 狗,虎 蛇 馬 猴 豬,虎 蛇 馬 猴 豬,蛇 猴,2,蛇 猴,2,stored historical labels; not externally authenticated
+2024223,2024224,5,5,虎 蛇 馬 猴 豬,虎 蛇 馬 猴 豬,鼠 牛 羊 狗 豬,鼠 牛 羊 狗 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2024224,2024225,5,5,鼠 牛 羊 狗 豬,鼠 牛 羊 狗 豬,牛 虎 蛇 狗,鼠 牛 虎 蛇 狗,牛 狗,2,鼠 牛 狗,3,stored historical labels; not externally authenticated
+2024226,2024227,6,7,鼠 牛 虎 蛇 狗 豬,鼠 牛 虎 蛇 羊 狗 豬,鼠 牛 龍 蛇 羊,鼠 牛 龍 蛇 羊 鷄,鼠 牛 蛇,3,鼠 牛 蛇 羊,4,stored historical labels; not externally authenticated
+2024227,2024228,5,6,鼠 牛 龍 蛇 羊,鼠 牛 龍 蛇 羊 鷄,牛 兔 羊 猴 狗 豬,牛 兔 龍 羊 猴 狗 豬,牛 羊,2,牛 龍 羊,3,stored historical labels; not externally authenticated
+2024228,2024229,6,7,牛 兔 羊 猴 狗 豬,牛 兔 龍 羊 猴 狗 豬,牛 兔 龍 羊,鼠 牛 兔 龍 羊,牛 兔 羊,3,牛 兔 龍 羊,4,stored historical labels; not externally authenticated
+2024230,2024231,5,5,鼠 龍 蛇 猴 狗,鼠 龍 蛇 猴 狗,鼠 虎 兔 龍 猴,鼠 虎 兔 龍 猴,鼠 龍 猴,3,鼠 龍 猴,3,stored historical labels; not externally authenticated
+2024231,2024232,5,5,鼠 虎 兔 龍 猴,鼠 虎 兔 龍 猴,虎 龍 蛇 鷄,虎 兔 龍 蛇 鷄,虎 龍,2,虎 兔 龍,3,stored historical labels; not externally authenticated
+2024233,2024234,6,7,虎 龍 羊 鷄 狗 豬,虎 龍 馬 羊 鷄 狗 豬,牛 猴 狗 豬,牛 猴 狗 豬,狗 豬,2,狗 豬,2,stored historical labels; not externally authenticated
+2024236,2024237,6,6,鼠 虎 龍 馬 羊 豬,鼠 虎 龍 馬 羊 豬,龍 蛇 猴 鷄 狗,龍 蛇 猴 鷄 狗 豬,龍,1,龍 豬,2,stored historical labels; not externally authenticated
+2024237,2024238,5,6,龍 蛇 猴 鷄 狗,龍 蛇 猴 鷄 狗 豬,鼠 兔 羊 鷄 豬,鼠 兔 羊 鷄 豬,鷄,1,鷄 豬,2,stored historical labels; not externally authenticated
+2024238,2024239,5,5,鼠 兔 羊 鷄 豬,鼠 兔 羊 鷄 豬,兔 龍 蛇 猴 狗 豬,兔 龍 蛇 猴 狗 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2024239,2024240,6,6,兔 龍 蛇 猴 狗 豬,兔 龍 蛇 猴 狗 豬,鼠 虎 兔 羊 猴 狗,鼠 虎 兔 蛇 羊 猴 狗,兔 猴 狗,3,兔 蛇 猴 狗,4,stored historical labels; not externally authenticated
+2024240,2024241,6,7,鼠 虎 兔 羊 猴 狗,鼠 虎 兔 蛇 羊 猴 狗,虎 蛇 羊 猴 鷄 豬,牛 虎 蛇 羊 猴 鷄 豬,虎 羊 猴,3,虎 蛇 羊 猴,4,stored historical labels; not externally authenticated
+2024241,2024242,6,7,虎 蛇 羊 猴 鷄 豬,牛 虎 蛇 羊 猴 鷄 豬,鼠 虎 兔 蛇 馬 狗,鼠 虎 兔 蛇 馬 狗 豬,虎 蛇,2,虎 蛇 豬,3,stored historical labels; not externally authenticated
+2024242,2024243,6,7,鼠 虎 兔 蛇 馬 狗,鼠 虎 兔 蛇 馬 狗 豬,兔 龍 馬 猴 狗,兔 龍 馬 猴 狗,兔 馬 狗,3,兔 馬 狗,3,stored historical labels; not externally authenticated
+2024243,2024244,5,5,兔 龍 馬 猴 狗,兔 龍 馬 猴 狗,虎 兔 龍 馬 狗,虎 兔 龍 馬 狗,兔 龍 馬 狗,4,兔 龍 馬 狗,4,stored historical labels; not externally authenticated
+2024244,2024245,5,5,虎 兔 龍 馬 狗,虎 兔 龍 馬 狗,龍 馬 鷄 狗 豬,鼠 龍 馬 鷄 狗 豬,龍 馬 狗,3,龍 馬 狗,3,stored historical labels; not externally authenticated
+2024245,2024246,5,6,龍 馬 鷄 狗 豬,鼠 龍 馬 鷄 狗 豬,鼠 虎 兔 龍 羊,鼠 虎 兔 龍 羊,龍,1,鼠 龍,2,stored historical labels; not externally authenticated
+2024246,2024247,5,5,鼠 虎 兔 龍 羊,鼠 虎 兔 龍 羊,鼠 龍 羊 猴,鼠 龍 羊 猴 狗,鼠 龍 羊,3,鼠 龍 羊,3,stored historical labels; not externally authenticated
+2024248,2024249,5,6,鼠 兔 羊 鷄 狗,鼠 兔 馬 羊 鷄 狗,虎 兔 龍 鷄 豬,虎 兔 龍 鷄 豬,兔 鷄,2,兔 鷄,2,stored historical labels; not externally authenticated
+2024249,2024250,5,5,虎 兔 龍 鷄 豬,虎 兔 龍 鷄 豬,鼠 牛 虎 兔 猴 狗,鼠 牛 虎 兔 蛇 猴 狗,虎 兔,2,虎 兔,2,stored historical labels; not externally authenticated
+2024250,2024251,6,7,鼠 牛 虎 兔 猴 狗,鼠 牛 虎 兔 蛇 猴 狗,鼠 蛇 羊 狗 豬,鼠 兔 蛇 羊 狗 豬,鼠 狗,2,鼠 兔 蛇 狗,4,stored historical labels; not externally authenticated
+2024251,2024252,5,6,鼠 蛇 羊 狗 豬,鼠 兔 蛇 羊 狗 豬,牛 龍 馬 鷄,牛 龍 蛇 馬 鷄,,0,蛇,1,stored historical labels; not externally authenticated
+2024253,2024254,6,6,鼠 牛 虎 龍 馬 狗,鼠 牛 虎 龍 馬 狗,牛 龍 羊 猴 鷄,牛 虎 龍 羊 猴 鷄,牛 龍,2,牛 虎 龍,3,stored historical labels; not externally authenticated
+2024254,2024255,5,6,牛 龍 羊 猴 鷄,牛 虎 龍 羊 猴 鷄,牛 蛇 馬 羊 猴,牛 蛇 馬 羊 猴 豬,牛 羊 猴,3,牛 羊 猴,3,stored historical labels; not externally authenticated
+2024255,2024256,5,6,牛 蛇 馬 羊 猴,牛 蛇 馬 羊 猴 豬,牛 兔 龍 蛇 猴 豬,牛 虎 兔 龍 蛇 猴 豬,牛 蛇 猴,3,牛 蛇 猴 豬,4,stored historical labels; not externally authenticated
+2024256,2024257,6,7,牛 兔 龍 蛇 猴 豬,牛 虎 兔 龍 蛇 猴 豬,虎 馬 羊 鷄,虎 馬 羊 鷄,,0,虎,1,stored historical labels; not externally authenticated
+2024258,2024259,5,6,鼠 虎 龍 馬 豬,鼠 牛 虎 龍 馬 豬,虎 兔 猴 鷄 豬,鼠 虎 兔 猴 鷄 豬,虎 豬,2,鼠 虎 豬,3,stored historical labels; not externally authenticated
+2024259,2024260,5,6,虎 兔 猴 鷄 豬,鼠 虎 兔 猴 鷄 豬,鼠 龍 蛇 馬 狗,鼠 牛 龍 蛇 馬 狗,,0,鼠,1,stored historical labels; not externally authenticated
+2024260,2024261,5,6,鼠 龍 蛇 馬 狗,鼠 牛 龍 蛇 馬 狗,蛇 羊 鷄 狗,龍 蛇 羊 鷄 狗,蛇 狗,2,龍 蛇 狗,3,stored historical labels; not externally authenticated
+2024262,2024263,6,7,鼠 牛 虎 龍 蛇 羊,鼠 牛 虎 龍 蛇 羊 鷄,鼠 馬 羊 鷄,鼠 龍 馬 羊 鷄,鼠 羊,2,鼠 龍 羊 鷄,4,stored historical labels; not externally authenticated
+2024265,2024266,5,5,鼠 牛 兔 馬 狗,鼠 牛 兔 馬 狗,鼠 牛 虎 龍 狗,鼠 牛 虎 龍 狗,鼠 牛 狗,3,鼠 牛 狗,3,stored historical labels; not externally authenticated
+2024266,2024267,5,5,鼠 牛 虎 龍 狗,鼠 牛 虎 龍 狗,牛 兔 龍 羊 猴,牛 兔 龍 蛇 羊 猴,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024267,2024268,5,6,牛 兔 龍 羊 猴,牛 兔 龍 蛇 羊 猴,鼠 虎 兔 馬 羊 猴,鼠 虎 兔 馬 羊 猴,兔 羊 猴,3,兔 羊 猴,3,stored historical labels; not externally authenticated
+2024268,2024269,6,6,鼠 虎 兔 馬 羊 猴,鼠 虎 兔 馬 羊 猴,兔 蛇 馬 猴,兔 蛇 馬 猴,兔 馬 猴,3,兔 馬 猴,3,stored historical labels; not externally authenticated
+2024271,2024272,5,5,鼠 牛 龍 蛇 羊,鼠 牛 龍 蛇 羊,鼠 蛇 羊 豬,鼠 蛇 羊 豬,鼠 蛇 羊,3,鼠 蛇 羊,3,stored historical labels; not externally authenticated
+2024275,2024276,5,5,鼠 牛 龍 猴 豬,鼠 牛 龍 猴 豬,鼠 牛 虎 龍 猴,鼠 牛 虎 龍 猴,鼠 牛 龍 猴,4,鼠 牛 龍 猴,4,stored historical labels; not externally authenticated
+2024276,2024277,5,5,鼠 牛 虎 龍 猴,鼠 牛 虎 龍 猴,虎 兔 馬 猴,虎 兔 馬 猴,虎 猴,2,虎 猴,2,stored historical labels; not externally authenticated
+2024278,2024279,5,5,牛 兔 馬 羊 狗,牛 兔 馬 羊 狗,鼠 牛 兔 龍 猴,鼠 牛 兔 龍 猴,牛 兔,2,牛 兔,2,stored historical labels; not externally authenticated
+2024279,2024280,5,5,鼠 牛 兔 龍 猴,鼠 牛 兔 龍 猴,鼠 牛 兔 龍,鼠 牛 兔 龍 羊,鼠 牛 兔 龍,4,鼠 牛 兔 龍,4,stored historical labels; not externally authenticated
+2024282,2024283,6,7,牛 虎 馬 羊 猴 狗,牛 虎 龍 馬 羊 猴 狗,鼠 虎 兔 蛇 狗,鼠 虎 兔 蛇 馬 狗,虎 狗,2,虎 馬 狗,3,stored historical labels; not externally authenticated
+2024283,2024284,5,6,鼠 虎 兔 蛇 狗,鼠 虎 兔 蛇 馬 狗,鼠 牛 虎 龍 馬,鼠 牛 虎 龍 馬,鼠 虎,2,鼠 虎 馬,3,stored historical labels; not externally authenticated
+2024284,2024285,5,5,鼠 牛 虎 龍 馬,鼠 牛 虎 龍 馬,牛 兔 羊 狗,牛 兔 羊 猴 狗,牛,1,牛,1,stored historical labels; not externally authenticated
+2024286,2024287,6,6,虎 兔 龍 羊 猴 豬,虎 兔 龍 羊 猴 豬,鼠 龍 蛇 猴 豬,鼠 牛 龍 蛇 猴 豬,龍 猴 豬,3,龍 猴 豬,3,stored historical labels; not externally authenticated
+2024287,2024288,5,6,鼠 龍 蛇 猴 豬,鼠 牛 龍 蛇 猴 豬,虎 馬 猴 豬,虎 兔 馬 猴 豬,猴 豬,2,猴 豬,2,stored historical labels; not externally authenticated
+2024289,2024290,5,6,虎 龍 蛇 鷄 豬,牛 虎 龍 蛇 鷄 豬,牛 兔 龍 馬 鷄 狗,牛 兔 龍 馬 鷄 狗,龍 鷄,2,牛 龍 鷄,3,stored historical labels; not externally authenticated
+2024290,2024291,6,6,牛 兔 龍 馬 鷄 狗,牛 兔 龍 馬 鷄 狗,鼠 兔 龍 馬 鷄 狗,鼠 兔 龍 馬 鷄 狗,兔 龍 馬 鷄 狗,5,兔 龍 馬 鷄 狗,5,stored historical labels; not externally authenticated
+2024291,2024292,6,6,鼠 兔 龍 馬 鷄 狗,鼠 兔 龍 馬 鷄 狗,兔 蛇 馬 狗 豬,兔 蛇 馬 鷄 狗 豬,兔 馬 狗,3,兔 馬 鷄 狗,4,stored historical labels; not externally authenticated
+2024292,2024293,5,6,兔 蛇 馬 狗 豬,兔 蛇 馬 鷄 狗 豬,鼠 龍 蛇 羊 豬,鼠 龍 蛇 羊 豬,蛇 豬,2,蛇 豬,2,stored historical labels; not externally authenticated
+2024293,2024294,5,5,鼠 龍 蛇 羊 豬,鼠 龍 蛇 羊 豬,虎 兔 龍 蛇 馬,虎 兔 龍 蛇 馬,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2024294,2024295,5,5,虎 兔 龍 蛇 馬,虎 兔 龍 蛇 馬,兔 龍 蛇 猴 豬,兔 龍 蛇 猴 豬,兔 龍 蛇,3,兔 龍 蛇,3,stored historical labels; not externally authenticated
+2024295,2024296,5,5,兔 龍 蛇 猴 豬,兔 龍 蛇 猴 豬,鼠 牛 馬 羊,鼠 牛 馬 羊 猴,,0,猴,1,stored historical labels; not externally authenticated
+2024297,2024298,5,6,虎 兔 蛇 狗 豬,虎 兔 龍 蛇 狗 豬,鼠 虎 鷄 狗 豬,鼠 虎 鷄 狗 豬,虎 狗 豬,3,虎 狗 豬,3,stored historical labels; not externally authenticated
+2024298,2024299,5,5,鼠 虎 鷄 狗 豬,鼠 虎 鷄 狗 豬,鼠 虎 龍 羊 狗,鼠 虎 龍 羊 猴 狗,鼠 虎 狗,3,鼠 虎 狗,3,stored historical labels; not externally authenticated
+2024299,2024300,5,6,鼠 虎 龍 羊 狗,鼠 虎 龍 羊 猴 狗,龍 羊 猴 狗 豬,龍 羊 猴 狗 豬,龍 羊 狗,3,龍 羊 猴 狗,4,stored historical labels; not externally authenticated
+2024300,2024301,5,5,龍 羊 猴 狗 豬,龍 羊 猴 狗 豬,龍 羊 猴 鷄 狗 豬,牛 龍 羊 猴 鷄 狗 豬,龍 羊 猴 狗 豬,5,龍 羊 猴 狗 豬,5,stored historical labels; not externally authenticated
+2024301,2024302,6,7,龍 羊 猴 鷄 狗 豬,牛 龍 羊 猴 鷄 狗 豬,牛 龍 蛇 鷄 豬,牛 龍 蛇 鷄 豬,龍 鷄 豬,3,牛 龍 鷄 豬,4,stored historical labels; not externally authenticated
+2024302,2024303,5,5,牛 龍 蛇 鷄 豬,牛 龍 蛇 鷄 豬,鼠 牛 龍 馬 羊 鷄,鼠 牛 兔 龍 馬 羊 鷄,牛 龍 鷄,3,牛 龍 鷄,3,stored historical labels; not externally authenticated
+2024303,2024304,6,7,鼠 牛 龍 馬 羊 鷄,鼠 牛 兔 龍 馬 羊 鷄,虎 兔 龍 蛇 猴,鼠 虎 兔 龍 蛇 猴,龍,1,鼠 兔 龍,3,stored historical labels; not externally authenticated
+2024304,2024305,5,6,虎 兔 龍 蛇 猴,鼠 虎 兔 龍 蛇 猴,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,虎 兔 猴,3,鼠 虎 兔 猴,4,stored historical labels; not externally authenticated
+2024305,2024306,6,6,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,鼠 兔 猴 狗 豬,鼠 兔 猴 鷄 狗 豬,鼠 兔 猴,3,鼠 兔 猴 鷄,4,stored historical labels; not externally authenticated
+2024306,2024307,5,6,鼠 兔 猴 狗 豬,鼠 兔 猴 鷄 狗 豬,虎 龍 蛇 羊 鷄,虎 龍 蛇 羊 鷄,,0,鷄,1,stored historical labels; not externally authenticated
+2024307,2024308,5,5,虎 龍 蛇 羊 鷄,虎 龍 蛇 羊 鷄,鼠 羊 猴 鷄 狗,鼠 羊 猴 鷄 狗,羊 鷄,2,羊 鷄,2,stored historical labels; not externally authenticated
+2024308,2024309,5,5,鼠 羊 猴 鷄 狗,鼠 羊 猴 鷄 狗,鼠 虎 龍 馬 狗,鼠 虎 龍 馬 猴 狗,鼠 狗,2,鼠 猴 狗,3,stored historical labels; not externally authenticated
+2024309,2024310,5,6,鼠 虎 龍 馬 狗,鼠 虎 龍 馬 猴 狗,鼠 兔 蛇 馬 狗,鼠 牛 兔 蛇 馬 狗,鼠 馬 狗,3,鼠 馬 狗,3,stored historical labels; not externally authenticated
+2024310,2024311,5,6,鼠 兔 蛇 馬 狗,鼠 牛 兔 蛇 馬 狗,鼠 兔 龍 蛇,鼠 兔 龍 蛇 猴,鼠 兔 蛇,3,鼠 兔 蛇,3,stored historical labels; not externally authenticated
+2024312,2024313,6,7,鼠 虎 兔 馬 猴 狗,鼠 虎 兔 蛇 馬 猴 狗,鼠 虎 兔 蛇 馬 狗,鼠 虎 兔 蛇 馬 羊 狗,鼠 虎 兔 馬 狗,5,鼠 虎 兔 蛇 馬 狗,6,stored historical labels; not externally authenticated
+2024313,2024314,6,7,鼠 虎 兔 蛇 馬 狗,鼠 虎 兔 蛇 馬 羊 狗,鼠 牛 虎 蛇 豬,鼠 牛 虎 蛇 豬,鼠 虎 蛇,3,鼠 虎 蛇,3,stored historical labels; not externally authenticated
+2024314,2024315,5,5,鼠 牛 虎 蛇 豬,鼠 牛 虎 蛇 豬,牛 馬 猴 狗 豬,牛 馬 猴 狗 豬,牛 豬,2,牛 豬,2,stored historical labels; not externally authenticated
+2024315,2024316,5,5,牛 馬 猴 狗 豬,牛 馬 猴 狗 豬,鼠 虎 蛇 羊 鷄,鼠 虎 蛇 羊 鷄,,0,,0,stored historical labels; not externally authenticated
+2024316,2024317,5,5,鼠 虎 蛇 羊 鷄,鼠 虎 蛇 羊 鷄,龍 猴 鷄 狗 豬,龍 猴 鷄 狗 豬,鷄,1,鷄,1,stored historical labels; not externally authenticated
+2024317,2024318,5,5,龍 猴 鷄 狗 豬,龍 猴 鷄 狗 豬,虎 兔 龍 羊 猴,虎 兔 龍 羊 猴 鷄,龍 猴,2,龍 猴 鷄,3,stored historical labels; not externally authenticated
+2024318,2024319,5,6,虎 兔 龍 羊 猴,虎 兔 龍 羊 猴 鷄,牛 猴 狗 豬,鼠 牛 猴 狗 豬,猴,1,猴,1,stored historical labels; not externally authenticated
+2024320,2024321,5,6,牛 龍 羊 鷄 豬,牛 龍 蛇 羊 鷄 豬,龍 蛇 馬 羊 豬,龍 蛇 馬 羊 豬,龍 羊 豬,3,龍 蛇 羊 豬,4,stored historical labels; not externally authenticated
+2024321,2024322,5,5,龍 蛇 馬 羊 豬,龍 蛇 馬 羊 豬,鼠 蛇 羊 猴,鼠 虎 蛇 羊 猴,蛇 羊,2,蛇 羊,2,stored historical labels; not externally authenticated
+2024323,2024324,6,6,鼠 牛 虎 龍 狗 豬,鼠 牛 虎 龍 狗 豬,牛 兔 龍 蛇 鷄,牛 兔 龍 蛇 鷄,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024324,2024325,5,5,牛 兔 龍 蛇 鷄,牛 兔 龍 蛇 鷄,鼠 虎 羊 猴 鷄 狗,鼠 牛 虎 羊 猴 鷄 狗,鷄,1,牛 鷄,2,stored historical labels; not externally authenticated
+2024325,2024326,6,7,鼠 虎 羊 猴 鷄 狗,鼠 牛 虎 羊 猴 鷄 狗,鼠 虎 龍 馬 羊 豬,鼠 虎 龍 馬 羊 狗 豬,鼠 虎 羊,3,鼠 虎 羊 狗,4,stored historical labels; not externally authenticated
+2024326,2024327,6,7,鼠 虎 龍 馬 羊 豬,鼠 虎 龍 馬 羊 狗 豬,虎 兔 龍 馬 狗,鼠 虎 兔 龍 馬 狗,虎 龍 馬,3,鼠 虎 龍 馬 狗,5,stored historical labels; not externally authenticated
+2024327,2024328,5,6,虎 兔 龍 馬 狗,鼠 虎 兔 龍 馬 狗,鼠 牛 虎 蛇 鷄 狗,鼠 牛 虎 蛇 鷄 狗,虎 狗,2,鼠 虎 狗,3,stored historical labels; not externally authenticated
+2024328,2024329,6,6,鼠 牛 虎 蛇 鷄 狗,鼠 牛 虎 蛇 鷄 狗,鼠 牛 虎 兔 龍,鼠 牛 虎 兔 龍,鼠 牛 虎,3,鼠 牛 虎,3,stored historical labels; not externally authenticated
+2024329,2024330,5,5,鼠 牛 虎 兔 龍,鼠 牛 虎 兔 龍,鼠 兔 蛇 狗 豬,鼠 兔 蛇 馬 狗 豬,鼠 兔,2,鼠 兔,2,stored historical labels; not externally authenticated
+2024330,2024331,5,6,鼠 兔 蛇 狗 豬,鼠 兔 蛇 馬 狗 豬,鼠 牛 虎 鷄 狗,鼠 牛 虎 鷄 狗 豬,鼠 狗,2,鼠 狗 豬,3,stored historical labels; not externally authenticated
+2024331,2024332,5,6,鼠 牛 虎 鷄 狗,鼠 牛 虎 鷄 狗 豬,鼠 牛 龍 馬 鷄,鼠 牛 龍 馬 鷄,鼠 牛 鷄,3,鼠 牛 鷄,3,stored historical labels; not externally authenticated
+2024332,2024333,5,5,鼠 牛 龍 馬 鷄,鼠 牛 龍 馬 鷄,鼠 龍 馬 狗 豬,鼠 牛 龍 馬 狗 豬,鼠 龍 馬,3,鼠 牛 龍 馬,4,stored historical labels; not externally authenticated
+2024333,2024334,5,6,鼠 龍 馬 狗 豬,鼠 牛 龍 馬 狗 豬,虎 兔 蛇 馬 羊 豬,虎 兔 蛇 馬 羊 豬,馬 豬,2,馬 豬,2,stored historical labels; not externally authenticated
+2024334,2024335,6,6,虎 兔 蛇 馬 羊 豬,虎 兔 蛇 馬 羊 豬,鼠 牛 龍 蛇 羊 豬,鼠 牛 龍 蛇 羊 豬,蛇 羊 豬,3,蛇 羊 豬,3,stored historical labels; not externally authenticated
+2024335,2024336,6,6,鼠 牛 龍 蛇 羊 豬,鼠 牛 龍 蛇 羊 豬,牛 虎 蛇 猴 鷄,鼠 牛 虎 蛇 猴 鷄,牛 蛇,2,鼠 牛 蛇,3,stored historical labels; not externally authenticated
+2024336,2024337,5,6,牛 虎 蛇 猴 鷄,鼠 牛 虎 蛇 猴 鷄,鼠 牛 蛇 馬 猴 鷄,鼠 牛 蛇 馬 猴 鷄,牛 蛇 猴 鷄,4,鼠 牛 蛇 猴 鷄,5,stored historical labels; not externally authenticated
+2024337,2024338,6,6,鼠 牛 蛇 馬 猴 鷄,鼠 牛 蛇 馬 猴 鷄,牛 虎 龍 羊 猴,牛 虎 龍 羊 猴,牛 猴,2,牛 猴,2,stored historical labels; not externally authenticated
+2024338,2024339,5,5,牛 虎 龍 羊 猴,牛 虎 龍 羊 猴,鼠 牛 虎 龍 豬,鼠 牛 虎 兔 龍 豬,牛 虎 龍,3,牛 虎 龍,3,stored historical labels; not externally authenticated
+2024339,2024340,5,6,鼠 牛 虎 龍 豬,鼠 牛 虎 兔 龍 豬,兔 猴 鷄 豬,兔 馬 猴 鷄 豬,豬,1,兔 豬,2,stored historical labels; not externally authenticated
+2024341,2024342,5,5,兔 羊 猴 狗 豬,兔 羊 猴 狗 豬,鼠 牛 蛇 馬 猴,鼠 牛 龍 蛇 馬 猴,猴,1,猴,1,stored historical labels; not externally authenticated
+2024342,2024343,5,6,鼠 牛 蛇 馬 猴,鼠 牛 龍 蛇 馬 猴,虎 兔 馬 鷄,虎 兔 馬 猴 鷄,馬,1,馬 猴,2,stored historical labels; not externally authenticated
+2024344,2024345,5,6,牛 虎 龍 馬 豬,牛 虎 兔 龍 馬 豬,兔 蛇 羊 猴 鷄 豬,兔 蛇 羊 猴 鷄 豬,豬,1,兔 豬,2,stored historical labels; not externally authenticated
+2024345,2024346,6,6,兔 蛇 羊 猴 鷄 豬,兔 蛇 羊 猴 鷄 豬,龍 馬 鷄 狗 豬,鼠 龍 馬 鷄 狗 豬,鷄 豬,2,鷄 豬,2,stored historical labels; not externally authenticated
+2024346,2024347,5,6,龍 馬 鷄 狗 豬,鼠 龍 馬 鷄 狗 豬,牛 虎 兔 龍 馬 猴,牛 虎 兔 龍 馬 猴,龍 馬,2,龍 馬,2,stored historical labels; not externally authenticated
+2024347,2024348,6,6,牛 虎 兔 龍 馬 猴,牛 虎 兔 龍 馬 猴,鼠 兔 龍 馬 猴 豬,鼠 兔 龍 馬 猴 豬,兔 龍 馬 猴,4,兔 龍 馬 猴,4,stored historical labels; not externally authenticated
+2024348,2024349,6,6,鼠 兔 龍 馬 猴 豬,鼠 兔 龍 馬 猴 豬,鼠 蛇 馬 羊 鷄,鼠 龍 蛇 馬 羊 鷄,鼠 馬,2,鼠 龍 馬,3,stored historical labels; not externally authenticated
+2024349,2024350,5,6,鼠 蛇 馬 羊 鷄,鼠 龍 蛇 馬 羊 鷄,鼠 虎 兔 羊 鷄 豬,鼠 牛 虎 兔 羊 鷄 豬,鼠 羊 鷄,3,鼠 羊 鷄,3,stored historical labels; not externally authenticated
+2024350,2024351,6,7,鼠 虎 兔 羊 鷄 豬,鼠 牛 虎 兔 羊 鷄 豬,鼠 兔 龍 羊 鷄,鼠 虎 兔 龍 羊 鷄,鼠 兔 羊 鷄,4,鼠 虎 兔 羊 鷄,5,stored historical labels; not externally authenticated
+2024351,2024352,5,6,鼠 兔 龍 羊 鷄,鼠 虎 兔 龍 羊 鷄,鼠 牛 兔 龍 猴 鷄,鼠 牛 兔 龍 羊 猴 鷄,鼠 兔 龍 鷄,4,鼠 兔 龍 羊 鷄,5,stored historical labels; not externally authenticated
+2024352,2024353,6,7,鼠 牛 兔 龍 猴 鷄,鼠 牛 兔 龍 羊 猴 鷄,牛 虎 蛇 羊 猴,牛 虎 蛇 馬 羊 猴,牛 猴,2,牛 羊 猴,3,stored historical labels; not externally authenticated
+2024353,2024354,5,6,牛 虎 蛇 羊 猴,牛 虎 蛇 馬 羊 猴,兔 蛇 羊 鷄 豬,兔 龍 蛇 羊 鷄 豬,蛇 羊,2,蛇 羊,2,stored historical labels; not externally authenticated
+2024354,2024355,5,6,兔 蛇 羊 鷄 豬,兔 龍 蛇 羊 鷄 豬,牛 兔 龍 蛇 馬 猴,牛 兔 龍 蛇 馬 猴,兔 蛇,2,兔 龍 蛇,3,stored historical labels; not externally authenticated
+2024355,2024356,6,6,牛 兔 龍 蛇 馬 猴,牛 兔 龍 蛇 馬 猴,兔 龍 馬 鷄 狗,兔 龍 馬 羊 鷄 狗,兔 龍 馬,3,兔 龍 馬,3,stored historical labels; not externally authenticated
+2024356,2024357,5,6,兔 龍 馬 鷄 狗,兔 龍 馬 羊 鷄 狗,牛 兔 龍 鷄 狗,牛 兔 龍 猴 鷄 狗,兔 龍 鷄 狗,4,兔 龍 鷄 狗,4,stored historical labels; not externally authenticated
+2024357,2024358,5,6,牛 兔 龍 鷄 狗,牛 兔 龍 猴 鷄 狗,鼠 牛 虎 羊 狗 豬,鼠 牛 虎 羊 猴 狗 豬,牛 狗,2,牛 猴 狗,3,stored historical labels; not externally authenticated
+2024358,2024359,6,7,鼠 牛 虎 羊 狗 豬,鼠 牛 虎 羊 猴 狗 豬,牛 兔 羊 狗 豬,牛 虎 兔 羊 狗 豬,牛 羊 狗 豬,4,牛 虎 羊 狗 豬,5,stored historical labels; not externally authenticated
+2024359,2024360,5,6,牛 兔 羊 狗 豬,牛 虎 兔 羊 狗 豬,兔 龍 蛇 馬 狗,兔 龍 蛇 馬 狗,兔 狗,2,兔 狗,2,stored historical labels; not externally authenticated
+2024360,2024361,5,5,兔 龍 蛇 馬 狗,兔 龍 蛇 馬 狗,牛 虎 羊 狗,牛 虎 羊 鷄 狗,狗,1,狗,1,stored historical labels; not externally authenticated
+2024362,2024363,5,6,鼠 牛 蛇 羊 狗,鼠 牛 兔 蛇 羊 狗,鼠 牛 龍 蛇 鷄 豬,鼠 牛 龍 蛇 鷄 豬,鼠 牛 蛇,3,鼠 牛 蛇,3,stored historical labels; not externally authenticated
+2024363,2024364,6,6,鼠 牛 龍 蛇 鷄 豬,鼠 牛 龍 蛇 鷄 豬,牛 虎 龍 馬 狗,牛 虎 龍 馬 狗,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024364,2024365,5,5,牛 虎 龍 馬 狗,牛 虎 龍 馬 狗,鼠 牛 龍 蛇 豬,鼠 牛 龍 蛇 豬,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2024365,2024366,5,5,鼠 牛 龍 蛇 豬,鼠 牛 龍 蛇 豬,鼠 龍 蛇 猴 狗,鼠 龍 蛇 猴 狗 豬,鼠 龍 蛇,3,鼠 龍 蛇 豬,4,stored historical labels; not externally authenticated
+2024366,2025001,5,6,鼠 龍 蛇 猴 狗,鼠 龍 蛇 猴 狗 豬,鼠 虎 兔 龍 豬,鼠 虎 兔 龍 羊 豬,鼠 龍,2,鼠 龍 豬,3,stored historical labels; not externally authenticated
+2025001,2025002,5,6,鼠 虎 兔 龍 豬,鼠 虎 兔 龍 羊 豬,鼠 牛 龍 羊 豬,鼠 牛 龍 羊 豬,鼠 龍 豬,3,鼠 龍 羊 豬,4,stored historical labels; not externally authenticated
+2025002,2025003,5,5,鼠 牛 龍 羊 豬,鼠 牛 龍 羊 豬,牛 龍 馬 豬,牛 龍 馬 猴 豬,牛 龍 豬,3,牛 龍 豬,3,stored historical labels; not externally authenticated
+2025004,2025005,5,5,鼠 牛 龍 猴 狗,鼠 牛 龍 猴 狗,牛 虎 馬 羊 猴 鷄,牛 虎 馬 羊 猴 鷄,牛 猴,2,牛 猴,2,stored historical labels; not externally authenticated
+2025005,2025006,6,6,牛 虎 馬 羊 猴 鷄,牛 虎 馬 羊 猴 鷄,牛 虎 龍 蛇 豬,牛 虎 龍 蛇 豬,牛 虎,2,牛 虎,2,stored historical labels; not externally authenticated
+2025006,2025007,5,5,牛 虎 龍 蛇 豬,牛 虎 龍 蛇 豬,虎 蛇 猴 鷄 狗,虎 蛇 猴 鷄 狗,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2025007,2025008,5,5,虎 蛇 猴 鷄 狗,虎 蛇 猴 鷄 狗,龍 蛇 馬 鷄,龍 蛇 馬 羊 鷄,蛇 鷄,2,蛇 鷄,2,stored historical labels; not externally authenticated
+2025009,2025010,5,6,鼠 龍 馬 羊 狗,鼠 龍 馬 羊 狗 豬,鼠 龍 馬 猴 豬,鼠 龍 馬 猴 豬,鼠 龍 馬,3,鼠 龍 馬 豬,4,stored historical labels; not externally authenticated
+2025010,2025011,5,5,鼠 龍 馬 猴 豬,鼠 龍 馬 猴 豬,虎 龍 羊 猴 狗 豬,虎 龍 羊 猴 狗 豬,龍 猴 豬,3,龍 猴 豬,3,stored historical labels; not externally authenticated
+2025011,2025012,6,6,虎 龍 羊 猴 狗 豬,虎 龍 羊 猴 狗 豬,牛 虎 龍 蛇 羊 鷄,牛 虎 龍 蛇 羊 鷄,虎 龍 羊,3,虎 龍 羊,3,stored historical labels; not externally authenticated
+2025012,2025013,6,6,牛 虎 龍 蛇 羊 鷄,牛 虎 龍 蛇 羊 鷄,龍 蛇 馬 狗 豬,龍 蛇 馬 狗 豬,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2025013,2025014,5,5,龍 蛇 馬 狗 豬,龍 蛇 馬 狗 豬,鼠 虎 蛇 鷄 豬,鼠 虎 蛇 鷄 豬,蛇 豬,2,蛇 豬,2,stored historical labels; not externally authenticated
+2025014,2025015,5,5,鼠 虎 蛇 鷄 豬,鼠 虎 蛇 鷄 豬,虎 兔 龍 蛇 狗,虎 兔 龍 蛇 狗,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2025015,2025016,5,5,虎 兔 龍 蛇 狗,虎 兔 龍 蛇 狗,牛 虎 羊 狗 豬,牛 虎 羊 猴 狗 豬,虎 狗,2,虎 狗,2,stored historical labels; not externally authenticated
+2025016,2025017,5,6,牛 虎 羊 狗 豬,牛 虎 羊 猴 狗 豬,鼠 龍 羊 鷄 豬,鼠 兔 龍 羊 鷄 豬,羊 豬,2,羊 豬,2,stored historical labels; not externally authenticated
+2025017,2025018,5,6,鼠 龍 羊 鷄 豬,鼠 兔 龍 羊 鷄 豬,龍 蛇 猴 鷄,龍 蛇 羊 猴 鷄,龍 鷄,2,龍 羊 鷄,3,stored historical labels; not externally authenticated
+2025020,2025021,5,6,牛 兔 龍 馬 鷄,牛 兔 龍 馬 羊 鷄,虎 蛇 鷄 狗 豬,虎 兔 蛇 鷄 狗 豬,鷄,1,兔 鷄,2,stored historical labels; not externally authenticated
+2025021,2025022,5,6,虎 蛇 鷄 狗 豬,虎 兔 蛇 鷄 狗 豬,牛 虎 兔 馬 豬,牛 虎 兔 馬 豬,虎 豬,2,虎 兔 豬,3,stored historical labels; not externally authenticated
+2025022,2025023,5,5,牛 虎 兔 馬 豬,牛 虎 兔 馬 豬,牛 虎 猴 狗 豬,牛 虎 猴 狗 豬,牛 虎 豬,3,牛 虎 豬,3,stored historical labels; not externally authenticated
+2025023,2025024,5,5,牛 虎 猴 狗 豬,牛 虎 猴 狗 豬,牛 虎 兔 猴 豬,鼠 牛 虎 兔 猴 豬,牛 虎 猴 豬,4,牛 虎 猴 豬,4,stored historical labels; not externally authenticated
+2025024,2025025,5,6,牛 虎 兔 猴 豬,鼠 牛 虎 兔 猴 豬,鼠 牛 鷄 豬,鼠 牛 鷄 豬,牛 豬,2,鼠 牛 豬,3,stored historical labels; not externally authenticated
+2025026,2025027,6,6,兔 龍 蛇 羊 猴 狗,兔 龍 蛇 羊 猴 狗,牛 兔 猴 鷄 豬,牛 兔 龍 猴 鷄 豬,兔 猴,2,兔 龍 猴,3,stored historical labels; not externally authenticated
+2025027,2025028,5,6,牛 兔 猴 鷄 豬,牛 兔 龍 猴 鷄 豬,鼠 牛 兔 羊 猴,鼠 牛 兔 羊 猴,牛 兔 猴,3,牛 兔 猴,3,stored historical labels; not externally authenticated
+2025029,2025030,5,6,兔 龍 羊 猴 豬,兔 龍 蛇 羊 猴 豬,兔 羊 猴 鷄 狗,兔 蛇 羊 猴 鷄 狗,兔 羊 猴,3,兔 蛇 羊 猴,4,stored historical labels; not externally authenticated
+2025030,2025031,5,6,兔 羊 猴 鷄 狗,兔 蛇 羊 猴 鷄 狗,鼠 蛇 馬 羊 鷄 狗,鼠 蛇 馬 羊 猴 鷄 狗,羊 鷄 狗,3,蛇 羊 猴 鷄 狗,5,stored historical labels; not externally authenticated
+2025031,2025032,6,7,鼠 蛇 馬 羊 鷄 狗,鼠 蛇 馬 羊 猴 鷄 狗,牛 兔 龍 蛇 猴 鷄,牛 兔 龍 蛇 猴 鷄,蛇 鷄,2,蛇 猴 鷄,3,stored historical labels; not externally authenticated
+2025032,2025033,6,6,牛 兔 龍 蛇 猴 鷄,牛 兔 龍 蛇 猴 鷄,牛 虎 兔 猴 豬,牛 虎 兔 馬 猴 豬,牛 兔 猴,3,牛 兔 猴,3,stored historical labels; not externally authenticated
+2025033,2025034,5,6,牛 虎 兔 猴 豬,牛 虎 兔 馬 猴 豬,虎 蛇 鷄,虎 蛇 羊 鷄,虎,1,虎,1,stored historical labels; not externally authenticated
+2025035,2025036,5,6,鼠 兔 蛇 羊 狗,鼠 兔 蛇 羊 鷄 狗,虎 龍 羊 猴 豬,牛 虎 龍 羊 猴 豬,羊,1,羊,1,stored historical labels; not externally authenticated
+2025036,2025037,5,6,虎 龍 羊 猴 豬,牛 虎 龍 羊 猴 豬,虎 蛇 羊 猴 狗,虎 蛇 羊 猴 狗,虎 羊 猴,3,虎 羊 猴,3,stored historical labels; not externally authenticated
+2025037,2025038,5,5,虎 蛇 羊 猴 狗,虎 蛇 羊 猴 狗,兔 蛇 馬 羊,兔 蛇 馬 羊 狗,蛇 羊,2,蛇 羊 狗,3,stored historical labels; not externally authenticated
+2025040,2025041,5,5,鼠 虎 蛇 羊 狗,鼠 虎 蛇 羊 狗,鼠 虎 龍 馬 羊 猴,鼠 虎 龍 馬 羊 猴,鼠 虎 羊,3,鼠 虎 羊,3,stored historical labels; not externally authenticated
+2025041,2025042,6,6,鼠 虎 龍 馬 羊 猴,鼠 虎 龍 馬 羊 猴,兔 蛇 羊 猴 狗,鼠 兔 蛇 羊 猴 狗,羊 猴,2,鼠 羊 猴,3,stored historical labels; not externally authenticated
+2025042,2025043,5,6,兔 蛇 羊 猴 狗,鼠 兔 蛇 羊 猴 狗,虎 兔 龍 羊 豬,虎 兔 龍 蛇 羊 豬,兔 羊,2,兔 蛇 羊,3,stored historical labels; not externally authenticated
+2025043,2025044,5,6,虎 兔 龍 羊 豬,虎 兔 龍 蛇 羊 豬,虎 龍 馬 猴 豬,虎 龍 馬 猴 豬,虎 龍 豬,3,虎 龍 豬,3,stored historical labels; not externally authenticated
+2025044,2025045,5,5,虎 龍 馬 猴 豬,虎 龍 馬 猴 豬,虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,虎 馬 豬,3,虎 馬 豬,3,stored historical labels; not externally authenticated
+2025045,2025046,5,6,虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,鼠 牛 蛇 馬 猴 鷄,鼠 牛 蛇 馬 猴 鷄,馬,1,鼠 馬,2,stored historical labels; not externally authenticated
+2025046,2025047,6,6,鼠 牛 蛇 馬 猴 鷄,鼠 牛 蛇 馬 猴 鷄,虎 龍 蛇 猴 狗 豬,虎 龍 蛇 馬 猴 狗 豬,蛇 猴,2,蛇 馬 猴,3,stored historical labels; not externally authenticated
+2025047,2025048,6,7,虎 龍 蛇 猴 狗 豬,虎 龍 蛇 馬 猴 狗 豬,兔 羊 猴 鷄 豬,鼠 兔 羊 猴 鷄 豬,猴 豬,2,猴 豬,2,stored historical labels; not externally authenticated
+2025048,2025049,5,6,兔 羊 猴 鷄 豬,鼠 兔 羊 猴 鷄 豬,鼠 牛 蛇 豬,鼠 牛 蛇 豬,豬,1,鼠 豬,2,stored historical labels; not externally authenticated
+2025050,2025051,5,5,牛 兔 馬 猴 鷄,牛 兔 馬 猴 鷄,鼠 兔 蛇 猴 豬,鼠 兔 蛇 猴 豬,兔 猴,2,兔 猴,2,stored historical labels; not externally authenticated
+2025051,2025052,5,5,鼠 兔 蛇 猴 豬,鼠 兔 蛇 猴 豬,鼠 牛 蛇 猴 豬,鼠 牛 蛇 猴 豬,鼠 蛇 猴 豬,4,鼠 蛇 猴 豬,4,stored historical labels; not externally authenticated
+2025052,2025053,5,5,鼠 牛 蛇 猴 豬,鼠 牛 蛇 猴 豬,牛 蛇 馬 鷄 豬,牛 蛇 馬 羊 鷄 豬,牛 蛇 豬,3,牛 蛇 豬,3,stored historical labels; not externally authenticated
+2025053,2025054,5,6,牛 蛇 馬 鷄 豬,牛 蛇 馬 羊 鷄 豬,鼠 虎 兔 羊 豬,鼠 虎 兔 蛇 羊 豬,豬,1,蛇 羊 豬,3,stored historical labels; not externally authenticated
+2025054,2025055,5,6,鼠 虎 兔 羊 豬,鼠 虎 兔 蛇 羊 豬,虎 蛇 馬 羊 豬,虎 蛇 馬 羊 狗 豬,虎 羊 豬,3,虎 蛇 羊 豬,4,stored historical labels; not externally authenticated
+2025055,2025056,5,6,虎 蛇 馬 羊 豬,虎 蛇 馬 羊 狗 豬,鼠 牛 鷄 狗 豬,鼠 牛 鷄 狗 豬,豬,1,狗 豬,2,stored historical labels; not externally authenticated
+2025056,2025057,5,5,鼠 牛 鷄 狗 豬,鼠 牛 鷄 狗 豬,虎 蛇 羊 猴,虎 蛇 羊 猴 狗,,0,狗,1,stored historical labels; not externally authenticated
+2025058,2025059,5,5,蛇 羊 猴 鷄 豬,蛇 羊 猴 鷄 豬,牛 虎 龍 馬,牛 虎 龍 馬,,0,,0,stored historical labels; not externally authenticated
+2025060,2025061,5,5,牛 蛇 羊 猴 狗,牛 蛇 羊 猴 狗,鼠 虎 兔 羊,鼠 虎 兔 羊 猴,羊,1,羊 猴,2,stored historical labels; not externally authenticated
+2025062,2025063,5,6,兔 龍 蛇 馬 猴,兔 龍 蛇 馬 羊 猴,鼠 牛 兔 龍 蛇 鷄,鼠 牛 兔 龍 蛇 羊 鷄,兔 龍 蛇,3,兔 龍 蛇 羊,4,stored historical labels; not externally authenticated
+2025063,2025064,6,7,鼠 牛 兔 龍 蛇 鷄,鼠 牛 兔 龍 蛇 羊 鷄,虎 兔 馬 羊 鷄,虎 兔 馬 羊 鷄 豬,兔 鷄,2,兔 羊 鷄,3,stored historical labels; not externally authenticated
+2025064,2025065,5,6,虎 兔 馬 羊 鷄,虎 兔 馬 羊 鷄 豬,鼠 牛 虎 龍 蛇 羊,鼠 牛 虎 龍 蛇 馬 羊,虎 羊,2,虎 馬 羊,3,stored historical labels; not externally authenticated
+2025065,2025066,6,7,鼠 牛 虎 龍 蛇 羊,鼠 牛 虎 龍 蛇 馬 羊,兔 龍 蛇 猴 鷄,兔 龍 蛇 馬 猴 鷄,龍 蛇,2,龍 蛇 馬,3,stored historical labels; not externally authenticated
+2025066,2025067,5,6,兔 龍 蛇 猴 鷄,兔 龍 蛇 馬 猴 鷄,兔 馬 羊 鷄,兔 馬 羊 鷄 狗,兔 鷄,2,兔 馬 鷄,3,stored historical labels; not externally authenticated
+2025068,2025069,5,6,鼠 虎 龍 羊 鷄,鼠 虎 龍 羊 鷄 狗,鼠 牛 虎 兔 狗,鼠 牛 虎 兔 狗,鼠 虎,2,鼠 虎 狗,3,stored historical labels; not externally authenticated
+2025069,2025070,5,5,鼠 牛 虎 兔 狗,鼠 牛 虎 兔 狗,鼠 虎 蛇 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,鼠 虎,2,鼠 虎,2,stored historical labels; not externally authenticated
+2025070,2025071,6,6,鼠 虎 蛇 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,虎 馬 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,虎 羊,2,虎 蛇 羊,3,stored historical labels; not externally authenticated
+2025071,2025072,5,6,虎 馬 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,龍 蛇 馬 羊 猴 鷄,虎 龍 蛇 馬 羊 猴 鷄,馬 羊 鷄,3,虎 蛇 馬 羊 鷄,5,stored historical labels; not externally authenticated
+2025072,2025073,6,7,龍 蛇 馬 羊 猴 鷄,虎 龍 蛇 馬 羊 猴 鷄,馬 羊 猴 鷄 豬,兔 馬 羊 猴 鷄 豬,馬 羊 猴 鷄,4,馬 羊 猴 鷄,4,stored historical labels; not externally authenticated
+2025073,2025074,5,6,馬 羊 猴 鷄 豬,兔 馬 羊 猴 鷄 豬,牛 蛇 羊 猴 鷄,牛 蛇 羊 猴 鷄,羊 猴 鷄,3,羊 猴 鷄,3,stored historical labels; not externally authenticated
+2025074,2025075,5,5,牛 蛇 羊 猴 鷄,牛 蛇 羊 猴 鷄,鼠 牛 蛇 猴 狗 豬,鼠 牛 蛇 猴 鷄 狗 豬,牛 蛇 猴,3,牛 蛇 猴 鷄,4,stored historical labels; not externally authenticated
+2025075,2025076,6,7,鼠 牛 蛇 猴 狗 豬,鼠 牛 蛇 猴 鷄 狗 豬,虎 龍 羊 猴,虎 兔 龍 羊 猴,猴,1,猴,1,stored historical labels; not externally authenticated
+2025078,2025079,5,6,鼠 兔 龍 羊 狗,鼠 虎 兔 龍 羊 狗,牛 虎 鷄 狗,牛 虎 猴 鷄 狗,狗,1,虎 狗,2,stored historical labels; not externally authenticated
+2025080,2025081,5,6,牛 兔 龍 狗 豬,牛 兔 龍 馬 狗 豬,鼠 虎 兔 馬 鷄 狗,鼠 虎 兔 龍 馬 鷄 狗,兔 狗,2,兔 龍 馬 狗,4,stored historical labels; not externally authenticated
+2025081,2025082,6,7,鼠 虎 兔 馬 鷄 狗,鼠 虎 兔 龍 馬 鷄 狗,虎 馬 羊 猴 鷄,虎 馬 羊 猴 鷄,虎 馬 鷄,3,虎 馬 鷄,3,stored historical labels; not externally authenticated
+2025082,2025083,5,5,虎 馬 羊 猴 鷄,虎 馬 羊 猴 鷄,鼠 虎 羊 猴 鷄,鼠 虎 羊 猴 鷄,虎 羊 猴 鷄,4,虎 羊 猴 鷄,4,stored historical labels; not externally authenticated
+2025083,2025084,5,5,鼠 虎 羊 猴 鷄,鼠 虎 羊 猴 鷄,牛 虎 龍 馬 羊 鷄,牛 虎 龍 馬 羊 鷄 狗,虎 羊 鷄,3,虎 羊 鷄,3,stored historical labels; not externally authenticated
+2025084,2025085,6,7,牛 虎 龍 馬 羊 鷄,牛 虎 龍 馬 羊 鷄 狗,鼠 龍 狗 豬,鼠 龍 羊 狗 豬,龍,1,龍 羊 狗,3,stored historical labels; not externally authenticated
+2025087,2025088,5,5,鼠 牛 虎 兔 龍,鼠 牛 虎 兔 龍,兔 龍 羊 猴 鷄,兔 龍 羊 猴 鷄,兔 龍,2,兔 龍,2,stored historical labels; not externally authenticated
+2025088,2025089,5,5,兔 龍 羊 猴 鷄,兔 龍 羊 猴 鷄,兔 蛇 鷄 豬,兔 龍 蛇 鷄 豬,兔 鷄,2,兔 龍 鷄,3,stored historical labels; not externally authenticated
+2025090,2025091,6,6,鼠 牛 龍 馬 羊 豬,鼠 牛 龍 馬 羊 豬,馬 羊 狗 豬,虎 馬 羊 狗 豬,馬 羊 豬,3,馬 羊 豬,3,stored historical labels; not externally authenticated
+2025092,2025093,5,5,虎 兔 馬 羊 狗,虎 兔 馬 羊 狗,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄,虎 兔 羊,3,虎 兔 羊,3,stored historical labels; not externally authenticated
+2025093,2025094,5,5,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄,兔 蛇 羊 豬,兔 蛇 羊 鷄 豬,兔 羊,2,兔 羊 鷄,3,stored historical labels; not externally authenticated
+2025096,2025097,5,5,鼠 牛 虎 蛇 猴,鼠 牛 虎 蛇 猴,虎 龍 蛇 馬 羊 狗,虎 龍 蛇 馬 羊 狗 豬,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2025097,2025098,6,7,虎 龍 蛇 馬 羊 狗,虎 龍 蛇 馬 羊 狗 豬,鼠 兔 鷄 狗 豬,鼠 兔 鷄 狗 豬,狗,1,狗 豬,2,stored historical labels; not externally authenticated
+2025098,2025099,5,5,鼠 兔 鷄 狗 豬,鼠 兔 鷄 狗 豬,鼠 龍 蛇 猴 豬,鼠 龍 蛇 猴 狗 豬,鼠 豬,2,鼠 狗 豬,3,stored historical labels; not externally authenticated
+2025099,2025100,5,6,鼠 龍 蛇 猴 豬,鼠 龍 蛇 猴 狗 豬,牛 兔 蛇 猴 狗 豬,鼠 牛 兔 蛇 猴 狗 豬,蛇 猴 豬,3,鼠 蛇 猴 狗 豬,5,stored historical labels; not externally authenticated
+2025100,2025101,6,7,牛 兔 蛇 猴 狗 豬,鼠 牛 兔 蛇 猴 狗 豬,鼠 蛇 馬 狗,鼠 蛇 馬 狗,蛇 狗,2,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2025102,2025103,6,7,鼠 虎 馬 羊 鷄 豬,鼠 虎 龍 馬 羊 鷄 豬,鼠 虎 兔 蛇,鼠 虎 兔 蛇 狗,鼠 虎,2,鼠 虎,2,stored historical labels; not externally authenticated
+2025105,2025106,5,6,鼠 虎 蛇 馬 豬,鼠 虎 龍 蛇 馬 豬,鼠 羊 猴 鷄 狗,鼠 羊 猴 鷄 狗,鼠,1,鼠,1,stored historical labels; not externally authenticated
+2025106,2025107,5,5,鼠 羊 猴 鷄 狗,鼠 羊 猴 鷄 狗,鼠 兔 馬 鷄 狗,鼠 兔 馬 猴 鷄 狗,鼠 鷄 狗,3,鼠 猴 鷄 狗,4,stored historical labels; not externally authenticated
+2025107,2025108,5,6,鼠 兔 馬 鷄 狗,鼠 兔 馬 猴 鷄 狗,虎 兔 蛇 狗,虎 兔 蛇 狗,兔 狗,2,兔 狗,2,stored historical labels; not externally authenticated
+2025109,2025110,6,7,鼠 牛 虎 羊 狗 豬,鼠 牛 虎 兔 羊 狗 豬,鼠 兔 龍 猴 狗 豬,鼠 兔 龍 羊 猴 狗 豬,鼠 狗 豬,3,鼠 兔 羊 狗 豬,5,stored historical labels; not externally authenticated
+2025110,2025111,6,7,鼠 兔 龍 猴 狗 豬,鼠 兔 龍 羊 猴 狗 豬,牛 虎 龍 蛇 馬,牛 虎 龍 蛇 馬 鷄,龍,1,龍,1,stored historical labels; not externally authenticated
+2025111,2025112,5,6,牛 虎 龍 蛇 馬,牛 虎 龍 蛇 馬 鷄,鼠 虎 兔 龍 馬 豬,鼠 虎 兔 龍 馬 鷄 豬,虎 龍 馬,3,虎 龍 馬 鷄,4,stored historical labels; not externally authenticated
+2025112,2025113,6,7,鼠 虎 兔 龍 馬 豬,鼠 虎 兔 龍 馬 鷄 豬,兔 龍 鷄 豬,兔 龍 猴 鷄 豬,兔 龍 豬,3,兔 龍 鷄 豬,4,stored historical labels; not externally authenticated
+2025114,2025115,5,6,鼠 牛 兔 猴 鷄,鼠 牛 兔 龍 猴 鷄,虎 龍 猴 鷄 豬,虎 兔 龍 猴 鷄 豬,猴 鷄,2,兔 龍 猴 鷄,4,stored historical labels; not externally authenticated
+2025115,2025116,5,6,虎 龍 猴 鷄 豬,虎 兔 龍 猴 鷄 豬,虎 馬 羊 猴 豬,虎 馬 羊 猴 豬,虎 猴 豬,3,虎 猴 豬,3,stored historical labels; not externally authenticated
+2025116,2025117,5,5,虎 馬 羊 猴 豬,虎 馬 羊 猴 豬,鼠 虎 猴 鷄,鼠 虎 羊 猴 鷄,虎 猴,2,虎 羊 猴,3,stored historical labels; not externally authenticated
+2025118,2025119,5,6,鼠 兔 羊 猴 豬,鼠 兔 馬 羊 猴 豬,鼠 蛇 猴 鷄 豬,鼠 龍 蛇 猴 鷄 豬,鼠 猴 豬,3,鼠 猴 豬,3,stored historical labels; not externally authenticated
+2025119,2025120,5,6,鼠 蛇 猴 鷄 豬,鼠 龍 蛇 猴 鷄 豬,鼠 牛 蛇 羊 豬,鼠 牛 虎 蛇 羊 豬,鼠 蛇 豬,3,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2025120,2025121,5,6,鼠 牛 蛇 羊 豬,鼠 牛 虎 蛇 羊 豬,兔 蛇 羊 猴 豬,兔 蛇 馬 羊 猴 豬,蛇 羊 豬,3,蛇 羊 豬,3,stored historical labels; not externally authenticated
+2025121,2025122,5,6,兔 蛇 羊 猴 豬,兔 蛇 馬 羊 猴 豬,兔 龍 羊 猴 豬,兔 龍 羊 猴 鷄 豬,兔 羊 猴 豬,4,兔 羊 猴 豬,4,stored historical labels; not externally authenticated
+2025122,2025123,5,6,兔 龍 羊 猴 豬,兔 龍 羊 猴 鷄 豬,鼠 虎 蛇 馬 鷄,鼠 虎 蛇 馬 鷄,,0,鷄,1,stored historical labels; not externally authenticated
+2025123,2025124,5,5,鼠 虎 蛇 馬 鷄,鼠 虎 蛇 馬 鷄,鼠 牛 兔 龍 鷄 豬,鼠 牛 兔 龍 猴 鷄 豬,鼠 鷄,2,鼠 鷄,2,stored historical labels; not externally authenticated
+2025124,2025125,6,7,鼠 牛 兔 龍 鷄 豬,鼠 牛 兔 龍 猴 鷄 豬,鼠 虎 蛇 狗 豬,鼠 虎 蛇 狗 豬,鼠 豬,2,鼠 豬,2,stored historical labels; not externally authenticated
+2025125,2025126,5,5,鼠 虎 蛇 狗 豬,鼠 虎 蛇 狗 豬,牛 虎 兔 蛇 猴 豬,牛 虎 兔 龍 蛇 猴 豬,虎 蛇 豬,3,虎 蛇 豬,3,stored historical labels; not externally authenticated
+2025126,2025127,6,7,牛 虎 兔 蛇 猴 豬,牛 虎 兔 龍 蛇 猴 豬,虎 羊 猴 鷄 狗,虎 蛇 羊 猴 鷄 狗,虎 猴,2,虎 蛇 猴,3,stored historical labels; not externally authenticated
+2025127,2025128,5,6,虎 羊 猴 鷄 狗,虎 蛇 羊 猴 鷄 狗,鼠 虎 龍 鷄 豬,鼠 虎 龍 蛇 鷄 豬,虎 鷄,2,虎 蛇 鷄,3,stored historical labels; not externally authenticated
+2025128,2025129,5,6,鼠 虎 龍 鷄 豬,鼠 虎 龍 蛇 鷄 豬,鼠 蛇 猴 鷄 狗 豬,鼠 虎 蛇 猴 鷄 狗 豬,鼠 鷄 豬,3,鼠 虎 蛇 鷄 豬,5,stored historical labels; not externally authenticated
+2025129,2025130,6,7,鼠 蛇 猴 鷄 狗 豬,鼠 虎 蛇 猴 鷄 狗 豬,鼠 虎 猴 鷄 狗,鼠 虎 羊 猴 鷄 狗,鼠 猴 鷄 狗,4,鼠 虎 猴 鷄 狗,5,stored historical labels; not externally authenticated
+2025130,2025131,5,6,鼠 虎 猴 鷄 狗,鼠 虎 羊 猴 鷄 狗,鼠 虎 蛇 馬 狗,鼠 虎 蛇 馬 羊 狗,鼠 虎 狗,3,鼠 虎 羊 狗,4,stored historical labels; not externally authenticated
+2025131,2025132,5,6,鼠 虎 蛇 馬 狗,鼠 虎 蛇 馬 羊 狗,鼠 兔 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,鼠 馬,2,鼠 馬 羊,3,stored historical labels; not externally authenticated
+2025132,2025133,6,6,鼠 兔 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,虎 兔 龍 蛇 鷄,虎 兔 龍 蛇 猴 鷄,兔 龍,2,兔 龍 猴,3,stored historical labels; not externally authenticated
+2025133,2025134,5,6,虎 兔 龍 蛇 鷄,虎 兔 龍 蛇 猴 鷄,鼠 虎 兔 龍 羊 猴,鼠 虎 兔 龍 羊 猴,虎 兔 龍,3,虎 兔 龍 猴,4,stored historical labels; not externally authenticated
+2025134,2025135,6,6,鼠 虎 兔 龍 羊 猴,鼠 虎 兔 龍 羊 猴,兔 蛇 猴 鷄 狗,兔 蛇 猴 鷄 狗,兔 猴,2,兔 猴,2,stored historical labels; not externally authenticated
+2025135,2025136,5,5,兔 蛇 猴 鷄 狗,兔 蛇 猴 鷄 狗,龍 蛇 羊 鷄 豬,龍 蛇 羊 鷄 豬,蛇 鷄,2,蛇 鷄,2,stored historical labels; not externally authenticated
+2025136,2025137,5,5,龍 蛇 羊 鷄 豬,龍 蛇 羊 鷄 豬,兔 蛇 馬 羊 猴 鷄,兔 蛇 馬 羊 猴 鷄,蛇 羊 鷄,3,蛇 羊 鷄,3,stored historical labels; not externally authenticated
+2025137,2025138,6,6,兔 蛇 馬 羊 猴 鷄,兔 蛇 馬 羊 猴 鷄,牛 兔 羊 狗,牛 兔 羊 狗,兔 羊,2,兔 羊,2,stored historical labels; not externally authenticated
+2025139,2025140,5,5,鼠 兔 龍 羊 鷄,鼠 兔 龍 羊 鷄,牛 兔 龍 猴 鷄 豬,牛 兔 龍 羊 猴 鷄 豬,兔 龍 鷄,3,兔 龍 羊 鷄,4,stored historical labels; not externally authenticated
+2025140,2025141,6,7,牛 兔 龍 猴 鷄 豬,牛 兔 龍 羊 猴 鷄 豬,鼠 兔 猴 豬,鼠 兔 蛇 猴 豬,兔 猴 豬,3,兔 猴 豬,3,stored historical labels; not externally authenticated
+2025142,2025143,5,5,鼠 牛 羊 鷄 狗,鼠 牛 羊 鷄 狗,牛 兔 龍 馬 豬,牛 兔 龍 馬 猴 豬,牛,1,牛,1,stored historical labels; not externally authenticated
+2025143,2025144,5,6,牛 兔 龍 馬 豬,牛 兔 龍 馬 猴 豬,牛 蛇 馬 猴 豬,牛 蛇 馬 猴 豬,牛 馬 豬,3,牛 馬 猴 豬,4,stored historical labels; not externally authenticated
+2025144,2025145,5,5,牛 蛇 馬 猴 豬,牛 蛇 馬 猴 豬,鼠 牛 虎 蛇 猴,鼠 牛 虎 蛇 猴,牛 蛇 猴,3,牛 蛇 猴,3,stored historical labels; not externally authenticated
+2025145,2025146,5,5,鼠 牛 虎 蛇 猴,鼠 牛 虎 蛇 猴,牛 兔 蛇 馬 羊,牛 兔 龍 蛇 馬 羊,牛 蛇,2,牛 蛇,2,stored historical labels; not externally authenticated
+2025146,2025147,5,6,牛 兔 蛇 馬 羊,牛 兔 龍 蛇 馬 羊,龍 羊 豬,龍 羊 狗 豬,羊,1,龍 羊,2,stored historical labels; not externally authenticated
+2025148,2025149,6,6,牛 龍 馬 鷄 狗 豬,牛 龍 馬 鷄 狗 豬,牛 兔 蛇 狗 豬,牛 兔 蛇 狗 豬,牛 狗 豬,3,牛 狗 豬,3,stored historical labels; not externally authenticated
+2025149,2025150,5,5,牛 兔 蛇 狗 豬,牛 兔 蛇 狗 豬,鼠 馬 鷄 豬,鼠 虎 馬 鷄 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2025151,2025152,5,5,牛 兔 龍 蛇 羊,牛 兔 龍 蛇 羊,牛 馬 羊 猴 鷄,牛 馬 羊 猴 鷄,牛 羊,2,牛 羊,2,stored historical labels; not externally authenticated
+2025152,2025153,5,5,牛 馬 羊 猴 鷄,牛 馬 羊 猴 鷄,鼠 蛇 羊 鷄 狗,鼠 蛇 羊 鷄 狗 豬,羊 鷄,2,羊 鷄,2,stored historical labels; not externally authenticated
+2025153,2025154,5,6,鼠 蛇 羊 鷄 狗,鼠 蛇 羊 鷄 狗 豬,鼠 蛇 羊 鷄,鼠 龍 蛇 羊 鷄,鼠 蛇 羊 鷄,4,鼠 蛇 羊 鷄,4,stored historical labels; not externally authenticated
+2025155,2025156,6,6,鼠 蛇 馬 猴 鷄 狗,鼠 蛇 馬 猴 鷄 狗,牛 虎 兔 龍 蛇 狗,鼠 牛 虎 兔 龍 蛇 狗,蛇 狗,2,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2025156,2025157,6,7,牛 虎 兔 龍 蛇 狗,鼠 牛 虎 兔 龍 蛇 狗,牛 虎 兔 蛇 馬,牛 虎 兔 蛇 馬 羊,牛 虎 兔 蛇,4,牛 虎 兔 蛇,4,stored historical labels; not externally authenticated
+2025157,2025158,5,6,牛 虎 兔 蛇 馬,牛 虎 兔 蛇 馬 羊,鼠 牛 虎 兔 馬 鷄,鼠 牛 虎 兔 馬 鷄,牛 虎 兔 馬,4,牛 虎 兔 馬,4,stored historical labels; not externally authenticated
+2025158,2025159,6,6,鼠 牛 虎 兔 馬 鷄,鼠 牛 虎 兔 馬 鷄,馬 羊 猴 鷄 狗,馬 羊 猴 鷄 狗 豬,馬 鷄,2,馬 鷄,2,stored historical labels; not externally authenticated
+2025159,2025160,5,6,馬 羊 猴 鷄 狗,馬 羊 猴 鷄 狗 豬,鼠 虎 羊 猴 狗,鼠 虎 羊 猴 狗,羊 猴 狗,3,羊 猴 狗,3,stored historical labels; not externally authenticated
+2025160,2025161,5,5,鼠 虎 羊 猴 狗,鼠 虎 羊 猴 狗,鼠 牛 龍 蛇 狗,鼠 牛 虎 龍 蛇 狗,鼠 狗,2,鼠 虎 狗,3,stored historical labels; not externally authenticated
+2025161,2025162,5,6,鼠 牛 龍 蛇 狗,鼠 牛 虎 龍 蛇 狗,兔 龍 馬 猴,兔 龍 蛇 馬 猴,龍,1,龍 蛇,2,stored historical labels; not externally authenticated
+2025163,2025164,6,7,鼠 牛 龍 猴 狗 豬,鼠 牛 龍 羊 猴 狗 豬,兔 龍 猴 狗,兔 龍 蛇 猴 狗,龍 猴 狗,3,龍 猴 狗,3,stored historical labels; not externally authenticated
+2025165,2025166,5,5,鼠 牛 蛇 羊 狗,鼠 牛 蛇 羊 狗,鼠 虎 龍,鼠 牛 虎 龍,鼠,1,鼠 牛,2,stored historical labels; not externally authenticated
+2025168,2025169,5,5,虎 兔 蛇 鷄 豬,虎 兔 蛇 鷄 豬,牛 龍 羊 狗 豬,牛 龍 羊 狗 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2025169,2025170,5,5,牛 龍 羊 狗 豬,牛 龍 羊 狗 豬,馬 猴 狗 豬,馬 猴 鷄 狗 豬,狗 豬,2,狗 豬,2,stored historical labels; not externally authenticated
+2025171,2025172,5,5,虎 兔 馬 羊 豬,虎 兔 馬 羊 豬,虎 兔 龍,虎 兔 龍 馬,虎 兔,2,虎 兔 馬,3,stored historical labels; not externally authenticated
+2025173,2025174,5,6,鼠 牛 虎 猴 狗,鼠 牛 虎 龍 猴 狗,馬 羊 猴 狗,兔 馬 羊 猴 狗,猴 狗,2,猴 狗,2,stored historical labels; not externally authenticated
+2025175,2025176,5,6,牛 兔 蛇 馬 狗,鼠 牛 兔 蛇 馬 狗,牛 虎 馬 猴,牛 虎 馬 猴,牛 馬,2,牛 馬,2,stored historical labels; not externally authenticated
+2025177,2025178,6,7,鼠 牛 蛇 羊 猴 豬,鼠 牛 虎 蛇 羊 猴 豬,鼠 蛇 狗 豬,鼠 兔 蛇 狗 豬,鼠 蛇 豬,3,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2025180,2025181,5,5,牛 虎 龍 蛇 豬,牛 虎 龍 蛇 豬,虎 兔 龍 蛇 猴 鷄,虎 兔 龍 蛇 羊 猴 鷄,虎 龍 蛇,3,虎 龍 蛇,3,stored historical labels; not externally authenticated
+2025181,2025182,6,7,虎 兔 龍 蛇 猴 鷄,虎 兔 龍 蛇 羊 猴 鷄,鼠 兔 蛇 猴 鷄,鼠 兔 蛇 猴 鷄,兔 蛇 猴 鷄,4,兔 蛇 猴 鷄,4,stored historical labels; not externally authenticated
+2025182,2025183,5,5,鼠 兔 蛇 猴 鷄,鼠 兔 蛇 猴 鷄,虎 兔 龍 馬 鷄 豬,虎 兔 龍 馬 鷄 豬,兔 鷄,2,兔 鷄,2,stored historical labels; not externally authenticated
+2025183,2025184,6,6,虎 兔 龍 馬 鷄 豬,虎 兔 龍 馬 鷄 豬,鼠 羊 狗,鼠 虎 羊 狗,,0,虎,1,stored historical labels; not externally authenticated
+2025185,2025186,6,6,牛 虎 蛇 羊 猴 鷄,牛 虎 蛇 羊 猴 鷄,牛 虎 蛇 猴 鷄 狗,牛 虎 蛇 猴 鷄 狗,牛 虎 蛇 猴 鷄,5,牛 虎 蛇 猴 鷄,5,stored historical labels; not externally authenticated
+2025186,2025187,6,6,牛 虎 蛇 猴 鷄 狗,牛 虎 蛇 猴 鷄 狗,鼠 虎 龍 豬,鼠 虎 龍 鷄 豬,虎,1,虎 鷄,2,stored historical labels; not externally authenticated
+2025188,2025189,5,5,兔 蛇 羊 狗 豬,兔 蛇 羊 狗 豬,牛 兔 馬 羊,牛 兔 馬 羊,兔 羊,2,兔 羊,2,stored historical labels; not externally authenticated
+2025191,2025192,6,6,鼠 牛 虎 蛇 馬 鷄,鼠 牛 虎 蛇 馬 鷄,兔 猴 狗 豬,兔 猴 鷄 狗 豬,,0,鷄,1,stored historical labels; not externally authenticated
+2025194,2025195,5,6,鼠 兔 羊 猴 豬,鼠 牛 兔 羊 猴 豬,鼠 兔 馬 猴 狗,鼠 兔 蛇 馬 猴 狗,鼠 兔 猴,3,鼠 兔 猴,3,stored historical labels; not externally authenticated
+2025195,2025196,5,6,鼠 兔 馬 猴 狗,鼠 兔 蛇 馬 猴 狗,兔 馬 鷄 豬,兔 龍 馬 鷄 豬,兔 馬,2,兔 馬,2,stored historical labels; not externally authenticated
+2025197,2025198,5,5,兔 蛇 馬 猴 豬,兔 蛇 馬 猴 豬,兔 鷄 豬,兔 鷄 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2025199,2025200,5,6,牛 蛇 羊 鷄 狗,牛 蛇 羊 猴 鷄 狗,鼠 牛 兔 羊 猴 鷄,鼠 牛 兔 羊 猴 鷄,牛 羊 鷄,3,牛 羊 猴 鷄,4,stored historical labels; not externally authenticated
+2025200,2025201,6,6,鼠 牛 兔 羊 猴 鷄,鼠 牛 兔 羊 猴 鷄,鼠 牛 蛇 猴,鼠 牛 蛇 羊 猴,鼠 牛 猴,3,鼠 牛 羊 猴,4,stored historical labels; not externally authenticated
+2025203,2025204,5,6,兔 馬 羊 猴 狗,鼠 兔 馬 羊 猴 狗,鼠 牛 兔 馬 羊 豬,鼠 牛 兔 馬 羊 豬,兔 馬 羊,3,鼠 兔 馬 羊,4,stored historical labels; not externally authenticated
+2025204,2025205,6,6,鼠 牛 兔 馬 羊 豬,鼠 牛 兔 馬 羊 豬,鼠 虎 蛇 馬 羊,鼠 虎 蛇 馬 羊,鼠 馬 羊,3,鼠 馬 羊,3,stored historical labels; not externally authenticated
+2025205,2025206,5,5,鼠 虎 蛇 馬 羊,鼠 虎 蛇 馬 羊,虎 兔 羊 狗 豬,虎 兔 羊 猴 狗 豬,虎 羊,2,虎 羊,2,stored historical labels; not externally authenticated
+2025206,2025207,5,6,虎 兔 羊 狗 豬,虎 兔 羊 猴 狗 豬,鼠 兔 蛇 鷄,鼠 兔 蛇 馬 鷄,兔,1,兔,1,stored historical labels; not externally authenticated
+2025212,2025213,5,6,牛 蛇 馬 羊 狗,鼠 牛 蛇 馬 羊 狗,兔 龍 馬 羊 猴 豬,兔 龍 馬 羊 猴 豬,馬 羊,2,馬 羊,2,stored historical labels; not externally authenticated
+2025213,2025214,6,6,兔 龍 馬 羊 猴 豬,兔 龍 馬 羊 猴 豬,虎 龍 蛇 馬 猴 豬,虎 兔 龍 蛇 馬 猴 豬,龍 馬 猴 豬,4,兔 龍 馬 猴 豬,5,stored historical labels; not externally authenticated
+2025214,2025215,6,7,虎 龍 蛇 馬 猴 豬,虎 兔 龍 蛇 馬 猴 豬,兔 蛇 馬 羊 鷄 豬,兔 蛇 馬 羊 鷄 豬,蛇 馬 豬,3,兔 蛇 馬 豬,4,stored historical labels; not externally authenticated
+2025215,2025216,6,6,兔 蛇 馬 羊 鷄 豬,兔 蛇 馬 羊 鷄 豬,牛 馬 猴 狗 豬,牛 馬 羊 猴 狗 豬,馬 豬,2,馬 羊 豬,3,stored historical labels; not externally authenticated
+2025216,2025217,5,6,牛 馬 猴 狗 豬,牛 馬 羊 猴 狗 豬,鼠 兔 蛇 羊 狗,鼠 兔 蛇 羊 猴 狗,狗,1,羊 猴 狗,3,stored historical labels; not externally authenticated
+2025217,2025218,5,6,鼠 兔 蛇 羊 狗,鼠 兔 蛇 羊 猴 狗,龍 馬 猴 狗,龍 馬 羊 猴 狗,狗,1,羊 猴 狗,3,stored historical labels; not externally authenticated
+2025219,2025220,5,6,牛 虎 蛇 羊 猴,牛 虎 蛇 羊 猴 鷄,虎 龍 羊 猴 豬,虎 龍 羊 猴 狗 豬,虎 羊 猴,3,虎 羊 猴,3,stored historical labels; not externally authenticated
+2025220,2025221,5,6,虎 龍 羊 猴 豬,虎 龍 羊 猴 狗 豬,兔 蛇 馬 羊 猴,兔 蛇 馬 羊 猴 狗,羊 猴,2,羊 猴 狗,3,stored historical labels; not externally authenticated
+2025221,2025222,5,6,兔 蛇 馬 羊 猴,兔 蛇 馬 羊 猴 狗,牛 虎 蛇 猴 鷄,牛 虎 蛇 猴 鷄 豬,蛇 猴,2,蛇 猴,2,stored historical labels; not externally authenticated
+2025222,2025223,5,6,牛 虎 蛇 猴 鷄,牛 虎 蛇 猴 鷄 豬,牛 馬 猴 狗 豬,牛 蛇 馬 猴 狗 豬,牛 猴,2,牛 蛇 猴 豬,4,stored historical labels; not externally authenticated
+2025223,2025224,5,6,牛 馬 猴 狗 豬,牛 蛇 馬 猴 狗 豬,蛇 鷄 豬,虎 蛇 鷄 豬,豬,1,蛇 豬,2,stored historical labels; not externally authenticated
+2025225,2025226,5,5,蛇 馬 羊 鷄 狗,蛇 馬 羊 鷄 狗,鼠 兔 龍 蛇 豬,鼠 兔 龍 蛇 豬,蛇,1,蛇,1,stored historical labels; not externally authenticated
+2025226,2025227,5,5,鼠 兔 龍 蛇 豬,鼠 兔 龍 蛇 豬,虎 兔 羊 豬,虎 兔 羊 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2025228,2025229,5,6,虎 龍 猴 鷄 狗,虎 兔 龍 猴 鷄 狗,鼠 牛 虎 馬,鼠 牛 虎 龍 馬,虎,1,虎 龍,2,stored historical labels; not externally authenticated
+2025230,2025231,5,5,兔 蛇 馬 猴 狗,兔 蛇 馬 猴 狗,牛 虎 羊 狗 豬,牛 虎 龍 羊 狗 豬,狗,1,狗,1,stored historical labels; not externally authenticated
+2025231,2025232,5,6,牛 虎 羊 狗 豬,牛 虎 龍 羊 狗 豬,鼠 虎 蛇 羊 狗 豬,鼠 虎 蛇 羊 狗 豬,虎 羊 狗 豬,4,虎 羊 狗 豬,4,stored historical labels; not externally authenticated
+2025232,2025233,6,6,鼠 虎 蛇 羊 狗 豬,鼠 虎 蛇 羊 狗 豬,鼠 牛 兔 鷄 豬,鼠 牛 兔 蛇 鷄 豬,鼠 豬,2,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2025233,2025234,5,6,鼠 牛 兔 鷄 豬,鼠 牛 兔 蛇 鷄 豬,鼠 虎 龍 羊 豬,鼠 虎 龍 蛇 羊 豬,鼠 豬,2,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2025234,2025235,5,6,鼠 虎 龍 羊 豬,鼠 虎 龍 蛇 羊 豬,龍 蛇 馬 鷄 豬,鼠 龍 蛇 馬 鷄 豬,龍 豬,2,鼠 龍 蛇 豬,4,stored historical labels; not externally authenticated
+2025235,2025236,5,6,龍 蛇 馬 鷄 豬,鼠 龍 蛇 馬 鷄 豬,鼠 蛇 猴 鷄,鼠 兔 蛇 猴 鷄,蛇 鷄,2,鼠 蛇 鷄,3,stored historical labels; not externally authenticated
+2025238,2025239,5,5,兔 馬 猴 鷄 豬,兔 馬 猴 鷄 豬,牛 蛇 馬,牛 虎 蛇 馬,馬,1,馬,1,stored historical labels; not externally authenticated
+2025240,2025241,6,6,鼠 虎 蛇 馬 猴 鷄,鼠 虎 蛇 馬 猴 鷄,牛 龍 羊 猴 鷄 豬,牛 龍 蛇 羊 猴 鷄 豬,猴 鷄,2,蛇 猴 鷄,3,stored historical labels; not externally authenticated
+2025241,2025242,6,7,牛 龍 羊 猴 鷄 豬,牛 龍 蛇 羊 猴 鷄 豬,牛 龍 猴 鷄 豬,牛 龍 猴 鷄 豬,牛 龍 猴 鷄 豬,5,牛 龍 猴 鷄 豬,5,stored historical labels; not externally authenticated
+2025242,2025243,5,5,牛 龍 猴 鷄 豬,牛 龍 猴 鷄 豬,鼠 虎 兔 羊,鼠 虎 兔 羊 狗,,0,,0,stored historical labels; not externally authenticated
+2025244,2025245,5,5,虎 蛇 馬 猴 豬,虎 蛇 馬 猴 豬,牛 龍 蛇 猴 豬,牛 龍 蛇 猴 狗 豬,蛇 猴 豬,3,蛇 猴 豬,3,stored historical labels; not externally authenticated
+2025245,2025246,5,6,牛 龍 蛇 猴 豬,牛 龍 蛇 猴 狗 豬,鼠 虎 龍 蛇 羊,鼠 虎 龍 蛇 羊,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2025246,2025247,5,5,鼠 虎 龍 蛇 羊,鼠 虎 龍 蛇 羊,兔 龍 蛇 猴 狗,兔 龍 蛇 猴 狗,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2025247,2025248,5,5,兔 龍 蛇 猴 狗,兔 龍 蛇 猴 狗,鼠 兔 馬 猴 狗,鼠 兔 馬 猴 狗,兔 猴 狗,3,兔 猴 狗,3,stored historical labels; not externally authenticated
+2025248,2025249,5,5,鼠 兔 馬 猴 狗,鼠 兔 馬 猴 狗,虎 蛇 馬 鷄 豬,虎 龍 蛇 馬 鷄 豬,馬,1,馬,1,stored historical labels; not externally authenticated
+2025249,2025250,5,6,虎 蛇 馬 鷄 豬,虎 龍 蛇 馬 鷄 豬,兔 羊 猴 鷄,兔 馬 羊 猴 鷄,鷄,1,馬 鷄,2,stored historical labels; not externally authenticated
+2025252,2025253,5,5,虎 蛇 羊 猴 豬,虎 蛇 羊 猴 豬,鼠 兔 蛇 狗 豬,鼠 兔 蛇 鷄 狗 豬,蛇 豬,2,蛇 豬,2,stored historical labels; not externally authenticated
+2025253,2025254,5,6,鼠 兔 蛇 狗 豬,鼠 兔 蛇 鷄 狗 豬,牛 兔 馬 狗 豬,牛 兔 馬 狗 豬,兔 狗 豬,3,兔 狗 豬,3,stored historical labels; not externally authenticated
+2025254,2025255,5,5,牛 兔 馬 狗 豬,牛 兔 馬 狗 豬,兔 蛇 馬 鷄 狗,鼠 兔 蛇 馬 鷄 狗,兔 馬 狗,3,兔 馬 狗,3,stored historical labels; not externally authenticated
+2025255,2025256,5,6,兔 蛇 馬 鷄 狗,鼠 兔 蛇 馬 鷄 狗,鼠 牛 馬 羊 鷄,鼠 牛 馬 羊 鷄,馬 鷄,2,鼠 馬 鷄,3,stored historical labels; not externally authenticated
+2025256,2025257,5,5,鼠 牛 馬 羊 鷄,鼠 牛 馬 羊 鷄,鼠 虎 蛇 羊 鷄,鼠 虎 蛇 羊 鷄,鼠 羊 鷄,3,鼠 羊 鷄,3,stored historical labels; not externally authenticated
+2025257,2025258,5,5,鼠 虎 蛇 羊 鷄,鼠 虎 蛇 羊 鷄,牛 龍 蛇 羊,牛 龍 蛇 羊,蛇 羊,2,蛇 羊,2,stored historical labels; not externally authenticated
+2025261,2025262,5,5,鼠 虎 蛇 猴 鷄,鼠 虎 蛇 猴 鷄,虎 兔 龍 馬 鷄,虎 兔 龍 馬 鷄 狗,虎 鷄,2,虎 鷄,2,stored historical labels; not externally authenticated
+2025262,2025263,5,6,虎 兔 龍 馬 鷄,虎 兔 龍 馬 鷄 狗,兔 蛇 馬 狗 豬,兔 龍 蛇 馬 狗 豬,兔 馬,2,兔 龍 馬 狗,4,stored historical labels; not externally authenticated
+2025263,2025264,5,6,兔 蛇 馬 狗 豬,兔 龍 蛇 馬 狗 豬,鼠 羊 鷄 狗 豬,鼠 羊 鷄 狗 豬,狗 豬,2,狗 豬,2,stored historical labels; not externally authenticated
+2025264,2025265,5,5,鼠 羊 鷄 狗 豬,鼠 羊 鷄 狗 豬,鼠 蛇 馬 羊 猴 狗,鼠 蛇 馬 羊 猴 狗,鼠 羊 狗,3,鼠 羊 狗,3,stored historical labels; not externally authenticated
+2025265,2025266,6,6,鼠 蛇 馬 羊 猴 狗,鼠 蛇 馬 羊 猴 狗,鼠 虎 龍 蛇 豬,鼠 牛 虎 龍 蛇 豬,鼠 蛇,2,鼠 蛇,2,stored historical labels; not externally authenticated
+2025266,2025267,5,6,鼠 虎 龍 蛇 豬,鼠 牛 虎 龍 蛇 豬,牛 虎 蛇 馬 鷄 豬,牛 虎 蛇 馬 鷄 豬,虎 蛇 豬,3,牛 虎 蛇 豬,4,stored historical labels; not externally authenticated
+2025267,2025268,6,6,牛 虎 蛇 馬 鷄 豬,牛 虎 蛇 馬 鷄 豬,牛 兔 蛇 鷄 豬,牛 兔 蛇 猴 鷄 豬,牛 蛇 鷄 豬,4,牛 蛇 鷄 豬,4,stored historical labels; not externally authenticated
+2025268,2025269,5,6,牛 兔 蛇 鷄 豬,牛 兔 蛇 猴 鷄 豬,牛 龍 猴 鷄,牛 龍 猴 鷄 豬,牛 鷄,2,牛 猴 鷄 豬,4,stored historical labels; not externally authenticated
+2025270,2025271,5,5,牛 兔 羊 猴 豬,牛 兔 羊 猴 豬,兔 馬 鷄 狗,鼠 兔 馬 鷄 狗,兔,1,兔,1,stored historical labels; not externally authenticated
+2025272,2025273,5,6,牛 虎 蛇 猴 鷄,牛 虎 蛇 馬 猴 鷄,龍 蛇 猴 豬,虎 龍 蛇 猴 豬,蛇 猴,2,虎 蛇 猴,3,stored historical labels; not externally authenticated
+2025274,2025275,6,6,牛 虎 兔 猴 狗 豬,牛 虎 兔 猴 狗 豬,牛 虎 蛇 羊 猴 鷄,牛 虎 蛇 羊 猴 鷄,牛 虎 猴,3,牛 虎 猴,3,stored historical labels; not externally authenticated
+2025275,2025276,6,6,牛 虎 蛇 羊 猴 鷄,牛 虎 蛇 羊 猴 鷄,虎 蛇 猴 鷄,虎 蛇 猴 鷄,虎 蛇 猴 鷄,4,虎 蛇 猴 鷄,4,stored historical labels; not externally authenticated
+2025277,2025278,6,7,牛 蛇 馬 羊 猴 鷄,牛 虎 蛇 馬 羊 猴 鷄,鼠 虎 兔 猴 鷄,鼠 虎 兔 猴 鷄,猴 鷄,2,虎 猴 鷄,3,stored historical labels; not externally authenticated
+2025278,2025279,5,5,鼠 虎 兔 猴 鷄,鼠 虎 兔 猴 鷄,鼠 兔 龍 蛇,鼠 兔 龍 蛇,鼠 兔,2,鼠 兔,2,stored historical labels; not externally authenticated
+2025280,2025281,5,6,虎 蛇 馬 羊 狗,鼠 虎 蛇 馬 羊 狗,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 豬,蛇 馬 羊,3,蛇 馬 羊,3,stored historical labels; not externally authenticated
+2025281,2025282,5,5,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 豬,鼠 虎 龍 蛇 馬 鷄,鼠 牛 虎 龍 蛇 馬 鷄,蛇 馬,2,蛇 馬,2,stored historical labels; not externally authenticated
+2025282,2025283,6,7,鼠 虎 龍 蛇 馬 鷄,鼠 牛 虎 龍 蛇 馬 鷄,鼠 牛 馬 羊 鷄 狗,鼠 牛 馬 羊 鷄 狗,鼠 馬 鷄,3,鼠 牛 馬 鷄,4,stored historical labels; not externally authenticated
+2025283,2025284,6,6,鼠 牛 馬 羊 鷄 狗,鼠 牛 馬 羊 鷄 狗,鼠 龍 蛇 馬 鷄,鼠 牛 龍 蛇 馬 鷄,鼠 馬 鷄,3,鼠 牛 馬 鷄,4,stored historical labels; not externally authenticated
+2025284,2025285,5,6,鼠 龍 蛇 馬 鷄,鼠 牛 龍 蛇 馬 鷄,牛 虎 兔 蛇 猴,牛 虎 兔 蛇 馬 猴,蛇,1,牛 蛇 馬,3,stored historical labels; not externally authenticated
+2025285,2025286,5,6,牛 虎 兔 蛇 猴,牛 虎 兔 蛇 馬 猴,鼠 虎 兔 蛇 馬,鼠 虎 兔 蛇 馬,虎 兔 蛇,3,虎 兔 蛇 馬,4,stored historical labels; not externally authenticated
+2025286,2025287,5,5,鼠 虎 兔 蛇 馬,鼠 虎 兔 蛇 馬,鼠 牛 虎 蛇 馬 猴,鼠 牛 虎 蛇 馬 猴,鼠 虎 蛇 馬,4,鼠 虎 蛇 馬,4,stored historical labels; not externally authenticated
+2025287,2025288,6,6,鼠 牛 虎 蛇 馬 猴,鼠 牛 虎 蛇 馬 猴,牛 龍 蛇 羊 狗,牛 龍 蛇 羊 狗,牛 蛇,2,牛 蛇,2,stored historical labels; not externally authenticated
+2025288,2025289,5,5,牛 龍 蛇 羊 狗,牛 龍 蛇 羊 狗,虎 馬 羊 猴 狗,鼠 虎 馬 羊 猴 狗,羊 狗,2,羊 狗,2,stored historical labels; not externally authenticated
+2025289,2025290,5,6,虎 馬 羊 猴 狗,鼠 虎 馬 羊 猴 狗,鼠 牛 虎 龍 蛇,鼠 牛 虎 龍 蛇 豬,虎,1,鼠 虎,2,stored historical labels; not externally authenticated
+2025290,2025291,5,6,鼠 牛 虎 龍 蛇,鼠 牛 虎 龍 蛇 豬,鼠 蛇 馬 猴 豬,鼠 蛇 馬 猴 狗 豬,鼠 蛇,2,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2025291,2025292,5,6,鼠 蛇 馬 猴 豬,鼠 蛇 馬 猴 狗 豬,虎 蛇 猴 豬,虎 龍 蛇 猴 豬,蛇 猴 豬,3,蛇 猴 豬,3,stored historical labels; not externally authenticated
+2025293,2025294,6,6,鼠 龍 蛇 羊 猴 狗,鼠 龍 蛇 羊 猴 狗,龍 羊 猴 狗,鼠 龍 羊 猴 狗,龍 羊 猴 狗,4,鼠 龍 羊 猴 狗,5,stored historical labels; not externally authenticated
+2025297,2025298,5,6,牛 蛇 馬 羊 豬,牛 蛇 馬 羊 狗 豬,兔 蛇 羊 猴 狗,兔 蛇 羊 猴 狗,蛇 羊,2,蛇 羊 狗,3,stored historical labels; not externally authenticated
+2025298,2025299,5,5,兔 蛇 羊 猴 狗,兔 蛇 羊 猴 狗,兔 蛇 羊 鷄 豬,兔 蛇 羊 鷄 豬,兔 蛇 羊,3,兔 蛇 羊,3,stored historical labels; not externally authenticated
+2025299,2025300,5,5,兔 蛇 羊 鷄 豬,兔 蛇 羊 鷄 豬,牛 兔 龍 馬 狗,牛 虎 兔 龍 馬 狗,兔,1,兔,1,stored historical labels; not externally authenticated
+2025300,2025301,5,6,牛 兔 龍 馬 狗,牛 虎 兔 龍 馬 狗,牛 龍 羊 猴 鷄,牛 龍 羊 猴 鷄,牛 龍,2,牛 龍,2,stored historical labels; not externally authenticated
+2025301,2025302,5,5,牛 龍 羊 猴 鷄,牛 龍 羊 猴 鷄,鼠 牛 兔 鷄 豬,鼠 牛 兔 猴 鷄 豬,牛 鷄,2,牛 猴 鷄,3,stored historical labels; not externally authenticated
+2025302,2025303,5,6,鼠 牛 兔 鷄 豬,鼠 牛 兔 猴 鷄 豬,鼠 兔 龍 馬 羊 豬,鼠 兔 龍 馬 羊 豬,鼠 兔 豬,3,鼠 兔 豬,3,stored historical labels; not externally authenticated
+2025303,2025304,6,6,鼠 兔 龍 馬 羊 豬,鼠 兔 龍 馬 羊 豬,兔 馬 羊 猴 豬,兔 馬 羊 猴 豬,兔 馬 羊 豬,4,兔 馬 羊 豬,4,stored historical labels; not externally authenticated
+2025304,2025305,5,5,兔 馬 羊 猴 豬,兔 馬 羊 猴 豬,牛 兔 馬 羊 鷄,鼠 牛 兔 馬 羊 鷄,兔 馬 羊,3,兔 馬 羊,3,stored historical labels; not externally authenticated
+2025305,2025306,5,6,牛 兔 馬 羊 鷄,鼠 牛 兔 馬 羊 鷄,虎 龍 猴 鷄 豬,牛 虎 龍 猴 鷄 豬,鷄,1,牛 鷄,2,stored historical labels; not externally authenticated
+2025306,2025307,5,6,虎 龍 猴 鷄 豬,牛 虎 龍 猴 鷄 豬,牛 虎 蛇 馬 鷄 狗,牛 虎 蛇 馬 鷄 狗,虎 鷄,2,牛 虎 鷄,3,stored historical labels; not externally authenticated
+2025307,2025308,6,6,牛 虎 蛇 馬 鷄 狗,牛 虎 蛇 馬 鷄 狗,虎 龍 蛇 馬 猴 鷄,虎 兔 龍 蛇 馬 猴 鷄,虎 蛇 馬 鷄,4,虎 蛇 馬 鷄,4,stored historical labels; not externally authenticated
+2025308,2025309,6,7,虎 龍 蛇 馬 猴 鷄,虎 兔 龍 蛇 馬 猴 鷄,虎 蛇 狗 豬,鼠 虎 蛇 狗 豬,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2025310,2025311,6,6,牛 虎 蛇 猴 鷄 豬,牛 虎 蛇 猴 鷄 豬,鼠 虎 兔 龍 狗 豬,鼠 虎 兔 龍 蛇 狗 豬,虎 豬,2,虎 蛇 豬,3,stored historical labels; not externally authenticated
+2025311,2025312,6,7,鼠 虎 兔 龍 狗 豬,鼠 虎 兔 龍 蛇 狗 豬,鼠 兔 蛇 羊 猴,鼠 兔 龍 蛇 羊 猴,鼠 兔,2,鼠 兔 龍 蛇,4,stored historical labels; not externally authenticated
+2025312,2025313,5,6,鼠 兔 蛇 羊 猴,鼠 兔 龍 蛇 羊 猴,牛 兔 蛇 猴,牛 兔 龍 蛇 猴,兔 蛇 猴,3,兔 龍 蛇 猴,4,stored historical labels; not externally authenticated
+2025314,2025315,5,6,牛 龍 蛇 狗 豬,牛 龍 蛇 羊 狗 豬,兔 蛇 狗 豬,虎 兔 蛇 狗 豬,蛇 狗 豬,3,蛇 狗 豬,3,stored historical labels; not externally authenticated
+2025316,2025317,5,6,鼠 牛 虎 蛇 狗,鼠 牛 虎 蛇 馬 狗,鼠 牛 兔 蛇 猴 狗,鼠 牛 兔 蛇 猴 狗,鼠 牛 蛇 狗,4,鼠 牛 蛇 狗,4,stored historical labels; not externally authenticated
+2025317,2025318,6,6,鼠 牛 兔 蛇 猴 狗,鼠 牛 兔 蛇 猴 狗,鼠 龍 猴 狗 豬,鼠 龍 猴 狗 豬,鼠 猴 狗,3,鼠 猴 狗,3,stored historical labels; not externally authenticated
+2025318,2025319,5,5,鼠 龍 猴 狗 豬,鼠 龍 猴 狗 豬,牛 虎 猴 鷄 豬,牛 虎 猴 鷄 豬,猴 豬,2,猴 豬,2,stored historical labels; not externally authenticated
+2025319,2025320,5,5,牛 虎 猴 鷄 豬,牛 虎 猴 鷄 豬,虎 馬 猴 鷄 狗 豬,虎 馬 猴 鷄 狗 豬,虎 猴 鷄 豬,4,虎 猴 鷄 豬,4,stored historical labels; not externally authenticated
+2025320,2025321,6,6,虎 馬 猴 鷄 狗 豬,虎 馬 猴 鷄 狗 豬,虎 蛇 馬 猴 狗,虎 蛇 馬 羊 猴 狗,虎 馬 猴 狗,4,虎 馬 猴 狗,4,stored historical labels; not externally authenticated
+2025321,2025322,5,6,虎 蛇 馬 猴 狗,虎 蛇 馬 羊 猴 狗,鼠 牛 猴 鷄,鼠 牛 羊 猴 鷄,猴,1,羊 猴,2,stored historical labels; not externally authenticated
+2025323,2025324,5,6,牛 虎 馬 猴 豬,牛 虎 馬 猴 鷄 豬,鼠 虎 龍 蛇 猴 豬,鼠 虎 兔 龍 蛇 猴 豬,虎 猴 豬,3,虎 猴 豬,3,stored historical labels; not externally authenticated
+2025324,2025325,6,7,鼠 虎 龍 蛇 猴 豬,鼠 虎 兔 龍 蛇 猴 豬,牛 龍 蛇 馬 鷄,牛 虎 龍 蛇 馬 鷄,龍 蛇,2,虎 龍 蛇,3,stored historical labels; not externally authenticated
+2025325,2025326,5,6,牛 龍 蛇 馬 鷄,牛 虎 龍 蛇 馬 鷄,虎 羊 猴 鷄 豬,虎 羊 猴 鷄 豬,鷄,1,虎 鷄,2,stored historical labels; not externally authenticated
+2025326,2025327,5,5,虎 羊 猴 鷄 豬,虎 羊 猴 鷄 豬,蛇 猴 鷄 狗 豬,蛇 猴 鷄 狗 豬,猴 鷄 豬,3,猴 鷄 豬,3,stored historical labels; not externally authenticated
+2025327,2025328,5,5,蛇 猴 鷄 狗 豬,蛇 猴 鷄 狗 豬,虎 兔 蛇 猴 狗,虎 兔 蛇 猴 狗,蛇 猴 狗,3,蛇 猴 狗,3,stored historical labels; not externally authenticated
+2025328,2025329,5,5,虎 兔 蛇 猴 狗,虎 兔 蛇 猴 狗,蛇 猴 鷄 狗 豬,牛 蛇 猴 鷄 狗 豬,蛇 猴 狗,3,蛇 猴 狗,3,stored historical labels; not externally authenticated
+2025329,2025330,5,6,蛇 猴 鷄 狗 豬,牛 蛇 猴 鷄 狗 豬,鼠 蛇 羊 狗,鼠 蛇 馬 羊 狗,蛇 狗,2,蛇 狗,2,stored historical labels; not externally authenticated
+2025331,2025332,6,6,鼠 龍 馬 羊 猴 鷄,鼠 龍 馬 羊 猴 鷄,鼠 羊 鷄 狗 豬,鼠 龍 羊 鷄 狗 豬,鼠 羊 鷄,3,鼠 龍 羊 鷄,4,stored historical labels; not externally authenticated
+2025332,2025333,5,6,鼠 羊 鷄 狗 豬,鼠 龍 羊 鷄 狗 豬,兔 蛇 馬 羊 豬,鼠 兔 蛇 馬 羊 豬,羊 豬,2,鼠 羊 豬,3,stored historical labels; not externally authenticated
+2025333,2025334,5,6,兔 蛇 馬 羊 豬,鼠 兔 蛇 馬 羊 豬,牛 蛇 羊 鷄,牛 蛇 羊 猴 鷄,蛇 羊,2,蛇 羊,2,stored historical labels; not externally authenticated
+2025335,2025336,5,6,兔 蛇 羊 猴 豬,兔 蛇 羊 猴 狗 豬,鼠 兔 蛇 猴 狗,鼠 牛 兔 蛇 猴 狗,兔 蛇 猴,3,兔 蛇 猴 狗,4,stored historical labels; not externally authenticated
+2025336,2025337,5,6,鼠 兔 蛇 猴 狗,鼠 牛 兔 蛇 猴 狗,鼠 龍 蛇 馬 狗,鼠 龍 蛇 馬 鷄 狗,鼠 蛇 狗,3,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2025337,2025338,5,6,鼠 龍 蛇 馬 狗,鼠 龍 蛇 馬 鷄 狗,牛 兔 蛇 馬 猴,牛 兔 蛇 馬 猴 狗,蛇 馬,2,蛇 馬 狗,3,stored historical labels; not externally authenticated
+2025338,2025339,5,6,牛 兔 蛇 馬 猴,牛 兔 蛇 馬 猴 狗,虎 兔 馬 猴 豬,虎 兔 馬 猴 豬,兔 馬 猴,3,兔 馬 猴,3,stored historical labels; not externally authenticated
+2025339,2025340,5,5,虎 兔 馬 猴 豬,虎 兔 馬 猴 豬,牛 虎 兔 猴 鷄,牛 虎 兔 猴 鷄,虎 兔 猴,3,虎 兔 猴,3,stored historical labels; not externally authenticated
+2025340,2025341,5,5,牛 虎 兔 猴 鷄,牛 虎 兔 猴 鷄,鼠 牛 馬 羊 猴 豬,鼠 牛 馬 羊 猴 豬,牛 猴,2,牛 猴,2,stored historical labels; not externally authenticated
+2025341,2025342,6,6,鼠 牛 馬 羊 猴 豬,鼠 牛 馬 羊 猴 豬,牛 兔 馬 狗 豬,牛 虎 兔 馬 狗 豬,牛 馬 豬,3,牛 馬 豬,3,stored historical labels; not externally authenticated
+2025342,2025343,5,6,牛 兔 馬 狗 豬,牛 虎 兔 馬 狗 豬,牛 虎 羊 猴 鷄,牛 虎 龍 羊 猴 鷄,牛,1,牛 虎,2,stored historical labels; not externally authenticated
+2025343,2025344,5,6,牛 虎 羊 猴 鷄,牛 虎 龍 羊 猴 鷄,鼠 虎 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,虎 羊 猴 鷄,4,虎 羊 猴 鷄,4,stored historical labels; not externally authenticated
+2025344,2025345,5,6,鼠 虎 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,牛 兔 羊 鷄 狗,牛 兔 馬 羊 鷄 狗,羊 鷄,2,兔 羊 鷄,3,stored historical labels; not externally authenticated
+2025345,2025346,5,6,牛 兔 羊 鷄 狗,牛 兔 馬 羊 鷄 狗,虎 龍 羊 猴 狗,虎 兔 龍 羊 猴 狗,羊 狗,2,兔 羊 狗,3,stored historical labels; not externally authenticated
+2025346,2025347,5,6,虎 龍 羊 猴 狗,虎 兔 龍 羊 猴 狗,鼠 虎 龍 蛇 馬 狗,鼠 虎 龍 蛇 馬 狗,虎 龍 狗,3,虎 龍 狗,3,stored historical labels; not externally authenticated
+2025347,2025348,6,6,鼠 虎 龍 蛇 馬 狗,鼠 虎 龍 蛇 馬 狗,龍 猴 鷄 狗 豬,虎 龍 猴 鷄 狗 豬,龍 狗,2,虎 龍 狗,3,stored historical labels; not externally authenticated
+2025348,2025349,5,6,龍 猴 鷄 狗 豬,虎 龍 猴 鷄 狗 豬,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄,猴 鷄,2,虎 猴 鷄,3,stored historical labels; not externally authenticated
+2025349,2025350,5,5,虎 兔 羊 猴 鷄,虎 兔 羊 猴 鷄,鼠 虎 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,虎 羊 猴,3,虎 羊 猴,3,stored historical labels; not externally authenticated
+2025350,2025351,5,6,鼠 虎 羊 猴 豬,鼠 虎 蛇 羊 猴 豬,虎 兔 馬 羊 猴,虎 兔 馬 羊 猴,虎 羊 猴,3,虎 羊 猴,3,stored historical labels; not externally authenticated
+2025351,2025352,5,5,虎 兔 馬 羊 猴,虎 兔 馬 羊 猴,牛 龍 蛇 猴 鷄,牛 龍 蛇 猴 鷄 狗,猴,1,猴,1,stored historical labels; not externally authenticated
+2025352,2025353,5,6,牛 龍 蛇 猴 鷄,牛 龍 蛇 猴 鷄 狗,鼠 虎 龍 馬 猴,鼠 虎 龍 蛇 馬 猴,龍 猴,2,龍 蛇 猴,3,stored historical labels; not externally authenticated
+2025353,2025354,5,6,鼠 虎 龍 馬 猴,鼠 虎 龍 蛇 馬 猴,牛 虎 兔 馬 鷄,鼠 牛 虎 兔 馬 鷄,虎 馬,2,鼠 虎 馬,3,stored historical labels; not externally authenticated
+2025354,2025355,5,6,牛 虎 兔 馬 鷄,鼠 牛 虎 兔 馬 鷄,鼠 虎 兔 鷄 豬,鼠 虎 兔 鷄 狗 豬,虎 兔 鷄,3,鼠 虎 兔 鷄,4,stored historical labels; not externally authenticated
+2025355,2025356,5,6,鼠 虎 兔 鷄 豬,鼠 虎 兔 鷄 狗 豬,虎 兔 蛇 馬 羊 狗,虎 兔 蛇 馬 羊 狗,虎 兔,2,虎 兔 狗,3,stored historical labels; not externally authenticated
+2025356,2025357,6,6,虎 兔 蛇 馬 羊 狗,虎 兔 蛇 馬 羊 狗,牛 龍 蛇 馬 羊 豬,牛 龍 蛇 馬 羊 豬,蛇 馬 羊,3,蛇 馬 羊,3,stored historical labels; not externally authenticated
+2025357,2025358,6,6,牛 龍 蛇 馬 羊 豬,牛 龍 蛇 馬 羊 豬,鼠 龍 羊 猴 豬,鼠 龍 羊 猴 豬,龍 羊 豬,3,龍 羊 豬,3,stored historical labels; not externally authenticated
+2025358,2025359,5,5,鼠 龍 羊 猴 豬,鼠 龍 羊 猴 豬,鼠 龍 蛇 羊 鷄,鼠 龍 蛇 羊 鷄,鼠 龍 羊,3,鼠 龍 羊,3,stored historical labels; not externally authenticated
+2025359,2025360,5,5,鼠 龍 蛇 羊 鷄,鼠 龍 蛇 羊 鷄,鼠 兔 馬 狗,鼠 牛 兔 馬 狗,鼠,1,鼠,1,stored historical labels; not externally authenticated
+2025361,2025362,5,6,鼠 龍 羊 鷄 狗,鼠 龍 馬 羊 鷄 狗,鼠 蛇 羊 鷄 狗,鼠 蛇 羊 鷄 狗,鼠 羊 鷄 狗,4,鼠 羊 鷄 狗,4,stored historical labels; not externally authenticated
+2025362,2025363,5,5,鼠 蛇 羊 鷄 狗,鼠 蛇 羊 鷄 狗,虎 兔 蛇 羊 鷄,虎 兔 龍 蛇 羊 鷄,蛇 羊 鷄,3,蛇 羊 鷄,3,stored historical labels; not externally authenticated
+2025363,2025364,5,6,虎 兔 蛇 羊 鷄,虎 兔 龍 蛇 羊 鷄,虎 龍 羊 猴 豬,虎 龍 馬 羊 猴 豬,虎 羊,2,虎 龍 羊,3,stored historical labels; not externally authenticated
+2025364,2025365,5,6,虎 龍 羊 猴 豬,虎 龍 馬 羊 猴 豬,牛 虎 蛇 猴 鷄 狗,牛 虎 龍 蛇 猴 鷄 狗,虎 猴,2,虎 龍 猴,3,stored historical labels; not externally authenticated
+2025365,2026001,6,7,牛 虎 蛇 猴 鷄 狗,牛 虎 龍 蛇 猴 鷄 狗,鼠 兔 羊 鷄 狗 豬,鼠 牛 兔 羊 鷄 狗 豬,鷄 狗,2,牛 鷄 狗,3,stored historical labels; not externally authenticated
+2026001,2026002,6,7,鼠 兔 羊 鷄 狗 豬,鼠 牛 兔 羊 鷄 狗 豬,虎 兔 馬 羊 豬,虎 兔 馬 羊 猴 豬,兔 羊 豬,3,兔 羊 豬,3,stored historical labels; not externally authenticated
+2026002,2026003,5,6,虎 兔 馬 羊 豬,虎 兔 馬 羊 猴 豬,鼠 牛 兔 狗 豬,鼠 牛 兔 鷄 狗 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2026003,2026004,5,6,鼠 牛 兔 狗 豬,鼠 牛 兔 鷄 狗 豬,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 鷄 豬,豬,1,鷄 豬,2,stored historical labels; not externally authenticated
+2026004,2026005,5,6,蛇 馬 羊 猴 豬,蛇 馬 羊 猴 鷄 豬,牛 蛇 馬 猴 狗 豬,牛 蛇 馬 猴 狗 豬,蛇 馬 猴 豬,4,蛇 馬 猴 豬,4,stored historical labels; not externally authenticated
+2026005,2026006,6,6,牛 蛇 馬 猴 狗 豬,牛 蛇 馬 猴 狗 豬,鼠 牛 兔 羊 猴 鷄,鼠 牛 兔 蛇 羊 猴 鷄,牛 猴,2,牛 蛇 猴,3,stored historical labels; not externally authenticated
+2026006,2026007,6,7,鼠 牛 兔 羊 猴 鷄,鼠 牛 兔 蛇 羊 猴 鷄,虎 兔 猴 鷄 狗,牛 虎 兔 猴 鷄 狗,兔 猴 鷄,3,牛 兔 猴 鷄,4,stored historical labels; not externally authenticated
+2026007,2026008,5,6,虎 兔 猴 鷄 狗,牛 虎 兔 猴 鷄 狗,牛 兔 馬 鷄 豬,牛 兔 馬 鷄 豬,兔 鷄,2,牛 兔 鷄,3,stored historical labels; not externally authenticated
+2026008,2026009,5,5,牛 兔 馬 鷄 豬,牛 兔 馬 鷄 豬,鼠 牛 蛇 猴 豬,鼠 牛 虎 蛇 猴 豬,牛 豬,2,牛 豬,2,stored historical labels; not externally authenticated
+2026009,2026010,5,6,鼠 牛 蛇 猴 豬,鼠 牛 虎 蛇 猴 豬,鼠 龍 蛇 馬 羊,鼠 兔 龍 蛇 馬 羊,鼠 蛇,2,鼠 蛇,2,stored historical labels; not externally authenticated
+2026010,2026011,5,6,鼠 龍 蛇 馬 羊,鼠 兔 龍 蛇 馬 羊,牛 兔 馬 猴 狗 豬,牛 兔 馬 羊 猴 狗 豬,馬,1,兔 馬 羊,3,stored historical labels; not externally authenticated
+2026011,2026012,6,7,牛 兔 馬 猴 狗 豬,牛 兔 馬 羊 猴 狗 豬,牛 龍 蛇 鷄 狗,牛 龍 蛇 羊 鷄 狗,牛 狗,2,牛 羊 狗,3,stored historical labels; not externally authenticated
+2026012,2026013,5,6,牛 龍 蛇 鷄 狗,牛 龍 蛇 羊 鷄 狗,鼠 兔 蛇 鷄 狗 豬,鼠 兔 蛇 鷄 狗 豬,蛇 鷄 狗,3,蛇 鷄 狗,3,stored historical labels; not externally authenticated
+2026013,2026014,6,6,鼠 兔 蛇 鷄 狗 豬,鼠 兔 蛇 鷄 狗 豬,龍 蛇 馬 狗 豬,龍 蛇 馬 狗 豬,蛇 狗 豬,3,蛇 狗 豬,3,stored historical labels; not externally authenticated
+2026014,2026015,5,5,龍 蛇 馬 狗 豬,龍 蛇 馬 狗 豬,鼠 兔 猴 鷄 狗,鼠 兔 猴 鷄 狗 豬,狗,1,狗 豬,2,stored historical labels; not externally authenticated
+2026015,2026016,5,6,鼠 兔 猴 鷄 狗,鼠 兔 猴 鷄 狗 豬,虎 龍 馬 猴,鼠 虎 龍 馬 猴,猴,1,鼠 猴,2,stored historical labels; not externally authenticated
+2026017,2026018,6,6,鼠 牛 龍 鷄 狗 豬,鼠 牛 龍 鷄 狗 豬,鼠 虎 兔 蛇 豬,鼠 虎 兔 蛇 豬,鼠 豬,2,鼠 豬,2,stored historical labels; not externally authenticated
+2026018,2026019,5,5,鼠 虎 兔 蛇 豬,鼠 虎 兔 蛇 豬,鼠 蛇 猴 鷄 豬,鼠 蛇 猴 鷄 豬,鼠 蛇 豬,3,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2026019,2026020,5,5,鼠 蛇 猴 鷄 豬,鼠 蛇 猴 鷄 豬,龍 蛇 馬 羊 鷄,龍 蛇 馬 羊 鷄,蛇 鷄,2,蛇 鷄,2,stored historical labels; not externally authenticated
+2026020,2026021,5,5,龍 蛇 馬 羊 鷄,龍 蛇 馬 羊 鷄,馬 羊 猴 鷄 豬,鼠 馬 羊 猴 鷄 豬,馬 羊 鷄,3,馬 羊 鷄,3,stored historical labels; not externally authenticated
+2026021,2026022,5,6,馬 羊 猴 鷄 豬,鼠 馬 羊 猴 鷄 豬,鼠 兔 蛇 猴 狗,鼠 兔 蛇 猴 狗,猴,1,鼠 猴,2,stored historical labels; not externally authenticated
+2026022,2026023,5,5,鼠 兔 蛇 猴 狗,鼠 兔 蛇 猴 狗,鼠 牛 龍 馬 豬,鼠 牛 龍 馬 羊 豬,鼠,1,鼠,1,stored historical labels; not externally authenticated
+2026023,2026024,5,6,鼠 牛 龍 馬 豬,鼠 牛 龍 馬 羊 豬,兔 蛇 羊 猴 鷄 狗,虎 兔 蛇 羊 猴 鷄 狗,,0,羊,1,stored historical labels; not externally authenticated
+2026024,2026025,6,7,兔 蛇 羊 猴 鷄 狗,虎 兔 蛇 羊 猴 鷄 狗,鼠 牛 龍 猴 鷄,鼠 牛 龍 蛇 猴 鷄,猴 鷄,2,蛇 猴 鷄,3,stored historical labels; not externally authenticated
+2026025,2026026,5,6,鼠 牛 龍 猴 鷄,鼠 牛 龍 蛇 猴 鷄,鼠 蛇 馬 猴 狗,鼠 蛇 馬 猴 狗 豬,鼠 猴,2,鼠 蛇 猴,3,stored historical labels; not externally authenticated
+2026026,2026027,5,6,鼠 蛇 馬 猴 狗,鼠 蛇 馬 猴 狗 豬,鼠 虎 蛇 羊 猴,鼠 虎 蛇 羊 猴 鷄,鼠 蛇 猴,3,鼠 蛇 猴,3,stored historical labels; not externally authenticated
+2026027,2026028,5,6,鼠 虎 蛇 羊 猴,鼠 虎 蛇 羊 猴 鷄,牛 虎 兔 蛇 羊 狗,牛 虎 兔 蛇 羊 狗,虎 蛇 羊,3,虎 蛇 羊,3,stored historical labels; not externally authenticated
+2026028,2026029,6,6,牛 虎 兔 蛇 羊 狗,牛 虎 兔 蛇 羊 狗,鼠 牛 虎 兔 羊 狗,鼠 牛 虎 兔 蛇 羊 狗,牛 虎 兔 羊 狗,5,牛 虎 兔 蛇 羊 狗,6,stored historical labels; not externally authenticated
+2026029,2026030,6,7,鼠 牛 虎 兔 羊 狗,鼠 牛 虎 兔 蛇 羊 狗,鼠 虎 兔 蛇 羊,鼠 牛 虎 兔 蛇 羊,鼠 虎 兔 羊,4,鼠 牛 虎 兔 蛇 羊,6,stored historical labels; not externally authenticated
+2026030,2026031,5,6,鼠 虎 兔 蛇 羊,鼠 牛 虎 兔 蛇 羊,牛 龍 蛇 羊 豬,牛 龍 蛇 羊 豬,蛇 羊,2,牛 蛇 羊,3,stored historical labels; not externally authenticated
+2026031,2026032,5,5,牛 龍 蛇 羊 豬,牛 龍 蛇 羊 豬,牛 兔 羊 猴 狗,鼠 牛 兔 羊 猴 狗,牛 羊,2,牛 羊,2,stored historical labels; not externally authenticated
+2026032,2026033,5,6,牛 兔 羊 猴 狗,鼠 牛 兔 羊 猴 狗,龍 羊 猴 鷄 狗,牛 龍 羊 猴 鷄 狗,羊 猴 狗,3,牛 羊 猴 狗,4,stored historical labels; not externally authenticated
+2026033,2026034,5,6,龍 羊 猴 鷄 狗,牛 龍 羊 猴 鷄 狗,鼠 龍 馬 羊 鷄,鼠 龍 馬 羊 鷄 豬,龍 羊 鷄,3,龍 羊 鷄,3,stored historical labels; not externally authenticated
+2026034,2026035,5,6,鼠 龍 馬 羊 鷄,鼠 龍 馬 羊 鷄 豬,牛 馬 羊 狗 豬,牛 兔 馬 羊 狗 豬,馬 羊,2,馬 羊 豬,3,stored historical labels; not externally authenticated
+2026035,2026036,5,6,牛 馬 羊 狗 豬,牛 兔 馬 羊 狗 豬,兔 馬 羊 狗,兔 蛇 馬 羊 狗,馬 羊 狗,3,兔 馬 羊 狗,4,stored historical labels; not externally authenticated
+2026037,2026038,6,7,鼠 兔 蛇 猴 鷄 狗,鼠 兔 蛇 猴 鷄 狗 豬,鼠 虎 蛇 馬 猴 狗,鼠 虎 蛇 馬 猴 狗,鼠 蛇 猴 狗,4,鼠 蛇 猴 狗,4,stored historical labels; not externally authenticated
+2026038,2026039,6,6,鼠 虎 蛇 馬 猴 狗,鼠 虎 蛇 馬 猴 狗,牛 虎 猴 狗 豬,牛 虎 羊 猴 狗 豬,虎 猴 狗,3,虎 猴 狗,3,stored historical labels; not externally authenticated
+2026039,2026040,5,6,牛 虎 猴 狗 豬,牛 虎 羊 猴 狗 豬,鼠 牛 兔 蛇 羊 猴,鼠 牛 虎 兔 蛇 羊 猴,牛 猴,2,牛 虎 羊 猴,4,stored historical labels; not externally authenticated
+2026040,2026041,6,7,鼠 牛 兔 蛇 羊 猴,鼠 牛 虎 兔 蛇 羊 猴,牛 兔 龍 狗,牛 兔 龍 馬 狗,牛 兔,2,牛 兔,2,stored historical labels; not externally authenticated
+2026042,2026043,6,7,鼠 牛 龍 蛇 猴 豬,鼠 牛 虎 龍 蛇 猴 豬,鼠 虎 兔 羊 鷄,鼠 虎 兔 蛇 羊 鷄,鼠,1,鼠 虎 蛇,3,stored historical labels; not externally authenticated
+2026043,2026044,5,6,鼠 虎 兔 羊 鷄,鼠 虎 兔 蛇 羊 鷄,牛 兔 龍 馬 羊 猴,牛 兔 龍 馬 羊 猴 豬,兔 羊,2,兔 羊,2,stored historical labels; not externally authenticated
+2026044,2026045,6,7,牛 兔 龍 馬 羊 猴,牛 兔 龍 馬 羊 猴 豬,鼠 兔 龍 蛇 猴 狗,鼠 兔 龍 蛇 猴 狗,兔 龍 猴,3,兔 龍 猴,3,stored historical labels; not externally authenticated
+2026045,2026046,6,6,鼠 兔 龍 蛇 猴 狗,鼠 兔 龍 蛇 猴 狗,兔 蛇 馬 猴 鷄 狗,兔 蛇 馬 猴 鷄 狗,兔 蛇 猴 狗,4,兔 蛇 猴 狗,4,stored historical labels; not externally authenticated
+2026046,2026047,6,6,兔 蛇 馬 猴 鷄 狗,兔 蛇 馬 猴 鷄 狗,鼠 虎 羊 猴,鼠 虎 兔 羊 猴,猴,1,兔 猴,2,stored historical labels; not externally authenticated
+2026048,2026049,5,6,虎 兔 蛇 鷄 豬,虎 兔 蛇 羊 鷄 豬,鼠 牛 兔 馬 羊 鷄,鼠 牛 兔 馬 羊 鷄,兔 鷄,2,兔 羊 鷄,3,stored historical labels; not externally authenticated
+2026049,2026050,6,6,鼠 牛 兔 馬 羊 鷄,鼠 牛 兔 馬 羊 鷄,牛 馬 鷄 狗 豬,牛 馬 猴 鷄 狗 豬,牛 馬 鷄,3,牛 馬 鷄,3,stored historical labels; not externally authenticated
+2026050,2026051,5,6,牛 馬 鷄 狗 豬,牛 馬 猴 鷄 狗 豬,牛 兔 蛇 豬,牛 兔 蛇 馬 豬,牛 豬,2,牛 馬 豬,3,stored historical labels; not externally authenticated
+2026052,2026053,6,6,兔 龍 蛇 馬 猴 鷄,兔 龍 蛇 馬 猴 鷄,牛 虎 兔 羊 狗,牛 虎 兔 龍 羊 狗,兔,1,兔 龍,2,stored historical labels; not externally authenticated
+2026053,2026054,5,6,牛 虎 兔 羊 狗,牛 虎 兔 龍 羊 狗,鼠 牛 馬 猴 豬,鼠 牛 馬 羊 猴 豬,牛,1,牛 羊,2,stored historical labels; not externally authenticated
+2026054,2026055,5,6,鼠 牛 馬 猴 豬,鼠 牛 馬 羊 猴 豬,鼠 兔 龍 狗 豬,鼠 兔 龍 蛇 狗 豬,鼠 豬,2,鼠 豬,2,stored historical labels; not externally authenticated
+2026055,2026056,5,6,鼠 兔 龍 狗 豬,鼠 兔 龍 蛇 狗 豬,鼠 牛 蛇 鷄 狗,鼠 牛 蛇 羊 鷄 狗,鼠 狗,2,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2026056,2026057,5,6,鼠 牛 蛇 鷄 狗,鼠 牛 蛇 羊 鷄 狗,牛 虎 兔 蛇 鷄 狗,牛 虎 兔 蛇 猴 鷄 狗,牛 蛇 鷄 狗,4,牛 蛇 鷄 狗,4,stored historical labels; not externally authenticated
+2026057,2026058,6,7,牛 虎 兔 蛇 鷄 狗,牛 虎 兔 蛇 猴 鷄 狗,兔 蛇 馬 狗 豬,鼠 兔 蛇 馬 狗 豬,兔 蛇 狗,3,兔 蛇 狗,3,stored historical labels; not externally authenticated
+2026058,2026059,5,6,兔 蛇 馬 狗 豬,鼠 兔 蛇 馬 狗 豬,鼠 虎 兔 羊,鼠 虎 兔 羊 鷄,兔,1,鼠 兔,2,stored historical labels; not externally authenticated
+2026060,2026061,5,6,虎 兔 龍 馬 鷄,虎 兔 龍 馬 鷄 狗,虎 蛇 馬 鷄 豬,虎 蛇 馬 鷄 豬,虎 馬 鷄,3,虎 馬 鷄,3,stored historical labels; not externally authenticated
+2026061,2026062,5,5,虎 蛇 馬 鷄 豬,虎 蛇 馬 鷄 豬,牛 虎 馬 猴 鷄,牛 虎 馬 羊 猴 鷄,虎 馬 鷄,3,虎 馬 鷄,3,stored historical labels; not externally authenticated
+2026062,2026063,5,6,牛 虎 馬 猴 鷄,牛 虎 馬 羊 猴 鷄,鼠 蛇 馬 羊 豬,鼠 兔 蛇 馬 羊 豬,馬,1,馬 羊,2,stored historical labels; not externally authenticated
+2026063,2026064,5,6,鼠 蛇 馬 羊 豬,鼠 兔 蛇 馬 羊 豬,兔 蛇 猴 鷄 豬,牛 兔 蛇 猴 鷄 豬,蛇 豬,2,兔 蛇 豬,3,stored historical labels; not externally authenticated
+2026064,2026065,5,6,兔 蛇 猴 鷄 豬,牛 兔 蛇 猴 鷄 豬,虎 蛇 羊 狗,虎 蛇 羊 狗,蛇,1,蛇,1,stored historical labels; not externally authenticated
+2026067,2026068,5,6,牛 龍 蛇 馬 狗,牛 虎 龍 蛇 馬 狗,蛇 馬 狗,蛇 馬 猴 狗,蛇 馬 狗,3,蛇 馬 狗,3,stored historical labels; not externally authenticated
+2026069,2026070,5,5,兔 羊 猴 鷄 豬,兔 羊 猴 鷄 豬,鼠 虎 猴 鷄,鼠 虎 馬 猴 鷄,猴 鷄,2,猴 鷄,2,stored historical labels; not externally authenticated
+2026072,2026073,5,6,牛 兔 馬 羊 豬,牛 兔 馬 羊 鷄 豬,鼠 虎 蛇 馬 羊 狗,鼠 虎 蛇 馬 羊 鷄 狗,馬 羊,2,馬 羊 鷄,3,stored historical labels; not externally authenticated
+2026073,2026074,6,7,鼠 虎 蛇 馬 羊 狗,鼠 虎 蛇 馬 羊 鷄 狗,鼠 馬 羊 豬,鼠 馬 羊 鷄 豬,鼠 馬 羊,3,鼠 馬 羊 鷄,4,stored historical labels; not externally authenticated
+2026075,2026076,6,7,鼠 虎 龍 蛇 鷄 豬,鼠 虎 龍 蛇 鷄 狗 豬,鼠 虎 龍 羊 鷄,鼠 虎 龍 蛇 羊 鷄,鼠 虎 龍 鷄,4,鼠 虎 龍 蛇 鷄,5,stored historical labels; not externally authenticated
+2026076,2026077,5,6,鼠 虎 龍 羊 鷄,鼠 虎 龍 蛇 羊 鷄,牛 龍 馬 鷄 豬,牛 虎 龍 馬 鷄 豬,龍 鷄,2,虎 龍 鷄,3,stored historical labels; not externally authenticated
+2026077,2026078,5,6,牛 龍 馬 鷄 豬,牛 虎 龍 馬 鷄 豬,牛 虎 蛇 鷄 狗 豬,牛 虎 蛇 鷄 狗 豬,牛 鷄 豬,3,牛 虎 鷄 豬,4,stored historical labels; not externally authenticated
+2026078,2026079,6,6,牛 虎 蛇 鷄 狗 豬,牛 虎 蛇 鷄 狗 豬,鼠 牛 兔 馬 鷄 豬,鼠 牛 兔 馬 猴 鷄 豬,牛 鷄 豬,3,牛 鷄 豬,3,stored historical labels; not externally authenticated
+2026079,2026080,6,7,鼠 牛 兔 馬 鷄 豬,鼠 牛 兔 馬 猴 鷄 豬,牛 虎 羊 狗,牛 虎 龍 羊 狗,牛,1,牛,1,stored historical labels; not externally authenticated
+2026081,2026082,6,6,虎 兔 龍 蛇 羊 猴,虎 兔 龍 蛇 羊 猴,虎 龍 馬 狗,虎 龍 馬 狗,虎 龍,2,虎 龍,2,stored historical labels; not externally authenticated
+2026083,2026084,6,7,牛 馬 羊 猴 鷄 豬,牛 虎 馬 羊 猴 鷄 豬,鼠 虎 蛇 羊 豬,鼠 虎 兔 蛇 羊 豬,羊 豬,2,虎 羊 豬,3,stored historical labels; not externally authenticated
+2026084,2026085,5,6,鼠 虎 蛇 羊 豬,鼠 虎 兔 蛇 羊 豬,牛 龍 蛇 馬 狗 豬,鼠 牛 龍 蛇 馬 狗 豬,蛇 豬,2,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2026085,2026086,6,7,牛 龍 蛇 馬 狗 豬,鼠 牛 龍 蛇 馬 狗 豬,龍 蛇 羊 鷄,龍 蛇 羊 鷄,龍 蛇,2,龍 蛇,2,stored historical labels; not externally authenticated
+2026087,2026088,5,5,虎 蛇 馬 猴 狗,虎 蛇 馬 猴 狗,牛 兔 羊 鷄,牛 兔 龍 羊 鷄,,0,,0,stored historical labels; not externally authenticated
+2026089,2026090,5,6,虎 蛇 鷄 狗 豬,虎 蛇 馬 鷄 狗 豬,虎 馬 羊 豬,虎 馬 羊 豬,虎 豬,2,虎 馬 豬,3,stored historical labels; not externally authenticated
+2026092,2026093,6,6,鼠 牛 蛇 馬 猴 鷄,鼠 牛 蛇 馬 猴 鷄,牛 兔 蛇 馬 羊 猴,牛 兔 蛇 馬 羊 猴,牛 蛇 馬 猴,4,牛 蛇 馬 猴,4,stored historical labels; not externally authenticated
+2026093,2026094,6,6,牛 兔 蛇 馬 羊 猴,牛 兔 蛇 馬 羊 猴,鼠 兔 蛇 馬,鼠 虎 兔 蛇 馬,兔 蛇 馬,3,兔 蛇 馬,3,stored historical labels; not externally authenticated
+2026095,2026096,5,6,龍 蛇 馬 羊 狗,龍 蛇 馬 羊 猴 狗,虎 龍 蛇 馬 猴,鼠 虎 龍 蛇 馬 猴,龍 蛇 馬,3,龍 蛇 馬 猴,4,stored historical labels; not externally authenticated
+2026096,2026097,5,6,虎 龍 蛇 馬 猴,鼠 虎 龍 蛇 馬 猴,虎 兔 蛇 鷄 豬,虎 兔 蛇 猴 鷄 豬,虎 蛇,2,虎 蛇 猴,3,stored historical labels; not externally authenticated
+2026097,2026098,5,6,虎 兔 蛇 鷄 豬,虎 兔 蛇 猴 鷄 豬,龍 蛇 馬 羊 豬,虎 龍 蛇 馬 羊 豬,蛇 豬,2,虎 蛇 豬,3,stored historical labels; not externally authenticated
+2026098,2026099,5,6,龍 蛇 馬 羊 豬,虎 龍 蛇 馬 羊 豬,牛 虎 兔 鷄 豬,牛 虎 兔 羊 鷄 豬,豬,1,虎 羊 豬,3,stored historical labels; not externally authenticated
+2026099,2026100,5,6,牛 虎 兔 鷄 豬,牛 虎 兔 羊 鷄 豬,兔 龍 羊 狗 豬,兔 龍 羊 狗 豬,兔 豬,2,兔 羊 豬,3,stored historical labels; not externally authenticated
+2026100,2026101,5,5,兔 龍 羊 狗 豬,兔 龍 羊 狗 豬,蛇 羊 鷄 豬,龍 蛇 羊 鷄 豬,羊 豬,2,龍 羊 豬,3,stored historical labels; not externally authenticated
+2026102,2026103,5,5,龍 羊 猴 鷄 豬,龍 羊 猴 鷄 豬,牛 兔 龍 馬 鷄,牛 兔 龍 馬 鷄,龍 鷄,2,龍 鷄,2,stored historical labels; not externally authenticated
+2026103,2026104,5,5,牛 兔 龍 馬 鷄,牛 兔 龍 馬 鷄,龍 馬 羊 狗 豬,龍 馬 羊 狗 豬,龍 馬,2,龍 馬,2,stored historical labels; not externally authenticated
+2026104,2026105,5,5,龍 馬 羊 狗 豬,龍 馬 羊 狗 豬,鼠 虎 羊 猴 豬,鼠 虎 兔 羊 猴 豬,羊 豬,2,羊 豬,2,stored historical labels; not externally authenticated
+2026105,2026106,5,6,鼠 虎 羊 猴 豬,鼠 虎 兔 羊 猴 豬,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,鼠 虎 羊 猴,4,鼠 虎 兔 羊 猴,5,stored historical labels; not externally authenticated
+2026106,2026107,6,6,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 羊 猴 鷄,鼠 牛 虎 猴 鷄,鼠 牛 虎 馬 猴 鷄,鼠 虎 猴 鷄,4,鼠 虎 猴 鷄,4,stored historical labels; not externally authenticated
+2026107,2026108,5,6,鼠 牛 虎 猴 鷄,鼠 牛 虎 馬 猴 鷄,牛 兔 蛇 羊,牛 兔 蛇 羊 狗,牛,1,牛,1,stored historical labels; not externally authenticated
+2026110,2026111,5,6,鼠 虎 兔 龍 狗,鼠 牛 虎 兔 龍 狗,虎 蛇 羊 猴 狗,虎 蛇 馬 羊 猴 狗,虎 狗,2,虎 狗,2,stored historical labels; not externally authenticated
+2026111,2026112,5,6,虎 蛇 羊 猴 狗,虎 蛇 馬 羊 猴 狗,鼠 牛 龍 鷄 豬,鼠 牛 龍 鷄 狗 豬,,0,狗,1,stored historical labels; not externally authenticated
+2026112,2026113,5,6,鼠 牛 龍 鷄 豬,鼠 牛 龍 鷄 狗 豬,牛 虎 龍 馬 鷄 豬,牛 虎 龍 蛇 馬 鷄 豬,牛 龍 鷄 豬,4,牛 龍 鷄 豬,4,stored historical labels; not externally authenticated
+2026113,2026114,6,7,牛 虎 龍 馬 鷄 豬,牛 虎 龍 蛇 馬 鷄 豬,虎 馬 羊 鷄 狗,牛 虎 馬 羊 鷄 狗,虎 馬 鷄,3,牛 虎 馬 鷄,4,stored historical labels; not externally authenticated
+2026114,2026115,5,6,虎 馬 羊 鷄 狗,牛 虎 馬 羊 鷄 狗,鼠 虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,虎 馬 狗,3,虎 馬 狗,3,stored historical labels; not externally authenticated
+2026115,2026116,6,6,鼠 虎 兔 馬 狗 豬,鼠 虎 兔 馬 狗 豬,兔 龍 羊 鷄 狗,兔 龍 羊 鷄 狗,兔 狗,2,兔 狗,2,stored historical labels; not externally authenticated
+2026116,2026117,5,5,兔 龍 羊 鷄 狗,兔 龍 羊 鷄 狗,鼠 蛇 鷄 狗,鼠 兔 蛇 鷄 狗,鷄 狗,2,兔 鷄 狗,3,stored historical labels; not externally authenticated
+2026119,2026120,5,6,牛 兔 蛇 鷄 豬,牛 兔 蛇 猴 鷄 豬,鼠 牛 羊 猴 豬,鼠 牛 羊 猴 豬,牛 豬,2,牛 猴 豬,3,stored historical labels; not externally authenticated
+2026120,2026121,5,5,鼠 牛 羊 猴 豬,鼠 牛 羊 猴 豬,牛 羊 猴 狗 豬,牛 羊 猴 狗 豬,牛 羊 猴 豬,4,牛 羊 猴 豬,4,stored historical labels; not externally authenticated
+2026121,2026122,5,5,牛 羊 猴 狗 豬,牛 羊 猴 狗 豬,牛 龍 馬 猴 鷄 狗,牛 龍 馬 猴 鷄 狗,牛 猴 狗,3,牛 猴 狗,3,stored historical labels; not externally authenticated
+2026122,2026123,6,6,牛 龍 馬 猴 鷄 狗,牛 龍 馬 猴 鷄 狗,牛 虎 龍 馬 猴 豬,牛 虎 龍 馬 猴 鷄 豬,牛 龍 馬 猴,4,牛 龍 馬 猴 鷄,5,stored historical labels; not externally authenticated
+2026123,2026124,6,7,牛 虎 龍 馬 猴 豬,牛 虎 龍 馬 猴 鷄 豬,虎 羊 鷄,虎 龍 羊 鷄,虎,1,虎 龍 鷄,3,stored historical labels; not externally authenticated
+2026125,2026126,5,5,鼠 牛 兔 龍 蛇,鼠 牛 兔 龍 蛇,虎 龍 馬 鷄 狗,虎 龍 馬 鷄 狗,龍,1,龍,1,stored historical labels; not externally authenticated
+2026126,2026127,5,5,虎 龍 馬 鷄 狗,虎 龍 馬 鷄 狗,鼠 虎 龍 蛇 豬,鼠 虎 龍 蛇 狗 豬,虎 龍,2,虎 龍 狗,3,stored historical labels; not externally authenticated
+2026127,2026128,5,6,鼠 虎 龍 蛇 豬,鼠 虎 龍 蛇 狗 豬,鼠 牛 蛇 馬 鷄 狗,鼠 牛 蛇 馬 鷄 狗,鼠 蛇,2,鼠 蛇 狗,3,stored historical labels; not externally authenticated
+2026128,2026129,6,6,鼠 牛 蛇 馬 鷄 狗,鼠 牛 蛇 馬 鷄 狗,鼠 虎 兔 馬 鷄 狗,鼠 虎 兔 馬 鷄 狗,鼠 馬 鷄 狗,4,鼠 馬 鷄 狗,4,stored historical labels; not externally authenticated
+2026129,2026130,6,6,鼠 虎 兔 馬 鷄 狗,鼠 虎 兔 馬 鷄 狗,虎 蛇 馬 猴 狗,虎 蛇 馬 猴 狗,虎 馬 狗,3,虎 馬 狗,3,stored historical labels; not externally authenticated
+2026130,2026131,5,5,虎 蛇 馬 猴 狗,虎 蛇 馬 猴 狗,兔 馬 羊 狗 豬,鼠 兔 馬 羊 狗 豬,馬 狗,2,馬 狗,2,stored historical labels; not externally authenticated
+2026131,2026132,5,6,兔 馬 羊 狗 豬,鼠 兔 馬 羊 狗 豬,龍 羊 猴 豬,牛 龍 羊 猴 豬,羊 豬,2,羊 豬,2,stored historical labels; not externally authenticated
+2026134,2026135,5,5,兔 馬 羊 鷄 豬,兔 馬 羊 鷄 豬,牛 猴 狗 豬,牛 猴 狗 豬,豬,1,豬,1,stored historical labels; not externally authenticated
+2026136,2026137,5,5,虎 龍 蛇 馬 羊,虎 龍 蛇 馬 羊,鼠 虎 羊 豬,鼠 虎 蛇 羊 豬,虎 羊,2,虎 蛇 羊,3,stored historical labels; not externally authenticated
+2026138,2026139,5,6,牛 蛇 羊 鷄 豬,牛 蛇 馬 羊 鷄 豬,牛 虎 馬 羊 狗,牛 虎 馬 羊 狗,牛 羊,2,牛 馬 羊,3,stored historical labels; not externally authenticated
+2026139,2026140,5,5,牛 虎 馬 羊 狗,牛 虎 馬 羊 狗,牛 兔 馬 鷄,牛 兔 馬 鷄,牛 馬,2,牛 馬,2,stored historical labels; not externally authenticated
+2026141,2026142,5,6,鼠 虎 蛇 鷄 豬,鼠 虎 蛇 鷄 狗 豬,牛 龍 蛇 猴 狗,牛 龍 蛇 猴 狗,蛇,1,蛇 狗,2,stored historical labels; not externally authenticated
+2026142,2026143,5,5,牛 龍 蛇 猴 狗,牛 龍 蛇 猴 狗,牛 蛇 馬 狗 豬,牛 蛇 馬 狗 豬,牛 蛇 狗,3,牛 蛇 狗,3,stored historical labels; not externally authenticated
+2026143,2026144,5,5,牛 蛇 馬 狗 豬,牛 蛇 馬 狗 豬,鼠 虎 蛇 猴 鷄 狗,鼠 虎 蛇 猴 鷄 狗,蛇 狗,2,蛇 狗,2,stored historical labels; not externally authenticated
+2026144,2026145,6,6,鼠 虎 蛇 猴 鷄 狗,鼠 虎 蛇 猴 鷄 狗,鼠 牛 馬 羊 豬,鼠 牛 虎 馬 羊 豬,鼠,1,鼠 虎,2,stored historical labels; not externally authenticated
+2026145,2026146,5,6,鼠 牛 馬 羊 豬,鼠 牛 虎 馬 羊 豬,鼠 牛 虎 兔 猴 豬,鼠 牛 虎 兔 猴 豬,鼠 牛 豬,3,鼠 牛 虎 豬,4,stored historical labels; not externally authenticated
+2026146,2026147,6,6,鼠 牛 虎 兔 猴 豬,鼠 牛 虎 兔 猴 豬,鼠 牛 虎 兔 鷄,鼠 牛 虎 兔 馬 鷄,鼠 牛 虎 兔,4,鼠 牛 虎 兔,4,stored historical labels; not externally authenticated
+2026147,2026148,5,6,鼠 牛 虎 兔 鷄,鼠 牛 虎 兔 馬 鷄,鼠 兔 龍 羊 猴,鼠 兔 龍 羊 猴,鼠 兔,2,鼠 兔,2,stored historical labels; not externally authenticated
+2026148,2026149,5,5,鼠 兔 龍 羊 猴,鼠 兔 龍 羊 猴,牛 兔 狗 豬,牛 兔 龍 狗 豬,兔,1,兔 龍,2,stored historical labels; not externally authenticated
+2026150,2026151,6,7,鼠 兔 馬 猴 鷄 豬,鼠 兔 馬 猴 鷄 狗 豬,牛 虎 龍 豬,鼠 牛 虎 龍 豬,豬,1,鼠 豬,2,stored historical labels; not externally authenticated
+2026152,2026153,6,7,兔 馬 羊 猴 鷄 豬,兔 馬 羊 猴 鷄 狗 豬,牛 兔 蛇 馬 狗,牛 虎 兔 蛇 馬 狗,兔 馬,2,兔 馬 狗,3,stored historical labels; not externally authenticated
+2026153,2026154,5,6,牛 兔 蛇 馬 狗,牛 虎 兔 蛇 馬 狗,鼠 牛 兔 猴 鷄,鼠 牛 虎 兔 猴 鷄,牛 兔,2,牛 虎 兔,3,stored historical labels; not externally authenticated
+2026154,2026155,5,6,鼠 牛 兔 猴 鷄,鼠 牛 虎 兔 猴 鷄,兔 馬 猴 鷄 狗,鼠 兔 馬 猴 鷄 狗,兔 猴 鷄,3,鼠 兔 猴 鷄,4,stored historical labels; not externally authenticated
+2026155,2026156,5,6,兔 馬 猴 鷄 狗,鼠 兔 馬 猴 鷄 狗,鼠 兔 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,兔 馬 猴,3,鼠 兔 馬 猴,4,stored historical labels; not externally authenticated
+2026156,2026157,6,6,鼠 兔 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,鼠 虎 馬 猴 鷄,鼠 虎 兔 馬 猴 鷄,鼠 馬 猴,3,鼠 兔 馬 猴,4,stored historical labels; not externally authenticated
+2026157,2026158,5,6,鼠 虎 馬 猴 鷄,鼠 虎 兔 馬 猴 鷄,鼠 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,鼠 馬 猴,3,鼠 兔 馬 猴,4,stored historical labels; not externally authenticated
+2026158,2026159,5,6,鼠 龍 馬 羊 猴,鼠 兔 龍 馬 羊 猴,虎 兔 羊 鷄 豬,虎 兔 龍 羊 鷄 豬,羊,1,兔 龍 羊,3,stored historical labels; not externally authenticated
+2026159,2026160,5,6,虎 兔 羊 鷄 豬,虎 兔 龍 羊 鷄 豬,牛 虎 兔 蛇 馬 豬,牛 虎 兔 蛇 馬 豬,虎 兔 豬,3,虎 兔 豬,3,stored historical labels; not externally authenticated
+2026160,2026161,6,6,牛 虎 兔 蛇 馬 豬,牛 虎 兔 蛇 馬 豬,鼠 牛 兔 羊 鷄,鼠 牛 兔 羊 鷄 豬,牛 兔,2,牛 兔 豬,3,stored historical labels; not externally authenticated
+2026161,2026162,5,6,鼠 牛 兔 羊 鷄,鼠 牛 兔 羊 鷄 豬,鼠 虎 蛇 羊 猴 狗,鼠 虎 蛇 羊 猴 狗 豬,鼠 羊,2,鼠 羊 豬,3,stored historical labels; not externally authenticated
+2026162,2026163,6,7,鼠 虎 蛇 羊 猴 狗,鼠 虎 蛇 羊 猴 狗 豬,鼠 虎 龍 鷄 狗 豬,鼠 虎 龍 馬 鷄 狗 豬,鼠 虎 狗,3,鼠 虎 狗 豬,4,stored historical labels; not externally authenticated
+2026163,2026164,6,7,鼠 虎 龍 鷄 狗 豬,鼠 虎 龍 馬 鷄 狗 豬,兔 龍 蛇 羊 鷄,兔 龍 蛇 羊 鷄 狗,龍 鷄,2,龍 鷄 狗,3,stored historical labels; not externally authenticated
+2026164,2026165,5,6,兔 龍 蛇 羊 鷄,兔 龍 蛇 羊 鷄 狗,蛇 馬 猴 狗,龍 蛇 馬 猴 狗,蛇,1,龍 蛇 狗,3,stored historical labels; not externally authenticated
+2026166,2026167,5,6,兔 龍 馬 狗 豬,牛 兔 龍 馬 狗 豬,鼠 兔 龍 猴,鼠 兔 龍 猴,兔 龍,2,兔 龍,2,stored historical labels; not externally authenticated
+2026168,2026169,6,6,虎 兔 龍 羊 猴 狗,虎 兔 龍 羊 猴 狗,牛 兔 馬 鷄 豬,牛 兔 馬 羊 鷄 豬,兔,1,兔 羊,2,stored historical labels; not externally authenticated
+2026169,2026170,5,6,牛 兔 馬 鷄 豬,牛 兔 馬 羊 鷄 豬,牛 龍 蛇 鷄 豬,牛 龍 蛇 鷄 豬,牛 鷄 豬,3,牛 鷄 豬,3,stored historical labels; not externally authenticated
+2026170,2026171,5,5,牛 龍 蛇 鷄 豬,牛 龍 蛇 鷄 豬,鼠 牛 兔 蛇 羊 鷄,鼠 牛 兔 蛇 羊 鷄,牛 蛇 鷄,3,牛 蛇 鷄,3,stored historical labels; not externally authenticated
+2026171,2026172,6,6,鼠 牛 兔 蛇 羊 鷄,鼠 牛 兔 蛇 羊 鷄,牛 兔 馬 鷄 狗 豬,牛 兔 馬 鷄 狗 豬,牛 兔 鷄,3,牛 兔 鷄,3,stored historical labels; not externally authenticated
+2026172,2026173,6,6,牛 兔 馬 鷄 狗 豬,牛 兔 馬 鷄 狗 豬,鼠 牛 兔 龍 馬,鼠 牛 兔 龍 蛇 馬,牛 兔 馬,3,牛 兔 馬,3,stored historical labels; not externally authenticated
+2026173,2026174,5,6,鼠 牛 兔 龍 馬,鼠 牛 兔 龍 蛇 馬,兔 龍 馬 鷄 狗 豬,虎 兔 龍 馬 鷄 狗 豬,兔 龍 馬,3,兔 龍 馬,3,stored historical labels; not externally authenticated
+2026174,2026175,6,7,兔 龍 馬 鷄 狗 豬,虎 兔 龍 馬 鷄 狗 豬,鼠 牛 虎 兔 馬,鼠 牛 虎 兔 蛇 馬,兔 馬,2,虎 兔 馬,3,stored historical labels; not externally authenticated
+2026175,2026176,5,6,鼠 牛 虎 兔 馬,鼠 牛 虎 兔 蛇 馬,鼠 牛 龍 蛇 羊,鼠 牛 龍 蛇 羊 鷄,鼠 牛,2,鼠 牛 蛇,3,stored historical labels; not externally authenticated
+2026176,2026177,5,6,鼠 牛 龍 蛇 羊,鼠 牛 龍 蛇 羊 鷄,鼠 虎 蛇 馬 狗 豬,鼠 虎 蛇 馬 狗 豬,鼠 蛇,2,鼠 蛇,2,stored historical labels; not externally authenticated
+2026177,2026178,6,6,鼠 虎 蛇 馬 狗 豬,鼠 虎 蛇 馬 狗 豬,鼠 虎 蛇 鷄 豬,鼠 牛 虎 蛇 鷄 豬,鼠 虎 蛇 豬,4,鼠 虎 蛇 豬,4,stored historical labels; not externally authenticated
+2026178,2026179,5,6,鼠 虎 蛇 鷄 豬,鼠 牛 虎 蛇 鷄 豬,鼠 牛 蛇 猴 鷄 狗,鼠 牛 龍 蛇 猴 鷄 狗,鼠 蛇 鷄,3,鼠 牛 蛇 鷄,4,stored historical labels; not externally authenticated
+2026179,2026180,6,7,鼠 牛 蛇 猴 鷄 狗,鼠 牛 龍 蛇 猴 鷄 狗,鼠 牛 蛇 馬 鷄,鼠 牛 蛇 馬 鷄 狗,鼠 牛 蛇 鷄,4,鼠 牛 蛇 鷄 狗,5,stored historical labels; not externally authenticated
+2026180,2026181,5,6,鼠 牛 蛇 馬 鷄,鼠 牛 蛇 馬 鷄 狗,牛 虎 龍 猴 鷄,鼠 牛 虎 龍 猴 鷄,牛 鷄,2,鼠 牛 鷄,3,stored historical labels; not externally authenticated
+2026181,2026182,5,6,牛 虎 龍 猴 鷄,鼠 牛 虎 龍 猴 鷄,龍 羊 猴 狗,虎 龍 羊 猴 狗,龍 猴,2,虎 龍 猴,3,stored historical labels; not externally authenticated
+2026183,2026184,6,7,牛 龍 馬 猴 鷄 狗,牛 龍 馬 羊 猴 鷄 狗,馬 羊 猴 豬,馬 羊 猴 豬,馬 猴,2,馬 羊 猴,3,stored historical labels; not externally authenticated
+2026185,2026186,5,5,牛 虎 羊 猴 狗,牛 虎 羊 猴 狗,虎 蛇 馬 鷄,虎 蛇 馬 猴 鷄,虎,1,虎 猴,2,stored historical labels; not externally authenticated
+2026187,2026188,5,6,龍 蛇 羊 猴 鷄,龍 蛇 馬 羊 猴 鷄,鼠 虎 蛇 馬 鷄,鼠 虎 兔 蛇 馬 鷄,蛇 鷄,2,蛇 馬 鷄,3,stored historical labels; not externally authenticated
+2026188,2026189,5,6,鼠 虎 蛇 馬 鷄,鼠 虎 兔 蛇 馬 鷄,鼠 蛇 馬 羊 狗 豬,鼠 龍 蛇 馬 羊 狗 豬,鼠 蛇 馬,3,鼠 蛇 馬,3,stored historical labels; not externally authenticated
+2026189,2026190,6,7,鼠 蛇 馬 羊 狗 豬,鼠 龍 蛇 馬 羊 狗 豬,鼠 虎 蛇 馬 羊 鷄,鼠 虎 兔 蛇 馬 羊 鷄,鼠 蛇 馬 羊,4,鼠 蛇 馬 羊,4,stored historical labels; not externally authenticated
+2026190,2026191,6,7,鼠 虎 蛇 馬 羊 鷄,鼠 虎 兔 蛇 馬 羊 鷄,鼠 兔 龍 蛇 羊,鼠 虎 兔 龍 蛇 羊,鼠 蛇 羊,3,鼠 虎 兔 蛇 羊,5,stored historical labels; not externally authenticated
+2026191,2026192,5,6,鼠 兔 龍 蛇 羊,鼠 虎 兔 龍 蛇 羊,牛 龍 馬 狗 豬,牛 龍 馬 狗 豬,龍,1,龍,1,stored historical labels; not externally authenticated
+2026192,2026193,5,5,牛 龍 馬 狗 豬,牛 龍 馬 狗 豬,虎 蛇 馬 猴 狗,虎 蛇 馬 猴 狗,馬 狗,2,馬 狗,2,stored historical labels; not externally authenticated
+2026193,2026194,5,5,虎 蛇 馬 猴 狗,虎 蛇 馬 猴 狗,牛 兔 龍 鷄 狗,牛 兔 龍 蛇 鷄 狗,狗,1,蛇 狗,2,stored historical labels; not externally authenticated
+2026194,2026195,5,6,牛 兔 龍 鷄 狗,牛 兔 龍 蛇 鷄 狗,鼠 兔 龍 猴 鷄 狗,鼠 兔 龍 馬 猴 鷄 狗,兔 龍 鷄 狗,4,兔 龍 鷄 狗,4,stored historical labels; not externally authenticated
+2026195,2026196,6,7,鼠 兔 龍 猴 鷄 狗,鼠 兔 龍 馬 猴 鷄 狗,鼠 虎 龍 馬 羊 鷄,鼠 虎 龍 馬 羊 鷄,鼠 龍 鷄,3,鼠 龍 馬 鷄,4,stored historical labels; not externally authenticated
+2026196,2026197,6,6,鼠 虎 龍 馬 羊 鷄,鼠 虎 龍 馬 羊 鷄,鼠 牛 兔 羊 豬,鼠 牛 兔 羊 豬,鼠 羊,2,鼠 羊,2,stored historical labels; not externally authenticated
+2026197,2026198,5,5,鼠 牛 兔 羊 豬,鼠 牛 兔 羊 豬,羊 猴 狗,鼠 羊 猴 狗,羊,1,鼠 羊,2,stored historical labels; not externally authenticated
+2026199,2026200,5,6,牛 虎 蛇 馬 狗,牛 虎 蛇 馬 羊 狗,鼠 虎 猴 鷄 豬,鼠 虎 龍 猴 鷄 豬,虎,1,虎,1,stored historical labels; not externally authenticated
+2026200,2026201,5,6,鼠 虎 猴 鷄 豬,鼠 虎 龍 猴 鷄 豬,鼠 兔 蛇 馬 鷄,鼠 兔 蛇 馬 鷄 豬,鼠 鷄,2,鼠 鷄 豬,3,stored historical labels; not externally authenticated
+2026201,2026202,5,6,鼠 兔 蛇 馬 鷄,鼠 兔 蛇 馬 鷄 豬,龍 馬 猴 狗,兔 龍 馬 猴 狗,馬,1,兔 馬,2,stored historical labels; not externally authenticated
+2026203,2026204,6,6,鼠 龍 馬 羊 猴 豬,鼠 龍 馬 羊 猴 豬,鼠 虎 蛇 羊 猴 鷄,鼠 虎 蛇 羊 猴 鷄,鼠 羊 猴,3,鼠 羊 猴,3,stored historical labels; not externally authenticated
+2026204,2026205,6,6,鼠 虎 蛇 羊 猴 鷄,鼠 虎 蛇 羊 猴 鷄,牛 虎 兔 龍 羊 猴,牛 虎 兔 龍 羊 猴,虎 羊 猴,3,虎 羊 猴,3,stored historical labels; not externally authenticated
+2026205,2026206,6,6,牛 虎 兔 龍 羊 猴,牛 虎 兔 龍 羊 猴,兔 龍 馬 猴 狗,兔 龍 馬 猴 狗,兔 龍 猴,3,兔 龍 猴,3,stored historical labels; not externally authenticated
+2026206,2026207,5,5,兔 龍 馬 猴 狗,兔 龍 馬 猴 狗,兔 蛇 馬 猴 狗 豬,鼠 兔 蛇 馬 猴 狗 豬,兔 馬 猴 狗,4,兔 馬 猴 狗,4,stored historical labels; not externally authenticated
+2026207,2026208,6,7,兔 蛇 馬 猴 狗 豬,鼠 兔 蛇 馬 猴 狗 豬,鼠 兔 羊 猴,鼠 兔 羊 猴,兔 猴,2,鼠 兔 猴,3,stored historical labels; not externally authenticated
+2026209,2026210,6,6,虎 龍 蛇 鷄 狗 豬,虎 龍 蛇 鷄 狗 豬,牛 虎 兔 龍 馬 羊,牛 虎 兔 龍 馬 羊,虎 龍,2,虎 龍,2,stored historical labels; not externally authenticated
+2026210,2026211,6,6,牛 虎 兔 龍 馬 羊,牛 虎 兔 龍 馬 羊,龍 蛇 馬 羊 豬,龍 蛇 馬 羊 豬,龍 馬 羊,3,龍 馬 羊,3,stored historical labels; not externally authenticated
+2026211,2026212,5,5,龍 蛇 馬 羊 豬,龍 蛇 馬 羊 豬,鼠 兔 龍 豬,鼠 牛 兔 龍 豬,龍 豬,2,龍 豬,2,stored historical labels; not externally authenticated
+2026213,2026214,6,7,虎 龍 馬 羊 鷄 狗,虎 龍 馬 羊 猴 鷄 狗,鼠 牛 虎 龍 蛇,鼠 牛 虎 兔 龍 蛇,虎 龍,2,虎 龍,2,stored historical labels; not externally authenticated
+2026214,2026215,5,6,鼠 牛 虎 龍 蛇,鼠 牛 虎 兔 龍 蛇,鼠 牛 蛇 馬 猴,鼠 牛 蛇 馬 猴,鼠 牛 蛇,3,鼠 牛 蛇,3,stored historical labels; not externally authenticated
+2026215,2026216,5,5,鼠 牛 蛇 馬 猴,鼠 牛 蛇 馬 猴,牛 虎 羊 狗 豬,牛 虎 馬 羊 狗 豬,牛,1,牛 馬,2,stored historical labels; not externally authenticated
+2026216,2026217,5,6,牛 虎 羊 狗 豬,牛 虎 馬 羊 狗 豬,鼠 牛 羊 猴 鷄,鼠 牛 蛇 羊 猴 鷄,牛 羊,2,牛 羊,2,stored historical labels; not externally authenticated
+2026217,2026218,5,6,鼠 牛 羊 猴 鷄,鼠 牛 蛇 羊 猴 鷄,蛇 馬 猴 鷄,虎 蛇 馬 猴 鷄,猴 鷄,2,蛇 猴 鷄,3,stored historical labels; not externally authenticated
+2026220,2026221,5,5,兔 龍 蛇 馬 羊,兔 龍 蛇 馬 羊,牛 兔 蛇 羊 鷄,牛 兔 蛇 馬 羊 鷄,兔 蛇 羊,3,兔 蛇 馬 羊,4,stored historical labels; not externally authenticated
+2026221,2026222,5,6,牛 兔 蛇 羊 鷄,牛 兔 蛇 馬 羊 鷄,牛 龍 蛇 馬 猴,牛 龍 蛇 馬 猴,牛 蛇,2,牛 蛇 馬,3,stored historical labels; not externally authenticated
+2026222,2026223,5,5,牛 龍 蛇 馬 猴,牛 龍 蛇 馬 猴,鼠 虎 蛇 馬 狗 豬,鼠 虎 蛇 馬 猴 狗 豬,蛇 馬,2,蛇 馬 猴,3,stored historical labels; not externally authenticated
+2026223,2026224,6,7,鼠 虎 蛇 馬 狗 豬,鼠 虎 蛇 馬 猴 狗 豬,鼠 牛 馬 羊 豬,鼠 牛 馬 羊 狗 豬,鼠 馬 豬,3,鼠 馬 狗 豬,4,stored historical labels; not externally authenticated
+2026224,2026225,5,6,鼠 牛 馬 羊 豬,鼠 牛 馬 羊 狗 豬,鼠 龍 蛇 鷄,鼠 龍 蛇 馬 鷄,鼠,1,鼠 馬,2,stored historical labels; not externally authenticated
+2026226,2026227,6,6,虎 兔 蛇 馬 猴 狗,虎 兔 蛇 馬 猴 狗,鼠 虎 馬 羊 猴,鼠 虎 兔 馬 羊 猴,虎 馬 猴,3,虎 兔 馬 猴,4,stored historical labels; not externally authenticated
+2026227,2026228,5,6,鼠 虎 馬 羊 猴,鼠 虎 兔 馬 羊 猴,牛 虎 蛇 豬,牛 虎 蛇 猴 豬,虎,1,虎 猴,2,stored historical labels; not externally authenticated
+2026229,2026230,6,7,鼠 兔 龍 馬 猴 狗,鼠 兔 龍 蛇 馬 猴 狗,兔 蛇 馬 猴 鷄,兔 蛇 馬 猴 鷄,兔 馬 猴,3,兔 蛇 馬 猴,4,stored historical labels; not externally authenticated
+2026230,2026231,5,5,兔 蛇 馬 猴 鷄,兔 蛇 馬 猴 鷄,龍 馬 猴 鷄 豬,龍 馬 猴 鷄 豬,馬 猴 鷄,3,馬 猴 鷄,3,stored historical labels; not externally authenticated
+2026231,2026232,5,5,龍 馬 猴 鷄 豬,龍 馬 猴 鷄 豬,虎 兔 鷄 豬,牛 虎 兔 鷄 豬,鷄 豬,2,鷄 豬,2,stored historical labels; not externally authenticated
+2026233,2026234,5,6,牛 虎 兔 馬 鷄,鼠 牛 虎 兔 馬 鷄,鼠 牛 虎 馬,鼠 牛 虎 龍 馬,牛 虎 馬,3,鼠 牛 虎 馬,4,stored historical labels; not externally authenticated
+2026235,2026236,6,6,虎 龍 蛇 猴 狗 豬,虎 龍 蛇 猴 狗 豬,牛 虎 蛇 猴 狗,牛 虎 蛇 猴 狗,虎 蛇 猴 狗,4,虎 蛇 猴 狗,4,stored historical labels; not externally authenticated
+2026236,2026237,5,5,牛 虎 蛇 猴 狗,牛 虎 蛇 猴 狗,牛 虎 蛇 馬 羊 猴,牛 虎 蛇 馬 羊 猴,牛 虎 蛇 猴,4,牛 虎 蛇 猴,4,stored historical labels; not externally authenticated
+2026237,2026238,6,6,牛 虎 蛇 馬 羊 猴,牛 虎 蛇 馬 羊 猴,鼠 兔 猴 狗 豬,鼠 虎 兔 猴 狗 豬,猴,1,虎 猴,2,stored historical labels; not externally authenticated
+2026238,2026239,5,6,鼠 兔 猴 狗 豬,鼠 虎 兔 猴 狗 豬,鼠 虎 猴 鷄,鼠 虎 猴 鷄,鼠 猴,2,鼠 虎 猴,3,stored historical labels; not externally authenticated
+2026242,2026243,6,7,鼠 虎 馬 猴 鷄 豬,鼠 虎 馬 猴 鷄 狗 豬,牛 虎 羊 鷄 狗,牛 虎 羊 鷄 狗,虎 鷄,2,虎 鷄 狗,3,stored historical labels; not externally authenticated
+2026243,2026244,5,5,牛 虎 羊 鷄 狗,牛 虎 羊 鷄 狗,虎 兔 龍 蛇 狗,虎 兔 龍 蛇 鷄 狗,虎 狗,2,虎 鷄 狗,3,stored historical labels; not externally authenticated
+2026244,2026245,5,6,虎 兔 龍 蛇 狗,虎 兔 龍 蛇 鷄 狗,蛇 馬 猴 鷄,牛 蛇 馬 猴 鷄,蛇,1,蛇 鷄,2,stored historical labels; not externally authenticated
+2026246,2026247,5,6,鼠 馬 羊 鷄 豬,鼠 牛 馬 羊 鷄 豬,鼠 虎 兔 龍 鷄 狗,鼠 虎 兔 龍 鷄 狗,鼠 鷄,2,鼠 鷄,2,stored historical labels; not externally authenticated
+2026247,2026248,6,6,鼠 虎 兔 龍 鷄 狗,鼠 虎 兔 龍 鷄 狗,鼠 龍 蛇 馬,鼠 龍 蛇 馬 豬,鼠 龍,2,鼠 龍,2,stored historical labels; not externally authenticated
+2026249,2026250,5,6,虎 蛇 馬 羊 鷄,虎 蛇 馬 羊 猴 鷄,牛 虎 龍 馬 猴 鷄,牛 虎 龍 蛇 馬 猴 鷄,虎 馬 鷄,3,虎 蛇 馬 猴 鷄,5,stored historical labels; not externally authenticated
+2026250,2026251,6,7,牛 虎 龍 馬 猴 鷄,牛 虎 龍 蛇 馬 猴 鷄,牛 馬 猴 狗 豬,牛 馬 猴 狗 豬,牛 馬 猴,3,牛 馬 猴,3,stored historical labels; not externally authenticated
+2026251,2026252,5,5,牛 馬 猴 狗 豬,牛 馬 猴 狗 豬,鼠 牛 虎 馬 羊 狗,鼠 牛 虎 馬 羊 鷄 狗,牛 馬 狗,3,牛 馬 狗,3,stored historical labels; not externally authenticated
+2026252,2026253,6,7,鼠 牛 虎 馬 羊 狗,鼠 牛 虎 馬 羊 鷄 狗,虎 兔 龍 馬 猴,虎 兔 龍 馬 猴,虎 馬,2,虎 馬,2,stored historical labels; not externally authenticated
+2026253,2026254,5,5,虎 兔 龍 馬 猴,虎 兔 龍 馬 猴,牛 兔 蛇 猴 鷄 豬,牛 兔 蛇 猴 鷄 豬,兔 猴,2,兔 猴,2,stored historical labels; not externally authenticated
+2026254,2026255,6,6,牛 兔 蛇 猴 鷄 豬,牛 兔 蛇 猴 鷄 豬,牛 龍 羊 猴 鷄,牛 龍 羊 猴 鷄 豬,牛 猴 鷄,3,牛 猴 鷄 豬,4,stored historical labels; not externally authenticated
+2026255,2026256,5,6,牛 龍 羊 猴 鷄,牛 龍 羊 猴 鷄 豬,鼠 兔 龍 馬 狗,鼠 兔 龍 馬 狗,龍,1,龍,1,stored historical labels; not externally authenticated
+2026256,2026257,5,5,鼠 兔 龍 馬 狗,鼠 兔 龍 馬 狗,龍 猴 鷄 狗 豬,鼠 龍 猴 鷄 狗 豬,龍 狗,2,鼠 龍 狗,3,stored historical labels; not externally authenticated
+2026257,2026258,5,6,龍 猴 鷄 狗 豬,鼠 龍 猴 鷄 狗 豬,鼠 虎 龍 猴 狗,鼠 虎 龍 猴 鷄 狗,龍 猴 狗,3,鼠 龍 猴 鷄 狗,5,stored historical labels; not externally authenticated
+2026258,2026259,5,6,鼠 虎 龍 猴 狗,鼠 虎 龍 猴 鷄 狗,鼠 牛 馬 羊 狗,鼠 牛 馬 羊 鷄 狗,鼠 狗,2,鼠 鷄 狗,3,stored historical labels; not externally authenticated
+2026259,2026260,5,6,鼠 牛 馬 羊 狗,鼠 牛 馬 羊 鷄 狗,牛 蛇 馬 羊 豬,牛 蛇 馬 羊 豬,牛 馬 羊,3,牛 馬 羊,3,stored historical labels; not externally authenticated
+2026260,2026261,5,5,牛 蛇 馬 羊 豬,牛 蛇 馬 羊 豬,鼠 牛 虎 馬 猴 鷄,鼠 牛 虎 馬 羊 猴 鷄,牛 馬,2,牛 馬 羊,3,stored historical labels; not externally authenticated
+2026261,2026262,6,7,鼠 牛 虎 馬 猴 鷄,鼠 牛 虎 馬 羊 猴 鷄,鼠 蛇 羊 猴 鷄 狗,鼠 牛 蛇 羊 猴 鷄 狗,鼠 猴 鷄,3,鼠 牛 羊 猴 鷄,5,stored historical labels; not externally authenticated
+2026262,2026263,6,7,鼠 蛇 羊 猴 鷄 狗,鼠 牛 蛇 羊 猴 鷄 狗,兔 龍 蛇 馬 羊 豬,兔 龍 蛇 馬 羊 狗 豬,蛇 羊,2,蛇 羊 狗,3,stored historical labels; not externally authenticated
+2026263,2026264,6,7,兔 龍 蛇 馬 羊 豬,兔 龍 蛇 馬 羊 狗 豬,鼠 牛 羊 鷄 豬,鼠 牛 羊 鷄 狗 豬,羊 豬,2,羊 狗 豬,3,stored historical labels; not externally authenticated
+2026264,2026265,5,6,鼠 牛 羊 鷄 豬,鼠 牛 羊 鷄 狗 豬,虎 兔 蛇 猴 鷄 豬,虎 兔 蛇 馬 猴 鷄 豬,鷄 豬,2,鷄 豬,2,stored historical labels; not externally authenticated
+2026265,2026266,6,7,虎 兔 蛇 猴 鷄 豬,虎 兔 蛇 馬 猴 鷄 豬,牛 虎 蛇 馬 狗,牛 虎 蛇 馬 狗 豬,虎 蛇,2,虎 蛇 馬 豬,4,stored historical labels; not externally authenticated
+2026266,2026267,5,6,牛 虎 蛇 馬 狗,牛 虎 蛇 馬 狗 豬,虎 兔 馬 鷄 狗 豬,虎 兔 馬 鷄 狗 豬,虎 馬 狗,3,虎 馬 狗 豬,4,stored historical labels; not externally authenticated
+2026267,2026268,6,6,虎 兔 馬 鷄 狗 豬,虎 兔 馬 鷄 狗 豬,鼠 羊 猴 鷄 狗,鼠 兔 羊 猴 鷄 狗,鷄 狗,2,兔 鷄 狗,3,stored historical labels; not externally authenticated
+2026268,2026269,5,6,鼠 羊 猴 鷄 狗,鼠 兔 羊 猴 鷄 狗,鼠 虎 兔 蛇 羊,鼠 虎 兔 蛇 羊 鷄,鼠 羊,2,鼠 兔 羊 鷄,4,stored historical labels; not externally authenticated
+2026269,2026270,5,6,鼠 虎 兔 蛇 羊,鼠 虎 兔 蛇 羊 鷄,牛 虎 龍 羊 鷄 豬,鼠 牛 虎 龍 羊 鷄 豬,虎 羊,2,鼠 虎 羊 鷄,4,stored historical labels; not externally authenticated
+2026270,2026271,6,7,牛 虎 龍 羊 鷄 豬,鼠 牛 虎 龍 羊 鷄 豬,鼠 虎 蛇 馬 鷄 豬,鼠 虎 蛇 馬 猴 鷄 豬,虎 鷄 豬,3,鼠 虎 鷄 豬,4,stored historical labels; not externally authenticated
+2026271,2026272,6,7,鼠 虎 蛇 馬 鷄 豬,鼠 虎 蛇 馬 猴 鷄 豬,鼠 牛 兔 龍 羊 豬,鼠 牛 兔 龍 蛇 羊 豬,鼠 豬,2,鼠 蛇 豬,3,stored historical labels; not externally authenticated
+2026272,2026273,6,7,鼠 牛 兔 龍 羊 豬,鼠 牛 兔 龍 蛇 羊 豬,牛 虎 兔 龍 馬,牛 虎 兔 龍 馬,牛 兔 龍,3,牛 兔 龍,3,stored historical labels; not externally authenticated
+2026273,2026274,5,5,牛 虎 兔 龍 馬,牛 虎 兔 龍 馬,虎 兔 龍 羊 豬,虎 兔 龍 羊 狗 豬,虎 兔 龍,3,虎 兔 龍,3,stored historical labels; not externally authenticated
+2026274,2026275,5,6,虎 兔 龍 羊 豬,虎 兔 龍 羊 狗 豬,鼠 牛 兔 蛇 馬 猴,鼠 牛 虎 兔 蛇 馬 猴,兔,1,虎 兔,2,stored historical labels; not externally authenticated
+2026275,2026276,6,7,鼠 牛 兔 蛇 馬 猴,鼠 牛 虎 兔 蛇 馬 猴,虎 兔 蛇 羊 猴 狗,虎 兔 蛇 羊 猴 狗,兔 蛇 猴,3,虎 兔 蛇 猴,4,stored historical labels; not externally authenticated
+2026276,2026277,6,6,虎 兔 蛇 羊 猴 狗,虎 兔 蛇 羊 猴 狗,鼠 虎 蛇 馬 猴 豬,鼠 虎 蛇 馬 猴 豬,虎 蛇 猴,3,虎 蛇 猴,3,stored historical labels; not externally authenticated
+2026277,2026278,6,6,鼠 虎 蛇 馬 猴 豬,鼠 虎 蛇 馬 猴 豬,牛 虎 兔 馬 羊 豬,牛 虎 兔 蛇 馬 羊 豬,虎 馬 豬,3,虎 蛇 馬 豬,4,stored historical labels; not externally authenticated
+2026278,2026279,6,7,牛 虎 兔 馬 羊 豬,牛 虎 兔 蛇 馬 羊 豬,牛 虎 蛇 猴 豬,牛 虎 蛇 猴 鷄 豬,牛 虎 豬,3,牛 虎 蛇 豬,4,stored historical labels; not externally authenticated
+2026279,2026280,5,6,牛 虎 蛇 猴 豬,牛 虎 蛇 猴 鷄 豬,虎 兔 龍 蛇 馬,虎 兔 龍 蛇 馬,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2026280,2026281,5,5,虎 兔 龍 蛇 馬,虎 兔 龍 蛇 馬,鼠 蛇 羊 鷄 狗 豬,鼠 蛇 羊 鷄 狗 豬,蛇,1,蛇,1,stored historical labels; not externally authenticated
+2026281,2026282,6,6,鼠 蛇 羊 鷄 狗 豬,鼠 蛇 羊 鷄 狗 豬,虎 龍 馬 鷄 豬,虎 龍 馬 猴 鷄 豬,鷄 豬,2,鷄 豬,2,stored historical labels; not externally authenticated
+2026282,2026283,5,6,虎 龍 馬 鷄 豬,虎 龍 馬 猴 鷄 豬,牛 龍 馬 猴 狗 豬,牛 龍 馬 猴 狗 豬,龍 馬 豬,3,龍 馬 猴 豬,4,stored historical labels; not externally authenticated
+2026283,2026284,6,6,牛 龍 馬 猴 狗 豬,牛 龍 馬 猴 狗 豬,牛 兔 龍 羊 猴 鷄,牛 兔 龍 羊 猴 鷄 豬,牛 龍 猴,3,牛 龍 猴 豬,4,stored historical labels; not externally authenticated
+2026284,2026285,6,7,牛 兔 龍 羊 猴 鷄,牛 兔 龍 羊 猴 鷄 豬,鼠 兔 龍 鷄 狗 豬,鼠 兔 龍 鷄 狗 豬,兔 龍 鷄,3,兔 龍 鷄 豬,4,stored historical labels; not externally authenticated
+2026285,2026286,6,6,鼠 兔 龍 鷄 狗 豬,鼠 兔 龍 鷄 狗 豬,虎 兔 馬 豬,虎 兔 馬 羊 豬,兔 豬,2,兔 豬,2,stored historical labels; not externally authenticated
+2026287,2026288,5,6,鼠 牛 虎 蛇 猴,鼠 牛 虎 蛇 猴 豬,虎 蛇 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,虎 蛇,2,虎 蛇,2,stored historical labels; not externally authenticated
+2026288,2026289,5,6,虎 蛇 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 蛇 羊 猴 鷄,虎 羊 鷄,3,虎 蛇 羊 鷄,4,stored historical labels; not externally authenticated
+2026289,2026290,6,7,鼠 虎 兔 羊 猴 鷄,鼠 虎 兔 蛇 羊 猴 鷄,鼠 虎 龍 蛇 狗 豬,鼠 虎 兔 龍 蛇 狗 豬,鼠 虎,2,鼠 虎 兔 蛇,4,stored historical labels; not externally authenticated
+2026290,2026291,6,7,鼠 虎 龍 蛇 狗 豬,鼠 虎 兔 龍 蛇 狗 豬,虎 蛇 鷄 豬,虎 蛇 鷄 豬,虎 蛇 豬,3,虎 蛇 豬,3,stored historical labels; not externally authenticated
+2026292,2026293,5,6,牛 兔 龍 猴 鷄,牛 兔 龍 羊 猴 鷄,蛇 馬 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,鷄,1,羊 鷄,2,stored historical labels; not externally authenticated
+2026293,2026294,5,6,蛇 馬 羊 鷄 狗,虎 蛇 馬 羊 鷄 狗,鼠 虎 龍 蛇 鷄,鼠 虎 兔 龍 蛇 鷄,蛇 鷄,2,虎 蛇 鷄,3,stored historical labels; not externally authenticated
+2026294,2026295,5,6,鼠 虎 龍 蛇 鷄,鼠 虎 兔 龍 蛇 鷄,虎 兔 馬 猴 鷄 狗,虎 兔 馬 猴 鷄 狗,虎 鷄,2,虎 兔 鷄,3,stored historical labels; not externally authenticated
+2026295,2026296,6,6,虎 兔 馬 猴 鷄 狗,虎 兔 馬 猴 鷄 狗,鼠 龍 蛇 狗,鼠 龍 蛇 猴 狗,狗,1,猴 狗,2,stored historical labels; not externally authenticated
+2026297,2026298,5,5,兔 龍 蛇 馬 狗,兔 龍 蛇 馬 狗,鼠 兔 馬 羊 鷄,鼠 兔 馬 羊 鷄 豬,兔 馬,2,兔 馬,2,stored historical labels; not externally authenticated
+2026298,2026299,5,6,鼠 兔 馬 羊 鷄,鼠 兔 馬 羊 鷄 豬,鼠 牛 虎 兔 羊 豬,鼠 牛 虎 兔 羊 猴 豬,鼠 兔 羊,3,鼠 兔 羊 豬,4,stored historical labels; not externally authenticated
+2026299,2026300,6,7,鼠 牛 虎 兔 羊 豬,鼠 牛 虎 兔 羊 猴 豬,牛 虎 馬 猴,牛 虎 蛇 馬 猴,牛 虎,2,牛 虎 猴,3,stored historical labels; not externally authenticated
+2026301,2026302,5,5,鼠 虎 龍 蛇 猴,鼠 虎 龍 蛇 猴,蛇 馬 羊 猴 鷄,蛇 馬 羊 猴 鷄 狗,蛇 猴,2,蛇 猴,2,stored historical labels; not externally authenticated
+2026302,2026303,5,6,蛇 馬 羊 猴 鷄,蛇 馬 羊 猴 鷄 狗,兔 龍 蛇 馬 豬,虎 兔 龍 蛇 馬 豬,蛇 馬,2,蛇 馬,2,stored historical labels; not externally authenticated
+2026303,2026304,5,6,兔 龍 蛇 馬 豬,虎 兔 龍 蛇 馬 豬,鼠 馬 羊 猴 鷄,鼠 馬 羊 猴 鷄 狗,馬,1,馬,1,stored historical labels; not externally authenticated
+2026304,2026305,5,6,鼠 馬 羊 猴 鷄,鼠 馬 羊 猴 鷄 狗,鼠 牛 虎 兔 馬 豬,鼠 牛 虎 兔 蛇 馬 豬,鼠 馬,2,鼠 馬,2,stored historical labels; not externally authenticated
+2026305,2026306,6,7,鼠 牛 虎 兔 馬 豬,鼠 牛 虎 兔 蛇 馬 豬,兔 龍 蛇 馬 狗 豬,兔 龍 蛇 馬 狗 豬,兔 馬 豬,3,兔 蛇 馬 豬,4,stored historical labels; not externally authenticated
+2026306,2026307,6,6,兔 龍 蛇 馬 狗 豬,兔 龍 蛇 馬 狗 豬,龍 蛇 馬 羊 狗,牛 龍 蛇 馬 羊 狗,龍 蛇 馬 狗,4,龍 蛇 馬 狗,4,stored historical labels; not externally authenticated
+2026307,2026308,5,6,龍 蛇 馬 羊 狗,牛 龍 蛇 馬 羊 狗,牛 兔 馬 豬,牛 兔 馬 鷄 豬,馬,1,牛 馬,2,stored historical labels; not externally authenticated
+2026309,2026310,5,6,牛 兔 龍 蛇 鷄,牛 兔 龍 蛇 馬 鷄,兔 蛇 馬 猴 鷄 豬,兔 蛇 馬 猴 鷄 豬,兔 蛇 鷄,3,兔 蛇 馬 鷄,4,stored historical labels; not externally authenticated
+2026310,2026311,6,6,兔 蛇 馬 猴 鷄 豬,兔 蛇 馬 猴 鷄 豬,鼠 兔 蛇 馬 豬,鼠 兔 蛇 馬 鷄 豬,兔 蛇 馬 豬,4,兔 蛇 馬 鷄 豬,5,stored historical labels; not externally authenticated
+2026311,2026312,5,6,鼠 兔 蛇 馬 豬,鼠 兔 蛇 馬 鷄 豬,鼠 兔 龍 鷄 豬,鼠 兔 龍 蛇 鷄 豬,鼠 兔 豬,3,鼠 兔 蛇 鷄 豬,5,stored historical labels; not externally authenticated
+2026312,2026313,5,6,鼠 兔 龍 鷄 豬,鼠 兔 龍 蛇 鷄 豬,鼠 龍 狗 豬,鼠 龍 狗 豬,鼠 龍 豬,3,鼠 龍 豬,3,stored historical labels; not externally authenticated
+2026314,2026315,5,6,蛇 馬 鷄 狗 豬,鼠 蛇 馬 鷄 狗 豬,牛 龍 馬 鷄 狗,牛 龍 馬 羊 鷄 狗,馬 鷄 狗,3,馬 鷄 狗,3,stored historical labels; not externally authenticated
+2026315,2026316,5,6,牛 龍 馬 鷄 狗,牛 龍 馬 羊 鷄 狗,兔 蛇 馬 鷄 狗,兔 龍 蛇 馬 鷄 狗,馬 鷄 狗,3,龍 馬 鷄 狗,4,stored historical labels; not externally authenticated
+2026316,2026317,5,6,兔 蛇 馬 鷄 狗,兔 龍 蛇 馬 鷄 狗,鼠 牛 馬 羊 鷄,鼠 牛 蛇 馬 羊 鷄,馬 鷄,2,蛇 馬 鷄,3,stored historical labels; not externally authenticated
+2026317,2026318,5,6,鼠 牛 馬 羊 鷄,鼠 牛 蛇 馬 羊 鷄,蛇 馬 羊 鷄 狗,蛇 馬 羊 鷄 狗,馬 羊 鷄,3,蛇 馬 羊 鷄,4,stored historical labels; not externally authenticated
+2026318,2026319,5,5,蛇 馬 羊 鷄 狗,蛇 馬 羊 鷄 狗,牛 龍 馬 狗,牛 虎 龍 馬 狗,馬 狗,2,馬 狗,2,stored historical labels; not externally authenticated
+2026320,2026321,5,5,虎 蛇 羊 鷄 豬,虎 蛇 羊 鷄 豬,龍 馬 猴 狗 豬,虎 龍 馬 猴 狗 豬,豬,1,虎 豬,2,stored historical labels; not externally authenticated
+2026321,2026322,5,6,龍 馬 猴 狗 豬,虎 龍 馬 猴 狗 豬,鼠 牛 虎 猴 豬,鼠 牛 虎 猴 豬,猴 豬,2,虎 猴 豬,3,stored historical labels; not externally authenticated
+2026322,2026323,5,5,鼠 牛 虎 猴 豬,鼠 牛 虎 猴 豬,虎 龍 蛇 狗 豬,虎 龍 蛇 猴 狗 豬,虎 豬,2,虎 猴 豬,3,stored historical labels; not externally authenticated
+2026323,2026324,5,6,虎 龍 蛇 狗 豬,虎 龍 蛇 猴 狗 豬,鼠 兔 蛇 羊 鷄 狗,鼠 兔 蛇 羊 鷄 狗,蛇 狗,2,蛇 狗,2,stored historical labels; not externally authenticated
+2026324,2026325,6,6,鼠 兔 蛇 羊 鷄 狗,鼠 兔 蛇 羊 鷄 狗,虎 龍 馬 鷄,虎 龍 馬 鷄,鷄,1,鷄,1,stored historical labels; not externally authenticated
+2026326,2026327,6,6,虎 兔 羊 猴 鷄 狗,虎 兔 羊 猴 鷄 狗,鼠 虎 馬 羊 鷄 狗,鼠 虎 馬 羊 鷄 狗,虎 羊 鷄 狗,4,虎 羊 鷄 狗,4,stored historical labels; not externally authenticated
+2026327,2026328,6,6,鼠 虎 馬 羊 鷄 狗,鼠 虎 馬 羊 鷄 狗,鼠 虎 龍 羊 猴 狗,鼠 牛 虎 龍 羊 猴 狗,鼠 虎 羊 狗,4,鼠 虎 羊 狗,4,stored historical labels; not externally authenticated
+2026328,2026329,6,7,鼠 虎 龍 羊 猴 狗,鼠 牛 虎 龍 羊 猴 狗,鼠 牛 兔 鷄 狗,鼠 牛 兔 鷄 狗 豬,鼠 狗,2,鼠 牛 狗,3,stored historical labels; not externally authenticated

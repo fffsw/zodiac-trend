@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_329_NOT_PREDRAW_CERTIFICATION",
+  "baseline_commit": "efd07efb70ac4c55ca4750b3a7c2cf7da4a16c60",
+  "page_sha256": "e81c8e7d6944a853d726be915c35b598ac25332b8ce708333c6a87644c084afe",
+  "frozen_files": 29,
+  "before_manifest_sha256": "01395760c2c0d934e1e17f7aab8a3d7602b16de992f0814d83ab497067822cab",
+  "user_input_sha256": "85e2f05ff04604a5097eaae33625afd82e07e0238b5184675b21ae5d8a8bfe6c",
+  "previous_bundle_sha256": "aa2f097dd3a892ba1b80601aedb4c005d539e417d1fed24f7899b381b9db27d9",
+  "server_date_header_not_draw_proof": "Wed, 25 Nov 2026 13:51:11 GMT",
+  "old_dirty_deploy_entries_unchanged": 68,
+  "target_330_result_queried_or_used": false,
+  "scope": "Freeze occurred after receiving user 329; no certification of release timing, official source or future outcomes."
+}
