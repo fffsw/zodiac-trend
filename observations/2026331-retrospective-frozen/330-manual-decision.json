@@ -1,0 +1,68 @@
+{
+  "schema": "manual_comparison_for_330",
+  "target": 2026330,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_OFFICIAL_NOT_PRE_DRAW_CERTIFIED",
+  "choice": "EE01",
+  "universe": [
+    "馬",
+    "鷄",
+    "牛",
+    "龍",
+    "虎",
+    "蛇"
+  ],
+  "top": "馬",
+  "pair": [
+    "鷄",
+    "牛"
+  ],
+  "triple": [
+    "鷄",
+    "龍",
+    "虎"
+  ],
+  "reserves": [
+    "蛇"
+  ],
+  "top_overlap_mode": "coverage",
+  "previous_329_six": [
+    "鼠",
+    "牛",
+    "兔",
+    "鷄",
+    "狗"
+  ],
+  "previous_329_seven": [
+    "鼠",
+    "牛",
+    "兔",
+    "鷄",
+    "狗",
+    "豬"
+  ],
+  "previous_displayed": [
+    "牛",
+    "鷄"
+  ],
+  "nonprevious_displayed": [
+    "龍",
+    "虎",
+    "馬"
+  ],
+  "previous_329_date": null,
+  "data_source": "user provided and explicitly clarified issue 329; first-six plus seventh inferred; source, date, mapping and official status unverified",
+  "target_330_result_queried_or_used": false,
+  "selection_method": "After seeing 329 and retrospectively inspecting 36 retained displays, user-history cohorts and previous fair-model calculations, choose a five-identity display: horse single separate, shared chicken, pair chicken/ox on roads 1/0 (no 2-road required), triple chicken/dragon/tiger across 1/0/2 with only one 329-normal identity. Two displayed identities were in 329 normal six and three were not. This changes conditional exposure, not a demonstrated predictive advantage. Historical windows and the 5/6 cohort were inspected before this manual choice; it is not blind, preregistered or time-certified.",
+  "pre_formal_audit_disclosure": "The 329 result, 36-period history, 5/6 cohort (including the descriptive repeat 2/3 counts) and earlier fair-model calculations were inspected before EE01 and its 12 comparisons were written. Formal exact candidate audit and independent verification occur afterwards. No 330 outcome was looked up or used; time and blind selection are not authenticated.",
+  "primary_risks": "鷄是二三共同位，鷄缺必断两组合；馬缺单断但不必然断三。牛缺二断；龍或虎缺三断。零栏当且仅当馬缺且［鷄缺或（牛缺且（龍缺或虎缺））］。二栏两肖均偶，正码偶数不足2球必断二；三虎为2路，正码无2路必断三，但二和单仍有可能完整。全栏需马鸡牛龙虎五身份：相对329前六五旧肖，重肖只可能为2或3；重0/1/4/5必不全完，即使重2/3也未必全完。",
+  "role_rationales": {
+    "馬": "单肖，五码01/13/25/37/49；与组合不共身份。328、329未出不意味着会回补；五码优势仅是均匀模型条件。",
+    "鷄": "二三共同，偶1 10/22/34/46；329出现不证明会续出。鷄缺两组合均断。",
+    "牛": "二栏，偶0 06/18/30/42；与鷄跨路但两者均偶，要求至少两个偶数。",
+    "龍": "三肖，奇0 03/15/27/39；329未出不意味会回补，狗同奇0不能代龍。",
+    "虎": "三肖，奇2 05/17/29/41；329正码无2路导致虎缺，但不预测330会有2路。",
+    "蛇": "仅替补，偶2 02/14/26/38；不参与正式栏目结算，也不自动补缺。"
+  },
+  "structural_caveat": "五展示身份有馬、龍、虎三个奇肖和鷄、牛两个偶肖，三栏全完至少三个奇数和两个偶数。二栏同为偶数，三肖需要2路；目标期映射若改变须重算。",
+  "previous_repeat_scope": "329前六五个不同生肖（狗出现两球）、七球六个不同生肖（第七猪新增），因此与资料中前六5/七球6的344对匹配，而不是旧6/7组。历史条件筛选是事后描述，七球重复不能用于正码栏目结算。"
+}

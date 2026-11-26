@@ -1,0 +1,69 @@
+{
+  "schema": "manual_comparison_for_331",
+  "target": 2026331,
+  "status": "USER_AUTHORIZED_UNVERIFIED_DISPLAY_NOT_OFFICIAL_NOT_PRE_DRAW_CERTIFIED",
+  "choice": "FF01",
+  "universe": [
+    "馬",
+    "鷄",
+    "牛",
+    "龍",
+    "蛇",
+    "虎"
+  ],
+  "top": "馬",
+  "pair": [
+    "鷄",
+    "牛"
+  ],
+  "triple": [
+    "鷄",
+    "龍",
+    "蛇"
+  ],
+  "reserves": [
+    "虎"
+  ],
+  "top_overlap_mode": "coverage",
+  "previous_330_six": [
+    "牛",
+    "馬",
+    "猴",
+    "鷄",
+    "豬"
+  ],
+  "previous_330_seven": [
+    "牛",
+    "蛇",
+    "馬",
+    "猴",
+    "鷄",
+    "豬"
+  ],
+  "previous_displayed": [
+    "牛",
+    "馬",
+    "鷄"
+  ],
+  "nonprevious_displayed": [
+    "龍",
+    "蛇"
+  ],
+  "previous_330_date": null,
+  "data_source": "user-provided 330; first-six plus seventh inferred from order and previous convention, not separately confirmed; official source, date, mapping and release timing unverified",
+  "target_331_result_queried_or_used": false,
+  "selection_method": "After inspecting user 330, 37 retained displays, the corrected reserve classification, the 5/6 cohort, old fair-model calculations, and all 12 old designs retrospectively, retain horse single and chicken/ox pair but substitute snake for tiger in the triple. This reduces the number of odd identities needed for single plus triple from three to two, while increasing even requirements; it does not establish an empirical or model-wide prediction advantage. The same structural design appeared as EE03 in the earlier 330 comparisons and would still have had only two completed columns under the 330 result. No result of 331 was looked up or used.",
+  "pre_formal_audit_disclosure": "330 result, historical records, 5/6 cohort, fair-model comparisons and 330 candidate hindsight settlements including EE03 were inspected before FF01 and the 12 related comparisons were recorded. Formal candidate audit and independent verification occur afterwards. This is not blind, preregistered or time-certified.",
+  "primary_risks": "鷄是二三共同位，鷄缺必断两组合；馬缺单断但不必然断三。牛缺二断；龍或蛇缺三断。零栏当且仅当馬缺且［鷄缺，或（牛缺且（龍缺或蛇缺））］。二栏两肖均偶，正码偶数不足2球必断二；三蛇为2路，无2路必断三。全栏需要五个正式身份馬鷄牛龍蛇，相对330前六含三个旧肖、两个新肖；重3或4是全栏必要而非充分条件，重0/1/2/5必不全完。若重0，三栏均不完整；若重5，单二完整但三不完整。",
+  "role_rationales": {
+    "馬": "单肖，五码01/13/25/37/49；与组合身份错开。330出现不证明会续出；五码优势只在均匀假设内成立。",
+    "鷄": "二三共同，偶1 10/22/34/46；330出现不证明续出，鷄缺两组合均不完整。",
+    "牛": "二栏，偶0 06/18/30/42；330出现不证明续出，与鷄同偶，需要至少两偶。",
+    "龍": "三肖，奇0 03/15/27/39；330缺龍不意味着331回补，狗同奇0不能代龍。",
+    "蛇": "三肖，偶2 02/14/26/38；330仅第七26蛇，非正码；第七出现不证明下一期正码，豬同偶2不能代蛇。",
+    "虎": "仅替补，奇2 05/17/29/41；不参与正式栏目结算，不自动补缺。"
+  },
+  "structural_caveat": "五展示身份有馬、龍两个奇肖和鷄、牛、蛇三个偶肖，全栏至少两个奇数和三个偶数、0/1/2路至少2/2/1球。单加三肖至少两个奇数和两个偶数，旧案至少三个奇数和一个偶数；二栏仍需两偶、三肖仍需2路，鷄缺仍二三同断。目标期映射若改变须重算。",
+  "previous_repeat_scope": "330推定前六五个不同生肖（豬出现两球）、七球六个不同生肖（第七蛇新增），与资料中前六5/七球6的345对匹配，而不是5/5或6/7组。马是五码生肖，因此相关均匀重复模型与上一期全四码的五旧肖不同。筛选是事后描述，七球重复不能用于正码栏目结算。",
+  "previous_hindsight": "将FF01事后套入330仍为单1/1、二2/2、三1/3缺龍蛇、两栏完整，与旧案两栏完整；此对照不能作为331预测依据。"
+}

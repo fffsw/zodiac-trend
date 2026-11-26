@@ -1,0 +1,3380 @@
+{
+  "status": "PASS",
+  "selection_source": "FF01/12 related comparisons recorded after 330 review, historical data, 330 hindsight comparisons and prior fair-model inspection, before formal audit; not blind, prospective or preregistered",
+  "target_331_result_queried_or_used": false,
+  "candidate_count": 12,
+  "ideal_model_scope": "Six distinct numbers sampled uniformly without replacement from 49; current target mapping assumed; independent of past. Exact counts only within this hypothetical mechanism, NOT actual success, forecast, price or return.",
+  "display_definition": "Each named sign must appear among the inferred normal six to complete a column. Seventh and reserve do not count.",
+  "selected": {
+    "id": "FF01",
+    "roles": {
+      "top": "馬",
+      "A": "鷄",
+      "B": "牛",
+      "C": "龍",
+      "D": "蛇"
+    },
+    "reserves": [
+      "虎"
+    ],
+    "displayed": [
+      "牛",
+      "龍",
+      "蛇",
+      "馬",
+      "鷄"
+    ],
+    "universe": [
+      "牛",
+      "虎",
+      "龍",
+      "蛇",
+      "馬",
+      "鷄"
+    ],
+    "displayed_code_count": 21,
+    "universe_code_count": 25,
+    "display_numbers": [
+      1,
+      2,
+      3,
+      6,
+      10,
+      13,
+      14,
+      15,
+      18,
+      22,
+      25,
+      26,
+      27,
+      30,
+      34,
+      37,
+      38,
+      39,
+      42,
+      46,
+      49
+    ],
+    "universe_numbers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      10,
+      13,
+      14,
+      15,
+      17,
+      18,
+      22,
+      25,
+      26,
+      27,
+      29,
+      30,
+      34,
+      37,
+      38,
+      39,
+      41,
+      42,
+      46,
+      49
+    ],
+    "display_code_road_0_1_2": [
+      8,
+      9,
+      4
+    ],
+    "display_code_odd_even": [
+      9,
+      12
+    ],
+    "ideal_model": {
+      "denominator": 13983816,
+      "counts": {
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "all_columns": 46080,
+        "no_complete_column": 5392128,
+        "at_least_one_complete": 8591688,
+        "at_least_two_complete": 1190096,
+        "pair_and_triple": 190336
+      },
+      "exact_complete_column_distribution": [
+        5392128,
+        7401592,
+        1144016,
+        46080
+      ],
+      "percent": {
+        "single": 49.51984494075151,
+        "pair": 15.66156190842328,
+        "triple": 5.098865717340674,
+        "all_columns": 0.32952378664021326,
+        "no_complete_column": 38.55977510001562,
+        "at_least_one_complete": 61.44022489998438,
+        "at_least_two_complete": 8.510523879890869,
+        "pair_and_triple": 1.3611163075944364
+      },
+      "exact_distribution_percent": [
+        38.55977510001562,
+        52.92970102009351,
+        8.181000093250654,
+        0.32952378664021326
+      ]
+    },
+    "minimums": {
+      "single": {
+        "distinct_zodiacs": 1,
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ],
+        "previous_330_normal_identities": [
+          "馬"
+        ],
+        "new_relative_to_330_normal_identities": []
+      },
+      "pair": {
+        "distinct_zodiacs": 2,
+        "road_0_1_2": [
+          1,
+          1,
+          0
+        ],
+        "odd_even": [
+          0,
+          2
+        ],
+        "previous_330_normal_identities": [
+          "牛",
+          "鷄"
+        ],
+        "new_relative_to_330_normal_identities": []
+      },
+      "triple": {
+        "distinct_zodiacs": 3,
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ],
+        "previous_330_normal_identities": [
+          "鷄"
+        ],
+        "new_relative_to_330_normal_identities": [
+          "龍",
+          "蛇"
+        ]
+      },
+      "all_columns": {
+        "distinct_zodiacs": 5,
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ],
+        "previous_330_normal_identities": [
+          "牛",
+          "馬",
+          "鷄"
+        ],
+        "new_relative_to_330_normal_identities": [
+          "龍",
+          "蛇"
+        ]
+      }
+    },
+    "no_route_parity_forced_incomplete_columns": {
+      "0_odd": [
+        "triple"
+      ],
+      "0_even": [
+        "pair"
+      ],
+      "1_odd": [
+        "single"
+      ],
+      "1_even": [
+        "pair",
+        "triple"
+      ],
+      "2_odd": [],
+      "2_even": [
+        "triple"
+      ]
+    },
+    "fixed_history_windows": {
+      "35": {
+        "complete_0_1_2_3": [
+          11,
+          20,
+          4,
+          0
+        ],
+        "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+      },
+      "40": {
+        "complete_0_1_2_3": [
+          12,
+          24,
+          4,
+          0
+        ],
+        "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+      },
+      "45": {
+        "complete_0_1_2_3": [
+          16,
+          25,
+          4,
+          0
+        ],
+        "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+      }
+    },
+    "comparison": "仅把上期三肖虎换蛇；三肖由两奇一偶变一奇两偶，保留二鷄牛同偶和鷄共同位，完整仍不保证。"
+  },
+  "selected_conditional_on_repeat_0_to_5": [
+    {
+      "repeat_count": 0,
+      "denominator": 376740,
+      "single": 0,
+      "pair": 0,
+      "triple": 0,
+      "all_columns": 0,
+      "no_complete_column": 376740,
+      "percent_if_given_repeat_count": {
+        "single": 0.0,
+        "pair": 0.0,
+        "triple": 0.0,
+        "all_columns": 0.0,
+        "no_complete_column": 100.0
+      }
+    },
+    {
+      "repeat_count": 1,
+      "denominator": 2848636,
+      "single": 730828,
+      "pair": 0,
+      "triple": 141000,
+      "all_columns": 0,
+      "no_complete_column": 1976808,
+      "percent_if_given_repeat_count": {
+        "single": 25.655366287584656,
+        "pair": 0.0,
+        "triple": 4.949737347979875,
+        "all_columns": 0.0,
+        "no_complete_column": 69.39489636443547
+      }
+    },
+    {
+      "repeat_count": 2,
+      "denominator": 5823944,
+      "single": 2751056,
+      "pair": 512148,
+      "triple": 360560,
+      "all_columns": 0,
+      "no_complete_column": 2393060,
+      "percent_if_given_repeat_count": {
+        "single": 47.23699266339099,
+        "pair": 8.793834556101501,
+        "triple": 6.1909935947186305,
+        "all_columns": 0.0,
+        "no_complete_column": 41.09002421726583
+      }
+    },
+    {
+      "repeat_count": 3,
+      "denominator": 4000800,
+      "single": 2653440,
+      "pair": 1115920,
+      "triple": 192000,
+      "all_columns": 35840,
+      "no_complete_column": 645520,
+      "percent_if_given_repeat_count": {
+        "single": 66.32273545290941,
+        "pair": 27.89242151569686,
+        "triple": 4.799040191961607,
+        "all_columns": 0.8958208358328335,
+        "no_complete_column": 16.134773045390922
+      }
+    },
+    {
+      "repeat_count": 4,
+      "denominator": 887616,
+      "single": 743360,
+      "pair": 515936,
+      "triple": 19456,
+      "all_columns": 10240,
+      "no_complete_column": 0,
+      "percent_if_given_repeat_count": {
+        "single": 83.74792703150912,
+        "pair": 58.12603648424544,
+        "triple": 2.1919388564424254,
+        "all_columns": 1.1536520297065398,
+        "no_complete_column": 0.0
+      }
+    },
+    {
+      "repeat_count": 5,
+      "denominator": 46080,
+      "single": 46080,
+      "pair": 46080,
+      "triple": 0,
+      "all_columns": 0,
+      "no_complete_column": 0,
+      "percent_if_given_repeat_count": {
+        "single": 100.0,
+        "pair": 100.0,
+        "triple": 0.0,
+        "all_columns": 0.0,
+        "no_complete_column": 0.0
+      }
+    }
+  ],
+  "previous_330_EE01_ideal_comparison": {
+    "denominator": 13983816,
+    "counts": {
+      "single": 6924764,
+      "pair": 2190084,
+      "triple": 713016,
+      "all_columns": 46080,
+      "no_complete_column": 5392128,
+      "at_least_one_complete": 8591688,
+      "at_least_two_complete": 1190096,
+      "pair_and_triple": 190336
+    },
+    "exact_complete_column_distribution": [
+      5392128,
+      7401592,
+      1144016,
+      46080
+    ],
+    "percent": {
+      "single": 49.51984494075151,
+      "pair": 15.66156190842328,
+      "triple": 5.098865717340674,
+      "all_columns": 0.32952378664021326,
+      "no_complete_column": 38.55977510001562,
+      "at_least_one_complete": 61.44022489998438,
+      "at_least_two_complete": 8.510523879890869,
+      "pair_and_triple": 1.3611163075944364
+    },
+    "exact_distribution_percent": [
+      38.55977510001562,
+      52.92970102009351,
+      8.181000093250654,
+      0.32952378664021326
+    ]
+  },
+  "identical_model_explanation": "Horse is an isolated 5-number single; the shared A and B/C/D are four different 4-number groups in both designs. Permuting equal-sized groups leaves the uniform model event distribution unchanged; this does not establish actual forecasting equality.",
+  "no_2road_synthetic_witness": {
+    "numbers": [
+      1,
+      10,
+      6,
+      3,
+      7,
+      12
+    ],
+    "zodiacs": [
+      "馬",
+      "鷄",
+      "牛",
+      "龍",
+      "鼠",
+      "羊"
+    ],
+    "scope": "fabricated demonstration, NOT target 331 numbers"
+  },
+  "repeat_caveat": "330 has 5 distinct previous normal identities and 6 seven-ball identities. Full FF01 columns require repeat 3 or 4 among normal six, which is necessary not sufficient; zero repeat forces zero complete columns and all five repeats force single and pair but not triple.",
+  "candidates": [
+    {
+      "id": "FF01",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        13,
+        14,
+        15,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        34,
+        37,
+        38,
+        39,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            20,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            12,
+            24,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            16,
+            25,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "仅把上期三肖虎换蛇；三肖由两奇一偶变一奇两偶，保留二鷄牛同偶和鷄共同位，完整仍不保证。"
+    },
+    {
+      "id": "FF02",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "龍",
+        "D": "虎"
+      },
+      "reserves": [
+        "蛇"
+      ],
+      "displayed": [
+        "牛",
+        "虎",
+        "龍",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        3,
+        5,
+        6,
+        10,
+        13,
+        15,
+        17,
+        18,
+        22,
+        25,
+        27,
+        29,
+        30,
+        34,
+        37,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        13,
+        8
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            2,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "虎",
+            "龍"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            3,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "虎",
+            "龍"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [
+          "triple"
+        ],
+        "2_even": []
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            20,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            12,
+            24,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            16,
+            25,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "上期正式栏完全沿用；三肖要两奇，单加三至少三奇，保留上期结构。"
+    },
+    {
+      "id": "FF03",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "虎",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed": [
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        13,
+        14,
+        15,
+        17,
+        22,
+        25,
+        26,
+        27,
+        29,
+        34,
+        37,
+        38,
+        39,
+        41,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        4,
+        9,
+        8
+      ],
+      "display_code_odd_even": [
+        13,
+        8
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            0,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "虎"
+          ]
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            1,
+            2,
+            2
+          ],
+          "odd_even": [
+            3,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "虎",
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [
+          "pair"
+        ],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            10,
+            23,
+            2,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            11,
+            25,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            13,
+            28,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "在主案基础上二牛换虎，二栏一奇一偶，但五展示肖全完仍须至少三奇。"
+    },
+    {
+      "id": "FF04",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "鼠",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed": [
+        "鼠",
+        "牛",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "鼠",
+        "牛",
+        "虎",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        6,
+        7,
+        10,
+        13,
+        14,
+        18,
+        19,
+        22,
+        25,
+        26,
+        30,
+        31,
+        34,
+        37,
+        38,
+        42,
+        43,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        10,
+        13,
+        14,
+        17,
+        18,
+        19,
+        22,
+        25,
+        26,
+        29,
+        30,
+        31,
+        34,
+        37,
+        38,
+        41,
+        42,
+        43,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        4,
+        13,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            0,
+            2,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "鼠",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            1,
+            3,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "鼠",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [
+          "single",
+          "triple"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            10,
+            22,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            11,
+            26,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            15,
+            27,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "三肖雞鼠同1路，两个身份不能互代；五展示肖全完须至少三个1路。"
+    },
+    {
+      "id": "FF05",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "羊",
+        "D": "蛇"
+      },
+      "reserves": [
+        "龍"
+      ],
+      "displayed": [
+        "牛",
+        "蛇",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        6,
+        10,
+        12,
+        13,
+        14,
+        18,
+        22,
+        24,
+        25,
+        26,
+        30,
+        34,
+        36,
+        37,
+        38,
+        42,
+        46,
+        48,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        12,
+        13,
+        14,
+        15,
+        18,
+        22,
+        24,
+        25,
+        26,
+        27,
+        30,
+        34,
+        36,
+        37,
+        38,
+        39,
+        42,
+        46,
+        48,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        5,
+        16
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            0,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "蛇",
+            "羊"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            1,
+            4
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "蛇",
+            "羊"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [],
+        "0_even": [
+          "pair",
+          "triple"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            9,
+            21,
+            5,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            11,
+            23,
+            6,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            14,
+            25,
+            6,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "三肖鷄羊蛇均偶，全完需要四个不同偶肖；奇偶暴露更集中。"
+    },
+    {
+      "id": "FF06",
+      "roles": {
+        "top": "馬",
+        "A": "牛",
+        "B": "鷄",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        13,
+        14,
+        15,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        34,
+        37,
+        38,
+        39,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            2,
+            0,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "pair",
+          "triple"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            20,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            13,
+            23,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            17,
+            24,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "二栏不变但把共同位改牛；牛缺二三同断，三肖牛龍同0路需两个0路。"
+    },
+    {
+      "id": "FF07",
+      "roles": {
+        "top": "馬",
+        "A": "龍",
+        "B": "鷄",
+        "C": "牛",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        13,
+        14,
+        15,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        34,
+        37,
+        38,
+        39,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍"
+          ]
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            2,
+            0,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "pair",
+          "triple"
+        ],
+        "0_even": [
+          "triple"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            21,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            12,
+            25,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            16,
+            26,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "共同位換龍，三肖龍牛同0路；龍缺两组合断，且缺龍是330事实但不预示331。"
+    },
+    {
+      "id": "FF08",
+      "roles": {
+        "top": "馬",
+        "A": "龍",
+        "B": "鷄",
+        "C": "鼠",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "displayed": [
+        "鼠",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "鼠",
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        7,
+        10,
+        13,
+        14,
+        15,
+        19,
+        22,
+        25,
+        26,
+        27,
+        31,
+        34,
+        37,
+        38,
+        39,
+        43,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        10,
+        13,
+        14,
+        15,
+        18,
+        19,
+        22,
+        25,
+        26,
+        27,
+        30,
+        31,
+        34,
+        37,
+        38,
+        39,
+        42,
+        43,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        4,
+        13,
+        4
+      ],
+      "display_code_odd_even": [
+        13,
+        8
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍"
+          ]
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            2,
+            1
+          ],
+          "previous_330_normal_identities": [],
+          "new_relative_to_330_normal_identities": [
+            "鼠",
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            1,
+            3,
+            1
+          ],
+          "odd_even": [
+            3,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "鼠",
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "pair",
+          "triple"
+        ],
+        "0_even": [],
+        "1_odd": [
+          "single",
+          "triple"
+        ],
+        "1_even": [
+          "pair"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            9,
+            24,
+            2,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            10,
+            27,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            13,
+            29,
+            3,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "二一奇一偶、三肖跨三路，但馬鼠同奇1，五肖全完须三个1路。"
+    },
+    {
+      "id": "FF09",
+      "roles": {
+        "top": "鷄",
+        "A": "鷄",
+        "B": "牛",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "馬",
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 16,
+      "universe_code_count": 25,
+      "display_numbers": [
+        2,
+        3,
+        6,
+        10,
+        14,
+        15,
+        18,
+        22,
+        26,
+        27,
+        30,
+        34,
+        38,
+        39,
+        42,
+        46
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        4,
+        4
+      ],
+      "display_code_odd_even": [
+        4,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 5838756,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 190336,
+          "no_complete_column": 8145060,
+          "at_least_one_complete": 5838756,
+          "at_least_two_complete": 2712764,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          8145060,
+          3125992,
+          2522428,
+          190336
+        ],
+        "percent": {
+          "single": 41.753667239328664,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 1.3611163075944364,
+          "no_complete_column": 58.246332760671336,
+          "at_least_one_complete": 41.753667239328664,
+          "at_least_two_complete": 19.399311318169516,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          58.246332760671336,
+          22.354355921159147,
+          18.03819501057508,
+          1.3611163075944364
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_0_1_2": [
+            2,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [],
+        "1_even": [
+          "single",
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            17,
+            13,
+            4,
+            1
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            17,
+            16,
+            6,
+            1
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            20,
+            18,
+            6,
+            1
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "单与共同位重合，鷄缺时三栏同时断；仅四个正式身份，目标分布变化。"
+    },
+    {
+      "id": "FF10",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "馬",
+        "D": "蛇"
+      },
+      "reserves": [
+        "龍",
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 17,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        6,
+        10,
+        13,
+        14,
+        18,
+        22,
+        25,
+        26,
+        30,
+        34,
+        37,
+        38,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        4,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        5,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 860000,
+          "all_columns": 231920,
+          "no_complete_column": 5728968,
+          "at_least_one_complete": 8254848,
+          "at_least_two_complete": 1488080,
+          "pair_and_triple": 231920
+        },
+        "exact_complete_column_distribution": [
+          5728968,
+          6766768,
+          1256160,
+          231920
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 6.149966504135924,
+          "all_columns": 1.6584886414409343,
+          "no_complete_column": 40.96855965496113,
+          "at_least_one_complete": 59.03144034503887,
+          "at_least_two_complete": 10.641444366830914,
+          "pair_and_triple": 1.6584886414409343
+        },
+        "exact_distribution_percent": [
+          40.96855965496113,
+          48.38999597820795,
+          8.98295572538998,
+          1.6584886414409343
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            0,
+            2,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 4,
+          "road_0_1_2": [
+            1,
+            2,
+            1
+          ],
+          "odd_even": [
+            1,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [
+          "single",
+          "triple"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            16,
+            8,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            13,
+            18,
+            9,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            17,
+            19,
+            9,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "馬既是单又在三肖，馬缺时单三联断；显示身份压为四个。"
+    },
+    {
+      "id": "FF11",
+      "roles": {
+        "top": "牛",
+        "A": "鷄",
+        "B": "馬",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "虎",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        13,
+        14,
+        15,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        34,
+        37,
+        38,
+        39,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        37,
+        38,
+        39,
+        41,
+        42,
+        46,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 5838756,
+          "pair": 2618084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 6050136,
+          "at_least_one_complete": 7933680,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 231920
+        },
+        "exact_complete_column_distribution": [
+          6050136,
+          6743584,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 41.753667239328664,
+          "pair": 18.722242912807204,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 43.26527179705454,
+          "at_least_one_complete": 56.73472820294546,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.6584886414409343
+        },
+        "exact_distribution_percent": [
+          43.26527179705454,
+          48.22420432305459,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            1,
+            0,
+            0
+          ],
+          "odd_even": [
+            0,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "牛"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            0,
+            2,
+            0
+          ],
+          "odd_even": [
+            1,
+            1
+          ],
+          "previous_330_normal_identities": [
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "single"
+        ],
+        "1_odd": [
+          "pair"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            15,
+            16,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            16,
+            20,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            20,
+            21,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "单牛与二馬互换，单肖由五码变四码；二栏包含馬，不是预测提高。"
+    },
+    {
+      "id": "FF12",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "猴"
+      ],
+      "displayed": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "universe": [
+        "牛",
+        "龍",
+        "蛇",
+        "馬",
+        "猴",
+        "鷄"
+      ],
+      "displayed_code_count": 21,
+      "universe_code_count": 25,
+      "display_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        13,
+        14,
+        15,
+        18,
+        22,
+        25,
+        26,
+        27,
+        30,
+        34,
+        37,
+        38,
+        39,
+        42,
+        46,
+        49
+      ],
+      "universe_numbers": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        11,
+        13,
+        14,
+        15,
+        18,
+        22,
+        23,
+        25,
+        26,
+        27,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        42,
+        46,
+        47,
+        49
+      ],
+      "display_code_road_0_1_2": [
+        8,
+        9,
+        4
+      ],
+      "display_code_odd_even": [
+        9,
+        12
+      ],
+      "ideal_model": {
+        "denominator": 13983816,
+        "counts": {
+          "single": 6924764,
+          "pair": 2190084,
+          "triple": 713016,
+          "all_columns": 46080,
+          "no_complete_column": 5392128,
+          "at_least_one_complete": 8591688,
+          "at_least_two_complete": 1190096,
+          "pair_and_triple": 190336
+        },
+        "exact_complete_column_distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "percent": {
+          "single": 49.51984494075151,
+          "pair": 15.66156190842328,
+          "triple": 5.098865717340674,
+          "all_columns": 0.32952378664021326,
+          "no_complete_column": 38.55977510001562,
+          "at_least_one_complete": 61.44022489998438,
+          "at_least_two_complete": 8.510523879890869,
+          "pair_and_triple": 1.3611163075944364
+        },
+        "exact_distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "minimums": {
+        "single": {
+          "distinct_zodiacs": 1,
+          "road_0_1_2": [
+            0,
+            1,
+            0
+          ],
+          "odd_even": [
+            1,
+            0
+          ],
+          "previous_330_normal_identities": [
+            "馬"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "pair": {
+          "distinct_zodiacs": 2,
+          "road_0_1_2": [
+            1,
+            1,
+            0
+          ],
+          "odd_even": [
+            0,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": []
+        },
+        "triple": {
+          "distinct_zodiacs": 3,
+          "road_0_1_2": [
+            1,
+            1,
+            1
+          ],
+          "odd_even": [
+            1,
+            2
+          ],
+          "previous_330_normal_identities": [
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        },
+        "all_columns": {
+          "distinct_zodiacs": 5,
+          "road_0_1_2": [
+            2,
+            2,
+            1
+          ],
+          "odd_even": [
+            2,
+            3
+          ],
+          "previous_330_normal_identities": [
+            "牛",
+            "馬",
+            "鷄"
+          ],
+          "new_relative_to_330_normal_identities": [
+            "龍",
+            "蛇"
+          ]
+        }
+      },
+      "no_route_parity_forced_incomplete_columns": {
+        "0_odd": [
+          "triple"
+        ],
+        "0_even": [
+          "pair"
+        ],
+        "1_odd": [
+          "single"
+        ],
+        "1_even": [
+          "pair",
+          "triple"
+        ],
+        "2_odd": [],
+        "2_even": [
+          "triple"
+        ]
+      },
+      "fixed_history_windows": {
+        "35": {
+          "complete_0_1_2_3": [
+            11,
+            20,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "40": {
+          "complete_0_1_2_3": [
+            12,
+            24,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        },
+        "45": {
+          "complete_0_1_2_3": [
+            16,
+            25,
+            4,
+            0
+          ],
+          "scope": "candidate fixed after seeing historical records, NOT historical prospective performance"
+        }
+      },
+      "comparison": "与主案正式栏相同只换替补；替补不补栏，正式栏模型不变。"
+    }
+  ],
+  "input_sha256": {
+    "evidence.json": "ecebfdd15698660fb0db044c4462558543c944b45e0d3a9fb259cae63ea778fc",
+    "handcrafted_candidates.json": "e28fc8494822e9ac600a7bcca0bc60bdf05c8c72cb7d951642b5ff2946770059",
+    "manual_decision.json": "7511566e0b2a38c0cd90ec8d07744493ce0ea1a695687c808a08ec8ab71c2958",
+    "six_sign_repeat_study.json": "fa6d28a013d1d9e73597d9b0028f508b351fce07b05ca2f1f1137caed7ee346a"
+  }
+}

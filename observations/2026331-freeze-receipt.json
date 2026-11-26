@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_330_NOT_PREDRAW_CERTIFICATION",
+  "baseline_commit": "767d2f86c1ae9aacc31bbbff49ffbfe8c7005770",
+  "page_sha256": "bc3ed27616b0c5e06b92cc6de223dc0ea94b9bfd8999e6add8c5165abf927cc1",
+  "frozen_files": 34,
+  "before_manifest_sha256": "e02f34dd253e5ad97002d01751e9befd44ba7b34ce236bc7a482addca30f4403",
+  "user_input_sha256": "f321519ae1b042ea8cd8cf3c32868bee610ce707ad2a9fd0891c2295ddcdf3a1",
+  "previous_bundle_sha256": "4f7192117c102b9c745bf748368dc0848a318f5a66aa2e901226c6f20e8b11fe",
+  "previous_offline_verifier": "OFFLINE 329 REVIEW / 330 DISPLAY VERIFICATION PASS: 10 checks — internal bytes and arithmetic only; NOT official draw, pre-draw, actual odds, forecast, profit or real WeChat safety",
+  "server_date_header_not_draw_proof": "Thu, 26 Nov 2026 13:50:09 GMT",
+  "old_dirty_deploy_entries_unchanged": 68,
+  "target_331_result_queried_or_used": false,
+  "scope": "Freeze occurred after receiving user 330; no certification of release timing, official source or future outcomes."
+}

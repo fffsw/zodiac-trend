@@ -1,0 +1,45 @@
+{
+  "status": "PASS_CORRECTED_INDEPENDENT_QC",
+  "known_universe_retained_records": 28,
+  "unknown_universe_retained_records": [
+    2026291,
+    2026292,
+    2026293,
+    2026294,
+    2026295,
+    2026296,
+    2026297,
+    2026298
+  ],
+  "retained_periods_with_noncolumn_universe_hits": [
+    2026299,
+    2026303,
+    2026304,
+    2026305,
+    2026306,
+    2026308,
+    2026309,
+    2026310,
+    2026312,
+    2026314,
+    2026315,
+    2026321,
+    2026323,
+    2026328
+  ],
+  "reconstructed_periods_corrected_separately": [
+    2026322,
+    2026324
+  ],
+  "previous_review_sha256": "dc17715e337c2f471c5e6ab71418a384b0de73c1e3e205893e6c10bd4b28031e",
+  "corrected_review_sha256": "f3688e8c42aa46013a919777720f90b4350abefe31ee67c551bd4df8b49bd18c",
+  "original_qc_sha256": "458885cbbd4d09427d0ec108a35246e8a816508fce8e7af3291d869e4c0ef5d2",
+  "frozen_manifest_sha256": "005369133d203972a87992c65aab4f18638c081f1807c0c3781c6847adc55a02",
+  "slots_and_complete_columns_changed": false,
+  "source_or_predraw_certified": false,
+  "target_330_result_queried_or_used": false,
+  "reserve_correction_qc_sha256": "eefeaa2dfb5ed01e3146c33f9e6205f59a1501e878ed39c14cec4c73046c306c",
+  "supplemental_checks_count": 88,
+  "combined_formal_and_correction_checks_count": 361,
+  "combined_qc_sha256": "c0d41eda5420942d7032b16f2a8eef5d9b9d83cee8d00d0401dba878b66c5708"
+}

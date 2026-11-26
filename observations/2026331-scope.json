@@ -1,0 +1,20 @@
+{
+  "status": "PREPARED_SCOPE_NOT_A_DRAW_OR_TIMING_CERTIFICATION",
+  "action": "Review user 330, retain 37 source-based displays and separately identify three reconstructions, preserve corrected historical unallocated-universe classification, then display manually selected 331 FF01.",
+  "baseline_commit": "767d2f86c1ae9aacc31bbbff49ffbfe8c7005770",
+  "previous_page_sha256": "bc3ed27616b0c5e06b92cc6de223dc0ea94b9bfd8999e6add8c5165abf927cc1",
+  "new_page_sha256": "12cc01e5dee68042ac380e827f26ce1354411c0725d5c1971dba8875dd4f03bd",
+  "target_331_result_queried_or_used": false,
+  "user_330_first_six_plus_seventh_inferred_not_explicitly_confirmed": true,
+  "official_source_date_mapping_or_predraw_certified": false,
+  "public_frozen_subset_count": 30,
+  "local_full_freeze_manifest_sha256": "e02f34dd253e5ad97002d01751e9befd44ba7b34ce236bc7a482addca30f4403",
+  "private_old_dirty_status_not_published": true,
+  "historical_unallocated_universe_classification": {
+    "known": 29,
+    "unknown": 8,
+    "retained_periods_with_hits": 14,
+    "formal_column_results_changed": false
+  },
+  "prior_report_and_manifests_preserved": true
+}
