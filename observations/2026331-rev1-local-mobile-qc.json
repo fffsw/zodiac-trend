@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Chromium mobile emulation and synthetic input, not real iOS Safari, WeChat safety or predraw proof",
+  "url": "file:///home/user/archive/task304_331_revision/stage/zodiac_trend.html",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "iPhone-style touch emulated",
+    "page fits; chart horizontally scrolls",
+    "no added banner",
+    "mobile target 331",
+    "chart horizontally scrollable",
+    "chart reaches right side",
+    "touch zodiac view",
+    "touch 50 records",
+    "touch number view",
+    "touch 单肖展示馬",
+    "touch 二中二狗牛",
+    "touch 三中三狗兔蛇",
+    "synthetic local 331 updates identifier",
+    "no automatic 332 choices",
+    "undo returns to 331 display",
+    "no synthetic row left",
+    "no automatic external assets",
+    "no unhandled mobile errors"
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "file:///home/user/archive/task304_331_revision/stage/zodiac_trend.html",
+      "type": "document"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+period,classification_status,universe,non_column_universe_members,non_column_hits_in_inferred_first_six,outside_explicit_universe_in_inferred_first_six,non_display_hits_with_unknown_universe,source_reference
+2026291,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,虎 蛇 豬,2026327-retrospective-frozen/prior-records/2026291.json
+2026292,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,兔 龍 鷄,2026327-retrospective-frozen/prior-records/2026292.json
+2026293,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,蛇 羊 鷄,2026327-retrospective-frozen/prior-records/2026293.json
+2026294,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,鼠 龍 蛇 鷄,2026327-retrospective-frozen/prior-records/2026294.json
+2026295,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,虎 兔 鷄,2026327-retrospective-frozen/prior-records/2026295.json
+2026296,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,龍 狗,2026327-retrospective-frozen/prior-records/2026296.json
+2026297,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,龍 馬,2026327-retrospective-frozen/prior-records/2026297.json
+2026298,NOT_PROVEN_IN_RETAINED_SOURCE,,,,,兔 馬 羊 鷄,2026327-retrospective-frozen/prior-records/2026298.json
+2026299,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 龍 蛇 馬 鷄 狗,虎 鷄,虎,鼠 牛 兔 羊 豬,,2026327-retrospective-frozen/prior-records/2026299.json
+2026300,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 兔 龍 蛇 馬 鷄,兔 龍,,牛 猴,,2026327-retrospective-frozen/prior-records/2026300.json
+2026301,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 虎 兔 龍 蛇 鷄,兔 鷄,,猴,,2026327-retrospective-frozen/prior-records/2026301.json
+2026302,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 兔 蛇 馬 鷄 狗,兔,,羊 猴,,2026327-retrospective-frozen/prior-records/2026302.json
+2026303,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 虎 兔 龍 蛇 鷄,鼠 兔,兔,馬 豬,,2026327-retrospective-frozen/prior-records/2026303.json
+2026304,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 虎 蛇 羊 猴 鷄,猴,猴,馬,,2026327-retrospective-frozen/prior-records/2026304.json
+2026305,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 兔 蛇 馬 鷄 豬,豬,豬,鼠 牛,,2026327-retrospective-frozen/prior-records/2026305.json
+2026306,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 龍 蛇 羊 猴 鷄,龍,龍,兔 馬 狗 豬,,2026327-retrospective-frozen/prior-records/2026306.json
+2026307,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 虎 兔 蛇 羊 鷄,虎 鷄,,龍 馬 狗,,2026327-retrospective-frozen/prior-records/2026307.json
+2026308,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 虎 兔 蛇 馬 豬,兔 豬,兔 豬,牛,,2026327-retrospective-frozen/prior-records/2026308.json
+2026309,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,蛇 馬 虎 兔 龍 羊,龍,龍,牛 鷄,,2026327-retrospective-frozen/historical-pages/2026309.html
+2026310,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,蛇 馬 虎 兔 龍 鷄,鷄,鷄,猴 豬,,2026327-retrospective-frozen/historical-pages/2026310.html
+2026311,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,蛇 馬 兔 豬 龍 鷄,鷄,,鼠,,2026327-retrospective-frozen/historical-pages/2026311.html
+2026312,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,蛇 兔 虎 龍 馬 鷄,鷄,鷄,鼠 豬,,2026327-retrospective-frozen/historical-pages/2026312.html
+2026313,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鼠 兔 龍 虎 豬 馬,馬,,狗,,2026327-retrospective-frozen/historical-pages/2026313.html
+2026314,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,牛 虎 馬 狗 鷄 豬,豬,豬,蛇,,2026327-retrospective-frozen/historical-pages/2026314.html
+2026315,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 蛇 馬 龍 兔 牛,牛,牛,鷄 狗,,2026327-retrospective-frozen/historical-pages/2026315.html
+2026316,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鷄 狗 蛇 馬 虎 牛,牛,,兔,,2026327-retrospective-frozen/historical-pages/2026316.html
+2026317,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,狗 兔 豬 馬 牛 猴,猴,,鼠 羊 鷄,,2026327-retrospective-frozen/historical-pages/2026317.html
+2026318,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,牛 馬 豬 狗 鷄 虎,虎,,蛇 羊,,2026327-retrospective-frozen/historical-pages/2026318.html
+2026320,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,羊 兔 馬 狗 蛇 猴,猴,,虎 鷄 豬,,2026327-retrospective-frozen/historical-pages/2026320.html
+2026321,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,狗 蛇 鷄 羊 馬 豬,豬,豬,龍 猴,,2026327-retrospective-frozen/historical-pages/2026321.html
+2026323,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,兔 蛇 狗 牛 馬 豬,豬,豬,虎 龍,,2026327-retrospective-frozen/historical-pages/2026323.html
+2026325,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,虎 狗 兔 馬 蛇 豬,豬,,龍 鷄,,2026327-retrospective-frozen/historical-pages/2026325.html
+2026326,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,羊 虎 馬 鷄 龍 蛇,龍 蛇,,兔 猴 狗,,2026327-retrospective-frozen/historical-pages/2026326.html
+2026327,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,馬 鷄 龍 虎 牛 蛇,蛇,,鼠 羊 狗,,2026328-retrospective-frozen/327-current-homepage.html
+2026328,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,馬 狗 鷄 蛇 虎 牛,牛 虎,虎,鼠 龍 羊 猴,,2026329-retrospective-frozen/328-current-homepage.html
+2026329,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,馬 虎 鷄 鼠 羊 蛇,蛇,,牛 兔 狗,,329-current-homepage.html
+2026330,EXPLICIT_RETAINED_UNIVERSE_UNALLOCATED_NOT_AUTO_SUBSTITUTE,馬 鷄 牛 龍 虎 蛇,蛇,,猴 豬,,330-current-homepage.html

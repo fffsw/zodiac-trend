@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FROZEN_NOT_PREDRAW_CERTIFICATION",
+  "initial_commit": "ec02c1c188dfb3302cd3c9cc24b613c51db8dbe3",
+  "baseline_page_sha256": "12cc01e5dee68042ac380e827f26ce1354411c0725d5c1971dba8875dd4f03bd",
+  "baseline_data_sha256": "10eddc07843d64d46673aa175154c5e78843003016586c8be1175bf1359ed506",
+  "initial_decisions_sha256": "62ae9f5b84b40cf472a8a1642f20eeb895f2ef852fd5777b609dcf2fe0548656",
+  "frozen_files": 35,
+  "frozen_manifest_sha256": "ae266259e09283335dcf330d41eac3f4c98b71576e573cd17fe2dfc51c390272",
+  "user_revision_sha256": "50312ff9c2cafac7c88286002f9f224b1d81f8f638ca911d68a67294592e3be2",
+  "initial_public_verifier": "OFFLINE 330 REVIEW / 331 DISPLAY VERIFICATION PASS: 10 checks — internal bytes and arithmetic only; NOT official draw, pre-draw, actual odds, forecast, profit or real WeChat safety",
+  "public_baseline_hashes": {
+    "zodiac_trend.html": {
+      "status": 200,
+      "sha256": "12cc01e5dee68042ac380e827f26ce1354411c0725d5c1971dba8875dd4f03bd"
+    },
+    "observations/README.md": {
+      "status": 200,
+      "sha256": "2d12a02d660de60e846a935c0a696bdac584fd2e0658ca59e03446aa8ecf7678"
+    },
+    "observations/2026331-index.html": {
+      "status": 200,
+      "sha256": "68f3b8651a9d34d032e5d4b94255585531c41d9d553290bbdd8d79793404e817"
+    },
+    "observations/2026331-analysis.md": {
+      "status": 200,
+      "sha256": "a3c2a88b36dbbe6ad4ea7db698053751bfc766231974026641bbb5a7bdf45f1c"
+    },
+    "observations/2026331.sha256": {
+      "status": 200,
+      "sha256": "6da92be3ed8a758e1cbabca68b90cc10a58fb676f4b864d020062111c94ee257"
+    }
+  },
+  "old_dirty_deploy_entries_untouched": 68,
+  "initial_331_exact_local_zip_in_snapshot_present": false,
+  "initial_331_receipt_and_original_published_manifest_preserved": true,
+  "target_331_result_queried_or_used": false,
+  "scope": "Freeze after user request; no certification of official source, draw time, target outcome or initial publication timing."
+}

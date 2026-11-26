@@ -1,0 +1,27 @@
+{
+  "period": 2026330,
+  "original_user_text": "330期  25马 35猴20猪 08猪 30牛 22鸡 26 蛇",
+  "user_instruction": "还是老样子；复盘重点失败与逐期命中失败，确认后上线下一期",
+  "normal_numbers": [
+    25,
+    35,
+    20,
+    8,
+    30,
+    22
+  ],
+  "normal_zodiacs": [
+    "馬",
+    "猴",
+    "豬",
+    "豬",
+    "牛",
+    "鷄"
+  ],
+  "seventh_number": 26,
+  "seventh_zodiac": "蛇",
+  "date": null,
+  "six_plus_one_inferred_from_user_sequence_and_standing_rule": true,
+  "source": "user-provided issue 330; first six vs seventh inferred rather than separately confirmed; official source, date and actual event time not independently authenticated",
+  "seventh_scope": "stored separately; never substitutes for a normal column"
+}

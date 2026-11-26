@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "staged output identical, prior public and workspace page unchanged",
+    "every chart datum unchanged; user 330 first-six/seventh inferred",
+    "only target 331 selection revised; 19 prior decisions, reconstructions and future absent",
+    "layout, behavior and source data unchanged except current manual decision",
+    "19 older decisions unchanged; new target roles exact; main decisions still initial",
+    "original generator and root entry unchanged",
+    "no footer, external assets or automatic network requests",
+    "35 frozen baseline sources match",
+    "independent revision_qc.json",
+    "independent report_qc.json",
+    "clean staged reproduction identical",
+    "synthetic 331 fixture never generates automatic 332",
+    "27 prior public manifests unchanged",
+    "no 331 target outcome queried; no timing claim",
+    "old dirty deploy untouched"
+  ],
+  "checks_count": 15,
+  "page_sha256": "09bb6fa3cd4712132635695a8ac1a7a2f0e8d688fabf17e9622211c9ab31adc6",
+  "history_sha256": "10eddc07843d64d46673aa175154c5e78843003016586c8be1175bf1359ed506",
+  "decisions_sha256": "f192e8222e35d3d868c3d746e483801662a46b5b7c5c11a0971a79408b378a5f",
+  "scope": "Static local consistency and synthetic fixture, not source, prediction, target time or real WeChat authentication."
+}

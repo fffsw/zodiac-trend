@@ -1,0 +1,4 @@
+period,classification_status,universe,non_column_universe_members,non_column_hits_in_inferred_first_six,outside_explicit_universe_in_inferred_first_six,non_display_hits_with_unknown_universe,source_reference
+2026319,AFTER_OUTCOME_RECONSTRUCTION_UNALLOCATED_NOT_AUTO_SUBSTITUTE,牛 鷄 蛇 馬 狗 虎,虎,,龍,,2026327-retrospective-frozen/319-reconstruction-manual.json
+2026322,AFTER_OUTCOME_RECONSTRUCTION_UNALLOCATED_NOT_AUTO_SUBSTITUTE,狗 馬 鷄 羊 蛇 豬,豬,豬,鼠 牛 虎 猴,,2026327-retrospective-frozen/322-reconstruction-manual.json
+2026324,AFTER_OUTCOME_RECONSTRUCTION_UNALLOCATED_NOT_AUTO_SUBSTITUTE,鷄 豬 狗 羊 虎 蛇,蛇,蛇,鼠 兔,,2026327-retrospective-frozen/324-reconstruction-manual.json

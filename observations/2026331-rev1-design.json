@@ -1,0 +1,358 @@
+{
+  "status": "COMPARISONS_RECORDED_AFTER_330_AND_INITIAL_331_NOT_BLIND",
+  "user_direction": "Contrast original 3 previous-six identities with alternatives containing 1–2, review failure conditions, then update 331. Previous six/seventh partition remains inferred.",
+  "choice": "GG01",
+  "selection_basis": "Choose a two-old/three-new formal display rather than the old three-old/two-new; change two formal identities from published 331 and three from 330; isolate horse single, make pair odd/even, make the common sign absent from 330 normal six, and use three different routes in triple. Within these structural constraints dog and ox are a human identity choice, not a demonstrated predictive signal. Horse single and four distinct four-code signs retain the original ideal model, not a statistical improvement.",
+  "exploration_disclosure": "330 outcome, previous initial 331 alternatives, 37 retained versions, cohort frequencies, old fair models and hindsight summaries were already visible before these choices and constraints. The formal new comparisons and exact conditional audit are computed afterwards. This is not blind, prospective, preregistered, statistically validated or time-certified. No 331 result was queried or used.",
+  "target_331_result_queried_or_used": false,
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "id": "FF01",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "牛",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "comment": "原331已上线方案：3个上期前六肖，零重肖必零栏；鷄为共同位。",
+      "previous_six_overlap": [
+        "牛",
+        "馬",
+        "鷄"
+      ],
+      "changed_relative_to_330_display": [
+        "虎"
+      ],
+      "new_relative_to_330_display": [
+        "蛇"
+      ],
+      "changed_relative_to_initial_331": [],
+      "new_relative_to_initial_331": []
+    },
+    {
+      "id": "GG01",
+      "roles": {
+        "top": "馬",
+        "A": "狗",
+        "B": "牛",
+        "C": "兔",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "comment": "本次选择：2个上期前六肖；二栏狗牛同0路但奇偶各一，三肖狗兔蛇三路且均非上期前六肖。",
+      "previous_six_overlap": [
+        "牛",
+        "馬"
+      ],
+      "changed_relative_to_330_display": [
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "changed_relative_to_initial_331": [
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "兔",
+        "狗"
+      ]
+    },
+    {
+      "id": "GG02",
+      "roles": {
+        "top": "馬",
+        "A": "龍",
+        "B": "鷄",
+        "C": "鼠",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "comment": "原比较案FF08：2个上期前六肖，三肖皆新；五展示肖全完需至少三个1路。",
+      "previous_six_overlap": [
+        "馬",
+        "鷄"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "虎"
+      ],
+      "new_relative_to_330_display": [
+        "鼠",
+        "蛇"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛"
+      ],
+      "new_relative_to_initial_331": [
+        "鼠"
+      ]
+    },
+    {
+      "id": "GG03",
+      "roles": {
+        "top": "馬",
+        "A": "龍",
+        "B": "豬",
+        "C": "兔",
+        "D": "虎"
+      },
+      "reserves": [
+        "鷄"
+      ],
+      "comment": "2个上期前六肖（馬、豬）；二栏跨0／2路，三肖跨三路；豬上期出现两球不说明将续出。",
+      "previous_six_overlap": [
+        "馬",
+        "豬"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "豬"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛",
+        "蛇",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "虎",
+        "兔",
+        "豬"
+      ]
+    },
+    {
+      "id": "GG04",
+      "roles": {
+        "top": "馬",
+        "A": "狗",
+        "B": "豬",
+        "C": "兔",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "comment": "2个上期前六肖（馬、豬）；二栏及三肖均需要2路；豬上期出现两球不说明将续出。",
+      "previous_six_overlap": [
+        "馬",
+        "豬"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "蛇",
+        "狗",
+        "豬"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "兔",
+        "狗",
+        "豬"
+      ]
+    },
+    {
+      "id": "GG05",
+      "roles": {
+        "top": "馬",
+        "A": "龍",
+        "B": "羊",
+        "C": "兔",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "comment": "1个上期前六肖，组三全新；二栏龍羊同0路，全栏只能重1或2肖。",
+      "previous_six_overlap": [
+        "馬"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "虎",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "蛇",
+        "羊"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "兔",
+        "羊"
+      ]
+    },
+    {
+      "id": "GG06",
+      "roles": {
+        "top": "馬",
+        "A": "狗",
+        "B": "羊",
+        "C": "兔",
+        "D": "蛇"
+      },
+      "reserves": [
+        "虎"
+      ],
+      "comment": "1个上期前六肖，三肖全新；二栏狗羊同0路，全栏只能重1或2肖。",
+      "previous_six_overlap": [
+        "馬"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "虎",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "蛇",
+        "羊",
+        "狗"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "兔",
+        "羊",
+        "狗"
+      ]
+    },
+    {
+      "id": "GG07",
+      "roles": {
+        "top": "馬",
+        "A": "羊",
+        "B": "猴",
+        "C": "兔",
+        "D": "虎"
+      },
+      "reserves": [
+        "龍"
+      ],
+      "comment": "2个上期前六肖（馬、猴），二栏跨0／2路，三肖跨三路；上期猴出现不证明续出。",
+      "previous_six_overlap": [
+        "馬",
+        "猴"
+      ],
+      "changed_relative_to_330_display": [
+        "牛",
+        "龍",
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔",
+        "羊",
+        "猴"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛",
+        "龍",
+        "蛇",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "虎",
+        "兔",
+        "羊",
+        "猴"
+      ]
+    },
+    {
+      "id": "GG08",
+      "roles": {
+        "top": "馬",
+        "A": "虎",
+        "B": "牛",
+        "C": "龍",
+        "D": "兔"
+      },
+      "reserves": [
+        "鷄"
+      ],
+      "comment": "2个上期前六肖，但上期正式展示五肖保留四个；二栏和三肖需要2路。",
+      "previous_six_overlap": [
+        "牛",
+        "馬"
+      ],
+      "changed_relative_to_330_display": [
+        "鷄"
+      ],
+      "new_relative_to_330_display": [
+        "兔"
+      ],
+      "changed_relative_to_initial_331": [
+        "蛇",
+        "鷄"
+      ],
+      "new_relative_to_initial_331": [
+        "虎",
+        "兔"
+      ]
+    },
+    {
+      "id": "GG09",
+      "roles": {
+        "top": "馬",
+        "A": "鷄",
+        "B": "虎",
+        "C": "龍",
+        "D": "蛇"
+      },
+      "reserves": [
+        "牛"
+      ],
+      "comment": "原比较案FF03：2个上期前六肖，但共同位仍是上期鷄，零重肖时仍三栏全断。",
+      "previous_six_overlap": [
+        "馬",
+        "鷄"
+      ],
+      "changed_relative_to_330_display": [
+        "牛"
+      ],
+      "new_relative_to_330_display": [
+        "蛇"
+      ],
+      "changed_relative_to_initial_331": [
+        "牛"
+      ],
+      "new_relative_to_initial_331": [
+        "虎"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "target": 2026331,
+  "choice": "GG01",
+  "revised_existing_331_decision_only": true,
+  "other_decisions_preserved": 19,
+  "history_unmodified": true,
+  "previous_page_and_decision_frozen": true,
+  "staged_history_sha256": "10eddc07843d64d46673aa175154c5e78843003016586c8be1175bf1359ed506",
+  "staged_decisions_sha256": "f192e8222e35d3d868c3d746e483801662a46b5b7c5c11a0971a79408b378a5f",
+  "staged_page_sha256": "09bb6fa3cd4712132635695a8ac1a7a2f0e8d688fabf17e9622211c9ab31adc6",
+  "target_331_result_queried_or_used": false,
+  "scope": "isolated stage; no main sync or publication yet; 330 ball order inferred"
+}

@@ -1,0 +1,16 @@
+{
+  "previous_objection": "为什么命中后替换的真么少？合理？",
+  "direction_agreed": "比较保留上期已出1—2肖的方案，复核命中与失败及结构风险，调整331并重新上线",
+  "user_instruction": "按这个方向重新筛选、复盘后再调整331期，最后重新上线",
+  "normal_330_inferred": [
+    "馬",
+    "猴",
+    "豬",
+    "豬",
+    "牛",
+    "鷄"
+  ],
+  "seventh_330_inferred": "蛇",
+  "split_not_explicitly_confirmed": true,
+  "target_331_result_queried_or_used": false
+}
