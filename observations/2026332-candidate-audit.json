@@ -1,0 +1,6862 @@
+{
+  "status": "PASS_EXACT_MODEL_AND_POSTHOC_NOT_A_FORECAST",
+  "choice": "HH01",
+  "target_332_result_queried_or_used": false,
+  "history_scope": "All fixed windows end at user-confirmed 331 and were available before selection; windows overlap and are retrospective, not a blind performance test.",
+  "model_scope": "49 equiprobable numbers without replacement, six normals, current mapping held fixed. Group-mask counts compared against direct enumeration of all 13,983,816 sets for HH00, HH01, HH08, T14, T15. This is conditional mathematics, not proof of actual odds or forecast advantage.",
+  "user_331_normal": [
+    "牛",
+    "兔",
+    "龍",
+    "蛇",
+    "猴"
+  ],
+  "candidates": [
+    {
+      "id": "HH00",
+      "single": "馬",
+      "pair": [
+        "狗",
+        "牛"
+      ],
+      "triple": [
+        "狗",
+        "兔",
+        "蛇"
+      ],
+      "reserves": [
+        "虎"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "兔",
+        "蛇"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "兔",
+        "蛇"
+      ],
+      "changed_formal_relative_to_331": [],
+      "removed_formal_relative_to_331": [],
+      "comparison": "331实际修订基线；相对331前六正式展示含牛兔蛇3个，狗缺使二三同断。",
+      "shared_pair_triple": [
+        "狗"
+      ],
+      "formal_distinct": [
+        "牛",
+        "兔",
+        "蛇",
+        "馬",
+        "狗"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          2,
+          0,
+          0
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "兔": {
+          "numbers": [
+            4,
+            16,
+            28,
+            40
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "蛇": {
+          "numbers": [
+            2,
+            14,
+            26,
+            38
+          ],
+          "road": 2,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "狗": {
+          "numbers": [
+            9,
+            21,
+            33,
+            45
+          ],
+          "road": 0,
+          "odd_even": "odd",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1064412,
+            1910008,
+            188320,
+            0
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 33.65474240690035,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2168080,
+            3133400,
+            545200,
+            0
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250040,
+          "pair_and_triple": 0,
+          "zero_percent": 37.082241545629316,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1577680,
+            1748960,
+            334720,
+            35840
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 359040,
+          "pair_and_triple": 119680,
+          "zero_percent": 42.67229254571027,
+          "all_percent": 0.96938223520502
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            419200,
+            263680,
+            71680,
+            10240
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 99840,
+          "pair_and_triple": 66560,
+          "zero_percent": 54.81171548117155,
+          "all_percent": 1.3389121338912133
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            5120,
+            4096,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 4096,
+          "pair_and_triple": 4096,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "狗",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "狗"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "狗",
+              "兔",
+              "蛇"
+            ],
+            "present": [
+              "兔",
+              "蛇"
+            ],
+            "missing": [
+              "狗"
+            ],
+            "present_count": 2,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            19,
+            5,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            21,
+            5,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            19,
+            21,
+            5,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            25,
+            29,
+            6,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            40,
+            50,
+            10,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            105,
+            123,
+            21,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH01",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "单馬与组合错开；虎牛跨2／0路并一奇一偶，虎鷄羊跨三路；正式肖仅牛属331前六，龍仅替补；共同虎缺仍二三断。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            905180,
+            1927032,
+            304928,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 65408,
+          "zero_percent": 28.620120528402587,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2189272,
+            3110656,
+            526272,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 100352,
+          "zero_percent": 37.444703660881046,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1728976,
+            1728608,
+            239616,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 24576,
+          "zero_percent": 46.76447041004003,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "鷄",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            9,
+            23,
+            3,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            12,
+            25,
+            3,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            28,
+            3,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            20,
+            35,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            35,
+            50,
+            15,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            92,
+            132,
+            26,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH02",
+      "single": "馬",
+      "pair": [
+        "狗",
+        "牛"
+      ],
+      "triple": [
+        "狗",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇"
+      ],
+      "comparison": "保留上期共同狗作反方；狗牛同0路，狗缺二三仍断；正式仅牛属331前六。",
+      "shared_pair_triple": [
+        "狗"
+      ],
+      "formal_distinct": [
+        "牛",
+        "馬",
+        "羊",
+        "鷄",
+        "狗"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          2,
+          0,
+          0
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          2,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          3,
+          2,
+          0
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "狗": {
+          "numbers": [
+            9,
+            21,
+            33,
+            45
+          ],
+          "road": 0,
+          "odd_even": "odd",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            905180,
+            1927032,
+            304928,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 65408,
+          "zero_percent": 28.620120528402587,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2189272,
+            3110656,
+            526272,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 100352,
+          "zero_percent": 37.444703660881046,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1728976,
+            1728608,
+            239616,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 24576,
+          "zero_percent": 46.76447041004003,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "狗",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "狗"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "狗",
+              "鷄",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "狗",
+              "鷄",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            21,
+            4,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            22,
+            5,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            17,
+            23,
+            5,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            23,
+            31,
+            6,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            37,
+            52,
+            11,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            101,
+            126,
+            23,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH03",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "豬"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄",
+        "豬"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅将HH01的三羊换豬；三肖需要两个不同2路身份，虎缺仍二三断。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "鷄",
+        "豬"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          2
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          1,
+          2,
+          2
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "豬": {
+          "numbers": [
+            8,
+            20,
+            32,
+            44
+          ],
+          "road": 2,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            905180,
+            1927032,
+            304928,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 65408,
+          "zero_percent": 28.620120528402587,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2189272,
+            3110656,
+            526272,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 100352,
+          "zero_percent": 37.444703660881046,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1728976,
+            1728608,
+            239616,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 24576,
+          "zero_percent": 46.76447041004003,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "豬"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "鷄",
+              "豬"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            23,
+            2,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            25,
+            2,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            16,
+            27,
+            2,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            22,
+            33,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            35,
+            49,
+            16,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            87,
+            139,
+            23,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH04",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "兔"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "兔"
+      ],
+      "previous_universe_overlap": [
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "牛",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅将HH01的二牛换兔；正式只保留兔，五肖全完需三个不同1路身份。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "虎",
+        "兔",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          1,
+          3,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "兔": {
+          "numbers": [
+            4,
+            16,
+            28,
+            40
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            905180,
+            1927032,
+            304928,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 65408,
+          "zero_percent": 28.620120528402587,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2189272,
+            3110656,
+            526272,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 100352,
+          "zero_percent": 37.444703660881046,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1728976,
+            1728608,
+            239616,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 24576,
+          "zero_percent": 46.76447041004003,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "兔"
+            ],
+            "present": [
+              "兔"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "鷄",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            22,
+            3,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            23,
+            4,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            16,
+            24,
+            5,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            21,
+            30,
+            9,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            33,
+            54,
+            13,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            95,
+            130,
+            25,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH05",
+      "single": "馬",
+      "pair": [
+        "龍",
+        "羊"
+      ],
+      "triple": [
+        "龍",
+        "兔",
+        "鷄"
+      ],
+      "reserves": [
+        "虎"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "兔",
+        "龍"
+      ],
+      "previous_universe_overlap": [
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "龍",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "牛",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "共同位用上期龍、二龍羊同0路、三兔鷄同1路；正式保留龍兔两肖。",
+      "shared_pair_triple": [
+        "龍"
+      ],
+      "formal_distinct": [
+        "兔",
+        "龍",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          2,
+          0,
+          0
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          2,
+          0
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          3,
+          0
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "兔": {
+          "numbers": [
+            4,
+            16,
+            28,
+            40
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "龍": {
+          "numbers": [
+            3,
+            15,
+            27,
+            39
+          ],
+          "road": 0,
+          "odd_even": "odd",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1064412,
+            1910008,
+            188320,
+            0
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 33.65474240690035,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2227856,
+            3044568,
+            543536,
+            30720
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250040,
+          "pair_and_triple": 90496,
+          "zero_percent": 38.10463374085806,
+          "all_percent": 0.5254263958349011
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1566032,
+            1751776,
+            364032,
+            15360
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 359040,
+          "pair_and_triple": 87552,
+          "zero_percent": 42.35724331926863,
+          "all_percent": 0.41544952937358
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            375168,
+            341504,
+            48128,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 99840,
+          "pair_and_triple": 12288,
+          "zero_percent": 49.05439330543933,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            24064,
+            13312,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 4096,
+          "pair_and_triple": 0,
+          "zero_percent": 64.38356164383562,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "龍",
+              "羊"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "羊"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "龍",
+              "兔",
+              "鷄"
+            ],
+            "present": [
+              "龍",
+              "兔"
+            ],
+            "missing": [
+              "鷄"
+            ],
+            "present_count": 2,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            24,
+            1,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            12,
+            27,
+            1,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            17,
+            27,
+            1,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            20,
+            38,
+            2,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            36,
+            61,
+            3,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            94,
+            137,
+            19,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH06",
+      "single": "馬",
+      "pair": [
+        "鷄",
+        "牛"
+      ],
+      "triple": [
+        "鷄",
+        "虎",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖但鷄为共同位；二鷄牛同偶；正式只保留牛。",
+      "shared_pair_triple": [
+        "鷄"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          0
+        ],
+        "odd_even": [
+          0,
+          2
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            905180,
+            1927032,
+            304928,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 65408,
+          "zero_percent": 28.620120528402587,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2189272,
+            3110656,
+            526272,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 100352,
+          "zero_percent": 37.444703660881046,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1728976,
+            1728608,
+            239616,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 24576,
+          "zero_percent": 46.76447041004003,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "鷄",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鷄",
+              "虎",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "鷄",
+              "虎",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            9,
+            22,
+            4,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            25,
+            4,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            27,
+            4,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            20,
+            36,
+            4,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            34,
+            56,
+            10,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            87,
+            138,
+            25,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH07",
+      "single": "狗",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇"
+      ],
+      "comparison": "单狗为四码，馬进入三肖；二虎牛跨路奇偶，三肖有两个不同1路肖。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "鷄",
+        "狗"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          0,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          1
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          3,
+          2
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "狗": {
+          "numbers": [
+            9,
+            21,
+            33,
+            45
+          ],
+          "road": 0,
+          "odd_even": "odd",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          6225752,
+          6673368,
+          1038616,
+          46080
+        ],
+        "single": 5838756,
+        "pair": 2190084,
+        "triple": 860000,
+        "pair_and_triple": 231920,
+        "both_combinations_incomplete": 11165652,
+        "denominator": 13983816,
+        "distribution_percent": [
+          44.52112356169446,
+          47.72208101136342,
+          7.427271640301903,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            119820,
+            302480,
+            52720,
+            0
+          ],
+          "single": 297920,
+          "pair": 0,
+          "triple": 110000,
+          "pair_and_triple": 0,
+          "zero_percent": 25.224201086270053,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1103636,
+            1744440,
+            289064,
+            25600
+          ],
+          "single": 1673140,
+          "pair": 334628,
+          "triple": 391600,
+          "pair_and_triple": 78320,
+          "zero_percent": 34.89493287465931,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2554504,
+            2797072,
+            474624,
+            20480
+          ],
+          "single": 2500400,
+          "pair": 1000160,
+          "triple": 307200,
+          "pair_and_triple": 122880,
+          "zero_percent": 43.69153092011193,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1936944,
+            1554432,
+            205824,
+            0
+          ],
+          "single": 1196800,
+          "pair": 718080,
+          "triple": 51200,
+          "pair_and_triple": 30720,
+          "zero_percent": 52.38948393378773,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            481664,
+            266752,
+            16384,
+            0
+          ],
+          "single": 166400,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 62.97907949790795,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            29184,
+            8192,
+            0,
+            0
+          ],
+          "single": 4096,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 78.08219178082192,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "狗"
+            ],
+            "present": [],
+            "missing": [
+              "狗"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "馬",
+              "鷄"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "馬",
+              "鷄"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            20,
+            1,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            16,
+            22,
+            2,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            18,
+            25,
+            2,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            25,
+            33,
+            2,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            39,
+            50,
+            11,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            113,
+            117,
+            20,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH08",
+      "single": "羊",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖，单羊四码、馬进三肖；共同虎依旧，条件风险及零栏模型需另算。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          0
+        ],
+        "odd_even": [
+          0,
+          1
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          0,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          1
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          6225752,
+          6673368,
+          1038616,
+          46080
+        ],
+        "single": 5838756,
+        "pair": 2190084,
+        "triple": 860000,
+        "pair_and_triple": 231920,
+        "both_combinations_incomplete": 11165652,
+        "denominator": 13983816,
+        "distribution_percent": [
+          44.52112356169446,
+          47.72208101136342,
+          7.427271640301903,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            119820,
+            302480,
+            52720,
+            0
+          ],
+          "single": 297920,
+          "pair": 0,
+          "triple": 110000,
+          "pair_and_triple": 0,
+          "zero_percent": 25.224201086270053,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1103636,
+            1744440,
+            289064,
+            25600
+          ],
+          "single": 1673140,
+          "pair": 334628,
+          "triple": 391600,
+          "pair_and_triple": 78320,
+          "zero_percent": 34.89493287465931,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2554504,
+            2797072,
+            474624,
+            20480
+          ],
+          "single": 2500400,
+          "pair": 1000160,
+          "triple": 307200,
+          "pair_and_triple": 122880,
+          "zero_percent": 43.69153092011193,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1936944,
+            1554432,
+            205824,
+            0
+          ],
+          "single": 1196800,
+          "pair": 718080,
+          "triple": 51200,
+          "pair_and_triple": 30720,
+          "zero_percent": 52.38948393378773,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            481664,
+            266752,
+            16384,
+            0
+          ],
+          "single": 166400,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 62.97907949790795,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            29184,
+            8192,
+            0,
+            0
+          ],
+          "single": 4096,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 78.08219178082192,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "馬",
+              "鷄"
+            ],
+            "present": [],
+            "missing": [
+              "虎",
+              "馬",
+              "鷄"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            19,
+            14,
+            2,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            22,
+            16,
+            2,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            24,
+            19,
+            2,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            30,
+            27,
+            3,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            46,
+            43,
+            11,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            113,
+            115,
+            22,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH09",
+      "single": "馬",
+      "pair": [
+        "牛",
+        "虎"
+      ],
+      "triple": [
+        "牛",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖和二栏，改牛为共同位；三肖全偶且需两个0路，零重肖时两组合必断。",
+      "shared_pair_triple": [
+        "牛"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          2,
+          1,
+          0
+        ],
+        "odd_even": [
+          0,
+          3
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1022996,
+            1858896,
+            255248,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 159544,
+          "pair_and_triple": 65408,
+          "zero_percent": 32.345244945838104,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2149848,
+            3078400,
+            597952,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 361984,
+          "pair_and_triple": 100352,
+          "zero_percent": 36.77040645289292,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1625552,
+            1801312,
+            270336,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 175104,
+          "pair_and_triple": 24576,
+          "zero_percent": 43.96711024559126,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            430976,
+            313344,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 16384,
+          "pair_and_triple": 0,
+          "zero_percent": 56.35146443514645,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "牛",
+              "虎"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "牛",
+              "鷄",
+              "羊"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "鷄",
+              "羊"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            21,
+            3,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            23,
+            3,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            18,
+            24,
+            3,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            23,
+            32,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            36,
+            50,
+            14,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            91,
+            137,
+            22,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH10",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "龍"
+      ],
+      "triple": [
+        "虎",
+        "牛",
+        "羊"
+      ],
+      "reserves": [
+        "鷄"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "龍"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "龍",
+        "羊"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "正式保留龍牛两肖；二虎龍同奇，三肖牛羊同0路。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "龍",
+        "馬",
+        "羊"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          2,
+          0
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          2,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          3,
+          1,
+          1
+        ],
+        "odd_even": [
+          3,
+          2
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "龍": {
+          "numbers": [
+            3,
+            15,
+            27,
+            39
+          ],
+          "road": 0,
+          "odd_even": "odd",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            983188,
+            1912912,
+            266640,
+            0
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 159544,
+          "pair_and_triple": 0,
+          "zero_percent": 31.086589476213664,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2129752,
+            3128832,
+            557376,
+            30720
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 361984,
+          "pair_and_triple": 90496,
+          "zero_percent": 36.42669001895093,
+          "all_percent": 0.5254263958349011
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1673168,
+            1721440,
+            287232,
+            15360
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 175104,
+          "pair_and_triple": 87552,
+          "zero_percent": 45.255003786649354,
+          "all_percent": 0.41544952937358
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            443264,
+            288768,
+            32768,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 16384,
+          "pair_and_triple": 12288,
+          "zero_percent": 57.9581589958159,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "龍"
+            ],
+            "present": [
+              "龍"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "牛",
+              "羊"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎",
+              "羊"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            9,
+            25,
+            1,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            28,
+            1,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            15,
+            29,
+            1,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            21,
+            34,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            33,
+            57,
+            10,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            94,
+            135,
+            20,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH11",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "蛇"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "牛"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "蛇"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍",
+        "蛇"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "狗"
+      ],
+      "comparison": "正式保留蛇牛两肖，三栏跨三路；二虎蛇同2路需要两球。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "蛇",
+        "馬",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          0,
+          0,
+          2
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          1,
+          2,
+          2
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "蛇": {
+          "numbers": [
+            2,
+            14,
+            26,
+            38
+          ],
+          "road": 2,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            983188,
+            1912912,
+            266640,
+            0
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 159544,
+          "pair_and_triple": 0,
+          "zero_percent": 31.086589476213664,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2129752,
+            3128832,
+            557376,
+            30720
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 361984,
+          "pair_and_triple": 90496,
+          "zero_percent": 36.42669001895093,
+          "all_percent": 0.5254263958349011
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1673168,
+            1721440,
+            287232,
+            15360
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 175104,
+          "pair_and_triple": 87552,
+          "zero_percent": 45.255003786649354,
+          "all_percent": 0.41544952937358
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            443264,
+            288768,
+            32768,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 16384,
+          "pair_and_triple": 12288,
+          "zero_percent": 57.9581589958159,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "蛇"
+            ],
+            "present": [
+              "蛇"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎",
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            25,
+            0,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            12,
+            28,
+            0,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            32,
+            0,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            18,
+            40,
+            2,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            30,
+            61,
+            9,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            86,
+            141,
+            23,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH12",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "兔"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "兔"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "蛇",
+        "狗"
+      ],
+      "comparison": "正式保留牛兔两肖，二跨路混奇偶；三鷄兔同1路需两球。",
+      "shared_pair_triple": [
+        "虎"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "兔",
+        "馬",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          0,
+          2,
+          1
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          1,
+          3,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "兔": {
+          "numbers": [
+            4,
+            16,
+            28,
+            40
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            340424,
+            0,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            983188,
+            1912912,
+            266640,
+            0
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 159544,
+          "pair_and_triple": 0,
+          "zero_percent": 31.086589476213664,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2129752,
+            3128832,
+            557376,
+            30720
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 361984,
+          "pair_and_triple": 90496,
+          "zero_percent": 36.42669001895093,
+          "all_percent": 0.5254263958349011
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1673168,
+            1721440,
+            287232,
+            15360
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 175104,
+          "pair_and_triple": 87552,
+          "zero_percent": 45.255003786649354,
+          "all_percent": 0.41544952937358
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            443264,
+            288768,
+            32768,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 16384,
+          "pair_and_triple": 12288,
+          "zero_percent": 57.9581589958159,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "虎",
+              "鷄",
+              "兔"
+            ],
+            "present": [
+              "兔"
+            ],
+            "missing": [
+              "虎",
+              "鷄"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            23,
+            2,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            24,
+            3,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            16,
+            26,
+            3,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            22,
+            33,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            34,
+            53,
+            12,
+            1
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            92,
+            135,
+            22,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "HH13",
+      "single": "馬",
+      "pair": [
+        "鷄",
+        "虎"
+      ],
+      "triple": [
+        "鷄",
+        "羊",
+        "牛"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "同HH01五肖；二鷄虎跨路混奇偶，三肖全偶且牛羊同0路。",
+      "shared_pair_triple": [
+        "鷄"
+      ],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          2,
+          1,
+          0
+        ],
+        "odd_even": [
+          0,
+          3
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5392128,
+          7401592,
+          1144016,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 190336,
+        "both_combinations_incomplete": 11271052,
+        "denominator": 13983816,
+        "distribution_percent": [
+          38.55977510001562,
+          52.92970102009351,
+          8.181000093250654,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            69512,
+            295508,
+            110000,
+            0
+          ],
+          "single": 340424,
+          "pair": 175084,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 14.633489116247738,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            763184,
+            1915428,
+            458528,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 797720,
+          "triple": 159544,
+          "pair_and_triple": 65408,
+          "zero_percent": 24.13046915016726,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2116088,
+            3241120,
+            468992,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 904960,
+          "triple": 361984,
+          "pair_and_triple": 100352,
+          "zero_percent": 36.19298473663686,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1887952,
+            1702752,
+            106496,
+            0
+          ],
+          "single": 1448800,
+          "pair": 291840,
+          "triple": 175104,
+          "pair_and_triple": 24576,
+          "zero_percent": 51.06437303905658,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            523136,
+            241664,
+            0,
+            0
+          ],
+          "single": 204800,
+          "pair": 20480,
+          "triple": 16384,
+          "pair_and_triple": 0,
+          "zero_percent": 68.40167364016736,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            32256,
+            5120,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 0,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 86.3013698630137,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "鷄",
+              "虎"
+            ],
+            "present": [],
+            "missing": [
+              "鷄",
+              "虎"
+            ],
+            "present_count": 0,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鷄",
+              "羊",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "鷄",
+              "羊"
+            ],
+            "present_count": 1,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            21,
+            3,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            23,
+            4,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            15,
+            26,
+            4,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            21,
+            34,
+            5,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            32,
+            54,
+            14,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            82,
+            143,
+            25,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "T14",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "鷄",
+        "羊",
+        "豬"
+      ],
+      "reserves": [],
+      "architecture": "no_overlap_6_formal",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄",
+        "豬"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅作理论结构对照：单、二、三肖完全不重叠，共六个正式肖，无替补；不是当前共享A规则，不自动发布。",
+      "shared_pair_triple": [],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄",
+        "豬"
+      ],
+      "formal_code_count": 25,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          1,
+          1
+        ],
+        "odd_even": [
+          0,
+          3
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          2
+        ],
+        "odd_even": [
+          2,
+          4
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "豬": {
+          "numbers": [
+            8,
+            20,
+            32,
+            44
+          ],
+          "road": 2,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5280128,
+          7584632,
+          1113936,
+          5120
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 713016,
+        "pair_and_triple": 37376,
+        "both_combinations_incomplete": 11118092,
+        "denominator": 13983816,
+        "distribution_percent": [
+          37.75884922970955,
+          54.23864272813658,
+          7.965894288082738,
+          0.036613754071134805
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            93180,
+            329120,
+            52720,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 94136,
+          "pair_and_triple": 0,
+          "zero_percent": 19.616016167740305,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            881244,
+            1954424,
+            321952,
+            5120
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 327040,
+          "pair_and_triple": 20992,
+          "zero_percent": 27.863308397149307,
+          "all_percent": 0.16188494786166424
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2125784,
+            3217152,
+            503744,
+            0
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 250880,
+          "pair_and_triple": 16384,
+          "zero_percent": 36.35882244282225,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1704400,
+            1777760,
+            215040,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 40960,
+          "pair_and_triple": 0,
+          "zero_percent": 46.0997511630423,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "鷄",
+              "羊",
+              "豬"
+            ],
+            "present": [],
+            "missing": [
+              "鷄",
+              "羊",
+              "豬"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            10,
+            23,
+            2,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            13,
+            25,
+            2,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            17,
+            26,
+            2,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            22,
+            34,
+            4,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            36,
+            51,
+            13,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            93,
+            134,
+            23,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "T15",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "馬",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "no_pair_triple_overlap",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅作理论结构对照：二、三无共同肖，但单馬与三肖共享；五个正式肖、龍替补；不是当前共享A规则，不自动发布。",
+      "shared_pair_triple": [],
+      "formal_distinct": [
+        "牛",
+        "虎",
+        "馬",
+        "羊",
+        "鷄"
+      ],
+      "formal_code_count": 21,
+      "universe_code_count": 25,
+      "single_minimum": {
+        "road_0_1_2": [
+          0,
+          1,
+          0
+        ],
+        "odd_even": [
+          1,
+          0
+        ]
+      },
+      "pair_minimum": {
+        "road_0_1_2": [
+          1,
+          0,
+          1
+        ],
+        "odd_even": [
+          1,
+          1
+        ]
+      },
+      "triple_minimum": {
+        "road_0_1_2": [
+          1,
+          2,
+          0
+        ],
+        "odd_even": [
+          1,
+          2
+        ]
+      },
+      "all_minimum": {
+        "road_0_1_2": [
+          2,
+          2,
+          1
+        ],
+        "odd_even": [
+          2,
+          3
+        ]
+      },
+      "per_sign": {
+        "牛": {
+          "numbers": [
+            6,
+            18,
+            30,
+            42
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": true
+        },
+        "虎": {
+          "numbers": [
+            5,
+            17,
+            29,
+            41
+          ],
+          "road": 2,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "馬": {
+          "numbers": [
+            1,
+            13,
+            25,
+            37,
+            49
+          ],
+          "road": 1,
+          "odd_even": "odd",
+          "from_previous_six": false
+        },
+        "羊": {
+          "numbers": [
+            12,
+            24,
+            36,
+            48
+          ],
+          "road": 0,
+          "odd_even": "even",
+          "from_previous_six": false
+        },
+        "鷄": {
+          "numbers": [
+            10,
+            22,
+            34,
+            46
+          ],
+          "road": 1,
+          "odd_even": "even",
+          "from_previous_six": false
+        }
+      },
+      "uniform_model": {
+        "distribution": [
+          5728968,
+          6580928,
+          1627840,
+          46080
+        ],
+        "single": 6924764,
+        "pair": 2190084,
+        "triple": 860000,
+        "pair_and_triple": 46080,
+        "both_combinations_incomplete": 10979812,
+        "denominator": 13983816,
+        "distribution_percent": [
+          40.96855965496113,
+          47.06103112340723,
+          11.640885434991421,
+          0.32952378664021326
+        ]
+      },
+      "conditional_repeat": [
+        {
+          "repeat_count": 0,
+          "denominator": 475020,
+          "distribution": [
+            134596,
+            230424,
+            110000,
+            0
+          ],
+          "single": 340424,
+          "pair": 0,
+          "triple": 110000,
+          "pair_and_triple": 0,
+          "zero_percent": 28.33480695549661,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 1,
+          "denominator": 3162740,
+          "distribution": [
+            1064412,
+            1544008,
+            528720,
+            25600
+          ],
+          "single": 1952020,
+          "pair": 334628,
+          "triple": 391600,
+          "pair_and_triple": 25600,
+          "zero_percent": 33.65474240690035,
+          "all_percent": 0.8094247393083213
+        },
+        {
+          "repeat_count": 2,
+          "denominator": 5846680,
+          "distribution": [
+            2309080,
+            2814720,
+            702400,
+            20480
+          ],
+          "single": 2973600,
+          "pair": 1000160,
+          "triple": 307200,
+          "pair_and_triple": 20480,
+          "zero_percent": 39.49386660463716,
+          "all_percent": 0.3502842638899341
+        },
+        {
+          "repeat_count": 3,
+          "denominator": 3697200,
+          "distribution": [
+            1745360,
+            1685600,
+            266240,
+            0
+          ],
+          "single": 1448800,
+          "pair": 718080,
+          "triple": 51200,
+          "pair_and_triple": 0,
+          "zero_percent": 47.207616574705185,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 4,
+          "denominator": 764800,
+          "distribution": [
+            447360,
+            296960,
+            20480,
+            0
+          ],
+          "single": 204800,
+          "pair": 133120,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 58.49372384937239,
+          "all_percent": 0.0
+        },
+        {
+          "repeat_count": 5,
+          "denominator": 37376,
+          "distribution": [
+            28160,
+            9216,
+            0,
+            0
+          ],
+          "single": 5120,
+          "pair": 4096,
+          "triple": 0,
+          "pair_and_triple": 0,
+          "zero_percent": 75.34246575342466,
+          "all_percent": 0.0
+        }
+      ],
+      "posthoc_331": {
+        "slots": [
+          {
+            "name": "single",
+            "required": [
+              "馬"
+            ],
+            "present": [],
+            "missing": [
+              "馬"
+            ],
+            "present_count": 0,
+            "needed_count": 1,
+            "complete": false
+          },
+          {
+            "name": "pair",
+            "required": [
+              "虎",
+              "牛"
+            ],
+            "present": [
+              "牛"
+            ],
+            "missing": [
+              "虎"
+            ],
+            "present_count": 1,
+            "needed_count": 2,
+            "complete": false
+          },
+          {
+            "name": "triple",
+            "required": [
+              "馬",
+              "鷄",
+              "羊"
+            ],
+            "present": [],
+            "missing": [
+              "馬",
+              "鷄",
+              "羊"
+            ],
+            "present_count": 0,
+            "needed_count": 3,
+            "complete": false
+          }
+        ],
+        "complete_columns": 0
+      },
+      "posthoc_fixed_windows": {
+        "35": {
+          "first_period": 2026297,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            11,
+            16,
+            8,
+            0
+          ]
+        },
+        "40": {
+          "first_period": 2026292,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            14,
+            17,
+            9,
+            0
+          ]
+        },
+        "45": {
+          "first_period": 2026287,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            18,
+            18,
+            9,
+            0
+          ]
+        },
+        "60": {
+          "first_period": 2026272,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            24,
+            25,
+            11,
+            0
+          ]
+        },
+        "100": {
+          "first_period": 2026232,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            39,
+            41,
+            20,
+            0
+          ]
+        },
+        "250": {
+          "first_period": 2026082,
+          "last_period": 2026331,
+          "complete_0_1_2_3": [
+            100,
+            116,
+            34,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "selected": {
+    "id": "HH01",
+    "single": "馬",
+    "pair": [
+      "虎",
+      "牛"
+    ],
+    "triple": [
+      "虎",
+      "鷄",
+      "羊"
+    ],
+    "reserves": [
+      "龍"
+    ],
+    "architecture": "shared",
+    "previous_six_overlap": [
+      "牛"
+    ],
+    "previous_universe_overlap": [
+      "牛",
+      "龍"
+    ],
+    "changed_formal_relative_to_331": [
+      "虎",
+      "羊",
+      "鷄"
+    ],
+    "removed_formal_relative_to_331": [
+      "兔",
+      "蛇",
+      "狗"
+    ],
+    "comparison": "单馬与组合错开；虎牛跨2／0路并一奇一偶，虎鷄羊跨三路；正式肖仅牛属331前六，龍仅替补；共同虎缺仍二三断。",
+    "shared_pair_triple": [
+      "虎"
+    ],
+    "formal_distinct": [
+      "牛",
+      "虎",
+      "馬",
+      "羊",
+      "鷄"
+    ],
+    "formal_code_count": 21,
+    "universe_code_count": 25,
+    "single_minimum": {
+      "road_0_1_2": [
+        0,
+        1,
+        0
+      ],
+      "odd_even": [
+        1,
+        0
+      ]
+    },
+    "pair_minimum": {
+      "road_0_1_2": [
+        1,
+        0,
+        1
+      ],
+      "odd_even": [
+        1,
+        1
+      ]
+    },
+    "triple_minimum": {
+      "road_0_1_2": [
+        1,
+        1,
+        1
+      ],
+      "odd_even": [
+        1,
+        2
+      ]
+    },
+    "all_minimum": {
+      "road_0_1_2": [
+        2,
+        2,
+        1
+      ],
+      "odd_even": [
+        2,
+        3
+      ]
+    },
+    "per_sign": {
+      "牛": {
+        "numbers": [
+          6,
+          18,
+          30,
+          42
+        ],
+        "road": 0,
+        "odd_even": "even",
+        "from_previous_six": true
+      },
+      "虎": {
+        "numbers": [
+          5,
+          17,
+          29,
+          41
+        ],
+        "road": 2,
+        "odd_even": "odd",
+        "from_previous_six": false
+      },
+      "馬": {
+        "numbers": [
+          1,
+          13,
+          25,
+          37,
+          49
+        ],
+        "road": 1,
+        "odd_even": "odd",
+        "from_previous_six": false
+      },
+      "羊": {
+        "numbers": [
+          12,
+          24,
+          36,
+          48
+        ],
+        "road": 0,
+        "odd_even": "even",
+        "from_previous_six": false
+      },
+      "鷄": {
+        "numbers": [
+          10,
+          22,
+          34,
+          46
+        ],
+        "road": 1,
+        "odd_even": "even",
+        "from_previous_six": false
+      }
+    },
+    "uniform_model": {
+      "distribution": [
+        5392128,
+        7401592,
+        1144016,
+        46080
+      ],
+      "single": 6924764,
+      "pair": 2190084,
+      "triple": 713016,
+      "pair_and_triple": 190336,
+      "both_combinations_incomplete": 11271052,
+      "denominator": 13983816,
+      "distribution_percent": [
+        38.55977510001562,
+        52.92970102009351,
+        8.181000093250654,
+        0.32952378664021326
+      ]
+    },
+    "conditional_repeat": [
+      {
+        "repeat_count": 0,
+        "denominator": 475020,
+        "distribution": [
+          93180,
+          329120,
+          52720,
+          0
+        ],
+        "single": 340424,
+        "pair": 0,
+        "triple": 94136,
+        "pair_and_triple": 0,
+        "zero_percent": 19.616016167740305,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 1,
+        "denominator": 3162740,
+        "distribution": [
+          905180,
+          1927032,
+          304928,
+          25600
+        ],
+        "single": 1952020,
+        "pair": 334628,
+        "triple": 327040,
+        "pair_and_triple": 65408,
+        "zero_percent": 28.620120528402587,
+        "all_percent": 0.8094247393083213
+      },
+      {
+        "repeat_count": 2,
+        "denominator": 5846680,
+        "distribution": [
+          2189272,
+          3110656,
+          526272,
+          20480
+        ],
+        "single": 2973600,
+        "pair": 1000160,
+        "triple": 250880,
+        "pair_and_triple": 100352,
+        "zero_percent": 37.444703660881046,
+        "all_percent": 0.3502842638899341
+      },
+      {
+        "repeat_count": 3,
+        "denominator": 3697200,
+        "distribution": [
+          1728976,
+          1728608,
+          239616,
+          0
+        ],
+        "single": 1448800,
+        "pair": 718080,
+        "triple": 40960,
+        "pair_and_triple": 24576,
+        "zero_percent": 46.76447041004003,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 4,
+        "denominator": 764800,
+        "distribution": [
+          447360,
+          296960,
+          20480,
+          0
+        ],
+        "single": 204800,
+        "pair": 133120,
+        "triple": 0,
+        "pair_and_triple": 0,
+        "zero_percent": 58.49372384937239,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 5,
+        "denominator": 37376,
+        "distribution": [
+          28160,
+          9216,
+          0,
+          0
+        ],
+        "single": 5120,
+        "pair": 4096,
+        "triple": 0,
+        "pair_and_triple": 0,
+        "zero_percent": 75.34246575342466,
+        "all_percent": 0.0
+      }
+    ],
+    "posthoc_331": {
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "馬"
+          ],
+          "present": [],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false
+        },
+        {
+          "name": "pair",
+          "required": [
+            "虎",
+            "牛"
+          ],
+          "present": [
+            "牛"
+          ],
+          "missing": [
+            "虎"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false
+        },
+        {
+          "name": "triple",
+          "required": [
+            "虎",
+            "鷄",
+            "羊"
+          ],
+          "present": [],
+          "missing": [
+            "虎",
+            "鷄",
+            "羊"
+          ],
+          "present_count": 0,
+          "needed_count": 3,
+          "complete": false
+        }
+      ],
+      "complete_columns": 0
+    },
+    "posthoc_fixed_windows": {
+      "35": {
+        "first_period": 2026297,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          9,
+          23,
+          3,
+          0
+        ]
+      },
+      "40": {
+        "first_period": 2026292,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          12,
+          25,
+          3,
+          0
+        ]
+      },
+      "45": {
+        "first_period": 2026287,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          14,
+          28,
+          3,
+          0
+        ]
+      },
+      "60": {
+        "first_period": 2026272,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          20,
+          35,
+          5,
+          0
+        ]
+      },
+      "100": {
+        "first_period": 2026232,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          35,
+          50,
+          15,
+          0
+        ]
+      },
+      "250": {
+        "first_period": 2026082,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          92,
+          132,
+          26,
+          0
+        ]
+      }
+    }
+  },
+  "baseline": {
+    "id": "HH00",
+    "single": "馬",
+    "pair": [
+      "狗",
+      "牛"
+    ],
+    "triple": [
+      "狗",
+      "兔",
+      "蛇"
+    ],
+    "reserves": [
+      "虎"
+    ],
+    "architecture": "shared",
+    "previous_six_overlap": [
+      "牛",
+      "兔",
+      "蛇"
+    ],
+    "previous_universe_overlap": [
+      "牛",
+      "兔",
+      "蛇"
+    ],
+    "changed_formal_relative_to_331": [],
+    "removed_formal_relative_to_331": [],
+    "comparison": "331实际修订基线；相对331前六正式展示含牛兔蛇3个，狗缺使二三同断。",
+    "shared_pair_triple": [
+      "狗"
+    ],
+    "formal_distinct": [
+      "牛",
+      "兔",
+      "蛇",
+      "馬",
+      "狗"
+    ],
+    "formal_code_count": 21,
+    "universe_code_count": 25,
+    "single_minimum": {
+      "road_0_1_2": [
+        0,
+        1,
+        0
+      ],
+      "odd_even": [
+        1,
+        0
+      ]
+    },
+    "pair_minimum": {
+      "road_0_1_2": [
+        2,
+        0,
+        0
+      ],
+      "odd_even": [
+        1,
+        1
+      ]
+    },
+    "triple_minimum": {
+      "road_0_1_2": [
+        1,
+        1,
+        1
+      ],
+      "odd_even": [
+        1,
+        2
+      ]
+    },
+    "all_minimum": {
+      "road_0_1_2": [
+        2,
+        2,
+        1
+      ],
+      "odd_even": [
+        2,
+        3
+      ]
+    },
+    "per_sign": {
+      "牛": {
+        "numbers": [
+          6,
+          18,
+          30,
+          42
+        ],
+        "road": 0,
+        "odd_even": "even",
+        "from_previous_six": true
+      },
+      "兔": {
+        "numbers": [
+          4,
+          16,
+          28,
+          40
+        ],
+        "road": 1,
+        "odd_even": "even",
+        "from_previous_six": true
+      },
+      "蛇": {
+        "numbers": [
+          2,
+          14,
+          26,
+          38
+        ],
+        "road": 2,
+        "odd_even": "even",
+        "from_previous_six": true
+      },
+      "馬": {
+        "numbers": [
+          1,
+          13,
+          25,
+          37,
+          49
+        ],
+        "road": 1,
+        "odd_even": "odd",
+        "from_previous_six": false
+      },
+      "狗": {
+        "numbers": [
+          9,
+          21,
+          33,
+          45
+        ],
+        "road": 0,
+        "odd_even": "odd",
+        "from_previous_six": false
+      }
+    },
+    "uniform_model": {
+      "distribution": [
+        5392128,
+        7401592,
+        1144016,
+        46080
+      ],
+      "single": 6924764,
+      "pair": 2190084,
+      "triple": 713016,
+      "pair_and_triple": 190336,
+      "both_combinations_incomplete": 11271052,
+      "denominator": 13983816,
+      "distribution_percent": [
+        38.55977510001562,
+        52.92970102009351,
+        8.181000093250654,
+        0.32952378664021326
+      ]
+    },
+    "conditional_repeat": [
+      {
+        "repeat_count": 0,
+        "denominator": 475020,
+        "distribution": [
+          134596,
+          340424,
+          0,
+          0
+        ],
+        "single": 340424,
+        "pair": 0,
+        "triple": 0,
+        "pair_and_triple": 0,
+        "zero_percent": 28.33480695549661,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 1,
+        "denominator": 3162740,
+        "distribution": [
+          1064412,
+          1910008,
+          188320,
+          0
+        ],
+        "single": 1952020,
+        "pair": 334628,
+        "triple": 0,
+        "pair_and_triple": 0,
+        "zero_percent": 33.65474240690035,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 2,
+        "denominator": 5846680,
+        "distribution": [
+          2168080,
+          3133400,
+          545200,
+          0
+        ],
+        "single": 2973600,
+        "pair": 1000160,
+        "triple": 250040,
+        "pair_and_triple": 0,
+        "zero_percent": 37.082241545629316,
+        "all_percent": 0.0
+      },
+      {
+        "repeat_count": 3,
+        "denominator": 3697200,
+        "distribution": [
+          1577680,
+          1748960,
+          334720,
+          35840
+        ],
+        "single": 1448800,
+        "pair": 718080,
+        "triple": 359040,
+        "pair_and_triple": 119680,
+        "zero_percent": 42.67229254571027,
+        "all_percent": 0.96938223520502
+      },
+      {
+        "repeat_count": 4,
+        "denominator": 764800,
+        "distribution": [
+          419200,
+          263680,
+          71680,
+          10240
+        ],
+        "single": 204800,
+        "pair": 133120,
+        "triple": 99840,
+        "pair_and_triple": 66560,
+        "zero_percent": 54.81171548117155,
+        "all_percent": 1.3389121338912133
+      },
+      {
+        "repeat_count": 5,
+        "denominator": 37376,
+        "distribution": [
+          28160,
+          5120,
+          4096,
+          0
+        ],
+        "single": 5120,
+        "pair": 4096,
+        "triple": 4096,
+        "pair_and_triple": 4096,
+        "zero_percent": 75.34246575342466,
+        "all_percent": 0.0
+      }
+    ],
+    "posthoc_331": {
+      "slots": [
+        {
+          "name": "single",
+          "required": [
+            "馬"
+          ],
+          "present": [],
+          "missing": [
+            "馬"
+          ],
+          "present_count": 0,
+          "needed_count": 1,
+          "complete": false
+        },
+        {
+          "name": "pair",
+          "required": [
+            "狗",
+            "牛"
+          ],
+          "present": [
+            "牛"
+          ],
+          "missing": [
+            "狗"
+          ],
+          "present_count": 1,
+          "needed_count": 2,
+          "complete": false
+        },
+        {
+          "name": "triple",
+          "required": [
+            "狗",
+            "兔",
+            "蛇"
+          ],
+          "present": [
+            "兔",
+            "蛇"
+          ],
+          "missing": [
+            "狗"
+          ],
+          "present_count": 2,
+          "needed_count": 3,
+          "complete": false
+        }
+      ],
+      "complete_columns": 0
+    },
+    "posthoc_fixed_windows": {
+      "35": {
+        "first_period": 2026297,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          11,
+          19,
+          5,
+          0
+        ]
+      },
+      "40": {
+        "first_period": 2026292,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          14,
+          21,
+          5,
+          0
+        ]
+      },
+      "45": {
+        "first_period": 2026287,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          19,
+          21,
+          5,
+          0
+        ]
+      },
+      "60": {
+        "first_period": 2026272,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          25,
+          29,
+          6,
+          0
+        ]
+      },
+      "100": {
+        "first_period": 2026232,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          40,
+          50,
+          10,
+          0
+        ]
+      },
+      "250": {
+        "first_period": 2026082,
+        "last_period": 2026331,
+        "complete_0_1_2_3": [
+          105,
+          123,
+          21,
+          1
+        ]
+      }
+    }
+  },
+  "input_sha256": {
+    "design": "0d988a2549d03b4a92670359fb29cc49e76f75e1af5c4b1fa839b8b0522613aa",
+    "history": "72ec1839ca3510754c487861d855689296fccd0b189a04a4898b40b3964362c0",
+    "brute": "121b6aaa5b74095a056eaff9cfe272d4ffdefd6616c2ee930fbb83b0075763c2"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS_FROZEN_AFTER_USER_331_NOT_PREDRAW_CERTIFICATION",
+  "initial_commit": "3c7ce246e9c5a24163f4f371f35267b5c8954c62",
+  "frozen_files": 39,
+  "frozen_manifest_sha256": "34caeb716b23413a85e11bcb5f47a46a8689618f0a65f2d50afc5b9a1757af54",
+  "user_331_confirmation_sha256": "f05a897b3600e7682310e24759fbecdda95c31c5152aac763eae19ea80705d27",
+  "user_331_six_seventh_explicitly_confirmed": true,
+  "official_source_or_date_certified": false,
+  "prior_330_partition_confirmed": false,
+  "public_baseline_hashes": {
+    "zodiac_trend.html": {
+      "http_status": 200,
+      "sha256": "09bb6fa3cd4712132635695a8ac1a7a2f0e8d688fabf17e9622211c9ab31adc6",
+      "match": true
+    },
+    "observations/README.md": {
+      "http_status": 200,
+      "sha256": "9f7b067d3070cbb235785dae2420c26957ef87061ad503d086101bbe5e7b253e",
+      "match": true
+    },
+    "observations/2026331-rev1-index.html": {
+      "http_status": 200,
+      "sha256": "620feb93ad0ddcf4d14d868a1eaa20899e31b266702529b86bf434e204dfc8ee",
+      "match": true
+    },
+    "observations/2026331-rev1-analysis.md": {
+      "http_status": 200,
+      "sha256": "d862ae5cb91ebea710f406ed02ecf0ca36a2af9f6cb9dafbf3d392fc41a28b16",
+      "match": true
+    },
+    "observations/2026331-rev1.sha256": {
+      "http_status": 200,
+      "sha256": "326e6c9c8f14e1182a5195025935e16b355be288ec569689452eefba47478e70",
+      "match": true
+    },
+    "observations/2026331-index.html": {
+      "http_status": 200,
+      "sha256": "68f3b8651a9d34d032e5d4b94255585531c41d9d553290bbdd8d79793404e817",
+      "match": true
+    },
+    "observations/2026331.sha256": {
+      "http_status": 200,
+      "sha256": "6da92be3ed8a758e1cbabca68b90cc10a58fb676f4b864d020062111c94ee257",
+      "match": true
+    }
+  },
+  "previous_revision_public_verifier": "OFFLINE 331 REVISION VERIFICATION PASS: 9 checks — internal bytes and arithmetic only; NOT official draw, pre-draw, actual odds, forecast, profit or real WeChat safety",
+  "previous_local_331_revision_zip_present": false,
+  "previous_original_331_local_zip_present": false,
+  "old_dirty_deploy_entries_untouched": 68,
+  "target_332_result_queried_or_used": false,
+  "scope": "Freeze after user supplied 331. Byte integrity and user confirmation only; not proof of official source, date, pre-draw timing or future outcome."
+}

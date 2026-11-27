@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    "staged page copies identical; prior public and main page unchanged",
+    "only 331 user-confirmed row added to rolling chart; prior rolling data/mapping unchanged",
+    "one target-332 decision added; 20 prior decisions preserved; reconstructed and future absent",
+    "layout and behavior unchanged other than current input/range/manual payload",
+    "20 older decisions unchanged; staged 332 roles exact; main decisions still 331",
+    "generator and entry unchanged",
+    "no footer, external assets or automatic network requests",
+    "39 frozen baseline sources match",
+    "independent review_independent_qc.json",
+    "independent candidate_independent_qc.json",
+    "independent report_qc.json",
+    "clean staged reproduction identical",
+    "synthetic 332 fixture never generates automatic 333",
+    "27 prior plus two revision/frozen public manifests unchanged",
+    "no 332 target outcome queried; no timing claim",
+    "old dirty deploy untouched"
+  ],
+  "checks_count": 16,
+  "page_sha256": "bbed8a8bff5a03d16ef8a15aab3189e45d45d729458b0653c1c05a4f2bdaf3d1",
+  "history_sha256": "72ec1839ca3510754c487861d855689296fccd0b189a04a4898b40b3964362c0",
+  "decisions_sha256": "76c25bbe5e0697b25a71230cc95cb4d0752193d21e99791d399dc6dd9634432e",
+  "scope": "Static local consistency and synthetic fixture, not official source, prediction, target time or real WeChat authentication."
+}

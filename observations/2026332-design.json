@@ -1,0 +1,585 @@
+{
+  "status": "MANUAL_RELATED_COMPARISONS_NOT_A_FORECAST",
+  "target": 2026332,
+  "choice": "HH01",
+  "selected_single": "馬",
+  "selected_pair": [
+    "虎",
+    "牛"
+  ],
+  "selected_triple": [
+    "虎",
+    "鷄",
+    "羊"
+  ],
+  "selected_reserves": [
+    "龍"
+  ],
+  "previous_331_six": [
+    "牛",
+    "兔",
+    "龍",
+    "蛇",
+    "猴"
+  ],
+  "previous_331_seventh": "馬",
+  "target_332_result_queried_or_used": false,
+  "candidate_count": 16,
+  "selection_basis": "Keep the prior on-site A+B / A+C+D format and prior user request to compare 1–2 previous-six signs. HH01 changes three of the five 331 formal identities and keeps only 牛 from confirmed 331 normals, with 龍 reserve only. Pair 虎牛 spans two roads and mixed odd/even; triple 虎鷄羊 spans all three roads. The horse single retains the five-code group under the unchanged mapping assumption, not because horse occurred as the 331 seventh ball. This is a subjective structure choice, not evidence of better accuracy. No claim shared-slot failure has been eliminated.",
+  "exploration_disclosure": "331 result, initial and revised 331 displays, 38 retained retrospective outcomes, prior 331 alternatives and historical evidence were inspected before these comparisons and HH01 choice were recorded. The 16 related designs are not independent trials or preregistered blind forecasts. T14/T15 are model-only departures from current shared-slot rule and are not deployed. Exact model, historical and independent audits follow; no 332 outcome queried or used.",
+  "primary_risks": "虎 is the shared identity; if absent pair and triple both fail. 馬 absent breaks single. If 0-road is absent pair and triple both fail (牛 and 羊); if 1-road is absent single and triple fail (馬 and 鷄); if 2-road absent pair and triple fail (虎). 0-road <=1 makes all three complete impossible because 牛 and 羊 require distinct balls, even though either partial column might still complete. Need exactly five identities for all columns and 331-repeat count 1 or 2 is necessary but not sufficient; on zero repeat only pair necessarily fails, single or triple may still complete. Special 13馬 does not count as normal for 331 and does not predict 332.",
+  "theoretical_alternatives": "T14 removes both pair/triple and single/combination identity sharing using six formal identities but no reserve; T15 removes pair/triple overlap while shifting sharing to single/triple. Both alter the old rule; full-column probability and no-complete-column probability have different tradeoffs. They are exploratory, not the live design.",
+  "candidates": [
+    {
+      "id": "HH00",
+      "single": "馬",
+      "pair": [
+        "狗",
+        "牛"
+      ],
+      "triple": [
+        "狗",
+        "兔",
+        "蛇"
+      ],
+      "reserves": [
+        "虎"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "兔",
+        "蛇"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "兔",
+        "蛇"
+      ],
+      "changed_formal_relative_to_331": [],
+      "removed_formal_relative_to_331": [],
+      "comparison": "331实际修订基线；相对331前六正式展示含牛兔蛇3个，狗缺使二三同断。"
+    },
+    {
+      "id": "HH01",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "单馬与组合错开；虎牛跨2／0路并一奇一偶，虎鷄羊跨三路；正式肖仅牛属331前六，龍仅替补；共同虎缺仍二三断。"
+    },
+    {
+      "id": "HH02",
+      "single": "馬",
+      "pair": [
+        "狗",
+        "牛"
+      ],
+      "triple": [
+        "狗",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇"
+      ],
+      "comparison": "保留上期共同狗作反方；狗牛同0路，狗缺二三仍断；正式仅牛属331前六。"
+    },
+    {
+      "id": "HH03",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "豬"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄",
+        "豬"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅将HH01的三羊换豬；三肖需要两个不同2路身份，虎缺仍二三断。"
+    },
+    {
+      "id": "HH04",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "兔"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "兔"
+      ],
+      "previous_universe_overlap": [
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "牛",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅将HH01的二牛换兔；正式只保留兔，五肖全完需三个不同1路身份。"
+    },
+    {
+      "id": "HH05",
+      "single": "馬",
+      "pair": [
+        "龍",
+        "羊"
+      ],
+      "triple": [
+        "龍",
+        "兔",
+        "鷄"
+      ],
+      "reserves": [
+        "虎"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "兔",
+        "龍"
+      ],
+      "previous_universe_overlap": [
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "龍",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "牛",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "共同位用上期龍、二龍羊同0路、三兔鷄同1路；正式保留龍兔两肖。"
+    },
+    {
+      "id": "HH06",
+      "single": "馬",
+      "pair": [
+        "鷄",
+        "牛"
+      ],
+      "triple": [
+        "鷄",
+        "虎",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖但鷄为共同位；二鷄牛同偶；正式只保留牛。"
+    },
+    {
+      "id": "HH07",
+      "single": "狗",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇"
+      ],
+      "comparison": "单狗为四码，馬进入三肖；二虎牛跨路奇偶，三肖有两个不同1路肖。"
+    },
+    {
+      "id": "HH08",
+      "single": "羊",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "馬",
+        "鷄"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖，单羊四码、馬进三肖；共同虎依旧，条件风险及零栏模型需另算。"
+    },
+    {
+      "id": "HH09",
+      "single": "馬",
+      "pair": [
+        "牛",
+        "虎"
+      ],
+      "triple": [
+        "牛",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "与HH01同五肖和二栏，改牛为共同位；三肖全偶且需两个0路，零重肖时两组合必断。"
+    },
+    {
+      "id": "HH10",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "龍"
+      ],
+      "triple": [
+        "虎",
+        "牛",
+        "羊"
+      ],
+      "reserves": [
+        "鷄"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "龍"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "龍",
+        "羊"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "正式保留龍牛两肖；二虎龍同奇，三肖牛羊同0路。"
+    },
+    {
+      "id": "HH11",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "蛇"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "牛"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "蛇"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍",
+        "蛇"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "狗"
+      ],
+      "comparison": "正式保留蛇牛两肖，三栏跨三路；二虎蛇同2路需要两球。"
+    },
+    {
+      "id": "HH12",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "虎",
+        "鷄",
+        "兔"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛",
+        "兔"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "兔",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "蛇",
+        "狗"
+      ],
+      "comparison": "正式保留牛兔两肖，二跨路混奇偶；三鷄兔同1路需两球。"
+    },
+    {
+      "id": "HH13",
+      "single": "馬",
+      "pair": [
+        "鷄",
+        "虎"
+      ],
+      "triple": [
+        "鷄",
+        "羊",
+        "牛"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "shared",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "同HH01五肖；二鷄虎跨路混奇偶，三肖全偶且牛羊同0路。"
+    },
+    {
+      "id": "T14",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "鷄",
+        "羊",
+        "豬"
+      ],
+      "reserves": [],
+      "architecture": "no_overlap_6_formal",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄",
+        "豬"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅作理论结构对照：单、二、三肖完全不重叠，共六个正式肖，无替补；不是当前共享A规则，不自动发布。"
+    },
+    {
+      "id": "T15",
+      "single": "馬",
+      "pair": [
+        "虎",
+        "牛"
+      ],
+      "triple": [
+        "馬",
+        "鷄",
+        "羊"
+      ],
+      "reserves": [
+        "龍"
+      ],
+      "architecture": "no_pair_triple_overlap",
+      "previous_six_overlap": [
+        "牛"
+      ],
+      "previous_universe_overlap": [
+        "牛",
+        "龍"
+      ],
+      "changed_formal_relative_to_331": [
+        "虎",
+        "羊",
+        "鷄"
+      ],
+      "removed_formal_relative_to_331": [
+        "兔",
+        "蛇",
+        "狗"
+      ],
+      "comparison": "仅作理论结构对照：二、三无共同肖，但单馬与三肖共享；五个正式肖、龍替补；不是当前共享A规则，不自动发布。"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PREPARED_NOT_OFFICIAL_OR_PREDRAW_CERTIFICATION",
+  "baseline_commit": "ec02c1c188dfb3302cd3c9cc24b613c51db8dbe3",
+  "action": "User-directed 331 FF01 to GG01 revision; unchanged historical 330 data, 19 other decisions and all earlier public manifests.",
+  "previous_page_sha256": "12cc01e5dee68042ac380e827f26ce1354411c0725d5c1971dba8875dd4f03bd",
+  "revised_page_sha256": "09bb6fa3cd4712132635695a8ac1a7a2f0e8d688fabf17e9622211c9ab31adc6",
+  "public_frozen_subset_count": 31,
+  "local_full_freeze_manifest_sha256": "ae266259e09283335dcf330d41eac3f4c98b71576e573cd17fe2dfc51c390272",
+  "original_local_331_zip_in_current_snapshot": false,
+  "initial_public_material_and_receipt_preserved": true,
+  "target_331_result_queried_or_used": false,
+  "user_330_first_six_plus_seventh_inferred_not_explicitly_confirmed": true,
+  "official_source_date_mapping_or_predraw_certified": false,
+  "original_dirty_checkout_status_not_published": true
+}

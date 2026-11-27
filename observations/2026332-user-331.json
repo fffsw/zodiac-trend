@@ -1,0 +1,26 @@
+{
+  "period": 2026331,
+  "normal_numbers": [
+    27,
+    18,
+    3,
+    47,
+    16,
+    14
+  ],
+  "normal_zodiacs": [
+    "龍",
+    "牛",
+    "龍",
+    "猴",
+    "兔",
+    "蛇"
+  ],
+  "seventh_number": 13,
+  "seventh_zodiac": "馬",
+  "date": null,
+  "user_ball_partition_explicitly_confirmed": true,
+  "confirmation": "User selected: 对，13馬是第七球; six normal numbers 27龍18牛03龍47猴16兔14蛇",
+  "user_request": "还是老样子，回顾对话，重点分析这期失败，吸取教训并分析复盘，确保下期挑选的生肖不会在犯。最后复盘，寻找每次的命中和失败。确认后最终上线",
+  "scope": "User-supplied issue 331 and explicit six/seventh distinction; official draw source, date, target mapping and timing unverified. 330 and 329 ball partitions remain inferred. No 332 target draw queried or used."
+}

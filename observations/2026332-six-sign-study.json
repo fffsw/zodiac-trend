@@ -1,0 +1,209 @@
+{
+  "status": "PASS_DESCRIPTIVE_EXPLORATORY_NOT_FORECAST",
+  "scope": "331 has five distinct confirmed normal identities (dragon repeated) and six distinct seven-ball identities. Historical 5/6 cohort matches this structure; other cohorts separate. 330/329 partition inferred; official source, date and target timing unverified. Era boundaries excluded.",
+  "input_history_sha256": "72ec1839ca3510754c487861d855689296fccd0b189a04a4898b40b3964362c0",
+  "historical_records": 1062,
+  "excluded_pairs": [
+    {
+      "previous": 2024040,
+      "next": 2024041,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    },
+    {
+      "previous": 2025028,
+      "next": 2025029,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    },
+    {
+      "previous": 2026047,
+      "next": 2026048,
+      "reasons": [
+        "cross_zodiac_mapping_era"
+      ]
+    }
+  ],
+  "groups": {
+    "previous_six_5_seven_5": {
+      "n": 227,
+      "six_to_six_counts_0_to_5": [
+        7,
+        40,
+        106,
+        62,
+        11,
+        1
+      ],
+      "seven_to_seven_counts_0_to_5": [
+        4,
+        30,
+        95,
+        78,
+        19,
+        1
+      ]
+    },
+    "previous_six_5_seven_6": {
+      "n": 346,
+      "six_to_six_counts_0_to_5": [
+        8,
+        70,
+        141,
+        107,
+        20,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        23,
+        84,
+        154,
+        73,
+        12,
+        0
+      ]
+    },
+    "previous_six_6_seven_6": {
+      "n": 133,
+      "six_to_six_counts_0_to_6": [
+        2,
+        9,
+        45,
+        47,
+        27,
+        3,
+        0
+      ],
+      "seven_to_seven_counts_0_to_6": [
+        0,
+        3,
+        33,
+        54,
+        36,
+        6,
+        1
+      ]
+    },
+    "previous_six_6_seven_7": {
+      "n": 131,
+      "six_to_six_counts_0_to_6": [
+        2,
+        12,
+        51,
+        47,
+        16,
+        3,
+        0
+      ],
+      "seven_to_seven_counts_0_to_7": [
+        0,
+        7,
+        13,
+        54,
+        41,
+        13,
+        3,
+        0
+      ]
+    }
+  },
+  "current_pending": {
+    "previous_issue": 2026331,
+    "previous_six": [
+      "牛",
+      "兔",
+      "龍",
+      "蛇",
+      "猴"
+    ],
+    "previous_seven": [
+      "牛",
+      "兔",
+      "龍",
+      "蛇",
+      "馬",
+      "猴"
+    ],
+    "target_issue": 2026332,
+    "target_result_queried_or_used": false,
+    "included_in_followup_denominators": false
+  },
+  "uniform_49_independent_model": {
+    "six_to_six": {
+      "previous_identities": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "猴"
+      ],
+      "sizes": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "draw_count": 6,
+      "denominator": 13983816,
+      "counts": [
+        475020,
+        3162740,
+        5846680,
+        3697200,
+        764800,
+        37376
+      ],
+      "percent": [
+        3.3969268474356356,
+        22.617145420105643,
+        41.81033274465282,
+        26.439135068710858,
+        5.469179514375761,
+        0.26728040471928405
+      ]
+    },
+    "seven_to_seven": {
+      "previous_identities": [
+        "牛",
+        "兔",
+        "龍",
+        "蛇",
+        "馬",
+        "猴"
+      ],
+      "sizes": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "draw_count": 7,
+      "denominator": 85900584,
+      "counts": [
+        346104,
+        5404356,
+        22805460,
+        34244040,
+        19237200,
+        3691904,
+        171520
+      ],
+      "percent": [
+        0.4029122782215311,
+        6.29140775108118,
+        26.548667003241793,
+        39.864734796215124,
+        22.394725511994192,
+        4.297879977160575,
+        0.19967268208560723
+      ]
+    }
+  },
+  "limitations": "The cohort was selected after observing 331; consecutive observations overlap and data provenance is unauthenticated, so no next-period probability can be inferred from empirical shares. Seven-to-seven includes the seventh ball, never normal-column settlement. The 331 normal five are all four-code; horse with five codes is present only in the seven-ball set. Equal-probability model is an assumption, not real-world proof."
+}

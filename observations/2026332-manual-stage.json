@@ -1,0 +1,29 @@
+{
+  "status": "STAGED_NOT_LIVE",
+  "target": 2026332,
+  "choice": "HH01",
+  "decision": {
+    "single": "馬",
+    "pair": [
+      "虎",
+      "牛"
+    ],
+    "triple": [
+      "虎",
+      "鷄",
+      "羊"
+    ],
+    "reserve_only": [
+      "龍"
+    ]
+  },
+  "unchanged_previous_decisions": 20,
+  "user_331_partition_confirmed": true,
+  "target_332_result_queried_or_used": false,
+  "history_sha256": "72ec1839ca3510754c487861d855689296fccd0b189a04a4898b40b3964362c0",
+  "decisions_sha256": "6e9dfde6e30f2d3144841637c7653bf51eee03c20588247e0b61ea6ea0fba28f",
+  "page_sha256": "bbed8a8bff5a03d16ef8a15aab3189e45d45d729458b0653c1c05a4f2bdaf3d1",
+  "generator_sha256": "9e203fcc896bd329342c0117137e32802fcb9fe78063ab1bf55ad5ccd39f8541",
+  "generator_stdout": "written zodiac_trend.html + www/zodiac_trend.html 57368 bytes, 250 periods",
+  "main_workspace_and_public_unchanged_at_stage": true
+}

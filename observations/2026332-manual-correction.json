@@ -1,0 +1,11 @@
+{
+  "status": "PASS_STAGING_ONLY_WORDING_CORRECTED",
+  "old_decisions_sha256": "6e9dfde6e30f2d3144841637c7653bf51eee03c20588247e0b61ea6ea0fba28f",
+  "new_decisions_sha256": "76c25bbe5e0697b25a71230cc95cb4d0752193d21e99791d399dc6dd9634432e",
+  "page_sha256_unchanged": "bbed8a8bff5a03d16ef8a15aab3189e45d45d729458b0653c1c05a4f2bdaf3d1",
+  "old_wording": "GG05事后对照三栏完整但并非实际选中版本",
+  "corrected_wording": "GG05事后对照仅三肖栏完整（共1栏）但并非实际选中版本",
+  "gg05_331_counterfactual_complete_columns": 1,
+  "prior_20_decisions_unchanged": true,
+  "target_332_result_queried_or_used": false
+}
